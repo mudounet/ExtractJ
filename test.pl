@@ -68,8 +68,7 @@ sub getSingleAudio {
 	my $resultOgg = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.ogg");
 	my $resultMp3 = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.mp3");
 	
-	return 0 if ($resultOgg != 0 and $resultMp3 != 0);
-	return 1;
+	return ($resultOgg == 0 or $resultMp3 == 0);
 }
 
 sub getTypeLesson {
