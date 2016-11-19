@@ -5,25 +5,30 @@ use strict;
 use warnings;
 
 my $maxLesson = 112 ; # nombre maxi de lecons
+my $phaseMixte = 50; # Phase mixte
 my $phaseActive = 71; # phase active seule
 my $maxModule = ceil ($maxLesson/7);
 my $link_base = 'http://cours.toutapprendre.com/eja0a/';
 
 use constant GRAMMARY => 1;
 use constant LISTENING => 2;
-use constant ACTIVE => 3;
+use constant LISTENING_AND_ACTIVE => 3;
+use constant ACTIVE => 4;
 use constant EXT => '.asp';
 
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
 	if($type eq GRAMMARY) {
-		getPage($link_base, 'revGrammaticale'.EXT.$linkExt);
+		getPage($link_base, 'revGrammaticale'.EXT.$linkExt, 'conclusion'.EXT.$linkExt, 'ex7Dragdrop'.EXT.$linkExt, 'exTraductionL7'.EXT.$linkExt); # Missing some pages
 	}
 	elsif ($type eq LISTENING) {
-		getPage($link_base, 'ecoute'.EXT.$linkExt, 'apprentissage'.EXT.$linkExt);
+		getPage($link_base, 'ecoute'.EXT.$linkExt, 'apprentissage'.EXT.$linkExt, 'exTraduction'.EXT.$linkExt, 'exMotsManquants'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
+	}
+	elsif($type eq LISTENING_AND_ACTIVE) {
+		getPage($link_base, 'ecoute'.EXT.$linkExt, 'apprentissage'.EXT.$linkExt, 'exTraduction'.EXT.$linkExt, 'exMotsManquants'.EXT.$linkExt, 'exTraductionActive'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
 	}
 	elsif($type eq ACTIVE) {
-		getPage($link_base, 'revisionActive'.EXT.$linkExt, 'exTraduction'.EXT.$linkExt);
+		getPage($link_base, 'revisionActive'.EXT.$linkExt, 'exTraductionActive'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
 	}
 }
 
