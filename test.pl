@@ -36,11 +36,11 @@ for my $lesson(1..$maxLesson) {
 }
 
 sub getPage {
-	my ($link_base, $linkExt) = @_;
-	for my $remain_link (@_) {
+	my ($link_base, $linkExt, @pages) = @_;
+	for my $remain_link (@pages) {
 		my $link = $link_base.$remain_link.$linkExt;
 		print "Downloading ".$link."\n";
-		system "./wget.exe -r -e robots=off -nH $link";
+		#system "./wget.exe -r -e robots=off -nH $link";
 	}
 }
 
