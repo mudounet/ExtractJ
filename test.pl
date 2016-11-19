@@ -19,26 +19,28 @@ use constant EXT => '.asp';
 
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
+	my @list_pages;
 	if($type eq GRAMMARY or $type eq GRAMMARY_AND_ACTIVE) {
-		getPage($link_base, 'revGrammaticale'.EXT.$linkExt, 'conclusion'.EXT.$linkExt, 'ex7Dragdrop'.EXT.$linkExt, 'exTraductionL7'.EXT.$linkExt); # Missing some pages
+		@list_pages = qw(revGrammaticale conclusion ex7Dragdrop exTraductionL7); # Missing some pages
 	}
 	elsif ($type eq LISTENING) {
-		getPage($link_base, 'ecoute'.EXT.$linkExt, 'apprentissage'.EXT.$linkExt, 'exTraduction'.EXT.$linkExt, 'exMotsManquants'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
+		@list_pages = qw(ecoute apprentissage exTraduction exMotsManquants conclusion);
 	}
 	elsif($type eq LISTENING_AND_ACTIVE) {
-		getPage($link_base, 'ecoute'.EXT.$linkExt, 'apprentissage'.EXT.$linkExt, 'exTraduction'.EXT.$linkExt, 'exMotsManquantsActive'.EXT.$linkExt, 'exTraductionActive'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
+		@list_pages = qw(ecoute apprentissage exTraduction exMotsManquantsActive exTraductionActive conclusion);
 	}
 	elsif($type eq ACTIVE) {
-		getPage($link_base, 'revisionActive'.EXT.$linkExt, 'exTraductionActive'.EXT.$linkExt, 'exMotsManquantsActive'.EXT.$linkExt, 'conclusion'.EXT.$linkExt);
+		@list_pages = qw(revisionActive exTraductionActive exMotsManquantsActive conclusion);
 	}
+	getPage($link_base, EXT.$linkExt, @list_pages);
 }
 
 sub getPage {
-	my ($link_base) = @_;
+	my ($link_base, $linkExt) = @_;
 	for my $remain_link (@_) {
-		my $link = $link_base.$remain_link;
+		my $link = $link_base.$remain_link.$linkExt;
 		print "Downloading ".$link."\n";
-		system "./wget.exe -r -e robots=off -nH $link"; 
+		system "./wget.exe -r -e robots=off -nH $link";
 	}
 }
 
