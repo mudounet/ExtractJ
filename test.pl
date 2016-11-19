@@ -35,7 +35,7 @@ for my $lesson(1..$maxLesson) {
 	}
 	getPage($link_base, EXT.$linkExt, @list_pages);
 	
-	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants apprentissage) ){
+	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants apprentissage exTraduction exTraductionActive) ){
 		if (grep { $page_ref eq $_ } @list_pages) { getAudio($link_base.DIR_SOUNDS, $page_ref, $lesson); }
 	}
 }
@@ -45,7 +45,7 @@ sub getPage {
 	for my $remain_link (@pages) {
 		my $link = $link_base.$remain_link.$linkExt;
 		print "Downloading ".$link."\n";
-		#system "./wget.exe -r -e robots=off -nH $link";
+		system "./wget.exe -r -e robots=off -nH $link";
 	}
 }
 
@@ -54,7 +54,7 @@ sub getAudio {
 	$lesson = sprintf("%03d", $lesson);
 	my $link = $link_base.$lesson;
 	
-	if($lessonType eq 'exMotsManquants' or $lessonType eq 'exMotsManquantsActive') {
+	if($lessonType eq 'exMotsManquants' or $lessonType eq 'exMotsManquantsActive' or $lessonType eq 'exTraduction' or $lessonType eq 'exTraductionActive') {
 		for my $sentence (1..99) {
 			my $sentenceLink = $link.'EA'.sprintf("%02d", $sentence);
 			last unless getSingleAudio($sentenceLink);
