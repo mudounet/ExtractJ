@@ -16,6 +16,7 @@ use constant LISTENING => 3;
 use constant LISTENING_AND_ACTIVE => 4;
 use constant ACTIVE => 5;
 use constant EXT => '.asp';
+use constant DIR_SOUNDS => 'eja0a/sons/';
 
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
@@ -33,6 +34,10 @@ for my $lesson(1..$maxLesson) {
 		@list_pages = qw(revisionActive exTraductionActive exMotsManquantsActive conclusion);
 	}
 	getPage($link_base, EXT.$linkExt, @list_pages);
+	
+	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants exTraduction) ){
+		if (grep { $page_ref eq $_ } @list_pages) { getAudio($link_base.DIR_SOUNDS, $page_ref, $lesson); }
+	}
 }
 
 sub getPage {
@@ -42,6 +47,29 @@ sub getPage {
 		print "Downloading ".$link."\n";
 		#system "./wget.exe -r -e robots=off -nH $link";
 	}
+}
+
+sub getAudio {
+	my ($link_base, $lessonType, $lesson) = @_;
+	$lesson = sprintf("%03d", $lesson);
+	my $link = $link_base.$lesson;
+	
+	if($lessonType eq 'exMotsManquants' or $lessonType eq 'exMotsManquantsActive') {
+		for my $sentence (1..99) {
+			my $sentenceLink = $link.'EA'.sprintf("%02d", $sentence);
+			last unless getSingleAudio($sentenceLink);
+		}
+	}
+}
+
+sub getSingleAudio {
+	my ($link) = @_;
+	print "Downloading audio ".$link."\n";
+	my $resultOgg = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.ogg");
+	my $resultMp3 = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.mp3");
+	
+	return 0 if ($resultOgg != 0 and $resultMp3 != 0);
+	return 1;
 }
 
 sub getTypeLesson {
