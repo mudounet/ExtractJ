@@ -35,7 +35,7 @@ for my $lesson(1..$maxLesson) {
 	}
 	getPage($link_base, EXT.$linkExt, @list_pages);
 	
-	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants exTraduction) ){
+	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants apprentissage) ){
 		if (grep { $page_ref eq $_ } @list_pages) { getAudio($link_base.DIR_SOUNDS, $page_ref, $lesson); }
 	}
 }
@@ -57,6 +57,14 @@ sub getAudio {
 	if($lessonType eq 'exMotsManquants' or $lessonType eq 'exMotsManquantsActive') {
 		for my $sentence (1..99) {
 			my $sentenceLink = $link.'EA'.sprintf("%02d", $sentence);
+			last unless getSingleAudio($sentenceLink);
+		}
+	}
+	elsif($lessonType eq 'apprentissage') {
+		getSingleAudio($link);
+		getSingleAudio($link.'T');
+		for my $sentence (1..99) {
+			my $sentenceLink = $link.'D'.sprintf("%02d", $sentence);
 			last unless getSingleAudio($sentenceLink);
 		}
 	}
