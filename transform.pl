@@ -44,6 +44,8 @@ sub extract_grammary {
 
 sub extract_listening {
 	DEBUG "Processing listening type";
+	my ($lesson, $linkExt) = @_;
+	my @lines = getFileContents("apprentissagejs.asp\@l=$lesson");
 }
 
 sub extract_grammary_and_active {
@@ -57,6 +59,15 @@ sub extract_listening_and_active {
 
 sub extract_active {
 	DEBUG "Processing active type";
+}
+
+sub getFileContents {
+	my ($filename) = @_;
+	DEBUG "Opening ".REF_DIR.$filename;
+	open my $in, '<', REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
+	chomp(my @lines = <$in>);
+	close $in;
+	return @lines;
 }
 
 sub getTypeLesson {
