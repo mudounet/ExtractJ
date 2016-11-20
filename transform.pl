@@ -46,15 +46,15 @@ sub extract_grammary {
 sub extract_listening {
 	DEBUG "Processing listening type";
 	my ($lesson, $linkExt) = @_;
-	my @lines = getFileContents("apprentissagejs.asp\@l=$lesson");
-	my $text_perl = convertJavascriptToPerl(1, @lines);
+	my @lines = getJavaScriptContents("apprentissagejs.asp\@l=$lesson");
+	my $text_perl = convertJavascriptToPerl(@lines);
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
 	unless (eval($text_perl)) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
-		logdie("PROBLEM WITH EVAL. See DIE_ON_EVAL.txt for investigations.\n$!");
+		LOGDIE("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
 	}
 	return ( 'Sentences' => \@tabPhrasesText, 'Notes' => \@tabNotes, 'Comments' => $commentaire );
 }
@@ -72,17 +72,20 @@ sub extract_active {
 	DEBUG "Processing active type";
 }
 
-sub getFileContents {
-	my ($filename) = @_;
+sub getJavaScriptContents {
+	my ($filename, $extractJavascript) = @_;
 	DEBUG "Opening ".REF_DIR.$filename;
 	open my $in, '<', REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
 	chomp(my @lines = <$in>);
 	close $in;
+	
+	my $lines = join("\n",@lines);
+	@lines = ($lines =~ m/<script type="text\/javascript">(.*)<\/script>/g) if $extractJavascript;
 	return @lines;
 }
 
 sub convertJavascriptToPerl {
-	my ($javascriptOnly, @lines) = @_;
+	my (@lines) = @_;
 	my $lines = join("\n",@lines);
 	
 	$lines =~ s/([\w\[\]]*)\s*=\s*\g1\s*\+\s*'/$1 .= '/g; # Replace concatenations in a PERL manner. Uses backreferences.
@@ -113,7 +116,7 @@ sub getTypeLesson {
 	my $num = '';
 	my $m = ceil($l/7);
 	
-	my $link = '?l=' . $l . '&m='  .  $m; # . '&num=' . $num;
+	my $link = '@l=' . $l . '&m='  .  $m; # . '&num=' . $num;
 	my $type;
 	
 	return (ACTIVE, $link) if($l >= $phaseActive);
