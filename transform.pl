@@ -28,9 +28,10 @@ unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
 	INFO "Currently at lesson #".sprintf("%03d", $lesson);
+	my %results;
 	switch ($type) {
 		case GRAMMARY { extract_grammary($lesson, $linkExt); }
-		case LISTENING { extract_listening($lesson, $linkExt); }
+		case LISTENING { %results = extract_listening($lesson, $linkExt); }
 		case GRAMMARY_AND_ACTIVE { extract_grammary_and_active($lesson, $linkExt); }
 		case LISTENING_AND_ACTIVE { extract_listening_and_active($lesson, $linkExt); }
 		case ACTIVE { extract_active($lesson, $linkExt); }
@@ -46,6 +47,16 @@ sub extract_listening {
 	DEBUG "Processing listening type";
 	my ($lesson, $linkExt) = @_;
 	my @lines = getFileContents("apprentissagejs.asp\@l=$lesson");
+	my $text_perl = convertJavascriptToPerl(1, @lines);
+
+	my (@tabPhrasesText, @tabNotes, $commentaire);
+	unless (eval($text_perl)) {
+		open my $out, '>', 'DIE_ON_EVAL.txt';
+		print $out $text_perl;
+		close $out;
+		logdie("PROBLEM WITH EVAL. See DIE_ON_EVAL.txt for investigations.\n$!");
+	}
+	return ( 'Sentences' => \@tabPhrasesText, 'Notes' => \@tabNotes, 'Comments' => $commentaire );
 }
 
 sub extract_grammary_and_active {
@@ -68,6 +79,32 @@ sub getFileContents {
 	chomp(my @lines = <$in>);
 	close $in;
 	return @lines;
+}
+
+sub convertJavascriptToPerl {
+	my ($javascriptOnly, @lines) = @_;
+	my $lines = join("\n",@lines);
+	
+	$lines =~ s/([\w\[\]]*)\s*=\s*\g1\s*\+\s*'/$1 .= '/g; # Replace concatenations in a PERL manner. Uses backreferences.
+	
+	# Replacing All array declaration
+	my @matches_array = ($lines =~ m/var\s+([^=\s]*)\s*=\s*new\s+Array\(\)\s*;/g);
+	for my $name_array (@matches_array) {
+		DEBUG "Replacing array '$name_array'";
+		$lines =~ s/var\s+${name_array}\s*=\s*new\s+Array\(\)\s*;/\@$name_array = ();/g;
+		$lines =~ s/${name_array}(\[(\d+)\])/\$$name_array$1/g;
+	}
+	$lines =~ s/\s*=\s*new\s+Array\(\d*\)\s*;/ = ();/g;
+	
+	# Replacing normal variables
+	my @matches_normal_vars = ($lines =~ m/var\s+([^=\s]*)\s*=/g);
+	for my $name_normal_var (@matches_normal_vars) {
+		DEBUG "Replacing normal variable '$name_normal_var'";
+		$lines =~ s/${name_normal_var}\s*(\.?)=/\$$name_normal_var $1= /g;
+		$lines =~ s/var \$${name_normal_var} =/\$$name_normal_var =/g;
+	}
+	
+	return $lines;
 }
 
 sub getTypeLesson {
