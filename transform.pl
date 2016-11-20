@@ -4,7 +4,6 @@ use POSIX;
 use strict;
 use warnings;
 use Log::Log4perl qw(:easy);
-use Switch;
 use Data::Dumper;
 
 Log::Log4perl->easy_init($DEBUG);
@@ -29,13 +28,24 @@ for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
 	INFO "Currently at lesson #".sprintf("%03d", $lesson);
 	my %results;
-	switch ($type) {
-		case GRAMMARY { extract_grammary($lesson, $linkExt); }
-		case LISTENING { %results = extract_apprentissage($lesson, $linkExt); %results = extract_traduction($lesson, $linkExt); }
-		case GRAMMARY_AND_ACTIVE { extract_grammary_and_active($lesson, $linkExt); }
-		case LISTENING_AND_ACTIVE { extract_listening_and_active($lesson, $linkExt); }
-		case ACTIVE { extract_active($lesson, $linkExt); }
-		else { ERROR "No valid type found for lesson #".sprintf("%03d", $lesson); }
+	if ($type == GRAMMARY) {
+		extract_grammary($lesson, $linkExt);
+	}
+	elsif ($type == LISTENING) {
+		%results = extract_apprentissage($lesson, $linkExt);
+		%results = extract_traduction($lesson, $linkExt);
+	}
+	elsif ($type == GRAMMARY_AND_ACTIVE) {
+		extract_grammary_and_active($lesson, $linkExt);
+	}
+	elsif ($type == LISTENING_AND_ACTIVE) {
+		extract_listening_and_active($lesson, $linkExt);
+	}
+	elsif ($type == ACTIVE) {
+		extract_active($lesson, $linkExt);
+	}
+	else {
+		ERROR "No valid type found for lesson #".sprintf("%03d", $lesson);
 	}
 }
 
@@ -49,7 +59,7 @@ sub extract_traduction {
 	my @lines = getJavaScriptContents("exTraduction.asp$linkExt", 1, 2);
 	my $text_perl = convertJavascriptToPerl(@lines);
 	my (@tabPhrasesText);
-	unless (eval($text_perl)) {
+	unless (eval {$text_perl }) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
@@ -66,7 +76,7 @@ sub extract_apprentissage {
 	my $text_perl = convertJavascriptToPerl(@lines);
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
-	unless (eval($text_perl)) {
+	unless (eval {$text_perl }) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
