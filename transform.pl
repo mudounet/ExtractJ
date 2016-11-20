@@ -5,6 +5,7 @@ use strict;
 use warnings;
 use Log::Log4perl qw(:easy);
 use Data::Dumper;
+use Readonly;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -14,39 +15,42 @@ my $phaseActive = 71; # phase active seule
 my $maxModule = ceil ($maxLesson/7);
 my $link_base = 'http://cours.toutapprendre.com/eja0a/';
 
-use constant GRAMMARY => 1;
-use constant GRAMMARY_AND_ACTIVE => 2;
-use constant LISTENING => 3;
-use constant LISTENING_AND_ACTIVE => 4;
-use constant ACTIVE => 5;
-use constant EXT => '.asp';
-use constant DIR_SOUNDS => 'eja0a/sons/';
-use constant REF_DIR => './ref_files/eja0a/';
+Readonly my $GRAMMARY => 1;
+Readonly my $GRAMMARY_AND_ACTIVE => 2;
+Readonly my $LISTENING => 3;
+Readonly my $LISTENING_AND_ACTIVE => 4;
+Readonly my $ACTIVE => 5;
+Readonly my $EXT => '.asp';
+Readonly my $DIR_SOUNDS => 'eja0a/sons/';
+Readonly my $REF_DIR => './ref_files/eja0a/';
 
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
 	INFO "Currently at lesson #".sprintf("%03d", $lesson);
 	my %results;
-	if ($type == GRAMMARY) {
+	if ($type == $GRAMMARY) {
 		extract_grammary($lesson, $linkExt);
 	}
-	elsif ($type == LISTENING) {
+	elsif ($type == $LISTENING) {
 		%results = extract_apprentissage($lesson, $linkExt);
 		%results = extract_traduction($lesson, $linkExt);
 	}
-	elsif ($type == GRAMMARY_AND_ACTIVE) {
+	elsif ($type == $GRAMMARY_AND_ACTIVE) {
 		extract_grammary_and_active($lesson, $linkExt);
 	}
-	elsif ($type == LISTENING_AND_ACTIVE) {
+	elsif ($type == $LISTENING_AND_ACTIVE) {
 		extract_listening_and_active($lesson, $linkExt);
 	}
-	elsif ($type == ACTIVE) {
+	elsif ($type == $ACTIVE) {
 		extract_active($lesson, $linkExt);
 	}
 	else {
 		ERROR "No valid type found for lesson #".sprintf("%03d", $lesson);
 	}
+	print Dumper \%results;
+	exit;
+	
 }
 
 sub extract_grammary {
@@ -58,8 +62,9 @@ sub extract_traduction {
 	my ($lesson, $linkExt) = @_;
 	my @lines = getJavaScriptContents("exTraduction.asp$linkExt", 1, 2);
 	my $text_perl = convertJavascriptToPerl(@lines);
+	print $text_perl;
 	my (@tabPhrasesText);
-	unless (eval {$text_perl }) {
+	unless (eval ($text_perl)) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
@@ -76,7 +81,7 @@ sub extract_apprentissage {
 	my $text_perl = convertJavascriptToPerl(@lines);
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
-	unless (eval {$text_perl }) {
+	unless (eval ($text_perl )) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
@@ -102,8 +107,8 @@ sub extract_active {
 
 sub getJavaScriptContents {
 	my ($filename, $extractJavascript, @javascriptToKeep) = @_;
-	DEBUG "Opening ".REF_DIR.$filename;
-	open my $in, '<', REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
+	DEBUG "Opening ".$REF_DIR.$filename;
+	open my $in, '<', $REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
 	chomp(my @lines = <$in>);
 	close $in;
 	
@@ -156,11 +161,11 @@ sub getTypeLesson {
 	my $link = '@l=' . $l . '&m='  .  $m; # . '&num=' . $num;
 	my $type;
 	
-	return (ACTIVE, $link) if($l >= $phaseActive);
+	return ($ACTIVE, $link) if($l >= $phaseActive);
 	if ($l >= $phaseMixte) {
-		return (GRAMMARY_AND_ACTIVE, $link) if($l == ($m*7) && $l !=70);
-		return (LISTENING_AND_ACTIVE, $link);
+		return ($GRAMMARY_AND_ACTIVE, $link) if($l == ($m*7) && $l !=70);
+		return ($LISTENING_AND_ACTIVE, $link);
 	}
-	return (GRAMMARY, $link) if($l == ($m*7) && $l !=70);
-	return (LISTENING, $link);
+	return ($GRAMMARY, $link) if($l == ($m*7) && $l !=70);
+	return ($LISTENING, $link);
 }
