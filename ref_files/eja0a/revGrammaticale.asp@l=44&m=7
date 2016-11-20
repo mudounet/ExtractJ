@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Si vous avez l'intention de partir en Russie cet hiver, alors cette le&#231;on est pour vous ! Vous y trouverez des bons conseils et quelques v&#233;rit&#233;s sur le "froid sib&#233;rien ".</i> 		</p> 	<h3>
+		&#1046;&#1080;&#1090;&#1100; &#1084;&#1086;&#1078;&#1085;&#1086;
+		On peut vivre</h3> 	 		 			1 			- &#1053;&#1080;&#1082;&#1086;&#1083;<b>&#1072;</b>&#1081;, &#1103; <b>&#1077;</b>&#1076;&#1091; &#1087;&#1086;&#1089;&#1083;&#1077;&#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1074; &#1056;&#1086;&#1089;&#1089;<b>&#1080;</b>&#1102; &#1080; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1073;&#1099; &#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;<b>&#1080;</b>&#1090;&#1100; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1091;&#1102; &#1082;&#1086;&#1085;&#1089;&#1091;&#1083;&#1100;&#1090;<b>&#1072;</b>&#1094;&#1080;&#1102;. 			 				1 			Nicolas, apr&#232;s-demain je pars en Russie et j'aimerais que tu me donnes quelques conseils (j'aimerais recevoir chez toi une petite consultation).  		 			2 			- &#1050;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1085;&#1077;&#1086;&#1078;<b>&#1080;</b>&#1076;&#1072;&#1085;&#1085;&#1072;&#1103; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1089;&#1090;&#1100;, &#1093;&#1086;&#1090;<b>&#1103;</b> &#1090;&#1099; &#1091;&#1078;<b>&#1077;</b> &#1076;&#1072;&#1074;&#1085;<b>&#1086;</b> &#1089;&#1086;&#1073;&#1080;&#1088;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1087;&#1086;<b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; &#1090;&#1091;&#1076;<b>&#1072;</b>. &#1048; &#1095;&#1090;&#1086; &#1090;&#1099; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;? &#1063;&#1077;&#1084; &#1084;&#1086;&#1075;<b>&#1091;</b>, &#1090;&#1077;&#1084; &#1087;&#1086;&#1084;&#1086;&#1075;<b>&#1091;</b>. 			 				2 			Quelle nouvelle inattendue, bien que depuis d&#233;j&#224; longtemps tu aies eu l'intention de partir l&#224;-bas. Et que voudrais-tu (voulais-tu) savoir ? Je ferai mon possible pour t'aider (avec quoi je peux avec cela je t'aiderai).  		 			3 			- &#1044;<b>&#1077;</b>&#1083;&#1086; &#1074; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1103; <b>&#1077;</b>&#1076;&#1091; &#1085;&#1077; &#1085;&#1072; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1076;&#1077;&#1085;&#1100;, &#1072; &#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077; &#1103; &#1073;&#1099;&#1074;<b>&#1072;</b>&#1083; &#1074; &#1056;&#1086;&#1089;&#1089;<b>&#1080;</b>&#1080;, &#1084;<b>&#1072;</b>&#1082;&#1089;&#1080;&#1084;&#1091;&#1084; &#1087;<b>&#1072;</b>&#1088;&#1091; &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1100;, &#1076;&#1072; &#1080; &#1090;&#1086; &#1074;&#1089;&#1105; &#1083;<b>&#1077;</b>&#1090;&#1086;&#1084;. 			 				3 			Ce qu'il y a, c'est que (l'affaire est dans cela que) je ne pars pas pour un jour, et avant j'allais en Russie pour quinze jours maximum (maximum une paire de semaines) et encore, toujours l'&#233;t&#233;.  		 			4 			- &#1048; &#1085;&#1072;&#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1090;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1096;&#1100;? &#1048; &#1082;&#1091;&#1076;<b>&#1072;</b>? 			 			Et tu pars pour longtemps ? Et o&#249; ?  		 			5 			- &#1055;&#1088;&#1077;&#1076;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1100; &#1089;&#1077;&#1073;<b>&#1077;</b>, &#1085;&#1072; &#1075;&#1086;&#1076; &#1080; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1085;&#1086; &#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> - &#1074; &#1057;&#1080;&#1073;<b>&#1080;</b>&#1088;&#1100;! &#1050;&#1086;&#1085;&#1082;&#1088;<b>&#1077;</b>&#1090;&#1085;&#1086;, &#1074; &#1048;&#1088;&#1082;<b>&#1091;</b>&#1090;&#1089;&#1082;. 			 			Figure-toi, (je pars) pour un an et assez loin - en Sib&#233;rie ! Plus pr&#233;cis&#233;ment (concr&#232;tement) &#224; Irkoutsk.  		 			6 			- &#1048; &#1082;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086; &#1078;&#1077;, &#1090;&#1099; &#1073;&#1086;<b>&#1080;</b>&#1096;&#1100;&#1089;&#1103; &#1089;&#1080;&#1073;<b>&#1080;</b>&#1088;&#1089;&#1082;&#1080;&#1093; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1086;&#1074;? 			 				4 			Et, bien s&#251;r, tu crains le froid sib&#233;rien (les gel&#233;es sib&#233;riennes) ?  		 			7 			- &#1045;&#1097;&#1105; &#1073;&#1099;! &#1058;&#1072;&#1084;, &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1077; &#1076;&#1072;&#1081; &#1041;&#1086;&#1075;! &#1063;&#1090;&#1086; &#1079;&#1080;&#1084;<b>&#1086;</b>&#1081;, &#1095;&#1090;&#1086; &#1083;<b>&#1077;</b>&#1090;&#1086;&#1084;  			 				5 			Bien &#233;videmment ! On dit que l&#224;-bas le temps, Dieu nous en pr&#233;serve ! L'hiver est semblable &#224; l'&#233;t&#233; (tel hiver, tel &#233;t&#233;).  		 			8 			- &#1069;&#1090;&#1086; &#1090;&#1099; &#1085;&#1072;&#1087;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1096;&#1100;. &#1051;<b>&#1077;</b>&#1090;&#1086;&#1084; &#1090;&#1072;&#1084; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b>, &#1076;<b>&#1072;</b>&#1078;&#1077; &#1078;<b>&#1072;</b>&#1088;&#1082;&#1086;. &#1054;&#1089;&#1077;&#1085;&#1100;&#1102; &#1089;<b>&#1091;</b>&#1093;&#1086; &#1080; &#1087;&#1088;&#1086;&#1093;&#1083;<b>&#1072;</b>&#1076;&#1085;&#1086;. &#1042;&#1077;&#1089;&#1085;<b>&#1072;</b> &#1082;&#1086;&#1088;<b>&#1086;</b>&#1090;&#1082;&#1072;&#1103;, &#1085;&#1086; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;. 			 			Tu as tort (tu dis cela &#224; tort). En &#233;t&#233;, l&#224;-bas, il fait bon, il fait m&#234;me chaud. En automne, il fait sec et frais. Le printemps est court mais magnifique.  		 			9 			- &#1040; &#1079;&#1080;&#1084;<b>&#1086;</b>&#1081; &#1074; &#1103;&#1085;&#1074;&#1072;&#1088;<b>&#1077;</b>, &#1074; &#1092;&#1077;&#1074;&#1088;&#1072;&#1083;<b>&#1077;</b> &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;. &#1053;&#1072; &#1091;&#1083;&#1080;&#1094;&#1091; &#1083;<b>&#1091;</b>&#1095;&#1096;&#1077; &#1085;&#1077; &#1074;&#1099;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;? 			 				6 			Mais en hiver, en janvier et f&#233;vrier, il fait froid. Il vaut mieux ne pas sortir (dehors) ?  		 			10 			- &#1044;&#1072; &#1089;&#1082;<b>&#1072;</b>&#1079;&#1082;&#1080; &#1074;&#1089;&#1105; <b>&#1079;</b>&#1090;&#1086;! &#1048; &#1090;&#1072;&#1084; &#1078;&#1080;&#1074;<b>&#1091;</b>&#1090; &#1083;<b>&#1102;</b>&#1076;&#1080; &#1080; &#1085;&#1077;&#1087;&#1083;<b>&#1086;</b>&#1093;&#1086;, &#1084;<b>&#1077;</b>&#1078;&#1076;&#1091; &#1087;&#1088;<b>&#1086;</b>&#1095;&#1080;&#1084;, &#1078;&#1080;&#1074;<b>&#1091;</b>&#1090;. 			 				7 			Ce sont des histoires tout &#231;a (Des histoires tout cela) ! Des gens vivent l&#224;-bas et d'ailleurs ils ne (y) vivent pas mal.  		 			11 			- &#1053;&#1086; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1099; &#1090;&#1072;&#1084; &#1087;&#1086;&#1076; &#1089;<b>&#1086;</b>&#1088;&#1086;&#1082; &#1073;&#1099;&#1074;<b>&#1072;</b>&#1102;&#1090;. 			 				8 			Mais la temp&#233;rature y avoisine les moins quarante (mais les froids y sont souvent autour de moins quarante).  		 			12 			- &#1041;&#1099;&#1074;<b>&#1072;</b>&#1102;&#1090;, &#1080; &#1087;&#1086;&#1076; &#1089;<b>&#1086;</b>&#1088;&#1086;&#1082;, &#1085;&#1086; &#1079;&#1080;&#1084;<b>&#1086;</b>&#1081; &#1090;&#1072;&#1084; &#1089;&#1091;&#1093;<b>&#1086;</b>&#1081; &#1074;<b>&#1086;</b>&#1079;&#1076;&#1091;&#1093;, &#1085;&#1077;&#1090; &#1074;<b>&#1077;</b>&#1090;&#1088;&#1072;. &#1042;&#1086;&#1079;&#1100;&#1084;<b>&#1080;</b> &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1086;&#1076;<b>&#1077;</b>&#1078;&#1076;&#1091; &#1087;&#1086;&#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077;, &#1086;&#1089;<b>&#1086;</b>&#1073;&#1077;&#1085;&#1085;&#1086; <b>&#1086;</b>&#1073;&#1091;&#1074;&#1100;. &#1040;, &#1075;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1086;&#1077;, &#1085;&#1077; &#1073;<b>&#1086;</b>&#1081;&#1089;&#1103;. &#1058;&#1072;&#1084; &#1078;&#1080;&#1090;&#1100; &#1084;<b>&#1086;</b>&#1078;&#1085;&#1086;! 			 				9 			Autour de moins quarante, cela arrive, mais l&#224;-bas, en hiver, l'air est sec, il n'y a pas de vent. Prends seulement des v&#234;tements plus chauds et en particulier des chaussures [chaudes]. Et, surtout, n'aie pas peur, on peut vivre l&#224;-bas !  	 		 			1 			Le verbe &#1093;&#1086;&#1090;<b>&#1077;</b>&#1090;&#1100; (vouloir), employ&#233; au pass&#233; et avec la particule &#1073;&#1099; exprime une demande (polie, respectueuse) : &#1103; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1073;&#1099; &#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1090;&#1077;&#1073;<b>&#1103;</b> : je voudrais te demander ; &#1084;&#1099; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083;&#1080; &#1073;&#1099; &#1087;&#1088;&#1080;&#1075;&#1083;&#1072;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1074;&#1072;&#1089; : nous voudrions vous inviter. C'est en fait tout simplement l'&#233;quivalent du conditionnel fran&#231;ais.<br /> Notez que l'on pourrait dire aussi bien : &#1084;&#1099; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083;&#1080; &#1073;&#1099; &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1091; &#1074;&#1072;&#1089;, que &#1084;&#1099; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083;&#1080; &#1073;&#1099; &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1074;&#1072;&#1089; : nous voudrions vous demander. En effet, les verbes ou les phrases qui expriment le d&#233;sir de recevoir une information se construisent souvent avec &#1091; + g&#233;nitif.  		 			2 			Le verbe &#1087;&#1086;&#1084;<b>&#1086;</b>&#1095;&#1100; (aider) se conjugue comme le verbe &#1084;&#1086;&#1095;&#1100; (pouvoir). &#1055;&#1086;&#1084;<b>&#1086;</b>&#1095;&#1100; est le perfectif de &#1087;&#1086;&#1084;&#1086;&#1075;<b>&#1072;</b>&#1090;&#1100;.<br /> Revoyons ensemble la conjugaison de &#1087;&#1086;&#1084;<b>&#1086;</b>&#1095;&#1100; qui, rappelez-vous, est suivie du datif.<br /> &#1103; &#1087;&#1086;&#1084;&#1086;&#1075;&#1091; &#1090;&#1077;&#1073;<b>&#1077;</b> : je t'aiderai.<br /> &#1090;&#1099; &#1087;&#1086;&#1084;<b>&#1086;</b>&#1078;&#1077;&#1096;&#1100; &#1084;&#1085;&#1077; : tu m'aideras.<br /> &#1086;&#1085; &#1087;&#1086;&#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1077;&#1081; : il l'aidera.<br /> &#1084;&#1099; &#1087;&#1086;&#1084;<b>&#1086;</b>&#1078;&#1077;&#1084; &#1077;&#1084;&#1091; : nous l'aiderons.<br /> &#1074;&#1099; &#1087;&#1086;&#1084;<b>&#1086;</b>&#1078;&#1077;&#1090;&#1077; &#1085;&#1072;&#1084; : vous nous aiderez.<br /> &#1086;&#1085;<b>&#1080;</b> &#1087;&#1086;&#1084;<b>&#1086;</b>&#1075;&#1091;&#1090; &#1080;&#1084; : ils les aideront.<br /> &#183; &#1063;&#1077;&#1084; et &#1090;&#1077;&#1084; sont les formes instrumentales de &#1095;&#1090;&#1086; (quoi, que) et du pronom &#1090;&#1086; (cela). En effet, &#1087;&#1086;&#1084;<b>&#1086;</b>&#1095;&#1100; se construit, bien s&#251;r, avec le datif (la personne que l'on aide) et aussi avec l'instrumental. &#1054;&#1085; &#1087;&#1086;&#1084;&#1086;&#1075;<b>&#1072;</b>&#1077;&#1090; &#1084;&#1085;&#1077; &#1089;&#1086;&#1074;<b>&#1077;</b>&#1090;&#1086;&#1084; : il m'aide d'un conseil (il me donne un conseil).  		 			3 			Les expressions &#1085;&#1077; &#1085;&#1072; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1076;&#1077;&#1085;&#1100; (pas pour un jour) et &#1085;&#1077; &#1085;&#1072; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1075;&#1086;&#1076; (pas pour une ann&#233;e) sont tr&#232;s employ&#233;es et veulent dire toutes les deux "pour longtemps".<br /> &#1053;&#1072; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1076;&#1077;&#1085;&#1100; (pour un jour), &#1085;&#1072; &#1086;&#1076;&#1085;&#1091; &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1102; (pour une semaine). Remarquez ici la construction utilis&#233;e pour exprimer la dur&#233;e : &#1085;&#1072; + accusatif.<br /> " Le verbe &#1073;&#1099;&#1074;<b>&#1072;</b>&#1090;&#1100;, qui peut avoir le sens de "&#234;tre", "avoir lieu", se distingue du verbe &#1073;&#1099;&#1090;&#1100;, car il exprime une action qui se r&#233;p&#232;te ou bien qui dure. Vous direz par exemple : &#1103; &#1073;&#1099;&#1083; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b> &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1088;&#1072;&#1079; : je ne suis all&#233; &#224; Moscou qu'une seule fois, mais on traduira : &#1103; &#1073;&#1099;&#1074;<b>&#1072;</b>&#1083; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>, selon le contexte, par : je suis souvent all&#233; &#224; Moscou, ou bien : j'ai s&#233;journ&#233; longtemps &#224; Moscou.<br /> &#1042;&#1089;&#1105; &#1083;<b>&#1077;</b>&#1090;&#1086;&#1084; : remarquez que &#1074;&#1089;&#1105; est ici synonyme de &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> (toujours).  		 			4 			Le verbe pronominal &#1073;&#1086;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; (avoir peur, craindre) s'emploie le plus souvent avec le g&#233;nitif : &#1103; &#1073;&#1086;<b>&#1102;</b>&#1089;&#1100; &#1078;&#1072;&#1088;<b>&#1099;</b> : je crains la chaleur ; &#1086;&#1085;<b>&#1072;</b> &#1073;&#1086;<b>&#1080;</b>&#1090;&#1089;&#1103; &#1084;<b>&#1072;</b>&#1090;&#1077;&#1088;&#1080; : elle a peur de sa m&#232;re ; &#1086;&#1085; &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1077; &#1073;&#1086;<b>&#1080;</b>&#1090;&#1089;&#1103; : il ne craint rien.  		 			5 			Voyons maintenant quelques expressions famili&#232;res. &#1045;&#1097;&#1105; &#1073;&#1099; peut se traduire par : comment pourrait-il en &#234;tre autrement ! Un peu long, certes, mais c'est bien l'id&#233;e qui est exprim&#233;e. &#1045;&#1097;&#1105; &#1073;&#1099; &#1085;&#1077; &#1073;&#1086;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1086;&#1074; : comment pourrais-je ne pas craindre le froid ?!<br /> &#1053;&#1077; &#1076;&#1072;&#1081; &#1041;&#1086;&#1075; : Dieu nous en pr&#233;serve, nous en garde, s'emploie dans les situations les plus diverses. On dira par exemple : &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086; - &#1085;&#1077; &#1076;&#1072;&#1081; &#1041;&#1086;&#1075;! Aujourd'hui, il fait froid, Dieu m'en pr&#233;serve ! (Comprenez : il fait un temps de cochon) ; &#1059; &#1085;&#1077;&#1075;<b>&#1086;</b> &#1093;&#1072;&#1088;<b>&#1072;</b>&#1082;&#1090;&#1077;&#1088; - &#1085;&#1077; &#1076;&#1072;&#1081; &#1041;&#1086;&#1075;! Il a un caract&#232;re, Dieu m'en garde ! (&#192; traduire par : il a un caract&#232;re de cochon !).<br /> &#183; &#1063;&#1090;&#1086; &#1079;&#1080;&#1084;<b>&#1086;</b>&#1081;, &#1095;&#1090;&#1086; &#1083;<b>&#1077;</b>&#1090;&#1086;&#1084; : que ce soit l'hiver ou l'&#233;t&#233;. C'est une vieille construction qui reste tr&#232;s courante. &#1052;&#1085;&#1077; &#1074;&#1089;&#1105; &#1088;&#1072;&#1074;&#1085;<b>&#1086;</b>, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1090;&#1100; - &#1095;&#1090;&#1086; &#1091;&#1090;&#1088;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : peu m'importe quand je me repose (&#224; moi est &#233;gal quand me reposer), que ce soit le matin ou le soir.  		 			6 			Lisez maintenant les noms des mois de l'ann&#233;e. Nous vous indiquons le nominatif et le pr&#233;positionnel. 			<table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre">Nominatif </th> 							<th class="centre">Pr&#233;positionnel</th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103;&#1085;&#1074;<b>&#1072;</b>&#1088;&#1100;</td> 							<td class="centre">janvier  </td> 							<td class="centre">&#1074; &#1103;&#1085;&#1074;&#1072;&#1088;<b>&#1077;</b></td> 							<td class="centre">en janvier </td></tr> 						<tr class="centre"> 							<td class="centre">&#1092;&#1077;&#1074;&#1088;<b>&#1072;</b>&#1083;&#1100;</td> 							<td class="centre">f&#233;vrier  </td> 							<td class="centre">&#1074; &#1092;&#1077;&#1074;&#1088;&#1072;&#1083;<b>&#1077;</b></td> 							<td class="centre">en f&#233;vrier </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1072;&#1088;&#1090;</td> 							<td class="centre">mars  </td> 							<td class="centre">&#1074; &#1084;<b>&#1072;</b>&#1088;&#1090;&#1077;</td> 							<td class="centre">en mars </td></tr> 						<tr class="centre"> 							<td class="centre">&#1072;&#1087;&#1088;<b>&#1077;</b>&#1083;&#1100;</td> 							<td class="centre">avril  </td> 							<td class="centre">&#1074; &#1072;&#1087;<b>&#1088;</b>&#1077;&#1083;&#1077;</td> 							<td class="centre">en avril </td></tr></tbody></table> 				<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1084;&#1072;&#1081;</td> 							<td class="centre">mai  </td> 							<td class="centre">&#1074; &#1084;<b>&#1072;</b>&#1077;</td> 							<td class="centre">en mai </td></tr> 						<tr class="centre"> 							<td class="centre">&#1080;<b>&#1102;</b>&#1085;&#1100;</td> 							<td class="centre">juin  </td> 							<td class="centre">&#1074; &#1080;<b>&#1102;</b>&#1085;&#1077;</td> 							<td class="centre">en juin </td></tr> 						<tr class="centre"> 							<td class="centre">&#1080;<b>&#1102;</b>&#1083;&#1100;</td> 							<td class="centre">juillet  </td> 							<td class="centre">&#1074; &#1080;<b>&#1102;</b>&#1083;&#1077;</td> 							<td class="centre">en juillet </td></tr> 						<tr class="centre"> 							<td class="centre"><b>&#1072;</b>&#1074;&#1075;&#1091;&#1089;&#1090;</td> 							<td class="centre">ao&#251;t  </td> 							<td class="centre">&#1074; <b>&#1072;</b>&#1074;&#1075;&#1091;&#1089;&#1090;&#1077;</td> 							<td class="centre">en ao&#251;t </td></tr> 						<tr class="centre"> 							<td class="centre">&#1089;&#1077;&#1085;&#1090;<b>&#1103;</b>&#1073;&#1088;&#1100;</td> 							<td class="centre">septembre  </td> 							<td class="centre">&#1074; &#1089;&#1077;&#1085;&#1090;&#1103;&#1073;&#1088;<b>&#1077;</b></td> 							<td class="centre">en septembre </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1082;&#1090;<b>&#1103;</b>&#1073;&#1088;&#1100;</td> 							<td class="centre">octobre  </td> 							<td class="centre">&#1074; &#1086;&#1082;&#1090;&#1103;&#1073;&#1088;<b>&#1077;</b></td> 							<td class="centre">en octobre </td></tr> 						<tr class="centre"> 							<td class="centre">&#1085;&#1086;<b>&#1103;</b>&#1073;&#1088;&#1100;</td> 							<td class="centre">novembre  </td> 							<td class="centre">&#1074; &#1085;&#1086;&#1103;&#1073;&#1088;<b>&#1077;</b></td> 							<td class="centre">en novembre </td></tr> 						<tr class="centre"> 							<td class="centre">&#1076;&#1077;&#1082;<b>&#1072;</b>&#1073;&#1088;&#1100;</td> 							<td class="centre">d&#233;cembre  </td> 							<td class="centre">&#1074; &#1076;&#1077;&#1082;&#1072;&#1073;&#1088;<b>&#1077;</b></td> 							<td class="centre">en d&#233;cembre </td></tr></tbody></table> 							<br /> &#1057;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1086;&#1082;&#1090;<b>&#1103;</b>&#1073;&#1088;&#1100;. &#1052;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1084; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;&#1091; &#1074; &#1085;&#1086;&#1103;&#1073;&#1088;<b>&#1077;</b> : on est en octobre. Nous partirons &#224; Moscou en novembre.  		 			7 			&#1069;&#1090;&#1086; &#1074;&#1089;&#1105; &#1089;&#1082;<b>&#1072;</b>&#1079;&#1082;&#1080; : ce sont des histoires, des racontars. Dans la phrase de la le&#231;on, le mot &#1076;&#1072; renforce l'expression.  		 			8 			Vous retrouvez ici le verbe &#1073;&#1099;&#1074;<b>&#1072;</b>&#1090;&#1100; qui, dans le cas pr&#233;sent, a le sens de "avoir lieu de temps en temps". Vous pouvez dire ainsi : &#1048; &#1074; &#1086;&#1082;&#1090;&#1103;&#1073;&#1088;<b>&#1077;</b> &#1073;&#1099;&#1074;<b>&#1072;</b>&#1102;&#1090; &#1090;&#1105;&#1087;&#1083;&#1099;&#1077; &#1076;&#1085;&#1080; : m&#234;me en octobre, il y a parfois de chaudes journ&#233;es. &#1055;&#1086; &#1090;&#1077;&#1083;&#1077;&#1074;<b>&#1080;</b>&#1079;&#1086;&#1088;&#1091; &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1073;&#1099;&#1074;<b>&#1072;</b>&#1102;&#1090; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1077; &#1092;<b>&#1080;</b>&#1083;&#1100;&#1084;&#1099; : &#224; la t&#233;l&#233;vision, il y a parfois de bons films.  		 			9 			Les mots comme &#1087;&#1086;&#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; (un peu plus chaud), &#1087;&#1086;&#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; (un peu plus froid), &#1087;&#1086;&#1083; ucy;&#1095;&#1096;&#1077; (un peu mieux) poss&#232;dent &#224; la fois la notion de comparaison et celle de "un peu". &#1057;&#1077;&#1075;&#1086;&#1076;&#1085;&#1103; &#1087;&#1086;&#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077;, &#1095;&#1077;&#1084; &#1074;&#1095;&#1077;&#1088;<b>&#1072;</b> : aujourd'hui, il fait un peu plus froid qu'hier.<br /> &#183; L'expression &#1078;&#1080;&#1090;&#1100; &#1084;<b>&#1086;</b>&#1078;&#1085;&#1086; (on peut vivre) exprime un peu le fatalisme du caract&#232;re russe, le fait que malgr&#233; des circonstances difficiles on peut vivre quand m&#234;me (et parfois m&#234;me pas trop mal !).  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

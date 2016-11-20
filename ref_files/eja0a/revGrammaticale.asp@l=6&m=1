@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Apr&#232;s cette le&#231;on, vous saurez dire &#224; vos amis russes o&#249; vous habitez, quelle est votre profession et o&#249; vous travaillez. Mais ce n'est pas tout : vous saurez vous aussi leur demander tous ces renseignements...</i></p> 		<p><i>Cette le&#231;on sera la derni&#232;re &#224; comporter une prononciation figur&#233;e en dessous du texte russe, car vous n'avez plus besoin de cette b&#233;quille, puisque vous savez lire ! Nous profitons de cette occasion pour vous dire :</i> &#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1077;&#1084; <i>&#1074;&#1072;&#1089;! </i>(Paz - dra - vlia - im vas) : <i>Bravo ! Nous vous f&#233;licitons !</i> 		</p> 	<h3>
+		&#1043;&#1076;&#1077; &#1074;&#1099; &#1078;&#1080;&#1074;&#1105;&#1090;&#1077;?
+		Ddi&#233; vy jyvioti? 
+		O&#249; habitez-vous (O&#249; vous vivez) ? 		</h3> 	 		 			1 			- &#1057;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077;, &#1082;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086;? 			Skaj<b>y</b>ti, kto <b>&#232;</b>ta?  			 			Dites-[moi], qui [est]-ce ?  		 			2 			- &#1069;&#1090;&#1086; &#1084;&#1086;&#1081; &#1073;&#1088;&#1072;&#1090;. 			<b>&#200;</b>ta m<b>o</b>i br<b>a</b>t.  			 			C'[est] mon fr&#232;re.  		 			3 			- &#1055;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;?! &#1040; &#1082;&#1090;&#1086; &#1086;&#1085;? 			Pr<b>a</b>vda?! A kt<b>o o</b>n?  			 				1 			[C'est] vrai ? Et que fait-il (Et qui [est]-il) ?  		 			4 			- &#1054;&#1085; &#1072;&#1082;&#1090;&#1105;&#1088;. 			On akt<b>io</b>r.  			 			Il [est] acteur.  		 			5 			- &#1042;&#1099; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090;&#1077; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077;? 			Vy t<b>o</b>jy rab<b>o</b>ta&#239;ti f ti<b>a</b>tri?  			 				2 			Vous travaillez aussi dans le th&#233;&#226;tre (Vous aussi travaillez dans le th&#233;&#226;tre)?  		 			6 			- &#1044;&#1072;, &#1103; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1102; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077;, &#1085;&#1086; &#1103; &#1088;&#1077;&#1078;&#1080;&#1089;&#1089;&#1105;&#1088;. 			Da, ia t<b>o</b>jy rab<b>o</b>ta&#239;ou f ti<b>a</b>tri, no ia rijyss<b>io</b>r.  			  			Oui, je travaille aussi dans le th&#233;&#226;tre, mais je [suis] metteur en sc&#232;ne.  		 			7 			- &#1050;&#1072;&#1082; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;! &#1071; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b> &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;. 			Kak intir<b>ie</b>sna! Ia <b>o</b>tchin' lioubl<b>iou</b> ti<b>a</b>tr.  			 				3 			Comme [c'est] int&#233;ressant ! J'aime beaucoup le th&#233;&#226;tre (Je tr&#232;s aime le th&#233;&#226;tre).  		 			8 			- &#1040; &#1074;&#1099; &#1075;&#1076;&#1077; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090;&#1077;? 			A vy gdi&#233; rab<b>o</b>ta&#239;ti?  			 			Et vous, o&#249; travaillez-[vous] ?  		 			9 			- &#1071; &#1078;&#1091;&#1088;&#1085;&#1072;&#1083;<b>&#1080;</b>&#1089;&#1090;&#1082;&#1072; &#1080; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1102; &#1074; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1077;. 			Ia journal<b>i</b>stka i rab<b>o</b>ta&#239;ou f gaz<b>i&#233;</b>ti.  			 				4 			Je [suis] journaliste et [je] travaille pour dans) un journal.  		 			10 			- &#1040; &#1075;&#1076;&#1077; &#1074;&#1099; &#1078;&#1080;&#1074;&#1105;&#1090;&#1077;? 			A gdi&#233; vy jyv<b>io</b>ti?  			 			Et o&#249; habitez-vous (Et o&#249; vivez-vous) ?  		 			11 			- &#1071; &#1078;&#1080;&#1074;&#1091; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>. 			Ia jyv<b>ou</b> V Maskv<b>i&#233;</b>.  			 			J'habite Moscou (Je vis &#224; Moscou).  		 			12 			- &#1040; &#1103; &#1078;&#1080;&#1074;&#1091; &#1074; &#1050;<b>&#1080;</b>&#1077;&#1074;&#1077;. 			A ia jyv<b>ou</b> f Ki<b>&#233;</b>vi.  			 			Et [moi], j'habite (&#224;) Kiev.  		 			13 			- &#1040; &#1075;&#1076;&#1077; &#1078;&#1080;&#1074;&#1105;&#1090; &#1074;&#1072;&#1096; &#1073;&#1088;&#1072;&#1090;? 			A gdi&#233; jyv<b>io</b>t vach brat?  			 				5 			Et o&#249; habite votre fr&#232;re ?  		 			14 			- &#1054;&#1085; &#1078;&#1080;&#1074;&#1105;&#1090; &#1074; &#1054;&#1076;<b>&#1077;</b>&#1089;&#1089;&#1077;. 			On jyv<b>io</b>t V Ad<b>i&#233;</b>ssi.  			 			Il habite &#224; Odessa.  		 			15 			- &#1054;! &#1069;&#1090;&#1086; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1088;&#1086;&#1076;! 			O! <b>&#200;</b>ta <b>o</b>tchin' krass<b>i</b>vy&#239; g<b>o</b>rat!  			 				6 			Oh ! C'[est] une tr&#232;s jolie ville !  		 			 				N'oubliez pas que dans les mots monosyllabiques tels que &#1085;&#1086; : mais, &#1086;&#1085; : il, &#1075;&#1076;&#1077; : o&#249; (sans mouvement), o! : oh !, les voyelles o et e sont toujours accentu&#233;es et se prononcent "o" et "ie".  			 				<b>1-3</b>  				Dans les interrogations : &#1050;&#1090;<b>&#1086;</b>  &#1086;&#1085;? - &#1040;  &#1082;&#1090;<b>&#1086;</b>  <b>&#1079;</b>&#1090;&#1086;?, l'accent est mis sur le pronom interrogatif &#1082;&#1090;&#1086;.  			 				<b>7 </b> 				En pronon&#231;ant &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;, rappelez-vous qu'il n'existe pas de nasales en russe.  			 				<b>10 </b> 				Apr&#232;s &#1078;, le "&#1080;" se prononce comme "&#1099;" (y), comme dans &#1078;&#1080;&#1074;&#1105;&#1090;&#1077; (jyv<b>io</b>ti) et &#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077; (skaj<b>y</b>ti).  	 		 			1 			&#1050;&#1090;&#1086; &#1086;&#1085;? est la formule ordinairement utilis&#233;e lorsque l'on souhaite conna&#238;tre le m&#233;tier exerc&#233; par une tierce personne. &#1050;&#1090;&#1086; &#1086;&#1085;? - &#1054;&#1085; &#1072;&#1082;&#1090;&#1105;&#1088; : Que fait-il ? - Il est acteur ; &#1050;&#1090;&#1086; &#1086;&#1085;<b>&#1072;</b>? - &#1054;&#1085;<b>&#1072;</b> &#1078;&#1091;&#1088;&#1085;&#1072;&#1083;<b>&#1080;</b>&#1089;&#1090;&#1082;&#1072; : Que fait-elle ? - Elle est journaliste.  		 			2 			&#1042; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077; : dans le th&#233;&#226;tre. Vous connaissez d&#233;j&#224; deux cas : le nominatif (sujet) et l'accusatif (compl&#233;ment d'objet direct). En voici un troisi&#232;me : le locatif. Comme son nom l'indique, il sert &#224; exprimer le compl&#233;ment de lieu. Il est toujours pr&#233;c&#233;d&#233; d'une pr&#233;position. Pour cette raison, il est parfois aussi appel&#233; pr&#233;positionnel. <br />Le locatif s'emploie en r&#233;ponse &#224; la question &#1075;&#1076;&#1077;? o&#249; ? (sans mouvement).<br /> &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;, &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077; : le th&#233;&#226;tre, au th&#233;&#226;tre<br /> &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1072;, &#1074; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1077; : le journal, dans un journal, au journal<br /> &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1072;</b>. &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b> : Moscou, &#224; Moscou<br /> &#1050;&#1080;<b>&#1077;</b>&#1074;, &#1074; &#1050;&#1080;<b>&#1077;</b>&#1074;&#1077; : Kiev, &#224; Kiev  		 			3 			&#1050;&#1072;&#1082; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;! Comme c'est int&#233;ressant ! &#1050;&#1072;&#1082; &#1093;&#1086;&#1088;&#1086;&#1096;&#243;! Comme c'est bien !<br /> &#1048;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086; et &#1093;&#1086;&#1088;&#1086;&#1096;&#243; sont des adverbes utilis&#233;s ici pour qualifier une action ou une situation.  		 			4 			&#1046;&#1091;&#1088;&#1085;&#1072;&#1083;<b>&#1080;</b>&#1089;&#1090;&#1082;&#1072;. Nous sommes s&#251;rs que vous avez devin&#233;, avant m&#234;me de regarder sa traduction, la signification de ce mot ! La terminaison en -&#1082;&#1072; indique que la personne exer&#231;ant ce m&#233;tier est une femme. Pour un homme, nous dirons : &#1078;&#1091;&#1088;&#1085;&#1072;&#1083;<b>&#1080;</b>&#1089;&#1090;.  		 			5 			&#1042;&#1072;&#1096; : un nouvel adjectif possessif. Au masculin : Bain &#1073;&#1088;&#1072;&#1090; : votre fr&#232;re ; au f&#233;minin : &#1074;<b>&#1072;</b>&#1096;&#1072; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1072; : votre journal. 			<br />Une petite parenth&#232;se : avec le mot &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1072;, vous pouvez vous rendre compte (ce que vous avez d&#233;j&#224; certainement fait) que la correspondance des genres en fran&#231;ais et en russe n'est absolument pas syst&#233;matique. 			<br />Petit clin d'oeil au fran&#231;ais : le mot russe &#1078;&#1091;&#1088;&#1085;<b>&#1072;</b>&#1083; signifie "revue" !  		 			6 			&#1043;<b>&#1086;</b>&#1088;&#1086;&#1076; : ville. Kiev, Odessa, Moscou, Saint-P&#233;tersbourg... Ce sont des noms qui vont tr&#232;s vite vous devenir familiers. Kiev, capitale de la r&#233;publique d'Ukraine, est devenue, il y a mille ans, la premi&#232;re capitale de l'Etat russe. C'est &#233;galement le berceau du christianisme en Russie. Nous vous en parlerons plus en d&#233;tail dans la le&#231;on 23. <br />Odessa, situ&#233;e sur les bords de la mer Noire, est souvent compar&#233;e &#224; Marseille. Mais ses habitants pr&#233;f&#232;rent dire qu'elle ressemble &#224; Paris ! On peut d'ailleurs y voir une statue du duc de Richelieu (pas le cardinal !). <br />Les habitants d'Odessa consid&#232;rent leur ville comme la plus gaie du monde. Il y a m&#234;me tous les ans une journ&#233;e du rire et un festival du cin&#233;ma consacr&#233; uniquement aux com&#233;dies. Les anecdotes et un vocabulaire russe tr&#232;s "color&#233;" vous deviendront vite familiers.  	 	 		<p><i>Et un petit exercice suppl&#233;mentaire, en r&#233;compense de votre t&#233;nacit&#233; :</i></p> 		<p style="text-align:center;"><b>&#1063;&#1091;&#1090;&#1100; -&#1095;&#1091;&#1090;&#1100; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077;</b></p> 		<p style="text-align:center;">Encore un peu plus </p> 		<p>&#1053;&#1072; &#1101;&#1082;&#1079;<b>&#1072;</b>&#1084;&#1077;&#1085;&#1077; &#1087;&#1088;&#1086;&#1092;<b>&#1077;</b>&#1089;&#1089;&#1086;&#1088; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;: "&#1069;&#1082;&#1079;<b>&#1072;</b>&#1084;&#1077;&#1085; - <b>&#1079;</b>&#1090;&#1086; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;. &#1042;&#1099; - &#1072;&#1082;&#1090;&#1105;&#1088;, &#1072; &#1103; &#1088;&#1077;&#1078;&#1080;&#1089;&#1089;&#1105;&#1088;." - "&#1040; &#1075;&#1076;&#1077; &#1084;&#1086;&#1081; &#1089;<b>&#1091;</b>&#1092;&#1083;&#1105;&#1088;? "- &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1083; &#1089;&#1090;&#1091;&#1076;<b>&#1077;</b>&#1085;&#1090;. </p> 		<p><b>Traduction</b></p> 		<p>&#192; l'examen, le professeur dit : "Un examen, c'[est] du th&#233;&#226;tre. Vous [&#234;tes] l'acteur, et je [suis] le metteur en sc&#232;ne." - "Et o&#249; [est] mon souffleur ?" demanda l'&#233;tudiant. </p> 		 		 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

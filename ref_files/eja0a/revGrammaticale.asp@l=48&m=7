@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 		<p><i>Cette le&#231;on pr&#233;sente peu de difficult&#233;s particuli&#232;res. L'histoire qui suit (et son contraire) vous propose des phrases simples qui vous reposeront sans doute des derni&#232;res le&#231;ons ! Soyez attentif, malgr&#233; tout, aux adjectifs et aux verbes de mouvement.</i></p> 	<h3>
+		&#1051;&#1102;&#1076;&#1086;&#1077;&#1076; &#1080; &#1087;&#1088;&#1080;&#1085;&#1094;&#1077;&#1089;&#1089;&#1072;  &#1080;&#1083;&#1080; &#1074;&#1089;&#1105; &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;&#1086;&#1090; 
+		L'ogre et la princesse ou bien tout le contraire</h3> 	 		 			1 			&#1042;&#1086;&#1090; &#1082;&#1072;&#1082; <b>&#1079;</b>&#1090;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086;:<br /> &#1055;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b><br /> &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;,<br /> &#1055;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b><br /> &#1059;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;. 			 				1 				2 			Voil&#224; comment &#231;a se passa (comment cela fut) :<br /> La princesse &#233;tait<br /> Tr&#232;s belle,<br /> Le temps &#233;tait<br />Horrible.  		 			2 			&#1044;&#1085;&#1105;&#1084;<br /> &#1042;&#1086; &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;<b>&#1091;</b><br /> &#1047;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; &#1087;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072;<br /> &#1042; &#1083;&#1077;&#1089;<b>&#1091;</b>. 			 				3 			Pendant la journ&#233;e<br /> &#192; une heure pass&#233;e (dans la deuxi&#232;me heure)<br />La princesse se perdit<br />Dans la for&#234;t.  		 			3 			&#1057;&#1084;<b>&#1086;</b>&#1090;&#1088;&#1080;&#1090;: &#1087;&#1086;&#1083;&#1103;&#1085;&#1082;&#1072;<br /> &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;,<br /> &#1053;&#1072; &#1087;&#1086;&#1083;<b>&#1103;</b>&#1085;&#1082;&#1077; - &#1079;&#1077;&#1084;&#1083;&#1103;&#1085;&#1082;&#1072;<br /> &#1059;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;. 			 			Elle regarde : la clairi&#232;re<br /> Est tr&#232;s belle,<br /> Dans la clairi&#232;re, une cabane<br /> Horrible.  		 			4 			&#1040; &#1074; &#1079;&#1077;&#1084;&#1083;<b>&#1103;</b>&#1085;&#1082;&#1077;<br /> - &#1083;&#1102;&#1076;&#1086;<b>&#1077;</b>&#1076; - &#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>-&#1082;&#1072;<br /> &#1053;&#1072; &#1086;&#1073;<b>&#1077;</b>&#1076;! 			 				4 				5 			Et dans la cabane, un ogre :<br /> - Entre donc<br /> Pour le d&#233;jeuner.  		 			5 			&#1054;&#1085; &#1093;&#1074;&#1072;&#1090;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1086;&#1078;,<br /> &#1044;<b>&#1077;</b>&#1083;&#1086; &#1103;&#1089;&#1085;&#1086;&#1077;. 			 				6 			Il saisit un couteau,<br /> L'affaire est claire.  		 			6 			&#1042;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1091;&#1074;&#1080;&#1076;&#1077;&#1083;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103;...<br /> &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;! 			 				7 			Soudain, il vit comme...<br /> [Elle] &#233;tait belle !  		 			7 			&#1051;&#1102;&#1076;&#1086;<b>&#1077;</b>&#1076;&#1091; &#1089;&#1088;<b>&#1072;</b>&#1079;&#1091; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086;<br /> &#1061;<b>&#1091;</b>&#1076;&#1086;. 			 				8 			Imm&#233;diatement, l'ogre se sentit Mal.  		 			8 			"&#1059;&#1093;&#1086;&#1076;<b>&#1080;</b>, &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;, -<br /> &#1054;&#1090;&#1089;<b>&#1102;</b>&#1076;&#1072;. 			 				9 			"Pars d'ici, dit-il (pars, dit-il, d'ici).  		 			9 			&#1040;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;, - &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;, -<br /> &#1059;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081;. 			 			Mon app&#233;tit est (dit-il)<br /> Terrible.  		 			10 			&#1057;&#1083;<b>&#1080;</b>&#1096;&#1082;&#1086;&#1084; &#1074;&#1080;&#1076;, - &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;, -<br /> &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081;." 			 			Tu es trop belle (dit-il) (trop ton apparence, dit-il, est belle)."  		 			11 			&#1048; &#1087;&#1086;&#1096;&#1083;<b>&#1072;</b> &#1087;&#1086;&#1090;&#1080;&#1093;<b>&#1086;</b>&#1085;&#1100;&#1082;<b>&#1091;</b><br /> &#1055;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072;,<br /> &#1055;&#1088;<b>&#1103;</b>&#1084;&#1086; &#1082; &#1079;<b>&#1072;</b>&#1084;&#1082;&#1091; &#1074;<b>&#1099;</b>&#1096;&#1083;&#1072; &#1080;&#1079; &#1083;<b>&#1077;</b>&#1089;&#1072;. 			 				10 			Et la princesse partit tout doucement,<br /> Elle sortit dans la for&#234;t et alla droit au<br /> ch&#226;teau (directement au ch&#226;teau lle sortit de la for&#234;t).  		 			12 			&#1042;&#1086;&#1090; &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1083;&#1077;&#1075;<b>&#1077;</b>&#1085;&#1076;&#1072; &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;!<br /> &#1042;&#1086;&#1090; &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;! 			 			Quelle l&#233;gende horrible (Voil&#224; quelle l&#233;gende horrible) !<br /> Quelle belle princesse (voil&#224; quelle princesse tr&#232;s belle) !  		 			13 			&#1040; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100;, &#1073;<b>&#1099;</b>&#1083;&#1086; &#1074;&#1089;&#1105; &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;<b>&#1086;</b>&#1090;??? 			 			Mais peut-&#234;tre &#233;tait-ce tout le contraire ???  	 		 			1 			L'expression &#1082;&#1072;&#1082; <b>&#1079;</b>&#1090;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086; (comment c'&#233;tait ?, comment &#231;a s'est pass&#233; ?) est l'&#233;quivalent de &#1082;&#1072;&#1082; <b>&#1079;</b>&#1090;&#1086; &#1087;&#1088;&#1086;&#1080;&#1079;&#1086;&#1096;&#1083;<b>&#1086;</b>? Commencez votre phrase par : &#1042;&#1086;&#1090;, &#1082;&#1072;&#1082; <b>&#1079;</b>&#1090;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086; si vous voulez raconter &#224; un ami ce qui s'est pass&#233;.  		 			2 			&#1055;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; : le temps &#233;tait horrible. Rappelez-vous : nous vous avons recommand&#233; d'employer<br />  			l'instrumental au pass&#233; pour certains adjectifs. L'exemple ici vous montre bien que la r&#232;gle n'est pas appliqu&#233;e syst&#233;matiquement ! Mais nous insistons, dites plut&#244;t : &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1081;.  		 			3 			Vous savez d&#233;j&#224; dire : j'arriverai &#224; deux heures : &#1071; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1091; &#1074; &#1076;&#1074;&#1072; &#1095;&#1072;&#1089;<b>&#1072;</b> ; j'arriverai vers deux heures : &#1103; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1091; &#1095;&#1072;&#1089;<b>&#1072;</b> &#1074; &#1076;&#1074;&#1072;. Et ici vous d&#233;couvrez la forme : &#1074;&#1086; &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;<b>&#1091;</b>, c'est-&#224;-dire "au d&#233;but de la deuxi&#232;me heure", g&#233;n&#233;ralement avant une heure et demie. De la m&#234;me mani&#232;re, on aura : &#1050;&#1086;&#1075;&#1076;<b>&#1072;</b> <b>&#1079;</b>&#1090;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086;? (quand est-ce que &#231;a s'est pass&#233; ?). 	<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"><p>12.10  </p></td> 							<td class="centre"><p>&#1074; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1086;&#1084; &#1095;&#1072;&#1089;<b>&#1091;</b>: dans la 1re heure (&#224; midi pass&#233;) </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>13.15  </p></td> 							<td class="centre"><p>&#1074;&#1086; &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;&#1091; : dans la 2e heure (&#224; une heure pass&#233;e) </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>14.20  </p></td> 							<td class="centre"><p>&#1074; &#1090;&#1088;<b>&#1077;</b>&#1090;&#1100;&#1077;&#1084; &#1095;&#1072;&#1089;&#1091; : dans la 3e heure (&#224; deux heures pass&#233;es) </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>15.25  </p></td> 							<td class="centre"><p>&#1074; &#1095;&#1077;&#1090;&#1074;&#1105;&#1088;&#1090;&#1086;&#1084; &#1095;&#1072;&#1089;&#1091; : dans la 4e heure (&#224; trois heures pass&#233;es) </p></td></tr></tbody></table><br /> &#1054;&#1085; &#1087;&#1088;&#1080;&#1076;&#1105;&#1090; &#1088;<b>&#1086;</b>&#1074;&#1085;&#1086; &#1074; &#1096;&#1077;&#1089;&#1090;&#1100;, &#1072; &#1086;&#1085;<b>&#1072;</b> &#1095;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090; &#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100;, &#1090;&#1086; &#1077;&#1089;&#1090;&#1100; &#1074; &#1089;&#1077;&#1076;&#1100;&#1084;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;&#1091; : il arrivera &#224; six heures et elle, environ quinze minutes apr&#232;s, c'est-&#224;-dire &#224; six heures pass&#233;es.<br /> &#183; &#1047;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; &#1087;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072; : la princesse se perdit. Le verbe &#1079;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; (se perdre, s'&#233;garer) est tr&#232;s proche de &#1087;&#1086;&#1090;&#1077;&#1088;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; (se perdre). Simplement, &#1087;&#1086;&#1090;&#1077;&#1088;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; s'emploie plus volontiers pour les enfants, les animaux et les choses, et &#1079;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; pour les adultes, les personnes conscientes de leur action, de ce qui leur arrive. Dans ce cas-l&#224;, on traduira plut&#244;t par "s'&#233;garer". &#1052;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; &#1087;&#1086;&#1090;&#1077;&#1088;<b>&#1103;</b>&#1083;&#1089;&#1103; &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;&#1077; : le petit gar&#231;on s'est perdu dans le magasin.<br /> Mais, bien s&#251;r, on pourra trouver aussi : &#1076;<b>&#1077;</b>&#1090;&#1080; &#1079;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100; &#1074; &#1083;&#1077;&#1089;&#1091; : les enfants se sont perdus dans la for&#234;t. &#1055;&#1086;&#1090;&#1077;&#1088;<b>&#1103;</b>&#1083;&#1089;&#1103; &#1084;&#1086;&#1081; &#1089;&#1083;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1100;. &#1058;&#1099; &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;, &#1075;&#1076;&#1077; &#1086;&#1085;? : j'ai perdu mon dictionnaire (mon dictionnaire s'est perdu), tu ne sais pas o&#249; il est ?<br /> &#183; &#1042; &#1083;&#1077;&#1089;&#1091; : dans la for&#234;t. Le pr&#233;positionnel en -&#1091; est une exception ! Il concerne surtout les mots d'une syllabe : &#1083;&#1077;&#1089;, &#1074; &#1083;&#1077;&#1089;&#1091; (dans la for&#234;t) ; &#1089;&#1072;&#1076;, &#1074; &#1089;&#1072;&#1076;&#1091; (dans le jardin) ; &#1089;&#1085;&#1077;&#1075;, &#1074; &#1089;&#1085;&#1077;&#1075;&#1091; ou &#1085;&#1072; &#1089;&#1085;&#1077;&#1075;&#1091; (dans la neige) ; &#1084;&#1099; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1084; &#1074; &#1089;&#1072;&#1076;&#1091; &#1085;&#1072; &#1089;&#1085;&#1077;&#1075;&#1091; : nous jouons dans le jardin dans la neige.  		 			4 			&#1051;&#1102;&#1076;&#1086;<b>&#1077;</b>&#1076; : ogre. Ce mot compos&#233; est form&#233; des mots &#1083;<b>&#1102;</b>&#1076;&#1080; (gens) et &#1077;&#1089;&#1090;&#1100; (manger).  		 			5 			Le verbe de mouvement &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (entrer en passant) peut aussi &#234;tre synonyme de &#1074;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (entrer) et de &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (arriver, venir). Lisez ces deux exemples : &#1050;&#1072;&#1082; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>, &#1095;&#1090;&#1086; &#1074;&#1099; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b>! &#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077;, &#1087;&#1086;&#1078;&#1072;&#1083;<b>&#1091;</b>&#1081;&#1089;&#1090;&#1072;! : comme c'est bien que vous soyez venus ! Entrez, je vous en prie ; &#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084; &#1085;&#1072; &#1095;&#1072;&#1081;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1091; &#1074;&#1072;&#1089; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; : venez (passez) prendre le th&#233; chez nous quand vous aurez le temps.<br /> &#183; La particule &#1082;&#1072; (donc) s'emploie avec l'imp&#233;ratif pour insister sur l'ordre. C'est un style familier (&#224; utiliser avec prudence !). &#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>-&#1082;&#1072; : entre donc !  		 			6 			&#1044;<b>&#1077;</b>&#1083;&#1086; <b>&#1103;</b>&#1089;&#1085;&#1086;&#1077; : l'affaire est claire. S'emploie &#224; la place de &#1042;&#1089;&#1105; <b>&#1103;</b>&#1089;&#1085;&#1086;, mais comporte une nuance d'ironie. &#1054;&#1085; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1077;&#1105;, &#1076;<b>&#1077;</b>&#1083;&#1086; <b>&#1103;</b>&#1089;&#1085;&#1086;&#1077; : il l'aime, c'est clair (l'affaire est claire).  		 			7 			&#1042;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103;! : il vit combien elle &#233;tait belle. Apr&#232;s &#1074;&#1076;&#1088;<b>&#1091;</b>&#1075;, utilisez un verbe au perfectif, car il s'agit d'un moment pr&#233;cis de l'action. &#1071; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;, &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1086;&#1085; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1084;&#1086;&#1083;&#1086;&#1076;<b>&#1086;</b>&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; : j'ai toujours vu qu'il &#233;tait un bon jeune homme ; &#1086;&#1085; &#1074;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1072;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072; : soudain, il vit qu'elle &#233;tait une merveilleuse jeune fille.  		 			8 			&#1061;<b>&#1091;</b>&#1076;&#1086; (mal) est synonyme de &#1087;&#1083;<b>&#1086;</b>&#1093;&#1086;, mais plus expressif. &#1052;&#1085;&#1077; &#1093;<b>&#1091;</b>&#1076;&#1086; : &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1073;&#1086;&#1083;<b>&#1080;</b>&#1090; &#1075;&#1086;&#1083;&#1086;&#1074;<b>&#1072;</b> : &#231;a ne va pas : j'ai un mal de t&#234;te terrible.<br /> Il est int&#233;ressant de noter que l'adjectif &#1093;&#1091;&#1076;<b>&#1086;</b>&#1081; signifie maigre.<br /> &#183; Nous avons d&#233;j&#224; parl&#233; (le&#231;on 45, note 5) du verbe &#1089;&#1090;&#1072;&#1090;&#1100;, qui indique un changement d'&#233;tat. &#1054;&#1090; &#1078;&#1072;&#1088;<b>&#1099;</b> &#1077;&#1081; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1093;<b>&#1091;</b>&#1076;&#1086; : elle se sentit mal &#224; cause de la chaleur.  		 			9 			Profitez de cette le&#231;on pour bien assimiler l'imp&#233;ratif des verbes de mouvement. &#1059;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (partir), &#1091;&#1093;&#1086;&#1076;<b>&#1080;</b>! (pars !), &#1091;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077;! (partez !) ; &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (entrer), &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>! (entre !), &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077;! (entrez !).<br /> L'imp&#233;ratif perfectif est plus cat&#233;gorique. Il est plus proche de l'ordre que de l'incitation. <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"><p>&#1059;&#1081;&#1090;<b>&#1080;</b></p></td> 							<td class="centre"><p>&#1047;&#1072;&#1081;&#1090;<b>&#1080;</b></p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>&#1091;&#1081;&#1076;<b>&#1080;</b>!  </p></td> 							<td class="centre"><p>&#1079;&#1072;&#1081;&#1076;<b>&#1080;</b>! </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>&#1091;&#1081;&#1076;<b>&#1080;</b>&#1090;&#1077;!  </p></td> 							<td class="centre"><p>&#1079;&#1072;&#1081;&#1076;<b>&#1080;</b>&#1090;&#1077;! </p></td></tr></tbody></table> 		 			10 			&#1048; &#1087;&#1086;&#1096;&#1083;<b>&#1072;</b> &#1087;&#1086;&#1090;&#1080;&#1093;<b>&#1086;</b>&#1085;&#1100;&#1082;&#1091; &#1087;&#1088;&#1080;&#1085;&#1094;<b>&#1077;</b>&#1089;&#1089;&#1072; : et la princesse partit tout doucement. Le pr&#233;verbe &#1087;&#1086; + &#1080;&#1076;&#1090;<b>&#1080;</b> peut indiquer, comme ici, le d&#233;but d'une action. &#1054;&#1085; &#1074;&#1089;&#1090;&#1072;&#1083; &#1080; &#1087;&#1086;&#1096;&#1105;&#1083; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081; : il se leva et partit chez lui. Mais le plus souvent il a le m&#234;me sens que le verbe &#1091;&#1081;&#1090;<b>&#1080;</b> (partir) : &#1045;&#1075;<b>&#1086;</b> &#1085;&#1077;&#1090; &#1076;<b>&#1086;</b>&#1084;&#1072;. &#1054;&#1085; &#1087;&#1086;&#1096;&#1105;&#1083; &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b> : il n'est pas chez lui, il est parti au cin&#233;ma.<br /> Le pr&#233;verbe &#1074;&#1099;-, lui, indique un mouvement d'un espace ferm&#233; vers un espace ouvert : &#1086;&#1085; &#1074;<b>&#1099;</b>&#1096;&#1077;&#1083; &#1080;&#1079; &#1076;<b>&#1086;</b>&#1084;&#1072; &#1080; &#1087;&#1086;&#1096;&#1105;&#1083; &#1085;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; : il sortit de chez lui et partit au travail ; &#1052;&#1099; &#1096;&#1083;&#1080; &#1087;&#1086; &#1091;&#1079;&#1082;&#1086;&#1081; &#1091;&#1083;&#1080;&#1094;&#1077; &#1080; &#1074;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1074;<b>&#1099;</b>&#1096;&#1083;&#1080; &#1085;&#1072; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1091;</b>&#1102; &#1087;&#1083;<b>&#1086;</b>&#1097;&#1072;&#1076;&#1100; : nous marchions dans une rue &#233;troite et d&#233;bouch&#226;mes soudain sur une grande place.<br /> Et si nous parlions un peu des contes ? En Russie, les contes tiennent une grande place dans l'&#233;ducation des enfants, quelle que soit leur origine sociale. C'est en &#233;coutant les contes que lui lisait Arina, sa "niania" (&#1085;<b>&#1103;</b>&#1085;&#1103; : nourrice) que Pouchkine a appris le russe. Le h&#233;ros principal des contes russes, c'est "l'Idiot Ivanouchka" (&#1048;&#1074;<b>&#1072;</b>&#1085;&#1091;&#1096;&#1082;&#1072;-&#1076;&#1091;&#1088;&#1072;&#1095;<b>&#1086;</b>&#1082;), dont tout le monde rit. Malgr&#233; cela, il finit toujours par &#233;pouser la princesse.<br /> Dans les contes, les femmes sont toujours belles et intelligentes. Sauf "Baba-Iaga" (&#1041;<b>&#1072;</b>&#1073;&#1072;-&#1071;&#1075;&#1072;), une sorci&#232;re qui adore manger les petits enfants, ce qui ne lui r&#233;ussit jamais. D'ailleurs, le personnage de l'ogre se rencontre rarement dans les contes russes. En Russie, les livres de contes russes et &#233;trangers ont toujours eu (et ont encore) beaucoup de succ&#232;s.  	 	 		<p><i>Le contraire, vous le d&#233;couvrirez &#224; la fin de l&#1072; le&#231;on.</i></p> 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

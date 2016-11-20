@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Nous vous proposons dans cette le&#231;on un extrait de la pi&#232;ce d'Alexandre Vampilov, "L'Et&#233; dernier &#224; Tchoulimsk". L'action se passe ici, comme d'ailleurs dans les autres pi&#232;ces de Vampilov, dans une petite ville de Sib&#233;rie. L'histoire est vieille comme le monde : une jeune fille tombe amoureuse d'un homme plus &#226;g&#233; qu'elle, qui repr&#233;sente son id&#233;al. Les dialogues de la pi&#232;ce sont remarquables; lisez cet extrait et jugez-en.</i> </p> 	<h3>
+		&#1071; &#1087;&#1086;&#1096;&#1091;&#1090;&#1080;&#1083;...
+		Je plaisantais...
+		</h3> 	 		 			1 			- &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;, &#1090;&#1099; &#1079;&#1072;&#1084;&#1077;&#1095;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1072;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072;. &#1042;&#1089;&#1105; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1085;&#1072; &#1083;&#1080;&#1094;<b>&#1077;</b> - &#1074;&#1089;&#1077; &#1090;&#1074;&#1086;<b>&#1080;</b> &#1090;<b>&#1072;</b>&#1081;&#1085;&#1099;. 			 			Chamanov : Valentine, tu es une jeune fille remarquable. Tout est sur ton visage - tous tes secrets.  		 			2 			- &#1058;&#1099; &#1085;&#1077; &#1091;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1072;, &#1087;&#1086;&#1090;&#1086;&#1084;&#1091; &#1095;&#1090;&#1086; &#1090;&#1099; &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100;... &#1056;<b>&#1072;</b>&#1079;&#1074;&#1077; &#1085;&#1077;&#1090;? &#1040; &#1074; &#1082;&#1086;&#1075;<b>&#1086;</b>, &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;? &#1053;&#1077; &#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1096;&#1100;? &#1053;&#1091; &#1077;&#1097;&#1105; &#1073;&#1099;! 			 				1 			Tu n'es pas partie parce que tu &#233;tais tomb&#233;e amoureuse... N'est-ce pas ? Et de qui, dis-moi ? (C'est int&#233;ressant). Tu ne le diras pas ? Bien s&#251;r !  		 			3 			- &#1040;&#1093;, &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;, &#1075;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1086; &#1084;&#1085;&#1077; &#1085;&#1072; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100;. &#1043;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1086;, &#1087;&#1086;&#1090;&#1086;&#1084;&#1091; &#1095;&#1090;&#1086; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1091;&#1078;<b>&#1077;</b> &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1087;&#1086;&#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1090;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072;, &#1050;&#1072;&#1082; &#1090;&#1099;. 			 			Ah, Valentine, &#231;a me fait mal de te regarder (triste &#224; moi de te regarder). &#199;a me fait mal parce que plus jamais une jeune fille comme toi ne m'aimera.  		 			4 			- &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;: &#1053;&#1077;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;! - &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1063;&#1090;&#1086; &#1085;&#1077;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;? &#1050;&#1086;&#1084;&#1091; &#1078;&#1077;, &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;, &#1103; &#1084;&#1086;&#1075;&#1091; &#1087;&#1086;&#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;? &#1063;&#1090;<b>&#1086;</b>-&#1090;&#1086; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1103; &#1078;&#1077;&#1083;<b>&#1072;</b>&#1102;&#1097;&#1080;&#1093;... &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090;, &#1090;&#1099; &#1082;&#1086;&#1075;<b>&#1086;</b> &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;? 			 				2 			Valentine : C'est faux ! - Chamanov : C'est faux ? &#199;a m'int&#233;resse de savoir &#224; qui donc je peux plaire (&#224; qui donc, c'est int&#233;ressant, je peux plaire) ? Il me semble que je ne vois gu&#232;re d'amateurs... Peut-&#234;tre connais-tu quelqu'un ?  		 			5 			- &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;: &#1042;&#1089;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;&#1090;... &#1050;&#1088;<b>&#1086;</b>&#1084;&#1077; &#1074;&#1072;&#1089;. -&#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1042;&#1086;&#1090; &#1082;&#1072;&#1082;! -&#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;: &#1042;&#1099; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081;: &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1090;&#1077;... &#1042;&#1099; &#1089;&#1083;&#1077;&#1087;<b>&#1086;</b>&#1081;! &#1057;&#1083;&#1077;&#1087;<b>&#1086;</b>&#1081; - <b>&#1103;</b>&#1089;&#1085;&#1086; &#1074;&#1072;&#1084;? (&#1055;<b>&#1072;</b>&#1091;&#1079;&#1072;) 			 			Valentine : Tout le monde le sait... Sauf vous... - Chamanov : Allons bon ! - Valentine : Vous &#234;tes le seul ici &#224; &#234;tre comme &#231;a : vous ne voyez rien... Vous &#234;tes aveugle! Aveugle, c'est clair (&#224; vous) ? (Pause)  		 			6 			- &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1058;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1089;&#1077;&#1088;&#1100;&#1105;&#1079;&#1085;&#1086;?... &#1058;&#1099; &#1091;&#1074;<b>&#1077;</b>&#1088;&#1077;&#1085;&#1072;, &#1095;&#1090;&#1086;... 			 				3 			Chamanov : Tu dis cela s&#233;rieusement ?... Tu es s&#251;re que...  		 			7 			- &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;: &#1057;&#1083;&#1077;&#1087;<b>&#1086;</b>&#1081;... &#1053;&#1086; &#1085;&#1077; &#1075;&#1083;&#1091;&#1093;<b>&#1086;</b>&#1081; &#1078;&#1077; &#1074;&#1099;, &#1087;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072; &#1078;&#1077;? 			 			Valentine : Aveugle, mais vous n'&#234;tes pas sourd, n'est-ce pas ?  		 			8 			- &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1044;&#1072; &#1085;&#1077;&#1090;, &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;, &#1085;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1073;&#1099;&#1090;&#1100;... &#1053;&#1091; &#1074;&#1086;&#1090; &#1077;&#1097;&#1105;! 			 				4 			Chamanov : Non, non, Valentine, &#231;a n'est pas possible... Et puis quoi encore !  		 			9 			&#1053;&#1072;&#1096;&#1083;<b>&#1072;</b> &#1086;&#1073;&#1098;<b>&#1077;</b>&#1082;&#1090; &#1074;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1085;&#1080;&#1103;. &#1054;&#1090;&#1082;&#1088;&#1086;&#1074;<b>&#1077;</b>&#1085;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>, &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1093;<b>&#1091;</b>&#1078;&#1077; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1099; &#1085;&#1077; &#1084;&#1086;&#1075;&#1083;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1076;<b>&#1091;</b>&#1084;&#1072;&#1090;&#1100;... 			 				5 			Tu as trouv&#233; un objet d'attention. Sinc&#232;rement (parlant), tu ne pouvais rien imaginer de pire que moi...  		 			10 			&#1058;&#1099; &#1089;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1072;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1086;&#1095;&#1082;&#1072;, &#1090;&#1099; &#1087;&#1088;<b>&#1077;</b>&#1083;&#1077;&#1089;&#1090;&#1100;, &#1085;&#1086; &#1090;&#1086;, &#1095;&#1090;&#1086; &#1090;&#1099; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072;, <b>&#1079;</b>&#1090;&#1086; &#1090;&#1099; &#1074;<b>&#1099;</b>&#1073;&#1088;&#1086;&#1089;&#1100; &#1080;&#1079; &#1075;&#1086;&#1083;&#1086;&#1074;<b>&#1099;</b>... &#1047;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1080; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1074;&#1089;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1081;... 			 				6 			Tu es une brave fille, tu es charmante (tu es le charme), mais ce que tu viens de dire, sors-le (toi) de la t&#234;te... Oublie-[le] et ne t'en souviens jamais ...  		 			11 			&#1048; &#1074;&#1086;&#1086;&#1073;&#1097;<b>&#1077;</b>: &#1090;&#1099; &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083;&#1072;, &#1072; &#1103; &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1077; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;... &#1042;&#1086;&#1090; &#1090;&#1072;&#1082;. 			 			Et m&#234;me (en g&#233;n&#233;ral), tu n'as rien dit et je n'ai rien entendu... Voil&#224;.  		 			12 			- &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;: &#1071; &#1085;&#1077; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1073;&#1099; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b>. &#1042;&#1099; &#1089;<b>&#1072;</b>&#1084;&#1080; &#1085;<b>&#1072;</b>&#1095;&#1072;&#1083;&#1080;. 			 			Valentine : Je n'aurais jamais rien dit. C'est vous qui avez commenc&#233;.  		 			13 			- &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;: &#1071; &#1087;&#1086;&#1096;&#1091;&#1090;<b>&#1080;</b>&#1083;. (&#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086; &#1074;&#1099;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;) 			 			Chamanov : Je plaisantais. (Valentine sort rapidement)  		 			14 			&#1055;&#1086;&#1089;&#1090;<b>&#1086;</b>&#1081;... &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072;! &#1053;&#1091; &#1074;&#1086;&#1090;... &#1058;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1084;&#1085;&#1077; &#1080; &#1085;&#1077;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1083;&#1086;. 			 				7 			Attends un peu... Valentine ! Allons bon... Il ne me manquait plus que &#231;a.  	 		 			1 			&#1058;&#1099; &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100;?... &#1040; &#1074; &#1082;&#1086;&#1075;<b>&#1086;</b>? : tu es tomb&#233;e amoureuse ? Et de qui ? Ce verbe nous donne l'occasion de vous rappeler comment se conjuguent les verbes pronominaux au pass&#233;. Notez que &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; s'emploie surtout au perfectif pass&#233;.<br /> Masc. : &#1103;, &#1090;&#1099;, &#1086;&#1085; &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1089;&#1103;.<br /> F&#233;m. : &#1103;, &#1090;&#1099;, &#1086;&#1085;<b>&#1072;</b> &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100;.<br /> Plur. : &#1084;&#1099;, &#1074;&#1099;, &#1086;&#1085;<b>&#1080;</b> &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100;.<br /> Ce verbe est souvent accompagn&#233; de la pr&#233;position &#1074; + accusatif. &#1042;&#1072;&#1083;&#1077;&#1085;&#1090;<b>&#1080;</b>&#1085;&#1072; &#1074;&#1083;&#1102;&#1073;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; &#1074; &#1064;&#1072;&#1084;<b>&#1072;</b>&#1085;&#1086;&#1074;&#1072; : Valentine est tomb&#233;e amoureuse de Chamanov.<br /> &#183; &#1053;&#1077; &#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1096;&#1100;? &#1053;&#1091; &#1077;&#1097;&#1105; &#1073;&#1099;! : tu ne le diras pas ?... Bien s&#251;r ! La deuxi&#232;me partie de cette r&#233;plique est typique d'une conversation courante. &#1053;&#1091; &#1077;&#1097;&#1105; &#1073;&#1099; est l'&#233;quivalent de : &#1082;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1085;&#1077;&#1090; (&#1085;&#1077; &#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1096;&#1100;) : bien s&#251;r que non (tu ne le diras pas).  		 			2 			&#1063;&#1090;<b>&#1086;</b>-&#1090;&#1086; &#1103; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1078;&#1077;&#1083;<b>&#1072;</b>&#1102;&#1097;&#1080;&#1093;, L'expression famili&#232;re &#1095;&#1090;<b>&#1086;</b>-&#1090;&#1086;, qui marque l'h&#233;sitation, signifie ici "il me semble que". Vous pouvez dire de la m&#234;me fa&#231;on : &#1095;&#1090;<b>&#1086;</b>-&#1090;&#1086; &#1103; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083; &#1076;&#1072;&#1074;&#1085;<b>&#1086;</b> &#1052;&#1080;&#1093;&#1072;<b>&#1080;</b>&#1083;&#1072; : il me semble que &#231;a fait longtemps que je n'ai pas vu Mikha&#239;l.<br /> &#183; &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090;, &#1090;&#1099; &#1082;&#1086;&#1075;<b>&#1086;</b> &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;? : peut-&#234;tre connais-tu quelqu'un ? &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090; est la variante famili&#232;re de &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100;.  		 			3 			&#1058;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1089;&#1077;&#1088;&#1100;&#1105;&#1079;&#1085;&#1086;? : tu dis cela s&#233;rieusement ? Vous l'avez sans doute d&#233;j&#224; remarqu&#233; : dans une conversation famili&#232;re, il n'est pas rare de raccourcir les phrases. Dans l'exemple que nous avons l&#224;, la phrase compl&#232;te serait : &#1090;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1089;&#1077;&#1088;&#1100;&#1105;&#1079;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1096;&#1100; ?  		 			4 			&#1053;&#1091; &#1074;&#1086;&#1090; &#1077;&#1097;&#1105;! : et puis quoi encore !, allons bon ! Cette r&#233;plique exprime le d&#233;saccord avec un interlocuteur (pourquoi dites-vous cela ?).  		 			5 			Pour confirmer ce qu'ils disent, les Russes emploient souvent des expressions du type &#1086;&#1090;&#1082;&#1088;&#1086;&#1074;<b>&#1077;</b>&#1085;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b> : sinc&#232;rement (parlant) ou &#1095;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b> : honn&#234;tement (parlant). Remarquez la forme &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>, C'est le g&#233;rondif pr&#233;sent du verbe &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100;,<br /> &#183; &#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1093;<b>&#1091;</b>&#1078;&#1077; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1099; &#1085;&#1077; &#1084;&#1086;&#1075;&#1083;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1076;<b>&#1091;</b>&#1084;&#1072;&#1090;&#1100; : tu ne pouvais rien imaginer de pire que moi. &#1061;<b>&#1091;</b>&#1078;&#1077; (pire) est le comparatif de l'adjectif &#1087;&#1083;&#1086;&#1093;<b>&#1086;</b>&#1081; (mauvais). Retenez : &#1087;&#1083;&#1086;&#1093;<b>&#1086;</b>&#1081; : mauvais ; &#1093;<b>&#1091;</b>&#1078;&#1077; : pire.<br /> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1081; : bon ; &#1083;<b>&#1091;</b>&#1095;&#1096;&#1077; : meilleur.  		 			6 			&#1069;&#1090;&#1086; &#1090;&#1099; &#1074;<b>&#1099;</b>&#1073;&#1088;&#1086;&#1089;&#1100; &#1080;&#1079; &#1075;&#1086;&#1083;&#1086;&#1074;<b>&#1099;</b> : enl&#232;ve-toi &#231;a de la t&#234;te / sors-toi &#231;a de la t&#234;te, est plus familier que &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1100; : oublie. &#1054;&#1085; &#1087;&#1086;&#1089;&#1090;&#1072;&#1088;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1074;&#1089;&#1105; &#1074;<b>&#1099;</b>&#1073;&#1088;&#1086;&#1089;&#1080;&#1090;&#1100; &#1080;&#1079; &#1075;&#1086;&#1083;&#1086;&#1074;<b>&#1099;</b> (&#1074;&#1089;&#1105; &#1079;&#1072;&#1073;<b>&#1099;</b>&#1090;&#1100;) : il s'est efforc&#233; de tout se sortir de la t&#234;te (de tout oublier).  		 			7 			&#1055;&#1086;&#1089;&#1090;<b>&#1086;</b>&#1081; : attends un peu, est l'imp&#233;ratif du verbe &#1087;&#1086;&#1089;&#1090;&#1086;<b>&#1103;</b>&#1090;&#1100; (&#224; noter : lorsque &#1087;&#1086;&#1089;&#1090;&#1086;<b>&#1103;</b>&#1090;&#1100; a le sens d'"attendre un peu", il ne s'emploie qu'&#224; l'imp&#233;ratif). &#1055;&#1086;&#1089;&#1090;<b>&#1086;</b>&#1081; est une fa&#231;on famili&#232;re de dire &#1087;&#1086;&#1076;&#1086;&#1078;&#1076;<b>&#1080;</b>.<br /> &#183; &#1058;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1080; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1084;&#1085;&#1077; &#1080; &#1085;&#1077; &#1085;&#1077;&#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1074;<b>&#1072;</b>&#1083;&#1086; : il ne me manquait plus que &#231;a ! Vous pourriez trouver &#233;galement l'expression &#233;quivalente : &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1101;&#1090;&#1086;&#1075;&#1086; &#1084;&#1085;&#1077; &#1080; &#1085;&#1077; &#1093;&#1074;&#1072;&#1090;<b>&#1072;</b>&#1083;&#1086;.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

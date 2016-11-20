@@ -1,0 +1,3 @@
+var tabPhrasesText = new Array();	var tabNotes = new Array();  	 	 	 	 	tabPhrasesText[0]=new Array(3); tabPhrasesText[0][0]='<b>&#1064;&#1077;&#1089;&#1090;&#1100;&#1076;&#1077;&#1089;&#1103;&#1090; &#1090;&#1088;&#1077;&#1090;&#1080;&#1081; &#1091;&#1088;&#1086;&#1082; </b> 		';  		tabPhrasesText[0][1]='<b>Soixante-troisi&#232;me le&#231;on</b> 		'; 		tabPhrasesText[0][2]=''; 		 	tabPhrasesText[1]=new Array(3); tabPhrasesText[1][0]='<b>R&#201;VISION ET NOTES</b>'; 	tabPhrasesText[1][1]=''; 		tabPhrasesText[1][2]=''; 		tabNotes[1]='';  	 		 		 	
+	var commentaire = '';
+	

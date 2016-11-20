@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Le titre de cette le&#231;on est encourageant, n'est</i>-<i>ce pas? Soyez</i>-<i>en s&#251;r, ce sera bient&#244;t &#233;galement votre cas... Aujourd'hui vous apprendrez &#224; demander &#224; votre interlocuteur ce qu'il est en train de faire, quelle langue il parle, que signifie tel ou tel mot en russe.</i> 		</p> 	<h3>
+		&#1071; &#1074;&#1089;&#1105; &#1087;&#1086;&#1085;&#1080;&#1084;&#1072;&#1102;!
+		Ia vsio panimaiou! 
+		Je comprends tout ! 		</h3> 	 		 			1 			- &#1063;&#1090;&#1086; &#1090;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1096;&#1100;? 			Cht<b>o</b> ty d<b>ie</b>la&#239;ch?  			 				1 			Que fais-tu (Que tu fais) ?  		 			2 			- &#1059;&#1095;&#1091; &#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082;. 			Outch<b>ou</b> angl<b>i</b>&#239;ski&#239; i&#233;z<b>y</b>k.  			 				2 			[J'] apprends l'anglais (la langue anglaise).  		 			3 			- &#1058;&#1099; &#1091;&#1078;<b>&#1077;</b> &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1096;&#1100; &#1087;&#1086;-&#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;? 			Ty ouj<b>&#232;</b> gavar<b>i</b>ch' pa-angl<b>i&#239;</b>ski?  			 				3 			Tu parles d&#233;j&#224; anglais (Tu d&#233;j&#224; parles en anglais) ?  		 			4 			- &#1053;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1075;&#1086;&#1074;&#1086;<b>&#1088;</b>&#1102;, &#1085;&#1086; &#1074;&#1089;&#1105; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;. 			Nimn<b>o</b>ga gavar<b>iou</b>, no vsio panim<b>a</b>iou.  			 			[Je] parle un peu, mais [je] comprends tout (Un peu [je] parle, mais tout [je] comprends).  		 			5 			- &#1058;&#1099; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100; &#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082;? 			Ty zn<b>a</b>&#239;ch frants<b>ou</b>sski&#239; i&#233;z<b>y</b>k?  			 			Tu connais le fran&#231;ais (la langue fran&#231;aise) ?  		 			6 			- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1079;&#1085;<b>&#1072;</b>&#1102;. 			Kan<b>ie</b>chna, zn<b>a</b>iou.  			 			Bien s&#251;r. [Je] [le] connais.  		 			7 			- &#1040; &#1050;&#1072;&#1082; &#1087;&#1086;-&#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080; "&#1087;&#1086;&#1082;<b>&#1072;</b>"? 			A kak pa-frants<b>ou</b>sski "pak<b>a</b>"?  			 				4 			Et comment [dit-on] en fran&#231;ais &#1087;&#1086;&#1082;<b>&#1072;</b>?  		 			8 			- "&#1055;&#1086;&#1082;<b>&#1072;</b>" &#1087;&#1086;-&#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080; "&#1095;&#1072;&#1086;". 			"Pak<b>a</b>" pa-frants<b>ou</b>sski "tch<b>a</b>o".  			 			&#1055;&#1086;&#1082;<b>&#1072;</b> en fran&#231;ais [se dit] "tchao".  		 			9 			- &#1053;&#1086; 				<b>&#1079;</b>&#1090;&#1086; &#1087;&#1086;-&#1080;&#1090;&#1072;&#1083;&#1100;<b>&#1103;</b>&#1085;&#1089;&#1082;&#1080;! 			N<b>o &#232;</b>ta pa-ital<b>ia</b>nski!  			 			Mais c'[est] de l'italien (en italien) !  		 			10 			- &#1055;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;? &#1047;&#1085;<b>&#1072;</b>&#1095;&#1080;&#1090;, &#1103; &#1079;&#1085;<b>&#1072;</b>&#1102; &#1080; &#1080;&#1090;&#1072;&#1083;&#1100;<b>&#1103;</b>&#1085;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082;! 			Pr<b>a</b>vda? Zn<b>a</b>tchit, ia zn<b>a</b>iou i ital<b>ia</b>nski&#239; i&#233;z<b>y</b>k!  			 				5 			[C'est] vrai ? Alors, [je] connais aussi l'italien !  		 			11 			- &#1042;&#1089;&#1105; 				<b>&#1103;</b>&#1089;&#1085;&#1086;! &#1044;&#1086; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1080;! 			Vsio <b>ia</b>sna! Da fstr<b>ie</b>tchi!  			 			Tout &#224; fait (Tout est clair) ! &#192; la prochaine (&#192; la rencontre) !  		 			12 			- &#1055;&#1086;&#1082;<b>&#1072;</b>! 			Pak<b>a</b>!  			 				6 			Salut !  		 			 				<b>2 </b> 				&#1103; non accentu&#233; se prononce "i&#233;" : &#1103;&#1079;<b>&#1099;</b>&#1082; (i&#233;z<b>y</b>k).  			 				<b>4 </b> 				N'oubliez pas qu'un mot ou un verbe compos&#233; d'une seule syllabe est souvent accentu&#233; : &#1085;&#1086; (no).  			 				<b>5 </b> 				Le groupe de lettres &#1079;&#1089;, par exemple dans &#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080;&#1081; (frantsousski&#239;), se prononce comme un s prolong&#233;.  	 		 			1 			&#1063;&#1090;&#1086; &#1090;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1096;&#1100;? est la formule que vous utiliserez en tutoyant votre interlocuteur. Si vous le vouvoyez, vous lui demanderez : &#1063;&#1090;&#1086; &#1074;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1077;? (Chto vy diela&#239;ti?) : Que faites-vous ?  		 			2 			Dans une conversation courante, on peut omettre les pronoms personnels : (&#1071;) &#1091;&#1095;&#1091; &#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : j'apprends l'anglais.  		 			3 			Comparez cette phrase &#224; celles que vous connaissez d&#233;j&#224; : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"><p></p></td> 							<td class="centre"><p>&#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082;</p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>&#1071; &#1091;&#1095;&#1091; (&#1103; &#1079;&#1085;<b>&#1072;</b>&#1102;)  </p></td> 							<td class="centre"><p>&#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;&#1099;&#1082; </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p></p></td> 							<td class="centre"><p>&#1080;&#1090;&#1072;&#1083;&#1100;<b>&#1103;</b>&#1085;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>et </p></td> 							<td class="centre"><p></p></td></tr> 						<tr class="centre"> 							<td class="centre"><p></p></td> 							<td class="centre"><p>&#1087;&#1086;-&#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080; </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p>&#1071; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1102;</b> </p></td> 							<td class="centre"><p>&#1087;&#1086;-&#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080; </p></td></tr> 						<tr class="centre"> 							<td class="centre"><p></p></td> 							<td class="centre"><p>&#1087;&#1086;-&#1080;&#1090;&#1072;&#1083;&#1100;<b>&#1103;</b>&#1085;&#1089;&#1082;&#1080; </p></td></tr></tbody></table><br />Les verbes &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100; (parler) et &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1090;&#1100; (comprendre) sont suivis d'un adverbe et les verbes &#1091;&#1095;<b>&#1080;</b>&#1090;&#1100; (apprendre) et &#1079;&#1085;&#1072;&#1090;&#1100; (conna&#238;tre) sont suivis d'un adjectif et d'un nom. Retenez bien ces deux constructions.  		 			4 			&#1040; &#1082;&#1072;&#1082; &#1087;&#1086;-&#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080; (&#1087;&#1086;-&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;, &#1087;&#1086;-&#1072;&#1085;&#1075;&#1083;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;) : Et comment dit-on en... ? C'est l&#224; une phrase indispensable lorsqu'on apprend une langue ! Retenez-la bien ! !<br /> &#1050;&#1072;&#1082; &#1087;&#1086;-&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080; "th&#233;&#226;tre"? : Comment dit-on th&#233;&#226;tre en russe ? &#1055;&#1086;-&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;, "th&#233;&#226;tre" - &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; : En russe, th&#233;&#226;tre se dit "&#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;".  		 			5 			En russe, "&#1080;" peut avoir plusieurs sens, dont celui de "et". Mais ici il convient de le traduire par "aussi".  		 			6 			&#1055;&#1086;&#1082;<b>&#1072;</b> est l'&#233;quivalent de "salut !", formule d'adieu ("Salut !", formule d'accueil, se dit autrement). &#192; n'utiliser donc qu'avec certaines r&#233;serves et pas en s'adressant &#224; n'importe qui !  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

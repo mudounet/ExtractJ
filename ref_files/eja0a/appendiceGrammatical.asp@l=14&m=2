@@ -1,0 +1,4541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script type="text/Javascript" src="js/grammaire.js"></script>
+<link rel="stylesheet" href="../assimilV2Commun/sheets/commonStyle.css" type="text/css" />
+<title>Le russe sans peine - Grammaire</title>
+<style type="text/css">
+div#conteneur {
+    background-image : url('images/FdAnxGramRus.gif');
+
+	}
+span#cache{
+	position:absolute;
+	height: 30px;
+	width : 60px;
+	left:410px;
+	background-color : #E0E6D7;
+	z-index:11;
+}
+div#lexique{
+	position:absolute;
+	top:99px;
+	left:565px;
+	width:180px;
+	height:20px;
+}
+
+
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+	z-index:1;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:194px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+.centre{
+	font-size:10px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	text-align:left;
+	}
+
+
+h1{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2{
+	font-size:14px;
+	}
+h3{
+	font-size:14px;
+	}
+table.principal{
+	background-color:#FEFFED;
+	border:0px;
+	z-index:1;
+	}
+	
+table.centre{
+	width:95%;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+
+td.centre{
+	font-size:14px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:3px;
+	}
+a{	color:#AD230C;
+	text-decoration:none;}
+a:visited{	color:#AD230C;
+	text-decoration:underline;}
+a:hover{	color:#AD230C;
+	text-decoration:none;}
+a.retour{
+	font-size:10px;
+	}
+p{font-size:12px;}
+@media print{
+	div{display;none;}
+	div#conteneur{
+		top:7cm;
+		left:9cm;
+	
+	}
+	div#central{display:block;
+		top:1cm;
+		left:1cm;
+		height:100%;
+		width:16cm;
+		overflow:visible;
+	text-align:center;
+	page-break-inside:avoid;
+	}
+	p{page-break-inside:avoid;}
+	table.centre{page-break-inside:avoid;}
+	@page {size: portrait;} 
+}
+.imgHaut{float:right;}
+	
+</style>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+<div id="lexique"><a href="javascript:lexiqueRF();" onmousedown="document.getElementById('Lex').src ='../assimilV2Commun/images/annexes/AnxGramLex-down.gif'" onmouseover="document.getElementById('Lex').src='../assimilV2Commun/images/annexes/AnxGramLex-over.gif'" onmouseout="document.getElementById('Lex').src='../assimilV2Commun/images/blank.gif'" title="Lexiques" ><img height="20" src="../assimilV2Commun/images/blank.gif" width="180" id="Lex" alt="Lexiques" /></a></div>
+<div id="central" class="centre">
+<!-- -->	
+<a name="haut" title=""></a>
+<h1>APPENDICE GRAMMATICAL</h1>
+	<p class="liste"><a href="#nom"><b class="liste">Le nom</b></a>
+		<ul type="square">
+		<li><b>Déclinaison masculine</b></li>
+		<li><b>Déclinaison féminine </b></li>
+		<li><b>Déclinaison neutre </b></li>
+		<li><b>Cas particuliers </b></li>
+		</ul>
+	</p>
+	<p class="liste">
+		<a href="#diminutif"><b class="liste">Diminutifs et augmentatifs</b></a>
+	</p>
+	<p><a href="#pronom"><b class="liste">Le pronom et l&#39;adjectif pronominal</b></a>
+		<ul type="square">
+		<li><b>Pronoms personnels </b></li>
+		<li><b>Le pronom réfléchi себя</b></li>
+		<li><b>Pronoms et adjectifs possessifs</b></li>
+		<li><b>Pronoms et adjectifs démonstratifs</b></li>
+		<li><b>Pronoms et adjectifs interrogatifs-relatifs</b></li>
+		<li><b>Pronoms et adjectifs définis</b></li>
+		<li><b>Pronoms et adjectifs indéfinis</b></li>
+		<li><b>Pronoms et adjectifs négatifs</b></li>
+		</ul>
+	</p>
+	<p><a href="#adjectif"><b class="liste">L&#39;adjectif</b></a>
+		<ul type="square">
+		<li><b>Terminaisons des adjectifs</b></li>
+		<li><b>Déclinaison</b></li>
+		<li><b>Expression de l&#39;attribut</b></li>
+		<li><b>Les degrés de comparaison de l&#39;adjectif et de l&#39;adverbe</b></li>
+		<li><b>Le comparatif</b></li>
+		<li><b>Le superlatif absolu (le plus...)</b></li>
+		<li><b>Le superlatif relatif (très...)</b></li>
+		<li><b>Les diminutifs</b></li>
+		</ul>
+	</p>
+	<p>
+		<a href="#nombres"><b class="liste">Les noms de nombre</b></a>
+	</p>
+	<p><a href="#verbes"><b class="liste">Le verbe </b></a>
+		<ul type="square">
+		<li><b>Aspect</b></li>
+		<li><b>Conjugaison</b></li>
+		<li><b>Tableau récapitulatif de la conjugaison 520 au présent (ou 
+		présent - futur simple)</b></li>
+		</ul>
+	</p>
+	<p>
+		<a href="prepositions"><b class="liste">Les prépositions</b></a>
+	</p>
+	<p>
+		<a href="#adverbe"><b class="liste">L&#39;adverbe</b></a>
+	</p>
+
+<p>
+La langue russe n&#39;a pas d&#39;article. Elle a trois genres : le masculin, le féminin 
+et le neutre qui se distinguent par leur terminaison dans les noms, les 
+adjectifs et en partie dans les pronoms. De plus, on distingue dans tous les 
+noms et les adjectifs russes le type dur et le type mou. </p>
+
+<p>
+<b> Déclinaison.</b>
+ - On appelle déclinaison les modifications obtenues dans les terminaisons des 
+noms, adjectifs, pronoms et noms de nombre après une série de questions 
+réparties en six cas. Ces cas sont : </p>
+
+<p>
+<b> Nominatif. </b>
+- Cas sujet et attribut, jamais précédé d&#39;une préposition : <i> qui est</i> -<i> ce qui ou qu&#39;est</i> -<i> ce que ?</i>  </p>
+
+<p>
+<b> Génitif. </b>
+- Cas de provenance, complément de nom, partitif, après négation : <i> de qui, 
+de quoi ?</i>  </p>
+
+<p>
+<b> Datif. </b>
+- Cas d&#39;attribution : <i> à qui, à quoi ?</i>  </p>
+
+<p>
+<b> Accusatif.</b>
+ - Cas du complément direct, sans préposition <i> qui, quoi ? </i> Après verbes de mouvement avec préposition : question <i> où ?</i>  </p>
+
+<p>
+<b> Instrumental. </b>
+- Cas exprimant le moyen ou l&#39;instrument : <i> par qui, par quoi ? </i> Exprime parfois aussi l&#39;attribut. </p>
+
+<p>
+<b> Prépositionnel ou locatif. </b>
+- Toujours précédé d&#39;une préposition : <i> où ? </i> (sans mouvement) ; <i> au sujet de qui </i> ou <i> de quoi ?</i>  </p>
+
+<p>
+Chacun de ces cas s&#39;emploie indépendamment, sans préposition (excepté le 
+prépositionnel) ; mais ils peuvent aussi tous, sauf le nominatif, être régis par 
+une préposition qui en change un peu le sens ou le précise davantage. </p>
+<a name="nom" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>LE NOM</b></h1>
+
+<p>
+Comme le russe n&#39;a pas d&#39;article, on reconnaît le genre d&#39;un nom d&#39;après sa 
+terminaison. </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th><i> Type dur </i>  </th>
+<th><i> Type mou </i> </th></tr>
+<tr>
+<td class="centre">Masculin  </td>
+<td class="centre">consonne dure  </td>
+<td class="centre">й, ь </td></tr>
+<tr>
+<td class="centre">Féminin  </td>
+<td class="centre">а  </td>
+<td class="centre">я, ь </td></tr>
+
+<tr>
+<td class="centre">Neutre  </td>
+<td class="centre">о  </td>
+<td class="centre">е, мя </td></tr>
+</table>
+
+<p>
+On voit cependant que le ь est commun au masculin et au féminin. Pour savoir le 
+genre de ces noms, il faut en connaître le génitif singulier : я pour le masc. ; 
+и pour le féminin. </p>
+
+<p>
+Notons également qu&#39;il y a des substantifs en -а et -я qui sont de genre (réel) 
+masculin : c&#39;est-à-dire qu&#39;ils se déclineront sur le modèle des substantifs 
+féminins en -а et -я mais seront masculins. Nous dirons : этот юноша (ce jeune 
+homme) ; мой папа, твой добрый дядя. Il s&#39;agit d&#39;individus du sexe masculin. </p>
+
+<p>
+<i> Observation importante : </i> Il faut distinguer les noms animés (êtres vivants) et les inanimés (choses). 
+Pour les premiers, au masculin, l&#39;accusatif est semblable au génitif (singulier 
+et pluriel) ; au féminin, l&#39;accusatif ne sera semblable au génitif qu&#39;au 
+pluriel. </p>
+
+<p>
+Pour les seconds, l&#39;accusatif est semblable au nominatif dans les mêmes 
+circonstances. </p>
+
+<h2>
+<b> Déclinaison masculine</b>
+ </h2>
+
+<p>
+Type dur en consonne dure </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier </i>  </th>
+<th colspan="2"><i> Pluriel</i>  </th></tr>
+<tr>
+<th></th>
+<th><i> Inanimé</i>   </th>
+<th><i> Animé</i>   </th>
+<th><i> Inanimé</i>   </th>
+<th><i> Animé</i>  </th></tr>
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">стол  </td>
+<td class="centre">француз  </td>
+<td class="centre">стол-ы  </td>
+<td class="centre">француз-ы </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (table) </i> </td>
+<td class="centre"><i> (un Français)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">стол-а  </td>
+<td class="centre">француз-а  </td>
+<td class="centre">стол-ов  </td>
+<td class="centre">француз-ов </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">стол-у  </td>
+<td class="centre">француз-у  </td>
+<td class="centre">стол-ам  </td>
+<td class="centre">француз-ам </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">стол  </td>
+<td class="centre">француз-а  </td>
+<td class="centre">стол-ы  </td>
+<td class="centre">француз-ов </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">стол-ом  </td>
+<td class="centre">француз-ом  </td>
+<td class="centre">стол-ами  </td>
+<td class="centre">француз-ами </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о стол-е  </td>
+<td class="centre">о француз-е  </td>
+<td class="centre">о стол-ах  </td>
+<td class="centre">о француз-ах </td></tr>
+
+</table>
+
+<p>
+Les masculins terminés en ж, ш, щ et ч ont le génitif pluriel en -ей. Ключ 
+(clé), ключей. </p>
+
+<p>
+Type mou en <b> -й</b>
+ </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier </i>  </th>
+<th colspan="2"><i> Pluriel </i> </th></tr>
+<tr>
+<th></th>
+<th><i> Inanimé</i>   </th>
+<th><i> Animé </i>  </th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé</i>  </th></tr>
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">сара-й  </td>
+<td class="centre">геро&#39;-й  </td>
+<td class="centre">сара-й  </td>
+<td class="centre">геро-и </td></tr>
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (grange)</i> </td>
+<td class="centre"><i> (héros)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">сара-я  </td>
+<td class="centre">геро-я  </td>
+<td class="centre">сара-ев  </td>
+<td class="centre">геро-ев </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">сара-ю  </td>
+<td class="centre">геро-ю  </td>
+<td class="centre">сара-ям  </td>
+<td class="centre">геро-ям </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">сара-й  </td>
+<td class="centre">геро-я  </td>
+<td class="centre">сара-й  </td>
+<td class="centre">геро-ев </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">сара-ем  </td>
+<td class="centre">геро-ем  </td>
+<td class="centre">сара-ями  </td>
+<td class="centre">геро-ями </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о сара-е  </td>
+<td class="centre">о геро-е  </td>
+<td class="centre">о сара-ях  </td>
+<td class="centre">о геро-ях </td></tr>
+
+</table>
+
+<p>
+Les noms masculins en -ий ont au prépositionnel singulier -ии : гений (génie), 
+гении. </p>
+
+<p>
+Type mou en <b> -ь</b>
+ </p>
+
+<table class="centre">
+
+
+
+
+
+
+
+
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier</i>   </th>
+<th colspan="2"><i> Pluriel </i> </th></tr>
+
+<tr>
+<th></th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé </i>  </th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé </i> </th></tr>
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">двигател-ь  </td>
+<td class="centre">писател-ь  </td>
+<td class="centre">двигател-и  </td>
+<td class="centre">писател-и </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (moteur)</i> </td>
+<td class="centre"><i> (écrivain)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">двигател-я  </td>
+<td class="centre">писател-я  </td>
+<td class="centre">двигател-ей  </td>
+<td class="centre">писател-ей </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">двигател-ю  </td>
+<td class="centre">писател-ю  </td>
+<td class="centre">двигател-ям  </td>
+<td class="centre">писател-ям </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">двигател-ь  </td>
+<td class="centre">писател-я  </td>
+<td class="centre">двигател-и  </td>
+<td class="centre">писател-ей </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">двигател-ем  </td>
+<td class="centre">писател-ем  </td>
+<td class="centre">двигател-ями  </td>
+<td class="centre">писател-ями </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о двигател-е  </td>
+<td class="centre">о писател-е  </td>
+<td class="centre">о двигател-ях  </td>
+<td class="centre">о писател-ях </td></tr>
+
+</table>
+
+<h2>
+<b> Déclinaison féminine</b>
+ </h2>
+
+<p>
+Type dur en <b> -a</b>
+ </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier</i>   </th>
+<th colspan="2"><i> Pluriel</i>  </th></tr>
+
+<tr>
+<th></th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé</i>   </th>
+<th><i> Inanimé</i>   </th>
+<th><i> Animé</i>  </th></tr>
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">вод-а  </td>
+<td class="centre">коров-а  </td>
+<td class="centre">вод-ы  </td>
+<td class="centre">коров-ы </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (eau)</i> </td>
+<td class="centre"><i> (vache)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">вод-ы  </td>
+<td class="centre">коров-ы  </td>
+<td class="centre">вод  </td>
+<td class="centre">коров </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">вод-е  </td>
+<td class="centre">коров-е  </td>
+<td class="centre">вод-ам  </td>
+<td class="centre">коров-ам </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">вод-у  </td>
+<td class="centre">коров-у  </td>
+<td class="centre">вод-ы  </td>
+<td class="centre">коров </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">вод-ой (ою)  </td>
+<td class="centre">коров-ой (ою)  </td>
+<td class="centre">вод-ами  </td>
+<td class="centre">коров-ами </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о вод-е  </td>
+<td class="centre">о коров-е  </td>
+<td class="centre">о вод-ах  </td>
+<td class="centre">о коров-ах </td></tr>
+
+</table>
+
+<p>
+Type mou en <b> -я </b>
+ </p>
+
+<table class="centre">
+
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier</i>   </th>
+<th colspan="2"><i> Pluriel </i> </th></tr>
+<tr>
+<th></th>
+<th><i> Inanimé</i>   </th>
+<th><i> Animé </i>  </th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé</i>  </th></tr>
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">бур-я  </td>
+<td class="centre">нян-я  </td>
+<td class="centre">бур-и  </td>
+<td class="centre">нян-и </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (tempête)</i> </td>
+<td class="centre"><i> (bonne)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">бур-и  </td>
+<td class="centre">нян-и  </td>
+<td class="centre">бур-ь  </td>
+<td class="centre">нян-ь </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">бур-е  </td>
+<td class="centre">нян-е  </td>
+<td class="centre">бур-ям  </td>
+<td class="centre">нян-ям </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">бур-ю  </td>
+<td class="centre">нян-ю  </td>
+<td class="centre">бур-и  </td>
+<td class="centre">нян-ь </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">бур-ей  </td>
+<td class="centre">нян-ей  </td>
+<td class="centre">бур-ями  </td>
+<td class="centre">нян-ями </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о бур-е  </td>
+<td class="centre">о нян-е  </td>
+<td class="centre">о бур-ях  </td>
+<td class="centre">о нян-ях </td></tr>
+
+</table>
+
+<p>
+Les noms féminins en -ия ont au datif et au prépositionnel singulier -ии et au 
+génitif pluriel -ий : </p>
+
+<p>
+линия - лин-ии- лин-ий. </p>
+
+<p>
+Type mou en <b> -ь</b>
+ </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th colspan="2"><i> Singulier</i>   </th>
+<th colspan="2"><i> Pluriel</i>  </th></tr>
+
+<tr>
+<th></th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé </i>  </th>
+<th><i> Inanimé </i>  </th>
+<th><i> Animé </i> </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">кост-ь  </td>
+<td class="centre">лошад-ь  </td>
+<td class="centre">кост-и  </td>
+<td class="centre">лошад-и </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (os) </i> </td>
+<td class="centre"><i> (cheval)</i> </td>
+<td class="centre"></td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">кост-и  </td>
+<td class="centre">лошад-и  </td>
+<td class="centre">кост-ей  </td>
+<td class="centre">лошад-ей </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">кост-и  </td>
+<td class="centre">лошад-и  </td>
+<td class="centre">кост-ям  </td>
+<td class="centre">лошад-ям </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">кост-ь  </td>
+<td class="centre">лошад-ь  </td>
+<td class="centre">кост-и  </td>
+<td class="centre">лошад-ей </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">кост-ью  </td>
+<td class="centre">лошад-ью  </td>
+<td class="centre">кост-ями  </td>
+<td class="centre">лошад-ями </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о кост-и  </td>
+<td class="centre">о лошад-и  </td>
+<td class="centre">о кост-ях  </td>
+<td class="centre">о лошад-ях </td></tr>
+
+</table>
+
+<h2>
+<b> Déclinaison neutre</b>
+ </h2>
+
+<p>
+Type dur en <b> -o</b>
+ </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th><i> Singulier </i>  </th>
+<th><i> Pluriel</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">дел-о <i> (affaire) </i> </td>
+<td class="centre">дел-а </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">дел-а  </td>
+<td class="centre">дел </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">дел-у  </td>
+<td class="centre">дел-ам </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">дел-о  </td>
+<td class="centre">дел-а </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">дел-ом  </td>
+<td class="centre">дел-ами </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о дел-е  </td>
+<td class="centre">о дел-ах </td></tr>
+
+</table>
+
+<p>
+Remarquons que les neutres en -це ou chuintante -e ont un génitif pluriel en 
+désinence zéro : сердец, de сердце. </p>
+
+<p>Type mou en <b> -е</b> et en <b> -мя</b></p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">мор-е <i> (mer)</i> </td>
+<td class="centre">им-я <i> (nom)</i> </td>
+<td class="centre">мор-я  </td>
+<td class="centre">имен-а </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">мор-я  </td>
+<td class="centre">имен-и  </td>
+<td class="centre">мор-ей  </td>
+<td class="centre">имён </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">мор-ю  </td>
+<td class="centre">имен-и  </td>
+<td class="centre">мор-ям  </td>
+<td class="centre">имен-ам </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">мор-е  </td>
+<td class="centre">им-я  </td>
+<td class="centre">мор-я  </td>
+<td class="centre">имен-а </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">мор-ем  </td>
+<td class="centre">имен-ем  </td>
+<td class="centre">мор-ями  </td>
+<td class="centre">имен-ами </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о мор-е  </td>
+<td class="centre">об имен-и  </td>
+<td class="centre">о мор-ях  </td>
+<td class="centre">об имен-ах </td></tr>
+
+</table>
+
+<p>
+Les noms neutres en -ие ont au prépositionnel singulier -ии et au génitif 
+pluriel -ий. </p>
+
+<p>
+Ceux en -ье font par analogie le génitif pluriel en -ий, sauf quelques-uns : 
+платье (robe), génitif pluriel : платьев. </p>
+
+<h2>
+<b> Cas particuliers</b>
+ </h2>
+
+<p>
+<b> 1. </b>
+L&#39;incompatibilité des gutturales - г, к, х - et des chuintantes - ж, ч, ш, щ - 
+avec ы, ю, я, remplacés par и, у, а, joue un grand rôle dans la déclinaison. 
+Exemples : </p>
+
+<table class="centre">
+
+
+
+
+
+
+<tr>
+<td class="centre">муха <i> (mouche)</i> </td>
+<td class="centre">fera au génitif:  </td>
+<td class="centre">мухи. </td></tr>
+
+<tr>
+<td class="centre">книга  </td>
+<td class="centre">-  </td>
+<td class="centre">книги </td></tr>
+
+<tr>
+<td class="centre">рука  </td>
+<td class="centre">-  </td>
+<td class="centre">руки </td></tr>
+
+</table>
+
+<p>
+нож (m.) fera au pluriel ножи </p>
+
+<p>
+ночь (f.) au pluriel nominatif : ночи - datif : ночам, etc. </p>
+
+<p>
+<b> 2. </b>
+Sous l&#39;accent, le -е de l&#39;instrumental (masc. et neutre -ем, fém. -ей) passe à 
+-ё : -ём, -ёй. Ex. : гвоздь <i> (clou) :</i>  гвоздём ; конь <i> (cheval) : </i> конём ; земля <i> (terre) :</i>  землёй ; судья <i> (juge) : </i> судьёй. </p>
+
+<p>
+On a des cas identiques de passage sous l&#39;accent de -е à -ё au nominatif pluriel 
+des féminins : жена <i> (femme) : </i> жёны ; звезда <i> (étoile) : </i> звёзды, et des neutres : село <i> (village):</i>  сёла ; озеро <i> (lac) : </i> озёра. </p>
+
+<p>
+<b> 3. </b>
+Le -о inaccentué de l&#39;instrumental passe après ж, ш, щ, ч et ц à -е : товарищ : 
+товарищем, mais (régulièrement) карандаш <i> (crayon) : </i> карандашом ; Саша <i> (Sacha) :</i>  Сашей, mais душа <i> (âme) : </i> душой. </p>
+
+<p>
+Ce cas se rencontre aussi pour les substantifs terminés en ц, au génitif pluriel 
+: продавец <i> (vendeur) : </i> продавцов, mais иностранец <i> (étranger) : </i> иностранцев. </p>
+
+<p>
+Cette loi nous explique l&#39;existence de сердце <i> (coeur), </i> e après ц en dehors de l&#39;accent en face de лицо (accent sur le o). </p>
+
+<p>
+<b> 4. </b>
+Le génitif masculin singulier en -а, -я est remplacé par -у au sens partitif. </p>
+
+<p>
+Ex. чай <i> (thé), </i> génitif чая, mais чашка чаю <i> (tasse de thé),</i>  сахар <i> (sucre), </i> génitif сахара, mais кусок сахару <i> (morceau de sucre).</i>  </p>
+
+<p>
+табак <i> (tabac), </i> génitif табака, mais пачка табаку <i> (paquet de tabac).</i>  </p>
+
+<p>
+<b> 5. </b>
+De même, le prépositionnel singulier a une autre désinence en -у (-ю) accentuée 
+qui s&#39;emploie seulement après les prépositions в <i> (dans), </i> на <i> (sur) </i> - в лесу, в саду, в году, в Крыму, на носу, на льду, на Дону, на краю : <i> dans 
+la forêt, le jardin, dans l&#39;année, en Crimée,</i>  <i> sur le nez, sur la glace, sur le Don, au bord, </i> etc. </p>
+
+<p>
+<b> 6. </b>
+Lorsque la consonne finale des masculins est précédée d&#39;un -o ou d&#39;un -e, 
+appelées voyelles mobiles, ces voyelles disparaissent à tous les autres cas : 
+отец, отца, отцу, отцом, об отце - pluriel отцы, отцов ... de même орёл <i> 
+(aigle), </i> орла ; лев <i> (lion), </i> льва ; рот <i> (bouche), </i> рта ; уголь <i> (charbon), </i> угля ; лёд <i> (glace), </i> льда ; цветок <i> (fleur), </i> цветка ; наём <i> (emprunt), </i> найма. </p>
+
+<p>
+<b> 7. </b>
+Jusqu&#39;à deux cents noms masculins durs forment leur pluriel non en -ы, mais en 
+-а accentué. </p>
+
+<p>
+Certains mous auront parallèlement un pluriel en <b> -я </b>
+ et non en -и. </p>
+
+<table class="centre">
+
+
+
+
+
+<tr>
+<td class="centre">Ех. берег <i> (rive)</i>  : берега </td>
+<td class="centre">бок <i> (côté)</i>  : бока </td></tr>
+
+<tr>
+<td class="centre">лес <i> (forêt)</i>  : леса  </td>
+<td class="centre">вечер <i> (soir)</i>  : вечера </td></tr>
+
+<tr>
+<td class="centre">город <i> (ville)</i>  : города </td>
+<td class="centre">снег <i> (neige)</i>  : снега </td></tr>
+
+<tr>
+<td class="centre">глаз <i> (oeil)</i>  : глаза  </td>
+<td class="centre">холод <i> (froid)</i>  : холода </td></tr>
+
+<tr>
+<td class="centre">дом <i> (maison)</i>  : дома  </td>
+<td class="centre">край <i> (bord, contrée)</i>  : края </td></tr>
+
+</table>
+
+<p>
+доктор <i> (docteur) : </i> доктора </p>
+
+<p>
+учитель <i> (professeur) : </i> учителя </p>
+
+<p>
+директор <i> (directeur) : </i> директора </p>
+
+<p>
+профессор <i> (professeur dans l&#39;enseignement supérieur) :</i>  профессора </p>
+
+<p>
+<b> 8. </b>
+Quelques noms masculins durs et mous (en -ь) et quelques neutres en -o ont un 
+pluriel irrégulier en -ья, génitif-ев ou -ей. </p>
+
+<p>
+лист <i> (feuille d&#39;arbre) </i> - листья - листьев </p>
+
+<p>
+брат <i> (frère) </i> - братья - братьев </p>
+
+<p>
+стул <i> (chaise) </i> - стулья - стульев </p>
+
+<p>
+клок <i> (lambeau) </i> - клочья - клочьев </p>
+
+<p>
+сук <i> (rameau) </i> - сучья - сучьев </p>
+
+<p>
+дерево <i> (arbre) </i> - деревья - деревьев </p>
+
+<p>
+крыло <i> (aile) </i> крылья - крыльев </p>
+
+<p>
+перо <i> (plume) </i> - перья - перьев </p>
+
+<p>
+друг <i> (ami) </i> - друзья - друзей </p>
+
+<p>
+князь <i> (prince) </i> - князья - князей </p>
+
+<p>
+муж <i> (mari)</i> - мужья - мужей </p>
+
+<p>
+сын <i> (fils) </i> - сыновья - сыновей </p>
+
+<p>
+<b> 9. </b>
+Les noms masculins en -анин (-янин) ont un pluriel en -е : </p>
+
+<p>
+Ex. : крестьянин <i> (paysan) : </i> крестьяне </p>
+
+<p>
+христианин <i> (chrétien) : </i> христиане </p>
+
+<p>
+дворянин <i> (noble) </i> - дворяне </p>
+
+<p>
+господин <i> (monsieur) </i> fait au pluriel господа ; хозяин, хозяева <i> (patron).</i>  </p>
+
+<p>
+Leur génitif pluriel est à désinence zéro ; крестьян, дворян. </p>
+
+<p>
+<b> 10. </b>
+Certains masculins durs ont un génitif pluriel à désinence zéro : раз <i> (fois) </i> раз ; волос <i> (cheveux), </i> волос ; глаз <i> (oeil),</i>  глаз ; сапог <i> (botte), </i> сапог ; солдат <i> (soldat), </i> солдат. </p>
+
+<p>
+<b> 11. </b>
+Les noms masculins désignant les petits d&#39;êtres vivants en -ёнок (-онок) 
+remplacent ce suffixe au pluriel par -ята (-ата). </p>
+
+<p>
+Ex. : ребёнок <i> (enfant) </i> - ребята </p>
+
+<p>
+цыплёнок <i> (poussin) : </i> цыплята </p>
+
+<p>
+ягнёнок <i> (agneau) : </i> ягнята </p>
+
+<p>
+телёнок <i> (veau) : </i> телята </p>
+
+<p>
+волчонок <i> (louveteau) : </i> волчата </p>
+
+<p>
+медвежонок <i> (ourson) : </i> медвежата </p>
+
+<p>
+жеребёнок <i> (poulain) : </i> жеребята. </p>
+
+<p>
+<b> 12. </b>
+Certains noms masculins en -ей perdent le -е et intercalent un -ь dans tous les 
+cas de leur déclinaison. Ce -е est en fait une voyelle mobile. </p>
+
+<p>
+Ex. : соловей, соловья, соловьи <i> (rossignol) ; </i> ручей, ручья, ручьи <i> (source) ; </i> муравей, муравья, муравьи <i> (fourmi) ; </i> воробей, воробья, воробьи <i> (moineau) ; </i> mais злодей, злодея <i> (malfaiteur).</i>  </p>
+
+<p>
+<b> 13. </b>
+Quelques noms masculins ont deux pluriels à signification différente : </p>
+
+<table class="centre">
+
+
+
+
+
+
+<tr>
+<td class="centre">Ex.  </td>
+<td class="centre">лист -  </td>
+<td class="centre">листы <i> (feuilles de papier)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">листья <i> (feuilles d&#39;arbre)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">образ -  </td>
+<td class="centre">образы <i> (forme, image)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">образа <i> (icônes, images saintes)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">хлеб -  </td>
+<td class="centre">хлебы <i> (pains, miches)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">хлеба <i> (céréales, blés)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">цвет -  </td>
+<td class="centre">цветы <i> (fleurs)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">цвета <i> (couleurs)</i> </td></tr>
+
+</table>
+
+<p>
+<b> 14. </b>
+Certains noms féminins dont le radical se termine par deux consonnes intercalent 
+un -е ou -о au génitif pluriel (voyelles mobiles). </p>
+
+<p>
+Ex. : земля <i> (terre), </i> земель - овца <i> (brebis), </i> овец </p>
+
+<p>
+кошка <i> (chatte), </i> кошек </p>
+
+<p>
+D&#39;autre part, il y a des féminins en -ь qui ont un -о mobile au nominatif, à 
+l&#39;accusatif et à l&#39;instrumental, qui disparaît aux autres cas : </p>
+
+<table class="centre">
+
+
+
+
+
+
+
+<tr>
+<td class="centre">Ex.  </td>
+<td class="centre">N.  </td>
+<td class="centre">рожь <i> (seigle)</i> </td>
+<td class="centre">любовь <i> (amour)</i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">G.  </td>
+<td class="centre">ржи  </td>
+<td class="centre">любви </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">D.  </td>
+<td class="centre">ржи  </td>
+<td class="centre">любви </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">A.  </td>
+<td class="centre">рожь  </td>
+<td class="centre">любовь </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">I.  </td>
+<td class="centre">рожью  </td>
+<td class="centre">любовью </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">P.  </td>
+<td class="centre">о ржи  </td>
+<td class="centre">о любви </td></tr>
+
+</table>
+
+<p>
+<b> 15. </b>
+Tous les féminins en consonne -ня, au lieu d&#39;avoir un génitif pluriel en -нь, 
+ont la désinence -н : башня <i> (tour),</i>  башен. </p>
+
+<p>
+Exceptions : деревня <i> (village), </i> деревень et кухня <i> (cuisine), </i> кухонь. </p>
+
+<p>
+<b> 16. </b>
+Les noms féminins en -ья (avec un -я accentué) perdent le -ь au génitif pluriel 
+et prennent la terminaison -ей. Ex. : </p>
+
+<table class="centre">
+
+
+
+
+
+<tr>
+<td class="centre">семья <i> (famille)</i>  - семей  </td>
+<td class="centre">скамья <i> (banc)</i>  - скамей </td></tr>
+
+<tr>
+<td class="centre">статья <i> (article)</i>  - статей  </td>
+<td class="centre">свинья <i> (cochon)</i>  - свиней </td></tr>
+
+</table>
+
+<p>
+<b> 17. </b>
+Certains noms neutres ont aussi un -о ou un -е mobiles à leur génitif pluriel. </p>
+
+<table class="centre">
+
+
+
+
+
+
+<tr>
+<td class="centre">Ex. :  </td>
+<td class="centre">сердце <i> (coeur)</i>  - сердец  </td>
+<td class="centre">окно <i> (fenêtre)</i>  - окон </td></tr>
+
+</table>
+
+<p>
+<b> 18. </b>
+Les noms neutres en -ко ont le nominatif pluriel en -ки : яблоко <i> (pomme), </i> яблоки. </p>
+
+<p>
+Exceptions : облака <i> (nuages) </i> et войска <i> (troupes).</i>  </p>
+
+<p>
+<b> 19. </b>
+Les noms neutres око <i> (oeil), </i> ухо <i> (oreille), </i> плечо <i> (épaule), </i> колено <i> (genou), </i> небо <i> (ciel), </i> чудо <i> (miracle),</i>  ont des pluriels irréguliers : очи, уши, плечи. колени, небеса, чудеса. </p>
+
+<p>
+<b> 20. </b>
+Déclinaison particulière des noms мать, дочь. дитя (livresque pour ребёнок) est 
+le vrai singulier de дети. </p>
+
+<table class="centre">
+<tr>
+<th></th>
+<th colspan="3"><i> Singulier</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">мат-ь <i> (mère)</i> </td>
+<td class="centre">доч-ь <i> (fille)</i> </td>
+<td class="centre">дит-я <i> (enfant)</i> </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">матер-и  </td>
+<td class="centre">дочер-и  </td>
+<td class="centre">дит-яти </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">матер-и  </td>
+<td class="centre">дочер-и  </td>
+<td class="centre">дит-яти </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">мат-ь  </td>
+<td class="centre">доч-ь  </td>
+<td class="centre">дит-я </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">матер-ыо  </td>
+<td class="centre">дочер-ью  </td>
+<td class="centre">дит-ятею </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о матер-и  </td>
+<td class="centre">о дочер-и  </td>
+<td class="centre">о дит-яти </td></tr>
+
+<tr>
+<td></td>
+<td class="centre" colspan="3"><i> Pluriel</i> </td></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">матер-и  </td>
+<td class="centre">дочер-и  </td>
+<td class="centre">дет-и </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">матер-ей  </td>
+<td class="centre">дочер-ей  </td>
+<td class="centre">дет-ей </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">матер-ям  </td>
+<td class="centre">дочер-ям  </td>
+<td class="centre">дет-ям </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">матер-ей  </td>
+<td class="centre">дочер-ей  </td>
+<td class="centre">дет-ей </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">матер-ями  </td>
+<td class="centre">дочер-ьми  </td>
+<td class="centre">дет-ьми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о матер-ях  </td>
+<td class="centre">о дочер-ях  </td>
+<td class="centre">о дет-ях </td></tr>
+
+</table>
+
+<p>
+Le nom человек <i> (homme) </i> a pour pluriel le mot люди, qui se décline sur le modèle de дети. </p>
+
+<p>
+Mais après un nombre et les adverbes de quantité - сколько, несколько - le 
+pluriel de человек sera (à partir du génitif) человек, -ам, -ами... </p>
+
+<p>
+Дети est le pluriel de ребёнок, дитя n&#39;étant plus employé dans la langue 
+contemporaine. Ребята, pluriel formel de ребёнок, signifie <i> les gars.</i>  </p>
+
+<a name="diminutif" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b> DIMINUTIFS ET AUGMENTATIFS</b> </h1>
+
+<p>
+Les diminutifs sont très employés dans la langue russe et ont souvent un sens 
+caressant et affectueux. </p>
+
+<table class="centre">
+<tr>
+<td class="centre">Suffixes  </td>
+<td class="centre"><i> Masculin</i>  :  </td>
+<td class="centre">-ец  </td>
+<td class="centre">брат - братец  </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ик  </td>
+<td class="centre">дом - домик </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ек ou -ок  </td>
+<td class="centre">дурак - дурачок </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> Féminin</i>  :  </td>
+<td class="centre">-ка  </td>
+<td class="centre">нога - ножка </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ица  </td>
+<td class="centre">часть - частица </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-очка  </td>
+<td class="centre">дева - девочка </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ечка  </td>
+<td class="centre">чаша - чашечка </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-енька  </td>
+<td class="centre">мама - маменька </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ушка  </td>
+<td class="centre">сторона - сторонушка </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> Neutre</i>  :  </td>
+<td class="centre">-цо  </td>
+<td class="centre">письмо&#39; - письмецо </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ошко  </td>
+<td class="centre">окно - окошко </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-ышко  </td>
+<td class="centre">гнездо - гнёздышко </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">-юшко  </td>
+<td class="centre">поле - полюшко </td></tr>
+
+</table>
+
+<p>
+Les augmentatifs ont, pour le masculin et le neutre, -ище ou -ина : 1) домище ou 
+домина de дом <i> (grande</i>  <i> baraque) ; </i> 2) детина de дитя (neutre) <i> (enfant énorme).</i>  Pour le féminin, -ища : ручища de рука <i> (grande et</i>  <i> grosse main).</i>  </p>
+<a name="pronom" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>LE PRONOM ET L&#39;ADJECTIF PRONOMINAL</b></h1>
+
+<p>
+Les pronoms russes se répartissent en : personnels, réfléchis, possessifs, 
+démonstratifs, interrogatifs, relatifs, déterminés et indéfinis. Ils se 
+déclinent tous. L&#39;emploi du réfléchi <b> себя, </b>
+du possessif <b> свой, </b>
+de l&#39;interrogatif-relatif <b> чей </b>
+ présente quelques difficultés. Exceptés les pronoms personnels et les 
+relatifs-interrogatifs <b> кто </b>
+et <b> что </b>
+(et leurs dérivés <b> кто</b>
+-<b> то, никто...),</b>
+ toutes les formes que nous verrons sont pronoms et adjectifs. </p>
+
+<h2><b> Pronoms personnels</b> </h2>
+
+<p>Ce sont : я, ты, он, она, оно, мы, вы, они. </p>
+
+<table class="centre">
+<tr>
+<td class="centre" colspan="5"><b><i> Déclinaison</i></b></td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre" colspan="2"><i> 1re personne</i> </td>
+<td class="centre" colspan="2"><i> 2e personne</i> </td></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">я  </td>
+<td class="centre">мы  </td>
+<td class="centre">ты  </td>
+<td class="centre">вы </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">меня  </td>
+<td class="centre">нас  </td>
+<td class="centre">тебя  </td>
+<td class="centre">вас </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">мне  </td>
+<td class="centre">нам  </td>
+<td class="centre">тебе  </td>
+<td class="centre">вам </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">меня  </td>
+<td class="centre">нас  </td>
+<td class="centre">тебя  </td>
+<td class="centre">вас </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">мной (мною)  </td>
+<td class="centre">нами  </td>
+<td class="centre">тобой (тобою)  </td>
+<td class="centre">вами </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">обо мне  </td>
+<td class="centre">о нас  </td>
+<td class="centre">о Тебе  </td>
+<td class="centre">о вас </td></tr>
+</table>
+<table class="centre">
+<tr>
+<td class="centre"></td>
+<td class="centre" colspan="4"><i> 3e personne du singulier</i> </td>
+<td class="centre" rowspan="2"><i>Pluriel<br/>des trois genres </i> </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"colspan="3"><i> Masculin et neutre</i> </td>
+<td class="centre"><i> Féminin</i> </td>
+</tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">он  </td>
+<td class="centre"></td>
+<td class="centre">оно  </td>
+<td class="centre">она  </td>
+<td class="centre">они </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centreC" colspan="3">его  </td>
+<td class="centre">её  </td>
+<td class="centre">их </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centreC" colspan="3">ему  </td>
+<td class="centre">ей  </td>
+<td class="centre">им </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centreC" colspan="3">его  </td>
+<td class="centre">её  </td>
+<td class="centre">их </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centreC" colspan="3">им  </td>
+<td class="centre">ей (ею)  </td>
+<td class="centre">ими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centreC" colspan="3">о нём  </td>
+<td class="centre">о ней  </td>
+<td class="centre">о них </td></tr>
+
+</table>
+
+<p>
+Les formes de la 3e personne de он, она, оно, они dépendant d&#39;une préposition 
+s&#39;écrivent avec un н: Ex. : у него <i> (chez lui), </i> с ним <i> (avec lui), </i> к ней <i> (vers elle), </i> в неё <i> (en elle), </i> на них <i> (sur eux).</i>  </p>
+
+<h2>
+<b> Le pronom réfléchi себя (se, sa)</b>
+ </h2>
+
+<table class="centre">
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">n&#39;existe pas  </td>
+<td class="centre">A.  </td>
+<td class="centre">cебя </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">себя  </td>
+<td class="centre">I.  </td>
+<td class="centre">собой (собою) </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">себе  </td>
+<td class="centre">P.  </td>
+<td class="centre">о себе </td></tr>
+
+</table>
+
+<p>
+Il est commun aux trois personnes du singulier et du pluriel. Ex. : я себе 
+сказал, ты себе сказал, он (она) себе скажет , мы себе скажем : <i> je me suis 
+dit, tu t&#39;es</i>  <i> dit, il (elle) se dira, nous nous dirons, </i> etc. </p>
+
+<p>
+Себя, sous sa forme contractée -ся, -сь, forme les verbes pronominaux en <i> se</i>  soudant à eux. Ex. : драться : <i> se battre ; </i> мыться : <i> se laver.</i>  </p>
+
+<h2>
+<b> Pronoms et adjectifs possessifs</b>
+ </h2>
+
+<p>
+Ce sont : </p>
+
+<p>
+мой, моя, моё, мои : <i> mon, ma mes ;</i>  </p>
+
+<p>
+твой, твоя, твоё, твои : <i> ton, ta, tes ;</i>  </p>
+
+<p>
+свой, своя, своё. свои : <i> son, sa, ses ;</i>  </p>
+
+<p>
+наш, наша, наше, наши : <i> notre, nos ;</i>  </p>
+
+<p>
+ваш, ваша, ваше, ваши : <i> votre, vos.</i>  </p>
+
+<p>
+<b> Свой </b>
+est d&#39;un emploi délicat ; il renvoie toujours au sujet de la proposition pour 
+toutes les personnes. Ex. : я работаю со своими родителями : <i> je travaille 
+avec mes</i>  <i> parents ; </i> ты работаешь со своими братьями <i> tu</i>  <i> travailles avec tes frères ; </i> он работает со своими товарищами ; <i> il travaille avec ses camarades. </i> Le russe rend la possession de la 3e personne par le génitif singulier ou 
+pluriel du pronom personnel - он, она, оно, они - его, её, их <i> (de lui, 
+d&#39;elle, d&#39;eux). </i> Ex. : его дом : <i> sa</i>  <i> maison (à lui) , </i> её лампа : <i> sa lampe (à elle) ; </i> их дети : <i> leurs enfants (à eux).</i>  </p>
+
+<p>
+Déclinaison </p>
+
+<table class="centre">
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre </i>  </th>
+<th><i> Féminin </i>  </th>
+<th><i> Pluriel des trois genres</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">мой, моё  </td>
+<td class="centre">моя  </td>
+<td class="centre">мои </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">моего  </td>
+<td class="centre">моей  </td>
+<td class="centre">моих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">моему  </td>
+<td class="centre">моей  </td>
+<td class="centre">моим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">мой (моего), моё (n.)  </td>
+<td class="centre">мою  </td>
+<td class="centre">мои, моих </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">моим  </td>
+<td class="centre">моей (моею)  </td>
+<td class="centre">моими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о моём  </td>
+<td class="centre">о моей  </td>
+<td class="centre">о моих </td></tr>
+
+</table>
+
+<p>
+On décline de la même manière твой, твоя, твоё, твои et свой, своя, своё, свои, </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel des trois genres </i> </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">наш, наше  </td>
+<td class="centre">наша  </td>
+<td class="centre">наши </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">нашего  </td>
+<td class="centre">нашей  </td>
+<td class="centre">наших </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">нашему  </td>
+<td class="centre">нашей  </td>
+<td class="centre">нашим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">наш, нашего, наше (n.)  </td>
+<td class="centre">нашу  </td>
+<td class="centre">наши, наших </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">нашим  </td>
+<td class="centre">нашей  </td>
+<td class="centre">нашими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">o нашем  </td>
+<td class="centre">o нашей  </td>
+<td class="centre">о наших </td></tr>
+
+</table>
+
+<p>
+On décline de la même manière ваш, ваша, ваше. ваши. </p>
+
+<h2>
+<b> Pronoms et adjectifs démonstratifs</b>
+ </h2>
+
+<p>
+Ce sont : этот, эта, это, эти : <i> celui</i> -<i> ci, celle</i> -<i> ci, ceux</i> -<i> ci,</i>  <i> ce, cette, ces. </i> - тот, та, то, те : <i> celui</i> -<i> là, celle</i> -<i> là, ceux</i> -<i> là.</i>  - такой, такая, такое, такие : <i> tel, telle, tels, telles</i>  - тот же, та же, то же, те же : <i> le même, la même, les mêmes.</i>  </p>
+
+<p>
+Déclinaison </p>
+
+<table class="centre">
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel </i> </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">этот ; это  </td>
+<td class="centre">эта  </td>
+<td class="centre">эти </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">этого  </td>
+<td class="centre">этой  </td>
+<td class="centre">этих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">этому  </td>
+<td class="centre">этой  </td>
+<td class="centre">этим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">этот, этого ; это (n.)  </td>
+<td class="centre">эту  </td>
+<td class="centre">эти, этих </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">этим  </td>
+<td class="centre">этой (этою)  </td>
+<td class="centre">этими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">об этом  </td>
+<td class="centre">об этой  </td>
+<td class="centre">об этих </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> Masculin et neutre</i> </td>
+<td class="centre"><i> Féminin</i> </td>
+<td class="centre"><i> Pluriel </i> </td></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">тот ; то  </td>
+<td class="centre">та  </td>
+<td class="centre">те </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">того  </td>
+<td class="centre">той  </td>
+<td class="centre">тех </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">тому  </td>
+<td class="centre">той  </td>
+<td class="centre">тем </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">тот, того ; то (n.)  </td>
+<td class="centre">ту  </td>
+<td class="centre">те, тех </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">тем  </td>
+<td class="centre">той, тою  </td>
+<td class="centre">теми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о том  </td>
+<td class="centre">о той  </td>
+<td class="centre">о тех </td></tr>
+
+</table>
+
+<p>
+Такой se décline comme les adjectifs longs. </p>
+
+<p>
+Le démonstratif сей est encore employé dans des expressions toutes faites : 
+сейчас <i> (de suite) ; </i> сию минуту <i> (à la minute) ; </i> ни то ни сё <i> (ni cela, ni ceci) ; </i> при сем прилагаю <i> (ci</i> -<i> joint [je joins à cela] ).</i>  </p>
+
+<h2>
+<b> Pronoms et adjectifs interrogatifs</b>
+-<b> relatifs</b>
+ </h2>
+
+<p>
+<b> 1. </b>
+Ce sont <b> который. </b>
+-рая, -рое, -рые : <i> qui, que, lequel,</i>  <i> laquelle, lesquels, lesquelles ; </i> pronom interro-relatif le plus employé pour tous les êtres et tous les objets 
+(interroge sur l&#39;identité) : </p>
+
+<p>
+какой, -ая, -ое, -ие : <i> lequel, laquelle, lesquels ; de quelle</i>  espèce (interroge sur la qualité). </p>
+
+<p>
+Ces pronoms sont déclinés sur le modèle des adjectifs longs. </p>
+
+<p>
+<b> 2. Кто : </b>
+<i> qui, </i> pour les êtres vivants ; le même pour les trois genres et le pluriel. </p>
+
+<p>
+<b> Что : </b>
+<i> quoi, </i> pour les noms de choses. Ni genre, ni pluriel. </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">кто  </td>
+<td class="centre">что </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">кого  </td>
+<td class="centre">чего </td></tr>
+
+<tr>
+<td class="centre">D  </td>
+<td class="centre">кому  </td>
+<td class="centre">чему </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">кого  </td>
+<td class="centre">что </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">кем  </td>
+<td class="centre">чем </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о ком  </td>
+<td class="centre">о чём </td></tr>
+
+</table>
+
+<p>
+Remarquez l&#39;expression что за + nominatif <i> (de quelle</i>  <i> espèce) </i> très employée. </p>
+
+<p>
+Кто et что ne sont que pronoms. </p>
+
+<p>
+<b> 3. Чей, </b>
+чья, чьё, чьи pronom-adjectif interrogatif-relatif possessif : <i> de quoi, à 
+qui ? (à qui appartient ?). </i> Il s&#39;accorde en genre et en nombre avec le nom auquel il se rapporte. </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre </i>  </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">чей  </td>
+<td class="centre">чьё  </td>
+<td class="centre">чья  </td>
+<td class="centre">чьи </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">чьего  </td>
+<td class="centre">чьей  </td>
+<td class="centre">чьих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">чьему  </td>
+<td class="centre">чьей  </td>
+<td class="centre">чьим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">чей, чьего, чьё (n.)  </td>
+<td class="centre">чью  </td>
+<td class="centre">чьи, чьих </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">чьим  </td>
+<td class="centre">чьей, чьею  </td>
+<td class="centre">чьими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о чьём  </td>
+<td class="centre">о чьей  </td>
+<td class="centre">о чьих </td></tr>
+
+</table>
+
+<h2>
+<b> Pronoms et adjectifs définis</b>
+ </h2>
+
+<p>
+Ce sont : сам, сама. само, сами : <i> (lui / elle</i> -<i> même, eux)</i> -<i> même(s), (moi</i> -<i> même, toi</i> -<i> même) </i> (= en personne). </p>
+
+<p>
+самый, самая, самое, самые : <i> même , </i> et тот же самый : <i> le même.</i>  </p>
+
+<p>
+весь, вся, всё, все : <i> tout, toute, tous, toutes.</i>  </p>
+
+<p>
+каждый, каждая, каждое, каждые : <i> chaque, chacun.</i>  всякий, всякая, всякое, всякие : <i> chacun, chacune,</i>  <i> quiconque, n&#39;importe lequel, chaque.</i>  </p>
+
+<p>
+один, одна, одно, одни : <i> seul, seule, seuls (les), l&#39;un,</i>  <i> l&#39;une, les uns.</i>  </p>
+
+<p>
+другой, другая, другое, другие: <i> autre, un autre, l&#39;autre.</i>  </p>
+
+<p>
+Déclinaison </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel </i> </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">сам  </td>
+<td class="centre">само  </td>
+<td class="centre">сама  </td>
+<td class="centre">сами </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">самого  </td>
+<td class="centre">самой  </td>
+<td class="centre">самих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">самому  </td>
+<td class="centre">самой  </td>
+<td class="centre">самим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">самого, само  </td>
+<td class="centre">самоё  </td>
+<td class="centre">самих </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">самим  </td>
+<td class="centre">самой, самою  </td>
+<td class="centre">самими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о самом  </td>
+<td class="centre">о самой  </td>
+<td class="centre">о самих </td></tr>
+
+</table>
+
+<p>
+Ne pas confondre avec самый, самая, etc., qui se décline comme adjectif et qui 
+se distingue de сам, etc., par l&#39;accent tonique. Se déclinent aussi comme des 
+adjectifs : каждый, всякий, другой. </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel</i>  </th></tr>
+
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">весь  </td>
+<td class="centre">всё  </td>
+<td class="centre">вся  </td>
+<td class="centre">Все </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">всего  </td>
+<td class="centre">всей  </td>
+<td class="centre">всех </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">всему  </td>
+<td class="centre">всей  </td>
+<td class="centre">всем </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">весь, всего ; всё (n.)  </td>
+<td class="centre">всю  </td>
+<td class="centre">все, всех </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">всем  </td>
+<td class="centre">всей. всею  </td>
+<td class="centre">всеми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">обо всём  </td>
+<td class="centre">обо всей  </td>
+<td class="centre">обо всех </td></tr>
+
+</table>
+
+<p>
+Le neutre всё (= всё время) s&#39;emploie souvent comme un adverbe avec le sens de <i> 
+toujours. </i> Ex. : Он всё работает : <i> il travaille toujours, il continue de travailler. </i> Parfois всё seul : = всё таки : <i> tout de même.</i>  </p>
+
+<p>
+Ce pronom a aussi le sens de l&#39;adjectif целый <i> (entier</i>  <i> tout). </i> Ex. : Он весь / целый день работал : <i> il a travaillé</i>  <i> toute la journée.</i>  </p>
+
+<p>
+Se déclinent comme les pronoms définis сам, сама, само, сами. les nombres 
+cardinaux suivants : </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>   </th>
+<th><i> Pluriel </i> </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">один  </td>
+<td class="centre">одно  </td>
+<td class="centre">одна  </td>
+<td class="centre">одни </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">одного  </td>
+<td class="centre">одной  </td>
+<td class="centre">одних </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">одному  </td>
+<td class="centre">одной  </td>
+<td class="centre">одним </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">один, одного, одно (n.)  </td>
+<td class="centre">одну  </td>
+<td class="centre">одни, одних </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">одним  </td>
+<td class="centre">одной, одною  </td>
+<td class="centre">одними </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">об одном  </td>
+<td class="centre">об одной  </td>
+<td class="centre">об одних </td></tr>
+
+</table>
+
+<h2>
+<b> Pronoms et adjectifs indéfinis</b>
+ </h2>
+
+<p>
+Ce sont des pronoms interrogatifs auxquels on ajoute divers préfixes ou suffixes 
+: </p>
+
+
+<b> 1. Не</b>
+	- <b> ; </b>
+	некоторый, -рая, -рое, -рые : <i> quelque(s),</i> 
+	certain(s). 
+<b> 2. Кое</b>
+	-<b> : </b>
+	кое-кто : <i> une certaine personne, certaines</i>  <i> personnes ; </i> 	кое-что : <i> une certaine chose, certaines choses ;</i>  	кое-какой. 
+<b> 3. </b>
+	-<b> то : </b>
+	кто-то : <i> quelqu&#39;un ; </i> 	что-то : <i> quelque chose ;</i>  	какой-то. 
+<b> 4. </b>
+	-<b> нибудь : </b>
+	кто-нибудь : <i> quelqu&#39;un, n&#39;importe qui ; </i> 	что-нибудь : <i> quelque chose, n&#39;importe quoi ; </i> 	какой-нибудь. 
+<b> 5. </b>
+	-<b> либо : </b>
+	кто-либо : <i> quelqu&#39;un, celui que vous voulez, </i> 	что-либо : <i> quelque chose, ce que vous voulez ; </i> 	какой-либо. 
+<p>
+À comparer les adverbes qui ont les mêmes préfixes : несколько : <i> quelques, 
+plusieurs ; </i> кое-где : <i> par endroits ;</i>  где-то : <i> quelque part de précis ; </i> где-нибудь : <i> quelque part</i>  (n&#39;importe où) ; где-либо : <i> quelque part </i> (où vous voudrez). Tous ces pronoms se déclinent comme leurs correspondants sans 
+le préfixe не-, ou les particules -кое, -то, -нибудь, -либо. </p>
+
+<p>
+Expressions spéciales : по-моему : <i> à mon avis ; </i> потвоему : <i> à ton avis </i> ; по-своему : <i> à sa manière, à son</i>  <i> point de vue, </i> по-нашему, по-вашему. </p>
+
+<h2>
+<b> Pronoms et adjectifs négatifs</b>
+ </h2>
+
+<p>
+Ce sont les interrogatifs auxquels on ajoute le préfixe ни-(n&#39;oublions pas que 
+la négative не, comme en français, est exprimée devant le verbe) : </p>
+
+
+	никто не приходил : <i> personne n&#39;est venu.</i>  
+	никто ничего не знает ; <i> personne ne sait rien </i> 	(génitif négatif). никто : <i> personne.</i>  
+	ничего : <i> rien.</i>  
+	никакой, -ая, -ое, -ие : <i> aucun, aucune, aucuns, aucunes.</i>  
+	ни один, ни одна, ни одно : <i> pas un seul, aucuns, aucunes.</i>  
+	ничей, ничья, ничьё, ничьи : <i> de personne.</i>  
+<p>
+Avec un adverbe : нисколько <i> (aucunement), </i> нигде <i> (nulle</i>  <i> part), </i> никогда <i> (jamais)</i>  </p>
+
+<p>
+Le préfixe ни- se détache de la forme pronominale aux cas obliques, si une 
+préposition les accompagne : он ни к кому не ходит <i> (il ne va chez personne) 
+; </i> я ни с кем не встречаюсь <i> (je ne fréquente personne).</i>  </p>
+
+<p>
+Il y a une catégorie particulière de pronoms négatifs qui, à eux seuls, 
+équivalent à toute une proposition. Ils n&#39;ont pas de nominatif : некого любить <i> 
+(il n&#39;y a pas qui aimer) ;</i>  ему некого любить <i> (à lui...=) (il n&#39;a personne à aimer) ;</i>  мне не к кому ходить <i> (je n&#39;ai personne chez qui aller) ;</i>  мне не о чём говорить <i> (je n&#39;ai pas de quoi parler) ;</i>  некогда : <i> pas le temps </i> (вам некогда читать), мне негде жить... </p>
+<a name="adjectif" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>L&#39;ADJECTIF</b></h1>
+
+<p>
+Les grammaires russes distinguent trois groupes d&#39;adjectifs : qualificatif, 
+d&#39;appartenance, qui présente deux formes, et relatif qui n&#39;existe pas en 
+français. Ex. : </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre"><b> qualificatif</b> </td>
+<td class="centre">добрый <i> (bon)</i> , белый <i> (blanc)</i> , большой <i> (grand)</i>  ; </td></tr>
+
+<tr>
+<td class="centre"><b> d&#39;appartenance</b> </td>
+<td class="centre">- отцовский <i> (paternel)</i> , русский <i> (russe)</i> , птичий <i> (appartenant à un oiseau)</i>  ; </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">- дедов, Петин <i> (appartenant au grand-père, à Pierrot)</i> . </td></tr>
+
+<tr>
+<td class="centre"><b> relatif </b>
+</td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">- de matière :  </td>
+<td class="centre">деревянный <i> (en bois)</i>  ; золотой <i> (en or)</i>  ; шерстяной <i> (en laine)</i> . </td></tr>
+
+<tr>
+<td class="centre">- de lieu :  </td>
+<td class="centre">здешний <i> (d&#39;ici)</i> . </td></tr>
+
+<tr>
+<td class="centre">- de temps :  </td>
+<td class="centre">всегдашний <i> (de toujours)</i> . </td></tr>
+
+</table>
+
+<p>
+De plus, on trouve dans l&#39;adjectif russe deux formes : la longue, employée comme 
+épithète et qui précède le plus souvent le nom, et la courte, qui sert 
+d&#39;attribut et qui ne s&#39;emploie qu&#39;au nominatif (cette dernière n&#39;existe que pour 
+les adjectifs qualificatifs). </p>
+
+<h2>
+<b> Terminaisons des adjectifs</b>
+ </h2>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th><i> Pluriel des</i>  </th></tr>
+
+<tr>
+<th>
+</th>
+<th><i> Dures </i>  </th>
+<th><i> Molles</i>   </th>
+<th><i> 3 genres</i>  </th></tr>
+
+<tr>
+<td class="centre">Masculin  </td>
+<td class="centre">-ый, -ой (toujours accentué)  </td>
+<td class="centre">-ий  </td>
+<td class="centre">dur : -ые </td></tr>
+
+<tr>
+<td class="centre">Féminin  </td>
+<td class="centre">-ая  </td>
+<td class="centre">-яя  </td>
+<td class="centre">mou : -ие </td></tr>
+
+<tr>
+<td class="centre">Neutre  </td>
+<td class="centre">-ое  </td>
+<td class="centre">-ее </td>
+<td class="centre"></td></tr>
+
+</table>
+
+<p>
+Faites attention aux adjectifs dont le radical se termine par une gutturale ou 
+une chuintante quand ы est remplacé par и, ю par у, я par а. </p>
+
+<p>
+<b> Déclinaison</b>
+ </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th><i> Pluriel des </i> </th></tr>
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre </i>  </th>
+<th><i> Féminin</i>   </th>
+<th><i> trois genres</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">бедн-ый, бедн-ое  </td>
+<td class="centre">бедн-ая  </td>
+<td class="centre">бедн-ые </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">бедн-ого  </td>
+<td class="centre">бедн-ой  </td>
+<td class="centre">бедн-ых </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">бедн-ому  </td>
+<td class="centre">бедн-ой  </td>
+<td class="centre">бедн-ым </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">бедн-ый; -ого ; -ое (n.) </td>
+<td class="centre">бедн-ую  </td>
+<td class="centre">бедн-ые </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">/ бедн-ых </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">бедн-ым  </td>
+<td class="centre">бедн-ой  </td>
+<td class="centre">бедн-ыми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о бедн-ом  </td>
+<td class="centre">о бедн-ой  </td>
+<td class="centre">о бедн-ых </td></tr>
+
+</table>
+
+<p>
+Type mou </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th><i> Pluriel des</i>  </th></tr>
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre </i>  </th>
+<th><i> Féminin</i>   </th>
+<th><i> trois genres</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">син-ий, син-ее  </td>
+<td class="centre">син-яя  </td>
+<td class="centre">син-ие </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">син-его  </td>
+<td class="centre">син-ей  </td>
+<td class="centre">син-их </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">син-ему  </td>
+<td class="centre">син-ей  </td>
+<td class="centre">син-им </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">син-ий, -его, -ее (n.) </td>
+<td class="centre">син-юю  </td>
+<td class="centre">син-ие /син-их </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">син-им  </td>
+<td class="centre">син-ей  </td>
+<td class="centre">син-ими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о син-ем  </td>
+<td class="centre">о син-ей  </td>
+<td class="centre">о син-их </td></tr>
+
+</table>
+
+<p>
+Type en gutturale ou chuintante </p>
+
+<table class="centre">
+
+
+<tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th><i> Pluriel des</i>  </th></tr>
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin  </i> </th>
+<th><i> trois genres</i>  </th></tr>
+
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">горьк-ий, -ое  </td>
+<td class="centre">горьк-ая  </td>
+<td class="centre">горьк-ие </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">горьк-ого  </td>
+<td class="centre">горьк-ой  </td>
+<td class="centre">горьк-их </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">горьк-ому  </td>
+<td class="centre">горьк-ой  </td>
+<td class="centre">горьк-им </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">горьк-ий. -ого,  </td>
+<td class="centre">горьк-ую  </td>
+<td class="centre">горьк-ие </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ое (n.)  </td>
+<td class="centre"></td>
+<td class="centre">/ горьк-их </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">горьк-им  </td>
+<td class="centre">горьк-ой  </td>
+<td class="centre">горьк-ими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о горьк-ом  </td>
+<td class="centre">о горьк-ой  </td>
+<td class="centre">о горьк-их </td></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">свеж-ий, -ее  </td>
+<td class="centre">свеж-ая  </td>
+<td class="centre">свеж-ие </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">свеж-его  </td>
+<td class="centre">свеж-ей  </td>
+<td class="centre">свеж-их </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">свеж-ему  </td>
+<td class="centre">свeж-eй  </td>
+<td class="centre">свеж-их </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">свеж-ий, -его, -ее (n.) </td>
+<td class="centre">свеж-ую  </td>
+<td class="centre">свеж-ие / </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">свеж-их </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">свеж-им  </td>
+<td class="centre">свеж-ей  </td>
+<td class="centre">свеж-ими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о свеж-ем  </td>
+<td class="centre">о свеж-ей  </td>
+<td class="centre">о свеж-их </td></tr>
+
+</table>
+
+<p>
+Nous appliquons les règles concernant les gutturales (après gutturales, ы passe 
+à и) et les chuintantes (ы passe à и et, également après ц, о en dehors de 
+l&#39;accent est remplacé par е ). </p>
+
+<p>
+Cas spécial des adjectifs d&#39;appartenance en <b> -ий</b>
+ </p>
+
+<table class="centre">
+
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">птич-ий, -ье  </td>
+<td class="centre">птич-ья  </td>
+<td class="centre">птич-ьи </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">птич-ьего  </td>
+<td class="centre">птич-ьей  </td>
+<td class="centre">птич-ьих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">птич-ьему  </td>
+<td class="centre">птич-ьей  </td>
+<td class="centre">птич-ьим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">птич-ий, ьего, -ье (n.)  </td>
+<td class="centre">птич-ью  </td>
+<td class="centre">птич-ьи / </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"></td>
+<td class="centre">птич-ьих </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">птич-ьим  </td>
+<td class="centre">птич-ьей  </td>
+<td class="centre">птич-ьими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о птич-ьем  </td>
+<td class="centre">о птич-ьей  </td>
+<td class="centre">о птич-ьих </td></tr>
+
+</table>
+
+<p>
+<i> Remarque : </i> Les adjectifs masculins en -ой suivent à tous les cas obliques la déclinaison de 
+ceux en -ый. </p>
+
+<p>
+On obtient la forme courte en retranchant de la longue : </p>
+
+
+	- au masculin, les terminaisons -ый, -ой, -ий : добр, прост, синь ; - au 
+	féminin, -а, -я : добра, проста, синя ; - au neutre, -о, -е : добро, просто, 
+	сине ; - au pluriel, -ые donne -ы : добры, просты, -не donne - и : сини. 
+<p>
+Parfois la forme brève des adjectifs a recours aux о et е mobiles au masculin. </p>
+
+<p>
+Ex. : спокойный <i> (calme) </i> - спокоен, спокойна, etc. </p>
+
+<p>
+бойкий <i> (vif, dégourdi) </i> - боек, бойки. </p>
+
+<p>
+красный <i> (rouge) </i> - красен, красно. </p>
+
+<p>
+Adjectifs d&#39;appartenance en <b> -ов </b>
+ou <b> -ин</b>
+ </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">петин-о  </td>
+<td class="centre">петин-а  </td>
+<td class="centre">петин-ы </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">петин-а  </td>
+<td class="centre">петин-ой  </td>
+<td class="centre">петин-ых </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">петин-у  </td>
+<td class="centre">петин-ой  </td>
+<td class="centre">петин-ым </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">петин, -а, -о  </td>
+<td class="centre">петин-у  </td>
+<td class="centre">петин-ы/-ых </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">петин-ым  </td>
+<td class="centre">петин-ой  </td>
+<td class="centre">петин-ыми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">петин-ом  </td>
+<td class="centre">петин-ой  </td>
+<td class="centre">петин-ых </td></tr>
+
+</table>
+
+<h2>
+<b> Expression de l&#39;attribut</b>
+ </h2>
+
+<p>
+Le substantif attribut du sujet se met au nominatif quand le verbe être <i> est </i> au présent : он врач <i> (il </i> est <i> médecin).</i>  </p>
+
+<p>
+Pour un adjectif, on emploie aussi le nominatif, la forme longue exprimant une 
+caractéristique permanente non liée au moment présent : он красивый <i> (il est 
+beau) ; </i> он больной <i> (il est malade) </i> [= <i> c&#39;est un malade]), </i> la forme courte exprimant la qualité en soulignant son caractère temporel : он 
+красив ([au moment où je parle] <i> il est</i>  <i> beau) ; </i> он болен <i> (il est malade </i> [peut-être d&#39;ordinaire est-il bien portant]). </p>
+
+<p>
+Quand le verbe est au passé et au futur, le substantif se met obligatoirement à 
+l&#39;instrumental : он был врачом, он будет врачом. Pour un adjectif, la forme 
+courte est rare dans la langue moderne ; on a le choix surtout entre la forme 
+longue au nominatif et à l&#39;instrumental, l&#39;instrumental étant employé quand 
+l&#39;attribut n&#39;exprime pas un état ou une qualité permanente du sujet et qu&#39;on 
+souligne ce caractère temporaire : он был тогда богатый <i> (il était alors 
+riche) ; </i> когда я буду старый <i> (quand je</i>  <i> serai vieux) ; </i> вы недолго были несчастным <i> (vous avez</i>  <i> été malheureux peu de temps).</i>  </p>
+
+<p>
+L&#39;instrumental est obligatoire avec les verbes suivants : стать (perfectif), 
+становиться (imperfectif) <i> (devenir) :</i>  он становится большим <i> (il devient grand) </i> - казаться (imperf.), показаться (perf.) <i> (sembler, paraître) :</i>  девочка кажется больной <i> (la fillette semble malade) </i> - оказаться (perf.), оказываться (imperf.) <i> (s&#39;avérer) : </i> он оказался врачом <i> (il s&#39;est avéré médecin).</i>  </p>
+
+<h2>
+<b> Les degrés de comparaison de l&#39;adjectif</b>
+ <b> et de l&#39;adverbe</b>
+ </h2>
+
+<p>
+Le russe exprime les comparatifs et les superlatifs de différentes manières. </p>
+
+<h2>
+<b> Le comparatif</b>
+ </h2>
+
+<p>
+<b> 1. </b>
+Si l&#39;adjectif est employé comme épithète, le comparatif se forme analytiquement 
+au moyen de l&#39;adverbe более : я разговариваю с более умным ребёнком, чем этот 
+мальчик. Egalement pour les adjectifs relatifs et d&#39;appartenance qui n&#39;ont pas 
+de forme synthétique : этот город более русский. </p>
+
+<p>
+<b> 2. </b>
+Les formes synthétiques (indéclinables et invariables) s&#39;emploient pour 
+l&#39;adjectif attribut ou pour l&#39;adverbe : </p>
+
+<p>
+<b> a. </b>
+formation en -ее (ей) qui s&#39;ajoute au radical de l&#39;adjectif (c&#39;est-à-dire 
+adjectif moins désinence -ый ou -ой) : умный, умнее ; длинный, длиннее ; бедный, 
+беднее ; красивый, красивее. </p>
+
+<p>
+<b> b. </b>
+formation en -е, peu nombreuse (modification des gutturales, dentales en 
+chuintantes et apparition d&#39;un -л après labiales). </p>
+
+<p>Exemples : </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">богатый <i> (riche)</i>  - богаче  </td>
+<td class="centre">короткий <i> (court)</i>  - короче </td></tr>
+
+<tr>
+<td class="centre">твёрдый <i> (dur)</i>  - твёрже  </td>
+<td class="centre">крепкий <i> (solide)</i>  - крепче </td></tr>
+
+<tr>
+<td class="centre">простой <i> (simple)</i>  - проще  </td>
+<td class="centre">лёгкий <i> (léger)</i>  - легче </td></tr>
+
+<tr>
+<td class="centre">толстый <i> (gros)</i>  - толще  </td>
+<td class="centre">редкий <i> (rare)</i>  - реже </td></tr>
+
+<tr>
+<td class="centre">частый <i> (fréquent)</i>  - чаще  </td>
+<td class="centre">сладкий <i> (doux)</i>  - слаще </td></tr>
+
+<tr>
+<td class="centre">чистый <i> (propre)</i>  - чище  </td>
+<td class="centre">строгий <i> (sévère)</i>  - строже </td></tr>
+
+<tr>
+<td class="centre">близкий <i> (proche)</i>  - ближе  </td>
+<td class="centre">тонкий <i> (mince)</i>  - тоньше </td></tr>
+
+<tr>
+<td class="centre">далёкий <i> (éloigné)</i>  - дальше  </td>
+<td class="centre">узкий <i> (étroit)</i>  - уже </td></tr>
+
+<tr>
+<td class="centre">дорогой <i> (cher)</i>  - дороже  </td>
+<td class="centre">широкий <i> (large)</i>  - шире </td></tr>
+
+<tr>
+<td class="centre">тихий <i> (silencieux)</i>  - тише  </td>
+<td class="centre">глубокий <i> (profond)</i>  - глубже </td></tr>
+
+<tr>
+<td class="centre">жидкий <i> (liquide)</i>  - жиже  </td>
+<td class="centre">дешёвый <i> (bon marché)</i>  - дешевле </td></tr>
+
+</table>
+
+<p>
+<b> c. </b>
+Il existe encore huit adjectifs qui forment deux comparatifs : l&#39;un en -ший à 
+terminaison et sens d&#39;adjectif épithète et l&#39;autre en -ше à terminaison 
+invariable. </p>
+
+<p>
+Ce sont : </p>
+
+<p>
+большой <i> (grand) </i> - больший - больше </p>
+
+<p>
+маленький <i> (petit) </i> - меньший - меньше </p>
+
+<p>
+высокий <i> (haut) </i> - высший - выше </p>
+
+<p>
+низкий <i> (bas) </i> - низший - ниже </p>
+
+<p>
+молодой <i> (jeune) </i> - младший - моложе </p>
+
+<p>
+старый <i> (vieux) </i> - старший - старше </p>
+
+<p>
+хороший й <i> (bon) </i> - лучший - лучше </p>
+
+<p>
+плохой <i> (mauvais) </i> - худший - хуже </p>
+
+<p>
+Les comparatifs en -ший ont une tendance à jouer le rôle de superlatif, surtout 
+les adjectifs высший et низший. </p>
+
+<p>
+Le comparatif est souvent renforcé par les adverbes гораздо, значительно : <i> 
+bien plus, notablement.</i>  </p>
+
+<p>
+Ex. : гораздо глупее, значительно выше. </p>
+
+<p>
+Le second terme de la comparaison est précédé de чем : море синее, чем небо. On 
+peut aussi employer le génitif seul : он моложе, чем я = он моложе меня ; 
+мальчик выше, чем девочка = мальчик выше девочки. </p>
+
+<h2>
+<b> Le superlatif absolu (le plus...)</b>
+ </h2>
+
+<p>
+Il possède aussi plusieurs formes : </p>
+
+<p>
+<b> 1. </b>
+Avec самый qui précède l&#39;adjectif long. Ex. : самый умный, самый лучший (forme 
+usuelle). </p>
+
+<p>
+<b> 2. </b>
+Formé à l&#39;aide des suffixes -ейший, -ейшая, -ейшее, -ейшие ou -айший, -айшая, 
+-айшее, -айшие (après chuintantes). </p>
+
+<p>
+Ex. : умнейший, длиннейшая, красивейшее, </p>
+
+<p>
+высочайшее, широчайшая, величайшее. </p>
+
+<p>
+<b> 3.</b>
+ Formé à l&#39;aide du préfixe -наи joint au comparatif en -ший ou au superlatif en 
+-ейший. </p>
+
+<p>
+Ex. : наилучший, наиумнейшая </p>
+
+<h2>
+<b> Le superlatif relatif (très...)</b>
+ </h2>
+
+<p>
+<b> 1. </b>
+Очень + adjectif. </p>
+
+<p>
+<b> 2.</b>
+ Formé à l&#39;aide du préfixe пре- qui correspond à la particule française archi- : </p>
+
+<p>
+Ex. : прехорошенькая <i> (très jolie) ;</i>  </p>
+
+<p>
+превосходный <i> (excellent) ;</i>  </p>
+
+<p>
+прекрасный <i> (très beau).</i>  </p>
+
+<h2>
+<b> Les diminutifs</b>
+ </h2>
+
+<p>
+L&#39;adjectif russe a deux diminutifs : </p>
+
+
+	- l&#39;un en -енький, -енькая, -енькое, -енькие (très usités). Ex. : серенький <i> 
+	(un peu gris), </i> 	миленький <i> (gentil), </i> 	бедненький <i> (pauvret) ;</i>  
+	- l&#39;autre en -ватый. Ex. : беловатый <i> (blanchâtre),</i>  	глуповатая <i> (un peu bête), </i> 	etc. 
+<a name="nombres" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>LES NOMS DE NOMBRE</b></h1>
+
+<table class="centre">
+<tr>
+<th>
+<b> Cardinaux</b>
+  </th>
+<th>
+<b> Ordinaux</b>
+ </th></tr>
+
+<tr>
+<td class="centre">1 - один, одна, одно </td>
+<td class="centre">первый, -ая, -ое, -ые : 1er </td></tr>
+
+<tr>
+<td class="centre">2 - два, две  </td>
+<td class="centre">второй, -ая, -ое, -ые : 2e </td></tr>
+
+<tr>
+<td class="centre">3 - три  </td>
+<td class="centre">третий, -ья, -ье, -ьи : 3e </td></tr>
+
+<tr>
+<td class="centre">4 - четыре  </td>
+<td class="centre">четвёртый, -ая, -ое, -ые : 4e </td></tr>
+
+<tr>
+<td class="centre">5 - пять  </td>
+<td class="centre">пятый, -ая, -ое, -ые : 5e </td></tr>
+
+<tr>
+<td class="centre">6 - шесть  </td>
+<td class="centre">шестой, -ая, -ое, -ые : 6e </td></tr>
+
+<tr>
+<td class="centre">7 - семь  </td>
+<td class="centre">седьмой, -ая, -ое, -ые : 7e </td></tr>
+
+<tr>
+<td class="centre">8 - восемь  </td>
+<td class="centre">восьмой, -ая, -ое, -ые : 8e </td></tr>
+
+<tr>
+<td class="centre">9 - девять  </td>
+<td class="centre">девятый, -ая, -ое, -ые : 9e </td></tr>
+
+<tr>
+<td class="centre">10 - десять  </td>
+<td class="centre">десятый, -ая, -ое, -ые : 10e </td></tr>
+
+<tr>
+<td class="centre">11 - одиннадцать  </td>
+<td class="centre">одиннадцатый </td></tr>
+
+<tr>
+<td class="centre">12 - двенадцать  </td>
+<td class="centre">двенадцатый </td></tr>
+
+<tr>
+<td class="centre">13 - тринадцать  </td>
+<td class="centre">тринадцатый </td></tr>
+
+<tr>
+<td class="centre">14 - четырнадцать  </td>
+<td class="centre">четырнадцатый </td></tr>
+
+<tr>
+<td class="centre">15 - пятнадцать  </td>
+<td class="centre">пятнадцатый </td></tr>
+
+<tr>
+<td class="centre">16 - шестнадцать  </td>
+<td class="centre">шестнадцатый </td></tr>
+
+<tr>
+<td class="centre">17 - семнадцать  </td>
+<td class="centre">семнадцатый </td></tr>
+
+<tr>
+<td class="centre">18 - восемнадцать  </td>
+<td class="centre">восемнадцатый </td></tr>
+
+<tr>
+<td class="centre">19 - девятнадцать  </td>
+<td class="centre">девятнадцатый </td></tr>
+
+<tr>
+<td class="centre">20 - двадцать  </td>
+<td class="centre">двадцатый </td></tr>
+
+<tr>
+<td class="centre">21 - двадцать один  </td>
+<td class="centre">двадцать первый </td></tr>
+
+<tr>
+<td class="centre">22 - двадцать два  </td>
+<td class="centre">двадцать второй </td></tr>
+
+<tr>
+<td class="centre">30 - тридцать  </td>
+<td class="centre">тридцатый </td></tr>
+
+<tr>
+<td class="centre">40 - сорок  </td>
+<td class="centre">сороковой </td></tr>
+
+<tr>
+<td class="centre">50 - пятьдесят  </td>
+<td class="centre">пятидесятый </td></tr>
+
+<tr>
+<td class="centre">60 - шестьдесят  </td>
+<td class="centre">шестидесятый </td></tr>
+
+<tr>
+<td class="centre">70 - семьдесят  </td>
+<td class="centre">семидесятый </td></tr>
+
+<tr>
+<td class="centre">80 - восемьдесят  </td>
+<td class="centre">восьмидесятый </td></tr>
+
+<tr>
+<td class="centre">90 - девяносто  </td>
+<td class="centre">девяностый </td></tr>
+
+<tr>
+<td class="centre">100 - сто  </td>
+<td class="centre">сотый </td></tr>
+
+<tr>
+<td class="centre">101 - сто один  </td>
+<td class="centre">сто первый </td></tr>
+
+<tr>
+<td class="centre">150 - сто пятьдесят ou полтораста </td>
+<td class="centre">сто пятидесятый </td></tr>
+
+<tr>
+<td class="centre">200 - двести  </td>
+<td class="centre">двухсотый </td></tr>
+
+<tr>
+<td class="centre">300 - триста  </td>
+<td class="centre">трёхсотый </td></tr>
+
+<tr>
+<td class="centre">400 - четыреста  </td>
+<td class="centre">четырехсотый </td></tr>
+
+<tr>
+<td class="centre">500 - пятьсот  </td>
+<td class="centre">пятисотый </td></tr>
+
+<tr>
+<td class="centre">600 - шестьсот  </td>
+<td class="centre">шестисотый </td></tr>
+
+</table>
+
+<table class="centre">
+
+
+
+
+
+<tr>
+<td class="centre">700 - семьсот  </td>
+<td class="centre">семисотый </td></tr>
+
+<tr>
+<td class="centre">800 - восемьсот  </td>
+<td class="centre">восьмисотый </td></tr>
+
+<tr>
+<td class="centre">900 - девятьсот  </td>
+<td class="centre">девятисотый </td></tr>
+
+<tr>
+<td class="centre">1000 - тысяча  </td>
+<td class="centre">тысячный </td></tr>
+
+<tr>
+<td class="centre">1100 - тысяча сто  </td>
+<td class="centre">тысяча сотый </td></tr>
+
+<tr>
+<td class="centre">2000 - две тысячи  </td>
+<td class="centre">двухтысячный </td></tr>
+
+<tr>
+<td class="centre">5000 - пять тысяч  </td>
+<td class="centre">пятитысячный </td></tr>
+
+<tr>
+<td class="centre">10 000 - десять тысяч  </td>
+<td class="centre">десятитысячный </td></tr>
+
+<tr>
+<td class="centre">100 000 - сто тысяч  </td>
+<td class="centre">стотысячный </td></tr>
+
+<tr>
+<td class="centre">1 000 000 - миллион  </td>
+<td class="centre">миллионный </td></tr>
+
+</table>
+
+<p>
+<b> Déclinaison</b>
+ </p>
+
+<p>
+<b> Один, одна, одно, одни </b>
+- Voir au paragraphe des pronoms définis. </p>
+
+<p>
+À côté de два <i> (deux), </i> existe le nombre оба (обе - fém.) <i> (tous les deux) </i> qui a une déclinaison presque identique. </p>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Masculin et neutre</i>   </th>
+<th><i> Féminin</i>  </th></tr>
+
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">два  </td>
+<td class="centre">оба  </td>
+<td class="centre">две  </td>
+<td class="centre">обе </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">двух  </td>
+<td class="centre">обоих  </td>
+<td class="centre">двух  </td>
+<td class="centre">обеих </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">двум  </td>
+<td class="centre">обоим  </td>
+<td class="centre">двум  </td>
+<td class="centre">обеим </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">двух, два  </td>
+<td class="centre">обоих, оба  </td>
+<td class="centre">двух, две  </td>
+<td class="centre">обеих, обе </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">двумя  </td>
+<td class="centre">обоими  </td>
+<td class="centre">двумя  </td>
+<td class="centre">обеими </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о двух  </td>
+<td class="centre">об обоих  </td>
+<td class="centre">о двух  </td>
+<td class="centre">об обеих </td></tr>
+
+</table>
+
+<p>
+<b> Три, четыре </b>
+ont une déclinaison spéciale. Les cardinaux à partir de пять jusqu&#39;à двадцать et 
+тридцать se déclinent comme les noms féminins en -ь. Attention à восемь. </p>
+
+<table class="centre">
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">три  </td>
+<td class="centre">четыре  </td>
+<td class="centre">пять  </td>
+<td class="centre">восемь </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">трёх  </td>
+<td class="centre">четырёх  </td>
+<td class="centre">пяти  </td>
+<td class="centre">восьми </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">трём  </td>
+<td class="centre">четырём  </td>
+<td class="centre">пяти  </td>
+<td class="centre">восьми </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">три, трёх  </td>
+<td class="centre">четыре, четырёх  </td>
+<td class="centre">пять  </td>
+<td class="centre">восемь </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">тремя  </td>
+<td class="centre">четырьмя  </td>
+<td class="centre">пятью  </td>
+<td class="centre">восемью </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о трёх  </td>
+<td class="centre">о четырёх  </td>
+<td class="centre">о пяти  </td>
+<td class="centre">о восьми </td></tr>
+
+</table>
+
+<p>
+<b> 1.</b>
+ 50 (пятьдесят), 60, 70, 80 avec un -ь à la fin du premier tronçon déclinent 
+leurs deux moitiés séparément en continuant à les écrire en un mot. Ex. : gén. : 
+пятидесяти, dat. : пятидесяти, instr. : пятьюдесятью, </p>
+
+<p>
+prép.: о пятидесяти. </p>
+
+<p>
+<b> 2. </b>
+Les nombres composés двадцать один, 22, 25, 29, 31, 45, 84, etc., se déclinent 
+en deux moitiés séparément et s&#39;écrivent en deux mots. </p>
+
+<p>
+Ex. : gén. : двадцати одного ; dat. : двадцати двум ; instr. : двадцатью пятью ; 
+prép. : о двадцати пяти. </p>
+
+<p>
+<b> 3.</b>
+ 40, 90, 100 se déclinent de la même manière en prenant un -a à tous les cas, 
+sauf le nominatif et l&#39;accusatif. Ex. : gén. :. сорока ; dat. : сорока ; instr. 
+: сорока ; prép. : о сорока. </p>
+
+<p>
+<b> 4. Тысяча </b>
+se décline comme un nom féminin en chuintante. Attention à l&#39;instrumental 
+singulier тысячью. <b> Миллион </b>
+se décline comme un nom masculin dur. </p>
+
+<p>
+<b> 5.</b>
+ 200 (двести), 300, 400 jusqu&#39;à 900 se déclinent en deux moitiés séparées mais 
+s&#39;écrivent en un mot. Ex. : gén. : двухсот ; dat. : трёмстам ; instr. : 
+четырьмястами ; prép. : о девятистах. </p>
+
+<p>
+<b> 6. </b>
+Lorsque le groupe formé par le nombre et le substantif est sujet (c&#39;est-à-dire 
+que le substantif seul serait mis au nominatif) ou complément d&#39;objet direct 
+pour un substantif inanimé ou neutre (l&#39;accusatif semblable au nominatif), on 
+emploie le nombre comme un substantif : il est suivi (comme un substantif) du 
+substantif au génitif, au génitif singulier pour два, две, оба, обе, три, четыре 
+; au génitif pluriel à partir de пять : два дома, две девочки, пять домов, пять 
+девочек. Я вижу два дома, пять домов. </p>
+
+<p>
+Aux autres cas, on peut considérer que le nombre est un adjectif ; il 
+s&#39;accordera en cas, genre et nombre avec le substantif, ce dernier étant au cas 
+voulu par le contexte : я разговариваю с двумя мальчиками, с пятью мальчиками. Я 
+думаю о четырёх сёстрах, о двадцати домах, </p>
+
+<p>
+Remarquez que pour les nombres composés, c&#39;est le dernier chiffre qui impose la 
+construction : двадцать два дома (comme два дома), сорок три мальчика. </p>
+
+<p>
+Один, lui, est toujours adjectif (accord en cas, genre et </p>
+
+<p>
+nombre avec le substantif). Ce sera donc la même chose pour двадцать один 
+мальчик ; gén. двадцати одного мальчика ; acc. двадцать (substantif féminin en 
+-ь : accusatif = [toujours] nominatif au singulier) одного мальчика. </p>
+
+<p>
+<b> 7. Les ordinaux </b>
+se déclinent comme les adjectifs qualificatifs à forme longue dure, excepté 
+третий, третья, третье, третьи, qui se décline sur le modèle des adjectifs 
+d&#39;appartenance en -ий, -ья, -ье. Voir птичий <i> (d&#39;oiseau) </i> p. 617. </p>
+
+<p>
+<b> 8. Les collectifs </b>
+двое, трое, ainsi que четверо, пятеро, шестеро, семеро, восьмеро, девятеро. 
+десятеро (deux, trois, quatre, etc., parmi un certain nombre) se déclinent comme 
+suit (comme оба) : </p>
+
+<table class="centre">
+<tr>
+<td class="centre">N.  </td>
+<td class="centre">двое  </td>
+<td class="centre">пятеро </td></tr>
+
+<tr>
+<td class="centre">G.  </td>
+<td class="centre">двоих  </td>
+<td class="centre">пятерых </td></tr>
+
+<tr>
+<td class="centre">D.  </td>
+<td class="centre">двоим  </td>
+<td class="centre">пятерым </td></tr>
+
+<tr>
+<td class="centre">A.  </td>
+<td class="centre">двоих, двое  </td>
+<td class="centre">пятерых, пятеро </td></tr>
+
+<tr>
+<td class="centre">I.  </td>
+<td class="centre">двоими  </td>
+<td class="centre">пятерыми </td></tr>
+
+<tr>
+<td class="centre">P.  </td>
+<td class="centre">о двоих  </td>
+<td class="centre">о пятерых </td></tr>
+
+</table>
+
+<p>
+<b> 9. </b>
+Половина <i> (la moitié, la demie), </i> четверть <i> (le quart) </i> se déclinent comme des noms. Полтора <i> (un et demi),</i>  полтораста <i> (cent cinquante) </i> ont à tous les cas obliques полутора et полутораста (comme 40, 90, 100). </p>
+
+<p>
+<b> 10. </b>
+Les chiffres russes ont des noms exprimés par des substantifs : нуль - 0 ; 
+единица, un 1 ; двойка, un 2 ; тройка, un 3 ; четвёрка, un 4 ; пятёрка, un 5. </p>
+
+<p>
+<b> 11. </b>
+Les nombres ordinaux composés ont seulement le dernier chiffre exprimé par un 
+ordinal qui se décline. Ex. : 1972ой год - тысяча девятьсот семьдесят второй 
+год. </p>
+
+<p>
+<b> 12. </b>
+Dans la déclinaison d&#39;un nom de nombre composé cardinal, toutes les parties qui 
+le composent se déclinent chacune indépendamment. Ex. : 642, шестьсот сорок два 
+- у шестисот сорока двух - к шестистам сорока двум, etc. </p>
+<a name="verbes" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>LE VERBE</b></h1>
+
+<p>
+Le verbe russe est très facile à conjuguer puisqu&#39;il possède peu de temps, de 
+modes et autres formes. Mais il est cependant d&#39;un emploi très délicat, grâce à 
+une conception spéciale et subtile de l&#39;action. Le verbe russe n&#39;a que trois 
+temps à l&#39;indicatif - un présent, un passé et un futur - ; trois modes bien 
+pauvres - l&#39;indicatif, l&#39;impératif, à peine un conditionnel et quatre participes 
+répartis en deux groupes - l&#39;actif (présent, passé), le passif (présent, passé) 
+plus le gérondif (présent, passé). Cela paraît insuffisant, mais le jeu original 
+des aspects y remédie amplement. </p>
+
+<h2>
+<b> I. Aspect</b>
+ </h2>
+
+<p>
+Tout verbe russe a deux aspects : l&#39;imperfectif et le perfectif. <b> 
+L&#39;imperfectif </b>
+exprime une action qui dure sans être limitée dans le présent, qui durait dans 
+le passé ou qui durera dans l&#39;avenir. Il ne marque pas l&#39;achèvement de l&#39;action 
+et peut exprimer la répétition. Son infinitif exprime l&#39;action d&#39;une manière 
+générale et vague. Il a trois temps : le présent, le passé et le futur, formé à 
+l&#39;aide du verbe быть (être) et de l&#39;infinitif du verbe conjugué. Ces trois temps 
+correspondent en gros au présent, à l&#39;imparfait et au futur simple de 
+l&#39;indicatif français. </p>
+
+<p>
+<b> Le perfectif </b>
+exprime l&#39;action au point de vue de son achèvement réel ou possible ; ce n&#39;est 
+plus l&#39;action vague de l&#39;imperfectif, mais une action précise, située dans le 
+temps passé ou futur qui est faite une fois et qui marque son commencement et sa 
+fin. Si cette action dure, sa durée est limitée, précisée. C&#39;est pourquoi il n&#39;a 
+que deux temps : le passé traduit par les passés simple, composé et antérieur 
+français ; parfois aussi par les plus-que-parfait selon les circonstances. Les 
+verbes perfectifs n&#39;ont pas de présent, la forme du présent a un sens de futur 
+simple ou antérieur. </p>
+
+<p>
+<b> Tous les verbes russes doivent être étudiés par couple :</b>
+ imperfectif plus perfectif. Les perfectifs sont le plus souvent obtenus à 
+partir d&#39;un imperfectif simple à l&#39;aide </p>
+
+<p>
+d&#39;un préfixe (ou préverbe), plus rarement à l&#39;aide du suffixe -ну et parfois 
+même ce sont deux radicaux différents, qui fournissent l&#39;imperfectif et le 
+perfectif exprimant la même action sous ses différentes modalités. Ex.: </p>
+
+<table class="centre">
+<tr>
+<th><i> Imperfectif </i>  </th>
+<th><i> Perfectif</i>  </th></tr>
+<tr>
+<td class="centre">читать <i> (lire)</i> </td>
+<td class="centre">прочитать </td></tr>
+
+<tr>
+<td class="centre">знать <i> (savoir)</i> </td>
+<td class="centre">узнать </td></tr>
+
+<tr>
+<td class="centre">жалеть <i> (plaindre)</i> </td>
+<td class="centre">пожалеть </td></tr>
+
+<tr>
+<td class="centre">идти <i> (aller à pied)</i> </td>
+<td class="centre">пойти </td></tr>
+
+<tr>
+<td class="centre">нести <i> (porter)</i> </td>
+<td class="centre">понести </td></tr>
+
+<tr>
+<td class="centre">спасать <i> (sauver)</i> </td>
+<td class="centre">спасти </td></tr>
+
+<tr>
+<td class="centre">давать <i> (donner)</i> </td>
+<td class="centre">дать </td></tr>
+
+<tr>
+<td class="centre">понимать <i> (comprendre)</i> </td>
+<td class="centre">понять </td></tr>
+
+<tr>
+<td class="centre">класть <i> (poser)</i> </td>
+<td class="centre">положить </td></tr>
+
+<tr>
+<td class="centre">брать <i> (prendre)</i> </td>
+<td class="centre">взять </td></tr>
+
+<tr>
+<td class="centre">ложиться<i>  (se coucher)</i>  </td>
+<td class="centre">лечь </td></tr>
+
+</table>
+
+<p>
+Les imperfectifs dérivés sont formés à partir des perfectifs à l&#39;aide d&#39;un 
+suffixe (-а, -я, -ва, -ыва ou -ива) appelé suffixe imperfectivant. </p>
+
+<h3>
+<b> Verbes imperfectifs déterminés et indéterminés</b>
+ </h3>
+
+<p>
+Un certain nombre de verbes de mouvement imperfectifs sont encore à étudier par 
+couples. La forme <b> déterminée</b>
+ exprime une action qui a un but et une direction précise. L&#39;<b> indéterminée </b>
+exprime la même action sans but préconçu et souvent une action habituelle, 
+inhérente au sujet. </p>
+
+<h3>Liste de ces verbes </h3>
+
+<table class="centre">
+
+<tr>
+<th>
+</th>
+<th><i> Déterminés </i>  </th>
+<th><i> indéterminés </i> </th></tr>
+
+<tr>
+<td class="centre">бежать (я бегу, он бежит) </td>
+<td class="centre">бегать </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (courir)</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">везти (я везу, он везёт) </td>
+<td class="centre">возить (я вожу, он возит) </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (transporter en voiture)</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">вести (я веду, он ведёт) </td>
+<td class="centre">водить (я вожу, он водит) </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (conduire)</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">гнать (я гоню, он гонит) </td>
+<td class="centre">гонять </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (chasser)</i> </td>
+<td class="centre"></td></tr>
+
+</table>
+<p></p>
+<table class="centre">
+<tr>
+<td class="centre">идти&#39; (я иду, он идёт) </td>
+<td class="centre">ходить (я хожу, он ходит) </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (aller à pied) </i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">лететь (я лечу, он летит) </td>
+<td class="centre">летать </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (voler)</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">нести (я несу, он несёт) </td>
+<td class="centre">носить (я ношу, он носит) </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (porter) </i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">плыть (я плыву, он плывёт) </td>
+<td class="centre">плавать </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (nager)</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">ехать (я еду, он едет) </td>
+<td class="centre">ездить (я езжу, он ездит) </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre"><i> (aller en voiture) </i> </td>
+<td class="centre"></td></tr>
+
+</table>
+
+<h2><b> II. Conjugaison</b> </h2>
+
+<h3>
+<b> Verbe auxiliaire быть (être)</b>
+ </h3>
+
+<p>
+Il n&#39;y a qu&#39;un verbe auxiliaire en russe - быть -, et encore a-t-il perdu son 
+présent. Seule la troisième personne du singulier sert à rendre la formule 
+française &quot;il y a&quot;, avec un sujet au singulier ou au pluriel <i> (&quot;il n&#39;y a pas 
+de&quot; </i> se traduit par нет + le génitif du nom). On l&#39;emploie parfois pour souligner la 
+possession et pour interroger : Есть-ли у тебя деньги? <i> As</i> -<i> tu de l&#39;argent ? </i> (ли particule interrogative) - Да, есть : <i> Oui, j&#39;en ai. </i> Mais быть a un passé et un futur employés normalement avec les attributs et dans 
+les verbes passifs. </p>
+
+<h3>
+<b> Conjugaison de быть</b>
+ </h3>
+
+<p>
+<i> Présent. </i> - Ne s&#39;emploie plus. </p>
+
+<table class="centre">
+
+<tr>
+<th><i> Passé</i>   </th>
+<th><i> Futur</i>  </th></tr>
+
+<tr>
+<td class="centre">я был, была (fém.)  </td>
+<td class="centre">я буду </td></tr>
+
+<tr>
+<td class="centre">ты был, была (fém.)  </td>
+<td class="centre">ты будешь </td></tr>
+
+<tr>
+<td class="centre">он был, она была (fém.), </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">оно было (neutre)  </td>
+<td class="centre">он, она, оно будет </td></tr>
+
+<tr>
+<td class="centre"><i> Pluriel des trois genres</i> </td>
+<td class="centre"></td></tr>
+
+<tr>
+<td class="centre">мы были  </td>
+<td class="centre">мы будем </td></tr>
+
+<tr>
+<td class="centre">вы были  </td>
+<td class="centre">вы будете </td></tr>
+
+<tr>
+<td class="centre">они были  </td>
+<td class="centre">они будут </td></tr>
+
+</table>
+
+<p>
+<i> Conditionnel </i> - On ajoute la particule бы aux formes du passé : был бы, была бы, было бы. </p>
+
+<p>
+<i> Impératif </i> - 2e personne du singulier будь ; du pluriel будьте, </p>
+
+<p>
+<i> Participe </i> - présent (actif) : inexistant </p>
+
+<p>
+passé - бывший </p>
+
+<p>
+<i> Gérondif </i> - présent : будучи </p>
+
+<p>
+Il y a un participe futur будущий qui, en fait, s&#39;emploie comme un adjectif 
+relatif de temps : &quot;futur&quot;. </p>
+
+<h3>
+<b> L&#39;infinitif</b>
+ </h3>
+
+<p>
+L&#39;infinitif des verbes russes peut avoir trois terminaisons : </p>
+
+
+	-ть : читать <i> (lire), </i> 	иметь <i> (avoir), </i> 	жить <i> (vivre) </i> 	; -чь (pour gutturale + -ть) : течь <i> (couler), </i> 	мочь <i> (pouvoir) ;</i>  
+	-ти (terminaison accentuée) : идти <i> (aller), </i> 	нести <i> (porter).</i>  
+<p>
+Toutes les terminaisons de la conjugaison russe se répartissent en deux groupes 
+: celui du présent et celui de l&#39;infinitif. Du présent dérivent : le présent, 
+l&#39;impératif, les participes présents actif et passif et le gérondif présent. 
+L&#39;infinitif donne le futur composé des verbes imperfectifs ; le passé, le 
+conditionnel, les participes passé actif et passif et le gérondif passé. </p>
+
+<p>
+Pour pouvoir conjuguer correctement un verbe russe, il faut toujours connaître, 
+en plus de l&#39;infinitif, les 1re et 2e personnes du présent et la 3e personne du 
+pluriel. C&#39;est pourquoi les grammairiens russes distinguent deux conjugaisons : 
+la première avec le suffixe -e, et la deuxième avec -и. </p>
+
+<h3>
+<b> Tableau des conjugaisons</b>
+ </h3>
+
+<table class="centre">
+
+<tr>
+<th>
+1re читать, <i> lire</i>  (imperf)
+ </th>
+<th>
+2e говорить, <i> parler</i>  (imperf.) </th></tr>
+
+<tr>
+<td class="centre"><i> Présent </i> </td></tr>
+
+<tr>
+<td class="centre">я чита-ю  </td>
+<td class="centre">я говор-ю </td></tr>
+
+<tr>
+<td class="centre">ты чита-ешь  </td>
+<td class="centre">ты говор-ишь </td></tr>
+
+<tr>
+<td class="centre">он чита-ет  </td>
+<td class="centre">он говор-ит </td></tr>
+
+<tr>
+<td class="centre">мы чита-ем  </td>
+<td class="centre">мы говор-им </td></tr>
+
+<tr>
+<td class="centre">вы чита-ете  </td>
+<td class="centre">вы говор-ите </td></tr>
+
+<tr>
+<td class="centre">они чита-ют  </td>
+<td class="centre">они говор-ят </td></tr>
+
+<tr>
+<td class="centre"><i> Passé </i> </td></tr>
+
+<tr>
+<td class="centre">я чита-л, -ла  </td>
+<td class="centre">я говори-л. -ла </td></tr>
+
+<tr>
+<td class="centre">ты чита-л, -ла  </td>
+<td class="centre">ты говор-ил. -ла </td></tr>
+
+<tr>
+<td class="centre">он, она, оно  </td>
+<td class="centre">он, она, оно говори-л, </td></tr>
+
+<tr>
+<td class="centre">чита-л, -ла, -ло  </td>
+<td class="centre">-ла, -ло </td></tr>
+
+<tr>
+<td class="centre">мы чита-ли  </td>
+<td class="centre">мы говори-ли </td></tr>
+
+<tr>
+<td class="centre">вы чита-ли  </td>
+<td class="centre">вы говори-ли </td></tr>
+
+<tr>
+<td class="centre">они чита-ли  </td>
+<td class="centre">они говори-ли </td></tr>
+
+<tr>
+<td class="centre"><i> Futur</i> </td></tr>
+
+<tr>
+<td class="centre">я буду читать  </td>
+<td class="centre">я буду говорить </td></tr>
+
+<tr>
+<td class="centre">ты будешь читать  </td>
+<td class="centre">ты будешь говорить </td></tr>
+
+<tr>
+<td class="centre">он будет читать  </td>
+<td class="centre">он будет говорить </td></tr>
+
+<tr>
+<td class="centre">мы будем читать  </td>
+<td class="centre">мы будем говорить </td></tr>
+
+<tr>
+<td class="centre">вы будете читать  </td>
+<td class="centre">вы будете говорить </td></tr>
+
+<tr>
+<td class="centre">они будут читать  </td>
+<td class="centre">они будут говорить </td></tr>
+
+<tr>
+<td class="centre"><i> Conditionnel </i> </td></tr>
+
+<tr>
+<td class="centre">я читал бы  </td>
+<td class="centre">я говорил бы </td></tr>
+
+<tr>
+<td class="centre">ты читал бы  </td>
+<td class="centre">ты говорил бы </td></tr>
+
+<tr>
+<td class="centre">он читал бы  </td>
+<td class="centre">он говорил бы </td></tr>
+
+<tr>
+<td class="centre">мы читали бы  </td>
+<td class="centre">мы говорили бы </td></tr>
+
+<tr>
+<td class="centre">вы читали бы  </td>
+<td class="centre">вы говорили бы </td></tr>
+
+<tr>
+<td class="centre">они читали бы  </td>
+<td class="centre">они говорили бы </td></tr>
+
+<tr>
+<td class="centre"><i> Impératif</i> </td></tr>
+
+<tr>
+<td class="centre">Sing. : чита-й  </td>
+<td class="centre">говор-и </td></tr>
+
+<tr>
+<td class="centre">Plur. : читайте  </td>
+<td class="centre">говор-ите </td></tr>
+
+</table>
+
+<table class="centre">
+
+<tr>
+<td class="centre"><i> Participes</i> </td></tr>
+
+<tr>
+<td class="centre">Actif </td>
+<td class="centre">présent чита-ющий  </td>
+<td class="centre">говоря-щий </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">passé чита-вший  </td>
+<td class="centre">говорив-ший </td></tr>
+
+<tr>
+<td class="centre">Passif </td>
+<td class="centre">présent чита-емый  </td>
+<td class="centre">говори-мый </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">(про)читан-ный  </td>
+<td class="centre">(про)говорён-ный </td></tr>
+
+</table>
+
+<table class="centre">
+
+<tr>
+<td class="centre"><i> Gérondif</i> </td></tr>
+
+<tr>
+<td class="centre">Présent  </td>
+<td class="centre">чита-я  </td>
+<td class="centre">говор-я </td></tr>
+
+<tr>
+<td class="centre">Passé  </td>
+<td class="centre">(про)чита-в  </td>
+<td class="centre">(про)говори-в </td></tr>
+
+</table>
+
+<p>
+Pour le participe passé passif et le gérondif passé, on emploie uniquement les 
+formes perfectives ; pour les participes passés présent actif et passif et le 
+gérondif présent, les formes imperfectives. </p>
+
+<p>
+D&#39;après ces tableaux, on voit que le <b> présent </b>
+a pour terminaisons : </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">1re conj.  </td>
+<td class="centre">-у ou -ю  </td>
+<td class="centre">2e conj.  </td>
+<td class="centre">-ю ou -у </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ешь  </td>
+<td class="centre"></td>
+<td class="centre">-ишь </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ет  </td>
+<td class="centre"></td>
+<td class="centre">-ит </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ем  </td>
+<td class="centre"></td>
+<td class="centre">-им </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ете  </td>
+<td class="centre"></td>
+<td class="centre">-ите </td></tr>
+
+<tr>
+<td class="centre"></td>
+<td class="centre">-ут ou -ют  </td>
+<td class="centre"></td>
+<td class="centre">-ят ou -ат </td></tr>
+
+</table>
+
+<p>
+<b> Le passé </b>
+se forme par l&#39;adjonction des terminaisons -л, -ла, -ло au singulier et -ли au 
+pluriel au thème de l&#39;infinitif (voir plus loin les cas spéciaux). </p>
+
+<p>
+<b> Le futur </b>
+des imperfectifs se forme avec le futur du verbe быть et l&#39;infinitif du verbe 
+conjugué ; pour les perfectifs, le futur a la forme du présent perfectif : 
+задумать - я задумаю, он задумает <i> (il aura l&#39;intention).</i>  </p>
+
+<p>
+<b> Le conditionnel </b>
+n&#39;est qu&#39;un passé suivi de la particule бы. </p>
+
+<p>
+<b> L&#39;impératif </b>
+n&#39;a que les 2e personnes du singulier et du pluriel. Il se forme en ajoutant au 
+thème du présent -й après une voyelle, -ь ou -и après une consonne ; -и si la 
+désinence de la 1re personne du singulier est accentuée, -ь dans le cas 
+contraire. </p>
+
+<p>
+Ex. : кида-й - кида-йте <i> (jette, jetez) ;</i>  </p>
+
+<p>
+чита-й - чита-йте <i> (lis, lisez) ;</i>  </p>
+
+<p>
+(брош-у) - брос-ь - брось-те <i> (lance, lancez) ;</i>  </p>
+
+<p>
+(сиж-у) - сид-и - сиди-те <i> (reste assis, restez assis) </i> ; </p>
+
+<p>
+(скажу) - скаж-и - скажи-те <i> (dis, dites) ;</i>  </p>
+
+<p>
+(помог-у) - помог-и - помоги-те <i> (aide, aidez).</i>  </p>
+
+<p>
+Pour savoir s&#39;il faut conserver la chuintante résultant d&#39;une modification de la 
+consonne, il faut regarder la deuxième personne du singulier du présent. Si elle 
+est conservée, on la laissera à l&#39;impératif. </p>
+
+<p>
+<b> Les participes russes </b>
+ont quatre formes : </p>
+
+<p>
+<b> La forme active </b>
+a un présent aux terminaisons -щий, -щая, -щее, -щие qu&#39;on substitue à la 
+désinence -т de la 3e personne du pluriel du présent. Ex. : они читают : 
+читающий ; они смотрят : смотрящий ; они пишут : пишущий ; они кричат : кричащий 
+: et un passé avec le suffixe -вший, -вшая, -вшее, -вшие qui remplace le -л du 
+passé masculin singulier. Ex. : писал : писавший, жалел : жалевший , бил : 
+бивший. </p>
+
+<p>
+Dans les passés sans -л, on ajoute seulement au passé la terminaison -ший. Ex. : 
+нёс : нёсший. </p>
+
+<p>
+Retenir les participes passés шедший de шёл (идти) ; ведший de вёл (вести), <i> 
+qui marchait (qui allait), qui</i>  <i> conduisait.</i>  </p>
+
+<p>
+<b> La forme passive </b>
+(seulement dans les verbes transitifs) a aussi deux temps : </p>
+
+<p>
+- Le présent est obtenu en ajoutant les terminaisons des adjectifs -ый, -ая, 
+-ое, -ые à la 1re personne du pluriel du présent indicatif. Ex. : мы уважаем <i> 
+(nous respectons),</i>  уважаемый <i> (celui qui est respecté) ; </i> мы любим <i> (nous</i>  <i> aimons), </i> любимый <i> (celui qui est aimé).</i>  </p>
+
+<p>
+- Le participe passé passif se forme en ajoutant au thème de l&#39;infinitif -нный, 
+-нная, -нное, -нные ou bien -тый, -тая, -тое, -тые. Ex. : сказать : сказанный <i> 
+(qui a été dit), </i> послать <i> (envoyer) : </i> посланный <i> (qui a été envoyé) ;</i>  убить <i> (tuer) : </i> убитый <i> (qui a été tué) ; </i> понять <i> (comprendre), </i> понятый <i> (qui a été compris).</i>  </p>
+
+<p>
+Les participes sont conjugués comme des adjectifs. Leurs formes passives, en 
+général celles du participe passé, ont aussi des formes brèves en fonction 
+d&#39;attribut. </p>
+
+<p>
+En fonction d&#39;épithète, la forme longue est obligatoire ; en fonction 
+d&#39;attribut, la forme courte est obligatoire. </p>
+
+<p>
+Ex. : эта работа хорошо сделана <i> (ce travail est bien fait).</i>  моё платье прекрасно сшито <i> (ma robe est très bien cousue).</i>  </p>
+
+<p>
+<b> Le gérondif </b>
+a un présent et un passé, toujours invariables. Ce sont au fond des adverbes 
+issus de verbes. </p>
+
+<p>
+Son présent se forme en ajoutant -я (-а après chuintantes) au radical du 
+présent. </p>
+
+<p>
+Ex. : я гуляю <i> (je me promène) </i> - гуляя </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">я кричу <i> (je crie)</i>  - крича </td>
+<td class="centre">я иду <i> (je vais)</i>  - идя </td></tr>
+
+<tr>
+<td class="centre">я несу <i> (je porte)</i>  - неся </td>
+<td class="centre"></td></tr>
+
+</table>
+
+<p>
+On le traduit en français par un participe présent avec la préposition &quot;en&quot;. </p>
+
+<p>
+Le gérondif passé a pour terminaison -в ajouté au radical du passé. </p>
+
+<table class="centre">
+
+<tr>
+<td class="centre">Ex. :  </td>
+<td class="centre">я встал - встав  </td>
+<td class="centre">я погулял - погуляв </td></tr>
+
+</table>
+
+<p>
+On le traduit par <i> &quot;étant devenu&quot;, &quot;m&#39;étant promené&quot; </i> ou <i> &quot;après être devenu&quot;, &quot;après m&#39;être promené&quot;.</i>  </p>
+
+<h3>
+<b> La négation</b>
+ </h3>
+
+<p>
+La négation dans la conjugaison russe s&#39;exprime par не qui précède le verbe, si 
+elle porte sur toute la phrase : </p>
+
+<p>
+Ex. : я не хочу <i> (je ne veux pas) ;</i>  </p>
+
+<p>
+он не будет играть <i> (il ne jouera pas).</i>  </p>
+
+<p>
+Après la négation, le complément est au génitif : </p>
+
+<p>
+Ex. : я беру книгу <i> (je prends le livre) ; </i> я не беру книги <i> (je ne prends pas de livre) ; </i> у тебя есть деньги <i> (tu as de</i>  <i> l&#39;argent) ; </i> у тебя нет денег <i> (tu n&#39;as pas d&#39;argent).</i>  </p>
+
+<p>
+Pour une personne ou une chose précise, on conservera l&#39;accusatif : я не люблю 
+сестру. </p>
+
+<p>
+Notez que la négation peut porter sur un autre mot : не я приходил <i> (ce n&#39;est 
+pas moi qui suis venu).</i>  </p>
+
+<h3>
+<b> L&#39;interrogation</b>
+ </h3>
+
+<p>
+Quand on interroge, on emploie la particule ли après le verbe ou n&#39;importe 
+quelle partie de la proposition (comme le négatif). </p>
+
+<p>
+Ex. : Взял ли ты яблоко? <i> (As</i> -<i> tu pris la pomme ?)</i>  </p>
+
+<p>
+Яблоко ли ты взял? <i> (Est</i> -<i> ce bien la pomme que tu as</i>  <i> prise </i> ?) </p>
+
+<p>
+Ты ли взял яблоко? <i> (Est</i> -<i> ce toi qui a pris la pomme ?)</i>  </p>
+
+<h3>
+<b> Les verbes pronominaux ou réfléchis</b>
+ </h3>
+
+<p>
+Très fréquents en russe, ces verbes sont formés par l&#39;adjonction de -ся ou -сь à 
+toutes les personnes et à tous les temps : -ся après une consonne, un ь ou un й 
+; -сь après une voyelle. </p>
+
+<p>
+Ex. : мыть <i> (laver) : </i> мыться <i> (se laver) ; </i> я моюсь <i> (je me</i>  <i> lave) ; </i> ты моешься <i> (tu te laves) ; </i> он моется <i> (il se lave) ;</i>  мы моемся <i> (nous nous lavons) ; </i> вы моетесь <i> (vous vous</i>  <i> lavez) ; </i> они моются <i> (ils se lavent).</i>  </p>
+
+<p>
+Ces verbes pronominaux ont parfois le sens passif (à l&#39;imperfectif). </p>
+
+<p>
+Ex. : дом строится отцом <i> (la maison est construite par</i>  <i> le père).</i>  </p>
+
+<h3>
+<b> Le passif</b>
+ </h3>
+
+<p>
+Le passif s&#39;exprime par le verbe être быть avec le participe passif présent ou 
+passé à la forme brève, accordé avec le sujet. </p>
+
+<p>
+Ex. : Сын любим отцом <i> (le fils est aimé par son père)</i>  (verbe être sous-entendu). </p>
+
+<p>
+Дача была построена мной <i> (la maison de campagne </i> a <i> été construite par moi) ;</i>  </p>
+
+<p>
+Скоро лес будет вырублен крестьянами <i> (Bientôt, la</i>  <i> forêt sera coupée par les paysans).</i>  </p>
+
+<p>
+Mais cette forme du passif est livresque. Le sujet de la proposition active y 
+devient un instrumental et le complément d&#39;objet direct change en sujet. </p>
+
+<p>
+Ex. : я построил дачу : дача была потроена мной. </p>
+
+<p>
+Pour rendre l&#39;idée du passif, le verbe pronominal ou la forme impersonnelle sont 
+de beaucoup plus fréquents dans la langue parlée. </p>
+
+<p>
+Ex. : Курить воспрещается <i> (il est défendu de fumer) ;</i>  Продали этот дом <i> (On a vendu cette maison </i> = <i> cette</i>  <i> maison a été vendue) ;</i>  </p>
+
+<p>
+Говорят, что... <i> (On dit que...).</i>  </p>
+<a name="tableau" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>TABLEAU RÉCAPITULATIF DE LA CONJUGAISON AU PRÉSENT (OU PRÉSENT-FUTUR SIMPLE)</b></h1>
+
+<p>
+Nous soulignerons les principales difficultés en fonction des verbes que nous 
+avons rencontrés au cours des leçons. Il y en a d&#39;autres que nous ne 
+mentionnerons pas ici, mais qui trouveraient leur place dans ce tableau. </p>
+
+<h2>
+<b> 1. Première conjugaison</b>
+ </h2>
+
+<p>
+<i> 1re variante : </i> -у, -ешь (-ёшь sous l&#39;accent), -ут </p>
+
+<p>
+<b> 1. </b>
+Terminaison -ти : </p>
+
+
+	Infinitif : нес-ти <i> (porter) ; </i> 	présent : нес-у, нес-ёшь, нес-ут. Infinitif : ид-ти <i> (aller) ; </i> 	présent : ид-у, ид-ёшь, ид-ут. 
+<p>
+Consonne -ть : </p>
+
+
+	Infinitif : лез-ть <i> (se glisser) ; </i> 	présent : лез-у, лез-ешь, лез-ут. 
+<p>
+Notons que pour certains verbes en -ти ou -ть où la consonne du radical de 
+l&#39;infinitif est un c : вес-ти <i> (guider,</i>  <i> conduire), </i> крас-ть <i> (voler, dérober), </i> пас-ть (perfectif) <i> (tomber), </i> à ce с de l&#39;infinitif (nous l&#39;appellerons un faux с) se substituent un д ou т au 
+présent : вести : веду, красть : крад-у, пасть : пад-у. Notons aussi сес-ть 
+(perfectif) <i> (s&#39;asseoir) : </i> сяд-у. Mais parfois le с n&#39;est pas un faux с : нес-ти : нес-у. </p>
+
+<p>
+<b> 2. </b>
+Infinitif -чь (pour к-ть ou ч-ть) : мо-чь <i> (pouvoir),</i>  мог-у, мож-ешь, мог-ут ; развле-чь <i> (distraire) :</i>  развле-ку, развлеч-ёшь, развлек-ут. </p>
+
+<p>
+Notons la modification de к et г devant е (ё) : к -&amp;gt; ч, г -&amp;gt; щ. À part 
+ле-чь (perfectif) <i> (se coucher) : </i> ляг-у, ляж-ешь ; же-чь <i> (brûler) : </i> жг-у, жж-ёшь. </p>
+
+<p>
+<b> 3. </b>
+Verbes en ня-ть (tous perfectifs). Nous distinguerons deux groupes : le préverbe 
+se termine en voyelle (a), ou en consonne (b): </p>
+
+
+<b> a. </b>
+	Infinitif : по-нять <i> (comprendre) : </i> 	по-йму, по-йм-ёшь, по-йм-ут. 
+<b> b. </b>
+	Infinitif : с-ня-ть <i> (enlever, ôter) : </i> 	с-ним-у, с-ним-ешь, с-ним-ут. 
+<p>
+Autres verbes que nous avons rencontrés : занять <i> (occuper) :</i>  займу ; поднять <i> (ramasser, relever, soulever) : </i> подниму. </p>
+
+<p>
+À part : взять <i> (prendre) : </i> возьм-у, возьм-ёшь. возьм-ут et принять <i> (accepter, recevoir) : </i> прим-у. </p>
+
+<p>
+<b> 4. </b>
+Quelques verbes en а-ть (а après chuintantes - il est pour я) : </p>
+
+
+	Infinitif : начать (perfectif) <i> (commencer) : </i> 	начн-у, начн-ёшь, начн-ут. Infinitif : жать <i> (serrer) : </i> 	жм-у, жм-ёшь, жм-ут. 
+<p>
+<b> 5. </b>
+Verbes en ере-ть qui perdent les deux e au présent : </p>
+
+
+	Infinitif : умереть (perfectif) <i> (mourir) : </i> 	умр-у, умр-ёшь, умр-ут. Infinitif : запереть (perfectif) <i> (fermer à clé) 
+	: </i> 	запр-у, запр-ёшь, запр-ут. 
+<p>
+<b> 6. </b>
+Verbes qui voient apparaître un в au présent : </p>
+
+
+	Infinitif : жи-ть <i> (vivre, habiter) : </i> 	жив-у, жив-ёшь, жив-ут. Infinitif : плы-ть <i> (nager, voguer) : </i> 	плыв-у, плыв-ёшь, плыв-ут. 
+<p>
+<b> 7. </b>
+Verbes en -ать qui perdent le a au présent : </p>
+
+
+	Infinitif : жда-ть <i> (attendre) : </i> 	жд-у, жд-ёшь, жд-ут. Infinitif : рва-ть <i> (déchirer) : </i> 	рв-у, рв-ёшь, рв-ут 
+<p>
+Notons : </p>
+
+
+	Infinitif : бра-ть <i> (prendre) : </i> 	бер-у, бер-ёшь, бер-ут. Infinitif : зва-ть <i> (appeler) : </i> 	зов-у, зов-ёшь, зов-ут 
+<p>
+<i> 2e variante : </i> -ю, -ешь, -ют </p>
+
+<p>
+<b> 1. </b>
+Infinitif en -ать où le a tombe au présent. La consonne précédant le a 
+(gutturale, dentale) se transforme en chuintante, le ю passe à у, le ют à ут. </p>
+
+
+	Infinitif : писать (écrire) : пиш-у, пиш-ешь, пиш-ут. 
+<p>
+Nous avons vu de nombreux verbes : сказать (perfectif) <i> (dire) : </i> скаж-у, скаж-ешь, скаж-ут; резать <i> (couper) : </i> режу ; плакать <i> (pleurer) : </i> плач-у ; искать <i> (chercher) : </i> ищ-у. </p>
+
+<p>
+<b> 2. </b>
+Infinitif en -ять où le я tombe au présent : </p>
+
+
+	Infinitif : сме-яться <i> (rire) : </i> 	сме-юсь, сме-ёшься, сме-ются. Infinitif: наде-яться (espérer) : наде-юсь, 
+	наде-ешься, наде-ются. 
+<p>
+<b> 3. </b>
+Cinq verbes en -ить (et leurs composés), où le и de l&#39;infinitif alterne avec un 
+ь au présent. Nous avons vu бить <i> (battre) : </i> бь-ю, бь-ёшь ; лить <i> (verser) : </i> ль-ю, ль-ёшь ; пить <i> (boire) : </i> пь-ю, пь-ёшь. </p>
+
+<p>
+Cinq verbes en -ыть (et leurs composés), où le ы de l&#39;infinitif alterne avec un 
+о au présent. Nous connaissons закрыть (perfectif) <i> (fermer) : </i> закро-ю, закро-ешь, закро-ют ; умыться <i> (faire sa toilette) : </i> умо-юсь, умо-ешься, умо-ются. </p>
+
+<p>
+<b> 4. </b>
+Les verbes en -овать et -евать : le a tombe et ов alterne avec у, ев avec ю : </p>
+
+
+	Infinitif : советовать <i> (conseiller) : </i> 	совету-ю, совету-ешь, совету-ют. Infinitif : пробовать <i> (goûter, tenter) 
+	: </i> 	пробу-ю, пробу-ешь. et beaucoup d&#39;autres. 
+<p>
+<b> 5. </b>
+Les autres verbes en -ать, -ять, -еть, -уть feront leur présent en -аю, -яю, 
+-ею, -ую : думаю, гуляю, умею, дую <i> (je souffle).</i>  </p>
+
+<h2>
+<b> 2. Deuxième conjugaison : </b>
+-<b> ю, </b>
+-<b> ишь, </b>
+-<b> ят</b>
+ </h2>
+
+<p>
+Passage des gutturales, dentales aux chuintantes correspondantes à la première 
+personne du singulier (et participe passé passif). Apparition d&#39;un л après 
+labiales : </p>
+
+
+	Infinitif : просить <i> (demander, prier) : </i> 	прош-у (pour прош-ю), прос-ишь, прос-ят. Infinitif : видеть <i> (voir) : </i> 	виж-у, вид-ишь, вид-ят. 
+<p>
+Après chuintantes, le -ю passe à -у, le -ят à -ат. </p>
+
+<p>
+<b> 1. </b>
+Infinitif en -ить : rappelons avec modification de la base : водить <i> 
+(conduire) : </i> вож-у, вод-ишь ; садиться <i> (s&#39;asseoir) : </i> саж-усь, сад-ишься ; встретить (perfectif) <i> (rencontrer) : </i> встреч-у, встрет-ишь ; бросить (perfectif) <i> (jeter) : </i> брошу, брос-ишь ; простить (perfectif) <i> (pardonner) : </i> прощ-у, прост-ишь ; согласиться (perfectif) <i> (s&#39;accorder) : </i> соглаш-усь, соглас-ишься ; купить (perfectif) <i> (acheter) : </i> купл-ю, куп-ишь ; любить <i> (aimer) : </i> любл-ю, люб-ишь. </p>
+
+<p>
+<b> 2. </b>
+Infinitif en -ать après chuintante : молчать <i> (se taire) :</i>  молч-у, молч-ишь, молч-ат ; держать <i> (tenir) : </i> держ-у, держ-ишь, крич-ать <i> (crier) : </i> крич-у, крич-ишь ; слышать <i> (entendre) : </i> слыш-у, слыш-ишь ; лежать <i> (être couché) : </i> леж-у. </p>
+
+<p>
+<b> 3. </b>
+Infinitif en -еть : смотреть <i> (regarder) : </i> смотр-ю, смотр-ишь, смотр-ят : лететь (déterm.) <i> (voler) : </i> леч-у, лет-ишь ; болеть <i> (faire mal, </i> seulement 3e pers.) : бол-ит. </p>
+
+<p>
+<b> 4. </b>
+Infinitif en -ять (deux verbes) : бояться <i> (craindre,</i>  <i> avoir peur) : </i> бо-юсь, бо-ишься, бо-ятся ; стоять <i> (être</i>  <i> debout) : </i> сто-ю, сто-ишь. </p>
+
+<h2>
+<b> 3. Verbes en </b>
+-<b> нуть</b>
+ </h2>
+
+<p>
+Enfin, tout à fait à part, les verbes en -нуть qui, au présent, feront -ну, 
+-нешь, -нут (première conjugaison avec suffixe) : крикнуть (perfectif) <i> 
+(crier) : </i> крикн-у, крикн-ешь, крикн-ут ; гаснуть <i> (s&#39;éteindre) : </i> гасн-у, гасн-ет. </p>
+
+<h3>
+<b> Conjugaisons irrégulières</b>
+ </h3>
+
+<p>
+<b> 1. </b>
+Хотеть <i> (vouloir), </i> dont les trois premières personnes appartiennent à la 1re conjugaison (2e 
+variante) : хоч-у, хоч-ешь, хоч-ет, et les trois dernières à la 2e : хот-им, 
+хот-ите, хот-ят. </p>
+
+<p>
+<b> 2.</b>
+ Есть <i> (manger) : </i> ем, ешь, ест, едим, едите, едят (impératif : ешь, ешьте). </p>
+
+<p>
+<b> 3. </b>
+Ехать (déterm.) <i> (aller autrement qu&#39;à pied) : </i> ед-у. ед-ешь, ед-ут (1re conjugaison, 1re variante, mais base ед-). </p>
+
+<p>
+<b> 4. </b>
+Спать <i> (dormir) : </i> спл-ю, сп-ишь (2e conjugaison). </p>
+
+<p>
+<b> 5. </b>
+Гнать (déterm.) <i> (presser, faire courir) : </i> гон-ю, гон-ишь (2e conjugaison). </p>
+
+<p>
+<b> 6.</b>
+ Ошибиться (perfectif) <i> (se tromper) : </i> ошиб-усь, ошиб-ёшься (1re conjugaison, 1re variante). </p>
+
+<p>
+<b> 7. </b>
+Дать et ses composés (perfectif) <i> (donner) : </i> дам, дашь, даст, дадим, дадите, дадут (impératif : дай, дайте). </p>
+
+<p>
+<b> 8. </b>
+Les composés formés sur -деть et le verbe стать (et ses composés) ont un suffixe 
+au présent : -н- (ce sont tous des perfectifs) : </p>
+
+<p>
+стать (perfectif) <i> (devenir, se mettre à) : </i> ста-н-у, ста-н-ешь ; встать (perfectif) <i> (se lever) ; </i> перестать (perfectif) <i> (cesser) ; </i> одеться (perfectif) <i> (s&#39;habiller) : </i> оде-н-усь, оде-н-ешься, et раздеться <i> (se déshabiller) : </i> разде-н-усь, разде-н-ешься. </p>
+
+<p>
+<b> 9. </b>
+Trois groupes de verbes ayant le suffixe d&#39;imperfectivation -ва- le perdent au 
+présent : </p>
+
+<p>
+давать <i> (donner) </i> et ses composés : да-ю, да-ёшь, да-ют ; вставать <i> (se lever)</i>  : вста-ю, вста-ёшь, вста-ют (composés en -ставать) ; узнавать <i> (reconnaître) 
+: </i> узна-ю, узна-ёшь, узна-ют (composés en -знавать). </p>
+
+<p>
+Le -ва- réapparaît à l&#39;impératif, au gérondif présent et au participe présent 
+passif. </p>
+
+<h3>
+<b> Remarques sur les cas particuliers au passé</b>
+ </h3>
+
+<p>
+Des problèmes particuliers peuvent se rencontrer lorsque le л de la terminaison 
+se trouve en contact avec une autre consonne : </p>
+
+<p>
+<b> 1. </b>
+Les д et т de la racine devant le л du passé tombent : вести (racine вед- dans 
+вед-у), passé : вёл, вела, вело, вели (pour вёд-л, вед-ла...) ; красть (racine 
+крад-), passé : крал; пасть (racine пад-), passé : пал. </p>
+
+<p>
+<b> 2. </b>
+Le л isolé (masculin) tombe après с, з, р, г, к, х, п, б : нести, passé : нёс, 
+mais несла, несло, несли ; везти, passé : вёз, mais везла ; умереть, passé (sur 
+la base de умер-) : умер, умерла, умерло, умерли ; мочь, passé : мог, mais 
+могла, могло, могли ; развлечься, passé : развлёкся, развлеклась, развлеклось. 
+развлеклись ; исчезнуть (chute du -ну au passé), passé исчез, mais исчезла, 
+исчезло, исчезли ; достигнуть, passé : достиг, mais достигла. </p>
+
+<p>
+Quand allons-nous rencontrer ces différents cas ? </p>
+
+<p>
+- Verbes dont la base se termine à l&#39;infinitif en -ти ou -ть. infinitif en -чь ; </p>
+
+<p>
+infinitif en -ереть (base pour le passé : -ер). </p>
+
+<p>
+- Verbes en -нуть qui perdent le ну au passé (quand -нуть de l&#39;infinitif est 
+précédé d&#39;une consonne). Il s&#39;agit de verbes simples imperfectifs et de leurs 
+dérivés perfectifs. </p>
+
+<h3>
+<b> Quelques préfixes ou préverbes</b>
+ </h3>
+
+<p>
+от-, idée d&#39;éloigner : открыть <i> (ouvrir) ; </i>  </p>
+
+<p>
+раз- (pac), séparation : разделить <i> (partager) ;</i>  </p>
+
+<p>
+в-, mouvement vers l&#39;intérieur : входить <i> (entrer) ;</i>  </p>
+
+<p>
+за-, début de l&#39;action : запеть <i> (se mettre à chanter), </i> ou fermeture : закрыть <i> (fermer) ;</i>  </p>
+
+<p>
+вы-, sortie : выйти <i> (sortir) ;</i>  </p>
+
+<p>
+о-, autour de : обойти <i> (contourner) ;</i>  </p>
+
+<p>
+с-, mouvement de haut en bas : сойти <i> (descendre) ;</i>  </p>
+
+<p>
+у-, éloignement : уйти <i> (s&#39;en aller), </i> etc. </p>
+<a name="preposition" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>LES PRÉPOSITIONS</b></h1>
+
+<p>
+Les prépositions russes régissent tous les cas sauf le nominatif. Il y en a qui 
+introduisent un seul cas, d&#39;autres deux cas et même trois. Voici les plus 
+fréquents : </p>
+
+<p>
+<b> 1. </b>
+<i> Le génitif seulement : </i> без, <i> sans ; </i> близ, <i> près de ; </i> для, <i> pour ; </i> из, <i> hors de ; </i> до, <i> jusqu&#39;à ; </i> от, <i> depuis, à partir de ;</i>  возле, около, подле, <i> à côté de ; </i> из-за, <i> de derrière, à</i>  <i> cause de ; </i> кроме, <i> excepté ; </i> после, <i> après ; </i> прежде, <i> avant ;</i>  против, <i> contre, vis</i> -<i> à </i> -<i> vis </i> ;ради, <i> à cause de </i> ;у, <i> chez, </i> etc. </p>
+
+<p>
+<i> Le datif: </i> к, <i> vers ; </i> вопреки, <i> malgré.</i>  </p>
+
+<p>
+<i> L&#39;accusatif : </i> про, <i> sur le compte de ; </i> через, <i> par, à travers</i>  <i> de ; </i> сквозь , <i> à travers de.</i>  </p>
+
+<p>
+<i> L&#39;instrumental : </i> между, <i> entre ; </i> над, <i> au</i> -<i> dessus de.</i>  </p>
+
+<p>
+<i> Le prépositionnel : </i> при, <i> auprès de.</i>  </p>
+
+<p>
+<b> 2. </b>
+<i> L&#39;accusatif et l&#39;instrumental : </i> за, <i> derrière, pour ; </i> перед, <i> devant ; </i> под, <i> sous.</i>  </p>
+
+<p>
+<i> L&#39;accusatif et le prépositionnel : </i> в, <i> dans ; </i> на, <i> sur </i> ; о (об devant une voyelle), <i> contre, au sujet de.</i>  </p>
+
+<p>
+<b> 3. </b>
+<i> Le génitif, l&#39;accusatif et l&#39;instrumental : </i> с (со), <i> depuis,</i>  <i> de la grandeur de, avec.</i>  </p>
+
+<p>
+<b> 4. </b>
+<i> Le datif l&#39;accusatif et le prépositionnel : </i> по, <i> sur, à cause</i>  <i> de, jusqu&#39;à, après, sur.</i>  </p>
+
+<p>
+Ex. : <b> 2.</b>
+ - Он сел за дерево (асс.) : <i> il s&#39;est assis derrière</i>  <i> l&#39;arbre </i> (mouv.). Он сидит за деревом (instr.) : <i> il est assis</i>  <i> derrière l&#39;arbre </i> (état). Под ногами (instr.) расстилалась долина : <i> sous mes pieds s&#39;étalait 
+une vallée. </i> Мяч покатился под ноги (acc.) : <i> la balle a roulé sous les</i>  <i> pieds. </i> Мяч попал в окно (acc.) : <i> la balle est tombée dans</i>  <i> la fenêtre. </i> В доме (prép.) беспорядок : <i> il y a du désordre</i>  <i> dans la maison. </i> Я поставил цветы на стол (асс.) : <i> j&#39;ai</i>  <i> posé les fleurs sur la table. </i> книги лежат на столе (prép.) : <i> les livres sont sur la table. </i> Тарелка разбилась об пол (асс.) : <i> l&#39;assiette s&#39;est brisée contre le 
+plancher. </i> Он говорил o своём горе (prép.) : <i> il parlait de son malheur.</i>  </p>
+
+<p>
+<b> 3.</b>
+ С горы спускались солдаты (gén.) : <i> des soldats</i>  <i> descendaient de la montagne. </i> Огурец величиной с дом (acc.) : <i> un concombre de la grandeur d&#39;une maison.</i>  Лошадь тянет воз с дровами (instr.) : <i> le cheval tire un</i>  <i> chariot avec du bois.</i>  </p>
+
+<p>
+<b> 4. </b>
+По полу (dat.) пробежала мышь : <i> une souris est</i>  <i> passée en filant sur le plancher. </i> Я сыт по горло (асс.) : <i> je suis rassasié jusqu&#39;à la gorge. </i> По окончании (prép.) уроков ученики пошли домой <i> à la fin des classes, les</i>  <i> élèves sont allés à la maison.</i>  </p>
+<a name="adverbe" title=""> </a><a href="#haut" title="Haut de la page" class="imgHaut"><img src="images/haut.gif" alt="Haut de la page"/></a>
+<h1><b>L&#39;ADVERBE</b> </h1>
+
+<p>
+Le russe a des adverbes proprement dits et des adverbes dérivés de noms, 
+d&#39;adjectifs et de verbes. C&#39;est la pratique qui les apprend à l&#39;élève. Mais 
+voici quelques-uns des plus nécessaires. </p>
+
+<p>
+<b> 1. </b>
+Да, <i> oui ; </i> нет, <i> non ; </i> ни-ни, <i> ni</i> -<i> ni </i> français ; ни, seul, <i> pas</i>  <i> même ; </i> не, <i> ne pas.</i>  </p>
+
+<p>
+De manière : едва, <i> à peine ; </i> как, <i> comment ; </i> так, <i> ainsi,</i>  <i> tellement ; </i> иначе, <i> autrement.</i>  </p>
+
+<p>
+De quantité : очень, <i> très ; </i> только, <i> seulement ; </i> сколько, <i> combien.</i>  </p>
+
+<p>
+De lieu : везде, <i> partout ; </i> где, <i> où ; </i> здесь, <i> ici ; </i> куда, <i> où</i>  avec mouvement ; нигде, <i> nulle part ; </i> сюда, <i> ici, </i> en <i> venant ;</i>  там, <i> là</i> -<i> bas </i> (état) ; туда, <i> là </i> -<i> bas </i> (avec mouvement) ; тут, <i> ici </i> (état), etc. </p>
+
+<p>
+De temps : всегда, <i> toujours ; </i> ещё, <i> encore ; </i> иногда, <i> quelquefois ; </i> когда, <i> quand ; </i> теперь, <i> maintenant ; </i> тогда, <i> alors ; </i> уже, <i> déjà ; </i> никогда, <i> jamais ; </i> некогда, <i> jadis.</i>  </p>
+
+<p>
+De cause : почему, <i> pourquoi.</i>  </p>
+
+<p>
+De but : зачем, <i> pourquoi.</i>  </p>
+
+<p>
+<b> 2. </b>
+Les dérivés sont très nombreux : </p>
+
+<p>
+- formés avec des noms à l&#39;instrumental : кругом, <i> en rond, autour ; </i> верхом, <i> à cheval ; </i> пешком, <i> à pied ;</i>  утром, <i> le matin </i> ; ночью, <i> la nuit ; </i> местами, <i> par endroits </i> ; шагом, <i> au pas, </i> etc. </p>
+
+<p>
+- formés avec des adjectifs ou participes passifs à la forme brève du neutre en 
+о : весело, <i> gaîment ; </i> хорошо, <i> bien ;</i>  плохо, <i> mal ; </i> тяжело, трудно, <i> difficilement ; </i> мало, <i> peu ;</i>  много, <i> beaucoup ; </i> больше, <i> plus, davantage ; </i> поздно, <i> tard ; </i> рано. <i> tôt ; </i> смущённо, <i> l&#39;air troublé ; </i> деланно, <i> l&#39;air</i>  <i> affecté, </i> etc. </p>
+
+<p>
+- Issus de diverses formes verbales : зря, <i> en vain ; </i> молча, <i> en silence ; </i> нехотя, <i> malgré soi ; </i> мол, <i> qu&#39;il dit ; </i> может быть, <i> peut</i> -<i> être, </i> etc. </p>
+
+<p>
+- Issus de deux mots : вообще, <i> en général ; </i> затем, <i> ensuite; </i> давным-давно, <i> il y </i> a <i> longtemps ; </i> наверно, <i> pour</i>  <i> sûr ; </i> наконец, <i> enfin ; </i> наедине, <i> en tête</i> -<i> à </i> -<i> tête ; </i> наизусть, </p>
+
+<p>
+<i> par coeur ; </i> накануне, <i> la veille ; </i> сразу, <i> d&#39;un coup ; </i> снова, <i> de nouveau ; tout à fait ; </i> совсем, <i> trop </i> (quand suivi d&#39;un substantif : слишком много) ; слишком мало : <i> trop</i>  <i> peu.</i>  </p>
+
+<h2>
+<b> La conjonction</b>
+ </h2>
+
+<p>Voici les principales conjonctions : </p>
+
+<table class="centre">
+<tr>
+<td class="centre">а : <i> mais</i>  (légère opposition)  </td>
+<td class="centre">не только... но и : </td></tr>
+<tr>
+<td class="centre">да : <i> mais, et puis</i> </td>
+<td class="centre"><i> non seulement, mais encore</i> </td></tr>
+<tr>
+<td class="centre">дабы : <i> afin que</i> </td>
+<td class="centre">ни... ни : <i> ni ceci, ni cela </i> </td></tr>
+<tr>
+<td class="centre">для того, чтобы : </td>
+<td class="centre">но : <i> mais </i> </td></tr>
+<tr>
+<td class="centre"><i> pour que</i> </td>
+<td class="centre">однако : <i> cependant </i> </td></tr>
+<tr>
+<td class="centre">же : <i> donc</i> </td>
+<td class="centre">потому что : <i> parce que </i> </td></tr>
+<tr>
+<td class="centre">и : <i> et</i> </td>
+<td class="centre">так как : <i> car</i> </td></tr>
+<tr>
+<td class="centre">ибо : <i> car</i> </td>
+<td class="centre">следовательно : <i> par conséquent </i> </td></tr>
+<tr>
+<td class="centre">если : <i> si</i> </td>
+<td class="centre"> </td></tr>
+<tr>
+<td class="centre">или : <i> ou bien</i> </td>
+<td class="centre">хотя : <i> quoique</i> </td></tr>
+<tr>
+<td class="centre">итак : <i> donc</i> </td>
+<td class="centre">хотя бы : <i> quand même </i> </td></tr>
+<tr>
+<td class="centre">как : <i> comme</i> </td>
+<td class="centre">что : <i> que </i></td></tr>
+<tr>
+<td class="centre">либо : <i> ou</i> </td>
+<td class="centre">чем : <i> que</i> , après comparatif </td></tr>
+<tr>
+<td class="centre">лишь : <i> à peine</i> </td>
+<td class="centre">чтобы : <i> afin que</i></td></tr></table>
+<!-- -->	
+	
+</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2Commun/images/blank.gif';" title="Aide"><img src="../assimilV2Commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2Commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2Commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2Commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2Commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2Commun/images/blank.gif'" title="Accueil"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Home" alt="Accueil" /></a></span>
+		<!--<span id="btImprimer"><a href="javascript:imprimer();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>-->
+<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint.gif'" title="Imprimer"><img src="../assimilV2commun/images/imgsMenu/BtPrint.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>					
+		
+		<span id="cache"><img src="../assimilV2Commun/images/blank.gif" width="30" id="icache" alt="" /></span>
+		<span id="btNext"><a href="javascript:lexiqueRF();" onmouseover="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2Commun/images/blank.gif'" title="lexique russe-fran&ccedil;ais"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Fw" alt="lexique russe-fran&ccedil;ais" /></a></span>			
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2Commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

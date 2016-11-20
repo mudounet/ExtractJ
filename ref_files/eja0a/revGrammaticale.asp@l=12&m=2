@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Dans cette le&#231;on, vous apprendrez beaucoup de phrases utiles et int&#233;ressantes. Mais c'est une le&#231;on facile.</i> </p> 		<p><i>Retenez bien le verbe &#1091;&#1095;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; : apprendre, &#233;tudier.</i> </p> 	<h3>
+		&#1057;&#1087;&#1072;&#1089;&#1080;&#1073;&#1086; &#1079;&#1072; &#1089;&#1086;&#1074;&#1077;&#1090;  
+		Merci pour le conseil 		</h3> 	 		 			1 			- &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1075;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1099;&#1081;? 			 				1 			Pourquoi &#234;tes-vous si triste ?  		 			2 			- &#1050;&#1072;&#1082; &#1074;&#1072;&#1084; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100;? &#1071; &#1083;<b>&#1080;</b>&#1096;&#1085;&#1080;&#1081; &#1074; &#1084;&#1086;&#1105;&#1084; &#1076;<b>&#1086;</b>&#1084;&#1077;... 			 				2 			Comment vous dire ? Je suis de trop dans ma propre maison (Je superflu dans ma maison)...  		 			3 			- &#1053;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100;! &#1059; &#1074;&#1072;&#1089; &#1090;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1089;&#1077;&#1084;&#1100;<b>&#1103;</b>... 			 			Pas possible (Ne peut &#234;tre) ! Vous avez une si charmante famille (Chez vous tellement agr&#233;able / charmante famille)...  		 			4 			- &#1044;&#1072;, &#1085;&#1086; &#1076;<b>&#1077;</b>&#1083;&#1086; &#1074; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1074; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1089;&#1077;&#1084;&#1100;<b>&#1077;</b> &#1074;&#1089;&#1077; &#1091;&#1095;&#1072;&#1090;&#1089;&#1103;. 			 				3 			Oui, mais le probl&#232;me est que dans ma famille, tout le monde &#233;tudie (Oui, mais l'affaire [est] dans cela que dans ma famille tous &#233;tudient).  		 			5 			- &#1053;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1078;&#1077; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;! 			 				4 			Mais c'est (justement) tr&#232;s bien !  		 			6 			- &#1044;&#1072;, &#1085;&#1086; &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1091;&#1095;&#1080;&#1090;&#1089;&#1103; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1085;&#1072; &#1087;&#1080;&#1072;&#1085;<b>&#1080;</b>&#1085;&#1086;, &#1076;&#1086;&#1095;&#1100; &#1074;&#1077;&#1089;&#1100; &#1076;&#1077;&#1085;&#1100; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1089;&#1082;&#1088;<b>&#1080;</b>&#1087;&#1082;&#1077;, &#1072; &#1089;&#1099;&#1085; &#1074;&#1089;&#1105; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1075;&#1080;&#1090;<b>&#1072;</b>&#1088;&#1077;. 			 				5 			Oui, mais ma femme apprend &#224; jouer du (sur un) piano ; toute la journ&#233;e, ma fille joue du violon (ma fille tout le jour joue sur un violon) et mon fils joue tout le temps de la guitare (mon fils tout le temps joue sur la guitare).  		 			7 			- &#1040; &#1095;&#1090;&#1086; &#1074;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1077; &#1074; <b>&#1079;</b>&#1090;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;? 			 			Et [vous] que faites-vous pendant ce temps ?  		 			8 			- &#1071; &#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1102; &#1080; &#1089;&#1090;&#1088;&#1072;&#1076;<b>&#1072;</b>&#1102;. 			 				6 			J'&#233;coute et je souffre.  		 			9 			- &#1040; &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1089;<b>&#1072;</b>&#1084;&#1080; &#1085;&#1077; &#1091;&#1095;&#1080;&#1090;&#1077;&#1089;&#1100; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100;? 			 			Et pourquoi n'apprenez-vous pas vous-m&#234;me &#224; jouer d'un instrument (Et pour quoi vous-m&#234;me n'apprenez pas &#224; jouer) ?  		 			10 			- &#1055;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1090;&#1077;, &#1085;&#1086; &#1085;&#1072; &#1095;&#1105;&#1084;? 			 				7 			Pardon, et lequel (et sur lequel) ?  		 			11 			- &#1053;&#1072;&#1087;&#1088;&#1080;&#1084;<b>&#1077;</b>&#1088;, &#1085;&#1072; &#1073;&#1072;&#1088;&#1072;&#1073;<b>&#1072;</b>&#1085;&#1077;. 			 			Par exemple, le tambour.  		 			12 			- &#1071; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1080;&#1084; &#1084;&#1077;&#1096;<b>&#1072;</b>&#1090;&#1100;. 			 				8 			Je les d&#233;rangerai.  		 			13 			- &#1048;&#1075;&#1088;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1085;<b>&#1086;</b>&#1095;&#1100;&#1102;. 			 				9 			Jouez la nuit.  		 			14 			- &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1089;&#1086;&#1074;<b>&#1077;</b>&#1090;! 			 			Merci pour le conseil !  		 			 				<b>1 </b> 				Dans &#1075;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1099;&#1081;, le &#1090; ne se prononce pas : gr<b>ou</b>snyi.  			 				<b>5 </b> 				La particule de renforcement &#1078;&#1077; doit se prononcer de fa&#231;on li&#233;e avec le mot pr&#233;c&#233;dent : <b><b>&#1079;</b></b>&#1090;&#1086; &#1078;&#1077; - <b>&#232;</b>tajy (c'est justement) ; &#1095;&#1090;<b><b>&#1086;</b></b> 					&#1078;&#1077; - cht<b>o</b>jy (quoi donc).  	 		 			1 			Comme en fran&#231;ais, l'adjectif qui se rapporte &#224; un "vous" de politesse reste au singulier :<br /> - masc. : &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1075;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1099;&#1081;? Pourquoi &#234;tes-vous si triste ?<br /> - f&#233;m. : &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1090;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1075;&#1088;<b>&#1091;</b>&#1089;&#1090;&#1085;&#1072;&#1103;? Pourquoi &#234;tes-vous si triste ?  		 			2 			&#1042; &#1084;&#1086;&#1105;&#1084; &#1076;<b>&#1086;</b>&#1084;&#1077;. Vous connaissez d&#233;j&#224; le pr&#233;positionnel, mais rien ne vous emp&#234;che de retourner &#224; la le&#231;on 6 et de relire la note 2...<br /> Voyons un peu le pr&#233;positionnel des adjectifs possessifs : &#1084;&#1086;&#1081; &#1076;&#1086;&#1084; - &#1074; &#1084;&#1086;&#1105;&#1084; &#1076;<b>&#1086;</b>&#1084;&#1077; : dans ma maison ; &#1084;&#1086;<b>&#1103;</b> &#1089;&#1077;&#1084;&#1100;<b>&#1103;</b> - &#1074; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1089;&#1077;&#1084;&#1100;<b>&#1077;</b> : dans ma famille.  		 			3 			Vous avez d&#233;j&#224; rencontr&#233; des verbes pronominaux. Rappelez-vous, ils se terminent par -&#1089;&#1103; : &#1078;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103;, &#1087;&#1086;&#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1080;&#1090;&#1100;&#1089;&#1103;.<br /> Attention au verbe &#1091;&#1095;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; : ici, apprendre &#224; faire quelque chose. On dit : &#1103; &#1091;&#1095;&#1091; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : j'apprends le russe. Mais &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1091;&#1095;&#1080;&#1090;&#1089;&#1103; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1085;&#1072; &#1087;&#1080;&#1072;&#1085;<b>&#1080;</b>&#1085;&#1086; : ma femme apprend &#224; jouer du piano ; &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1085;&#1077; &#1091;&#1095;&#1080;&#1090;&#1077;&#1089;&#1100; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1085;&#1072; &#1075;&#1080;&#1090;<b>&#1072;</b>&#1088;&#1077;? Pourquoi n'apprenez-vous pas &#224; jouer de la guitare ?  		 			4 			&#1046;&#1077; est une particule qui sert &#224; insister sur le mot pr&#233;c&#233;dent. Elle est traduite par "alors", "mais", "donc", "justement", "pourtant", selon le contexte. &#1053;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1078;&#1077; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;! Mais c'est justement tr&#232;s bien !<br /> &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; : tr&#232;s bien, magnifique. Beaucoup d'adverbes se terminant par -&#1086; sont form&#233;s sur des adjectifs. Ces adverbes r&#233;pondent &#224; la question &#1082;&#1072;&#1082;? : comment ? <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1050;&#1072;&#1082;<b>&#1086;</b>&#1081;?  </p></td> 							<td class="centre"> 								<p>&#1050;&#1072;&#1082;? </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; (tr&#232;s beau) </p></td> 							<td class="centre"> 								<p>&#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; (tr&#232;s bien) </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1081; (bon)  </p></td> 							<td class="centre"> 								<p>&#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> (bon, bien) </p></td></tr></tbody></table> 		 			5 			&#1048;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; + &#1085;&#1072; + pr&#233;positionnel : jouer de (instrument de musique) : jouer sur (on retrouve ici la notion de lieu, voir la le&#231;on 6, note 2).<br /> &#1071; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1102; &#1085;&#1072; &#1075;&#1080;&#1090;<b>&#1072;</b>&#1088;&#1077; : je joue de la guitare.<br /> &#1054;&#1085; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1073;&#1072;&#1088;&#1072;&#1073;<b>&#1072;</b>&#1085;&#1077; : il joue du tambour.<br /> &#1054;&#1085;<b>&#1072;</b> &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1089;&#1082;&#1088;<b>&#1080;</b>&#1087;&#1082;&#1077; : elle joue du violon.<br /> &#1055;&#1080;&#1072;&#1085;<b>&#1080;</b>&#1085;&#1086;. Les mots &#233;trangers en -o et -e ne se d&#233;clinent pas : &#1086;&#1085;<b>&#1072;</b> &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1087;&#1080;&#1072;&#1085;<b>&#1080;</b>&#1085;&#1086; (elle joue du piano) ; &#1086;&#1085; &#1080;&#1076;&#1105;&#1090; &#1074; &#1082;&#1072;&#1092;<b>&#1077;</b> (il va au caf&#233;).<br /> &#183; &#1042;&#1077;&#1089;&#1100; (tout) s'accorde avec le nom auquel il se rapporte : &#1074;&#1077;&#1089;&#1100; &#1076;&#1077;&#1085;&#1100; (toute la journ&#233;e) ; &#1074;&#1089;&#1105; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; (tout le temps).  		 			6 			&#1057;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1102; de &#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1090;&#1100; (&#233;couter) ne doit pas &#234;tre confondu avec &#1089;&#1083;<b>&#1099;</b>&#1096;&#1091; de &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1090;&#1100; (entendre) (voir le&#231;on 10, phrase 2). Un moyen pour s'en souvenir : dans &#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1090;&#1100;, on retrouve le "ou" de "&#233;couter".  		 			7 			Pour demander &#224; votre voisin de quel instrument il joue, vous direz : &#1085;&#1072; &#1095;&#1105;&#1084; (pr&#233;positionnel de &#1095;&#1090;&#1086;) &#1074;&#1099; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090;&#1077;? (De quel instrument jouez-vous ?, litt&#233;ralement : sur quoi vous jouez ?).  		 			8 			Le verbe &#1084;&#1077;&#1096;<b>&#1072;</b>&#1090;&#1100; (g&#234;ner) entra&#238;ne l'emploi du datif : &#1103; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1080;&#1084; (datif de &#1086;&#1085;<b>&#1080;</b>) &#1084;&#1077;&#1096;<b>&#1072;</b>&#1090;&#1100; : je les d&#233;rangerai (je g&#234;nerai &#224; eux). Vous rencontrez ici, pour la premi&#232;re fois, le futur compos&#233; qui se forme avec le verbe &#1073;&#1099;&#1090;&#1100; (&#234;tre) + infinitif : &#1103; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; (je travaillerai).  		 			9 			L'imp&#233;ratif a deux formes, la 2e personne du singulier et la 2e personne du pluriel : &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; - (&#1090;&#1099;) &#1080;&#1075;&#1088;<b>&#1072;</b>&#1081;! (joue !) ; (&#1074;&#1099;) &#1080;&#1075;&#1088;<b>&#1072;</b>&#1081;&#1090;&#1077;! (jouez !) ; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; - (&#1090;&#1099;) &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1081;! (travaille !) ; (&#1074;&#1099;) &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1081;&#1090;&#1077;! (travaillez !) ; &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (&#1090;&#1099;) &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>! (viens !) ; (&#1074;&#1099;) &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077;! (venez !) ; &#1087;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1090;&#1100; (&#1090;&#1099;) &#1087;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>! (excuse !) ; (&#1074;&#1099;) &#1087;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1090;&#1077;! (excusez !). On forme l'imp&#233;ratif en ajoutant au radical du pr&#233;sent : &#1081; et &#1081;&#1090;&#1077; apr&#232;s voyelle, &#1080; et &#1080;&#1090;&#1077; apr&#232;s consonne.  	 	 		<p><b>&#1063;&#1080;&#1090;&#1072;&#1081;&#1090;&#1077; &#1080; &#1087;&#1080;&#1096;&#1080;&#1090;&#1077; </b> (Lisez et &#233;crivez) </p> 		<p>&#1052;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1091;&#1095;&#1080;&#1090;&#1089;&#1103; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1085;&#1072; &#1087;&#1080;&#1072;&#1085;<b>&#1080;</b>&#1085;&#1086;, &#1072; &#1084;&#1086;<b>&#1103;</b> &#1076;&#1086;&#1095;&#1100; &#1074;&#1077;&#1089;&#1100; &#1076;&#1077;&#1085;&#1100; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1077;&#1090; &#1085;&#1072; &#1089;&#1082;&#1088;<b>&#1080;</b>&#1087;&#1082;&#1077;. </p> 		<p><i>Bien s&#251;r, vous avez tout compris, </i>&#1080; <b>&#1079;</b>&#1090;&#1086; &#1078;&#1077; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;! <i>et c'est vraiment magnifique (tr&#232;s bien) !</i> </p>
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

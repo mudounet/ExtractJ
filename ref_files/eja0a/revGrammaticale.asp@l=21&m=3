@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	<h3>
+		R&#201;VISION ET NOTES</h3> 	 		<h1 class="centre"><b>1 Les noms</b></h1> 		<p>Vous savez d&#233;j&#224; qu'il y a trois genres en russe et vous savez les reconna&#238;tre &#224; leur terminaison. </p> 		<h2 class="centre"><b>Masculin</b> 		</h2> 		<p>Les masculins se terminent g&#233;n&#233;ralement par une consonne, mais certains se terminent par -&#1072; ou -&#1103;. Ils se d&#233;clinent comme des f&#233;minins, mais les adjectifs qui s'y rapportent prennent la marque du masculin : </p> 		<p>&#1084;&#1086;&#1081; &#1087;<b>&#1072;</b>&#1087;&#1072; : mon papa </p> 		<p>&#1090;&#1074;&#1086;&#1081; &#1076;<b>&#1077;</b>&#1076;<b>&#1091;</b>&#1096;&#1082;&#1072; : ton grand-p&#232;re </p> 		<p>&#1074;&#1072;&#1096; &#1076;<b>&#1103;</b>&#1076;&#1103; : votre oncle </p> 		<p>Certains masculins se terminent par un signe mou (&#1100;). Vous devez simplement essayer de les retenir. </p> 		<p>&#1089;&#1083;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1100; : dictionnaire </p> 		<p>&#1075;&#1086;&#1089;&#1087;&#1080;&#1090;<b>&#1072;</b>&#1083;&#1100; : h&#244;pital (militaire) </p> 		<h2 class="centre"><b>F&#233;minin</b> 		</h2> 		<p>Presque tous les noms f&#233;minins se terminent par -&#1072; ou -&#1103;. Mais il y a aussi des f&#233;minins en -&#1100; (rappelez-vous &#1084;&#1072;&#1090;&#1100; et &#1076;&#1086;&#1095;&#1100;). </p> 		<p>- A l'accusatif, ces mots ne changent pas : &#1103; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1076;&#1086;&#1095;&#1100; (je vois ma fille) ; &#1103; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1091; &#1084;&#1072;&#1090;&#1100; (j'entends ma m&#232;re). </p> 		<p>- Au g&#233;nitif, on aura &#1076;<b>&#1086;</b>&#1095;&#1077;&#1088;&#1080; et &#1084;<b>&#1072;</b>&#1090;&#1077;&#1088;&#1080;. </p> 		<h2 class="centre"><b>Neutre</b> 		</h2>  		<p>Les mots neutres se terminent par -&#1086; ou -&#1077;. Parmi eux, on trouve beaucoup de mots d'origine &#233;trang&#232;re (surtout fran&#231;aise) : &#1089;&#1083;<b>&#1086;</b>&#1074;&#1086; (mot) ; &#1084;&#1077;&#1090;&#1088;<b>&#1086;</b> (m&#233;tro) ; &#1074;&#1080;&#1085;<b>&#1086;</b> (vin) ; &#1090;&#1077;&#1088;&#1087;<b>&#1077;</b>&#1085;&#1080;&#1077; (patience) ; &#1087;&#1086;&#1074;&#1090;&#1086;&#1088;<b>&#1077;</b>&#1085;&#1080;&#1077; (r&#233;p&#233;tition) ; &#1082;&#1072;&#1092;<b>&#1077;</b> (caf&#233;, le lieu). </p> 		<p>Et vous connaissez un neutre en -&#1084;&#1103; : &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; (le temps). </p> 		<h2 class="centre"><b>D&#233;clinaisons</b> 		</h2> 		<p>Vous connaissez maintenant tous les cas. </p> 		<p><b>Nominatif : </b>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1073;&#1088;&#1072;&#1090; &#1080; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1072;</b> : j'ai un fr&#232;re et une soeur. </p> 		<p><b>G&#233;nitif : </b>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1077;&#1090; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1072; &#1080; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1099;</b> : je n'ai ni fr&#232;re ni soeur. </p> 		<p><b>Accusatif: </b>&#1071; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1072; &#1080; &#1089;&#1077;&#1089;&#1090;&#1088;&#1091; : je vois mon fr&#232;re et ma soeur. </p> 		<p>L'accusatif des masculins anim&#233;s est semblable au g&#233;nitif, mais rappelez-vous que les inanim&#233;s masculins ne changent pas &#224; l'accusatif : &#1103; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1078;&#1091;&#1088;&#1085;<b>&#1072;</b>&#1083; &#1080; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1091; (je vois une revue et un journal). </p> 		<p><b>Datif : </b>&#1071; &#1087;&#1086;&#1076;&#1072;&#1088;<b>&#1080;</b>&#1083; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1091; &#1080; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1077;</b> : j'ai offert un livre &#224; mon fr&#232;re et &#224; ma soeur. </p> 		<p><b>Instrumental : </b>&#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; (m.): le soir ; &#1091;&#1090;&#1088;&#1086;&#1084; (n.) : le matin ; &#1085;<b>&#1086;</b>&#1095;&#1100;&#1102; (f.) : la nuit. </p> 		<p><b>Pr&#233;positionnel : </b>&#1074; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077; (m.) : &#224; Paris ; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b> (f.) : &#224; Moscou. </p> 		<h2 class="centre"><b>Pluriel</b> 		</h2> 		<p>Dans les sept premi&#232;res le&#231;ons, vous avez rencontr&#233; certaines difficult&#233;s li&#233;es au pluriel irr&#233;gulier de quelques mots. </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1073;&#1088;&#1072;&#1090; - &#1073;&#1088;<b>&#1072;</b>&#1090;&#1100;&#1103; : fr&#232;re(s)  </p></td> 					<td class="centre"> 						<p>&#1089;&#1099;&#1085; - &#1089;&#1099;&#1085;&#1086;&#1074;&#1100;<b>&#1103;</b> : fils </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1076;&#1088;<b>&#1091;</b>&#1075; - &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b> : ami(s) </p></td> 					<td class="centre"> 						<p></p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1076;&#1086;&#1095;&#1100; - &#1076;<b>&#1086;</b>&#1095;&#1077;&#1088;&#1080; : fille(s) </p></td> 					<td class="centre"> 						<p>&#1084;&#1072;&#1090;&#1100; - &#1084;<b>&#1072;</b>&#1090;&#1077;&#1088;&#1080; : m&#232;re(s) </p></td></tr></tbody></table> 		<p>Notez bien : </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1076;<b>&#1080;</b>&#1085; &#1075;&#1086;&#1076; : un an  </p></td> 					<td class="centre"> 						<p>&#1086;&#1076;<b>&#1080;</b>&#1085; &#1076;&#1077;&#1085;&#1100; : un jour </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>2, 3, 4 &#1075;<b>&#1086;</b>&#1076;&#1072; : 2, 3, 4 ans  </p></td> 					<td class="centre"> 						<p>2, 3, 4 &#1076;&#1085;&#1103; : 2, 3, 4 jours </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>5, 6... &#1083;&#1077;&#1090; : 5, 6... ans  </p></td> 					<td class="centre"> 						<p>5, 6... &#1076;&#1085;&#1077;&#1081; : 5, 6... jours </p></td></tr></tbody></table> 		<h1 class="centre"><b>2 Les verbes</b> </h1> 		<h2 class="centre"><b>Futur simple</b> </h2> 		<p>Le futur simple s'emploie le plus souvent lorsqu'on veut exprimer que l'action aura lieu &#224; un moment pr&#233;cis : </p> 		<p>&#1076;&#1072;&#1090;&#1100; (donner) : &#1103; &#1076;&#1072;&#1084; (je donnerai) </p> 		<p>&#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; (dire) : &#1103; &#1089;&#1082;&#1072;&#1078;&#1091; (je dirai) </p> 		<p>Par exemple : &#1047;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1103; &#1074;&#1072;&#1084; &#1076;&#1072;&#1084; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; (demain, je vous donnerai un livre). </p> 		<p>Retenez les verbes comme &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100; (faire la cuisine), &#1078;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; (se marier), &#1087;&#1086;&#1076;&#1072;&#1088;<b>&#1080;</b>&#1090;&#1100; (offrir), &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (s'occuper), qui ont tous une construction bien particuli&#232;re. </p> 		<h1 class="centre"><b>3 Les expressions</b> 		</h1> 		<p>Voici quelques expressions usuelles qu'il faut retenir. </p> 		<p>Reportez-vous aux le&#231;ons o&#249; elles apparaissent. </p> 		<p>&#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b> : j'ai eu de la chance (15). </p> 		<p>&#1063;&#1077;&#1084; &#1074;&#1099; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;&#1089;&#1100;? : que faites-vous ? (De quoi vous occupez-vous ?) (16) </p> 		<p>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1076;&#1077;&#1083;<b>&#1072;</b> : j'ai des choses &#224; faire (16). </p> 		<p>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099; : j'ai beaucoup de travail (16). </p> 		<p>&#1071; &#1087;&#1088;&#1086;&#1075;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; : j'ai faim (17). </p> 		<p>&#1063;&#1090;&#1086; &#1090;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100; &#1077;&#1089;&#1090;&#1100; &#1080; &#1087;&#1080;&#1090;&#1100;? : que vas-tu manger et boire? (17). </p> 		<p>&#1055;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1089;&#1090;&#1086;&#1083; : &#224; table (17). </p> 		<p>&#1055;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; : au travail (17). </p> 		<p>&#1057;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1074;&#1072;&#1084; &#1083;&#1077;&#1090;? : quel &#226;ge avez-vous ? (19). </p> 		<p>&#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102; &#1074;&#1072;&#1089; : je vous f&#233;licite (f&#233;licitations) (19). </p> 		<p>&#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;&#1088;&#1086;&#1093;&#1083;<b>&#1072;</b>&#1076;&#1085;&#1086; : il fait frais aujourd'hui (19). </p> 		<p><b>&#1063;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1080; &#1087;&#1080;&#1096;<b>&#1080;</b>&#1090;&#1077; :</b> </p> 		<p>&#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>. </p> 		 		<p>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099;. </p> 		 		<p>&#1063;&#1077;&#1084; &#1074;&#1099; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;&#1089;&#1100; ? </p> 		 		<p>&#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102; &#1074;&#1072;&#1089;. </p> 		 		<p><b>&#1063;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1080; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; </b>  </p> 		<p><b>1 </b>&#1063;&#1077;&#1084; &#1074;&#1099; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;&#1089;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;? - &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099;. <b>2 </b>&#1050;&#1072;&#1082;!? &#1042;&#1099; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090;&#1077; &#1076;<b>&#1086;</b>&#1084;&#1072;? - &#1044;&#1072;, &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;. &#1071; &#1087;&#1080;&#1096;&#1091; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091;, &#1080; <b>&#1079;</b>&#1090;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;. <b>3 </b>&#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102; &#1074;&#1072;&#1089;! - &#1041;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1077; &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086;, &#1080; &#1084;&#1085;&#1077; &#1087;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091;. <b>4 </b>&#1071; &#1087;&#1088;&#1086;&#1075;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103;, &#1087;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1089;&#1090;&#1086;&#1083;. - &#1063;&#1090;&#1086; &#1090;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100; &#1077;&#1089;&#1090;&#1100; &#1080; &#1087;&#1080;&#1090;&#1100;? <b>5 </b>&#1057;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1074;&#1072;&#1084; &#1083;&#1077;&#1090;? - &#1052;&#1085;&#1077; &#1091;&#1078;<b>&#1077;</b> &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1075;<b>&#1086;</b>&#1076;&#1072;. &#1040; &#1074;&#1072;&#1084;? <b>6</b> 			&#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;&#1088;&#1086;&#1093;&#1083;<b>&#1072;</b>&#1076;&#1085;&#1086;. - &#1040; &#1084;&#1085;&#1077; &#1090;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;. </p> 		<p><b>Traduction</b> </p> 		<p><b>1</b> Que faites-vous le soir ? - J'ai beaucoup de travail. <b>2 </b>Comment !? Vous travaillez chez vous ? - Oui, et avec plaisir. J'&#233;cris un livre et ce travail me pla&#238;t. <b>3 </b>Je vous f&#233;licite. - Merci beaucoup, et il est temps que je me mette au travail. <b>4 </b>J'ai faim, il est temps d'aller &#224; table. - Que vas-tu manger et boire ? <b>5 </b>Quel &#226;ge avez-vous ? - J'ai d&#233;j&#224; vingt-quatre ans. Et vous ? <b>6 </b>Il fait frais aujourd'hui. - Et &#224; moi ce temps me pla&#238;t. </p> 		 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

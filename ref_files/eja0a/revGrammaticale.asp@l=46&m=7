@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Voici la suite de l'extrait, que vous devriez comprendre sans difficult&#233;s. Notez bien l'emploi des particules ind&#233;termin&#233;es : -mo et -&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100;.</i></p> 	<h3>
+		&#1057;&#1086;&#1073;&#1072;&#1095;&#1080;&#1081; &#1093;&#1086;&#1083;&#1086;&#1076;  (&#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;&#1077;&#1085;&#1080;&#1077;)
+		Un froid de canard (un froid de chien) (suite) </h3> 	 		 			1 			- &#1053;&#1086; &#1074;&#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1086;&#1085; &#1085;&#1077;&#1086;&#1078;<b>&#1080;</b>&#1076;&#1072;&#1085;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;: "&#1063;&#1090;&#1086; &#1074;&#1099;, &#1055;<b>&#1072;</b>&#1074;&#1077;&#1083; &#1060;&#1105;&#1076;&#1086;&#1088;&#1086;&#1074;&#1080;&#1095;, &#1075;&#1086;&#1088;<b>&#1072;</b>&#1079;&#1076;&#1086; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077;. &#1044;&#1085;&#1105;&#1084; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1087;&#1103;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077;, &#1072; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089;, &#1082;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077;." 			&#1055;&#1103;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; (54) : pit(i)diss<b>ia</b>t tchit<b>y</b>ri 			 				1 			Mais au lieu de cela, il dit de fa&#231;on inattendue : "Pensez donc, Pavel Fiodorovitch, il fait beaucoup plus froid. Pendant la journ&#233;e, il a fait [moins] cinquante-quatre, et maintenant, bien s&#251;r, il fait plus froid."  		 			2 			- &#1042; <b>&#1079;</b>&#1090;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1088;&#1080;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1077;&#1097;&#1105; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1075;&#1086;&#1089;&#1090;&#1100;. &#1048;&#1079; &#1082;&#1086;&#1088;&#1080;&#1076;<b>&#1086;</b>&#1088;&#1072; &#1086;&#1085; &#1088;<b>&#1072;</b>&#1076;&#1086;&#1089;&#1090;&#1085;&#1086; &#1082;&#1088;&#1080;&#1095;<b>&#1080;</b>&#1090;: "&#1064;&#1077;&#1089;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090;! &#1053;&#1077;&#1074;&#1086;&#1079;&#1084;<b>&#1086;</b>&#1078;&#1085;&#1086; &#1076;&#1099;&#1096;<b>&#1072;</b>&#1090;&#1100;, &#1089;&#1086;&#1074;&#1077;&#1088;&#1096;<b>&#1077;</b>&#1085;&#1085;&#1086; &#1085;&#1077;&#1074;&#1086;&#1079;&#1084;<b>&#1086;</b>&#1078;&#1085;&#1086;!" 			&#1064;&#1077;&#1089;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090; (60) : chyst(i)diss<b>ia</b>t 			 				2 			A ce moment-l&#224;, arrive un autre invit&#233;. Du couloir, il crie joyeusement : "[Moins] soixante ! Impossible de respirer, totalement impossible !"  		 			3 			- &#1042;&#1089;&#1077; &#1090;&#1088;<b>&#1086;</b>&#1077; &#1086;&#1090;&#1083;<b>&#1080;</b>&#1095;&#1085;&#1086; &#1079;&#1085;<b>&#1072;</b>&#1102;&#1090;, &#1095;&#1090;&#1086; &#1085;&#1072; &#1091;&#1083;&#1080;&#1094;&#1077; &#1085;&#1077; &#1096;&#1077;&#1089;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090;, &#1072; &#1090;&#1088;<b>&#1080;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1090;&#1088;&#1080;, &#1080; &#1085;&#1077; &#1087;&#1086; &#1056;&#1077;&#1086;&#1084;<b>&#1102;</b>&#1088;&#1091;, &#1072; &#1087;&#1086; &#1062;<b>&#1077;</b>&#1083;&#1100;&#1089;&#1080;&#1102;. 			 				3 			Tous trois savent parfaitement que dehors il ne fait pas moins soixante, mais moins trente-trois degr&#233;s Celsius et pas R&#233;aumur (et pas selon R&#233;aumur, mais selon Celsius).  		 			4 			- &#1063;&#1090;&#1086; &#1078;&#1077;, &#1087;<b>&#1091;</b>&#1089;&#1090;&#1100; &#1074;&#1088;<b>&#1091;</b>&#1090; &#1085;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;. &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100;, &#1080;&#1084; &#1086;&#1090; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1089;&#1103; &#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077;. 			 				4 			Que faire (quoi donc), qu'ils mentent et grand bien leur fasse (pour la sant&#233;). Peut-&#234;tre que gr&#226;ce &#224; cela ils ont plus chaud (peut-&#234;tre &#224; eux de cela il devient plus chaud).  		 			5 			- &#1056;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1079;&#1099;&#1074;&#1072;&#1102;&#1090; &#1088;<b>&#1072;</b>&#1079;&#1085;&#1099;&#1077; &#1080;&#1089;&#1090;<b>&#1086;</b>&#1088;&#1080;&#1080; &#1086; &#1093;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1093; &#1080;, &#1082;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1082;&#1090;<b>&#1086;</b>-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1074;&#1089;&#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1090; &#1086; &#1089;&#1074;&#1086;&#1105;&#1084; &#1076;<b>&#1077;</b>&#1076;&#1091;&#1096;&#1082;&#1077;. 			 				5 			On raconte diverses histoires sur le froid (sur les froids) et, bien s&#251;r, quelqu'un &#233;voquera (se souviendra de) son grand-p&#232;re.  		 			6 			- &#1054; &#1076;<b>&#1077;</b>&#1076;&#1091;&#1096;&#1082;&#1072;&#1093; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1079;&#1099;&#1074;&#1072;&#1102;&#1090; &#1095;&#1090;<b>&#1086;</b>&#1085;&#1080;&#1073;&#1091;&#1076;&#1100; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086;&#1077; &#1080; &#1075;&#1077;&#1088;&#1086;<b>&#1080;</b>&#1095;&#1077;&#1089;&#1082;&#1086;&#1077;. 			 			Sur les grands-p&#232;res, il y a toujours quelque chose d'int&#233;ressant et d'h&#233;ro&#239;que &#224; raconter (sur les grands-p&#232;res toujours on raconte quelque chose int&#233;ressant et h&#233;ro&#239;que).  		 			7 			- &#1042;&#1089;&#1077; &#1086;&#1085;<b>&#1080;</b> &#1073;<b>&#1099;</b>&#1083;&#1080; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1099;&#1084;&#1080;, &#1089;&#1080;&#1083;&#1100;&#1085;&#1099;&#1084;&#1080; &#1080; &#1085;&#1077; &#1073;&#1086;<b>&#1103;</b>&#1083;&#1080;&#1089;&#1100; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1072;. 			 				6 			Ils &#233;taient tous en bonne sant&#233;, forts, et ne craignaient pas le froid.  		 			8 			- &#1048;&#1090;<b>&#1072;</b>&#1082;, &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;, &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;! &#1044;<b>&#1072;</b>&#1078;&#1077; &#1090;&#1088;<b>&#1091;</b>&#1076;&#1085;&#1086; &#1087;&#1086;&#1074;<b>&#1077;</b>&#1088;&#1080;&#1090;&#1100;, &#1095;&#1090;&#1086; &#1077;&#1089;&#1090;&#1100; &#1075;&#1076;<b>&#1077;</b>-&#1090;&#1086; &#1089;&#1095;&#1072;&#1089;&#1090;&#1083;<b>&#1080;</b>&#1074;&#1099;&#1077; &#1090;&#1105;&#1087;&#1083;&#1099;&#1077; &#1082;&#1088;&#1072;<b>&#1103;</b>, &#1075;&#1076;&#1077;, &#1082;&#1072;&#1082; &#1089;&#1086;&#1086;&#1073;&#1097;<b>&#1072;</b>&#1077;&#1090; &#1073;&#1102;&#1088;<b>&#1086;</b> &#1087;&#1088;&#1086;&#1075;&#1085;<b>&#1086;</b>&#1079;&#1086;&#1074;, &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1083;&#1080;&#1096;&#1100; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100;-&#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1085;<b>&#1080;</b>&#1078;&#1077; &#1085;&#1091;&#1083;<b>&#1103;</b>. 			 				7 			Et voil&#224;, le froid, le froid ! Il est m&#234;me difficile de croire que, quelque part, il y ait d'heureuses r&#233;gions chaudes o&#249;, comme le dit la m&#233;t&#233;o, il ne fait que [moins] dix-[moins] quinze (o&#249;, comme communique le bureau des pr&#233;visions, en tout seulement dix, quinze degr&#233;s en dessous de z&#233;ro).  		 			 				<b>3 </b> 				&#1058;&#1088;<b>&#1080;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1090;&#1088;&#1080; (33) : tr<b>i</b>tsat(i) tri. Dans &#1090;&#1088;<b>&#1080;</b>&#1076;&#1094;&#1072;&#1090;&#1100;, le &#1076; ne se prononce pas.  			 				<b>8 </b> 				&#1055;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; (15) : pitn<b>a</b>tsat(i), le &#1076; ne se prononce pas.  	 		 			1 			&#1042;&#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; : au lieu de cela. Le pronom <b>&#1079;</b>&#1090;&#1086; se d&#233;cline comme les adjectifs masculins ou neutres : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">Nominatif  </td> 							<td class="centre">&#1063;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086;? : qu'est-ce que c'est ? </td></tr> 						<tr class="centre"> 							<td class="centre">G&#233;nitif  </td> 							<td class="centre">&#1042;&#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; : &#224; la place de cela. </td></tr> 						<tr class="centre"> 							<td class="centre">Accusatif  </td> 							<td class="centre">&#1071; &#1074;<b>&#1080;</b>&#1078;&#1091; <b>&#1079;</b>&#1090;&#1086; : je vois cela. </td></tr> 						<tr class="centre"> 							<td class="centre">Datif :  </td> 							<td class="centre">&#1071; &#1088;&#1072;&#1076; <b>&#1079;</b>&#1090;&#1086;&#1084;&#1091; : je suis content de cela. </td></tr> 						<tr class="centre"> 							<td class="centre">Instrumental  </td> 							<td class="centre">&#1071; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1077;&#1085; <b>&#1079;</b>&#1090;&#1080;&#1084; : je suis satisfait (content) de cela. </td></tr> 						<tr class="centre"> 							<td class="centre">Pr&#233;positionnel  </td> 							<td class="centre">&#1052;&#1099; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1084; &#1086;&#1073; <b>&#1079;</b>&#1090;&#1086;&#1084; : nous parlons de cela. </td></tr></tbody></table><br /> &#183; &#1044;&#1085;&#1105;&#1084; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1087;&#1103;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; : pendant la journ&#233;e, il a fait moins cinquante-quatre. Vous savez qu'au pr&#233;sent, le verbe &#234;tre n'est pas souvent exprim&#233;. Par contre, au pass&#233; et au futur, il est obligatoire.<br /> &#1042;&#1095;&#1077;&#1088;<b>&#1072;</b> &#1073;<b>&#1099;</b>&#1083;&#1086; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b> : hier, il faisait chaud ; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; : demain, il fera plus chaud ; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086; : maintenant, il fait froid.  		 			2 			&#1042; <b>&#1079;</b>&#1090;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1088;&#1080;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1077;&#1097;&#1105; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1075;&#1086;&#1089;&#1090;&#1100; : &#224; ce moment-l&#224;, arrive encore un invit&#233;. Cette construction (adverbe de temps + verbe de mouvement &#224; l'imperfectif) est caract&#233;ristique des r&#233;cits, des narrations. On trouvera aussi &#1090;&#1086;&#1075;&#1076;<b>&#1072;</b> &#224; la place de &#1074; <b>&#1079;</b>&#1090;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;.<br /> 			Plut&#244;t qu'un invit&#233;, &#1075;&#1086;&#1089;&#1090;&#1100; est "une personne en visite", qui n'a pas &#233;t&#233; forc&#233;ment convi&#233;e, ce qui explique l'expression &#1085;&#1077;&#1079;&#1074;<b>&#1072;</b>&#1085;&#1085;&#1099;&#1081; &#1075;&#1086;&#1089;&#1090;&#1100; : un invit&#233; ind&#233;sirable (mot &#224; mot : un visiteur non appel&#233;, non convi&#233;).<br /> &#183; Revoyons ensemble l'emploi de la pr&#233;position &#1080;&#1079; + g&#233;nitif (de). Elle indique l'origine, la source : &#1080;&#1079; &#1082;&#1086;&#1088;&#1080;&#1076;<b>&#1086;</b>&#1088;&#1072; (du couloir), &#1080;&#1079; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1099; (de la pi&#232;ce). &#1054;&#1085; &#1074; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1077; : il est dans la pi&#232;ce ; &#1086;&#1085; &#1082;&#1088;&#1080;&#1095;<b>&#1080;</b>&#1090; &#1080;&#1079; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1099; : il crie de la pi&#232;ce.  		 			3 			&#1042;&#1089;&#1077; &#1090;&#1088;<b>&#1086;</b>&#1077; : tous les trois. &#1058;&#1088;<b>&#1086;</b>&#1077; est un nom de nombre collectif et peut s'employer seul, sans nom. Vous direz donc indiff&#233;remment : &#1042; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1091; &#1074;&#1086;&#1096;&#1083;<b>&#1080;</b> &#1076;&#1074;&#1086;&#1077; ou &#1042; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1091; &#1074;&#1086;&#1096;&#1083;<b>&#1080;</b> &#1076;&#1074;&#1072; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1072; : deux personnes entr&#232;rent dans la pi&#232;ce.  		  			4 			&#1055;<b>&#1091;</b>&#1089;&#1090;&#1100; &#1074;&#1088;<b>&#1091;</b>&#1090; : qu'ils mentent. &#1055;<b>&#1091;</b>&#1089;&#1090;&#1100; est une particule qui, ici, marque l'incitation. Elle peut &#233;galement marquer la permission, le souhait, le commandement ; nous en reparlerons. Elle est suivie. selon le contexte, du pr&#233;sent, du futur simple ou compos&#233;. &#1055;<b>&#1091;</b>&#1089;&#1090;&#1100; &#1087;&#1088;&#1080;&#1076;&#1105;&#1090;! : qu'il vienne !<br /> &#183; Peu soucieux en g&#233;n&#233;ral de leur sant&#233;, les Russes emploient malgr&#233; tout le mot &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; dans bien des cas. Par exemple, si quelqu'un &#233;ternue, vous pourrez dire : &#1053;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;! qu'on peut traduire par "&#192; tes souhaits !". Si, pour remercier une personne, vous dites : &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1086;&#1073;<b>&#1077;</b>&#1076; (Merci pour le d&#233;jeuner), on vous r&#233;pondra s&#251;rement : &#1053;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;!, &#233;videmment intraduisible litt&#233;ralement, mais qui exprime l'id&#233;e de "Que cela vous profite !" ou "Grand bien vous fasse !"<br /> &#183; &#1048;&#1084; &#1086;&#1090; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1089;&#1103; &#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; : ils ont plus chaud gr&#226;ce &#224; cela. Vous avez reconnu le datif de &#1086;&#1085;<b>&#1080;</b> : &#1080;&#1084;.<br /> 			Quant &#224; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;&#1089;&#1103; (devenir, se faire), c'est la forme pronominale de &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;. &#1054;&#1090; &#1074;<b>&#1072;</b>&#1096;&#1080;&#1093; &#1089;&#1083;&#1086;&#1074; &#1084;&#1085;&#1077; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1089;&#1103; &#1074;&#1077;&#1089;&#1077;&#1083;<b>&#1077;</b>&#1077; : vos paroles me rendent plus joyeux / joyeuse (De vos mots &#224; moi il devient plus joyeux).  		 			5 			&#1056;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1079;&#1099;&#1074;&#1072;&#1102;&#1090; &#1088;<b>&#1072;</b>&#1079;&#1085;&#1099;&#1077; &#1080;&#1089;&#1090;<b>&#1086;</b>&#1088;&#1080;&#1080; : on raconte diverses histoires. Vous savez que, sans sujet, un verbe &#224; la troisi&#232;me personne du pluriel est l'&#233;quivalent du "on" fran&#231;ais. Souvenez-vous de &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1095;&#1090;&#1086; : on dit que ; &#1079;&#1076;&#1077;&#1089;&#1100; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090; &#1087;&#1086;-&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080; : ici, on parle russe.<br /> &#183; La particule invariable -&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100;, que nous avons d&#233;j&#224; rencontr&#233;e, apporte une nuance d'ind&#233;termination au pronom qu'elle accompagne, mais &#233;galement l'id&#233;e de "peu m'importe qui", "peu m'importe quoi". &#1050;&#1090;<b>&#1086;</b>-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; peut se traduire par "quelqu'un" mais aussi par "n'importe qui". De m&#234;me pour &#1095;&#1090;&#1086;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; : quelque chose ou n'importe quoi. &#1042;&#1086;&#1079;&#1100;&#1084;<b>&#1080;</b>&#1090;&#1077; &#1095;&#1090;&#1086;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1087;&#1086;&#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; : prenez quelque chose d'un peu plus chaud.  		 			6 			&#1042;&#1089;&#1077; &#1086;&#1085;<b>&#1080;</b> &#1073;<b>&#1099;</b>&#1083;&#1080; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1099;&#1084;&#1080;, &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1084;&#1080; : ils &#233;taient tous en bonne sant&#233;, forts. Au pass&#233; et au futur, lorsqu'on veut exprimer un &#233;tat, une qualit&#233; (que ce soit celle d'une personne ou d'un objet), on emploie l'adjectif attribut &#224; l'instrumental.<br /> &#1052;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; &#1073;&#1099;&#1083; &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1084; : le gar&#231;on &#233;tait fort ; &#1076;<b>&#1077;</b>&#1074;&#1086;&#1095;&#1082;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1086;&#1081; : la petite fille &#233;tait en bonne sant&#233; ; &#1086;&#1085; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1084; &#1080; &#1086;&#1085;<b>&#1072;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1091;&#1084;&#1085;&#1086;&#1081; : il sera fort et elle sera intelligente; &#1103; &#1074;<b>&#1077;</b>&#1088;&#1102;, &#1095;&#1090;&#1086; &#1085;<b>&#1072;</b>&#1096;&#1080; &#1076;<b>&#1077;</b>&#1090;&#1080; &#1073;<b>&#1091;</b>&#1076;&#1091;&#1090; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1099;&#1084;&#1080; : je crois que nos enfants seront beaux.<br /> Cependant, les jeunes Russes oublient souvent cette r&#232;gle et il est fr&#233;quent d'entendre le nominatif &#224; la place de l'instrumental. C'est &#233;videmment plus simple. Ne soyez donc pas surpris si vous entendez cette faute, mais ne vous laissez pas tenter, employez bien l'instrumental !  		 			7 			&#1058;&#1088;<b>&#1091;</b>&#1076;&#1085;&#1086; &#1087;&#1086;&#1074;<b>&#1077;</b>&#1088;&#1080;&#1090;&#1100; : il est difficile de croire. &#1055;&#1086;&#1074;<b>&#1077;</b>&#1088;&#1080;&#1090;&#1100; est le perfectif de &#1074;<b>&#1077;</b>&#1088;&#1080;&#1090;&#1100;. On emploie habituellement le perfectif dans ce type d'expression car il s'agit d'un moment pr&#233;cis : il est difficile de croire qu'en ce moment m&#234;me, qu'&#224; cette minute pr&#233;cise... &#1058;&#1088;<b>&#1091;</b>&#1076;&#1085;&#1086; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1100;, &#1095;&#1090;&#1086; &#1075;&#1076;&#1077;-&#1090;&#1086; &#1089;&#1090;&#1088;<b>&#1072;</b>&#1096;&#1085;&#1099;&#1081; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079; : il est difficile de s'imaginer (en ce moment) que, quelque part, il fasse un froid terrible.<br /> " La particule invariable -&#1090;&#1086; exprime, comme &#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100;, une nuance d'ind&#233;termination mais &#233;galement l'id&#233;e de "je ne sais pas qui", "je ne sais pas quoi". &#1050;&#1090;&#1086;-&#1090;&#1086; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1079;&#1074;&#1086;&#1085;<b>&#1080;</b>&#1083; : quelqu'un t'a t&#233;l&#233;phon&#233;, c'est-&#224;-dire : on t'a t&#233;l&#233;phon&#233;, mais je ne sais pas qui.<br /> &#1042;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1083;&#1080;&#1096;&#1100; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1085;<b>&#1080;</b>&#1078;&#1077; &#1085;&#1091;&#1083;<b>&#1103;</b> : il fait seulement (en tout) moins dix. &#1051;&#1080;&#1096;&#1100; a le m&#234;me sens que &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086;, mais est plus litt&#233;raire. La fa&#231;on courante de dire "Il fait moins dix" est : &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1072;, &#1084;<b>&#1080;</b>&#1085;&#1091;&#1089; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100;. De la m&#234;me fa&#231;on, pour dire "Il fait cinq degr&#233;s", vous direz simplement : &#1087;&#1103;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1090;&#1077;&#1087;&#1083;<b>&#1072;</b> ou &#1087;&#1083;&#1102;&#1089; &#1087;&#1103;&#1090;&#1100;. Z&#233;ro degr&#233; se dit &#1085;&#1086;&#1083;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074;.<br /> Mais si vous &#233;coutez la m&#233;t&#233;o &#224; la radio ou &#224; la t&#233;l&#233;vision, vous entendrez peut-&#234;tre : &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1085;&#1072; &#1091;&#1083;&#1080;&#1094;&#1077; &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1087;&#1103;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1074;<b>&#1099;</b>&#1096;&#1077; &#1085;&#1091;&#1083;<b>&#1103;</b> : aujourd'hui, dehors il fait vingt-cinq (vingt-cinq degr&#233;s plus haut que z&#233;ro). &#1042;<b>&#1099;</b>&#1096;&#1077; est le comparatif de &#1074;&#1099;&#1089;<b>&#1086;</b>&#1082;&#1080;&#1081;. Et s'il fait moins vingt-cinq : &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1087;&#1103;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; &#1085;<b>&#1080;</b>&#1078;&#1077; &#1085;&#1091;&#1083;<b>&#1103;</b> (plus bas que z&#233;ro), &#1085;<b>&#1080;</b>&#1078;&#1077; &#233;tant le comparatif de &#1085;<b>&#1080;</b>&#1079;&#1082;&#1080;&#1081;.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

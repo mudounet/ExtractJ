@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	<h3>
+		R&#201;VISION ET NOTES</h3> 	 		<h1 class="centre"><b>1 Les pr&#233;verbes &#1087;&#1088;&#1080;-, &#1087;&#1086;&#1076; -, &#1087;&#1077;&#1088;&#1077;-, &#1087;&#1088;&#1086;</b>-</h1> 		<p>Associ&#233;s aux verbes de mouvement &#1080;&#1076;&#1090;<b>&#1080;</b> : aller (&#224; pied) et <b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; : aller (autrement qu'&#224; pied), ils en modifient le sens. </p> 		<p>&#1071; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : je suis arriv&#233;. </p> 		<p>&#1054;&#1085;<b>&#1072;</b>	&#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> : elle est arriv&#233;e. </p> 		<p>&#1052;&#1099; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b> : nous sommes arriv&#233;(e)s. </p> 		<p>&#1071; &#1087;&#1086;&#1076;&#1086;&#1096;&#1105;&#1083; : je me suis approch&#233;. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1076;&#1086;&#1096;&#1083;&#1072; : elle s'est approch&#233;e. </p> 		<p>&#1052;&#1099; &#1087;&#1086;&#1076;&#1086;&#1096;&#1083;<b>&#1080;</b> : nous nous sommes approch&#233;(e)s. </p> 		<p>&#1071; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083; : j'ai d&#233;m&#233;nag&#233;. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1072; : elle a d&#233;m&#233;nag&#233;. </p> 		<p>&#1052;&#1099; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080; : nous avons d&#233;m&#233;nag&#233;. </p> 		<p>&#1071; &#1087;&#1088;&#1086;&#1096;&#1105;&#1083; : je suis pass&#233;. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1087;&#1088;&#1086;&#1096;&#1083;<b>&#1072;</b> : elle est pass&#233;e. </p> 		<p>&#1052;&#1099; &#1087;&#1088;&#1086;&#1096;&#1083;<b>&#1080;</b> : nous sommes pass&#233;(e)s. </p> 		<h1 class="centre"><b>2 Les pr&#233;positions</b></h1> 		<p>Vous connaissez d&#233;j&#224; les pr&#233;positions les plus courantes. Voici un petit rappel de ces pr&#233;positions et des cas qui les accompagnent. </p> 		<p><b>&#1047;&#1072; </b>+ instrumental : derri&#232;re, au-del&#224; de, apr&#232;s </p> 		<p>&#1086;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072; &#1079;&#1072; &#1091;&#1075;&#1083;&#1086;&#1084; : l'arr&#234;t apr&#232;s l'angle. </p> 		<p>&#1076;&#1086;&#1084; &#1079;<b>&#1072;</b> &#1075;&#1086;&#1088;&#1086;&#1076;&#1086;&#1084; : la maison &#224; la campagne. </p> 		<p><b>&#1055;&#1086; </b>+ datif : par, sur (compl&#233;ment de lieu), en suivant </p> 		<p>&#1052;&#1099; &#1087;&#1088;&#1086;&#1096;&#1083;<b>&#1080;</b> &#1087;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1081; &#1091;&#1083;&#1080;&#1094;&#1077; : nous sommes pass&#233;s par cette rue. </p> 		<p>&#1054;&#1085; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1077;&#1090; &#1087;&#1086; &#1087;&#1083;<b>&#1086;</b>&#1097;&#1072;&#1076;&#1080; : il se prom&#232;ne sur la place. </p> 		<p><b>&#1055;<b>&#1077;</b>&#1088;&#1077;&#1076; </b>+ instrumental : avant (compl&#233;ment de temps) </p> 		<p>&#1058;&#1099; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1077;&#1096;&#1100; &#1087;<b>&#1077;</b>&#1088;&#1077;&#1076; &#1091;&#1078;&#1080;&#1085;&#1086;&#1084; : tu te prom&#232;nes avant le d&#238;ner. </p> 		<p><b>&#1055;&#1086;&#1076; </b>+ instrumental : aux environs de (compl&#233;ment de lieu) &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1076;&#1086;&#1084; &#1087;&#1086;&#1076; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077;&#1084; : j'ai une maison pr&#232;s de Paris. &#1059; &#1085;&#1077;&#1105; &#1076;<b>&#1072;</b>&#1095;&#1072; &#1087;&#1086;&#1076; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1086;</b>&#1081; : elle a une datcha pr&#232;s de Moscou. </p> 		<p><b>&#1050; </b>+ datif : vers, chez </p> 		<p>&#1054;&#1085; &#1087;&#1086;&#1076;&#1086;&#1096;&#1105;&#1083; &#1082; &#1076;<b>&#1086;</b>&#1084;&#1091; : il s'est approch&#233; de la maison. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> &#1082; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1077;</b> : elle est arriv&#233;e chez sa soeur. </p> 		<h1 class="centre"><b>3 Les d&#233;clinaisons</b></h1> 		<p>Revoyons les six cas de la d&#233;clinaison russe avec quelques exemples : </p> 		<h2 class="centre">- <b>Nominatif </b>(sujet) : </h2> 		<p>Masc. &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1076;&#1086;&#1084; : j'ai une nouvelle maison. </p> 		<p>F&#233;m. &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;<b>&#1086;</b>&#1074;&#1072;&#1103; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1072; : j'ai une nouvelle voiture. </p> 		<h2 class="centre">- <b>G&#233;nitif </b>(compl&#233;ment de nom) : </h2> 		<p>Masc. &#1054;&#1085; &#1078;&#1080;&#1074;&#1105;&#1090; &#1074; &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1077; &#1089;<b>&#1099;</b>&#1085;&#1072; : il vit dans la maison de son fils. </p> 		<p>F&#233;m. &#1071; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b> &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1091; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1072; : j'aime la voiture de mon fr&#232;re. </p> 		<h2 class="centre">- <b>Accusatif </b>(compl&#233;ment d'objet direct) : </h2> 		<p>Masc. &#1071; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1085;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1076;&#1086;&#1084; : je vois une nouvelle maison. </p> 		<p>F&#233;m. &#1071; &#1074;<b>&#1080;</b>&#1078;&#1091; &#1085;<b>&#1086;</b>&#1074;&#1091;&#1102; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1091; : je vois une nouvelle voiture. </p> 		<h2 class="centre">- <b>Datif </b>(compl&#233;ment de lieu) : </h2> 		<p>Masc. &#1071; &#1080;&#1076;&#1091; &#1082; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1084;&#1091; &#1076;<b>&#1086;</b>&#1084;&#1091; : je vais vers la nouvelle maison. </p> 		<p>F&#233;m. &#1071; &#1080;&#1076;&#1091; &#1082; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1081; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1077; : je vais vers la nouvelle voiture. </p> 		<h2 class="centre">- <b>Instrumental :</b></h2> 		<p>Masc. &#1071; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1077;&#1085; &#1085;<b>&#1086;</b>&#1074;&#1099;&#1084; &#1076;<b>&#1086;</b>&#1084;&#1086;&#1084; : je suis content de ma nouvelle maison. </p> 		<p>F&#233;m. &#1071; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1077;&#1085; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1081; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1086;&#1081; : je suis content de ma nouvelle voiture. </p> 		<h2 class="centre">- <b>Pr&#233;positionnel </b>(compl&#233;ment de lieu) : </h2> 		<p>Masc. &#1054;&#1085; &#1078;&#1080;&#1074;&#1105;&#1090; &#1074; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1084; &#1076;<b>&#1086;</b>&#1084;&#1077; : il vit dans une nouvelle maison. </p> 		<p>F&#233;m. &#1054;&#1085; &#1078;&#1080;&#1074;&#1105;&#1090; &#1074; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1081; &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1077; : il habite un nouvel appartement. </p> 		<h1 class="centre"><b>4 Le temps</b> </h1> 		<p>Vous avez vu que souvent la notion de temps est exprim&#233;e par l'accusatif avec ou sans pr&#233;position : </p> 		<p>&#1074; &#1089;&#1077;&#1084;&#1100; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; : &#224; sept heures </p> 		<p>&#1074; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; : &#224; dix heures </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">&#1074; &#1087;&#1086;&#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1100;&#1085;&#1080;&#1082; : le lundi  </td> 					<td class="centre">&#1074; &#1087;<b>&#1103;</b>&#1090;&#1085;&#1080;&#1094;&#1091; : le vendredi </td></tr> 				<tr class="centre"> 					<td class="centre">&#1074;&#1086; &#1074;&#1090;<b>&#1086;</b>&#1088;&#1085;&#1080;&#1082; : le mardi  </td> 					<td class="centre">&#1074; &#1089;&#1091;&#1073;&#1073;<b>&#1086;</b>&#1090;&#1091;: le samedi </td></tr> 				<tr class="centre"> 					<td class="centre">&#1074; &#1089;&#1088;<b>&#1077;</b>&#1076;&#1091; : le mercredi  </td> 					<td class="centre">&#1074; &#1074;&#1086;&#1089;&#1082;&#1088;&#1077;&#1089;<b>&#1077;</b>&#1085;&#1100;&#1077; : le dimanche </td></tr> 				<tr class="centre"> 					<td class="centre">&#1074; &#1095;&#1077;&#1090;&#1074;<b>&#1077;</b>&#1088;&#1075; : le jeudi </td> 					<td class="centre"></td></tr></tbody></table> 		<p>&#1071; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1102; &#1087;&#1103;&#1090;&#1100; &#1076;&#1085;&#1077;&#1081;, &#1072; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1102; &#1076;&#1074;&#1072; &#1076;&#1085;&#1103; : je travaille cinq jours et je me repose deux jours. </p> 		<p>&#1076;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a deux ans </p> 		<p>&#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1102; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a une semaine </p> 		<p>&#1055;&#1086; + datif : tous (toutes) les </p> 		<p>&#1055;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1086;&#1085; &#1091;&#1095;<b>&#1080;</b>&#1090; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : tous les soirs, il &#233;tudie le russe. </p> 		<h1 class="centre"><b>5 Le lieu</b></h1> 		<p>Rappelez-vous ces expressions qui vous permettront de demander votre chemin quand vous serez livr&#233; &#224; vous-m&#234;me &#224; Moscou ou &#224; Saint-P&#233;tersbourg. </p> 		<p>&#1089;&#1083;<b>&#1077;</b>&#1074;&#1072; &#1090;&#1077;&#1072;&#1090;&#1088; : &#224; gauche, le th&#233;&#226;tre. </p> 		<p>&#1089;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1072; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1072; : &#224; droite, la biblioth&#232;que. </p> 		<p>&#1071; &#1080;&#1076;&#1091; &#1085;&#1072;&#1083;<b>&#1077;</b>&#1074;&#1086; : je vais &#224; gauche. </p> 		<p>&#1054;&#1085; &#1080;&#1076;&#1105;&#1090; &#1085;&#1072;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1086; : il va &#224; droite. </p> 		<p>&#1054;&#1085; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1077;&#1090; &#1083;&#1086; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1091; : il se prom&#232;ne dans le parc. </p> 		<p>&#1052;&#1086;&#1081; &#1076;&#1086;&#1084; &#1074; &#1076;&#1074;<b>&#1091;</b>&#1093; &#1096;&#1072;&#1075;<b>&#1072;</b>&#1093; &#1086;&#1090; &#1084;&#1077;&#1090;&#1088;<b>&#1086;</b> : ma maison est &#224; deux pas du m&#233;tro. </p> 		<p>&#1052;&#1099; &#1078;&#1080;&#1074;&#1105;&#1084; &#1088;<b>&#1103;</b>&#1076;&#1086;&#1084; : nous vivons c&#244;te &#224; c&#244;te (&#224; c&#244;t&#233; l'un de l'autre). </p> 		<p>&#1059; &#1085;&#1072;&#1089; &#1076;&#1086;&#1084; &#1087;&#1086;&#1076; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1086;</b>&#1081;: nous avons une maison aux environs de Moscou. </p> 		<p>&#1071; &#1078;&#1080;&#1074;&#1091; &#1085;&#1077;&#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1086;&#1090; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1072; : j'habite pr&#232;s de Saint-P&#233;tersbourg. </p> 		<p>&#1054;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072; &#1072;&#1074;&#1090;<b>&#1086;</b>&#1073;&#1091;&#1089;&#1072; &#1079;&#1072; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;&#1086;&#1084; : l'arr&#234;t du bus est apr&#232;s le magasin. </p> 		<p><b>&#1063;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1080; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; </b> 		</p> 		<p><b>1 </b>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;<b>&#1077;</b>&#1085;&#1080;&#1077;. &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1087;&#1086;&#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1084;, &#1072; &#1087;&#1086;&#1090;<b>&#1086;</b>&#1084; &#1087;&#1086;&#1081;&#1076;&#1105;&#1084; &#1087;&#1086;&#1089;&#1084;<b>&#1086;</b>&#1090;&#1088;&#1080;&#1084; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>. <b>2 </b>&#1042;&#1099; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1077; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1088;&#1072;&#1081;<b>&#1086;</b>&#1085;?  &#1071; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083; &#1089;&#1102;&#1076;<b>&#1072;</b> &#1085;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086;, &#1085;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1084;&#1086;&#1105; &#1083;&#1102;&#1073;<b>&#1080;</b>&#1084;&#1086;&#1077; &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>. <b>3 </b>&#1057;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; &#1074;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>?  		- &#1045;&#1097;&#1105; &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;, &#1085;&#1086; &#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102;, &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>. <b>4 </b>&#1071; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1089;&#1074;&#1086;&#1073;<b>&#1086;</b>&#1076;&#1077;&#1085;, &#1076;&#1072;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1103; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;&#1086;&#1078;<b>&#1091;</b>.  		- &#1042;&#1099; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1099;, &#1085;&#1086; &#1084;&#1086;&#1074; &#1075;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1085;&#1080;&#1094;&#1072; &#1074; &#1076;&#1074;<b>&#1091;</b>&#1093; &#1096;&#1072;&#1075;<b>&#1072;</b>&#1093;. <b>5 </b>&#1071; &#1074;&#1072;&#1089; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083; &#1089;&#1090;&#1086; &#1083;&#1077;&#1090;, &#1075;&#1076;&#1077; &#1074;&#1099; &#1073;<b>&#1099;</b>&#1083;&#1080;?  		- &#1071; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1083; &#1079;<b>&#1072;</b> &#1075;&#1086;&#1088;&#1086;&#1076;&#1086;&#1084;.&#1058;&#1072;&#1084; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1076;&#1086;&#1084;. <b>6 </b>&#1055;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;, &#1084;&#1099; &#1074;&#1072;&#1089; &#1078;&#1076;&#1105;&#1084; &#1088;<b>&#1086;</b>&#1074;&#1085;&#1086; &#1074; &#1089;&#1077;&#1084;&#1100;.  		- &#1071; &#1087;&#1088;&#1080;&#1076;&#1091; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;, &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1076;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1084;&#1085;&#1077; &#1074;&#1072;&#1096; <b>&#1072;</b>&#1076;&#1088;&#1077;&#1089;. </p> 		<p><b>Traduction</b></p> 		<p><b>1</b> J'ai une proposition (&#224; vous faire). Travaillons un peu maintenant et apr&#232;s nous irons voir Moscou. <b>2 </b>Connaissez-vous bien ce quartier ? - J'ai d&#233;m&#233;nag&#233; ici r&#233;cemment, mais c'est mon endroit pr&#233;f&#233;r&#233; &#224; Moscou. <b>3 </b>Combien de jours serez-vous &#224; Moscou ? - Je ne sais pas encore, mais je pense que j'aurai le temps de voir Moscou. <b>4 </b>Je suis libre maintenant, allez, je vais vous accompagner. - Vous &#234;tes tr&#232;s aimable, mais mon h&#244;tel est &#224; deux pas. <b>5 </b>Cela fait des ann&#233;es qu'on ne s'est pas vus, o&#249; &#233;tiez-vous ? - Je me reposais &#224; la campagne. J'y ai une petite maison. <b>6 </b>Venez chez nous ce soir, nous vous attendons &#224; sept heures pile. - Je viendrai volontiers, seulement donnez-moi votre adresse. </p> 		 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Quittons un peu notre initiation &#224; la langue des affaires pour revenir &#224; un style plus familier. Ce dialogue vous permettra d'&#233;tudier, entre autres, les pronoms personnels et les diff&#233;rentes constructions avec la pr&#233;position <b>y</b>.</i></p> 	<h3>
+		&#1052;&#1091;&#1078;&#1089;&#1082;&#1086;&#1081; &#1088;&#1072;&#1079;&#1075;&#1086;&#1074;&#1086;&#1088; 
+		
+			1
+		Une conversation d'hommes</h3> 	 		 			1 			- &#1063;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1084;&#1099; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1084; &#1086; &#1076;&#1077;&#1083;<b>&#1072;</b>&#1093;? &#1055;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1084; &#1086; &#1095;&#1105;&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1073;<b>&#1086;</b>&#1083;&#1077;&#1077; &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1084;. 			 				2 			Mais pourquoi toujours discuter affaires (Qu'est-ce que c'est nous discutons toujours affaires) ? Parlons un peu de quelque chose de plus agr&#233;able.  		 			2 			- &#1053;&#1086; &#1076;&#1083;&#1103; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1087;&#1088;<b>&#1077;</b>&#1078;&#1076;&#1077; &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b>. 			 				3 			Mais pour moi le travail [passe] avant tout.  		 			3 			- &#1040; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1072; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1086;&#1084; &#1084;<b>&#1077;</b>&#1089;&#1090;&#1077; - &#1078;&#1077;&#1085;<b>&#1072;</b> &#1080; &#1076;<b>&#1077;</b>&#1090;&#1080;. 			 			Et pour moi ce sont ma femme et mes enfants d'abord (Et pour moi au premier plan ma femme et mes enfants).  		 			4 			- &#1058;&#1099; &#1091; &#1085;&#1072;&#1089; &#1089;&#1095;&#1072;&#1089;&#1090;&#1083;<b>&#1080;</b>&#1074;&#1099;&#1081;. &#1059; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> - &#1080;&#1076;&#1077;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1072;&#1103; &#1078;<b>&#1077;</b>&#1085;&#1097;&#1080;&#1085;&#1072;. &#1040; &#1091; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1078;&#1077;&#1085;<b>&#1099;</b> &#1077;&#1089;&#1090;&#1100; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1085;&#1077;&#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1086;&#1082;: &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1087;<b>&#1072;</b>&#1084;&#1103;&#1090;&#1100;. 			 				4 			Toi, tu es heureux. Tu as une femme id&#233;ale. Ma femme n'a qu'un seul d&#233;faut : [elle a] une mauvaise m&#233;moire, c'est vraiment terrible ([elle a] une simplement &#233;pouvantable m&#233;moire).  		 			5 			- &#1050;&#1072;&#1082;?! &#1054;&#1085;<b>&#1072;</b> &#1074;&#1089;&#1105; &#1079;&#1072;&#1073;&#1099;&#1074;<b>&#1072;</b>&#1077;&#1090;? 			 			Comment [cela] ? Elle oublie tout ?  		 			6 			- &#1053;&#1077;&#1090;, &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;<b>&#1086;</b>&#1090;, &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1089;&#1105; &#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1090;. 			 			Non, au contraire, elle se souvient toujours de tout.  		 			7 			- &#1052;&#1086;<b>&#1103;</b> &#1089;<b>&#1091;</b>&#1087;&#1088;&#1091;&#1075;&#1072; - &#1078;<b>&#1077;</b>&#1085;&#1097;&#1080;&#1085;&#1072;, &#1095;&#1090;&#1086; &#1085;<b>&#1072;</b>&#1076;&#1086;, &#1085;&#1086; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1087;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100; &#1085;&#1072; &#1086;&#1076;&#1085;&#1091; &#1080; &#1090;&#1091; &#1078;&#1077; &#1090;<b>&#1077;</b>&#1084;&#1091;. 			 				5 			Mon &#233;pouse est une femme comme il faut, mais elle aime parler toujours de la m&#234;me chose (sur un m&#234;me th&#232;me).  		 			8 			- &#1040; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1078;&#1077;&#1085;<b>&#1077;</b> &#1076;&#1083;&#1103; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1085;&#1077; &#1085;<b>&#1091;</b>&#1078;&#1085;&#1086; &#1085;&#1080;&#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1090;<b>&#1077;</b>&#1084;&#1099;. 			 				6 			Ma femme, elle, n'a m&#234;me pas besoin de sujet particulier pour parler (Et &#224; ma femme pour cela pas besoin du tout d'aucun th&#232;me).  		 			9 			- &#1047;&#1072;&#1074;<b>&#1080;</b>&#1076;&#1091;&#1102; &#1103; &#1074;&#1072;&#1084;. &#1052;&#1085;&#1077; &#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103;, &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1084;&#1077;&#1085;<b>&#1103;</b> &#1074;&#1089;&#1102; &#1078;&#1080;&#1079;&#1085;&#1100; &#1085;&#1077; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;. &#1040; &#1090;&#1074;&#1086;&#1103;, &#1041;&#1086;&#1088;<b>&#1080;</b>&#1089;? 			 			Je vous envie. Il me semble que ma femme ne m'a jamais compris (Il me semble que ma femme ne me comprend pas de toute la vie). Et la tienne, Boris ?  		 			10 			- &#1053;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;, &#1103; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1077;&#1105; &#1085;&#1077; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1096;&#1080;&#1074;&#1072;&#1083; &#1086;&#1073; <b>&#1079;</b>&#1090;&#1086;&#1084;. 			 			Je ne sais pas. Je ne lui ai jamais demand&#233;.  		 			11 			- &#1048; &#1074;&#1089;&#1105;-&#1090;&#1072;&#1082;<b>&#1080;</b>, &#1085;&#1072;&#1084; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>, &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b>. &#1071; &#1087;&#1088;&#1077;&#1076;&#1083;&#1072;&#1075;<b>&#1072;</b>&#1102; - &#1079;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; &#1085;<b>&#1072;</b>&#1096;&#1080;&#1093; &#1076;&#1072;&#1084;! 			 				7 			Et malgr&#233; tout nous avons eu de la chance, mes amis. Je [vous] propose de [boire] &#224; la sant&#233; de nos dames !  		 			12 			- &#1047;&#1072; &#1080;&#1093; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;! &#1048; &#1087;&#1086;&#1088;<b>&#1072;</b> &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. &#1053;&#1072;&#1089; &#1084;<b>&#1086;</b>&#1075;&#1091;&#1090; &#1085;&#1077; &#1087;&#1086;&#1085;<b>&#1103;</b>&#1090;&#1100;. 			 			&#192; leur sant&#233; ! Et [maintenant] il est temps de [rentrer] &#224; la maison. On pourrait ne pas nous comprendre.  	 		 			1 			Les hommes russes entre eux. Un des th&#232;mes favoris des hommes lorsqu'ils discutent entre eux est la famille et tout ce qui s'y rapporte. Bien s&#251;r, on parle politique, affaires, football, hockey, musique (surtout les jeunes), mais les Russes ressentent vraiment comme un besoin le fait de discuter de leur famille avec leurs amis ou parfois m&#234;me de simples relations de travail.  		 			2 			Vous vous souvenez que le suffixe -&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; ajoute une nuance d'ind&#233;termination. Ici, il suit le pronom interrogatif &#1095;&#1090;&#1086;. Dans &#1095;&#1090;&#1086;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; se d&#233;cline, seul &#1095;&#1090;&#1086; se d&#233;cline. Nominatif : &#1095;&#1090;&#1086;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; (quelque chose) ; pr&#233;positionnel : &#1087;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1084; &#1086; &#1095;&#1105;&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; (parlons un peu de quelque chose).  		 			3 			Dans cette phrase, deux pr&#233;positions sont suivies du g&#233;nitif : &#1076;&#1083;&#1103; (pour) et &#1087;&#1088;<b>&#1077;</b>&#1078;&#1076;&#1077; (avant).<br /> &#1044;&#1083;&#1103; &#1085;&#1077;&#1075;<b>&#1086;</b> &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;- &#1085;&#1072; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1086;&#1084; &#1084;<b>&#1077;</b>&#1089;&#1090;&#1077; : pour lui, le travail est au premier plan.<br /> &#1044;<b>&#1077;</b>&#1090;&#1080; - &#1087;&#1088;<b>&#1077;</b>&#1078;&#1076;&#1077; &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b> : les enfants [passent] avant tout. &#1042;&#1089;&#1077;&#1075;<b>&#1086;</b> est le g&#233;nitif de &#1074;&#1089;&#1105; (tout).<br /> Au passage, notez que, dans certains cas (nous vous les signalerons au fur et &#224; mesure), les pr&#233;positions &#1091; et &#1076;&#1083;&#1103; peuvent avoir le m&#234;me sens. C'est le cas ici, dans les phrases 2 et 3.  		 			4 			Vous avez d&#233;j&#224; souvent rencontr&#233; la pr&#233;position y + g&#233;nitif. Et maintenant observez bien cette construction, assez courante en russe : &#1090;&#1099; &#1091; &#1085;&#1072;&#1089; : tu chez nous, c'est-&#224;-dire "toi qui es avec nous", "toi que l'on conna&#238;t bien". Voici un autre exemple : &#1071; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1085;&#1072; &#1089;&#1099;&#1085;&#1086;&#1084;. &#1054;&#1085; &#1091; &#1085;&#1072;&#1089; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081;. Je suis contente de mon fils. C'est un bon fils (pour nous, chez nous). Le &#1091; &#1085;&#1072;&#1089; insiste sur l'appartenance &#224; la famille.<br /> Vous remarquerez dans cette le&#231;on beaucoup de constructions avec la pr&#233;position &#1091;. Ceci n'est pas d&#233;lib&#233;r&#233; et d&#233;montre simplement qu'on la rencontre tr&#232;s souvent.<br /> &#183; &#1059;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; : horrible, &#233;pouvantable, affreux, terrible. Les Russes usent et abusent de cet adjectif ainsi que de l'adverbe &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1086; (horriblement, d'une mani&#232;re affreuse). Comme en fran&#231;ais, vous pouvez rencontrer des phrases du type &#1086;&#1085;<b>&#1072;</b> &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1072;&#1103; : elle est terriblement belle !  		 			5 			L'expression &#1095;&#1090;&#1086; &#1085;<b>&#1072;</b>&#1076;&#1086; ("comme il faut") a &#233;t&#233; traduite telle quelle du fran&#231;ais. D'autres expressions se sont &#233;galement "russifi&#233;es" au XVIIIe si&#232;cle. &#192; cette &#233;poque, la litt&#233;rature fran&#231;aise &#233;tait tr&#232;s en vogue en Russie. Mais elle &#233;tait malheureusement souvent traduite en russe mot &#224; mot, sans aucune recherche. Si la syntaxe russe s'est quelque peu "francis&#233;e", c'est suite &#224; ce courant. Surprenant, non ?<br /> &#183; &#1054;&#1076;&#1085;<b>&#1072;</b> &#1080; &#1090;&#1072; &#1078;&#1077; &#1090;<b>&#1077;</b>&#1084;&#1072; : le m&#234;me th&#232;me, sujet (un et m&#234;me th&#232;me). &#1054;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090; &#1085;&#1072; &#1086;&#1076;&#1085;&#1091; &#1080; &#1090;&#1091; &#1078;&#1077; &#1090;<b>&#1077;</b>&#1084;&#1091;. Il parle de la m&#234;me chose (sur un m&#234;me th&#232;me). Observez ici l'emploi de l'accusatif apr&#232;s la pr&#233;position &#1085;&#1072;.<br /> &#183; Vous connaissez les mots &#1084;&#1091;&#1078;&#1095;<b>&#1080;</b>&#1085;&#1072; (homme) ; &#1078;<b>&#1077;</b>&#1085;&#1097;&#1080;&#1085;&#1072; (femme) ; &#1084;<b>&#1091;</b>&#1078; (mari) ; &#1078;&#1077;&#1085;<b>&#1072;</b> (femme de ...). Dans cette phrase 7, vous trouvez le mot &#1089;<b>&#1091;</b>&#1087;&#1088;&#1091;&#1075;&#1072; (&#233;pouse) qui, comme en fran&#231;ais, a une connotation officielle. Le masculin sera &#1089;<b>&#1091;</b>&#1087;&#1088;&#1091;&#1075; (&#233;poux).<br /> Le mot &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; signifie "personne", "individu".<br /> Si vous voulez dire "mon mari", ne dites pas (nous vous le signalons parce que l'erreur est fr&#233;quente) &#1084;&#1086;&#1081;<br /> &#1084;&#1091;&#1078;&#1095;<b>&#1080;</b>&#1085;&#1072; ou &#1084;&#1086;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;, mais &#1084;&#1086;&#1081; &#1084;<b>&#1091;</b>&#1078;. Vous pouvez tout &#224; fait dire : &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> - &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; : ma femme est une personne remarquable.  		 			6 			Le pronom <b>&#1079;</b>&#1090;&#1086; (ce, cela, &#231;a) se d&#233;cline ainsi :<br /> 			Nominatif : <b>&#1079;</b>&#1090;&#1086;<br />G&#233;nitif : &#1084;&#1085;&#1077; &#1085;&#1077; &#1085;<b>&#1091;</b>&#1078;&#1085;&#1086; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; : je n'ai pas besoin de cela (n&#233;gation).<br /> 			Datif: &#1084;&#1099; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b> &#1082; <b>&#1079;</b>&#1090;&#1086;&#1084;&#1091; : nous sommes arriv&#233;s &#224; cela.<br /> 			Accusatif : &#1103; &#1095;&#1080;&#1090;<b>&#1072;</b>&#1102; <b>&#1079;</b>&#1090;&#1086; : je lis cela.<br /> 			Instrumental : &#1103; &#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1077;&#1085; <b>&#1079;</b>&#1090;&#1080;&#1084; : je suis content de cela.<br /> 			Pr&#233;positionnel : &#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102; &#1086;&#1073; <b>&#1079;</b>&#1090;&#1086;&#1084; : je pense &#224; cela.  		 			7 			Essayez de vous rappeler quelques phrases &#224; dire &#224; l'occasion des toasts. Les premiers sont toujours en l'honneur des dames pr&#233;sentes : &#1079;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; &#1085;<b>&#1072;</b>&#1096;&#1080;&#1093; &#1076;&#1072;&#1084;! &#192; la sant&#233; de nos dames ! Et, encore mieux : &#1079;&#1072; &#1085;<b>&#1072;</b>&#1096;&#1080;&#1093; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1093; &#1076;&#1072;&#1084;! &#192; nos belles dames !  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

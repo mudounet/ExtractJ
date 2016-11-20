@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/exDragDrop.js" type="text/javascript"></script> 
+<script src="js/mouvements.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7MMRus.gif');
+}
+/* liens navigation haut */
+div#divApprentissage{
+	position:absolute;
+	top:27px;
+	left:610px;
+	height:20px;
+	width:135px;
+	}
+
+div#divExTraduction{
+	position:absolute;
+	top:96px;
+	left:630px;
+	height:20px;
+	width:115px;
+	}
+div#central{
+	margin-top:10px;
+	position:absolute;
+	top:160px;
+	left:193px;
+	width:375px;
+	height:267px;
+	z-index:10;
+	overflow:auto;
+}
+
+div#mots{
+	position:absolute;
+	top:220px;
+	left:578px;
+	width:155px;
+	height:212px;
+	z-index:10;
+	padding-top: 5px;
+}
+
+span#cache{
+	position:absolute;
+	background-color:#E0E6D7;
+	left:455px;
+	width:40px;
+	height:30px;
+	z-index:11;
+	}
+
+.mot{
+	display:block;
+	margin: 2px; 
+	border: solid 1px;
+	z-index:10;
+	cursor: url('images/NORMAL07.CUR');
+}
+.phrase {
+	margin: 10px; 
+	text-align:left;
+}
+.emplacement{
+	border: solid 1px;
+	padding-left:1px;
+	padding-right:1px;
+	background-color:#E0E6D7;
+	color:#E0E6D7;
+	readonly:readonly;
+	cursor: url('images/NORMAL07.CUR');
+}
+.result{
+	display:none;
+}
+.annuler{
+	display:none;
+	position:relative;
+	top:20px;
+	font-size:12px;
+	color:#AD230C;
+	font-weight:bold;
+}
+div#fin{
+	display:none;
+	position:absolute;
+	top:220px;
+	left:584px;
+	width:150px;
+	height:200px;
+	z-index:12;
+	padding-top: 5px;
+	background-color:#E0E6D7;
+	border: solid 1px #AD230C;
+}
+ul.fin{
+	text-align:left;
+}
+a.fin{
+	color:#AD230C;
+	text-decoration:none;
+}
+</style>
+<script type="text/javascript"> tabPhrasesText[1]=new Array(3);
+			tabPhrasesText[1][0]='Assez, assez, &#231;a suffit (sur moi) ! Laissez-moi mes petits secrets (Que chez moi mes petits secrets restent) !'; 
+			tabPhrasesText[1][1]='&#1042;&#1089;&#1105;, &#1074;&#1089;&#1105;! &#1061;&#1074;&#1072;&#1090;&#1080;&#1090; &#1086;&#1073;&#1086; &#1084;&#1085;&#1077;. &#1055;&#1091;&#1089;&#1090;&#1100; &#1091; &#1084;&#1077;&#1085;&#1103; ...... &#1084;&#1072;&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1077; &#1090;&#1072;&#1081;&#1085;&#1099;.'; 
+			tabPhrasesText[1][2]='&#1086;&#1089;&#1090;&#1072;&#1085;&#1091;&#1090;&#1089;&#1103;'; 
+			tabPhrasesText[2]=new Array(3);
+			tabPhrasesText[2][0]='Le troisi&#232;me jour, je jouais par terre avec mon petit gar&#231;on. On m&#8217;appela.'; 
+			tabPhrasesText[2][1]='&#1053;&#1072; &#1090;&#1088;&#1077;&#1090;&#1080;&#1081; &#1076;&#1077;&#1085;&#1100; &#1080;&#1075;&#1088;&#1072;&#1083; &#1103; &#1085;&#1072; &#1087;&#1086;&#1083;&#1091; &#1089; &#1084;&#1086;&#1080;&#1084; &#1084;&#1072;&#1083;&#1100;&#1095;&#1080;&#1096;&#1082;&#1086;&#1081;. ...... &#1084;&#1077;&#1085;&#1103;.'; 
+			tabPhrasesText[2][2]='&#1050;&#1083;&#1080;&#1082;&#1085;&#1091;&#1083;&#1080;'; 
+			tabPhrasesText[3]=new Array(3);
+			tabPhrasesText[3][0]='Ah ! s&#8217;&#233;cria-t-elle, en voyant Gania qui entrait. Voil&#224; encore un mariage qui arrive ! Bonjour ! Vous convolez en justes noces (entrez dans le mariage) ?'; 
+			tabPhrasesText[3][1]='&#1040;! - &#1074;&#1086;&#1089;&#1082;&#1083;&#1080;&#1082;&#1085;&#1091;&#1083;&#1072; &#1086;&#1085;&#1072;, ...... &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1075;&#1086; &#1043;&#1072;&#1085;&#1102; - &#1074;&#1086;&#1090; &#1077;&#1097;&#1105; &#1080;&#1076;&#1105;&#1090; &#1086;&#1076;&#1080;&#1085; &#1073;&#1088;&#1072;&#1095;&#1085;&#1099;&#1081; &#1089;&#1086;&#1102;&#1079;. &#1047;&#1076;&#1088;&#1072;&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;! &#1042;&#1099; &#1074;&#1089;&#1090;&#1091;&#1087;&#1072;&#1077;&#1090;&#1077; &#1074; &#1073;&#1088;&#1072;&#1082;?'; 
+			tabPhrasesText[3][2]='&#1091;&#1074;&#1080;&#1076;&#1077;&#1074;'; 
+			tabPhrasesText[4]=new Array(3);
+			tabPhrasesText[4][0]='&quot;Gar&#231;on, dit un client en s&#8217;adressant au gar&#231;on, cette poule a une patte plus courte que l&#8217;autre !'; 
+			tabPhrasesText[4][1]='&quot;&#1054;&#1092;&#1080;&#1094;&#1080;&#1072;&#1085;&#1090;, - &#1086;&#1073;&#1088;&#1072;&#1090;&#1080;&#1083;&#1089;&#1103; &#1082;&#1083;&#1080;&#1077;&#1085;&#1090; &#1082; &#1086;&#1092;&#1080;&#1094;&#1080;&#1072;&#1085;&#1090;&#1091;. &#1059; &#1079;&#1090;&#1086;&#1081; &#1082;&#1091;&#1088;&#1080;&#1094;&#1099; &#1086;&#1076;&#1085;&#1072; &#1085;&#1086;&#1075;&#1072; ...... &#1076;&#1088;&#1091;&#1075;&#1086;&#1081;!'; 
+			tabPhrasesText[4][2]='&#1082;&#1086;&#1088;&#1086;&#1095;&#1077;'; 
+			tabPhrasesText[5]=new Array(3);
+			tabPhrasesText[5][0]='Dors, toi, mais moi je ne peux pas, r&#233;pondit la premi&#232;re femme (voix), qui s&#8217;&#233;tait approch&#233;e de la fen&#234;tre. Visiblement, elle s&#8217;&#233;tait compl&#232;tement pench&#233;e au dehors, car on entendait le froissement de sa robe et m&#234;me son souffle.'; 
+			tabPhrasesText[5][1]='&#1058;&#1099; &#1089;&#1087;&#1080;, &#1072; &#1103; &#1085;&#1077; &#1084;&#1086;&#1075;&#1091;, - &#1086;&#1090;&#1074;&#1077;&#1095;&#1072;&#1083; &#1087;&#1077;&#1088;&#1074;&#1099;&#1081; ......, &#1087;&#1088;&#1080;&#1073;&#1083;&#1080;&#1079;&#1080;&#1074;&#1096;&#1080;&#1081;&#1089;&#1103; &#1082; &#1086;&#1082;&#1085;&#1091;, &#1054;&#1085;&#1072;, &#1074;&#1080;&#1076;&#1080;&#1084;&#1086;, &#1089;&#1086;&#1074;&#1089;&#1077;&#1084; &#1074;&#1099;&#1089;&#1091;&#1085;&#1091;&#1083;&#1072;&#1089;&#1100; &#1074; &#1086;&#1082;&#1085;&#1086;, &#1087;&#1086;&#1090;&#1086;&#1084;&#1091; &#1095;&#1090;&#1086; &#1089;&#1083;&#1099;&#1096;&#1085;&#1086; &#1073;&#1099;&#1083;&#1086; &#1096;&#1091;&#1088;&#1096;&#1072;&#1085;&#1080;&#1077; &#1077;&#1105; &#1087;&#1083;&#1072;&#1090;&#1100;&#1103; &#1080; &#1076;&#1072;&#1078;&#1077; &#1076;&#1099;&#1093;&#1072;&#1085;&#1080;&#1077;...'; 
+			tabPhrasesText[5][2]='&#1075;&#1086;&#1083;&#1086;&#1089;'; 
+			tabPhrasesText[6]=new Array(3);
+			tabPhrasesText[6][0]='... Et &#224; cette minute, il se souvint soudain que le soir, &#224; la gare, ayant accompagn&#233; Anna Sergu&#233;evna, il s&#8217;&#233;tait dit que tout &#233;tait fini et qu&#8217;ils ne se reverraient jamais. Mais comme on &#233;tait encore loin de la fin !...'; 
+			tabPhrasesText[6][1]='... &#1048; &#1074; &#1079;&#1090;&#1091; &#1084;&#1080;&#1085;&#1091;&#1090;&#1091; &#1086;&#1085; &#1074;&#1076;&#1088;&#1091;&#1075; &#1074;&#1089;&#1087;&#1086;&#1084;&#1085;&#1080;&#1083;, &#1082;&#1072;&#1082; &#1090;&#1086;&#1075;&#1076;&#1072; &#1074;&#1077;&#1095;&#1077;&#1088;&#1086;&#1084; &#1085;&#1072; &#1089;&#1090;&#1072;&#1085;&#1094;&#1080;&#1080;, ...... &#1040;&#1085;&#1085;&#1091; &#1057;&#1077;&#1088;&#1075;&#1077;&#1077;&#1074;&#1085;&#1091;, &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1083; &#1089;&#1077;&#1073;&#1077;, &#1095;&#1090;&#1086; &#1074;&#1089;&#1105; &#1082;&#1086;&#1085;&#1095;&#1080;&#1083;&#1086;&#1089;&#1100;, &#1080; &#1086;&#1085;&#1080; &#1091;&#1078;&#1077; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;&#1072; &#1085;&#1077; &#1091;&#1074;&#1080;&#1076;&#1103;&#1090;&#1089;&#1103; &#1085;&#1086; &#1082;&#1072;&#1082; &#1077;&#1097;&#1105; &#1076;&#1072;&#1083;&#1077;&#1082;&#1086; &#1073;&#1099;&#1083;&#1086; &#1076;&#1086; &#1082;&#1086;&#1085;&#1094;&#1072;!...'; 
+			tabPhrasesText[6][2]='&#1087;&#1088;&#1086;&#1074;&#1086;&#1076;&#1080;&#1074;'; 
+			</script> 
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+
+parseXml ();
+</script>
+</head>
+<body onload="prechargement();">
+<p style="display:none;">Cette page utilise des feuilles de style en cascade. Si 
+vous arrivez à lire ce message, c&#39;est que CSS ou javascript ne sont pas activés. 
+L&#39;affichage de la page sera donc différent de ce qui est prévu.</p>
+<div id="conteneur">
+	<div id="divApprentissage">
+		<a href="javascript:revisions();" onmouseover="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-over.gif'" onmousedown="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-down.gif'" onmouseout="document.getElementById('App').src='../assimilV2commun/images/blank.gif'" title="Apprentissage"><img src="../assimilV2commun/images/blank.gif" width="135" height="20" id="App" alt="Apprentissage" /></a>
+	</div>
+	<div id="divExTraduction">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('exTrad').src='../assimilV2commun/images/imgsExoMM/ExoMMTrad-over.gif'" onmousedown="document.getElementById('exTrad').src='../assimilV2commun/images/imgsExoMM/ExoMMTrad-down.gif'" onmouseout="document.getElementById('exTrad').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="20" id="exTrad" alt="Exercice traduction"/></a>
+	</div>
+	<div id="central"></div>
+	<div id="mots"></div>
+	<div id="fin"></div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<!-- <span id="btPrev"><a href="javascript:prevPhrase();" onmouseover="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-over.gif'" onmousedown="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-down.gif'" onmouseout="document.getElementById('Rw').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="30" id="Rw" alt="Pr&eacute;c&eacute;dent" /></a></span> -->
+		<span id="cache"><img src="../assimilV2commun/images/blank.gif" width="30" id="Rw" alt="" /></span>
+		<span id="btNext"><a href="javascript:conclusion();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Fin de la le&ccedil;on"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Fin de la le&ccedil;on" /></a></span>			
+		<span id="affLecon"></span>	
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

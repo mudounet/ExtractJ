@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/exMotsManquantsV2.js" type="text/javascript"></script> 
+<script src="js/deplacementDivV2.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdExoMMRus.gif');
+}
+/* liens navigation haut */
+div#divApprentissage{
+	position:absolute;
+	top:27px;
+	left:610px;
+	height:20px;
+	width:135px;
+	}
+
+div#divExTraduction{
+	position:absolute;
+	top:96px;
+	left:630px;
+	height:20px;
+	width:115px;
+	}
+	
+
+	
+/* menu phrase */
+div#menuPhrase{
+	position:absolute;
+	left:198px;
+	top:180px;
+	width:165px;
+	height:270px;
+}
+div#tradLettre{
+	position:absolute;
+	top:128px;
+	left:82px;
+	width:90px;
+	height:20px;
+}
+div#tradMotaMot{
+	position:absolute;
+	top:148px;
+	left:82px;
+	width:90px;
+	height:20px;
+}
+div#tradComplete{
+	position:absolute;
+	top:204px;
+	left:37px;
+	width:135px;
+	height:21px;
+}
+
+div#tabScript {
+	 visibility: visible;
+}
+div#saisie{
+	position:absolute;
+	top:100px;
+	left:5px;
+	height:70px;
+	width:100%;
+}
+.textSaisie{
+	
+	scrollbars:auto;
+	color : #39392E;
+	font-size : 14px;
+	text-align : left;
+	border:none;
+	background-color: #E0E6D7;
+}
+div#affCentral{
+	position:absolute;
+	top:175px;
+	left:405px;
+	width:320px;
+	height:245px;
+	z-index:10;
+
+}
+div#affLangue{
+	position:absolute;
+	top:10px;
+	left:5px;
+	height:50px;
+	width:100%;
+	z-index:2;
+	overflow:auto;
+}
+div#affTrad{
+	position:absolute;
+	top:180px;
+	left:5px;
+	height:55px;
+	width:100%;
+	background-color:#FFFFFF;
+	overflow:auto;
+	z-index:10;
+	}
+div#affCaractere{
+	position:absolute;
+	top:235px;
+	left:25px;
+	height:15px;
+	width:100%;
+	background-color:#FEFFED;
+	z-index:10;
+}
+div#caracteres_speciaux{
+		position:absolute;
+		visibility:show;
+		left:50px; 
+		top:280px; 
+		z-index:15;
+}
+.tabClavier{
+	padding:0px;
+	margin:0px;
+	background-image: url('../assimilV2Commun/images/blank.gif');
+	height:156px;
+	width:414px;
+	border: none;
+}
+.tdClavier{padding:0px; margin:0px;}
+.textCaractere a{color:#AD230C; text-decoration:none; font-size:12px;}
+</style>
+<script type="text/javascript"> var tabPhrasesText = new Array();
+	tabPhrasesText[1]=new Array(3);
+			tabPhrasesText[1][0]='Mon fils s&#8217;est mari&#233; r&#233;cemment. Il a eu beaucoup de chance. Il a une femme tr&#232;s intelligente.'; 
+			tabPhrasesText[1][1]='... &#1089;&#1099;&#1085; ....... ........ ... &#1086;&#1095;&#1077;&#1085;&#1100; ....... - &#1059; &#1085;&#1077;&#1075;&#1086; .... ....... '; 
+			tabPhrasesText[1][2]='&#1052;&#1086;&#1081; &#1085;&#1077;&#1076;&#1072;&#1074;&#1085;&#1086; &#1078;&#1077;&#1085;&#1080;&#1083;&#1089;&#1103;. &#1045;&#1084;&#1091; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;&#1086; &#1078;&#1077;&#1085;&#1072; &#1091;&#1084;&#1085;&#1080;&#1094;&#1072;'; 
+			tabPhrasesText[2]=new Array(3);
+			tabPhrasesText[2][0]='Leur fille s&#8217;est mari&#233;e r&#233;cemment.'; 
+			tabPhrasesText[2][1]='.. .... &#1085;&#1077;&#1076;&#1072;&#1074;&#1085;&#1086; ..... ...... '; 
+			tabPhrasesText[2][2]='&#1048;&#1093; &#1076;&#1086;&#1095;&#1100; &#1074;&#1099;&#1096;&#1083;&#1072; &#1079;&#1072;&#1084;&#1091;&#1078;'; 
+			tabPhrasesText[3]=new Array(3);
+			tabPhrasesText[3][0]='Son mari l&#8217;aide toujours.'; 
+			tabPhrasesText[3][1]='.. &#1084;&#1091;&#1078; &#1074;&#1089;&#1077;&#1075;&#1076;&#1072; ........ ... '; 
+			tabPhrasesText[3][2]='&#1045;&#1105; &#1087;&#1086;&#1084;&#1086;&#1075;&#1072;&#1077;&#1090; &#1077;&#1081;'; 
+			tabPhrasesText[4]=new Array(3);
+			tabPhrasesText[4][0]='Il lave le linge, fait la vaisselle et fait les courses.'; 
+			tabPhrasesText[4][1]='&#1054;&#1085; ......., .... &#1087;&#1086;&#1089;&#1091;&#1076;&#1091; &#1080; ..... &#1074; ........ '; 
+			tabPhrasesText[4][2]='&#1089;&#1090;&#1080;&#1088;&#1072;&#1077;&#1090; &#1084;&#1086;&#1077;&#1090; &#1093;&#1086;&#1076;&#1080;&#1090; &#1084;&#1072;&#1075;&#1072;&#1079;&#1080;&#1085;'; 
+			tabPhrasesText[5]=new Array(3);
+			tabPhrasesText[5][0]='Il comprend tr&#232;s bien qu&#8217;elle a beaucoup de travail.'; 
+			tabPhrasesText[5][1]='&#1054;&#1085; &#1086;&#1095;&#1077;&#1085;&#1100; &#1093;&#1086;&#1088;&#1086;&#1096;&#1086; ........, ... . ... &#1084;&#1085;&#1086;&#1075;&#1086; ....... '; 
+			tabPhrasesText[5][2]='&#1087;&#1086;&#1085;&#1080;&#1084;&#1072;&#1077;&#1090; &#1095;&#1090;&#1086; &#1091; &#1085;&#1077;&#1105; &#1088;&#1072;&#1073;&#1086;&#1090;&#1099;'; 
+			</script> 
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+if (tableaucree) {}
+	else {
+		var tableaucree ;
+		parseXml ();
+
+	}
+
+</script>
+<script src="../assimilV2commun/JS/lt.js" type="text/javascript"></script>
+</head>
+<body onload="prechargement();">
+<p style="display:none;">Cette page utilise des feuilles de style en cascade. Si 
+vous arrivez à lire ce message, c&#39;est que CSS ou javascript ne sont pas activés. 
+L&#39;affichage de la page sera donc différent de ce qui est prévu.</p>
+<div id="conteneur">
+	<div id="divApprentissage">
+		<a href="javascript:apprentissage();" onmouseover="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-over.gif'" onmousedown="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-down.gif'" onmouseout="document.getElementById('App').src='../assimilV2commun/images/blank.gif'" title="Apprentissage"><img src="../assimilV2commun/images/blank.gif" width="135" height="20" id="App" alt="Apprentissage" /></a>
+	</div>
+	<div id="divExTraduction">
+		<a href="javascript:exTraduction();" onmouseover="document.getElementById('exTrad').src='../assimilV2commun/images/imgsExoMM/ExoMMTrad-over.gif'" onmousedown="document.getElementById('exTrad').src='../assimilV2commun/images/imgsExoMM/ExoMMTrad-down.gif'" onmouseout="document.getElementById('exTrad').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="20" id="exTrad" alt="Exercice traduction"/></a>
+	</div>
+	<div id="menuPhrase">
+		<div id="tradLettre"><a href="javascript:Lettre('affTrad');" onmouseover="document.getElementById('TradLet').src='../assimilV2commun/images/imgsExoMM/ExoMMLparL-over.gif'" onmouseout="document.getElementById('TradLet').src='../assimilV2commun/images/blank.gif'" title="Traduction lettre &agrave; lettre"><img src="../assimilV2commun/images/blank.gif" width="90" height="20" id="TradLet" alt="Traduction lettre &agrave; lettre" /></a></div>
+		<div id="tradMotaMot"><a href="javascript:motAmot('affTrad');" onmouseover="document.getElementById('TradMot').src='../assimilV2commun/images/imgsExoMM/ExoMMMparM-over.gif'" onmouseout="document.getElementById('TradMot').src='../assimilV2commun/images/blank.gif'" title="Traduction mot &agrave; mot"><img src="../assimilV2commun/images/blank.gif" width="90" height="20" id="TradMot" alt="Traduction  mot &agrave; mot" /></a></div>
+		<div id="tradComplete"><a href="javascript:complete('affTrad');" onmouseover="document.getElementById('TradComp').src='../assimilV2commun/images/imgsExoMM/ExoMMTradComp-over.gif'" onmouseout="document.getElementById('TradComp').src='../assimilV2commun/images/blank.gif'" title="Traduction compl&egrave;te"><img src="../assimilV2commun/images/blank.gif" width="135" height="21" id="TradComp" alt="Traduction compl&egrave;te" /></a></div>
+	</div>	
+	<!-- caractères spéciaux -->
+
+<!-- caract&egrave;res sp�ciaux -->
+		<div id="caracteres_speciaux">
+			<map id="clavierEsp" name="clavierEsp">
+				<!-- premiere ligne -->	
+				<area shape="rect" coords="12,13,40,39" href="javascript://" onclick="caractere('430');" title="Ins&eacute;rer le caract&egrave;re &#x430;" />
+				<area shape="rect" coords="44,13,72,39" href="javascript://" onclick="caractere('431');" title="Ins&eacute;rer le caract&egrave;re &#x431;" />
+				<area shape="rect" coords="78,13,106,39" href="javascript://" onclick="caractere('432');" title="Ins&eacute;rer le caract&egrave;re &#x432;" />
+				<area shape="rect" coords="110,13,138,39" href="javascript://" onclick="caractere('433');" title="Ins&eacute;rer le caract&egrave;re &#x433;" />
+				<area shape="rect" coords="144,13,172,39" href="javascript://" onclick="caractere('434');" title="Ins&eacute;rer le caract&egrave;re &#x434;" />
+				<area shape="rect" coords="176,13,204,39" href="javascript://" onclick="caractere('435');" title="Ins&eacute;rer le caract&egrave;re &#x435;" />
+				<area shape="rect" coords="210,13,238,39" href="javascript://" onclick="caractere('436');" title="Ins&eacute;rer le caract&egrave;re &#x436;" />
+				<area shape="rect" coords="244,13,272,39" href="javascript://" onclick="caractere('437');" title="Ins&eacute;rer le caract&egrave;re &#x437;" />
+				<area shape="rect" coords="276,13,304,39" href="javascript://" onclick="caractere('438');" title="Ins&eacute;rer le caract&egrave;re &#x438;" />
+				<area shape="rect" coords="308,13,336,39" href="javascript://" onclick="caractere('439');" title="Ins&eacute;rer le caract&egrave;re &#x439;" />
+				<area shape="rect" coords="342,13,370,39" href="javascript://" onclick="caractere('43A');" title="Ins&eacute;rer le caract&egrave;re &#x43A;" />
+				<area shape="rect" coords="374,13,402,39" href="javascript://" onclick="caractere('43B');" title="Ins&eacute;rer le caract&egrave;re &#x43B;" />
+				<!-- deuxi&egrave;me ligne -->
+				<area shape="rect" coords="28,45,56,73" href="javascript://" onclick="caractere('43C');" title="Ins&eacute;rer le caract&egrave;re &#x43C;" />
+				<area shape="rect" coords="62,45,90,73" href="javascript://" onclick="caractere('43D');" title="Ins&eacute;rer le caract&egrave;re &#x43D;" />
+				<area shape="rect" coords="94,45,122,73" href="javascript://" onclick="caractere('43E');" title="Ins&eacute;rer le caract&egrave;re &#x43E;" />
+				<area shape="rect" coords="126,45,154,73" href="javascript://" onclick="caractere('43F');" title="Ins&eacute;rer le caract&egrave;re &#x43F;" />
+				<area shape="rect" coords="158,45,186,73" href="javascript://" onclick="caractere('440');" title="Ins&eacute;rer le caract&egrave;re &#x440;" />
+				<area shape="rect" coords="190,45,218,73" href="javascript://" onclick="caractere('441');" title="Ins&eacute;rer le caract&egrave;re &#x441;" />
+				<area shape="rect" coords="222,45,250,73" href="javascript://" onclick="caractere('442');" title="Ins&eacute;rer le caract&egrave;re &#x442;" />
+				<area shape="rect" coords="254,45,282,73" href="javascript://" onclick="caractere('443');" title="Ins&eacute;rer le caract&egrave;re &#x443;" />
+				<area shape="rect" coords="286,45,314,73" href="javascript://" onclick="caractere('444');" title="Ins&eacute;rer le caract&egrave;re &#x444;" />
+				<area shape="rect" coords="318,45,346,73" href="javascript://" onclick="caractere('445');" title="Ins&eacute;rer le caract&egrave;re &#x445;" />
+				<area shape="rect" coords="350,45,378,73" href="javascript://" onclick="caractere('446');" title="Ins&eacute;rer le caract&egrave;re &#x446;" />
+				<!-- troisi&egrave;me ligne -->
+				<area shape="rect" coords="28,78,56,106" href="javascript://" onclick="caractere('447');" title="Ins&eacute;rer le caract&egrave;re &#x447;" />
+				<area shape="rect" coords="62,78,90,106" href="javascript://" onclick="caractere('448');" title="Ins&eacute;rer le caract&egrave;re &#x448;" />
+				<area shape="rect" coords="94,78,122,106" href="javascript://" onclick="caractere('449');" title="Ins&eacute;rer le caract&egrave;re &#x449;" />
+				<area shape="rect" coords="126,78,154,106" href="javascript://" onclick="caractere('44A');" title="Ins&eacute;rer le caract&egrave;re &#x44A;" />
+				<area shape="rect" coords="158,78,186,106" href="javascript://" onclick="caractere('44B');" title="Ins&eacute;rer le caract&egrave;re &#x44B;" />
+				<area shape="rect" coords="190,78,218,106" href="javascript://" onclick="caractere('44C');" title="Ins&eacute;rer le caract&egrave;re &#x44C;" />
+				<area shape="rect" coords="222,78,250,106" href="javascript://" onclick="caractere('44D');" title="Ins&eacute;rer le caract&egrave;re &#x44D;" />
+				<area shape="rect" coords="254,78,282,106" href="javascript://" onclick="caractere('44E');" title="Ins&eacute;rer le caract&egrave;re &#x44E;" />
+				<area shape="rect" coords="286,78,314,106" href="javascript://" onclick="caractere('44F');" title="Ins&eacute;rer le caract&egrave;re &#x44F;" />
+				<area shape="rect" coords="318,78,346,106" href="javascript://" onclick="caractere('451');" title="Ins&eacute;rer le caract&egrave;re &#x451;" />
+				<area shape="rect" coords="350,78,378,106" href="javascript://" onclick="maj();" title="Majuscule/Minuscule" />
+				
+			</map>
+			<map id="clavierEspMaj" name="clavierEspMaj">
+				<!-- premiere ligne -->	
+				<area shape="rect" coords="12,13,40,39" href="javascript://" onclick="caractere('410');" title="Ins&eacute;rer le caract&egrave;re &#x410;" />
+				<area shape="rect" coords="44,13,72,39" href="javascript://" onclick="caractere('411');" title="Ins&eacute;rer le caract&egrave;re &#x411;" />
+				<area shape="rect" coords="78,13,106,39" href="javascript://" onclick="caractere('412');" title="Ins&eacute;rer le caract&egrave;re &#x412;" />
+				<area shape="rect" coords="110,13,138,39" href="javascript://" onclick="caractere('413');" title="Ins&eacute;rer le caract&egrave;re &#x413;" />
+				<area shape="rect" coords="144,13,172,39" href="javascript://" onclick="caractere('414');" title="Ins&eacute;rer le caract&egrave;re &#x414;" />
+				<area shape="rect" coords="176,13,204,39" href="javascript://" onclick="caractere('415');" title="Ins&eacute;rer le caract&egrave;re &#x415;" />
+				<area shape="rect" coords="210,13,238,39" href="javascript://" onclick="caractere('416');" title="Ins&eacute;rer le caract&egrave;re &#x416;" />
+				<area shape="rect" coords="244,13,272,39" href="javascript://" onclick="caractere('417');" title="Ins&eacute;rer le caract&egrave;re &#x417;" />
+				<area shape="rect" coords="276,13,304,39" href="javascript://" onclick="caractere('418');" title="Ins&eacute;rer le caract&egrave;re &#x418;" />
+				<area shape="rect" coords="308,13,336,39" href="javascript://" onclick="caractere('419');" title="Ins&eacute;rer le caract&egrave;re &#x419;" />
+				<area shape="rect" coords="342,13,370,39" href="javascript://" onclick="caractere('41A');" title="Ins&eacute;rer le caract&egrave;re &#x41A;" />
+				<area shape="rect" coords="374,13,402,39" href="javascript://" onclick="caractere('41B');" title="Ins&eacute;rer le caract&egrave;re &#x41B;" />
+				<!-- deuxi&egrave;me ligne -->
+				<area shape="rect" coords="28,45,56,73" href="javascript://" onclick="caractere('41C');" title="Ins&eacute;rer le caract&egrave;re &#x41C;" />
+				<area shape="rect" coords="62,45,90,73" href="javascript://" onclick="caractere('41D');" title="Ins&eacute;rer le caract&egrave;re &#x41D;" />
+				<area shape="rect" coords="94,45,122,73" href="javascript://" onclick="caractere('41E');" title="Ins&eacute;rer le caract&egrave;re &#x41E;" />
+				<area shape="rect" coords="126,45,154,73" href="javascript://" onclick="caractere('41F');" title="Ins&eacute;rer le caract&egrave;re &#x41F;" />
+				<area shape="rect" coords="158,45,186,73" href="javascript://" onclick="caractere('420');" title="Ins&eacute;rer le caract&egrave;re &#x420;" />
+				<area shape="rect" coords="190,45,218,73" href="javascript://" onclick="caractere('421');" title="Ins&eacute;rer le caract&egrave;re &#x421;" />
+				<area shape="rect" coords="222,45,250,73" href="javascript://" onclick="caractere('422');" title="Ins&eacute;rer le caract&egrave;re &#x422;" />
+				<area shape="rect" coords="254,45,282,73" href="javascript://" onclick="caractere('423');" title="Ins&eacute;rer le caract&egrave;re &#x423;" />
+				<area shape="rect" coords="286,45,314,73" href="javascript://" onclick="caractere('424');" title="Ins&eacute;rer le caract&egrave;re &#x424;" />
+				<area shape="rect" coords="318,45,346,73" href="javascript://" onclick="caractere('425');" title="Ins&eacute;rer le caract&egrave;re &#x425;" />
+				<area shape="rect" coords="350,45,378,73" href="javascript://" onclick="caractere('426');" title="Ins&eacute;rer le caract&egrave;re &#x426;" />
+				<!-- troisi&egrave;me ligne -->
+				<area shape="rect" coords="28,78,56,106" href="javascript://" onclick="caractere('427');" title="Ins&eacute;rer le caract&egrave;re &#x427;" />
+				<area shape="rect" coords="62,78,90,106" href="javascript://" onclick="caractere('428');" title="Ins&eacute;rer le caract&egrave;re &#x428;" />
+				<area shape="rect" coords="94,78,122,106" href="javascript://" onclick="caractere('429');" title="Ins&eacute;rer le caract&egrave;re &#x429;" />
+				<area shape="rect" coords="126,78,154,106" href="javascript://" onclick="caractere('42A');" title="Ins&eacute;rer le caract&egrave;re &#x42A;" />
+				<area shape="rect" coords="158,78,186,106" href="javascript://" onclick="caractere('42B');" title="Ins&eacute;rer le caract&egrave;re &#x42B;" />
+				<area shape="rect" coords="190,78,218,106" href="javascript://" onclick="caractere('42C');" title="Ins&eacute;rer le caract&egrave;re &#x42C;" />
+				<area shape="rect" coords="222,78,250,106" href="javascript://" onclick="caractere('42D');" title="Ins&eacute;rer le caract&egrave;re &#x42D;" />
+				<area shape="rect" coords="254,78,282,106" href="javascript://" onclick="caractere('42E');" title="Ins&eacute;rer le caract&egrave;re &#x42E;" />
+				<area shape="rect" coords="286,78,314,106" href="javascript://" onclick="caractere('42F');" title="Ins&eacute;rer le caract&egrave;re &#x42F;" />
+				<area shape="rect" coords="318,78,346,106" href="javascript://" onclick="caractere('401');" title="Ins&eacute;rer le caract&egrave;re &#x401;" />
+				<area shape="rect" coords="350,78,378,106" href="javascript://" onclick="maj();" title="Majuscule/Minuscule" />
+				
+			</map>
+	      <table class="tabClavier" cellspacing="0">
+	        <tr><td onmousedown="boutonPresse()" onmouseup="boutonRelache()" title="D&eacute;placer le clavier" style="background-image:url('images/clavierRusseTop.gif');height:36px; width:414px; cursor:move;">
+				&nbsp;</td></tr>
+	        <tr><td class="tdClavier"><div id="leClavier"><img src="images/clavierRusseMin.gif" id="imgClavier" alt="" usemap="#clavierEsp" style="border:none; width:414px; height:120px;"/></div></td></tr>
+	      </table>
+		</div>
+	<!-- -->	
+	
+	<div id="affCentral">
+		<div id="affLangue" class="textLangue"></div>
+		<div id="saisie" class="textLangue"></div>
+		<div id="affTrad" class="textTrad"></div>
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btPrev"><a href="javascript:prevPhrase();" onmouseover="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-over.gif'" onmousedown="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-down.gif'" onmouseout="document.getElementById('Rw').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="30" id="Rw" alt="Pr&eacute;c&eacute;dent" /></a></span>			
+		<span id="btOk"><a href="javascript:toPhrase();"  onmousedown="document.getElementById('ok').src='../assimilV2commun/images/imgsMenu/btOk-down.gif'"  onmouseout="document.getElementById('ok').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="26" id="ok" alt="Ok" /></a></span>			
+		<span id="btNext"><a href="javascript:nextPhrase();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Suivant" /></a></span>			
+		<span id="affNum"><input type="text" id="numlec" value="" onclick="this.value='';"/></span>	
+		<span id="affLecon"></span>	
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	<h3>
+		&#1047;&#1085;&#1072;&#1082;&#1086;&#1084;&#1080;&#1090;&#1100;&#1089;&#1103; &#1083;&#1077;&#1075;&#1082;&#1086;, &#1076;&#1072; &#1088;&#1072;&#1089;&#1089;&#1090;&#1072;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103; &#1090;&#1088;&#1091;&#1076;&#1085;&#1086; 
+		
+			1
+		Facile de faire connaissance,mais difficile de se s&#233;parer
+		</h3> 	 		 			1 			- &#1040;&#1093;! &#1050;&#1072;&#1082; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086; &#1087;&#1088;&#1086;&#1073;&#1077;&#1078;<b>&#1072;</b>&#1083;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;! &#1042;&#1086;&#1090; &#1080; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> &#1087;&#1086;&#1088;<b>&#1072;</b> &#1088;&#1072;&#1089;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;. 			 				2 			Ah ! Comme le temps a pass&#233; vite ! Voil&#224; que le moment est venu de se s&#233;parer.  		 			2 			- &#1048; &#1085;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1077;! &#1053;&#1077; &#1087;&#1088;&#1086;&#1073;&#1077;&#1078;<b>&#1072;</b>&#1083;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;, &#1072; &#1087;&#1088;&#1086;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1086;. 			 			N'en parlez pas ! Le temps n'a pas pass&#233;, il a vol&#233;.  		 			3 			- &#1055;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1090;&#1077;, &#1082;&#1072;&#1082; &#1074; &#1089;&#1090;<b>&#1072;</b>&#1088;&#1086;&#1081; &#1087;<b>&#1077;</b>&#1089;&#1085;&#1077; &#1087;&#1086;&#1105;&#1090;&#1089;&#1103;: "&#1051;<b>&#1102;</b>&#1076;&#1080; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1077;, &#1087;&#1086;&#1074;<b>&#1077;</b>&#1088;&#1100;&#1090;&#1077;, &#1088;&#1072;&#1089;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1085;&#1080;&#1077; &#1093;<b>&#1091;</b>&#1078;&#1077; &#1089;&#1084;<b>&#1077;</b>&#1088;&#1090;&#1080;" 			 				3 			Rappelez-vous ce que dit (ce qui se chante) dans une vieille chanson : "Bonnes gens, soyez-en s&#251;rs, la s&#233;paration est pire que la mort".  		 			4 			- &#1048; <b>&#1079;</b>&#1090;&#1091; &#1087;<b>&#1077;</b>&#1089;&#1085;&#1102; &#1074;&#1089;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1102;, &#1080; &#1088;&#1086;&#1084;<b>&#1072;</b>&#1085;&#1089; &#1089;&#1090;&#1072;&#1088;<b>&#1080;</b>&#1085;&#1085;&#1099;&#1081; &#1087;&#1088;&#1080;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103;: "&#1053;&#1077; &#1091;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1081; &#1090;&#1099;, &#1084;&#1086;&#1081; &#1075;&#1086;&#1083;<b>&#1091;</b>&#1073;&#1095;&#1080;&#1082;, &#1087;&#1077;&#1095;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1072; &#1078;&#1080;&#1079;&#1085;&#1100; &#1084;&#1085;&#1077; &#1073;&#1077;&#1079; &#1090;&#1077;&#1073;<b>&#1103;</b>... 			 				4 			Je me souviens de cette chanson et cette vieille romance me revient : "Ne pars pas, mon coeur, la vie m'est triste sans toi...  		 			5 			- ... &#1076;&#1072;&#1081; &#1085;&#1072; &#1087;&#1088;&#1086;&#1097;<b>&#1072;</b>&#1085;&#1080;&#1077; &#1086;&#1073;&#1077;&#1097;<b>&#1072;</b>&#1085;&#1100;&#1077;, &#1095;&#1090;&#1086; &#1085;&#1077; &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100; &#1090;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b>". 			 			... Donne-moi en adieu la promesse que tu ne m'oublieras pas".  		 			6 			- &#1071; &#1085;&#1077; &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1091; &#1074;&#1072;&#1089;, &#1080; &#1074;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1077; &#1079;&#1072;&#1073;&#1099;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077;. &#1053;&#1072;&#1076;<b>&#1077;</b>&#1102;&#1089;&#1100;, &#1084;&#1099; &#1089;&#1082;<b>&#1086;</b>&#1088;&#1086; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1084;&#1089;&#1103;. 			 				5 			Je ne vous oublierai pas, et vous, ne m'oubliez pas. J'esp&#232;re que nous nous verrons bient&#244;t.  		 			7 			- &#1043;&#1086;&#1088;<b>&#1072;</b> &#1089; &#1075;&#1086;&#1088;<b>&#1086;</b>&#1081; &#1085;&#1077; &#1089;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;&#1089;&#1103;, &#1072; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; &#1089; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1086;&#1084; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1089;&#1086;&#1081;&#1076;&#1105;&#1090;&#1089;&#1103;. 			 				6 			Les montagnes ne se rencontrent pas, mais les hommes se r&#233;uniront toujours.  		 			8 			- &#1071; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1090;&#1072;&#1082; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1102; &#1080; &#1085;&#1077; &#1087;&#1088;&#1086;&#1097;<b>&#1072;</b>&#1102;&#1089;&#1100; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080;, &#1072; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1102;</b> "&#1076;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103;". 			 				7 			C'est aussi ce que je pense (consid&#232;re) et je ne vous dis pas adieu mais au revoir.  		 			9 			- &#1044;&#1086; &#1089;&#1082;<b>&#1086;</b>&#1088;&#1086;&#1075;&#1086;. &#1052;<b>&#1080;</b>&#1083;&#1086;&#1089;&#1090;&#1080; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1080;&#1084; &#1082; &#1085;&#1072;&#1084; &#1077;&#1097;&#1105; &#1088;&#1072;&#1079;. 			 				8 			&#192; bient&#244;t. Je vous en prie (nous vous demandons la gr&#226;ce),[revenez] chez nous encore une fois.  		 			10 			- &#1048; &#1074;&#1099; &#1082; &#1085;&#1072;&#1084; &#1079;&#1072;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1081;&#1090;&#1077;. &#1052;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1084; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1088;<b>&#1072;</b>&#1076;&#1099; &#1074;&#1072;&#1084;. 			 			Et vous, passez chez nous. Nous serons toujours contents de vous [voir].  		 			11 			- &#1048; &#1076;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1086; &#1089;&#1077;&#1073;<b>&#1077;</b> &#1079;&#1085;&#1072;&#1090;&#1100;, &#1082;&#1072;&#1082; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1074;&#1077;&#1088;&#1085;&#1105;&#1090;&#1077;&#1089;&#1100; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. 			 				9 			Et donnez-nous de vos nouvelles (donnez &#224; savoir sur vous) d&#232;s que vous serez rentr&#233; &#224; la maison.  		 			12 			- &#1044;&#1072;, &#1103; &#1074;&#1072;&#1084; &#1087;&#1086;&#1079;&#1074;&#1086;&#1085;&#1102; &#1089;&#1088;<b>&#1072;</b>&#1079;&#1091; &#1078;&#1077;, &#1072; &#1074;&#1099; &#1085;&#1072;&#1084; &#1087;&#1080;&#1096;<b>&#1080;</b>&#1090;&#1077;. 			 			Oui, je vous t&#233;l&#233;phonerai aussit&#244;t et vous, &#233;crivez-nous.  		 			13 			- &#1053;&#1091; &#1074;&#1089;&#1105;... &#1044;<b>&#1086;</b>&#1083;&#1075;&#1080;&#1077; &#1087;&#1088;<b>&#1086;</b>&#1074;&#1086;&#1076;&#1099;- &#1083;<b>&#1080;</b>&#1096;&#1085;&#1080;&#1077; &#1089;&#1083;&#1105;&#1079;&#1099;, &#1082;&#1072;&#1082; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;. &#1044;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1103; &#1074;&#1072;&#1089; &#1086;&#1073;&#1085;&#1080;&#1084;&#1091; &#1085;&#1072; &#1087;&#1088;&#1086;&#1097;<b>&#1072;</b>&#1085;&#1080;&#1077;. 			 				10 			Voil&#224;, c'est tout... De longs adieux sont des larmes inutiles, comme on dit. Permettez-moi de vous embrasser (en adieu).  		 			14 			- &#1057;&#1095;&#1072;&#1089;&#1090;&#1083;<b>&#1080;</b>&#1074;&#1086; &#1074;&#1072;&#1084; &#1086;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1080; &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1076;<b>&#1086;</b>&#1073;&#1088;&#1086;&#1075;&#1086;. 			 			Soyez heureux, vous qui restez, et portez-vous bien.  		 			15 			- &#1040; &#1074;&#1072;&#1084; &#1089;&#1095;&#1072;&#1089;&#1090;&#1083;<b>&#1080;</b>&#1074;&#1086;&#1075;&#1086; &#1087;&#1091;&#1090;<b>&#1080;</b>, &#1080; &#1073;<b>&#1091;</b>&#1076;&#1100;&#1090;&#1077; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1099; &#1080; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1099;. 			 			Et bonne route &#224; vous, et soyez en bonne sant&#233; et heureux.  		 			16 			- &#1071; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1078;&#1077;&#1083;<b>&#1072;</b>&#1102; &#1074;&#1072;&#1084; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1100;&#1103; &#1080; &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1089;<b>&#1072;</b>&#1084;&#1086;&#1075;&#1086; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1075;&#1086;. 			 				11 			Je vous souhaite &#233;galement du bonheur et tout ce qu'il y a de mieux.  		 			17 			- &#1053;&#1091; &#1089; &#1041;<b>&#1086;</b>&#1075;&#1086;&#1084;, &#1080; &#1085;&#1077; &#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1085;&#1072;&#1089; &#1083;<b>&#1080;</b>&#1093;&#1086;&#1084;. 			 			Eh bien, adieu, et ne nous en veuillez pas !  		 			18 			- &#1044;&#1086; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1080;, &#1080; &#1074;&#1089;&#1077;&#1084; &#1074;<b>&#1072;</b>&#1096;&#1080;&#1084; &#1087;&#1088;&#1080;&#1074;<b>&#1077;</b>&#1090;! 			 				12 			A la prochaine et saluez tous les v&#244;tres.  		 			19 			- &#1054;&#1073;&#1103;&#1079;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1087;&#1077;&#1088;&#1077;&#1076;<b>&#1072;</b>&#1084;. &#1062;&#1077;&#1083;<b>&#1091;</b>&#1102; &#1074;&#1072;&#1089;! &#1048; &#1076;&#1072;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1089;&#1087;&#1086;&#1105;&#1084; &#1087;<b>&#1077;</b>&#1089;&#1085;&#1102;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1091;&#1102; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077; &#1086;&#1073;&#1103;&#1079;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1087;&#1086;<b>&#1102;</b>&#1090;, &#1088;&#1072;&#1089;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1103;&#1089;&#1100;, 			 			Je n'y manquerai pas (obligatoirement je transmettrai). Je vous embrasse. Et chantons la chanson que les Russes chantent toujours (obligatoirement) en se s&#233;parant.  		 			20 			- &#1042;&#1077;&#1089;<b>&#1077;</b>&#1083;&#1100;&#1103; &#1095;&#1072;&#1089; &#1080; &#1073;&#1086;&#1083;&#1100; &#1088;&#1072;&#1079;&#1083;<b>&#1091;</b>&#1082;&#1080;<br /> &#1043;&#1086;&#1090;<b>&#1086;</b>&#1074; &#1076;&#1077;&#1083;<b>&#1080;</b>&#1090;&#1100; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b>,<br /> &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1087;&#1086;&#1078;&#1084;&#1105;&#1084; &#1076;&#1088;<b>&#1091;</b>&#1075; &#1076;&#1088;<b>&#1091;</b>&#1075;&#1091; &#1088;<b>&#1091;</b>&#1082;&#1080;<br /> &#1048; &#1074; &#1076;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1080;&#1081; &#1087;<b>&#1091;</b>&#1090;&#1100; &#1085;&#1072; &#1076;<b>&#1086;</b>&#1083;&#1075;&#1080;&#1077; &#1075;&#1086;&#1076;<b>&#1072;</b>. 			 			Je suis pr&#234;t &#224; partager toujours avec toi<br /> 			L'heure de la joie et la douleur de la s&#233;paration<br /> 			 Serrons-nous les mains<br />Et en route pour de longues ann&#233;es.  	 		 			1 			&#1047;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1080;&#1090;&#1100;&#1089;&#1103; &#1083;&#1077;&#1075;&#1082;<b>&#1086;</b> : il est facile de faire connaissance. En russe, on trouve souvent des infinitifs pronominaux (verbes en -&#1089;&#1103;) dans les proverbes et les expressions.  		 			2 			&#1050;&#1072;&#1082; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086; &#1087;&#1088;&#1086;&#1073;&#1077;&#1078;<b>&#1072;</b>&#1083;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;! : comme le temps a pass&#233; vite ! En russe, le temps va (&#1080;&#1076;&#1105;&#1090;), court (&#1073;&#1077;&#1078;<b>&#1080;</b>&#1090;), vole (&#1083;&#1077;&#1090;<b>&#1080;</b>&#1090;) et file (&#1084;&#1095;&#1080;&#1090;&#1089;&#1103;).  		 			3 			&#1050;&#1072;&#1082; &#1074; &#1089;&#1090;<b>&#1072;</b>&#1088;&#1086;&#1081; &#1087;<b>&#1077;</b>&#1089;&#1085;&#1077; &#1087;&#1086;&#1105;&#1090;&#1089;&#1103; : comme il se chante dans une vieille chanson. On retrouve ici l'emploi typique de la troisi&#232;me personne comme forme impersonnelle. &#1069;&#1090;&#1072; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; &#1095;&#1080;&#1090;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; &#1089; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1086;&#1084; : ce livre se lit avec int&#233;r&#234;t.  		 			4 			&#1056;&#1086;&#1084;<b>&#1072;</b>&#1085;&#1089; &#1089;&#1090;&#1072;&#1088;<b>&#1080;</b>&#1085;&#1085;&#1099;&#1081; &#1087;&#1088;&#1080;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; : et cette vieille romance (me) revient en m&#233;moire. Ici, l'inversion du verbe et du sujet accentue le lyrisme de la phrase, d&#233;j&#224; soulign&#233; par l'emploi du verbe pronominal &#1087;&#1088;&#1080;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; &#224; la place de &#1103; &#1087;&#1088;&#1080;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1102; : je me souviens.  		 			5 			&#1052;&#1099; &#1089;&#1082;<b>&#1086;</b>&#1088;&#1086; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1084;&#1089;&#1103; : nous nous verrons bient&#244;t, est tr&#232;s souvent utilis&#233; au moment des s&#233;parations, ainsi que la phrase : &#1084;&#1099; &#1089;&#1082;<b>&#1086;</b>&#1088;&#1086; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1084;&#1089;&#1103; : nous nous rencontrerons bient&#244;t.  		 			6 			&#1043;&#1086;&#1088;<b>&#1072;</b> &#1089; &#1075;&#1086;&#1088;<b>&#1086;</b>&#1081; &#1085;&#1077; &#1089;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;&#1089;&#1103;, &#1072; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; &#1089; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1086;&#1084; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1089;&#1086;&#1081;&#1076;&#1105;&#1090;&#1089;&#1103; : les montagnes ne se rencontrent pas, mais les hommes se r&#233;uniront toujours. Remarquez ici l'emploi des aspects. Le premier verbe est &#224; l'imperfectif car il nie simplement une action. Le second exprime la certitude d'une action qui aura lieu.  		 			7 			Lorsqu'un Russe dit : &#1103; &#1085;&#1077; &#1087;&#1088;&#1086;&#1097;<b>&#1072;</b>&#1102;&#1089;&#1100; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080;,je ne vous dis pas adieu, on peut penser, au contraire, que la s&#233;paration va &#234;tre longue et peut-&#234;tre m&#234;me d&#233;finitive. Les Russes &#233;vitent de dire adieu (&#1087;&#1088;&#1086;&#1097;<b>&#1072;</b>&#1081;) et utilisent plut&#244;t des expressions comme &#1076;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103; (au revoir), &#1076;&#1086; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1080; (&#224; la prochaine).  		 			8 			&#1052;<b>&#1080;</b>&#1083;&#1086;&#1089;&#1090;&#1080; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1080;&#1084; : je vous en prie, est une expression litt&#233;raire et vieillie, utilis&#233;e surtout par les personnes &#226;g&#233;es.  		 			9 			&#1044;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1086; &#1089;&#1077;&#1073;<b>&#1077;</b> &#1079;&#1085;&#1072;&#1090;&#1100; : mot &#224; mot, donnez &#224; savoir &#224; votre propos, c'est-&#224;-dire donnez de vos nouvelles.  		 			10 			&#1054;&#1073;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1090;&#1100; / &#1086;&#1073;&#1085;<b>&#1103;</b>&#1090;&#1100;: embrasser, &#233;treindre. &#1044;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1103; &#1074;&#1072;&#1089; &#1086;&#1073;&#1085;&#1080;&#1084;&#1091; : permettez que je vous embrasse. Avec la m&#234;me construction, on trouvera des expressions comme : &#1076;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1103; &#1087;&#1086;&#1078;&#1084;&#1091; &#1074;&#1072;&#1084; &#1088;&#1091;&#1082;<b>&#1091;</b>: permettez que je vous serre la main.  		 			11 			&#1071; &#1078;&#1077;&#1083;<b>&#1072;</b>&#1102; &#1074;&#1072;&#1084; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1100;&#1103; &#1080; &#1042;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1075;&#1086; : malgr&#233; son air un peu d&#233;suet, cette expression est tr&#232;s souvent utilis&#233;e comme formule d'adieu.  		 			12 			&#1042;&#1089;&#1077;&#1084; &#1074;<b>&#1072;</b>&#1096;&#1080;&#1084; &#1087;&#1088;&#1080;&#1074;<b>&#1077;</b>&#1090; : saluez tous les v&#244;tres. Retenez aussi : &#1055;&#1088;&#1080;&#1074;<b>&#1077;</b>&#1090; &#1078;&#1077;&#1085;<b>&#1077;</b>, &#1084;&#1091;&#1078;<b>&#1091;</b>, &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b>&#1084;, &#1076;<b>&#1077;</b>&#1090;&#1103;&#1084; : saluez votre femme, votre mari, vos amis, vos enfants.  	 	 		  	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

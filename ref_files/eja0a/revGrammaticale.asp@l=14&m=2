@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	<h3>
+		R&#201;VISION ET NOTES</h3> 	 		<p style="text-align:center;"><b>&#1059;&#1089;&#1087;<b>&#1077;</b>&#1093;&#1086;&#1074; &#1074;&#1072;&#1084;!</b> </p> 		<p style="text-align:center;"><b>Nous vous souhaitons beaucoup de succ&#232;s !</b> </p> 		<p><i>Vous le savez, nous ne vous accablerons pas de r&#232;gles grammaticales et de tableaux &#224; apprendre par coeur.</i> </p> 		<p><i>Il est cependant n&#233;cessaire, pour bien comprendre et employer une langue &#233;trang&#232;re, d'en conna&#238;tre les modes de fonctionnement, c'est-&#224;-dire les r&#232;gles. Chaque le&#231;on vous apporte les &#233;l&#233;ments indispensables &#224; la compr&#233;hension et &#224; l'assimilation des textes, de mani&#232;re tr&#232;s progressive. Les le&#231;ons de r&#233;vision, quant &#224; elles, reprennent ces &#233;l&#233;ments de mani&#232;re plus syst&#233;matique.</i> </p> 		<p><i>Voici r&#233;sum&#233;s les diff&#233;rents points grammaticaux qu'il vous faudra ma&#238;triser pour aborder sereinement les prochaines le&#231;ons.</i> </p> 		<h1 class="centre"><b>1 Pronoms personnels</b></h1> 		<p>- Vous avez d&#233;couvert dans la le&#231;on 7 comment se forme l'accusatif des pronoms personnels. Et vous savez maintenant que l'accusatif et le g&#233;nitif des masculins sont la m&#234;me forme (c'est un petit cadeau de la langue russe !). </p> 		<table class="centre"> 			<thead class="centre"> 				<tr class="centre"> 					<th class="centre"> 						<p><b>Nom. </b> </p></th> 					<th class="centre"> 						<p><b>G&#233;nitif </b></p></th> 					<th class="centre"> 						<p><b>Accusatif </b></p></th></tr></thead> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1103; </p></td> 					<td class="centre"> 						<p>&#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1089;&#1099;&#1085;.</p></td> 					<td class="centre"> 						<p>&#1058;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1096;&#1100;? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>je  </p></td> 					<td class="centre"> 						<p>J'ai un fils.  </p></td> 					<td class="centre"> 						<p>Tu me comprends ? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1090;&#1099; </p></td> 					<td class="centre"> 						<p>&#1059; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1076;&#1086;&#1095;&#1100;. </p></td> 					<td class="centre"> 						<p>&#1044;&#1072;, &#1103; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>tu  </p></td> 					<td class="centre"> 						<p>Tu as une fille.  </p></td> 					<td class="centre"> 						<p>Oui, je te comprends. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085; </p></td> 					<td class="centre"> 						<p>&#1047;&#1076;&#1077;&#1089;&#1100; &#1077;&#1075;<b>&#1086;</b> &#1085;&#1077;&#1090;.</p></td> 					<td class="centre"> 						<p>&#1054;&#1085;<b>&#1072;</b> &#1077;&#1075;<b>&#1086;</b> &#1079;&#1085;<b>&#1072;</b>&#1077;&#1090;? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>il  </p></td> 					<td class="centre"> 						<p>Il n'est pas ici.  </p></td> 					<td class="centre"> 						<p>Elle le conna&#238;t ? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1072;</b> </p></td> 					<td class="centre"> 						<p>&#1047;&#1076;&#1077;&#1089;&#1100; &#1077;&#1105; &#1085;&#1077;&#1090;,  </p></td> 					<td class="centre">  						<p>&#1054;&#1085; &#1077;&#1105; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1090;. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>elle  </p></td> 					<td class="centre"> 						<p>Elle n'est pas ici.  </p></td> 					<td class="centre"> 						<p>Il la conna&#238;t. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1084;&#1099; </p></td> 					<td class="centre"> 						<p>&#1059; &#1085;&#1072;&#1089; &#1077;&#1089;&#1090;&#1100; &#1073;<b>&#1072;</b>&#1073;&#1091;&#1096;&#1082;&#1072;. </p></td> 					<td class="centre"> 						<p>&#1042;&#1099; &#1085;&#1072;&#1089; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>nous  </p></td> 					<td class="centre"> 						<p>Nous avons une  grand-m&#232;re. </p></td> 					<td class="centre"> 						<p>Vous nous comprenez ? </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1074;&#1099; </p></td> 					<td class="centre"> 						<p>&#1059; &#1074;&#1072;&#1089; &#1077;&#1089;&#1090;&#1100; &#1076;<b>&#1077;</b>&#1076;&#1091;&#1096;&#1082;&#1072;. </p></td> 					<td class="centre"> 						<p>&#1044;&#1072;, &#1084;&#1099; &#1074;&#1072;&#1089; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1084;. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>vous  </p></td> 					<td class="centre"> 						<p>Vous avez un  grand-p&#232;re.  </p></td> 					<td class="centre"> 						<p>Oui, nous vous comprenons tr&#232;s bien. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1080;</b> </p></td> 					<td class="centre"> 						<p>&#1047;&#1076;&#1077;&#1089;&#1100; &#1080;&#1093; &#1085;&#1077;&#1090;.  </p></td> 					<td class="centre"> 						<p>&#1052;&#1099; &#1080;&#1093; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1079;&#1085;<b>&#1072;</b>&#1077;&#1084;. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>ils / elles  </p></td> 					<td class="centre"> 						<p>Ils / elles ne sont pas ici.  </p></td> 					<td class="centre"> 						<p>Nous les connaissons bien. </p></td></tr></tbody></table> 		<p>- <b>Le datif correspond au compl&#233;ment d'attribution.</b> Rappelez-vous les diff&#233;rentes expressions que vous avez apprises : </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1103; </p></td> 					<td class="centre"> 						<p>&#1052;&#1085;&#1077; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>. Je me sens bien (je suis bien). </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1090;&#1099; </p></td> 					<td class="centre"> 						<p>&#1058;&#1077;&#1073;<b>&#1077;</b> &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;. Il t'est agr&#233;able (de faire quelque chose). </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085; </p></td> 					<td class="centre"> 						<p>&#1045;&#1084;&#1091; &#1089;&#1090;<b>&#1099;</b>&#1076;&#1085;&#1086;. Il a honte. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1072;</b> </p></td> 					<td class="centre"> 						<p>&#1045;&#1081; &#1085;<b>&#1077;</b>&#1082;&#1086;&#1075;&#1076;&#1072;. Elle n'a pas le temps. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1084;&#1099; </p></td> 					<td class="centre"> 						<p>&#1057;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077; &#1085;&#1072;&#1084;. Dites-nous. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1074;&#1099; </p></td> 					<td class="centre"> 						<p>&#1042;&#1072;&#1084; &#1074;&#1089;&#1105; &#1087;&#1086;&#1085;<b>&#1103;</b>&#1090;&#1085;&#1086;. Vous avez tout compris. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1080;</b> </p></td> 					<td class="centre"> 						<p>&#1048;&#1084; &#1079;&#1076;&#1077;&#1089;&#1100; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>. Ils se sentent bien ici. </p></td></tr></tbody></table> 		<h1 class="centre"><b>2 Pronoms-adjectifs personnels</b> </h1> 		<p>Contrairement au fran&#231;ais, le russe ne poss&#232;de qu'une seule et m&#234;me forme pour l'adjectif et le pronom possessifs : </p> 		<p>&#1069;&#1090;&#1086; &#1084;&#1086;<b>&#1103;</b> &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; : c'est mon livre ; <b>&#1079;</b>&#1090;&#1086; &#1090;&#1074;&#1086;<b>&#1103;</b> : c'est le tien ; &#1069;&#1090;&#1086; &#1090;&#1074;&#1086;<b>&#1103;</b> &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; : c'est ton livre ; <b>&#1079;</b>&#1090;&#1086; &#1084;&#1086;<b>&#1103;</b> : c'est le mien. On dira de m&#234;me : </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1084;&#1099; </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1085;<b>&#1072;</b>&#1096;&#1072; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1072;</b> : c'est notre soeur. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1085;<b>&#1072;</b>&#1096;&#1072;: c'est la n&#244;tre. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1074;&#1099; </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1074;<b>&#1072;</b>&#1096;&#1077; &#1083;&#1080;&#1094;<b>&#1086;</b> : c'est votre visage. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1074;<b>&#1072;</b>&#1096;&#1077; : c'est le v&#244;tre. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085; </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1075;<b>&#1086;</b> &#1076;&#1088;<b>&#1091;</b>&#1075; : c'est son ami. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1075;<b>&#1086;</b> : c'est le sien. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085; </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1075;<b>&#1086;</b> &#1087;&#1086;&#1076;&#1088;<b>&#1091;</b>&#1075;&#1072; : c'est son amie. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1075;<b>&#1086;</b> : c'est la sienne. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1072;</b> </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1105; &#1076;&#1088;<b>&#1091;</b>&#1075; : c'est son ami. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1105; : c'est le sien. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1072;</b> </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1105; &#1087;&#1086;&#1076;&#1088;<b>&#1091;</b>&#1075;&#1072; : c'est son amie. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1077;&#1105; : c'est la sienne. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1080;</b> </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1080;&#1093; &#1076;&#1088;<b>&#1091;</b>&#1075; : c'est leur ami. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1080;&#1093; : c'est le leur. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p>&#1086;&#1085;<b>&#1080;</b> </p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1080;&#1093; &#1087;&#1086;&#1076;&#1088;<b>&#1091;</b>&#1075;&#1072; : c'est leur amie. </p></td></tr> 				<tr class="centre"> 					<td class="centre"> 						<p></p></td> 					<td class="centre"> 						<p>&#1069;&#1090;&#1086; &#1080;&#1093; : c'est la leur. </p></td></tr></tbody></table> 		<h1 class="centre"><b>3 Les verbes</b></h1> 		<p><b>Le pass&#233; : </b>rappelez vous qu'il peut se traduire, selon le contexte, par un imparfait ou par un pass&#233; compos&#233;. </p> 		<p>-Vous connaissez le pass&#233; de &#1073;&#1099;&#1090;&#1100; : </p> 		 			&#1071; &#1073;&#1099;&#1083; &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b>: j'&#233;tais au cin&#233;ma (ou : je suis all&#233; au cin&#233;ma). &#1086;&#1085;<b>&#1072;</b> &#1073;&#1099;&#1083;<b>&#1072;</b> &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077; : elle &#233;tait au th&#233;&#226;tre (ou : elle est all&#233;e au th&#233;&#226;tre).  			&#1084;&#1099; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1074; &#1082;&#1072;&#1092;<b>&#1077;</b> : nous &#233;tions au caf&#233; (ou : nous sommes all&#233;s au caf&#233;).  		<p>Vous savez maintenant comment former <b>le futur compos&#233; :</b> </p> 		 			&#1071; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; &#1076;<b>&#1086;</b>&#1084;&#1072; : je travaillerai &#224; la maison (ou : je vais travailler).  			&#1058;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; &#1074; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1077; : tu te prom&#232;neras au parc (ou : tu vas te promener).  			&#1054;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1085;&#1072; &#1089;&#1082;&#1088;<b>&#1080;</b>&#1087;&#1082;&#1077; : il / elle jouera du violon (ou : il / elle va jouer).  			&#1052;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1084; &#1091;&#1095;<b>&#1080;</b>&#1090;&#1100; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : nous &#233;tudierons le russe (ou : nous allons &#233;tudier).  			&#1042;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100; &#1087;&#1086;-&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080; : vous parlerez russe (ou : vous allez parler).  			&#1054;&#1085;<b>&#1080;</b> &#1073;<b>&#1091;</b>&#1076;&#1091;&#1090; &#1074;&#1089;&#1105; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1090;&#1100; : ils / elles comprendront tout (ou : ils / elles vont tout comprendre).  		<p>- Vous connaissez <b>la diff&#233;rence entre les verbes &#1080;&#1076;&#1090;<b>&#1080;</b> et <b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; :</b> </p> 		 			&#1071; &#1080;&#1076;&#1091; &#1074; &#1088;&#1077;&#1089;&#1090;&#1086;&#1088;<b>&#1072;</b>&#1085; : Je vais au restaurant.  			&#1071; <b>&#1077;</b>&#1076;&#1091; &#1085;&#1072; &#1090;&#1072;&#1082;&#1089;<b>&#1080;</b> &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1091;: Je vais &#224; la biblioth&#232;que en taxi.  		<h1 class="centre"><b>4 Attributs</b> 		</h1> 		<p>Enregistrez bien ces adjectifs qui s'emploient comme attributs et qui ont des formes tr&#232;s simples. </p> 		<p>&#1071; &#1088;&#1072;&#1076; &#1074;&#1072;&#1089; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1090;&#1100; : je suis content de vous voir. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1088;<b>&#1072;</b>&#1076;&#1072; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1090;&#1100; : elle est contente de t'entendre. </p> 		<p>&#1071; &#1076;<b>&#1086;</b>&#1083;&#1078;&#1077;&#1085; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; : je dois travailler. </p> 		<p>&#1054;&#1085;<b>&#1072;</b> &#1076;&#1086;&#1083;&#1078;&#1085;<b>&#1072;</b> &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; : elle doit travailler. </p> 		<p>&#1042;&#1099; &#1076;&#1086;&#1083;&#1078;&#1085;<b>&#1099;</b> &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; : vous devez vous promener. </p> 		<p>&#1044;&#1085;&#1105;&#1084; &#1053;&#1072;&#1090;<b>&#1072;</b>&#1096;&#1072; &#1089;&#1074;&#1086;&#1073;<b>&#1086;</b>&#1076;&#1085;&#1072; : pendant l'apr&#232;s midi, Natacha est libre. </p> 		<p>&#1042;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; &#1084;&#1099; &#1089;&#1074;&#1086;&#1073;<b>&#1086;</b>&#1076;&#1085;&#1099;: ce soir, nous sommes libres. </p> 		<p><i>Voil&#224; ! C'est d&#233;j&#224; beaucoup !</i> </p> 		<p><i>Et maintenant, lisez le dialogue qui suit et essayez de le comprendre, dans un premier temps sans traduction. Le chiffre entre parenth&#232;ses indique le num&#233;ro de la le&#231;on o&#249; est expliqu&#233;e la construction de la phrase. Efforcez-vous de ne pas laisser d&#233;vier votre regard sur Ia page suivante et testez-vous "pour de bon".</i> </p> 		<p style="text-align:center;"><b>&#1059;&#1089;&#1087;<b>&#1077;</b>&#1093;&#1086;&#1074; &#1074;&#1072;&#1084; (13)</b> </p> 		<p><b>1</b> - &#1055;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1090;&#1077;, &#1074;&#1099; &#1079;<b>&#1072;</b>&#1084;&#1091;&#1078;&#1077;&#1084;? <b>(8)</b> </p> 		<p><b>2</b> - &#1044;&#1072;, &#1103; &#1079;<b>&#1072;</b>&#1084;&#1091;&#1078;&#1077;&#1084;. </p> 		<p><b>3</b> - &#1059; &#1074;&#1072;&#1089; &#1077;&#1089;&#1090;&#1100; &#1076;<b>&#1077;</b>&#1090;&#1080;? </p> 		<p><b>4</b> - &#1044;&#1072;, &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1089;&#1099;&#1085; &#1080; &#1076;&#1086;&#1095;&#1100;. <b>(8)</b> </p> 		<p><b>5</b> - &#1069;&#1090;&#1086; &#1080;&#1093; &#1092;&#1086;&#1090;&#1086;&#1075;&#1088;<b>&#1072;</b>&#1092;&#1080;&#1103;? </p> 		<p><b>6</b> - &#1044;&#1072;, <b>&#1079;</b>&#1090;&#1086; &#1084;&#1086;<b>&#1103;</b> &#1089;&#1077;&#1084;&#1100;<b>&#1103;</b>. &#1042;&#1086;&#1090; &#1084;&#1086;&#1081; &#1084;<b>&#1091;</b>&#1078;, &#1084;&#1086;&#1081; &#1089;&#1099;&#1085; &#1080; &#1084;&#1086;<b>&#1103;</b> &#1076;&#1086;&#1095;&#1100;. </p> 		<p><b>7</b> - &#1054;&#1095;&#1077;&#1085;&#1100; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1072;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072;. &#1059; &#1085;&#1077;&#1105; &#1074;<b>&#1072;</b>&#1096;&#1077; &#1083;&#1080;&#1094;<b>&#1086;</b>. <b>(9)</b> </p> 		<p><b>8</b> - &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1082;&#1086;&#1084;&#1087;&#1083;&#1080;&#1084;<b>&#1077;</b>&#1085;&#1090;. </p> 		<p><b>9</b> - &#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1074;&#1099; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>. <b>(10)</b> </p> 		<p><b>10</b> - &#1053;&#1077;&#1090;, &#1085;&#1086; &#1089;&#1082;<b>&#1086;</b>&#1088;&#1086; <b>&#1077;</b>&#1076;&#1091; &#1085;&#1077; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>, a &#1074; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;. <b>(13)</b> </p> 		<p><b>11</b> - &#1040; &#1095;&#1090;&#1086; &#1074;&#1099; &#1090;&#1072;&#1084; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;? <b>(13)</b> </p> 		<p><b>12</b> - &#1071; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1102; &#1085;&#1072; &#1089;&#1082;&#1088;<b>&#1080;</b>&#1087;&#1082;&#1077;, &#1080; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1072;&#1084; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1082;&#1086;&#1085;&#1094;<b>&#1077;</b>&#1088;&#1090;. <b>(12)</b> </p> 		<p><b>13</b> - &#1059;&#1089;&#1087;<b>&#1077;</b>&#1093;&#1086;&#1074; &#1074;&#1072;&#1084;! &#1052;&#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1084;<b>&#1091;</b>&#1079;&#1099;&#1082;&#1072;, <b>(9)</b> </p> 		<p><b>14</b> - &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1074;&#1072;&#1084; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1077;! <b>(10)</b> </p> 		<p><b>15</b> - &#1048;&#1079;&#1074;&#1080;&#1085;<b>&#1080;</b>&#1090;&#1077;, &#1103; &#1076;<b>&#1086;</b>&#1083;&#1078;&#1077;&#1085; &#1080;&#1076;&#1090;<b>&#1080;</b>. <b>(11)</b> </p> 		<p><b>16</b> - &#1052;&#1085;&#1077; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1085;<b>&#1077;</b>&#1082;&#1086;&#1075;&#1076;&#1072;. <b>(10)</b> </p> 		<p><i>Si vous avez compris ce dialogue sans difficult&#233;s particuli&#232;res, alors vous avez assimil&#233; le contenu des quatorze premi&#232;res le&#231;ons. Vous &#234;tes pr&#234;t &#224; aborder l'&#233;tape suivante. Si vous avez rencontr&#233; des difficult&#233;s, vous &#234;tes encore tout &#224; fait pardonnable et vous avez encore droit &#224; un petit coup de pouce - sous forme de traduction. Toutefois, l&#224; o&#249; vous avez but&#233;, revoyez les le&#231;ons correspondantes.</i> </p> 		<p style="text-align:center;"><b>Nous vous souhaitons beaucoup de succ&#232;s !</b> </p> 		<p><b>1</b> - Pardon, vous &#234;tes mari&#233;e ? </p> 		<p><b>2</b> - Oui, je suis mari&#233;e. </p> 		<p><b>3</b> - Vous avez des enfants ? </p> 		<p><b>4</b> - Oui, j'ai un fils et une fille. </p> 		<p><b>5</b> - C'est leur photographie ? </p> 		<p><b>6</b> - Oui, c'est ma famille. Voici mon mari, mon fils et ma fille. </p> 		<p><b>7</b> - Tr&#232;s belle jeune fille. Elle a votre visage. </p> 		<p><b>8</b> - Merci pour le compliment. </p> 		<p><b>9</b> - Il para&#238;t (On dit) que vous &#233;tiez &#224; Moscou. </p> 		<p><b>10</b> - Non, mais je pars bient&#244;t. Pas &#224; Moscou, mais &#224; Saint-P&#233;tersbourg. </p> 		<p><b>11</b> - Et qu'allez-vous faire l&#224;-bas ? </p> 		<p><b>12</b> - Je joue du violon et j'aurai un concert l&#224;-bas. </p> 		<p><b>13</b> - Je vous souhaite beaucoup de succ&#232;s. J'aime beaucoup la musique. </p> 		<p><b>14</b> - Merci beaucoup ! </p> 		<p><b>15</b> - Excusez-moi, je dois partir. </p> 		<p><b>16</b> - Moi non plus je n'ai pas le temps. </p> 		 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

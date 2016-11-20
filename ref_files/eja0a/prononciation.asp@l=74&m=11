@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" >
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script type="text/Javascript" src="js/introduction.js"></script>
+<link rel="stylesheet" href="../assimilV2Commun/sheets/commonStyle.css" type="text/css" >
+<title>Le russe sans peine - Prononciation</title>
+<style type="text/css">
+div#preload{
+	display:none;
+	visibility:hidden;
+}
+div#conteneur {
+	margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    left: 50%; 
+    top: 50%;
+    width: 760px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -380px;
+    background-image : url('images/FdIntroPronRus.gif');
+	background-repeat:no-repeat;
+	z-index:1;
+	
+	}
+div#introduction{
+	position:absolute;
+	top:100px;
+	left:606px;
+	width:139px;
+	height:22px;
+}
+
+div#central{
+	position:absolute;
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 7px;
+	padding-right:7px;
+	
+	}
+
+h1{
+	font-size:16px;
+	color:#AD230C;
+	}
+h2{
+	font-size:14px;
+	color:#AD230C;
+	}
+h3{
+	font-size:14px;
+	color:#AD230C;
+	}
+li{
+	text-align:left;
+}
+table.centre{
+	margin-right:auto;
+	margin-left:auto;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0;
+	padding:0px;
+	font-size:12px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+td.centreGras{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0;
+	background-color:#F0F2EB;
+	padding:2px;
+	font-weight:bold;
+	}
+.souligne{
+	text-decoration:underline;
+}
+#frameApplet{
+	width:90px; height:30px; border:none; overflow:hidden;
+}
+
+div#applet{
+	display:none;
+	position:absolute;
+	left:300px;
+	width:90px;
+	height:30px;
+	z-index:11;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}	
+
+</style>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="preload">
+		Si vous voyez ce texte votre navigateur ne prend pas en charge les CSS 
+		et le HTML 4.0, l'affichage ne sera pas correct.
+		<img src ="../assimilV2Commun/images/annexes/AnxLexGram-over.gif" alt=""/>
+		<img src="../assimilV2Commun/images/annexes/AnxLexGram-down.gif" alt=""/>
+	</div>
+	<div id="introduction"><a href="javascript:introduction();" onmousedown="document.getElementById('Intro').src ='../assimilV2Commun/images/annexes/AssimilV2Intro-down.gif'" onmouseover="document.getElementById('Intro').src='../assimilV2Commun/images/annexes/AssimilV2Intro-over.gif'" onmouseout="document.getElementById('Intro').src='../assimilV2Commun/images/blank.gif'" title="Introduction" ><img height="22" src="../assimilV2Commun/images/blank.gif" width="139" id="Intro" alt="Introduction" /></a></div>
+	<div id="central" class="centre">
+<h1><b>LA</b> <b>PRONONCIATION</b> </h1>
+<h1><b>L'ALPHABET RUSSE</b></h1>
+<table class="centre">
+<tr><th>LETTRES</th><th>Valeur /<br/>transcription</th><th>LETTRES</th><th>Valeur /<br/>transcription</th></tr>
+<tr><td class="centreGras">&#x410; &#x430;</td><td class="centre">a</td><td class="centreGras">&#x420; &#x440;</td><td class="centre">r</td></tr>
+<tr><td class="centreGras">&#x411; &#x431;</td><td class="centre">b</td><td class="centreGras">&#x421; &#x441;</td><td class="centre">ss | s</td></tr>
+<tr><td class="centreGras">&#x412; &#x432;</td><td class="centre">v</td><td class="centreGras">&#x422; &#x442;</td><td class="centre">t</td></tr>
+<tr><td class="centreGras">&#x413; &#x433;</td><td class="centre">gh | g</td><td class="centreGras">&#x423; &#x443;</td><td class="centre">ou</td></tr>
+<tr><td class="centreGras">&#x414; &#x434;</td><td class="centre">d</td> <td class="centreGras">&#x424; &#x444;</td><td class="centre">f</td></tr>
+<tr><td class="centreGras">&#x415; &#x435;</td><td class="centre">yé | ïe</td><td class="centreGras">&#x425; &#x445;</td><td class="centre">kh | H</td></tr>
+<tr><td class="centreGras">&#x401; &#x451;</td><td class="centre">yo | ïo</td><td class="centreGras">&#x426; &#x446;</td><td class="centre">ts</td></tr>
+<tr><td class="centreGras">&#x416; &#x436;</td><td class="centre">j</td><td class="centreGras">&#x427; &#x447;</td><td class="centre">tch</td></tr>
+<tr><td class="centreGras">&#x417; &#x437;</td><td class="centre">z</td><td class="centreGras">&#x428; &#x448;</td><td class="centre">ch</td></tr>
+<tr><td class="centreGras">&#x418; &#x438;</td><td class="centre">i</td><td class="centreGras">&#x429; &#x449;</td><td class="centre">chtch</td></tr>
+<tr><td class="centreGras">&#x419; &#x439;</td><td class="centre">ille | ï</td><td class="centreGras">&#x42A; &#x44A;</td><td class="centre">signe dur</td></tr>
+<tr><td class="centreGras">&#x41A; &#x43A;</td><td class="centre">k</td> <td class="centreGras">&#x42B; &#x44B;</td><td class="centre">- | y</td></tr>
+<tr><td class="centreGras">&#x41B; &#x43B;</td><td class="centre">l | L</td><td class="centreGras">&#x42C; &#x44C;</td><td class="centre">signe mou</td></tr>
+<tr><td class="centreGras">&#x41C; &#x43C;</td><td class="centre">m</td><td class="centreGras">&#x42D; &#x44D;</td><td class="centre">ê | e</td></tr>
+<tr><td class="centreGras">&#x41d; &#x43D;</td><td class="centre">n</td><td class="centreGras">&#x42E; &#x44E;</td><td class="centre">you | ïou</td></tr>
+<tr><td class="centreGras">&#x41E; &#x43E;</td><td class="centre">o</td><td class="centreGras">&#x42F; &#x44F;</td><td class="centre">ya | ïa</td></tr>
+<tr><td class="centreGras">&#x41F; &#x43F;</td><td class="centre">p</td><td class="centre"></td><td class="centre"></td></tr>
+</table>
+<h1><b>REMARQUES sur l'utilisation du tableau de l'alphabet</b></h1>
+<p>
+Lisez-les d&#232;s maintenant, mais vous ne saisirez bien l'importance de
+certaines lettres qu'avec les exemples. </p>
+<p>
+<b> 1. </b>
+Nous donnons deux
+notations pour souligner les particularit&#233;s de certains sons (correspondant
+&#224; certaines lettres), surtout pour ceux que nous ignorons en fran&#231;ais.
+Dans ce cas, la premi&#232;re notation indique la notation orthographique
+fran&#231;aise du m&#234;me son (gh, ss, ille, y&#233;, yo, ya, you).
+Pour x et &#1083;, comme le fran&#231;ais n'a pas du tout les sons correspondants,
+nous avons utilis&#233; [kh] et [1]. C'est un 1 dur proche du l'anglais
+final de &quot;well&quot;, la pointe de la langue s'appuie fortement sur la base des
+dents sup&#233;rieures. (kh) correspond bien &#224; la r&#233;alit&#233; du son : c'est un k qui n'est pas compl&#232;tement ferm&#233;, il laisse
+passer de l'air comme un h anglais dans &quot;him&quot;. </p>
+<p>
+La deuxi&#232;me
+notation indique la transcription que nous utiliserons dans les le&#231;ons. </p>
+<p>
+<b> 2. </b>
+Dans ce tableau, nous ne donnerons que les valeurs (les
+sons) les plus fondamentales. Nous verrons plus loin en d&#233;tail que
+de nombreuses lettres russes peuvent avoir une autre valeur (se prononcer
+autrement) dans certaines positions. Ainsi : </p>
+<b> a) </b>
+Les lettres &#1073;, &#1074;, &#1075;, &#1076;, &#1079;, &#1078;, &#224; la fin du mot, se prononcent comme &#1087;, &#1092;, &#1082;, &#1090;, &#1089;, &#1096;,
+soit [p, f, k, ti, s, ch]. <b> b) </b>
+Les lettres &#1077;, &#1105;, &#1102;, &#1103; ont, apr&#232;s
+voyelle ou au d&#233;but du mot, la valeur fondamentale que nous transcrivons
+par [ie, io, iou, ia]. Apr&#232;s consonne, elles indiquent la mouillure
+de la consonne pr&#233;c&#233;dente : nous notons cette mouillure au moyen
+d'une apostrophe ['] ins&#233;r&#233;e entre la consonne et la voyelle
+- ainsi &#1085;&#1103; = [nia], alors que &#1103;&#1084; se lira [iam]. <b> c) </b>
+Il n'y a pas de voyelles nasales comme en fran&#231;ais :
+on prononcera &#1090;&#1072;&#1084; comme &quot;tamm(e)&quot;, &#183;&#1086;&#1085; comme &quot;bonn(e)&quot;. <b> d) </b>
+Le o russe (sous l'accent tonique) est un o ouvert (en fran&#231;ais,
+le o de &quot;sotte&quot;), jamais celui de &quot;sot&quot;. Attention ! Prononcez bien &#183;&#1073;&#1086; avec un o ouvert et non comme &quot;beau&quot; (o ferm&#233;). Le e russe est un e
+moyen, ni trop ouvert ni trop ferm&#233;. 
+<h1>ALPHABET RUSSE ET R&#200;GLES DE LECTURE</h1>
+<p>
+Il ne s'agit
+pas d'apprendre ces mots par coeur, mais simplement d'arriver &#224; les lire couramment. </p>
+<p>
+<b> Toutes les lettres se prononcent en russe,
+m&#234;me en fin</b>
+<b> de mot.</b>
+</p>
+<p>
+Articulez &#233;nergiquement
+les consonnes. Les sons des voyelles sont assez flous, mais ceux des consonnes
+toujours &#233;nergiques. </p>
+<p>
+En particulier, le &quot;r&quot; doit &#234;tre
+roul&#233;. </p>
+<p>
+Les consonnes finales se prononcent toujours. </p>
+<p>
+Notez bien l'accent tonique et les modifications de la valeur des voyelles
+lorsqu'elles sont en dehors de l'accent. </p>
+<p>
+<b> &#1055;&#1088;&#1086;&#1080;&#1079;&#1085;&#1086;&#1096;&#1077;&#1085;&#1080;&#1077; (Prononciation)</b>
+</p>
+<table class="centre">
+<tr><td class="centreGras">Russe</td><td class="centreGras">Prononciation </td><td class="centreGras">Fran&#231;ais</td></tr>
+<tr>
+<td class="centre">&#1055;&#1072;&#1087;&#1072;</td><td class="centre">p<b>a</b>pa </td>
+<td class="centre">papa <a title="ecouter" href="javascript://" onclick="son(1);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1044;&#1072;&#1084;&#1072;</td><td class="centre">d<b>a</b>ma </td>
+<td class="centre">dame <a title="ecouter" href="javascript://" onclick="son(2);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1044;&#1088;&#1072;&#1084;&#1072;</td><td class="centre">dr<b>a</b>ma </td>
+<td class="centre">drame <a title="ecouter" href="javascript://" onclick="son(3);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1044;&#1086;&#1082;&#1090;&#1086;&#1088;<b>(1)</b></td><td class="centre">d<b>o</b>ctar </td>
+<td class="centre">docteur <a title="ecouter" href="javascript://" onclick="son(4);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1079;&#1086;&#1090;</td><td class="centre">az<b>o</b>t </td>
+<td class="centre">azote <a title="ecouter" href="javascript://" onclick="son(5);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1076;&#1088;&#1077;&#1089;<b>(2)</b></td><td class="centre"><b>a</b>dris </td>
+<td class="centre">adresse <a title="ecouter" href="javascript://" onclick="son(6);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1082;&#1088;&#1086;&#1073;&#1072;&#1090;</td><td class="centre">akrab<b>a</b>t </td>
+<td class="centre">acrobate <a title="ecouter" href="javascript://" onclick="son(7);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1085;&#1072;&#1085;&#1072;&#1089;</td><td class="centre">anan<b>a</b>s </td>
+<td class="centre">ananas <a title="ecouter" href="javascript://" onclick="son(8);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1085;&#1086;&#1085;&#1080;&#1084;<b>(3)</b></td><td class="centre">anan<b>i</b>m </td>
+<td class="centre">anonyme <a title="ecouter" href="javascript://" onclick="son(9);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1057;&#1072;&#1084;&#1086;&#1074;&#1072;&#1088;</td><td class="centre">samav<b>a</b>r </td>
+<td class="centre">samovar <a title="ecouter" href="javascript://" onclick="son(10);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1084;&#1077;&#1088;&#1080;&#1082;&#1072;</td><td class="centre">am<b>ie</b>rika </td>
+<td class="centre">Am&#233;rique <a title="ecouter" href="javascript://" onclick="son(11);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1055;&#1072;&#1089;&#1087;&#1086;&#1088;&#1090;</td><td class="centre">p<b>a</b>spart </td>
+<td class="centre">passeport <a title="ecouter" href="javascript://" onclick="son(12);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;</td><td class="centre">Aliks<b>a</b>ndr </td>
+<td class="centre">Alexandre <a title="ecouter" href="javascript://" onclick="son(13);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(1) </b>Les lettres o et a se prononcent d'une mani&#232;re identique dans
+toutes les syllabes inaccentu&#233;es : 1) comme un &quot;a&quot; bref (r&#233;duit)
+dans la syllabe qui pr&#233;c&#232;de imm&#233;diatement la syllabe
+accentu&#233;e et quand o ou a est la premi&#232;re ou la derni&#232;re
+lettre du mot ; 2) comme un &quot;a&quot; tr&#232;s bref (pr&#232;s de &quot;eu&quot; fran&#231;ais
+dans &quot;beurre&quot;) dans toutes les autres syllabes inaccentu&#233;es. Nous notons
+ces deux prononciations [a]. </p>
+<p>
+<b>(2) </b>En russe, la lettre c a toujours
+la valeur de ss fran&#231;ais. Les lettres e et &#1103; se prononcent de
+mani&#232;re identique dans toutes les syllabes inaccentu&#233;es : comme
+un e bref tirant fortement sur i. Nous notons cette prononciation [i]. N'oubliez
+pas que e et &#1103; mouillent la consonne pr&#233;c&#233;dente - et ce
+m&#234;me en position inaccentu&#233;e. </p>
+<p>
+<b>(3) </b>Notez le &#1080;,
+&#233;quivalent &#224; notre i. Nous n'indiquons pas la mouillure devant
+[i], car devant [i] les consonnes sont toujours molles. </p>
+<table class="centre">
+<tr>
+<td class="centre">&#1041;&#1072;&#1088;</td><td class="centre">bar <a title="ecouter" href="javascript://" onclick="son(14);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td><td class="centre">bar </td></tr>
+<tr>
+<td class="centre">&#1052;&#1080;&#1083;&#1083;&#1080;&#1086;&#1085;<b>(4)</b></td><td class="centre">milli<b>o</b>n </td><td class="centre">million <a title="ecouter" href="javascript://" onclick="son(15);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1051;&#1077;&#1085;&#1072;</td><td class="centre">L<b>i&#233;</b>na </td><td class="centre">Elena <a title="ecouter" href="javascript://" onclick="son(16);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1051;&#1072;&#1084;&#1087;&#1072;</td><td class="centre">l<b>a</b>mpa </td><td class="centre">lampe <a title="ecouter" href="javascript://" onclick="son(17);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1088;&#1077;&#1076;&#1080;&#1090;</td><td class="centre">krid<b>i</b>t </td><td class="centre">cr&#233;dit <a title="ecouter" href="javascript://" onclick="son(18);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1086;&#1089;&#1084;&#1086;&#1089;</td><td class="centre">k<b>o</b>smas </td><td class="centre">cosmos <a title="ecouter" href="javascript://" onclick="son(19);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1048;&#1074;&#1072;&#1085;&#1086;&#1074;<b>(5)</b></td><td class="centre">Ivan<b>o</b>f </td><td class="centre">Ivanov <a title="ecouter" href="javascript://" onclick="son(20);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1051;&#1091;&#1085;&#1072;<b>(6)</b></td><td class="centre">loun<b>a</b></td><td class="centre">lune <a title="ecouter" href="javascript://" onclick="son(21);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1082;&#1074;&#1072;&#1088;&#1080;&#1091;&#1084;</td><td class="centre">akv<b>a</b>rioum </td><td class="centre">aquarium <a title="ecouter" href="javascript://" onclick="son(22);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1090;&#1086;&#1084;</td><td class="centre"><b>a</b>tam </td><td class="centre">atome <a title="ecouter" href="javascript://" onclick="son(23);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1046;&#1077;&#1089;&#1090;</td><td class="centre">jest </td><td class="centre">geste <a title="ecouter" href="javascript://" onclick="son(24);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1046;&#1072;&#1088;&#1075;&#1086;&#1085;</td><td class="centre">jarg<b>o</b>n </td><td class="centre">jargon <a title="ecouter" href="javascript://" onclick="son(25);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1043;&#1072;&#1088;&#1072;&#1078;<b>(7)</b></td><td class="centre">gar<b>a</b>ch </td><td class="centre">garage <a title="ecouter" href="javascript://" onclick="son(26);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1060;&#1088;&#1072;&#1079;&#1072;</td><td class="centre">fr<b>a</b>za </td><td class="centre">phrase <a title="ecouter" href="javascript://" onclick="son(27);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1060;&#1086;&#1088;&#1084;&#1072;</td><td class="centre">f<b>o</b>rma </td><td class="centre">forme <a title="ecouter" href="javascript://" onclick="son(28);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1086;&#1092;&#1077;</td><td class="centre">k<b>o</b>fi </td><td class="centre">caf&#233; (boisson) <a title="ecouter" href="javascript://" onclick="son(29);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1055;&#1072;&#1088;&#1080;&#1078;</td><td class="centre">Par<b>i</b>ch </td><td class="centre">Paris <a title="ecouter" href="javascript://" onclick="son(30);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1082;&#1090;&#1105;&#1088;<b>(8)</b></td><td class="centre">akt<b>io</b>r </td><td class="centre">acteur <a title="ecouter" href="javascript://" onclick="son(31);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1084;&#1092;&#1080;&#1090;&#1077;&#1072;&#1090;&#1088;</td><td class="centre">amfiti<b>a</b>tr </td><td class="centre">amphith&#233;&#226;tre <a title="ecouter" href="javascript://" onclick="son(32);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(4)</b>Il n'existe pas de nasales
+en russe. Veillez &#224; prononcer ce mot comme s'il existait un &quot;e&quot; bref
+&#224; la fin. </p>
+<p>
+<b>(5) </b>&#192; la fin du mot, la lettre &#1074; se prononce comme la lettre &#1092; (f). </p>
+<p>
+<b>(6) </b>La lettre &#1083; (1) a deux sons. L'un, comme en fran&#231;ais, que nous avons vu dans &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;,
+devant e, &#1080; ; l'autre dur, devant a, o, y (ou), les consonnes et &#224; la fin d'un mot. Ce &#1083; dur se prononce fortement, en appuyant la langue
+contre le palais. </p>
+<p>
+<b>(7) </b>&#192; la fin du mot, &#1078; se prononce
+comme &#1096; (ch). </p>
+<p>
+<b>(8) </b>Le &#235; se prononce comme io, d'une
+seule &#233;mission de voix, comme dans &quot;idiot&quot;. </p>
+<table class="centre">
+<tr>
+<td class="centre">&#1063;&#1077;&#1082;</td><td class="centre">tch&#232;k </td><td class="centre">ch&#232;que <a title="ecouter" href="javascript://" onclick="son(33);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1060;&#1080;&#1079;&#1080;&#1082;&#1072;</td><td class="centre">f<b>i</b>zika </td><td class="centre">physique <a title="ecouter" href="javascript://" onclick="son(34);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1063;&#1077;&#1084;&#1087;&#1080;&#1086;&#1085;</td><td class="centre">tchimpi<b>o</b>n </td><td class="centre">champion <a title="ecouter" href="javascript://" onclick="son(35);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1083;&#1102;&#1095;<b>(9)</b></td><td class="centre">klioutch </td><td class="centre">cl&#233; <a title="ecouter" href="javascript://" onclick="son(36);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1064;&#1072;&#1085;&#1089;<b>(10)</b></td><td class="centre">chans </td><td class="centre">chance <a title="ecouter" href="javascript://" onclick="son(37);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1064;&#1072;&#1089;&#1089;&#1080;</td><td class="centre">chass<b>i</b></td><td class="centre">ch&#226;ssis <a title="ecouter" href="javascript://" onclick="son(38);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1063;&#1072;&#1081;<b>(11)</b></td><td class="centre">tcha&#239;</td><td class="centre">th&#233; <a title="ecouter" href="javascript://" onclick="son(39);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1064;&#1086;&#1092;&#1105;&#1088;</td><td class="centre">chaf<b>io</b>r </td><td class="centre">chauffeur <a title="ecouter" href="javascript://" onclick="son(40);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1043;&#1077;&#1085;&#1077;&#1088;&#1072;&#1083;</td><td class="centre">guinir<b>a</b>l </td><td class="centre">g&#233;n&#233;ral <a title="ecouter" href="javascript://" onclick="son(41);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1058;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;</td><td class="centre">tilif<b>o</b>n </td><td class="centre">t&#233;l&#233;phone <a title="ecouter" href="javascript://" onclick="son(42);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1052;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1072;<b>(12)</b></td><td class="centre">midits<b>y</b>na </td><td class="centre">m&#233;decine <a title="ecouter" href="javascript://" onclick="son(43);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1062;&#1080;&#1088;&#1082;</td><td class="centre">tsyrk </td><td class="centre">cirque <a title="ecouter" href="javascript://" onclick="son(44);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1056;&#1086;&#1079;&#1072;</td><td class="centre">r<b>o</b>za </td><td class="centre">(la) rose <a title="ecouter" href="javascript://" onclick="son(45);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1041;&#1088;&#1080;&#1075;&#1072;&#1076;&#1072;</td><td class="centre">brig<b>a</b>da </td><td class="centre">brigade <a title="ecouter" href="javascript://" onclick="son(46);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1086;&#1085;&#1089;&#1091;&#1083;</td><td class="centre">k<b>o</b>nsoul </td><td class="centre">consul <a title="ecouter" href="javascript://" onclick="son(47);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1072;&#1082;&#1072;&#1086;</td><td class="centre">kak<b>a</b>o </td><td class="centre">cacao <a title="ecouter" href="javascript://" onclick="son(48);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1052;&#1091;&#1079;&#1077;&#1081;</td><td class="centre">mouz<b>ie</b>&#239;</td><td class="centre">mus&#233;e <a title="ecouter" href="javascript://" onclick="son(49);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1055;&#1086;&#1095;&#1090;&#1072;</td><td class="centre">p<b>o</b>tchta </td><td class="centre">poste <a title="ecouter" href="javascript://" onclick="son(50);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(9) </b>Le &#1102; est iou, prononc&#233; rapidement ; le russe ne poss&#233;dant
+pas le son fran&#231;ais u, c'est le &#1102; qui le remplace dans les mots
+d'origine fran&#231;aise, comme &#1073;&#1102;&#1088;&#1086; (bureau). </p>
+<p>
+<b>(10) </b>&#1096; correspond &#224; notre ch dans &quot;cheval&quot;. </p>
+<p>
+<b>(11) </b>Le &#1081; ne s'emploie qu'apr&#232;s une voyelle. On le dit i bref. Nous
+le notons [&#239;]. </p>
+<p>
+<b>(12)</b>&#1062; repr&#233;sente tss (ne prononcez
+pas dz). La lettre &#1080; apr&#232;s &#1094;, &#1078;, &#1096; (chuintantes
+dures) se prononce comme i sourd [y]. </p>
+<table class="centre">
+<tr>
+<td class="centre">&#1071;</td><td class="centre">ia </td><td class="centre">je <a title="ecouter" href="javascript://" onclick="son(51);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1083;&#1083;&#1077;&#1103;</td><td class="centre">al<b>i&#233;</b>ia </td><td class="centre">(l') all&#233;e <a title="ecouter" href="javascript://" onclick="son(52);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1060;&#1088;&#1072;&#1085;&#1094;&#1080;&#1103;</td><td class="centre">Fr<b>a</b>ntsy&#239;a </td><td class="centre">France <a title="ecouter" href="javascript://" onclick="son(53);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1083;&#1100;&#1084;&#1072;&#1085;&#1072;&#1093;</td><td class="centre">al'man<b>a</b>h </td><td class="centre">almanach <a title="ecouter" href="javascript://" onclick="son(54);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1074;&#1090;&#1086;&#1084;&#1086;&#1073;&#1080;&#1083;&#1100;<b>(13)</b></td><td class="centre">aftamab<b>i</b>l' </td><td class="centre">automobile <a title="ecouter" href="javascript://" onclick="son(55);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1055;&#1088;&#1086;&#1092;&#1077;&#1089;&#1089;&#1086;&#1088;</td><td class="centre">praf<b>ie</b>ssar </td><td class="centre">professeur <a title="ecouter" href="javascript://" onclick="son(56);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1061;&#1072;&#1086;&#1089;<b>(14)</b></td><td class="centre">ha<b>o</b>ss </td><td class="centre">chaos <a title="ecouter" href="javascript://" onclick="son(57);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1052;&#1077;&#1093;&#1072;&#1085;&#1080;&#1082;&#1072;</td><td class="centre">mih<b>a</b>nica </td><td class="centre">m&#233;canique <a title="ecouter" href="javascript://" onclick="son(58);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1093;&#1086;&#1088;</td><td class="centre">hor </td><td class="centre">choeur <a title="ecouter" href="javascript://" onclick="son(59);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1093;&#1088;&#1086;&#1085;&#1086;&#1084;&#1077;&#1090;&#1088;</td><td class="centre">hran<b>o</b>mitr </td><td class="centre">chronom&#232;tre <a title="ecouter" href="javascript://" onclick="son(60);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1092;&#1086;&#1090;&#1086;&#1075;&#1088;&#1072;&#1092;&#1080;&#1103;</td><td class="centre">fatagr<b>a</b>fi&#239;a </td><td class="centre">photographie <a title="ecouter" href="javascript://" onclick="son(61);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1086;&#1092;&#1080;&#1094;&#1077;&#1088;<b>(15)</b></td><td class="centre">afits<b>&#232;</b>r </td><td class="centre">officier <a title="ecouter" href="javascript://" onclick="son(62);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1082;&#1086;&#1085;&#1094;&#1077;&#1088;&#1090;</td><td class="centre">kants<b>&#232;</b>rt </td><td class="centre">concert <a title="ecouter" href="javascript://" onclick="son(63);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1096;&#1072;&#1084;&#1087;&#1072;&#1085;&#1100;<b>(16)</b></td><td class="centre">Champ<b>a</b>n' </td><td class="centre">Champagne <a title="ecouter" href="javascript://" onclick="son(64);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1056;&#1086;&#1089;&#1089;&#1080;&#1103;</td><td class="centre">Rass<b>i</b>&#239;a </td><td class="centre">Russie <a title="ecouter" href="javascript://" onclick="son(65);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1052;&#1080;&#1085;&#1091;&#1090;&#1072;</td><td class="centre">min<b>ou</b>ta </td><td class="centre">minute <a title="ecouter" href="javascript://" onclick="son(66);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1041;&#1072;&#1075;&#1072;&#1078;</td><td class="centre">bag<b>a</b>ch </td><td class="centre">bagage <a title="ecouter" href="javascript://" onclick="son(67);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(13) </b>&#1100; (signe mou) n'est pas une lettre v&#233;ritable, mais
+un signe qui adoucit la consonne pr&#233;c&#233;dente. Ainsi, dans &#1041;&#1077;&#1083;&#1100;&#1075;&#1080;&#1103;, &#1083; se prononce comme en fran&#231;ais, et non 1 dur. De m&#234;me dans &#1072;&#1074;&#1090;&#1086;&#1084;&#1086;&#1073;&#1080;&#1083;&#1100;. </p>
+<p>
+<b>(14) </b>&#1061; n'est pas le x fran&#231;ais, mais correspond
+au ch dur allemand, au j espagnol. C'est un son guttural, que l'on produit
+en chassant l'air du fond de la gorge. Nous le noterons [h]. </p>
+<p>
+<b>(15) </b>La lettre e sous l'accent tonique apr&#232;s &#1094;, &#1078;, &#1097; se prononce comme &#232; pur, non mouill&#233;. </p>
+<p>
+<b>(16) </b>Le
+son adoucissant, un peu mouill&#233; de &#1100; (signe mou) nous transforme
+ici la finale &#1085; (n) en &quot;gne&quot;, comme en fran&#231;ais dans &quot;champagne&quot;. </p>
+<table class="centre">
+<tr>
+<td class="centre">&#1090;&#1086;&#1074;&#1072;&#1088;&#1080;&#1097;<b>(17)</b></td><td class="centre">tav<b>a</b>richtch </td><td class="centre">camarade <a title="ecouter" href="javascript://" onclick="son(68);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1097;&#1080;</td><td class="centre">chtchi </td><td class="centre">borchtch <a title="ecouter" href="javascript://" onclick="son(69);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1074;&#1072;&#1075;&#1086;&#1085;</td><td class="centre">vag<b>o</b>n </td><td class="centre">wagon <a title="ecouter" href="javascript://" onclick="son(70);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;</td><td class="centre">har<b>a</b>ktir </td><td class="centre">caract&#232;re <a title="ecouter" href="javascript://" onclick="son(71);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1074;&#1099;<b>(18)</b></td><td class="centre">vy </td><td class="centre">vous <a title="ecouter" href="javascript://" onclick="son(72);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1088;&#1099;&#1084;</td><td class="centre">Krym </td><td class="centre">Crim&#233;e <a title="ecouter" href="javascript://" onclick="son(73);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1075;&#1072;&#1079;</td><td class="centre">gas </td><td class="centre">gaz <a title="ecouter" href="javascript://" onclick="son(74);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1082;&#1086;&#1089;&#1090;&#1102;&#1084;</td><td class="centre">kast<b>iou</b>m </td><td class="centre">costume <a title="ecouter" href="javascript://" onclick="son(75);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1078;&#1091;&#1088;&#1085;&#1072;&#1083;</td><td class="centre">journ<b>a</b>l </td><td class="centre">journal <a title="ecouter" href="javascript://" onclick="son(76);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1087;&#1080;&#1072;&#1085;&#1080;&#1089;&#1090;</td><td class="centre">pian<b>i</b>st </td><td class="centre">pianiste <a title="ecouter" href="javascript://" onclick="son(77);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1056;&#1091;&#1073;&#1083;&#1100;</td><td class="centre">roubl' </td><td class="centre">rouble <a title="ecouter" href="javascript://" onclick="son(78);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1041;&#1072;&#1085;&#1072;&#1085;</td><td class="centre">ban<b>a</b>n </td><td class="centre">banane <a title="ecouter" href="javascript://" onclick="son(79);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1058;&#1099;</td><td class="centre">ty </td><td class="centre">tu <a title="ecouter" href="javascript://" onclick="son(80);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1055;&#1086;&#1101;&#1090;<b>(19)</b></td><td class="centre">pa<b>&#232;</b>t </td><td class="centre">po&#232;te <a title="ecouter" href="javascript://" onclick="son(81);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1041;&#1072;&#1083;&#1072;&#1083;&#1072;&#1081;&#1082;&#1072;</td><td class="centre">balal<b>a</b>&#239;ka </td><td class="centre">balala&#239;ka <a title="ecouter" href="javascript://" onclick="son(82);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1082;&#1094;&#1077;&#1085;&#1090;</td><td class="centre">akts<b>&#232;</b>nt </td><td class="centre">accent <a title="ecouter" href="javascript://" onclick="son(83);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1058;&#1077;&#1083;&#1077;&#1075;&#1088;&#1072;&#1092;</td><td class="centre">tiligr<b>a</b>f </td><td class="centre">t&#233;l&#233;graphe <a title="ecouter" href="javascript://" onclick="son(84);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1088;&#1086;&#1082;&#1086;&#1076;&#1080;&#1083;</td><td class="centre">krakad<b>i</b>l </td><td class="centre">crocodile <a title="ecouter" href="javascript://" onclick="son(85);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1048;&#1085;&#1078;&#1077;&#1085;&#1077;&#1088;</td><td class="centre">ingyni<b>&#232;</b>r </td><td class="centre">ing&#233;nieur <a title="ecouter" href="javascript://" onclick="son(86);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1069;&#1084;&#1080;&#1075;&#1088;&#1072;&#1085;&#1090;</td><td class="centre">&#232;migr<b>a</b>nt </td><td class="centre">&#233;migrant <a title="ecouter" href="javascript://" onclick="son(87);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(17) </b>La lettre &#1097; (ch'tcha) r&#233;unit les sons ch et tch. Prononcez
+rapidement : j'te cherche, ou mieux j't'cherche pour en avoir une id&#233;e
+approximative. </p>
+<p>
+<b>(18) </b>Le son &#1099; n'existe pas en fran&#231;ais.
+Il se situe entre ou et i ; </p>
+<p>
+c'est un i sourd, &#233;mis du fond
+de la gorge. &#1042;&#1099; se prononce un peu comme oui, dit distraitement, sans
+appuyer : voui. Nous notons le &#1099; [y], ce qui est tout &#224; fait conventionnel. </p>
+<p>
+<b>(19) </b>La lettre &#1101; (&#232; retourn&#233;) donne le son
+&#232; pur, non mouill&#233;. </p>
+<table class="centre">
+<tr>
+<td class="centre">&#1057;&#1077;&#1082;&#1088;&#1077;&#1090;&#1072;&#1088;&#1100;</td><td class="centre">sikrit<b>a</b>r' </td><td class="centre">secr&#233;taire <a title="ecouter" href="javascript://" onclick="son(88);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1082;&#1072;&#1076;&#1077;&#1084;&#1080;&#1103;<b>(20)</b></td><td class="centre">akad<b>i&#233;</b>mi&#239;a </td><td class="centre">acad&#233;mie <a title="ecouter" href="javascript://" onclick="son(89);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1054;&#1088;&#1082;&#1077;&#1089;&#1090;&#1088;</td><td class="centre">ark<b>i&#233;</b>str </td><td class="centre">orchestre <a title="ecouter" href="javascript://" onclick="son(90);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1050;&#1086;&#1088;&#1080;&#1076;&#1086;&#1088;</td><td class="centre">karid<b>o</b>r </td><td class="centre">corridor <a title="ecouter" href="javascript://" onclick="son(91);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1054;&#1087;&#1077;&#1088;&#1072;</td><td class="centre"><b>o</b>pira </td><td class="centre">op&#233;ra <a title="ecouter" href="javascript://" onclick="son(92);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1040;&#1088;&#1084;&#1080;&#1103;</td><td class="centre"><b>a</b>rmi&#239;a </td><td class="centre">(l') arm&#233;e <a title="ecouter" href="javascript://" onclick="son(93);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1054;&#1073;[hardcy]&#1105;&#1084;<b>(21)</b></td><td class="centre">ab-<b>io</b>m </td><td class="centre">volume <a title="ecouter" href="javascript://" onclick="son(94);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1059;&#1088;&#1072;&#1083;</td><td class="centre">Our<b>a</b>l </td><td class="centre">Oural <a title="ecouter" href="javascript://" onclick="son(95);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+<tr>
+<td class="centre">&#1057;&#1087;&#1091;&#1090;&#1085;&#1080;&#1082;</td><td class="centre">Sp<b>ou</b>tnik </td><td class="centre">Spoutnik <a title="ecouter" href="javascript://" onclick="son(96);"><img src="images/hp.gif" alt="ecouter" class="noprint"></a></td></tr>
+</table>
+<p>
+<b>(20) </b>Prononcez &#1080;&#1103; exactement comme illa dans &quot;brilla&quot;, &quot;pilla&quot;.
+Mais n'oubliez pas que l'accent tonique est sur le &#232;. </p>
+<p>
+<b>(21) </b>Le signe dur &#1098; n'est employ&#233; qu'&#224; l'int&#233;rieur
+des mots ; il s&#233;pare un pr&#233;fixe d'un mot commen&#231;ant par &#1103;,
+e, &#235;. </p>	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2Commun/images/blank.gif';" title="Aide"><img src="../assimilV2Commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2Commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2Commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2Commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2Commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2Commun/images/blank.gif'" title="Accueil"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint.gif'" title="Imprimer"><img src="../assimilV2commun/images/imgsMenu/BtPrint.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>					
+
+		<div id="applet">
+			<iframe id="frameApplet" src="" frameborder="0"  style=""></iframe>
+		</div>
+		<span id="btNext"><a href="javascript:introduction();" onmouseover="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2Commun/images/blank.gif'" title="Introduction"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Fw" alt="Introduction" /></a></span>			
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2Commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

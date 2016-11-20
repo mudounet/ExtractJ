@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 	 		<p><i>Parlons un peu th&#233;&#226;tre... C'est facile, car une grande partie du vocabulaire li&#233; au th&#233;&#226;tre vient du fran&#231;ais ! Et continuons, lentement mais s&#251;rement, &#224; approfondir l'&#233;tude des verbes (verbes de mouvement, aspects...)</i> </p> 	<h3>
+		&#1044;&#1072;&#1074;&#1072;&#1081; &#1089;&#1093;&#1086;&#1076;&#1080;&#1084; &#1074; &#1090;&#1077;&#1072;&#1090;&#1088; 
+		Allons au th&#233;&#226;tre</h3> 	 		 			1 			- &#1047;&#1076;&#1088;<b>&#1072;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;, &#1076;&#1086;&#1088;&#1086;&#1075;<b>&#1086;</b>&#1081;! &#1052;&#1099; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080;&#1089;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1085;&#1086;&#1089;&#1090;&#1100;, &#1072; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1073;&#1099; &#1087;&#1086;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;. &#1087;&#1086;&#1073;&#1086;&#1083;&#1090;<b>&#1072;</b>&#1090;&#1100;, <b>&#1080;</b>&#1083;&#1080; &#1090;&#1099;, &#1082;&#1072;&#1082; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b>, &#1087;<b>&#1086;</b> &#1091;&#1096;&#1080; &#1074; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1077;? 			 				1 			Bonjour (mon cher). &#199;a fait une &#233;ternit&#233; qu'on ne s'est pas vus (nous avec toi ne nous sommes pas vus une &#233;ternit&#233;), il faudrait qu'on se voie un peu, qu'on bavarde ou bien, comme toujours, tu as du travail par-dessus la t&#234;te (jusqu'aux oreilles) ?  		 			2 			- &#1056;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1085;&#1077; &#1074;&#1086;&#1083;&#1082;, &#1082;&#1072;&#1082; &#1075;&#1086;&#1074;&#1086;&#1088;&#1103;&#1090;, &#1074; &#1083;&#1077;&#1089; &#1085;&#1077; &#1091;&#1073;&#1077;&#1078;<b>&#1080;</b>&#1090;, &#1072; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1090;&#1100;&#1089;&#1103; &#1080; &#1087;&#1086;&#1086;&#1073;&#1097;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;, &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;, &#1085;<b>&#1091;</b>&#1078;&#1085;&#1086; &#1073;&#1099;. 			 				2 			Le travail peut toujours attendre (le travail n'est pas un loup, il ne s'enfuira pas dans la for&#234;t), comme on dit, et il faudrait vraiment qu'on se voie (se rencontre) et qu'on discute.  		 			3 			- &#1058;&#1072;&#1082; &#1074; &#1095;&#1105;&#1084; &#1076;<b>&#1077;</b>&#1083;&#1086;? &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1077;&#1089;&#1090;&#1100; &#1076;&#1074;&#1072; &#1073;&#1080;&#1083;<b>&#1077;</b>&#1090;&#1072; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; &#1085;&#1072; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103;. &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1089;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1084;. 			 				3 			Alors, de quoi s'agit-il ? J'ai deux billets de th&#233;&#226;tre pour aujourd'hui. Allons-y.  		 			4 			- &#1058;&#1099; &#1085;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1096;&#1100; &#1078;&#1080;&#1090;&#1100; &#1073;&#1077;&#1079; &#1089;&#1102;&#1088;&#1087;&#1088;<b>&#1080;</b>&#1079;&#1086;&#1074;. &#1040; &#1082;&#1091;&#1076;<b>&#1072;</b> &#1073;&#1080;&#1083;<b>&#1077;</b>&#1090;&#1099; &#1080; &#1085;&#1072; &#1095;&#1090;&#1086;? 			 			[Toi] tu ne peux pas vivre sans surprises. Et pour quel spectacle sont les billets (Et pour o&#249; sont les billets et pour quoi) ?  		 			5 			- &#1054; &#1076;&#1086;&#1088;&#1086;&#1075;<b>&#1086;</b>&#1081; &#1041;&#1080;&#1083;<b>&#1077;</b>&#1090;&#1099; &#1103; &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1083; &#1087;&#1086; &#1074;&#1077;&#1083;<b>&#1080;</b>&#1082;&#1086;&#1084;&#1091; &#1073;&#1083;<b>&#1072;</b>&#1090;&#1091;. &#1042;&#1077;&#1088;&#1085;<b>&#1077;</b>&#1077;, &#1084;&#1085;&#1077; &#1080;&#1093; &#1087;&#1086;&#1076;&#1072;&#1088;<b>&#1080;</b>&#1083;&#1080;. &#1040; &#1087;&#1086;&#1081;&#1076;&#1105;&#1084; &#1084;&#1099; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1074;&#1086; &#1052;&#1061;&#1040;&#1058; &#1080; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1084; &#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100; &#1087;&#1100;<b>&#1077;</b>&#1089;&#1091; &#1042;&#1072;&#1084;&#1087;<b>&#1080;</b>&#1083;&#1086;&#1074;&#1072; "&#1059;&#1090;<b>&#1080;</b>&#1085;&#1072;&#1103; &#1086;&#1093;<b>&#1086;</b>&#1090;&#1072;". 			 				4 			Oh, mon cher, j'ai obtenu les billets gr&#226;ce &#224; un piston important... Plus exactement, on me les a offerts. Et nous irons au MKhAT voir une pi&#232;ce de Vampilov "La Chasse aux canards".  		 			6 			- &#1071; <b>&#1079;</b>&#1090;&#1091; &#1087;&#1100;<b>&#1077;</b>&#1089;&#1091; &#1091;&#1078;<b>&#1077;</b> &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083; &#1074; &#1048;&#1088;&#1082;<b>&#1091;</b>&#1090;&#1089;&#1082;&#1077;, &#1085;&#1086; &#1074;&#1086; &#1052;&#1061;&#1040;&#1058; &#1089;&#1093;&#1086;&#1078;&#1091; &#1089; &#1086;&#1075;&#1088;<b>&#1086;</b>&#1084;&#1085;&#1099;&#1084; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;. &#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1087;&#1086;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072; &#1086;&#1090;&#1083;<b>&#1080;</b>&#1095;&#1085;&#1072;&#1103;. 			 			J'ai d&#233;j&#224; vu cette pi&#232;ce &#224; Irkoutsk, mais j'irai avec grand plaisir au MKhAT. On dit que la mise en sc&#232;ne est excellente.  		 			7 			- &#1048; &#1087;&#1086;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072;, &#1080; &#1080;&#1075;&#1088;<b>&#1072;</b> &#1072;&#1082;&#1090;&#1105;&#1088;&#1086;&#1074;. &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103;, &#1075;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1091;&#1102; &#1088;&#1086;&#1083;&#1100; &#1080;&#1089;&#1087;&#1086;&#1083;&#1085;<b>&#1103;</b>&#1077;&#1090; &#1084;&#1086;&#1083;&#1086;&#1076;<b>&#1086;</b>&#1081; &#1072;&#1082;&#1090;&#1105;&#1088;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; &#1084;&#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;. &#1042;&#1086; &#1052;&#1061;&#1040;&#1058;&#1077; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1077; &#1072;&#1088;&#1090;<b>&#1080;</b>&#1089;&#1090;&#1099;. 			 				5 			Et la mise en sc&#232;ne et le jeu des acteurs. Aujourd'hui, c'est un jeune acteur, qui me pla&#238;t beaucoup, qui interpr&#232;te le r&#244;le principal. Au MKhAT. il y a toujours de tr&#232;s bons artistes.  		 			8 			- &#1057;&#1082;&#1072;&#1078;<b>&#1080;</b>, &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1072; &#1075;&#1076;&#1077; &#1085;<b>&#1072;</b>&#1096;&#1080; &#1084;&#1077;&#1089;&#1090;<b>&#1072;</b>? &#1042; &#1087;&#1072;&#1088;&#1090;<b>&#1077;</b>&#1088;&#1077;? 			 				6 			Dis-moi, s'il te pla&#238;t, et o&#249; sont nos places ? Au parterre ?  		 			9 			- &#1053;&#1072; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1088;&#1072;&#1079; &#1084;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1084; &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1085;&#1072; &#1073;&#1072;&#1083;&#1082;<b>&#1086;</b>&#1085;&#1077;. &#1054;&#1090;&#1090;<b>&#1091;</b>&#1076;&#1072; &#1074;&#1089;&#1105; &#1074;<b>&#1080;</b>&#1076;&#1085;&#1086; &#1080; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1085;&#1086; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;. 			 				7 			Cette fois, nous serons assis au balcon. De l&#224;, on voit tout et on entend tout tr&#232;s bien.  		 			10 			- &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1090;&#1077;&#1073;<b>&#1077;</b>, &#1103; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1085;&#1077; &#1079;&#1085;&#1072;&#1083;, &#1082;&#1072;&#1082; &#1091;&#1073;<b>&#1080;</b>&#1090;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;. &#1044;&#1072;, &#1082;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1072; &#1082;&#1090;&#1086; &#1088;&#1077;&#1078;&#1080;&#1089;&#1089;&#1105;&#1088; &#1089;&#1087;&#1077;&#1082;&#1090;<b>&#1072;</b>&#1082;&#1083;&#1103;? 			 				8 			Merci (&#224; toi), je ne savais tout simplement pas comment tuer [le temps] ce soir. &#192; propos, qui est le metteur en sc&#232;ne du spectacle ?  		 			11 			- &#1071; &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;. &#1071; &#1093;&#1086;&#1078;&#1091; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; &#1086;&#1090; &#1089;&#1083;<b>&#1091;</b>&#1095;&#1072;&#1103; &#1076;&#1086; &#1089;&#1083;<b>&#1091;</b>&#1095;&#1072;&#1103;. &#1042; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;&#1077; &#1082;<b>&#1091;</b>&#1087;&#1080;&#1084; &#1087;&#1088;&#1086;&#1075;&#1088;<b>&#1072;</b>&#1084;&#1084;&#1091; &#1080; &#1074;&#1089;&#1105; &#1091;&#1079;&#1085;<b>&#1072;</b>&#1077;&#1084;. &#1053;&#1077; &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1100;, &#1089;&#1087;&#1077;&#1082;&#1090;<b>&#1072;</b>&#1082;&#1083;&#1100; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; &#1088;<b>&#1086;</b>&#1074;&#1085;&#1086; &#1074; &#1089;&#1077;&#1084;&#1100;, &#1080; &#1087;<b>&#1086;</b>&#1089;&#1083;&#1077; &#1079;&#1074;&#1086;&#1085;&#1082;<b>&#1072;</b> &#1074; &#1079;&#1072;&#1083; &#1085;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> &#1074;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;. 			 				9 			Je ne sais pas. Je ne vais au th&#233;&#226;tre que de temps en temps (d'occasion en occasion). Nous ach&#232;terons le programme au th&#233;&#226;tre et nous saurons tout. N'oublie pas, le spectacle commence &#224; sept heures pile, et apr&#232;s la sonnerie on ne peut plus entrer dans la salle.  		 			12 			- &#1071; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1091; &#1074;&#1093;<b>&#1086;</b>&#1076;&#1072; &#1079;&#1072; &#1087;&#1086;&#1083;&#1095;&#1072;&#1089;<b>&#1072;</b> &#1076;&#1086; &#1085;&#1072;&#1095;<b>&#1072;</b>&#1083;&#1072; &#1089;&#1087;&#1077;&#1082;&#1090;<b>&#1072;</b>&#1082;&#1083;&#1103;. &#1055;&#1088;&#1080;&#1093;<b>&#1086;</b>&#1076;&#1080; &#1087;&#1086;&#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077;. &#1047;&#1072;&#1073;&#1077;&#1078;<b>&#1080;</b>&#1084; &#1074; &#1073;&#1091;&#1092;<b>&#1077;</b>&#1090; &#1080; &#1074;<b>&#1099;</b>&#1087;&#1100;&#1077;&#1084; &#1087;&#1086; &#1095;<b>&#1072;</b>&#1096;&#1077;&#1095;&#1082;&#1077; &#1082;<b>&#1086;</b>&#1092;&#1077;. 			 				10 			Je serai &#224; l'entr&#233;e une demi-heure avant le d&#233;but du spectacle. Viens un peu avant, nous ferons un saut au buffet et nous boirons une petite tasse de caf&#233;.  	 		 			1 			La premi&#232;re phrase vous donne l'occasion de d&#233;couvrir trois verbes de "communication". D'abord, le verbe pronominal &#1074;<b>&#1080;</b>&#1076;&#1077;&#1090;&#1100;&#1089;&#1103; (se voir). Il se rencontre le plus souvent au pass&#233;. &#1052;&#1099; &#1076;&#1072;&#1074;&#1085;<b>&#1086;</b> &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080;&#1089;&#1100; : nous ne nous sommes pas vus depuis longtemps.<br /> Le verbe &#1087;&#1086;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; signifie lui aussi "se voir", mais avec une nuance de gentillesse. On l'emploie surtout avec une construction qui exprime le souhait comme &#1103; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1073;&#1099; : je voudrais... &#1071; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1073;&#1099; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080; &#1087;&#1086;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; : je voudrais que l'on se voie.<br /> Enfin, &#1087;&#1086;&#1073;&#1086;&#1083;&#1090;<b>&#1072;</b>&#1090;&#1100; (bavarder, papoter) est un peu familier. &#192; n'utiliser qu'avec des gens que vous connaissez bien. &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1087;&#1086;&#1073;&#1086;&#1083;&#1090;<b>&#1072;</b>&#1077;&#1084; &#1085;<b>&#1077;</b>&#1084;&#1085;&#1086;&#1078;&#1082;&#1086; : papotons un peu !<br /> &#183; &#1055;<b>&#1086;</b> &#1091;&#1096;&#1080; &#1074; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1077; : avoir du travail par-dessus la t&#234;te. &#1059;&#1096;&#1080; est l'accusatif pluriel de &#1091;&#1093;&#1086;, l'oreille. De la m&#234;me fa&#231;on, vous pouvez dire : &#1054;&#1085; &#1087;&#1086; &#1091;&#1096;&#1080; &#1074; &#1076;&#1077;&#1083;<b>&#1072;</b>&#1093;.  		 			2 			&#1056;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1085;&#1077; &#1074;&#1086;&#1083;&#1082;, &#1074; &#1083;&#1077;&#1089; &#1085;&#1077; &#1091;&#1073;&#1077;&#1078;<b>&#1080;</b>&#1090; : litt&#233;ralement, le travail n'est pas un loup, il ne se sauvera pas dans le bois. Notez que l'utilisation des proverbes, chez les Russes, est plut&#244;t une habitude des milieux intellectuels.<br /> &#1055;&#1086;&#1086;&#1073;&#1097;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (discuter) fait surtout partie du vocabulaire des jeunes.<br /> &#1053;<b>&#1091;</b>&#1078;&#1085;&#1086; &#1073;&#1099; : il faudrait. Vous pourriez aussi bien dire : &#1085;<b>&#1072;</b>&#1076;&#1086; &#1073;&#1099;.  		 			3 			&#1044;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1089;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1084; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; : allons au th&#233;&#226;tre. Rappelez-vous : g&#233;n&#233;ralement, les verbes de mouvement de type ind&#233;termin&#233; (type &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; et <b>&#1077;</b>&#1079;&#1076;&#1080;&#1090;&#1100;) restent imperfectifs lorsqu'on leur ajoute un pr&#233;verbe. Toute r&#232;gle a ses exceptions ! Les verbes &#1089;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; et &#1089;&#1098;<b>&#1077;</b>&#1079;&#1076;&#1080;&#1090;&#1100;, eux, sont toujours perfectifs et ils indiquent, comme nous l'avons vu dans la le&#231;on pr&#233;c&#233;dente, un mouvement d'aller et retour dans un laps de temps assez bref.  		 			4 			&#1044;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100; : obtenir, c'est-&#224;-dire "r&#233;ussir &#224; acheter quelque chose apr&#232;s bien des difficult&#233;s" (!!!).<br /> &#1071; &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1083; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1091;&#1102; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; : j'ai r&#233;ussi &#224; acheter (&#224; trouver) un livre int&#233;ressant ; &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100; &#1087;&#1086; &#1073;&#1083;<b>&#1072;</b>&#1090;&#1091; est l'&#233;quivalent de "avoir (obtenir) par piston (par relation)". Vous pouvez entendre aussi bien &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100; &#1087;&#1086; &#1073;&#1083;<b>&#1072;</b>&#1090;&#1091; que &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100; &#1087;&#1086; &#1074;&#1077;&#1083;<b>&#1080;</b>&#1082;&#1086;&#1084;&#1091; &#1073;&#1083;<b>&#1072;</b>&#1090;&#1091;.<br /> &#183; &#1040; &#1087;&#1086;&#1081;&#1076;&#1105;&#1084; &#1084;&#1099; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1074; &#1052;&#1061;&#1040;&#1058; : nous irons ensemble au MKhAT. L'inversion des mots (&#1087;&#1086;&#1081;&#1076;&#1105;&#1084; &#1084;&#1099;) donne un ton plus familier &#224; la conversation.<br /> &#183; Le MKhAT, c'est le &#1052;&#1086;&#1089;&#1082;<b>&#1086;</b>&#1074;&#1089;&#1082;&#1080;&#1081; &#1061;&#1091;&#1076;<b>&#1086;</b>&#1078;&#1077;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1081; &#1040;&#1082;&#1072;&#1076;&#1077;&#1084;<b>&#1080;</b>&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1058;&#1077;<b>&#1072;</b>&#1090;&#1088;, Th&#233;&#226;tre acad&#233;mique d'art de Moscou, fond&#233; par le c&#233;l&#232;bre metteur en sc&#232;ne russe Constantin Stanislavski, au d&#233;but du si&#232;cle, et devenu c&#233;l&#232;bre gr&#226;ce aux pi&#232;ces de Tch&#233;khov qu'on y a mises en sc&#232;ne, et au talent des acteurs.<br /> &#183; Alexandre Vampilov (1937-1972), dramaturge, auteur de drames psychologiques, n'a, h&#233;las, jamais vu une de ses pi&#232;ces sur sc&#232;ne. Actuellement, c'est un des auteurs dramatiques les plus jou&#233;s en Russie.  		 			5 			Le mot &#1072;&#1082;&#1090;&#1105;&#1088; (acteur) d&#233;signe aussi bien les acteurs de th&#233;&#226;tre que de cin&#233;ma. Par contre, &#1072;&#1088;&#1090;<b>&#1080;</b>&#1089;&#1090; d&#233;signe les acteurs de th&#233;&#226;tre, les chanteurs et les danseurs. Pour un peintre, on dira &#1093;&#1091;&#1076;<b>&#1086;</b>&#1078;&#1085;&#1080;&#1082;.<br /> &#183; &#1050;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; est le pronom relatif "qui". Il est variable en genre et en nombre. Masc. : &#1072;&#1082;&#1090;&#1105;&#1088;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;... F&#233;m. : &#1072;&#1082;&#1090;&#1088;<b>&#1080;</b>&#1089;&#1072;. &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1072;&#1103; &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;... Neutre : &#1082;&#1080;&#1085;<b>&#1086;</b>, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1086;&#1077; &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;... Pluriel : &#1072;&#1082;&#1090;&#1105;&#1088;&#1099;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1077; &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1103;&#1090;&#1089;&#1103;. Il se d&#233;cline sur le mod&#232;le de l'adjectif en -&#1099;&#1081;.  		 			6 			&#1052;<b>&#1077;</b>&#1089;&#1090;&#1086; est ici la place de th&#233;&#226;tre. Rappelez-vous que ce mot a de nombreux sens (voyez le&#231;on 51). Comme nous vous le disions au d&#233;but de la le&#231;on, le vocabulaire li&#233; au th&#233;&#226;tre vient en grande partie du fran&#231;ais. On aura ainsi : &#1055;&#1072;&#1088;&#1090;<b>&#1077;</b>&#1088; : le parterre ; &#1073;&#1072;&#1083;&#1082;<b>&#1086;</b>&#1085; : le balcon ; &#1073;&#1077;&#1083;&#1100;&#1101;&#1090;<b>&#1072;</b>&#1078; : le bel &#233;tage (corbeille) ; &#1083;<b>&#1086;</b>&#1078;&#1072; : la loge, etc.  		 			7 			Dans les expressions &#1074;&#1089;&#1105; &#1074;<b>&#1080;</b>&#1076;&#1085;&#1086; (on voit tout) et &#1074;&#1089;&#1105; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1085;&#1086; (on entend tout), vous reconnaissez la racine des verbes &#1074;<b>&#1080;</b>&#1076;&#1077;&#1090;&#1100; (voir) et &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1090;&#1100; (entendre).  		 			8 			&#1059;&#1073;<b>&#1080;</b>&#1090;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;: tuer le temps ce soir (tuer la soir&#233;e). Vous pouvez dire aussi : &#1103; &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;, &#1082;&#1072;&#1082; &#1091;&#1073;<b>&#1080;</b>&#1090;&#1100; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;: je ne sais pas comment tuer le temps.  		 			9 			&#1052;&#1099; &#1074;&#1089;&#1105; &#1091;&#1079;&#1085;<b>&#1072;</b>&#1077;&#1084; : nous saurons tout. &#1059;&#1079;&#1085;<b>&#1072;</b>&#1090;&#1100; est le perfectif de &#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;. Comparez :<br /> &#1052;&#1099; &#1074;&#1089;&#1105; &#1091;&#1078;<b>&#1077;</b> &#1079;&#1085;<b>&#1072;</b>&#1077;&#1084; : nous savons d&#233;j&#224; tout (imperfectif) ; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1084;&#1099; &#1074;&#1089;&#1105; &#1091;&#1079;&#1085;<b>&#1072;</b>&#1077;&#1084; : demain, nous saurons tout (perfectif) ; &#1084;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1091;&#1079;&#1085;<b>&#1072;</b>&#1083;&#1080; &#1074;&#1095;&#1077;&#1088;<b>&#1072;</b> : nous l'avons su (appris) hier (perfectif pass&#233;).<br /> &#183; &#1042; &#1079;&#1072;&#1083; &#1085;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> &#1074;&#1086;&#1081;&#1090;<b>&#1080;</b> : on ne peut pas entrer dans la salle. Il est int&#233;ressant de constater qu'on peut employer aussi bien le perfectif que l'imperfectif apr&#232;s &#1085;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b>. Mais, bien s&#251;r, le sens est diff&#233;rent.<br /> &#1053;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> + perfectif indique qu'il n'est pas possible de faire quelque chose. &#1053;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> + imperfectif exprime plut&#244;t l'interdiction.<br /> &#1074; &#1079;&#1072;&#1083; &#1085;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> &#1074;&#1086;&#1081;&#1090;<b>&#1080;</b> (perfectif), &#1087;&#1086;&#1090;&#1086;&#1084;&#1091; &#1095;&#1090;&#1086; &#1076;&#1074;<b>&#1077;</b>&#1088;&#1080; &#1079;&#1072;&#1082;&#1088;<b>&#1099;</b>&#1090;&#1099; : on ne peut pas entrer dans la salle car les portes sont ferm&#233;es ; &#1074; &#1079;&#1072;&#1083; &#1085;&#1077;&#1083;&#1100;&#1079;<b>&#1103;</b> &#1074;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (imperfectif) &#1087;<b>&#1086;</b>&#1089;&#1083;&#1077; &#1090;&#1088;<b>&#1077;</b>&#1090;&#1100;&#1077;&#1075;&#1086; &#1079;&#1074;&#1086;&#1085;&#1082;<b>&#1072;</b> : on ne peut pas (il est interdit d') entrer dans la salle apr&#232;s la troisi&#232;me sonnerie.  		 			10 			La construction &#1079;&#1072; + accusatif, &#1076;&#1086; + g&#233;nitif est tr&#232;s courante. &#1071; &#1087;&#1088;&#1080;&#1093;&#1086;&#1078;&#1091; &#1074; &#1073;&#1102;&#1088;<b>&#1086;</b> &#1079;&#1072; &#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090; &#1076;&#1086; &#1085;&#1072;&#1095;<b>&#1072;</b>&#1083;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099; : j'arrive au bureau quinze minutes avant le d&#233;but de mon travail.<br /> &#183; &#1047;&#1072;&#1073;&#1077;&#1078;<b>&#1080;</b>&#1084; &#1074; &#1073;&#1091;&#1092;<b>&#1077;</b>&#1090; : nous ferons un saut au buffet. On pourrait dire aussi : &#1079;&#1072;&#1081;&#1076;&#1105;&#1084; &#1074; &#1073;&#1091;&#1092;<b>&#1077;</b>&#1090;, mais &#1079;&#1072;&#1073;&#1077;&#1078;<b>&#1080;</b>&#1084; ajoute l'id&#233;e que ce n'est pas pour longtemps, juste pour quelques minutes.<br /> &#183; &#1063;<b>&#1072;</b>&#1096;&#1077;&#1095;&#1082;&#1072; (petite tasse), diminutif de &#1095;<b>&#1072;</b>&#1096;&#1082;&#1072;. On dit aussi &#1089;&#1090;&#1072;&#1082;<b>&#1072;</b>&#1085;&#1095;&#1080;&#1082; &#1095;<b>&#1072;</b>&#1103; (un petit verre de th&#233;), diminutif de &#1089;&#1090;&#1072;&#1082;<b>&#1072;</b>&#1085; &#1095;<b>&#1072;</b>&#1103;.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Aujourd'hui, vous apprendrez &#224; manier les expressions de convivialit&#233; au moment du repas. Nous &#233;tudierons &#233;galement l'emploi du g&#233;nitif avec une n&#233;gation, ainsi que l'imp&#233;ratif du verbe "donner".</i> </p> 	<h3>
+		&#1055;&#1088;&#1080;&#1103;&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;&#1080;&#1090;&#1072;!
+		
+			1
+		Bon app&#233;tit ! 		</h3> 	 		 			1 			- &#1044;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b>! &#1055;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1089;&#1090;&#1086;&#1083;. 			 				2 			&#192; table, les amis (Amis, [il est] temps [de se mettre] &#224; table) !  		 			2 			- &#1057; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;. &#1071; &#1087;&#1088;&#1086;&#1075;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103;. 			 				3 			Avec plaisir. J'ai faim.  		 			3 			- &#1063;&#1090;&#1086; &#1074;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1077;&#1089;&#1090;&#1100;? 			 			Qu'allez-vous manger (Que mangerez-vous) ?  		 			4 			- &#1042;&#1089;&#1105;, &#1095;&#1090;&#1086; &#1074;&#1099; &#1087;&#1088;&#1077;&#1076;&#1083;<b>&#1086;</b>&#1078;&#1080;&#1090;&#1077;. 			 			Tout ce que vous proposerez.  		 			5 			- &#1063;&#1090;&#1086; &#1074;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1087;&#1080;&#1090;&#1100;? &#1042;<b>&#1086;</b>&#1076;&#1082;&#1091;, &#1074;&#1080;&#1085;<b>&#1086;</b>... 			 				4 			Que boirez-vous ? De la vodka, du vin ...  		 			6 			- &#1048; &#1087;<b>&#1080;</b>&#1074;&#1086; &#1090;<b>&#1086;</b>&#1078;&#1077;. 			 			Et aussi de la bi&#232;re.  		 			7 			- &#1050; &#1089;&#1086;&#1078;&#1072;&#1083;<b>&#1077;</b>&#1085;&#1080;&#1102;, &#1091; &#1085;&#1072;&#1089; &#1085;&#1077;&#1090; &#1087;<b>&#1080;</b>&#1074;&#1072;. 			 				5 			Malheureusement, nous n'avons pas de bi&#232;re (chez nous pas de bi&#232;re).  		 			8 			- &#1069;&#1090;&#1086; &#1085;&#1077;&#1074;<b>&#1072;</b>&#1078;&#1085;&#1086;. &#1044;&#1072;&#1081;&#1090;&#1077;, &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1074;&#1086;&#1076;<b>&#1099;</b>. 			 				6 			Ce n'est pas grave. Donnez-[moi], s'il vous pla&#238;t, un peu d'eau.  		 			9 			- &#1059; &#1085;&#1072;&#1089; &#1089;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1091;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1086; &#1074;&#1086;&#1076;<b>&#1099;</b>. 			 			De l'eau, nous en avons autant que vous voulez (chez nous, autant qu'on veut d'eau) !  		 			10 			- &#1053;&#1091; &#1080; &#1086;&#1090;&#1083;<b>&#1080;</b>&#1095;&#1085;&#1086;! &#1042;&#1099; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1077;. 			 				7 			Eh bien, c'est parfait ! Vous cuisinez tr&#232;s bien.  		 			11 			- &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086;. &#1061;&#1086;&#1090;<b>&#1080;</b>&#1090;&#1077; &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1089;&#1072;&#1083;<b>&#1072;</b>&#1090;&#1072;? 			 			Merci. Voulez-vous un peu de salade ?  		 			12 			- &#1057;&#1072;&#1083;<b>&#1072;</b>&#1090;&#1072; &#1103; &#1085;&#1077; &#1093;&#1086;&#1095;<b>&#1091;</b>, &#1072; &#1074;&#1086;&#1090; &#1075;&#1088;&#1080;&#1073;<b>&#1099;</b> &#1087;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1091;&#1102;. 			 				8 			Je ne veux pas de salade, mais je vais go&#251;ter les champignons (De salade je ne veux, mais voil&#224; les champignons j'essaierai).  		 			13 			- &#1071; &#1087;&#1100;&#1102; &#1079;&#1072; &#1074;<b>&#1072;</b>&#1096;&#1077; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;. 			 				9 			Je bois &#224; votre sant&#233;.  		 			14 			- &#1047;&#1072; &#1085;<b>&#1072;</b>&#1096;&#1091; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1091;. 			 			&#192; notre rencontre.  		 			15 			- &#1055;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1072;! 			 			Bon app&#233;tit !  		 			 				<b>1-13</b> 				 				Pour les mots &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b> (amis) et &#1087;&#1100;&#1102; (je bois), veillez &#224; bien prononcer un petit "i" apr&#232;s le &#1079; et le &#1087; : drouz(i)<b>ia</b> ; ia p(i)<b>iou</b>.  			 				<b>15 </b> 				Dans l'expression &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1072; (bon app&#233;tit), le &#1075; de &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; se prononce comme un B : pri<b>ia</b>tnava.  	 		 			1 			L'expression &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1072; est (comme en fran&#231;ais) un raccourci de la phrase &#1103; &#1078;&#1077;&#1083;<b>&#1072;</b>&#1102; &#1074;&#1072;&#1084; &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1072;: (je vous souhaite un bon app&#233;tit). Apr&#232;s le verbe &#1078;&#1077;&#1083;<b>&#1072;</b>&#1090;&#1100; (souhaiter), on emploie le g&#233;nitif. Nominatif : &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1099;&#1081; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;<br /> G&#233;nitif : &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1087;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1072;  		 			2 			&#1044;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b> est le pluriel de &#1076;&#1088;<b>&#1091;</b>&#1075; (ami). En russe, quelques mots ont un pluriel irr&#233;gulier. En voici deux : &#1076;&#1088;<b>&#1091;</b>&#1075; -<br /> &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b> (amis) ; &#1073;&#1088;&#1072;&#1090;- &#1073;&#1088;<b>&#1072;</b>&#1090;&#1100;&#1103; (fr&#232;res). Nous d&#233;couvrirons les autres au fur et &#224; mesure.<br /> &#183; &#1055;&#1086;&#1088;<b>&#1072;</b> signifie "il est temps". G&#233;n&#233;ralement, apr&#232;s &#1087;&#1086;&#1088;<b>&#1072;</b> on emploie l'infinitif : &#1087;&#1086;&#1088;<b>&#1072;</b> &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; (il est temps de travailler) ; &#1087;&#1086;&#1088;<b>&#1072;</b> &#1080;&#1076;&#1090;<b>&#1080;</b> (il est temps de partir). Notez les expressions : &#1055;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1089;&#1090;&#1086;&#1083; : il est temps [de se mettre] &#224; table ; &#1055;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; : il est temps [de se mettre] au travail.  		 			3 			&#1071; &#1087;&#1088;&#1086;&#1075;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; : j'ai faim (au masculin). Une femme dira : &#1103; &#1087;&#1088;&#1086;&#1075;&#1086;&#1083;&#1086;&#1076;<b>&#1072;</b>&#1083;&#1072;&#1089;&#1100;. On peut dire &#233;galement entre amis ou en famille &#1103; &#1093;&#1086;&#1095;&#1091; &#1077;&#1089;&#1090;&#1100; : je veux manger.  		 			4 			Apr&#232;s les verbes &#1077;&#1089;&#1090;&#1100; (manger) et &#1087;&#1080;&#1090;&#1100; (boire), on emploie l'accusatif. Voyons quelques exemples avec des accusatifs masculin, f&#233;minin et neutre :<br /> Masc. &#1071; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1077;&#1089;&#1090;&#1100; &#1073;&#1086;&#1088;&#1097; : je mangerai (ou je vais manger) du borchtch. <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>F&#233;m.  </p></td> 							<td class="centre"> 								<p>&#1058;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100; &#1087;&#1080;&#1090;&#1100; &#1074;<b>&#1086;</b>&#1076;&#1091; : tu boiras de l'eau. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Neut.  </p></td> 							<td class="centre"> 								<p>&#1054;&#1085; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1087;&#1080;&#1090;&#1100; &#1087;<b>&#1080;</b>&#1074;&#1086;: il boira de la bi&#232;re. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Plur.  </p></td> 							<td class="centre"> 								<p>&#1052;&#1099; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1084; &#1077;&#1089;&#1090;&#1100; &#1075;&#1088;&#1080;&#1073;<b>&#1099;</b> : nous mangerons des </p></td></tr> 						<tr class="centre"> 							<td class="centre" colspan="2"> 								<p>champignons. </p></td></tr></tbody></table><br /> Attention &#224; ne pas confondre &#1077;&#1089;&#1090;&#1100; (manger) avec &#1077;&#1089;&#1090;&#1100; (il y a).  		 			5 			Apr&#232;s la n&#233;gation &#1085;&#1077;&#1090;, on emploie le g&#233;nitif : <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>Masc.  </p></td> 							<td class="centre"> 								<p>&#1085;&#1077;&#1090; &#1089;&#1072;&#1083;<b>&#1072;</b>&#1090;&#1072;		: pas de salade. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>F&#233;m.  </p></td> 							<td class="centre"> 								<p>&#1085;&#1077;&#1090; &#1074;<b>&#1086;</b>&#1076;&#1082;&#1080; / &#1085;&#1077;&#1090; &#1074;&#1086;&#1076;<b>&#1099;</b> : pas de vodka / pas d'eau. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Neut.  </p></td> 							<td class="centre"> 								<p>&#1085;&#1077;&#1090; &#1074;&#1080;&#1085;<b>&#1072;</b> : pas de vin. </p></td></tr></tbody></table> 		 			6 			&#1044;<b>&#1072;</b>&#1081;&#1090;&#1077; est l'imp&#233;ratif du verbe &#1076;&#1072;&#1090;&#1100; (donner).<br /> 			2e pers. du singulier : &#1044;&#1072;&#1081;, &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1089;&#1072;&#1083;<b>&#1072;</b>&#1090;&#1072; : donne-[moi], s'il te pla&#238;t, un peu de salade.<br /> 			2e pers. du pluriel : &#1044;<b>&#1072;</b>&#1081;&#1090;&#1077;, &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1074;&#1086;&#1076;<b>&#1099;</b>: donnez-[moi], s'il vous pla&#238;t, un peu d'eau.  		 			7 			Le verbe &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100; (cuisiner) se conjugue comme &#1083;&#1102;&#1073;<b>&#1080;</b>&#1090;&#1100; (aimer) :  <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1103; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1083;&#1102; </p></td> 							<td class="centre"> 								<p>&#1084;&#1099; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1084; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1090;&#1099; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1096;&#1100; </p></td> 							<td class="centre"> 								<p>&#1074;&#1099; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1077; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090; </p></td> 							<td class="centre"> 								<p>&#1086;&#1085;<b>&#1080;</b> &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1103;&#1090; </p></td></tr></tbody></table> 		 			8 			Apr&#232;s une n&#233;gation, on emploie habituellement le g&#233;nitif : &#1071; &#1085;&#1077; &#1093;&#1086;&#1095;&#1091; &#1089;&#1072;&#1083;<b>&#1072;</b>&#1090;&#1072; : je ne veux pas de salade. Cependant, les Russes utilisent de plus en plus l'accusatif.  		 			9 			&#1047;&#1072; &#1074;<b>&#1072;</b>&#1096;&#1077; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; ou bien simplement &#1079;&#1072; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; (&#1079;&#1072; + accus.) : &#224; votre sant&#233;. Les Russes boivent rarement sans porter de toasts : &#1103; &#1087;&#1100;&#1102; &#1079;&#1072; &#1085;<b>&#1072;</b>&#1096;&#1091; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1091; (je bois &#224; notre rencontre). &#1054;&#1085; &#1087;&#1100;&#1105;&#1090;, &#1086;&#1085;<b>&#1080;</b> &#1087;&#1100;&#1102;&#1090; : il boit, ils boivent.  	 	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

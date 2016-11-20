@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Dans cette le&#231;on, vous verrez de mani&#232;re plus pr&#233;cise les verbes pronominaux. Nous poursuivons &#233;videmment notre &#233;tude de l'aspect des verbes et notamment l'emploi des aspects pour les verbes de mouvement.</i> 		</p> 	<h3>
+		&#1053;&#1072;&#1095;&#1080;&#1085;&#1072;&#1102; &#1085;&#1086;&#1074;&#1091;&#1102; &#1078;&#1080;&#1079;&#1085;&#1100;!
+		Je commence une nouvelle vie !</h3> 	 		 			1 			- &#1050;&#1072;&#1082; &#1074;&#1099; &#1074;&#1089;&#1105; &#1091;&#1089;&#1087;&#1077;&#1074;<b>&#1072;</b>&#1077;&#1090;&#1077;? 			 			Comment trouvez-vous le temps de tout faire ?  		 			2 			- &#1054;&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086;: &#1074;&#1089;&#1105; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1102; &#1074;<b>&#1086;</b>&#1074;&#1088;&#1077;&#1084;&#1103;. &#1042;&#1089;&#1090;&#1072;<b>&#1102;</b> &#1074; &#1096;&#1077;&#1089;&#1090;&#1100; &#1090;&#1088;<b>&#1080;</b>&#1076;&#1094;&#1072;&#1090;&#1100;... 			&#1071; &#1074;&#1089;&#1105; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1102; &#1074;<b>&#1086;</b>&#1074;&#1088;&#1077;&#1084;&#1103; (je fais tout &#224; temps) : iafs<b>io</b> d<b>ie</b>laiou v<b>o</b>vrimia. 			 				1 			C'est tr&#232;s simple : je fais tout &#224; temps. Je me l&#232;ve &#224; six heures et demie...  		 			3 			- &#1053;&#1086; &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084; &#1078;&#1077; &#1090;&#1072;&#1082; &#1088;<b>&#1072;</b>&#1085;&#1086;? &#1059; &#1074;&#1072;&#1089; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; &#1074; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074;. 			&#1047;&#1072;&#1095;<b>&#1077;</b>&#1084; &#1078;&#1077; &#1090;&#1072;&#1082; &#1088;<b>&#1072;</b>&#1085;&#1086;? (pourquoi donc si t&#244;t ?) : zatch<b>ie</b>mjy takr<b>a</b>na?  			 				2 			Mais pourquoi donc si t&#244;t ? Votre travail commence &#224; dix heures.  		 			4 			- &#1044;&#1072;, &#1085;&#1086; &#1087;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; &#1103; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1102;, &#1076;<b>&#1077;</b>&#1083;&#1072;&#1102; &#1079;&#1072;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1091;. 			 				3 			Oui, mais tous les matins je cours et je fais de la gymnastique.  		 			5 			- &#1043;<b>&#1086;</b>&#1089;&#1087;&#1086;&#1076;&#1080;! &#1050;<b>&#1072;</b>&#1078;&#1076;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;? 			 			Mon Dieu ! Tous les jours ?  		 			6 			- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;! &#1042; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1086;&#1084; &#1090;<b>&#1077;</b>&#1083;&#1077; - &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1076;<b>&#1091;</b>&#1093;. &#1055;&#1086;&#1090;<b>&#1086;</b>&#1084; &#1093;&#1086;&#1083;<b>&#1086;</b>&#1076;&#1085;&#1099;&#1081; &#1076;<b>&#1091;</b>&#1096;, &#1083;&#1105;&#1075;&#1082;&#1080;&#1081; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072;&#1082;. 			 				4 			Bien s&#251;r ! Un esprit sain dans un corps sain. Apr&#232;s, une douche froide et un petit d&#233;jeuner l&#233;ger.  		 			7 			- &#1040; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1074;&#1089;&#1105; &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;<b>&#1086;</b>&#1090;: &#1076;<b>&#1091;</b>&#1096; &#1075;&#1086;&#1088;<b>&#1103;</b>&#1095;&#1080;&#1081;, &#1072; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072;&#1082; &#1082;&#1072;&#1082; &#1086;&#1073;<b>&#1077;</b>&#1076;! 			&#1040; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1074;&#1089;&#1105; &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;<b>&#1086;</b>&#1090; (et moi c'est tout le contraire) : aoumin<b>ia</b> vs<b>io</b>nabar<b>o</b>t. 			 			Et moi c'est tout le contraire : une douche br&#251;lante et un petit d&#233;jeuner comme un d&#233;jeuner !  		 			8 			- &#1053;<b>&#1072;</b>&#1076;&#1086; &#1073;&#1077;&#1088;<b>&#1077;</b>&#1095;&#1100; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;: &#1086;&#1085;<b>&#1086;</b> &#1091; &#1085;&#1072;&#1089; &#1086;&#1076;&#1085;<b>&#1086;</b>. &#1052;&#1086;<b>&#1080;</b> &#1076;<b>&#1077;</b>&#1090;&#1080; &#1087;&#1088;&#1080;&#1074;<b>&#1099;</b>&#1082;&#1083;&#1080; &#1074;&#1089;&#1090;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100; &#1088;<b>&#1072;</b>&#1085;&#1086; &#1080; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; &#1074;&#1084;<b>&#1077;</b>&#1089;&#1090;&#1077; &#1089;&#1086; &#1084;&#1085;<b>&#1086;</b>&#1081;. 			&#1054;&#1085;<b>&#1086;</b> (&#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;) &#1091; &#1085;&#1072;&#1089; &#1086;&#1076;&#1085;<b>&#1086;</b> (on n'en a qu'une) : an<b>o</b>ounassadn<b>o</b>.  			 				5 			Il faut garder (&#233;pargner) sa sant&#233; : on [n'] en a [qu']une. Mes enfants ont pris l'habitude de se lever t&#244;t et de courir avec moi.  		 			9 			- &#1040; &#1084;&#1086;<b>&#1080;</b> &#1076;&#1086;&#1095;&#1100; &#1080; &#1089;&#1099;&#1085; &#1087;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1089;&#1084;<b>&#1086;</b>&#1090;&#1088;&#1103;&#1090; &#1089;&#1086; &#1084;&#1085;<b>&#1086;</b>&#1081; &#1090;&#1077;&#1083;&#1077;&#1074;<b>&#1080;</b>&#1079;&#1086;&#1088;, &#1072; &#1091;&#1090;&#1088;&#1086;&#1084; &#1078;&#1077;&#1085;<b>&#1072;</b> &#1085;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1085;&#1072;&#1089; &#1087;&#1086;&#1076;&#1085;<b>&#1103;</b>&#1090;&#1100;. 			 			Tandis que, tous les soirs, ma fille et mon fils regardent la t&#233;l&#233;vision avec moi, et le matin ma femme ne peut pas nous sortir du lit (ne peut pas nous lever).  		 			10 			- &#1058;&#1072;&#1082; &#1074;&#1086;&#1090;... &#1042;&#1099;&#1093;&#1086;&#1078;&#1091; &#1103; &#1080;&#1079; &#1076;<b>&#1086;</b>&#1084;&#1072; &#1087;&#1086;&#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077; &#1080; &#1080;&#1076;&#1091; &#1085;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; &#1087;&#1077;&#1096;&#1082;<b>&#1086;</b>&#1084;. 			 				6 			Eh oui ! Moi, je pars un peu plus t&#244;t de la maison et je vais &#224; pied au travail.  		 			11 			- &#1042;&#1089;&#1105; <b>&#1103;</b>&#1089;&#1085;&#1086;! &#1053;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1102; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1085;<b>&#1086;</b>&#1074;&#1091;&#1102; &#1078;&#1080;&#1079;&#1085;&#1100;. 			 				7 			C'est d&#233;cid&#233; (Tout est clair) : demain, je commence une nouvelle vie !  		 			12 			- &#1040; &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072;? &#1047;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; - &#1095;&#1077;&#1090;&#1074;<b>&#1077;</b>&#1088;&#1075;, &#1072; &#1074;&#1099; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1077; &#1085;<b>&#1086;</b>&#1074;&#1091;&#1102; &#1078;&#1080;&#1079;&#1085;&#1100; &#1087;&#1086; &#1087;&#1086;&#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1100;&#1085;&#1080;&#1082;&#1072;&#1084;. 			 			Et pourquoi demain ? Demain, c'est jeudi et une nouvelle vie &#231;a se commence un lundi (et vous commencez une nouvelle vie le lundi).  	 		 			1 			&#1042;&#1089;&#1105; &#1091;&#1089;&#1087;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100; : avoir le temps de tout faire. Les deux aspects sont &#1091;&#1089;&#1087;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100; et &#1091;&#1089;&#1087;<b>&#1077;</b>&#1090;&#1100;.<br /> Imperfectif : &#1071; &#1074;&#1089;&#1105; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1091;&#1089;&#1087;&#1077;&#1074;<b>&#1072;</b>&#1102; (&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;) : j'ai toujours le temps de tout faire ; &#1086;&#1085; &#1074;&#1089;&#1105; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1091;&#1089;&#1087;&#1077;&#1074;<b>&#1072;</b>&#1083; (&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;) : il avait toujours le temps de tout faire.<br /> Perfectif : &#1071; &#1074;&#1089;&#1105; &#1091;&#1089;&#1087;<b>&#1077;</b>&#1102; (&#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;) : j'aurai le temps de tout faire ; &#1086;&#1085; &#1074;&#1089;&#1105; &#1091;&#1089;&#1087;<b>&#1077;</b>&#1083; (&#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;) : il a eu le temps de tout faire.<br /> Apr&#232;s le verbe &#1091;&#1089;&#1087;<b>&#1077;</b>&#1090;&#1100; (perfectif), le verbe qui suit est habituellement au perfectif, et cela est logique car on insiste sur l'accomplissement de l'action.<br /> Dans les exemples ci-dessus, le verbe &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; / &#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; est entre parenth&#232;ses car il n'est pas indispensable de l'exprimer.  		 			2 			Les pronoms interrogatifs &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; et &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084; sont tr&#232;s proches de sens, mais &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084;, outre l'interrogation, peut &#233;galement exprimer le doute : &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1090;&#1099; &#1074;&#1089;&#1090;&#1072;&#1083; &#1090;&#1072;&#1082; &#1088;<b>&#1072;</b>&#1085;&#1086;? Pourquoi t'es-tu lev&#233; si t&#244;t ? &#1048; &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084; &#1090;&#1099; &#1074;&#1089;&#1090;&#1072;&#1083; &#1090;&#1072;&#1082; &#1088;<b>&#1072;</b>&#1085;&#1086;? &#1042;&#1077;&#1076;&#1100; &#1090;&#1099; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1085;&#1077; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1096;&#1100;. Et pourquoi t'es-tu lev&#233; si t&#244;t ? Tu ne travailles pourtant pas aujourd'hui.  		 			3 			&#1047;&#1072;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1072; est la gymnastique du matin. Comme disent les Russes (surtout ceux qui ne font pas de gymnastique) : &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1077; : merci &#224; la gymnastique ; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077; &#1074; &#1087;&#1086;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1077; : la sant&#233;, c'est l'ordre (la sant&#233; est dans l'ordre).  		 			4 			&#1058;<b>&#1077;</b>&#1083;&#1086; (corps) est un neutre. Les substantifs neutres, souvenez-vous, se d&#233;clinent comme les masculins : &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1086;&#1077; &#1090;<b>&#1077;</b>&#1083;&#1086; (un corps sain) ; &#1074; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1086;&#1084; &#1090;<b>&#1077;</b>&#1083;&#1077; (dans un corps sain).  		 			5 			Le verbe &#1087;&#1088;&#1080;&#1074;&#1099;&#1082;<b>&#1072;</b>&#1090;&#1100; / &#1087;&#1088;&#1080;&#1074;<b>&#1099;</b>&#1082;&#1085;&#1091;&#1090;&#1100; (s'habituer) s'emploie le plus souvent au pass&#233; perfectif : &#1086;&#1085; &#1087;&#1088;&#1080;&#1074;<b>&#1099;</b>&#1082; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; &#1087;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; : il a l'habitude  de courir tous les matins (litt&#233;ralement : il a pris l'habitude de ...) ; &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1074;<b>&#1099;</b>&#1082;&#1083;&#1072; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; &#1079;&#1072;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1091; : ma femme a l'habitude de faire de la gymnastique (a pris l'habitude de...) ; &#1084;&#1086;<b>&#1080;</b> &#1076;<b>&#1077;</b>&#1090;&#1080; &#1087;&#1088;&#1080;&#1074;<b>&#1099;</b>&#1082;&#1083;&#1080; &#1074;&#1089;&#1105; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; &#1074;<b>&#1086;</b>&#1074;&#1088;&#1077;&#1084;&#1103;: mes enfants ont l'habitude de tout faire &#224; temps (ont pris l'habitude de...). Notez la chute du suffixe -&#1085;<b>&#1091;</b>&#1090;&#1100;.  		 			6 			Vous savez d&#233;j&#224; que les verbes de mouvement se r&#233;partissent en deux groupes (voir le&#231;on 33, note 5).<br /> 			Les verbes d&#233;termin&#233;s indiquent que le mouvement se fait dans une direction unique, alors que les verbes ind&#233;termin&#233;s indiquent un mouvement sans direction pr&#233;cise ou &#224; directions multiples ou encore un mouvement avec aller et retour. &#1050;&#1091;&#1076;<b>&#1072;</b> &#1090;&#1099; &#1080;&#1076;&#1105;&#1096;&#1100;? - &#1071; &#1080;&#1076;&#1091; &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1091;. O&#249; vas-tu ? - Je vais &#224; la biblioth&#232;que (direction unique : d&#233;termin&#233;) ; &#1050;&#1091;&#1076;<b>&#1072;</b> &#1090;&#1099; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083;? - &#1071; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1091;. O&#249; es-tu all&#233; ? - Je suis all&#233; &#224; la biblioth&#232;que (aller-retour : ind&#233;termin&#233;).<br /> 			Rappelez-vous que les verbes de ces deux groupes sont imperfectifs.<br /> 			Comment obtient-on le perfectif? Il suffit d'ajouter un pr&#233;verbe aux verbes de type d&#233;termin&#233;. Par contre, si vous ajoutez un pr&#233;verbe aux verbes de type ind&#233;termin&#233;, ils restent imperfectifs... enfin presque toujours !<br /> 			En effet, si vous ajoutez, par exemple, le pr&#233;verbe &#1087;&#1086;- aux verbes ind&#233;termin&#233;s, vous obtenez un verbe perfectif, &#1087;&#1086;- servant &#224; exprimer l'id&#233;e de "un peu". &#1054;&#1085; &#1087;&#1086;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1074; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1077; : il a march&#233; un peu dans la pi&#232;ce.<br /> 			Quelques exemples seront plus parlants qu'une longue explication ! Prenons le verbe &#1080;&#1076;&#1090;<b>&#1080;</b> (d&#233;termin&#233;) : aller. Associons-lui le pr&#233;verbe &#1074;&#1099;- qui indique l'id&#233;e de sortir. Souvenez-vous, le pr&#233;verbe peut changer le sens d'un verbe.<br /> &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1103; &#1074;<b>&#1099;</b>&#1081;&#1076;&#1091; &#1087;&#1086;&#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077; : aujourd'hui, je sortirai un peu plus t&#244;t ; &#1091;&#1090;&#1088;&#1086;&#1084; &#1103; &#1074;<b>&#1099;</b>&#1096;&#1077;&#1083; &#1087;&#1086;&#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077; : ce matin, je suis sorti un peu plus t&#244;t.<br /> 			Et maintenant, prenons un verbe de type ind&#233;termin&#233; : &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (aller).<br /> &#1103; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1099;&#1093;&#1086;&#1078;&#1091; &#1080;&#1079; &#1076;<b>&#1086;</b>&#1084;&#1072; &#1088;<b>&#1072;</b>&#1085;&#1086; : je sors toujours t&#244;t de la maison ; &#1103; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1099;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1080;&#1079; &#1076;<b>&#1086;</b>&#1084;&#1072; &#1088;<b>&#1072;</b>&#1085;&#1086; : je suis toujours sorti t&#244;t de la maison.  		 			7 			Le verbe &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1090;&#1100; (commencer), transitif et intransitif, peut &#234;tre pronominal ("se commencer"). Il s'emploie alors sans compl&#233;ment d'objet direct et &#224; la 3e personne du singulier. L'infinitif sera donc &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;. Comparez :<br /> &#1047;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1103; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1102; &#1085;<b>&#1086;</b>&#1074;&#1091;&#1102; &#1078;&#1080;&#1079;&#1085;&#1100; : demain, je commence une nouvelle vie et : &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103; &#1085;<b>&#1086;</b>&#1074;&#1072;&#1103; &#1078;&#1080;&#1079;&#1085;&#1100; : demain commence une nouvelle vie (demain se commence une nouvelle vie).<br /> 			Le verbe &#1087;&#1086;&#1076;&#1085;<b>&#1103;</b>&#1090;&#1100; (lever) a &#233;galement une forme pronominale : &#1087;&#1086;&#1076;&#1085;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; (se lever) (voir phrase 9) : &#1059;&#1090;&#1088;&#1086;&#1084; &#1078;&#1077;&#1085;<b>&#1072;</b> &#1085;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1085;&#1072;&#1089; &#1087;&#1086;&#1076;&#1085;<b>&#1103;</b>&#1090;&#1100; : le matin, ma femme ne peut pas nous faire lever ; &#1091;&#1090;&#1088;&#1086;&#1084; &#1084;&#1099; &#1085;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1084; &#1087;&#1086;&#1076;&#1085;<b>&#1103;</b>&#1090;&#1100;&#1089;&#1103; : le matin, nous ne pouvons pas nous lever.  	 	 		<p>Remarquez, dans l'exercice de traduction ci-dessous, que le pronom personnel peut &#234;tre plac&#233; soit devant le verbe (phrase 1), soit apr&#232;s (phrase 2), soit encore &#234;tre omis (phrase 3). </p> 	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

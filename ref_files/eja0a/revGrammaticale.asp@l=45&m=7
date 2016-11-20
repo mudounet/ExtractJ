@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Vous l'aurez compris, l'hiver tient une grande place dans l&#1072; vie des Russes. Le th&#232;me de l'hiver revient souvent dans leurs conversations et leurs occupations. Dans cette le&#231;on, nous nous sommes inspir&#233;s d'extraits de l'oeuvre de deux &#233;crivains russes du d&#233;but du si&#232;cle encore tr&#232;s c&#233;l&#232;bres aujourd'hui pour leur humour : llya Ilf et Evgu&#233;ni Petrov. Les deux romans qui les ont rendus c&#233;l&#232;bres sont "Les Douze Chaises" et "Le Veau d'or".</i> 		</p> 	<h3>
+		&#1057;&#1086;&#1073;&#1072;&#1095;&#1080;&#1081; &#1093;&#1086;&#1083;&#1086;&#1076; 
+		
+			1
+		Un froid de canard (un froid de chien)</h3> 	 		 			1 			- &#1053;&#1072;&#1089;&#1090;&#1091;&#1087;<b>&#1080;</b>&#1083; &#1090;&#1072;&#1082; &#1085;&#1072;&#1079;&#1099;&#1074;<b>&#1072;</b>&#1077;&#1084;&#1099;&#1081; "&#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1080;&#1081; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;". &#1053;&#1072; &#1091;&#1083;&#1080;&#1094;&#1072;&#1093; &#1084;&#1086;&#1089;&#1082;&#1074;&#1080;&#1095;<b>&#1080;</b> &#1082;&#1088;&#1080;&#1095;<b>&#1072;</b>&#1090; &#1076;&#1088;<b>&#1091;</b>&#1075; &#1076;&#1088;<b>&#1091;</b>&#1075;&#1091;: 			 				2 			"Un froid de canard", comme on dit, est arriv&#233; (est arriv&#233;, ainsi appel&#233; un froid de chien). Dans les rues, les Moscovites s'interpellent (crient l'un &#224; l'autre) :  		 			2 			- &#1055;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;, &#1082;&#1072;&#1082; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;! 			 			Ce froid est tout simplement &#233;tonnant (c'est simplement &#233;tonnant, comme il fait froid) !  		 			3 			- &#1063;&#1090;&#1086; &#1078;&#1077; &#1090;<b>&#1091;</b>&#1090; &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086;? &#1041;&#1102;&#1088;<b>&#1086;</b> &#1087;&#1088;&#1086;&#1075;&#1085;<b>&#1086;</b>&#1079;&#1086;&#1074; &#1089;&#1086;&#1086;&#1073;&#1097;<b>&#1072;</b>&#1077;&#1090;, &#1095;&#1090;&#1086; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; &#1093;&#1086;&#1083;<b>&#1086;</b>&#1076;&#1085;&#1099;&#1081; &#1074;<b>&#1086;</b>&#1079;&#1076;&#1091;&#1093; &#1089; &#1041;<b>&#1072;</b>&#1088;&#1077;&#1085;&#1094;&#1077;&#1074;&#1072; &#1084;<b>&#1086;</b>&#1088;&#1103;. 			 				3 			Qu'y a-t-il donc d'&#233;tonnant &#224; cela (qu'y a-t-il donc ici d'&#233;tonnant) ? La m&#233;t&#233;o annonce qu'un air froid est arriv&#233; de la mer de Barentz (Le bureau des pr&#233;visions communique qu'est venu un air froid de la mer de Barentz).  		 			4 			- &#1042;&#1086;&#1090; &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086;, &#1095;&#1090;&#1086; &#1086;&#1073;&#1098;&#1103;&#1089;&#1085;<b>&#1080;</b>&#1083;&#1080;, &#1072; &#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1083;, &#1095;&#1090;&#1086; &#1082; &#1085;&#1072;&#1084; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; &#1075;&#1086;&#1088;<b>&#1103;</b>&#1095;&#1080;&#1081; &#1072;&#1088;&#1072;&#1074;<b>&#1080;</b>&#1081;&#1089;&#1082;&#1080;&#1081; &#1074;<b>&#1086;</b>&#1079;&#1076;&#1091;&#1093;, &#1080; &#1087;&#1086;<b>&#1079;</b>&#1090;&#1086;&#1084;&#1091; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;. 			 			Merci pour vos explications (Merci que vous ayez expliqu&#233;), mais je pensais que c'&#233;tait un air chaud d'Arabie qui &#233;tait arriv&#233;, et que c'&#233;tait pour cela qu'il commen&#231;ait &#224; faire froid (je pensais que chez nous &#233;tait arriv&#233; un air chaud d'Arabie, et c'est pourquoi il s'&#233;tait mis &#224; faire froid).  		 			5 			- &#1042;&#1086;&#1090; &#1074;&#1099; &#1089;&#1084;&#1077;&#1105;&#1090;&#1077;&#1089;&#1100;, &#1072; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1077;&#1097;&#1105; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077;. 			 				4 			Voil&#224;, vous vous moquez, mais demain il fera encore plus froid.  		 			6 			- &#1053;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1077;&#1090; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1073;&#1099;&#1090;&#1100;. - &#1059;&#1074;&#1077;&#1088;<b>&#1103;</b>&#1102; &#1074;&#1072;&#1089;, &#1095;&#1090;&#1086; &#1086;&#1073;&#1103;&#1079;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;. 			 			Impossible (Cela ne peut &#234;tre). - Je vous assure que si (Je vous assure que, obligatoirement, cela sera).  		 			7 			- &#1048;&#1079;&#1074;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1086;, &#1095;&#1090;&#1086; &#1074;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1093; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1086;&#1074; &#1083;<b>&#1102;</b>&#1076;&#1080; &#1085;&#1072;&#1095;&#1080;&#1085;<b>&#1072;</b>&#1102;&#1090; &#1073;&#1077;&#1089;&#1087;&#1088;&#1080;&#1095;<b>&#1080;</b>&#1085;&#1085;&#1086; &#1074;&#1088;&#1072;&#1090;&#1100;. &#1042;&#1088;<b>&#1091;</b>&#1090; &#1076;<b>&#1072;</b>&#1078;&#1077; &#1089;<b>&#1072;</b>&#1084;&#1099;&#1077; &#1095;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1077; &#1080; &#1087;&#1088;&#1072;&#1074;&#1076;<b>&#1080;</b>&#1074;&#1099;&#1077; &#1083;<b>&#1102;</b>&#1076;&#1080;. &#1063;&#1077;&#1084; &#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1099;, &#1090;&#1077;&#1084; &#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; &#1074;&#1088;<b>&#1091;</b>&#1090;. 			 				5 			Il est connu que dans les moments de froid rigoureux les gens commencent &#224; mentir sans raison. M&#234;me les gens les plus honn&#234;tes et les plus dignes de foi mentent (Mentent m&#234;me les plus honn&#234;tes et dignes de foi gens). Plus fort est le froid, plus les gens mentent (fort).  		 			8 			- &#1053;&#1072;&#1087;&#1088;&#1080;&#1084;<b>&#1077;</b>&#1088;, &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; &#1087;&#1088;&#1080;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1075;<b>&#1086;</b>&#1089;&#1090;&#1080;, &#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1088;&#1072;&#1079;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1077;&#1090;&#1089;&#1103;, &#1074;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1091; &#1080; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084; &#1086;&#1073;&#1098;&#1103;&#1074;&#1083;<b>&#1103;</b>&#1077;&#1090;: "&#1055;&#1103;&#1090;&#1100;&#1076;&#1077;&#1089;<b>&#1103;</b>&#1090; &#1076;&#1074;&#1072; &#1087;&#1086; &#1056;&#1077;&#1086;&#1084;<b>&#1102;</b>&#1088;&#1091;." 			 				6 			Par exemple, un homme arrive chez ses h&#244;tes, se d&#233;barrasse lentement (longuement) de son manteau, entre dans la pi&#232;ce et annonce avec satisfaction : moins cinquante-deux degr&#233;s (d'apr&#232;s) R&#233;aumur.  		 			9 			- &#1061;&#1086;&#1079;<b>&#1103;</b>&#1080;&#1085;, &#1082;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1093;<b>&#1086;</b>&#1095;&#1077;&#1090; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100;: "&#1063;&#1090;&#1086; &#1078;&#1077; &#1090;&#1099; &#1074; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1096;&#1100; &#1074; &#1075;<b>&#1086;</b>&#1089;&#1090;&#1080;? &#1042; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1076;<b>&#1086;</b>&#1084;&#1072;." <i>(&#1055;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1089;&#1083;<b>&#1077;</b>&#1076;&#1091;&#1077;&#1090;)</i> 			 				7 			L'h&#244;te, bien s&#251;r, a envie de dire (veut dire) : "Pourquoi viens-tu chez les gens avec un froid pareil (Pourquoi donc dans un tel froid tu viens en visite) ? Par un froid comme &#231;a, il faut rester chez soi (rester assis &#224; la maison)." <i>A suivre (La suite suit)</i> 		 			 				<b>3 </b> 				&#1063;&#1090;&#1086; &#1078;&#1077; &#1090;<b>&#1091;</b>&#1090; &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086;? : qu'y a-t-il d'&#233;tonnant &#224; cela ? N'oubliez pas de prononcer "v" le &#1075; de &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; : oudiv<b>i</b>til'nava.  			 				<b>4 </b> 				Nous vous rappelons que lorsqu'un mot compos&#233; est form&#233; d'un pr&#233;verbe termin&#233; par une consonne et d'un autre mot commen&#231;ant par &#1103;, &#1077;, &#1105; ou &#1102;, ces deux &#233;l&#233;ments sont s&#233;par&#233;s par le signe dur &#1098;, &#1042;&#1099; &#1086;&#1073;&#1098;&#1103;&#1089;&#1085;<b>&#1080;</b>&#1083;&#1080; (vous avez expliqu&#233;) : vy ab-iasn<b>i</b>li.  			 				<b>7 </b> 				Dans l'adjectif &#1095;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1077; (honn&#234;tes), le &#1090; ne se prononce pas : tch<b>ie</b>snye.  	 		 			1 			L'adjectif &#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1080;&#1081; (de chien) vient du mot &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072; (chien) et s'emploie dans des expressions comme &#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1100;&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; (un temps de chien), &#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1100;&#1103; &#1078;&#1080;&#1079;&#1085;&#1100; (une vie de chien), &#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1080;&#1081; &#1093;&#1072;&#1088;<b>&#1072;</b>&#1082;&#1090;&#1077;&#1088; (un caract&#232;re de chien). C'est un adjectif d'appartenance. Notez le signe &#1100; aux autres formes que le nominatif / accusatif masculins.  		 			2 			Le verbe &#1085;&#1072;&#1089;&#1090;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1100; (arriver, commencer) s'emploie pour exprimer l'arriv&#233;e d'une saison, un changement dans la nature.<br /> &#1053;&#1072;&#1089;&#1090;&#1091;&#1087;<b>&#1080;</b>&#1083; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088; : le soir est tomb&#233; ; &#1085;&#1072;&#1089;&#1090;&#1091;&#1087;<b>&#1080;</b>&#1083;&#1072; &#1074;&#1077;&#1089;&#1085;<b>&#1072;</b> : le printemps est arriv&#233; ; &#1085;&#1072;&#1089;&#1090;&#1091;&#1087;<b>&#1080;</b>&#1083;&#1080; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1077; &#1076;&#1085;&#1080; : les beaux jours sont arriv&#233;s.<br /> " Le pr&#233;positionnel pluriel des noms est facile &#224; retenir. Pour les trois genres, il a la m&#234;me terminaison en -ax pour les noms &#224; terminaison dure et en -&#1103;&#1093; pour les noms &#224; terminaison mouill&#233;e. 	<table class="centre"> 				<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">Au masculin : </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre">&#1075;&#1086;&#1088;&#1086;&#1076;<b>&#1072;</b> : les villes  </td> 							<td class="centre">&#1074; &#1075;&#1086;&#1088;&#1086;&#1076;<b>&#1072;</b>&#1093; : dans les villes </td></tr> 						<tr class="centre"> 							<td class="centre">&#1089;&#1090;&#1086;&#1083;<b>&#1099;</b> : les tables  </td> 							<td class="centre">&#1085;&#1072; &#1089;&#1090;&#1086;&#1083;<b>&#1072;</b>&#1093; : sur les tables </td></tr> 						<tr class="centre"> 							<td class="centre">&#1089;&#1083;&#1086;&#1074;&#1072;&#1088;<b>&#1080;</b> : les dictionnaires  </td> 							<td class="centre">&#1074; &#1089;&#1083;&#1086;&#1074;&#1072;&#1088;<b>&#1103;</b>&#1093; : dans les dictionnaires </td></tr> 						<tr class="centre"> 							<td class="centre">Au f&#233;minin : </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre">&#1091;&#1083;&#1080;&#1094;&#1099; : les rues  </td> 							<td class="centre">&#1085;&#1072; &#1091;&#1083;&#1080;&#1094;&#1072;&#1093; : dans les rues </td></tr></tbody></table> 				<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1099; : les journaux  </td> 							<td class="centre">&#1074; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1072;&#1093; : dans les journaux </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1077;&#1090;&#1088;<b>&#1072;</b>&#1076;&#1080; : les cahiers  </td> 							<td class="centre">&#1074; &#1090;&#1077;&#1090;&#1088;<b>&#1072;</b>&#1076;&#1103;&#1093; : dans les cahiers </td></tr> 						<tr class="centre"> 							<td class="centre">Au neutre : </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre"><b>&#1086;</b>&#1082;&#1085;&#1072; : les fen&#234;tres  </td> 							<td class="centre">&#1074; <b>&#1086;</b>&#1082;&#1085;&#1072;&#1093; : aux fen&#234;tres </td></tr> 						<tr class="centre"> 							<td class="centre">&#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103; : les b&#226;timents  </td> 							<td class="centre">&#1074; &#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103;&#1093; : dans les b&#226;timents </td></tr></tbody></table> 					<br />Quant aux mots d'origine &#233;trang&#232;re, ils sont invariables ! Seul le contexte nous indique qu'ils sont au pluriel : &#1082;&#1080;&#1085;<b>&#1086;</b> (cin&#233;ma), &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b> (dans les cin&#233;mas ou au cin&#233;ma) ; &#1074; &#1082;&#1072;&#1092;<b>&#1077;</b> (au caf&#233; ou dans les caf&#233;s).  		 			3 			&#1063;&#1090;&#1086; &#1078;&#1077; &#1079;&#1076;&#1077;&#1089;&#1100; &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086;? Qu'y a-t'il &#224; cela d'&#233;tonnant ? On retrouve cette construction avec un adjectif au g&#233;nitif dans l'expression : &#1079;&#1076;&#1077;&#1089;&#1100; &#1085;&#1077;&#1090; &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1091;&#1076;&#1080;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; : il n'y a rien d'&#233;tonnant &#224; cela (ici).  		 			4 			A &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; : et demain, il fera encore plus froid. Vous l'aurez compris, &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; est le comparatif de l'adverbe &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;. &#1059;&#1090;&#1088;&#1086;&#1084; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b>, &#1072; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1077;&#1097;&#1105; &#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; : ce matin, il faisait chaud et maintenant il fait encore plus chaud.  		 			5 			L'adjectif &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1081; (fort, puissant) est souvent utilis&#233; pour parler des ph&#233;nom&#232;nes naturels (vent, froid, etc.). On parlera ainsi de &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1081; &#1074;<b>&#1077;</b>&#1090;&#1077;&#1088; (un vent fort); &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099; &#1081; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076; (un froid rigoureux) ; &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1099;&#1081; &#1076;&#1086;&#1078;&#1076;&#1100; (une forte pluie).<br /> &#1063;&#1077;&#1084; &#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; &#1084;&#1086;&#1088;<b>&#1086;</b>&#1079;&#1099;, &#1090;&#1077;&#1084; &#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; &#1074;&#1088;<b>&#1091;</b>&#1090; : plus le vent est fort, plus les gens mentent (fort).<br /> La construction &#1095;&#1077;&#1084; + comparatif, &#1090;&#1077;&#1084; + comparatif est l'&#233;quivalent de la construction "plus... plus..." &#1063;&#1077;&#1084; &#1089;<b>&#1080;</b>&#1083;&#1100;&#1085;&#1077;&#1077; &#1074;<b>&#1077;</b>&#1090;&#1077;&#1088;, &#1090;&#1077;&#1084; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; : plus le vent est fort, plus il fait froid.<br /> &#1050;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; est le comparatif de l'adjectif &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1080;&#1081; : fort (au f&#233;minin &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1072;&#1103;, au neutre &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1086;&#1077; et au pluriel &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1080;&#1077;). Nous reviendrons tr&#232;s bient&#244;t sur le comparatif.  		 			6 			Le verbe &#1088;&#1072;&#1079;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (se d&#233;shabiller) se conjugue comme son contraire &#1086;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; ; s'habiller (voir le&#231;on 29, note 7). De m&#234;me, &#1074;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (entrer) se conjugue comme &#1074;&#1099;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (sortir) (voir le&#231;on 42, note 2).  		 			7 			Le verbe &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; (&#234;tre assis) a parfois des emplois bien particuliers. Par exemple, pour dire "ne rien faire", vous direz &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1073;&#1077;&#1079; &#1076;<b>&#1077;</b>&#1083;&#1072; : mot &#224; mot "&#234;tre assis sans affaire". &#1057;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1073;&#1077;&#1079; &#1076;<b>&#1077;</b>&#1085;&#1077;&#1075; ("&#234;tre assis sans argent") signifie "n'avoir pas d'argent". Et si vous voulez simplement dire "rester &#224; la maison", vous direz : &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1076;<b>&#1086;</b>&#1084;&#1072; ("&#234;tre assis &#224; la maison").<br /> Voyons sa conjugaison : 				<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1089;&#1080;&#1078;<b>&#1091;</b></td> 							<td class="centre">&#1084;&#1099; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1084;</td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1096;&#1100;</td> 							<td class="centre">&#1074;&#1099; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090;&#1077;</td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090;</td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1089;&#1080;&#1076;<b>&#1103;</b>&#1090;</td></tr></tbody></table> 			<br />Bien s&#251;r, vous l'avez reconnu, c'est un verbe du second type (&#1090;&#1099; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1096;&#1100;). Quelques exemples vous aideront &#224; le m&#233;moriser : &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;, &#1080; &#1084;&#1099; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1084; &#1076;<b>&#1086;</b>&#1084;&#1072; : aujourd'hui, il fait froid et nous restons &#224; la maison ; &#1086;&#1085; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090; &#1073;&#1077;&#1079; &#1076;<b>&#1077;</b>&#1083;&#1072; : il ne reste jamais sans rien faire ; &#1086;&#1085; &#1085;&#1077; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090; &#1080; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090; &#1073;&#1077;&#1079; &#1076;<b>&#1077;</b>&#1085;&#1077;&#1075; : il ne travaille pas et n'a pas d'argent. On peut dire aussi : &#1054;&#1085; &#1075;&#1086;&#1076; &#1089;&#1080;&#1076;<b>&#1077;</b>&#1083; &#1074; &#1090;&#1102;&#1088;&#1100;&#1084;<b>&#1077;</b> : il est rest&#233; une ann&#233;e en prison.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

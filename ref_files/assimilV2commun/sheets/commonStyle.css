@@ -1,0 +1,189 @@
+/* div principale */
+
+body{
+	border : 0px;
+	margin : 0px;
+	background-color : #E0E6D7;
+	font-family : Arial;
+	text-align : center;
+	/*
+	scrollbar-3dlight-color : #666633;
+	scrollbar-highlight-color : #98987A;
+	scrollbar-darkshadow-color : #669966;
+	scrollbar-shadow-color : #330000;
+	scrollbar-face-color : #E0E6D7;
+	scrollbar-arrow-color :#98987A;
+	scrollbar-track-color : #E0E6D7;
+	*/
+	}
+img{border:none; border-width : 0;}
+
+div#conteneur {
+
+     margin-left: auto;
+     margin-right: auto;
+     position:absolute;
+     left: 50%; 
+     top: 50%;
+     width: 760px;
+     height: 500px;
+     margin-top: -250px;
+     margin-left: -380px;
+
+ 	background-repeat:no-repeat;
+	z-index:1;
+	
+	}
+	
+
+/* menu navigation */
+div#menubas{
+	display:block;
+	position:absolute;
+	top:450px;
+	left:198px;
+	z-index:10;
+	}
+span#btHelp{
+	position:absolute;
+	left:0px;
+	width:30px;
+	height:30px;
+	z-index:11;
+
+	}
+span#btTools{
+	position:absolute;
+	
+	left:48px;
+	width:30px;
+	height:30px;
+	z-index:11;
+	}
+span#btReload{
+	position:absolute;
+	
+	left:97px;
+	width:30px;
+	height:30px;
+	z-index:11;
+	}
+span#btHome{
+	position:absolute;
+	
+	left:146px;
+	width:30px;
+	height:30px;
+	z-index:11;
+	}
+span#btPrev{
+	position:absolute;
+	
+	left:389px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+	
+span#btRetour{
+	position:absolute;
+	
+	left:454px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+
+span#btOk{
+	position:absolute;
+	
+	left:458px;
+	width:26px;
+	height:30px;
+	z-index:11
+	}
+
+span#btNext{
+	position:absolute;
+	
+	left:492px;
+	width:30px;
+	height:30px;
+	z-index:11;
+	}
+span#affNum{
+	position:absolute;
+	top:5px;
+	left:432px;
+	width:30px;
+	height:30px;
+	z-index:2;
+	}	
+input#numlec{
+	background-color : transparent;
+	text-align:right;
+	padding-right:3px;
+	border:none;
+	font-weight:bold;color:#39392E;
+	width:18px;
+	z-index:2;
+}
+span#affLecon{
+	position:absolute;
+	top:5px;
+	left:260px;
+	width:120px;
+	height:15px;
+	color:#AD230C;
+	font-size:12px;
+	font-weight:bold;
+	z-index:11;
+}
+
+.textLangue{
+	color : #39392E;
+	font-size : 14px;
+	text-align : left;
+}
+.textTrad{
+	
+	color : #AD230C;
+	font-size : 14px;
+	text-align : left;
+}
+.textPron{
+	color : #72725C;
+	font-size : 12px;
+	text-align : left;
+}
+div#divAide{
+	position:absolute;
+	display:none;
+	top:10px;
+	left:10px;
+	width:321px;
+	height:293px;
+	background-image: url('../images/aide/aide.gif');
+	z-index:19
+}
+span#fermerAide{
+	position:absolute;
+	left:300px;
+	top:10px;
+	width:15px;
+	height:20px;
+	z-index:15;
+}
+
+div#innerAide{
+	position:absolute;
+	top:45px;
+	left:17px;
+	width:290px;
+	height:240px;
+	overflow:auto;
+	background-color:#FFFFFF;
+	z-index:20;
+	font-size:12px;
+	text-align:left;
+}

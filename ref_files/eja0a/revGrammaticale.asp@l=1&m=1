@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Les dialogues de cette le&#231;on sont, tout comme ceux des le&#231;ons suivantes, emprunt&#233;s &#224; la vie quotidienne russe. Laissez</i>-<i>vous impr&#233;gner par leur rythme et leur m&#233;lodie. Exercez</i>-<i>vous ensuite &#224; les r&#233;p&#233;ter de mani&#232;re aussi exacte que possible. Cette excellente technique de m&#233;morisation vous permettra en outre d'acqu&#233;rir l'accent un peu chantant des Moscovites.</i> </p> 	<h3>
+		&#1044;&#1086;&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;!
+		Dobry&#239; di&#233;n'!
+		Bonjour! 		</h3> 	 		 			1 			- &#1044;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;! 			D<b>o</b>bry&#239; di<b>&#233;</b>n'!  			 				1 			Bonjour (Bon jour) !  		 			2 			- &#1044;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;! 			D<b>o</b>bry&#239; di<b>&#233;</b>n'!  			 			Bonjour!  		 			3 			- &#1050;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b>? 			Kak dil<b>a</b>?  			 				2 			Comment &#231;a va (Comment [vont les] affaires) ?  		 			4 			- &#1061;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>. 			Harach<b>o</b>.  			 			Bien.  		 			5 			- &#1042;&#1099; &#1082;<b>&#1091;</b>&#1076;<b>&#1072;</b>? 			Vy koud<b>a</b>?  			 				3 			O&#249; [allez]-vous?  		 			6 			- &#1071; - &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. &#1040; &#1074;&#1099; - &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;? 			Ia dom<b>o</b>&#239;. A vy dom<b>o</b>&#239;?  			 				4 			Je [vais &#224; la] maison. Vous aussi (Et vous maison) ?  		 			7 			- &#1053;&#1077;&#1090;, &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;. 			Niet,f ti<b>a</b>tr.  			 				5 			Non, [nous allons] au th&#233;&#226;tre.  		 			8 			- &#1040; &#1074; &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081;? 			A f kak<b>o</b>&#239;?  			 				6 			Et lequel?  		 			9 			- &#1052;&#1099; - &#1074; &#1041;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1081;. 			My V Bal'ch<b>o</b>&#239;.  			 				7 			Nous [allons] au Bolcho&#239;.  		 			10 			- &#1044;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103;. 			Da svid<b>a</b>niia.  			 			Au revoir (Jusqu'au rendez-vous).  		 			11 			- &#1044;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1103;. 			Da svid<b>a</b>niia.  			 			Au revoir.  		 			 				(num&#233;ros des phrases correspondantes) <br /><b>3 </b>e non accentu&#233; se prononce comme un "i" bref: &#1082;a&#1082;  &#1076;&#1077;&#1083;<b>&#1072;</b>? (kak dil<b>a</b> ?).  			 				<b>4-6</b> 				 o non accentu&#233; se prononce comme un "a" tr&#232;s bref: &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> (harach<b>o</b>) - &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081; (dam<b>o</b>&#239;).  			 				<b>7-8-9</b> 				 				Les consonnes s&#1086;n&#1086;&#1075;es &#1076; (d), &#1075; (g), &#1074; (v), &#1079; (z) deviennent sourdes en fin de mot et lorsqu'elles sont plac&#233;es devant une consonne sourde. Le &#1076; se prononce alors "t", le &#1075; "k", le &#1074; "f", le &#1079; "s" : &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; (f ti<b>a</b>tr) - &#1048;&#1074;<b>&#1072;</b>&#1085;&#1086;&#1074; (Iv<b>a</b>nof).  	 		 			1 			&#1044;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;! est la formule employ&#233;e pour saluer quelqu'un. Les Russes se serrent la main aux m&#234;mes occasions qu'en France.  		 			2 			&#1050;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b>! litt&#233;ralement "Comment vont les affaires?", est l'&#233;quivalent de "Comment &#231;a va ?" et n'est plus du tout employ&#233; dans son sens premier. Le singulier de &#1076;&#1077;&#1083;<b>&#1072;</b> est &#1076;&#233;&#1083;&#1086;. Le pluriel des noms se fait g&#233;n&#233;ralement avec la terminaison -&#1080; (ou -&#1099;) et -a (ou -&#1103;). Notez &#233;galement qu'il n'existe pas d'articles en russe.  		 			3 			&#1042;&#1099; &#1082;&#1091;&#1076;<b>&#1072;</b>?, litt&#233;ralement "Vous o&#249; ?", donc "O&#249; allez-vous ?".<br />  			Ce premier dialogue vous permet d&#233;j&#224; de constater que, dans la conversation courante, des verbes au pr&#233;sent peuvent ne pas &#234;tre exprim&#233;s.<br />  			Relisez les phrases 3 et 5. Dans &#1082;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b>?, la conversation courante permet d'omettre le verbe "aller" (&#1080;&#1076;&#1090;<b>&#1080;</b>- itti) au pr&#233;sent. Cependant, dans une conversation plus "retenue", vous pouvez tout &#224; fait dire &#1050;&#1072;&#1082; &#1080;&#1076;<b>&#1091;</b>&#1090; &#1076;&#1077;&#1083;<b>&#1072;</b>? (Kak idout dila?) : Comment vont les affaires ? De m&#234;me, dans &#1042;&#1099; &#1082;&#1091;&#1076;<b>&#1072;</b>?, le verbe "aller" n'est pas exprim&#233;. Vous pouvez dire aussi &#1042;&#1099; &#1082;&#1091;&#1076;<b>&#1072;</b> &#1080;&#1076;&#1105;&#1090;&#1077;? (Vy kouda idioti?) : Vous o&#249; allez ? ou &#1050;&#1091;&#1076;<b>&#1072;</b> &#1074;&#1099; &#1080;&#1076;&#1105;&#1090;&#1077;? (Kouda vy idioti?) : O&#249; vous allez ? Les m&#234;mes remarques s'appliquent aux phrases 6, 7, 8 et 9.<br /> Comme vous le constatez, l'ordre des mots est relativement souple en russe. Les prochaines le&#231;ons vous le confirmeront.  		 			4 			&#1071; - &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. &#1040; &#1074;&#1099; - &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;? Ici encore, le verbe "aller" est omis. On pourrait dire aussi, mais de fa&#231;on moins expressive, &#1071; &#1080;&#1076;&#1091; &#1076;<b>&#1086;</b>&#1084;&#1086;&#1081;. &#1040; &#1074;&#1099; &#1080;&#1076;&#1105;&#1090;&#1077; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;? (Ia idou damo&#239;. A vy idioti damo&#239;?) : Je vais &#224; la maison. Et vous allez &#224; la maison ?<br />  			Dans notre dialogue, le verbe "aller" est remplac&#233; par un tiret. Mais soyez vigilant, car le tiret n'est pas obligatoire et on peut trouver la m&#234;me phrase &#233;crite &#1071; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. &#1040; (dans &#1072; &#1074;&#1099; &#1080;&#1076;&#1105;&#1090;&#1077; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;) peut se traduire &#224; la fois par "et" et "mais".  		 			5 			Avec la pr&#233;position &#1074;, vous pouvez exprimer la direction d'un mouvement. D'autres pr&#233;positions expriment cette notion. Nous les d&#233;couvrirons bient&#244;t. Au fait, pourquoi dit-on &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; - &#1074; &#1041;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1081; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; mais &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081; et non &#1074; &#1076;&#1086;&#1084;?<br /> L'expression &#1074; &#1076;&#1086;&#1084; s'utilise dans d'autres situations. Retenez aujourd'hui - &#224; chaque jour suffit sa peine ! - que la direction exprim&#233;e dans "aller &#224; la maison" se traduit par un seul mot : &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;.  		 			6 			A &#1074; &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081;? Dans cette phrase, on sous-entend le mot &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;. Remarquez la pr&#233;position &#1074; qui trouve ici sa place de fa&#231;on tr&#232;s logique. La phrase compl&#232;te serait : A &#1074; &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; &#1074;&#1099; &#1080;&#1076;&#1105;&#1090;&#1077;? (A f kako&#239; tiatr vy idioti?) : Et dans quel th&#233;&#226;tre allez-vous (vous allez) ? Formule pos&#233;e pour ceux qui ne sont pas press&#233;s... Les Russes ne sont pas ainsi ! La langue courante - celle que vous apprenez - en t&#233;moigne.  		 			7 			Vous connaissez d&#233;j&#224; trois pronoms personnels sujets : &#1103; (je), &#1084;&#1099; (nous) et &#1074;&#1099; (vous). &#1042;&#1099;, deuxi&#232;me personne du pluriel, sert &#233;galement pour la formule de politesse.<br />  			Savez-vous qu'avec ces pronoms vous pouvez d&#233;j&#224; entamer une conversation (courte, certes) ?<br />  			- &#1044;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;! &#1071; - &#1060;&#1088;&#1072;&#1085;&#1089;&#1091;<b>&#1072;</b>&#1079; (Dobry&#239; di&#233;n'! la - Fran&#231;oise) : Bonjour, je m'appelle Fran&#231;oise ; &#1040; &#1074;&#1099;? (A vy) : Et vous ?<br />  			- &#1040; &#1103; - &#1042;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1084;&#1080;&#1088;. &#1044;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100;! (A ia Vladimir. Dobry&#239; di&#233;n'!) : Et moi Vladimir. Bonjour!<br />  			Encore un exemple o&#249; le verbe est sous-entendu. Ainsi, vous pouvez d&#233;j&#224; vous exprimer au pr&#233;sent avec des verbes que vous ne connaissez pas. Avouez que c'est l&#224; un avantage !<br />  			Bol'cho&#239; signifie le Grand Th&#233;&#226;tre, c'est-&#224;-dire l'Op&#233;ra.  	 	 		 		<p><i>Et voici maintenant les exercices qui accompagneront toutes vos le&#231;ons. Vous allez voir comme vous vous en sortez bien.</i> </p> 		 
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

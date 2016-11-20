@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p>Les le&#231;ons de cette nouvelle s&#233;rie vont vous aider &#224; acqu&#233;rir le vocabulaire n&#233;cessaire &#224; tout voyage en Russie. Premi&#232;re &#233;tape : l'a&#233;roport. </p> 	<h3>
+		&#1044;&#1086;&#1073;&#1088;&#1086; &#1087;&#1086;&#1078;&#1072;&#1083;&#1086;&#1074;&#1072;&#1090;&#1100;!
+		
+			1
+		Bienvenue !
+		</h3> 	 		 			1 			- &#1044;&#1086;&#1073;&#1088;<b>&#1086;</b> &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1086;&#1074;&#1072;&#1090;&#1100; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>, &#1075;&#1086;&#1089;&#1087;&#1086;&#1076;<b>&#1080;</b>&#1085; &#1057;&#1084;&#1080;&#1090;, &#1085;&#1072;&#1082;&#1086;&#1085;<b>&#1077;</b>&#1094; &#1074;&#1099; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1080;. &#1050;&#1072;&#1082; &#1076;&#1086;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1080;? 			 				2 			Bienvenue &#224; Moscou, monsieur Smith, vous &#234;tes enfin arriv&#233;. Comment s'est pass&#233; votre voyage (Comment avez-vous vol&#233;) ?  		 			2 			- &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086;, &#1074;&#1089;&#1105; &#1074; &#1087;&#1086;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1077;. &#1055;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;, &#1073;<b>&#1099;</b>&#1083;&#1080; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1077; &#1087;&#1088;&#1080;&#1082;&#1083;&#1102;&#1095;<b>&#1077;</b>&#1085;&#1080;&#1103;. &#1055;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1074; &#1051;<b>&#1086;</b>&#1085;&#1076;&#1086;&#1085;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1085;&#1077;&#1083;&#1105;&#1090;&#1085;&#1072;&#1103;, &#1080; &#1084;&#1099; &#1074;<b>&#1099;</b>&#1083;&#1077;&#1090;&#1077;&#1083;&#1080; &#1089; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;&#1084;. 			 				3 			Tr&#232;s bien merci (Merci, tout est en ordre). Il est vrai qu'il y a eu quelques petites aventures. &#192; Londres, le temps &#233;tait mauvais (pas favorable au vol) et nous sommes partis avec [du] retard.  		 			3 			- &#1053;&#1086; &#1074;&#1099; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1083;&#1080; &#1074;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1072; &#1095;&#1072;&#1089;. 			 				4 			Mais vous n'avez qu'une heure de retard (Vous &#234;tes en retard en tout d'une heure).  		 			4 			- &#1053;&#1072; &#1094;<b>&#1077;</b>&#1083;&#1099;&#1081; &#1095;&#1072;&#1089;, &#1075;&#1086;&#1089;&#1087;&#1086;&#1076;<b>&#1080;</b>&#1085; &#1043;&#1088;&#1080;&#1075;<b>&#1086;</b>&#1088;&#1100;&#1077;&#1074;. &#1071; &#1089;&#1086;&#1073;&#1080;&#1088;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1090;&#1100; &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076;, &#1085;&#1086; &#1074;<b>&#1080;</b>&#1079;&#1072; &#1085;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1072;. 			 				5 			(D') une heure enti&#232;re, monsieur Grigoriev. Je voulais arriver avant (Je me pr&#233;parais &#224; arriver quelques jours avant), mais mon visa n'&#233;tait pas pr&#234;t.  		 			5 			- &#1055;&#1088;&#1080;&#1075;&#1083;&#1072;&#1096;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1084;&#1099; &#1087;&#1086;&#1089;&#1083;<b>&#1072;</b>&#1083;&#1080; &#1074;<b>&#1086;</b>&#1074;&#1088;&#1077;&#1084;&#1103; &#1085;&#1072; &#1074;&#1072;&#1096; &#1092;&#1072;&#1082;&#1089;. 			 			Nous vous avons fax&#233; l'invitation &#224; temps (Nous avons envoy&#233; l'invitation &#224; temps sur votre fax).  		 			6 			- &#1050;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1075;&#1086;&#1089;&#1087;&#1086;&#1076;<b>&#1080;</b>&#1085; &#1043;&#1088;&#1080;&#1075;<b>&#1086;</b>&#1088;&#1100;&#1077;&#1074;, &#1086;&#1075;&#1088;<b>&#1086;</b>&#1084;&#1085;&#1086;&#1077; &#1074;&#1072;&#1084; &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1087;&#1088;&#1080;&#1075;&#1083;&#1072;&#1096;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1080; &#1079;&#1072; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1087;&#1088;&#1080;&#1085;<b>&#1103;</b>&#1090;&#1100; &#1091;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1080;&#1077; &#1074; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1084; &#1082;&#1086;&#1085;&#1075;&#1088;<b>&#1077;</b>&#1089;&#1089;&#1077;. 			 				6 			&#192; ce propos, monsieur Grigoriev, merci beaucoup pour l'invitation et pour la proposition de participer (prendre part) &#224; votre congr&#232;s.  		 			7 			- &#1053;&#1091; &#1095;&#1090;<b>&#1086;</b> &#1074;&#1099;! &#1042;<b>&#1072;</b>&#1096;&#1077; &#1091;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1080;&#1077; &#1074; &#1085;&#1105;&#1084; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1072;</b>&#1103; &#1095;&#1077;&#1089;&#1090;&#1100; &#1076;&#1083;&#1103; &#1085;&#1072;&#1089;. &#1040; &#1075;&#1076;&#1077;, &#1084;<b>&#1077;</b>&#1078;&#1076;&#1091; &#1087;&#1088;<b>&#1086;</b>&#1095;&#1080;&#1084;, &#1074;<b>&#1072;</b>&#1096;&#1080; &#1074;<b>&#1077;</b>&#1097;&#1080;? 			 				7 			Mais voyons ! Votre pr&#233;sence (participation) est un grand honneur pour nous. &#192; propos, o&#249; sont vos affaires ?  		 			8 			- &#1040; &#1074;&#1086;&#1090; &#1095;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085; &#1080; <b>&#1079;</b>&#1090;&#1072; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1072;</b>&#1103; &#1089;<b>&#1091;</b>&#1084;&#1082;&#1072;. &#1048; &#1077;&#1097;&#1105; &#1087;&#1086;&#1088;&#1090;&#1092;<b>&#1077;</b>&#1083;&#1100;, &#1079;&#1076;&#1077;&#1089;&#1100; &#1074;&#1089;&#1077; &#1084;&#1086;&#1080; &#1073;&#1091;&#1084;<b>&#1072;</b>&#1075;&#1080;. 			 			Voil&#224; ma valise et ce grand sac. Et puis ma serviette o&#249; il y a tous mes papiers (et encore ma serviette, ici tous mes papiers).  		 			9 			- &#1050;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1074;&#1072;&#1096; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; &#1085;&#1072; &#1090;&#1077;&#1083;<b>&#1077;</b>&#1078;&#1082;&#1091;. &#1052;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1072; &#1085;&#1072;&#1089; &#1078;&#1076;&#1105;&#1090; &#1091; &#1074;&#1093;<b>&#1086;</b>&#1076;&#1072;. 			 				8 			Posez vos bagages sur le chariot. Une voiture nous attend &#224; l'entr&#233;e.  		 			10 			- &#1071; &#1088;&#1072;&#1076;, &#1095;&#1090;&#1086; &#1103; &#1089;&#1085;<b>&#1086;</b>&#1074;&#1072; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b>.&#1071; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b> <b>&#1079;</b>&#1090;&#1086;&#1090; &#1075;<b>&#1086;</b>&#1088;&#1086;&#1076;. 			 			Je suis content d'&#234;tre &#224; nouveau &#224; Moscou. J'aime cette ville.  		 			11 			- &#1052;&#1085;&#1077;, &#1084;&#1086;&#1089;&#1082;&#1074;<b>&#1080;</b>&#1095;&#1091;, <b>&#1079;</b>&#1090;&#1086; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1090;&#1100; &#1074;&#1076;&#1074;&#1086;&#1081;&#1085;<b>&#1077;</b> &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086;. 			 			En tant que Moscovite, je suis doublement content d'entendre cela (A moi, Moscovite, entendre cela est doublement plus agr&#233;able).  		 			12 			- &#1042;&#1099; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1080;, &#1087;&#1086; &#1088;<b>&#1072;</b>&#1076;&#1080;&#1086; &#1089;&#1086;&#1086;&#1073;&#1097;<b>&#1080;</b>&#1083;&#1080;, &#1095;&#1090;&#1086; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1105;&#1083; &#1087;&#1086;&#1089;<b>&#1072;</b>&#1076;&#1082;&#1091; &#1089;&#1072;&#1084;&#1086;&#1083;&#1105;&#1090; &#1080;&#1079; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1072;. &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090; &#1073;&#1099;&#1090;&#1100;, &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083; &#1084;&#1077;&#1089;&#1100;<b>&#1077;</b> &#1044;&#1102;&#1088;<b>&#1072;</b>&#1085;? 			 				9 			Vous avez entendu (&#224; la radio), on a annonc&#233; (communiqu&#233;) qu'un avion [en provenance] de Paris avait atterri. Peut-&#234;tre monsieur Durand est-il dedans (est-il arriv&#233;) ?  	 		 			1 			&#1044;&#1086;&#1073;&#1088;<b>&#1086;</b> &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1086;&#1074;&#1072;&#1090;&#1100;! : bienvenue ! Cette expression s'emploie aussi pour accueillir des invit&#233;s &#224; la maison. &#1044;&#1086;&#1073;&#1088;<b>&#1086;</b> &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1086;&#1074;&#1072;&#1090;&#1100;, &#1075;<b>&#1086;</b>&#1089;&#1090;&#1080; &#1076;&#1086;&#1088;&#1086;&#1075;<b>&#1080;</b>&#1077;! : bienvenue, chers invit&#233;s !  		 			2 			Le verbe de mouvement &#1083;&#1077;&#1090;<b>&#1077;</b>&#1090;&#1100; / &#1083;&#1077;&#1090;<b>&#1072;</b>&#1090;&#1100; (aller en volant, voler) appartient au groupe de verbes de type &#1080;&#1076;&#1090;<b>&#1080;</b> / &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;. Ils sont tous les deux imperfectifs. &#1051;&#1077;&#1090;<b>&#1077;</b>&#1090;&#1100; indique un mouvement dans une direction pr&#233;cise ; c'est donc un verbe d&#233;termin&#233;. &#1051;&#1077;&#1090;<b>&#1072;</b>&#1090;&#1100;. lui, indique un mouvement aller-retour ou bien sans direction pr&#233;cise. C'est un verbe ind&#233;termin&#233;. Si vous ajoutez un pr&#233;verbe &#224; &#1083;&#1077;&#1090;<b>&#1077;</b>&#1090;&#1100;, il devient perfectif. Par contre, &#1083;&#1077;&#1090;<b>&#1072;</b>&#1090;&#1100; reste imperfectif avec un pr&#233;verbe. Comme vous le savez, le pr&#233;verbe change le sens du verbe.<br /> Par exemple, vous pouvez dire : &#1043;&#1086;&#1089;&#1087;&#1086;&#1076;<b>&#1080;</b>&#1085; &#1057;&#1084;&#1080;&#1090; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083; &#1074;&#1095;&#1077;&#1088;<b>&#1072;</b> : Monsieur Smith est arriv&#233; hier. Le pr&#233;verbe &#1087;&#1088;&#1080;- exprime l'id&#233;e d'arriv&#233;e. &#1041;&#1099;&#1083;<b>&#1072;</b> &#1087;&#1083;&#1086;&#1093;<b>&#1072;</b>&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072;, &#1085;&#1086; &#1084;&#1099; &#1073;&#1083;&#1072;&#1075;&#1086;&#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;&#1085;&#1086; &#1076;&#1086;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1080; &#1076;&#1086; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1072;: le temps &#233;tait mauvais. Mais nous sommes bien arriv&#233;s (par avion) &#224; Saint-P&#233;tersbourg. Le pr&#233;verbe &#1076;&#1086;- exprime l'id&#233;e d'atteindre un but.<br /> Les questions du type &#1050;&#1072;&#1082; &#1076;&#1086;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1080;? &#1050;&#1072;&#1082; &#1076;&#1086;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080;? : comment s'est pass&#233; votre voyage (en avion ou en voiture) ? sont &#224; prendre comme formules de politesse pour souhaiter la bienvenue.  		 			3 			Nouveau pr&#233;verbe pour le verbe &#1083;&#1077;&#1090;<b>&#1077;</b>&#1090;&#1100; : &#1074;&#1099;-, qui, rappelez-vous, indique l'id&#233;e de sortir.<br /> &#1054;&#1085; &#1074;<b>&#1099;</b>&#1096;&#1077;&#1083; &#1080;&#1079; &#1076;<b>&#1086;</b>&#1084;&#1072; &#1074; &#1089;&#1077;&#1084;&#1100; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; &#1091;&#1090;&#1088;<b>&#1072;</b>: il est sorti de chez lui &#224; sept heures du matin ; &#1089;&#1072;&#1084;&#1086;&#1083;&#1105;&#1090; &#1074;<b>&#1099;</b>&#1083;&#1077;&#1090;&#1077;&#1083; &#1080;&#1079; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1072; &#1089; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;&#1084; : l'avion est parti de Paris (en volant) avec du retard.<br /> Revoyons au passage l'instrumental des neutres en -&#1080;&#1077; &#1089; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;&#1084; : avec du retard ; &#1089; &#1091;&#1076;&#1086;&#1074;&#1086;&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084; : avec plaisir.  		 			4 			&#1054;&#1085; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1083; &#1085;&#1072; &#1095;&#1072;&#1089; : il est en retard d'une heure. La dur&#233;e est exprim&#233;e par la pr&#233;position &#1085;&#1072; + accusatif. De la m&#234;me fa&#231;on, vous direz : &#1086;&#1085; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083; &#1085;&#1072; &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1102; : il est venu pour une semaine.  		 			5 			&#1062;<b>&#1077;</b>&#1083;&#1099;&#1081; &#1095;&#1072;&#1089; : une heure enti&#232;re. &#1062;<b>&#1077;</b>&#1083;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100; : un jour entier. Si votre interlocuteur vous dit : &#1103; &#1078;&#1076;&#1072;&#1083; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1094;<b>&#1077;</b>&#1083;&#1099;&#1081; &#1095;&#1072;&#1089;, et pas simplement &#1103; &#1078;&#1076;&#1072;&#1083; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1095;&#1072;&#1089;, il veut vous montrer que pour lui, une heure c'est beaucoup, et qu'il commen&#231;ait &#224; en avoir assez.<br /> &#183; &#1053;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; : quelques jours. Vous le savez d&#233;j&#224;, apr&#232;s les mots comme &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; (beaucoup de), &#1084;<b>&#1072;</b>&#1083;&#1086; (peu de), &#1089;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; (combien de), &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; (quelques), on emploie le g&#233;nitif. Relisez ces quelques exemples : &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; : quelques heures ; &#1089;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1100; : combien de semaines ? &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1083;&#1102;&#1076;<b>&#1077;</b>&#1081; : beaucoup de gens ; &#1084;<b>&#1072;</b>&#1083;&#1086; &#1076;<b>&#1077;</b>&#1085;&#1077;&#1075; : peu d'argent.<br /> Comparez ces deux phrases : &#1086;&#1085; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083; &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il est arriv&#233; il y a quelques jours ; &#1086;&#1085; &#1087;&#1088;&#1080;&#1083;&#1077;&#1090;<b>&#1080;</b>&#1090; &#1095;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; : il arrivera dans quelques jours.  		 			6 			&#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1087;&#1088;&#1080;&#1075;&#1083;&#1072;&#1096;<b>&#1077;</b>&#1085;&#1080;&#1077; : merci pour l'invitation. Souvenez-vous : la pr&#233;position &#1079;&#1072; peut &#234;tre suivie de l'instrumental : &#1103; &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; : je passerai te prendre, et &#233;galement de l'accusatif : &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1079;&#1072; &#1087;&#1086;&#1076;<b>&#1072;</b>&#1088;&#1086;&#1082; : merci pour le cadeau ; &#1089;&#1087;&#1072;&#1089;&#1080;&#1073;&#1086; &#1079;&#1072; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; : merci pour le livre.  		 			7 			Petit rappel sur la pr&#233;position &#1076;&#1083;&#1103; suivie du g&#233;nitif. &#1069;&#1090;&#1086; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; &#1076;&#1083;&#1103; &#1042;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1084;&#1080;&#1088;&#1072; : c'est un livre pour Vladimir ; <b>&#1079;</b>&#1090;&#1086; &#1076;&#1091;&#1093;<b>&#1080;</b> &#1076;&#1083;&#1103; &#1040;&#1085;&#1085;&#1099; : c'est un parfum pour Anna.  		 			8 			&#1050;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1074;&#1072;&#1096; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : posez vos bagages. Le verbe &#1082;&#1083;&#1072;&#1089;&#1090;&#1100; / &#1087;&#1086;&#1083;&#1086;&#1078;<b>&#1080;</b>&#1090;&#1100; (poser) n'est pas des plus faciles &#224; retenir ! D'abord, les deux aspects sont totalement diff&#233;rents l'un de l'autre. Ensuite, la conjugaison pose des probl&#232;mes m&#234;me aux Russes, petits et grands ! Voyez vous-m&#234;me. <table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre"><b>Imperfectif</b></th> 							<th class="centre"><b>Perfectif</b></th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1082;&#1083;&#1072;&#1076;&#1091; </td> 							<td class="centre">&#1103; &#1087;&#1086;&#1083;&#1086;&#1078;&#1091; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1082;&#1083;&#1072;&#1076;&#1105;&#1096;&#1100; </td> 							<td class="centre">&#1090;&#1099; &#1087;&#1086;&#1083;<b>&#1086;</b>&#1078;&#1080;&#1096;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1082;&#1083;&#1072;&#1076;&#1105;&#1090; </td> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1083;<b>&#1086;</b>&#1078;&#1080;&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1082;&#1083;&#1072;&#1076;&#1105;&#1084; </td> 							<td class="centre">&#1084;&#1099; &#1087;&#1086;&#1083;<b>&#1086;</b>&#1078;&#1080;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1082;&#1083;&#1072;&#1076;&#1105;&#1090;&#1077; </td> 							<td class="centre">&#1074;&#1099; &#1087;&#1086;&#1083;<b>&#1086;</b>&#1078;&#1080;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1082;&#1083;&#1072;&#1076;<b>&#1091;</b>&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1087;&#1086;&#1083;<b>&#1086;</b>&#1078;&#1072;&#1090; </td></tr></tbody></table> 						<br /> Imp&#233;ratif :<br /> &#1050;&#1083;&#1072;&#1076;<b>&#1080;</b>, &#1082;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077; ; &#1087;&#1086;&#1083;&#1086;&#1078;<b>&#1080;</b>, &#1087;&#1086;&#1083;&#1086;&#1078;<b>&#1080;</b>&#1090;&#1077; 			 		 			9 			&#1055;&#1088;&#1086;&#1080;&#1079;&#1074;&#1105;&#1083; (du verbe &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1077;&#1089;&#1090;<b>&#1080;</b>) &#1087;&#1086;&#1089;<b>&#1072;</b>&#1076;&#1082;&#1091; &#1089;&#1072;&#1084;&#1086;&#1083;&#1105;&#1090; &#1080;&#1079; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1072; : l'avion en provenance de Paris a atterri (a effectu&#233; l'atterrissage). C'est le genre d'annonce que vous pouvez entendre dans un a&#233;roport. D'une fa&#231;on moins officielle, vous pouvez dire : &#1089;&#1072;&#1084;&#1086;&#1083;&#1105;&#1090; &#1087;&#1088;&#1080;&#1079;&#1077;&#1084;&#1083;<b>&#1080;</b>&#1083;&#1089;<b>&#1103;</b> : l'avion a atterri. Le verbe est form&#233; sur le mot &#1079;&#1077;&#1084;&#1083;&#1103;, la terre, et le pr&#233;verbe &#1087;&#1088;&#1080;-.<br />  &#183; Quand vous irez en Russie, ne soyez pas &#233;tonn&#233;(e) de vous entendre appeler &#1084;&#1077;&#1089;&#1100;<b>&#1077;</b>, &#1084;&#1072;&#1076;<b>&#1072;</b>&#1084; ou bien &#1084;&#1072;&#1076;&#1084;&#1091;&#1072;&#1079;<b>&#1077;</b>&#1083;&#1100; en tant qu'&#233;tranger.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

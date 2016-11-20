@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	<h3>
+		R&#201;VISION ET NOTES</h3> 	 		<p><i>Profitez des le&#231;ons de r&#233;vision pour faire le point sur les difficult&#233;s que vous avez rencontr&#233;es dans les le&#231;ons pr&#233;c&#233;dentes. Vous constaterez qu'elles se r&#233;solvent progressivement d'elles-m&#234;mes - c'est le propre de l'assimilation intuitive.</i> 		</p> 		<h1 class="centre"><b>1 Les verbes</b></h1> 		<p>Les six le&#231;ons pr&#233;c&#233;dentes vous offrent l'occasion de revoir l'imp&#233;ratif. </p> 		<p>&#1088;&#1072;&#1079;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (se d&#233;shabiller) &#1088;&#1072;&#1079;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1081;&#1089;&#1103;! : d&#233;shabille-toi ! ; &#1088;&#1072;&#1079;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077;&#1089;&#1100;!: d&#233;shabillez-vous ! </p> 		<p>&#1086;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (s'habiller) &#1086;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1081;&#1089;&#1103; : habille-toi ! ; &#1086;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077;&#1089;&#1100;! : habillez-vous ! </p> 		<p>L'imp&#233;ratif perfectif et imperfectif ont des sens diff&#233;rents. Prenons un exemple avec le verbe prendre : &#1073;&#1088;&#1072;&#1090;&#1100; / &#1074;&#1079;&#1103;&#1090;&#1100;. Quand vous dites &#224; l'imperfectif : &#1073;&#1077;&#1088;<b>&#1080;</b> ou &#1073;&#1077;&#1088;<b>&#1080;</b>&#1090;&#1077;, c'est une invitation, une incitation &#224; faire quelque chose. Mais si vous dites : &#1074;&#1086;&#1079;&#1100;&#1084;<b>&#1080;</b> ou &#1074;&#1086;&#1079;&#1100;&#1084;<b>&#1080;</b>&#1090;&#1077;, c'est plus un ordre, une directive. </p> 		<p>&#1042;&#1086;&#1079;&#1100;&#1084;<b>&#1080;</b> <b>&#1079;</b>&#1090;&#1091; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091;, <b>&#1079;</b>&#1090;&#1086; &#1084;&#1086;&#1081; &#1087;&#1086;&#1076;<b>&#1072;</b>&#1088;&#1086;&#1082; : prends ce livre, c'est mon cadeau ; &#1041;&#1077;&#1088;<b>&#1080;</b>, &#1073;&#1077;&#1088;<b>&#1080;</b>, &#1085;&#1077; 			&#1073;<b>&#1086;</b>&#1081;&#1089;&#1103;! : vas-y, prends (prends, prends !), n'aie pas peur. </p> 		<p>Revoyons les deux conjugaisons. </p> 		<table class="centre"> 			<thead class="centre"> 				<tr class="centre"> 					<th class="centre"><b>Imperfectif </b></th> 					<th class="centre"><b>Perfectif </b></th></tr></thead> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">&#1071; &#1073;&#1077;&#1088;<b>&#1091;</b></td> 					<td class="centre">&#1071; &#1074;&#1086;&#1079;&#1100;&#1084;<b>&#1091;</b></td></tr> 				<tr class="centre"> 					<td class="centre">&#1090;&#1099; &#1073;&#1077;&#1088;&#1105;&#1096;&#1100;</td> 					<td class="centre">&#1090;&#1099; &#1074;&#1086;&#1079;&#1100;&#1084;&#1105;&#1096;&#1100;</td></tr> 				<tr class="centre"> 					<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1073;&#1077;&#1088;&#1105;&#1090;</td> 					<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1074;&#1086;&#1079;&#1100;&#1084;&#1105;&#1090;</td></tr> 				<tr class="centre"> 					<td class="centre">&#1084;&#1099; &#1073;&#1077;&#1088;&#1105;&#1084;</td> 					<td class="centre">&#1084;&#1099; &#1074;&#1086;&#1079;&#1100;&#1084;&#1105;&#1084;</td></tr> 				<tr class="centre"> 					<td class="centre">&#1074;&#1099; &#1073;&#1077;&#1088;&#1105;&#1090;&#1077;</td> 					<td class="centre">&#1074;&#1099; &#1074;&#1086;&#1079;&#1100;&#1084;&#1105;&#1090;&#1077;</td></tr> 				<tr class="centre"> 					<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1073;&#1077;&#1088;<b>&#1091;</b>&#1090;</td> 					<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1074;&#1086;&#1079;&#1100;&#1084;<b>&#1091;</b>&#1090;</td></tr></tbody></table> 		<table class="centre"> 			<thead class="centre"> 				<tr class="centre"> 					<th class="centre">Pass&#233;&amp;gt;</th> 					<th class="centre"></th></tr></thead> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">&#1103;, &#1090;&#1099;, &#1086;&#1085; &#1073;&#1088;&#1072;&#1083;</td> 					<td class="centre">&#1103;, &#1090;&#1099;, &#1086;&#1085; &#1074;&#1079;&#1103;&#1083;</td></tr> 				<tr class="centre"> 					<td class="centre">&#1103;, &#1090;&#1099;, &#1086;&#1085;<b>&#1072;</b> &#1073;&#1088;&#1072;&#1083;<b>&#1072;</b></td> 					<td class="centre">&#1103;, &#1090;&#1099;, &#1086;&#1085;<b>&#1072;</b> &#1074;&#1079;&#1103;&#1083;<b>&#1072;</b></td></tr> 				<tr class="centre"> 					<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1073;&#1088;<b>&#1072;</b>&#1083;&#1080;</td> 					<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1074;&#1079;<b>&#1103;</b>&#1083;&#1080;</td></tr></tbody></table> 		<p>Encore quelques exemples d'imp&#233;ratif perfectif : &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1091;</b>&#1090;&#1100;&#1089;&#1103; (se r&#233;veiller) : &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1089;&#1100;, &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1090;&#1077;&#1089;&#1100; &#1087;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1090;&#1100; (&#233;couter) : &#1087;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;, &#1087;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;&#1090;&#1077; &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; (raconter) : &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>, &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077;</p> 		<h1 class="centre"><b>2 Les adjectifs</b></h1> 		<p>Comme vous l'avez vu plusieurs fois au cours de ces six le&#231;ons, au pass&#233; l'instrumental et le nominatif se font concurrence lorsque l'adjectif est attribut : &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1086;&#1081; : la jeune fille &#233;tait belle ; &#1076;<b>&#1077;</b>&#1076;&#1091;&#1096;&#1082;&#1080; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1099;&#1084;&#1080; : les grands-p&#232;res &#233;taient int&#233;ressants. </p> 		<p>Dans la langue courante, les Russes ont plut&#244;t tendance &#224; employer le nominatif, mais l'instrumental est plus correct. </p> 		<h1 class="centre"><b>3 Les adverbes</b></h1> 		<p>Beaucoup d'adverbes se terminent en -o. Le comparatif de la plupart des adverbes est en -ee. </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">&#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086; : froid  </td> 					<td class="centre">&#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; : plus froid </td></tr> 				<tr class="centre"> 					<td class="centre">&#1087;&#1088;&#1086;&#1093;&#1083;<b>&#1072;</b>&#1076;&#1085;&#1086; : frais  </td> 					<td class="centre">&#1087;&#1088;&#1086;&#1093;&#1083;&#1072;&#1076;&#1085;<b>&#1077;</b>&#1077; : plus frais </td></tr> 				<tr class="centre"> 					<td class="centre">&#1090;&#1077;&#1087;&#1083;<b>&#1086;</b> : chaud  </td> 					<td class="centre">&#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077; : plus chaud </td></tr> 				<tr class="centre"> 					<td class="centre">&#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1086; : fort  </td> 					<td class="centre">&#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; : plus fort </td></tr></tbody></table> 		<p>Notez que &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1086; subit une modification du radical et a son comparatif en -&#1077;. Les deux termes d'une comparaison sont li&#233;s par la conjonction &#1095;&#1077;&#1084; (que), toujours pr&#233;c&#233;d&#233;e d'une virgule. </p> 		<p>&#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1090;&#1077;&#1087;&#1083;<b>&#1077;</b>&#1077;, &#1095;&#1077;&#1084; &#1074;&#1095;&#1077;&#1088;<b>&#1072;</b>, &#1072; &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1093;&#1086;&#1083;&#1086;&#1076;&#1085;<b>&#1077;</b>&#1077; : aujourd'hui, il fait plus chaud qu'hier, et demain il fera un peu plus froid. </p> 		<h1 class="centre"><b>4 Le pr&#233;positionnel en -&#1091;</b></h1> 		<p>Certains noms ont leur pr&#233;positionnel en &#1091;. Par exemple, vous direz : &#1074; &#1091;&#1075;&#1083;<b>&#1091;</b>, dans le coin (nominatif : &#1091;&#1075;&#1086;&#1083; ; notez que le "o" tombe) ; &#1074; &#1096;&#1082;&#1072;&#1092;<b>&#1091;</b>, dans l'armoire (nominatif : &#1096;&#1082;&#1072;&#1092;) ; &#1085;&#1072; &#1073;&#1077;&#1088;&#1077;&#1075;<b>&#1091;</b>, au bord (nominatif : &#1073;<b>&#1077;</b>&#1088;&#1077;&#1075;). Pour le mot &#1091;&#1075;&#1086;&#1083;, on peut employer &#233;galement la pr&#233;position &#1085;&#1072;. Le sens, alors, n'est pas tout &#224; fait le m&#234;me. </p> 		<p>Comparez : &#1096;&#1082;&#1072;&#1092; &#1074; &#1091;&#1075;&#1083;&#1091; : l'armoire est dans le coin ; &#1082;&#1072;&#1092;<b>&#1077;</b> &#1085;&#1072;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;&#1089;&#1103; &#1085;&#1072; &#1091;&#1075;&#1083;&#1091; &#1076;<b>&#1086;</b>&#1084;&#1072; : le caf&#233; se trouve au coin de la maison. </p> 		<h1 class="centre"><b>5 L'heure</b></h1> 		<p>Vous savez maintenant indiquer l'heure pr&#233;cise : &#1086;&#1085; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1077;&#1090; &#1074; &#1087;&#1103;&#1090;&#1100; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; : il arrivera &#224; cinq heures ; l'heure approximative : &#1084;&#1099; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1077;&#1084; &#1095;&#1072;&#1089;<b>&#1086;</b>&#1074; &#1074; &#1096;&#1077;&#1089;&#1090;&#1100; : nous arriverons vers six heures. </p> 		<p>Si vous voulez dire : il arrivera apr&#232;s six heures, vous direz : &#1085; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1077;&#1090; &#1074; &#1089;&#1077;&#1076;&#1100;&#1084;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;<b>&#1091;</b>, c'est-&#224;-dire dans la septi&#232;me heure. Cette phrase r&#233;pond &#224; la question : &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> (&#1074; &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1086;&#1084; &#1095;&#1072;&#1089;<b>&#1091;</b>) &#1086;&#1085; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1077;&#1090;? : &#224; quelle heure arriverat-il ? &#192; la question &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; &#1095;&#1072;&#1089;? (quelle heure est-il ?), vous pouvez r&#233;pondre : &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1096;&#1077;&#1089;&#1090;<b>&#1086;</b>&#1081; &#1095;&#1072;&#1089; : maintenant, il est cinq heures pass&#233;es. De la m&#234;me mani&#232;re, vous direz : &#1055;<b>&#1103;</b>&#1090;&#1099;&#1081; &#1095;&#1072;&#1089; : il est quatre heures pass&#233;es ; &#1089;&#1077;&#1076;&#1100;&#1084;&#1086;&#1081; &#1095;&#1072;&#1089; : il est six heures pass&#233;es ; &#1074;&#1086;&#1089;&#1100;&#1084;<b>&#1086;</b>&#1081; &#1095;&#1072;&#1089; : il est sept heures pass&#233;es. </p> 		<p>Par contre, on ne parlera pas de treizi&#232;me ou quatorzi&#232;me heure. Vous direz : &#1086;&#1085; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081; &#1074;&#1086; &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1084; &#1095;&#1072;&#1089;&#1091; (&#1076;&#1085;&#1103; ou &#1085;<b>&#1086;</b>&#1095;&#1080;) : il est arriv&#233; &#224; la maison apr&#232;s une heure (de l'apr&#232;s-midi, du matin). </p> 		<p><b>Les adjectifs num&#233;raux ordinaux </b>(&#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081;, &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1081; : premier, deuxi&#232;me) se d&#233;clinent comme les autres adjectifs. Rappelez-vous le g&#233;nitif des noms de nombres : </p> 		 			&#1089; &#1095;<b>&#1072;</b>&#1089;&#1072; &#1076;&#1086; &#1076;&#1074;<b>&#1091;</b>&#1093; : de une &#224; deux  			&#1089; &#1076;&#1074;<b>&#1091;</b>&#1093; &#1076;&#1086; &#1090;&#1088;&#1105;&#1093; : de deux &#224; trois  			&#1089; &#1090;&#1088;&#1105;&#1093; &#1076;&#1086; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1105;&#1093; ; de trois &#224; quatre  			&#1089; &#1087;&#1103;&#1090;<b>&#1080;</b> &#1076;&#1086; &#1096;&#1077;&#1089;&#1090;<b>&#1080;</b> : de cinq &#224; six  			&#1089; &#1076;&#1077;&#1074;&#1103;&#1090;<b>&#1080;</b> &#1076;&#1086; &#1076;&#1077;&#1089;&#1103;&#1090;<b>&#1080;</b> ; de neuf &#224; dix  		<h1 class="centre"><b>6 D&#233;clinaison des cardinaux</b></h1> 		<p>0 : &#1085;<b>&#1091;</b>&#1083;&#1100;, &#1085;&#1086;&#1083;&#1100;, suit la d&#233;clinaison des noms masculins (accent final). </p> 		<p>1 : &#1086;&#1076;<b>&#1080;</b>&#1085;, &#1086;&#1076;&#1085;<b>&#1072;</b>, &#1086;&#1076;&#1085;<b>&#1086;</b>. &#1086;&#1076;&#1085;<b>&#1080;</b> comme <b>&#1079;</b>&#1090;&#1086;&#1090;, <b>&#1079;</b>&#1090;&#1072;, <b>&#1079;</b>&#1090;&#1086;, <b>&#1079;</b>&#1090;&#1080;. </p> 		<p>2 : &#1076;&#1074;&#1072;, &#1076;&#1074;&#1077;. </p> 		<p>3 : &#1090;&#1088;&#1080;. </p> 		<p>4 :  &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077;. </p> 		<p>Voyons leur d&#233;clinaison. </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">Nominatif  </td> 					<td class="centre">&#1076;&#1074;&#1072;, &#1076;&#1074;&#1077;</td> 					<td class="centre">&#1090;&#1088;&#1080;</td> 					<td class="centre">&#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077;</td></tr> 				<tr class="centre"> 					<td class="centre">G&#233;nitif  </td> 					<td class="centre">&#1076;&#1074;<b>&#1091;</b>&#1093;</td> 					<td class="centre">&#1090;&#1088;&#1105;&#1093;</td> 					<td class="centre">&#1095;&#1077;&#1090;&#1099;&#1088;&#1105;&#1093;</td></tr> 				<tr class="centre"> 					<td class="centre">Datif  </td> 					<td class="centre">&#1076;&#1074;<b>&#1091;</b>&#1084;</td> 					<td class="centre">&#1090;&#1088;&#1105;&#1084;</td> 					<td class="centre">&#1095;&#1077;&#1090;&#1099;&#1088;&#1105;&#1084;</td></tr> 				<tr class="centre"> 					<td class="centre">Instrumental  </td> 					<td class="centre">&#1076;&#1074;<b>&#1091;</b>&#1084;<b>&#1103;</b></td> 					<td class="centre">&#1090;&#1088;&#1077;&#1084;<b>&#1103;</b></td> 					<td class="centre">&#1095;&#1077;&#1090;&#1099;&#1088;&#1100;&#1084;<b>&#1103;</b></td></tr> 				<tr class="centre"> 					<td class="centre">Pr&#233;positionnel  </td> 					<td class="centre">&#1076;&#1074;<b>&#1091;</b>&#1093;</td> 					<td class="centre">&#1090;&#1088;&#1105;&#1093;</td> 					<td class="centre">&#1095;&#1077;&#1090;&#1099;&#1088;&#1105;&#1093;</td></tr></tbody></table> 		<p>5 : &#1087;&#1103;&#1090;&#1100; 		</p> 		<p>10 &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; </p> 		<p>11 &#1086;&#1076;<b>&#1080;</b>&#1085;&#1085;&#1072;&#1076;&#1094;&#1072;&#1090;&#1100; </p> 		<p>19 : &#1076;&#1077;&#1074;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; </p> 		<p>se d&#233;clinent comme les f&#233;minins en &#1100; (accent final). </p> 		<p>40 : &#1089;<b>&#1086;</b>&#1088;&#1086;&#1082; </p> 		<p>90 : &#1076;&#1077;&#1074;&#1103;&#1085;<b>&#1086;</b>&#1089;&#1090;&#1086; </p> 		<p>100 : &#1089;&#1090;&#1086; </p> 		<p>ont une d&#233;sinence "a" aux cas suivants : g&#233;nitif, datif, instrumental et pr&#233;positionnel. </p> 		<table class="centre"> 			<tbody class="centre"> 				<tr class="centre"> 					<td class="centre">Nominatif  </td> 					<td class="centre">&#1076;&#1077;&#1074;&#1103;&#1085;<b>&#1086;</b>&#1089;&#1090;&#1086;</td> 					<td class="centre">&#1089;&#1090;&#1086;</td> 					<td class="centre">&#1089;<b>&#1086;</b>&#1088;&#1086;&#1082;</td></tr> 				<tr class="centre"> 					<td class="centre">Accusatif </td> 					<td class="centre"></td> 					<td class="centre"></td> 					<td class="centre"></td></tr> 				<tr class="centre"> 					<td class="centre">G&#233;nitif  </td> 					<td class="centre">&#1076;&#1077;&#1074;&#1103;&#1085;<b>&#1086;</b>&#1089;&#1090;&#1072;</td> 					<td class="centre">&#1089;&#1090;&#1072;</td> 					<td class="centre">&#1089;<b>&#1086;</b>&#1088;&#1086;&#1082;&#1072;</td></tr> 				<tr class="centre"> 					<td class="centre">Datif </td> 					<td class="centre"></td> 					<td class="centre"></td> 					<td class="centre"></td></tr> 				<tr class="centre"> 					<td class="centre">Instrumental </td> 					<td class="centre"></td> 					<td class="centre"></td> 					<td class="centre"></td></tr> 				<tr class="centre"> 					<td class="centre">Pr&#233;positionnel </td> 					<td class="centre"></td> 					<td class="centre"></td> 					<td class="centre"></td></tr></tbody></table> 		<p><b>&#1059;&#1087;&#1088;&#1072;&#1078;&#1085;<b>&#1077;</b>&#1085;&#1080;&#1103; </b></p> 		<p><b>&#1063;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1080; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; </b></p> 		<p><b>1 </b>&#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1074; &#1084;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1086;&#1089;&#1090;&#1080; &#1086;&#1085;<b>&#1072;</b> &#1073;&#1099;&#1083;<b>&#1072;</b> &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1081;. - &#1054;&#1085;<b>&#1072;</b> &#1080; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1072;&#1103;. <b>2 </b>&#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082;&#1086; &#1084;&#1085;&#1077;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1091; &#1074;&#1072;&#1089; &#1073;&#1091;&#1076;&#1077;&#1090; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;.- &#1047;&#1072;&#1081;&#1076;&#1091; &#1086;&#1073;&#1103;&#1079;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;. &#1053;&#1086; &#1103; &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1089;&#1077;&#1073;<b>&#1103;</b> &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1102;. &#1053;&#1072; &#1091;&#1083;&#1080;&#1094;&#1077; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1095;&#1080;&#1081; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;. <b>3 </b>&#1050;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1099;&#1081; &#1082;&#1086;&#1089;&#1090;<b>&#1102;</b>&#1084;! &#1071; &#1093;&#1086;&#1095;&#1091; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1100; &#1077;&#1075;<b>&#1086;</b>. - &#1055;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1081;&#1090;&#1077;! &#1053;&#1077; &#1088;&#1072;&#1079;&#1076;<b>&#1091;</b>&#1084;&#1099;&#1074;&#1072;&#1081;&#1090;&#1077;. &#1054;&#1085; &#1074;&#1072;&#1084; &#1080;&#1076;&#1105;&#1090;. <b>4 </b>&#1044;&#1086;&#1088;&#1086;&#1075;<b>&#1072;</b>&#1103;, &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1089;&#1100;.&#1058;&#1099; &#1085;&#1077; &#1079;&#1072;&#1073;<b>&#1099;</b>&#1083;&#1072;, &#1095;&#1090;&#1086; &#1084;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1084; &#1082;&#1072;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1083;<b>&#1099;</b>&#1078;&#1072;&#1093;?-&#1053;&#1077;&#1090;, &#1085;&#1077;&#1090;. &#1071; &#1091;&#1078;<b>&#1077;</b> &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1074;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1072;. &#1063;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1087;&#1086;&#1083;&#1095;&#1072;&#1089;<b>&#1072;</b> &#1103; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1072;. <b>5 </b>&#1057;&#1082;<b>&#1086;</b>&#1088;&#1086; &#1084;&#1086;&#1077;&#1084;&#1091; &#1089;<b>&#1099;</b>&#1085;&#1091; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1083;&#1077;&#1090;. &#1063;&#1090;&#1086; &#1077;&#1084;&#1091; &#1087;&#1086;&#1076;&#1072;&#1088;<b>&#1080;</b>&#1090;&#1100;? - &#1050;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1077; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1091;, &#1095;&#1090;<b>&#1086;</b>&#1073;&#1099; &#1086;&#1085; &#1089;&#1090;&#1072;&#1083; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1084; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1086;&#1084;. </p> 		<p><b>Traduction</b> 		</p> 		<p><b>1 </b>On dit que lorsqu'elle &#233;tait jeune (dans sa jeunesse), elle &#233;tait tr&#232;s belle. - Elle est encore belle (et maintenant elle est belle). <br /><b>2 </b>Passez chez moi quand vous aurez le temps. - Je passerai sans faute. Mais je ne me sens pas tr&#232;s bien. Dehors, il fait un froid de canard (de chien). <br /><b>3 </b>Quel merveilleux costume ! Je veux l'acheter. - Achetez[-le] ! Ne tergiversez pas ! Il vous va [bien].  <br /><b>4 </b>Ma ch&#232;re, r&#233;veille-toi. Tu n'as pas oubli&#233; que nous allions faire du ski ? - Non, non. Je suis d&#233;j&#224; presque lev&#233;e. Dans une demi-heure, je serai pr&#234;te. <br /><b>5 </b>Mon fils aura bient&#244;t dix ans. Que pourrais-je lui offrir (que lui offrir) ? - Achetez un chien pour qu'il devienne un homme bon. </p> 		<p><b>&#1042;&#1086;&#1089;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;<b>&#1080;</b>&#1090;&#1077; &#1090;&#1077;&#1082;&#1089;&#1090; </b></p> 		<p><b>1 </b><i>C'est toi, Vadim ? Je suis ravi de t'entendre, mais pourquoi apelles-tu de si bonne heure ?</i></p> 		<p>&#1069;&#1090;&#1086; &#1090;&#1099;, &#1042;&#1072;&#1076;<b>&#1080;</b>&#1084;? ... <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; ......., &#1085;&#1086; &#1095;&#1090;&#1086; &#1090;&#1099; ....... &#1074; ..... ....? </p> 		<p><b>2 </b><i>Je passe te chercher et nous allons nous promener. Le temps est tout simplement merveilleux.</i></p> 		<p>&#1071; ..... .. ..... &#1080; &#1084;&#1099; ...... &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100;. ...... &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; ......... </p> 		<p><b>3 </b><i>On dit qu'&#224; Moscou il fait toujours froid.</i></p> 		<p>......., &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b> &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> ........ </p> 		<p><b>4 </b><i>Il ne faut pas h&#233;siter, viens d&#233;jeuner chez nous demain. - Merci ! Je pensais rester &#224; la maison mais je viendrai volontiers chez vous.</i></p> 		<p>&#1053;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086; .........., &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>. &#1085;&#1072;&#1084; .. .... &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072;. - &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086;! &#1071; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1083; ...... ...., &#1085;&#1086; &#1082; &#1074;&#1072;&#1084; ..... . .............. </p> 		<p><b>R&#233;ponses 1</b> - &#1084;&#1085;&#1077; - &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086; - &#1079;&#1074;&#1086;&#1085;<b>&#1080;</b>&#1096;&#1100; - &#1090;&#1072;&#1082;<b>&#1091;</b>&#1102; &#1088;&#1072;&#1085;&#1100;  		<br /><b>2</b> - &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; - &#1087;&#1086;&#1081;&#1076;&#1105;&#1084; -. &#1055;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072;- &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1072;&#1103; 		<br /><b>3</b> &#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090; - &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086;  		<br /><b>4</b> - &#1088;&#1072;&#1079;&#1076;&#1091;&#1084;&#1099;&#1074;<b>&#1072;</b>&#1090;&#1100; - &#1082; - &#1085;&#1072; &#1086;&#1073;<b>&#1077;</b>&#1076; - &#1089;&#1080;&#1076;<b>&#1077;</b>&#1090;&#1100; &#1076;<b>&#1086;</b>&#1084;&#1072; - &#1087;&#1088;&#1080;&#1076;&#1091; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;. </p> 		<p>Et enfin, pour terminer, cette petite blague : &#1075;&#1086;&#1083;&#1091;&#1073;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1079;&#1072;&#1103; (aux yeux bleus) </p> 		<p style="text-align:center;"><b>&#1057;&#1077;&#1089;&#1090;&#1088;<b>&#1072;</b></b></p> 		<p>- &#1040;&#1083;&#1083;<b>&#1086;</b>! &#1047;&#1076;&#1088;<b>&#1072;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;, <b>&#1079;</b>&#1090;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090; &#1042;<b>&#1080;</b>&#1082;&#1090;&#1086;&#1088;. &#1054;&#1083;&#1103; &#1076;<b>&#1086;</b>&#1084;&#1072;? </p> 		<p>- &#1053;&#1077;&#1090;, &#1077;&#1105; &#1085;&#1077;&#1090; &#1076;<b>&#1086;</b>&#1084;&#1072;. &#1057; &#1074;<b>&#1072;</b>&#1084;&#1080; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090; &#1077;&#1105; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1072;&#1103;, &#1074;&#1099;&#1089;<b>&#1086;</b>&#1082;&#1072;&#1103; &#1080; &#1075;&#1086;&#1083;&#1091;&#1073;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1079;&#1072;&#1103; &#1089;&#1077;&#1089;&#1090;&#1088;<b>&#1072;</b>. </p> 		<p>Traduction : </p> 		<p>- All&#244; ! Bonjour, c'est Victor (qui parle). Olia est &#224; la maison ? </p> 		<p>- Non, elle n'est pas &#224; la maison. Vous parlez &#224; sa soeur (avec vous parle) qui est jolie, grande et qui a les yeux bleus. </p> 		 		 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

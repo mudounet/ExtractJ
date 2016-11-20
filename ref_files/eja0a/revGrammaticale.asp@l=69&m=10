@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Vous voici maintenant capable de lire un texte d'Anton Pavlovitch Tch&#233;khov. Nous vous proposons un extrait d'une de ses meilleures nouvelles, "La Dame au petit chien". La langue vous para&#238;tra peut-&#234;tre un peu complexe, mais avec l'aide des notes, vous ne rencontrerez pas de difficult&#233;s particuli&#232;res. Allons-y !</i> </p> 	<h3>
+		&#1044;&#1072;&#1084;&#1072; &#1089; &#1089;&#1086;&#1073;&#1072;&#1095;&#1082;&#1086;&#1081; 
+		La Dame au petit chien
+		</h3> 	 		 			1 			... &#1048; &#1074; <b>&#1079;</b>&#1090;&#1091; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090;&#1091; &#1086;&#1085; &#1074;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1074;&#1089;&#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1083;, &#1082;&#1072;&#1082; &#1090;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; &#1085;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080;, &#1087;&#1088;&#1086;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1074; &#1040;&#1085;&#1085;&#1091; &#1057;&#1077;&#1088;&#1075;<b>&#1077;</b>&#1077;&#1074;&#1085;&#1091;, &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1089;&#1077;&#1073;<b>&#1077;</b>, &#1095;&#1090;&#1086; &#1074;&#1089;&#1105; &#1082;<b>&#1086;</b>&#1085;&#1095;&#1080;&#1083;&#1086;&#1089;&#1100;, &#1080; &#1086;&#1085;<b>&#1080;</b> &#1091;&#1078;<b>&#1077;</b> &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1103;&#1090;&#1089;<b>&#1103;</b> &#1085;&#1086; &#1082;&#1072;&#1082; &#1077;&#1097;&#1105; &#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1073;<b>&#1099;</b>&#1083;&#1086; &#1076;&#1086; &#1082;&#1086;&#1085;&#1094;<b>&#1072;</b>!... 			 				1 			... Et &#224; cette minute, il se souvint soudain que le soir, &#224; la gare, ayant accompagn&#233; Anna Sergu&#233;evna, il s'&#233;tait dit que tout &#233;tait fini et qu'ils ne se reverraient jamais. Mais comme on &#233;tait encore loin de la fin !...  		 			2 			- &#1050;&#1072;&#1082; &#1074;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1080;&#1089;&#1087;&#1091;&#1075;<b>&#1072;</b>&#1083;&#1080;! - &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b>, &#1090;&#1103;&#1078;&#1077;&#1083;<b>&#1086;</b> &#1076;&#1099;&#1096;<b>&#1072;</b>, &#1074;&#1089;&#1105; &#1077;&#1097;&#1105; &#1073;&#1083;<b>&#1077;</b>&#1076;&#1085;&#1072;&#1103;, &#1086;, &#1082;&#1072;&#1082; &#1074;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1080;&#1089;&#1087;&#1091;&#1075;<b>&#1072;</b>&#1083;&#1080;! &#1071; &#1077;&#1076;&#1074;<b>&#1072;</b> &#1078;&#1080;&#1074;<b>&#1072;</b>. &#1047;&#1072;&#1095;<b>&#1077;</b>&#1084; &#1074;&#1099; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080;? &#1047;&#1072;&#1095;<b>&#1077;</b>&#1084;? 			 				2 			Comme vous m'avez fait peur ! dit-elle, haletante, toujours p&#226;le... Oh, comme vous m'avez fait peur ! Je suis &#224; demi morte (je suis &#224; peine vivante). Pourquoi &#234;tes-vous venu ? Pourquoi ?  		 			3 			- &#1053;&#1086; &#1087;&#1086;&#1081;&#1084;<b>&#1080;</b>&#1090;&#1077;, &#1040;&#1085;&#1085;&#1072;, &#1087;&#1086;&#1081;&#1084;<b>&#1080;</b>&#1090;&#1077;... - &#1087;&#1088;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1086;&#1085; &#1074;&#1087;&#1086;&#1083;&#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1072;... &#1059;&#1084;&#1086;&#1083;<b>&#1103;</b>&#1102; &#1074;&#1072;&#1089;, &#1087;&#1086;&#1081;&#1084;<b>&#1080;</b>&#1090;&#1077;. 			 				3 			Mais, comprenez, Anna, comprenez... dit-il &#224; mi-voix.... Je vous en supplie, comprenez...  		 			4 			&#1054;&#1085;<b>&#1072;</b> &#1075;&#1083;&#1103;&#1076;<b>&#1077;</b>&#1083;&#1072; &#1085;&#1072; &#1085;&#1077;&#1075;<b>&#1086;</b> &#1089;&#1086; &#1089;&#1090;&#1088;<b>&#1072;</b>&#1093;&#1086;&#1084;, &#1089; &#1084;&#1086;&#1083;&#1100;&#1073;<b>&#1086;</b>&#1081;, &#1089; &#1083;&#1102;&#1073;<b>&#1086;</b>&#1074;&#1100;&#1102;, &#1095;&#1090;<b>&#1086;</b>&#1073;&#1099; &#1087;&#1086;&#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; &#1079;&#1072;&#1076;&#1077;&#1088;&#1078;<b>&#1072;</b>&#1090;&#1100; &#1074; &#1087;<b>&#1072;</b>&#1084;&#1103;&#1090;&#1080; &#1077;&#1075;<b>&#1086;</b> &#1095;&#1077;&#1088;&#1090;<b>&#1099;</b>. 			 				4 			Elle le regardait avec angoisse, avec amour, implorante, pour mieux (plus fort) garder ses traits en m&#233;moire.  		 			5 			- &#1071; &#1090;&#1072;&#1082; &#1089;&#1090;&#1088;&#1072;&#1076;<b>&#1072;</b>&#1102;! - &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;<b>&#1072;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b> - &#1103; &#1074;&#1089;&#1105; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1086; &#1074;&#1072;&#1089;, &#1103; &#1078;&#1080;&#1083;<b>&#1072;</b> &#1084;<b>&#1099;</b>&#1089;&#1083;&#1103;&#1084;&#1080; &#1086; &#1074;&#1072;&#1089;. &#1080; &#1084;&#1085;&#1077; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083;&#1086;&#1089;&#1100; &#1079;&#1072;&#1073;<b>&#1099;</b>&#1090;&#1100;, &#1079;&#1072;&#1073;<b>&#1099;</b>&#1090;&#1100;, &#1085;&#1086; &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084;, &#1079;&#1072;&#1095;<b>&#1077;</b>&#1084; &#1074;&#1099; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080;? 			 				5 			Je souffre tant ! continua-t-elle. Je ne fais que penser &#224; vous tout le temps. Je n'ai v&#233;cu qu' en pensant &#224; vous (j&#1077; vivais de mes pens&#233;es &#224; votre sujet). Et j'avais envie d'oublier, d'oublier, mais pourquoi, pourquoi &#234;tes-vous venu ?  		 			6 			&#1055;&#1086;&#1074;<b>&#1099;</b>&#1096;&#1077;, &#1085;&#1072; &#1087;&#1083;&#1086;&#1097;<b>&#1072;</b>&#1076;&#1082;&#1077; &#1076;&#1074;&#1072; &#1075;&#1080;&#1084;&#1085;&#1072;&#1079;<b>&#1080;</b>&#1089;&#1090;&#1072; &#1082;&#1091;&#1088;<b>&#1080;</b>&#1083;&#1080; &#1080; &#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1083;&#1080; &#1074;&#1085;&#1080;&#1079;, &#1085;&#1086; &#1043;<b>&#1091;</b>&#1088;&#1086;&#1074;&#1091; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1074;&#1089;&#1105; &#1088;&#1072;&#1074;&#1085;<b>&#1086;</b>... &#1054;&#1085; &#1089;&#1090;&#1072;&#1083; &#1094;&#1077;&#1083;&#1086;&#1074;<b>&#1072;</b>&#1090;&#1100; &#1077;&#1105; &#1083;&#1080;&#1094;<b>&#1086;</b>, &#1097;&#1105;&#1082;&#1080;, &#1088;<b>&#1091;</b>&#1082;&#1080;. 			 			Un peu plus haut, sur le palier, deux lyc&#233;ens fumaient et regardaient en bas, mais Gourov n'en avait que faire... Il commen&#231;a &#224; embrasser son visage, ses joues, ses mains...  		 			7 			- &#1063;&#1090;&#1086; &#1074;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1077;, &#1095;&#1090;&#1086; &#1074;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1090;&#1077;! - &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b> &#1074; &#1091;&#1078;&#1072;&#1089;&#1077; - &#1084;&#1099; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080; &#1086;&#1073;&#1077;&#1079;<b>&#1091;</b>&#1084;&#1077;&#1083;&#1080;. &#1059;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1078;&#1077;, &#1091;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089;... &#1057;&#1102;&#1076;<b>&#1072;</b> &#1080;&#1076;<b>&#1091;</b>&#1090;. 			 			Que faites-vous, que faites-vous ! dit-elle, effray&#233;e (dans l'effroi). Nous (avec vous) avons perdu la t&#234;te. Partez aujourd'hui m&#234;me, partez tout de suite... (Ici) on vient !  		 			8 			&#1055;&#1086; &#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1080;&#1094;&#1077; &#1089;&#1085;<b>&#1080;</b>&#1079;&#1091; &#1074;&#1074;&#1077;&#1088;&#1093; &#1082;&#1090;<b>&#1086;</b>-&#1090;&#1086; &#1096;&#1105;&#1083;. - &#1042;&#1099; &#1076;&#1086;&#1083;&#1078;&#1085;<b>&#1099;</b> &#1091;<b>&#1077;</b>&#1093;&#1072;&#1090;&#1100;... - &#1087;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;<b>&#1072;</b>&#1083;&#1072; &#1040;&#1085;&#1085;&#1072; &#1057;&#1077;&#1088;&#1075;<b>&#1077;</b>&#1077;&#1074;&#1085;&#1072; &#1096;&#1105;&#1087;&#1086;&#1090;&#1086;&#1084; - &#1057;&#1083;<b>&#1099;</b>&#1096;&#1080;&#1090;&#1077;, &#1044;&#1084;<b>&#1080;</b>&#1090;&#1088;&#1080;&#1081; &#1044;&#1084;<b>&#1080;</b>&#1090;&#1088;&#1080;&#1095;? &#1071; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1091; &#1082; &#1074;&#1072;&#1084; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>. &#1071; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1072;, &#1103; &#1090;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100; &#1085;&#1077;&#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1085;&#1072; &#1080; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1072;, &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b>! 			 				6 			Quelqu'un montait l'escalier (Dans l'escalier, de bas en haut, quelqu'un allait). - Vous devez partir, continua Anna Sergu&#233;evna dans un murmure. Vous m'entendez, Dmitri Dmitritch, j'irai vous voir &#224; Moscou. Je n'ai jamais &#233;t&#233; heureuse, maintenant je suis malheureuse et je ne serai jamais heureuse, jamais !  		 			9 			&#1053;&#1077; &#1079;&#1072;&#1089;&#1090;&#1072;&#1074;&#1083;&#1103;&#1081;&#1090;&#1077; &#1078;&#1077; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1089;&#1090;&#1088;&#1072;&#1076;<b>&#1072;</b>&#1090;&#1100; &#1077;&#1097;&#1105; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077;! &#1050;&#1083;&#1103;&#1085;<b>&#1091;</b>&#1089;&#1100;, &#1103; &#1087;&#1088;&#1080;<b>&#1077;</b>&#1076;&#1091; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>. &#1040; &#1090;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1077;&#1084;&#1089;&#1103;! &#1052;&#1086;&#1081; &#1084;<b>&#1080;</b>&#1083;&#1099;&#1081;, &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1081;. &#1076;&#1086;&#1088;&#1086;&#1075;<b>&#1086;</b>&#1081; &#1084;&#1086;&#1081;, &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1077;&#1084;&#1089;&#1103;! 			 				7 			Ne me faites pas souffrir davantage (encore plus) ! Je vous le jure, j'irai &#224; Moscou. Et maintenant, s&#233;parons-nous ! Mon bien-aim&#233;, mon bon, mon cher ami, s&#233;parons-nous !  		 			10 			&#1054;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1072; &#1077;&#1084;&#1091; &#1088;<b>&#1091;</b>&#1082;&#1091; &#1080; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1072; &#1089;&#1087;&#1091;&#1089;&#1082;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1074;&#1085;&#1080;&#1079;... &#1080; &#1087;&#1086; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b>&#1084; &#1077;&#1105; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1074;<b>&#1080;</b>&#1076;&#1085;&#1086;, &#1095;&#1090;&#1086; &#1086;&#1085;<b>&#1072;</b> &#1074; &#1089;<b>&#1072;</b>&#1084;&#1086;&#1084; &#1076;<b>&#1077;</b>&#1083;&#1077; &#1085;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1072;. 			 				8 			Elle lui serra la main et se mit &#224; descendre et &#224; ses yeux on voyait qu'en effet elle n'&#233;tait pas heureuse.  	 		 			1 			... &#1087;&#1088;&#1086;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1074; &#1040;&#1085;&#1085;&#1091; &#1057;&#1077;&#1088;&#1075;<b>&#1077;</b>&#1077;&#1074;&#1085;&#1091;, &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1089;&#1077;&#1073;<b>&#1077;</b>... : ayant accompagn&#233; Anna Sergu&#233;evna, il se dit ... Vous avez ici reconnu le g&#233;rondif pass&#233;. Dans la conversation, vous direz plut&#244;t : &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1086;&#1085; &#1087;&#1088;&#1086;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1077;&#1105;, &#1086;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1089;&#1077;&#1073;<b>&#1077;</b> : quand il l'e&#251;t raccompagn&#233;e, il se dit...<br /> &#183; Le verbe "se voir" se traduit par &#1091;&#1074;<b>&#1080;</b>&#1076;&#1077;&#1090;&#1100;&#1089;&#1103; &#1089; + instrumental. &#1103; &#1091;&#1074;<b>&#1080;</b>&#1078;&#1091;&#1089;&#1100; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; : je te verrai (dans le<br /> 			sens d'avoir une rencontre avec quelqu'un) ; &#1090;&#1099; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100;&#1089;&#1103; &#1089;&#1086; &#1084;&#1085;&#1086;&#1081; : tu me verras ; &#1086;&#1085; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1090;&#1089;&#1103; &#1089; &#1085;&#1077;&#1081; : il la verra ; &#1084;&#1099; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1084;&#1089;&#1103; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080; : nous vous verrons ; &#1074;&#1099; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1090;&#1077;&#1089;&#1100; &#1089; &#1085;<b>&#1080;</b>&#1084;&#1080; : vous les verrez ; &#1086;&#1085;<b>&#1080;</b> &#1091;&#1074;<b>&#1080;</b>&#1076;&#1103;&#1090;&#1089;&#1103; &#1089; &#1085;<b>&#1072;</b>&#1084;&#1080; : ils nous verront. &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1091;&#1074;<b>&#1080;</b>&#1076;&#1080;&#1084;&#1089;&#1103; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; : voyons-nous aujourd'hui.  		 			2 			&#1057;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b>, &#1090;&#1103;&#1078;&#1077;&#1083;<b>&#1086;</b> &#1076;&#1099;&#1096;<b>&#1072;</b> : dit-elle en respirant difficilement. &#1044;&#1099;&#1096;<b>&#1072;</b> est le g&#233;rondif pr&#233;sent de l'imperfectif &#1076;&#1099;&#1096;&#1072;&#1090;&#1100;. Il se forme sur la 3e personne du pluriel du pr&#233;sent. Les terminaisons -&#1102;&#1090; (-&#1091;&#1090;), -&#1103;&#1090; (-&#1072;&#1090;) sont remplac&#233;es par -&#1103; ou -a si la racine se termine en &#1078;, &#1095;, &#1096;, &#1097;. Le g&#233;rondif est plut&#244;t employ&#233; dans la langue &#233;crite.<br /> &#183; &#1071; &#1077;&#1076;&#1074;<b>&#1072;</b> &#1078;&#1080;&#1074;<b>&#1072;</b> : je suis &#224; peine vivante. &#192; la forme courte, &#1078;&#1080;&#1074; signifie "vivant" (pas mort) et &#224; la forme longue &#1078;&#1080;&#1074;<b>&#1086;</b>&#1081; signifie "vivant" dans le sens de vif. &#1046;&#1080;&#1074;<b>&#1072;</b>&#1103; &#1076;<b>&#1077;</b>&#1074;&#1086;&#1095;&#1082;&#1072; : une fillette tr&#232;s vive.  		 			3 			&#1055;&#1086;&#1081;&#1084;<b>&#1080;</b>&#1090;&#1077; est l'imp&#233;ratif perfectif du verbe &#1087;&#1086;&#1085;<b>&#1103;</b>&#1090;&#1100;.<br /> &#183; &#1055;&#1088;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1086;&#1085; &#1074;&#1087;&#1086;&#1083;&#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1072; : dit-il &#224; mi-voix. Le<br /> pr&#233;verbe &#1087;&#1088;&#1086;- ajoute ici la nuance que l'action achev&#233;e se-fait avec lenteur et difficult&#233;. Rappelez-vous aussi l'exemple &#1087;&#1088;&#1086;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1090;&#1100; : lire (un livre) en entier.  		 			4 			&#1055;&#1086;&#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077; (plus fort) apporte une nuance sup&#233;rieure au comparatif &#1082;&#1088;<b>&#1077;</b>&#1087;&#1095;&#1077;. Cette nuance se retrouve dans &#1073;<b>&#1086;</b>&#1083;&#1077;&#1077; &#1082;&#1088;<b>&#1077;</b>&#1087;&#1082;&#1080;&#1081;, dont la traduction litt&#233;rale est "plus fort".  		 			5 			&#1103; &#1078;&#1080;&#1083;<b>&#1072;</b> &#1084;<b>&#1099;</b>&#1089;&#1083;&#1103;&#1084;&#1080; &#1086; &#1074;&#1072;&#1089; : je vivais de mes pens&#233;es pour vous. &#1046;&#1080;&#1090;&#1100; + instrumental, c'est vivre de, gr&#226;ce &#224; quelque chose. &#1054;&#1085; &#1078;&#1080;&#1074;&#1105;&#1090; &#1089;&#1074;&#1086;<b>&#1080;</b>&#1084; &#1090;&#1088;&#1091;&#1076;<b>&#1086;</b>&#1084;: il vit de son travail.<br /> &#183; &#1064;&#1105;&#1087;&#1086;&#1090;&#1086;&#1084;, nous l'avons d&#233;j&#224; vu, est l'instrumental de &#1096;&#1105;&#1087;&#1086;&#1090; (murmure). De la m&#234;me fa&#231;on, on dira : &#1086;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1075;&#1088;<b>&#1086;</b>&#1084;&#1082;&#1080;&#1084; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1086;&#1084; : il parlait d'une voix forte.  		 			6 			&#1071; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1072; : je n'ai jamais &#233;t&#233; heureuse. Souvenez-vous de l'adjectif court employ&#233; en tant qu'attribut.  		 			7 			&#1056;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; : se s&#233;parer. Sa conjugaison ne devrait pas vous poser de probl&#232;mes : elle est identique au verbe &#1089;&#1090;&#1072;&#1090;&#1100;.<br /> &#1103; &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1091;&#1089;&#1100;<br /> &#1090;&#1099; &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1077;&#1096;&#1100;&#1089;&#1103;<br /> &#1086;&#1085;<b>&#1080;</b> &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1091;&#1090;&#1089;&#1103;<br /> Imp&#233;ratif: &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1100;&#1089;&#1103;! &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1085;&#1100;&#1090;&#1077;&#1089;&#1100;!  		 			8 			... &#1087;&#1086; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b>&#1084; &#1077;&#1105; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1074;<b>&#1080;</b>&#1076;&#1085;&#1086; : ... &#224; ses yeux, on voyait... La pr&#233;position est suivie du datif.<br /> &#183; &#1042; &#1089;<b>&#1072;</b>&#1084;&#1086;&#1084; &#1076;<b>&#1077;</b>&#1083;&#1077;, c'est-&#224;-dire "en r&#233;alit&#233;", "en effet".  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 	 		<p><i>Cette le&#231;on va vous permettre de d&#233;couvrir un peu Moscou &#224; travers une conversation riche en expressions et en proverbes, qui vous aideront &#224; mieux cerner le caract&#232;re russe.</i> </p> 	<h3>
+		&#1055;&#1088;&#1086;&#1075;&#1091;&#1083;&#1082;&#1072; &#1087;&#1086; &#1052;&#1086;&#1089;&#1082;&#1074;&#1077;
+		Promenade dans Moscou
+		</h3> 	 		 			1 			- &#1069;&#1093;! &#1050;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1085;&#1077; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086;&#1081; &#1077;&#1079;&#1076;<b>&#1099;</b>! &#1055;&#1088;&#1080;&#1089;&#1090;&#1077;&#1075;&#1085;<b>&#1080;</b>&#1090;&#1077;&#1089;&#1100;, &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b>. &#1071; &#1087;&#1088;&#1086;&#1082;&#1072;&#1095;&#1091; &#1074;&#1072;&#1089; &#1089; &#1074;&#1077;&#1090;&#1077;&#1088;&#1082;<b>&#1086;</b>&#1084;! 			 				1 			H&#233;, quel Russe n'aime pas la vitesse (une course rapide) ! Mettez vos ceintures, les amis. Je vous emm&#232;ne en vitesse (je vais vous promener avec la brise) !  		 			2 			- &#1052;<b>&#1080;</b>&#1096;&#1072;, &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1073;&#1077;&#1079; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086;! &#1057;&#1083;&#1086;&#1074;<b>&#1072;</b> &#1043;<b>&#1086;</b>&#1075;&#1086;&#1083;&#1103; &#1086; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1093;, &#1073;&#1086;<b>&#1102;</b>&#1089;&#1100;, &#1085;&#1077; &#1088;&#1072;&#1079;&#1076;&#1077;&#1083;<b>&#1103;</b>&#1102;&#1090; &#1084;&#1086;&#1089;&#1082;<b>&#1086;</b>&#1074;&#1089;&#1082;&#1080;&#1077; &#1084;&#1080;&#1083;&#1080;&#1094;&#1080;&#1086;&#1085;<b>&#1077;</b>&#1088;&#1099;. 			 				2 			Micha, tout mais pas &#231;a (seulement sans cela) ! J'ai peur que les policiers moscovites ne partagent pas les propos de Gogol sur les Russes.  		 			3 			- &#1053;&#1077; &#1073;<b>&#1086;</b>&#1081;&#1090;&#1077;&#1089;&#1100;! &#1040;&#1074;<b>&#1086;</b>&#1089;&#1100; &#1085;&#1072;&#1084; &#1087;&#1086;&#1074;&#1077;&#1079;&#1105;&#1090;, &#1080; &#1084;&#1099; &#1087;&#1086;&#1073;&#1099;&#1074;<b>&#1072;</b>&#1077;&#1084; &#1074;&#1077;&#1079;&#1076;<b>&#1077;</b>, &#1075;&#1076;&#1077; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1081; &#1076;&#1091;&#1096;<b>&#1077;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1091;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1086;. 			 				3 			Ne craignez rien ! Peut-&#234;tre aurons-nous de la chance et irons-nous partout o&#249; vous avez envie [d'aller] (partout o&#249; il sera agr&#233;able &#224; votre &#226;me).  		 			4 			- &#1069;&#1090;&#1086; &#1082;&#1072;&#1082; &#1088;&#1072;&#1079; &#1090;&#1086;&#1090; &#1089;&#1083;<b>&#1091;</b>&#1095;&#1072;&#1081;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1095;&#1090;&#1086; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077; &#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1079;&#1072;&#1087;&#1088;&#1103;&#1075;<b>&#1072;</b>&#1102;&#1090;, &#1076;&#1072; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086; <b>&#1077;</b>&#1076;&#1091;&#1090;. 			 				4 			C'est justement pour ces occasions-l&#224; qu'on dit que les Russes sont lents &#224; la d&#233;tente, mais qu'une fois partis, on ne peut plus les arr&#234;ter (que les Russes att&#232;lent pendant longtemps, puis vont vite).  		 			5 			- &#1053;&#1072;&#1084;&#1105;&#1082; &#1074;&#1072;&#1096; &#1087;<b>&#1086;</b>&#1085;&#1103;&#1083;. &#1040; &#1074;&#1087;&#1088;<b>&#1086;</b>&#1095;&#1077;&#1084;, &#1082;&#1091;&#1076;<b>&#1072;</b> &#1085;&#1072;&#1084; &#1089;&#1087;&#1077;&#1096;<b>&#1080;</b>&#1090;&#1100;, &#1074;&#1077;&#1089;&#1100; &#1076;&#1077;&#1085;&#1100; &#1074;&#1087;&#1077;&#1088;&#1077;&#1076;<b>&#1080;</b>. &#1050;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1086;&#1073;&#1088;&#1072;&#1090;<b>&#1080;</b>&#1090;&#1077; &#1074;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1085;&#1080;&#1077; &#1085;&#1072;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1086;. &#1069;&#1090;&#1086; &#1087;<b>&#1072;</b>&#1084;&#1103;&#1090;&#1085;&#1080;&#1082; &#1043;<b>&#1086;</b>&#1075;&#1086;&#1083;&#1102;. &#1052;&#1099; &#1087;&#1088;&#1086;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1077;&#1084; &#1087;&#1086; &#1043;<b>&#1086;</b>&#1075;&#1086;&#1083;&#1077;&#1074;&#1089;&#1082;&#1086;&#1084;&#1091; &#1073;&#1091;&#1083;&#1100;&#1074;<b>&#1072;</b>&#1088;&#1091;. 			 			J'ai compris votre allusion. Et d'ailleurs, pourquoi (o&#249;) se presser ? [Nous avons] toute la journ&#233;e devant [nous]. &#192; propos, regardez (faites attention) &#224; droite. C'est la statue (monument) de Gogol. Nous passons par le boulevard Gogol.  		 			6 			- &#1052;&#1085;&#1077; &#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1090;&#1089;&#1103;, &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1086;&#1090;&#1082;&#1088;<b>&#1086;</b>&#1077;&#1090;&#1089;&#1103; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; &#1074;&#1080;&#1076; &#1085;&#1072; &#1050;&#1088;&#1077;&#1084;&#1083;&#1100;. &#1071; &#1091;&#1078;<b>&#1077;</b> &#1079;&#1076;&#1077;&#1089;&#1100; &#1076;&#1074;<b>&#1072;</b>&#1078;&#1076;&#1099; &#1087;&#1088;&#1086;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1083;. 			 				5 			Je m'en souviens, maintenant on a (va s'ouvrir) une tr&#232;s belle vue sur le Kremlin. Je suis d&#233;j&#224; pass&#233; deux fois par l&#224;.  		 			7 			- "&#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1072;</b>! &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1072;</b>!... &#1051;&#1102;&#1073;&#1083;<b>&#1102;</b> &#1090;&#1077;&#1073;<b>&#1103;</b>, &#1082;&#1072;&#1082; &#1089;&#1099;&#1085;, &#1082;&#1072;&#1082; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081;, &#1087;&#1083;<b>&#1072;</b>&#1084;&#1077;&#1085;&#1085;&#1086; &#1080; &#1085;<b>&#1077;</b>&#1078;&#1085;&#1086;!" &#1071; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1089;&#1087;&#1086;&#1084;&#1080;&#1085;<b>&#1072;</b>&#1102; <b>&#1079;</b>&#1090;&#1080; &#1089;&#1083;&#1086;&#1074;<b>&#1072;</b> &#1051;<b>&#1077;</b>&#1088;&#1084;&#1086;&#1085;&#1090;&#1086;&#1074;&#1072;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1102;</b> &#1085;&#1072; &#1050;&#1088;&#1077;&#1084;&#1083;&#1100; &#1089; &#1050;<b>&#1072;</b>&#1084;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1089;&#1090;<b>&#1072;</b>. 			 			"Moscou, Moscou !... Je t'aime comme un fils, comme un Russe, ardemment et tendrement!" Je me souviens toujours de ces mots de Lermontov quand je regarde le Kremlin depuis le Pont de pierre.  		 			8 			- &#1046;&#1072;&#1082;, &#1090;&#1099; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;, &#1079;&#1072; &#1095;&#1090;&#1086; &#1103; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b> &#1090;&#1077;&#1073;<b>&#1103;</b>? &#1058;&#1099; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1101;&#1085;&#1094;&#1080;&#1082;&#1083;&#1086;&#1087;<b>&#1077;</b>&#1076;&#1080;&#1103; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1086;&#1081; &#1082;&#1083;<b>&#1072;</b>&#1089;&#1089;&#1080;&#1082;&#1080;, &#1076;&#1072; &#1080; &#1080;&#1089;&#1090;<b>&#1086;</b>&#1088;&#1080;&#1080; &#1090;<b>&#1086;</b>&#1078;&#1077;. &#1050;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1073;&#1099;&#1083; &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1072;&#1085; &#1050;&#1088;&#1077;&#1084;&#1083;&#1100;? 			 				6 			Jacques, tu sais pourquoi je t'aime bien ? Tu es tout simplement une encyclop&#233;die des classiques russes et de l'histoire aussi. &#192; propos, quand le Kremlin a-t-il &#233;t&#233; construit (fond&#233;) ?  		 			9 			- &#1042;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1089; &#1076;&#1083;&#1103; &#1087;&#1077;&#1088;&#1074;&#1086;&#1082;&#1083;<b>&#1072;</b>&#1089;&#1089;&#1085;&#1080;&#1082;&#1072;. &#1042; &#1076;&#1074;&#1077;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1086;&#1084; &#1074;<b>&#1077;</b>&#1082;&#1077; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1087;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1099; &#1077;&#1075;<b>&#1086;</b> &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1077; &#1076;&#1077;&#1088;&#1077;&#1074;<b>&#1103;</b>&#1085;&#1085;&#1099;&#1077; &#1089;&#1090;<b>&#1077;</b>&#1085;&#1099;. &#1040; &#1074;&#1086;&#1090; &#1082;&#1086;&#1083;&#1086;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1085;&#1103; "&#1048;&#1074;<b>&#1072;</b>&#1085; &#1042;&#1077;&#1083;<b>&#1080;</b>&#1082;&#1080;&#1081;" &#1073;&#1099;&#1083;<b>&#1072;</b> &#1087;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1072; &#1074; &#1085;&#1072;&#1095;<b>&#1072;</b>&#1083;&#1077; &#1096;&#1077;&#1089;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1086;&#1075;&#1086; &#1074;<b>&#1077;</b>&#1082;&#1072;. 			 				7 			[C'est une] question pour un &#233;l&#232;ve de premi&#232;re ann&#233;e (premi&#232;re classe, c'est-&#224;-dire pour les &#233;l&#232;ves de six ans). Ses premiers murs de bois ont &#233;t&#233; construits au XIIe si&#232;cle. Et le clocher d'Ivan le Grand, que voici, a &#233;t&#233; construit au d&#233;but du XVIe si&#232;cle.  		 			10 			- &#1052;<b>&#1080;</b>&#1096;&#1072;, &#1103; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1096;&#1091; &#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; &#1079;&#1076;&#1077;&#1089;&#1100;. &#1071; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083;&#1072; &#1073;&#1099; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1082;&#1085;<b>&#1080;</b>&#1078;&#1085;&#1099;&#1081; &#1073;&#1072;&#1079;<b>&#1072;</b>&#1088;. 			 				8 			Micha, je vous demande de vous arr&#234;ter ici. Je voudrais regarder cette foire aux livres.  		 			11 			- &#1071; &#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1083; &#1073;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084;, &#1085;&#1086; &#1079;&#1076;&#1077;&#1089;&#1100; &#1089;&#1090;&#1086;<b>&#1103;</b>&#1085;&#1082;&#1072; &#1079;&#1072;&#1087;&#1088;&#1077;&#1097;&#1077;&#1085;<b>&#1072;</b> &#1040; &#1074;&#1087;&#1088;<b>&#1086;</b>&#1095;&#1077;&#1084;, &#1088;&#1080;&#1089;&#1082;&#1085;&#1105;&#1084;. &#1050;&#1072;&#1082; &#1090;&#1072;&#1084; &#1091; &#1074;&#1072;&#1089;, &#1046;&#1072;&#1082;, &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;? 			 				9 			Je l'aurais fait volontiers, mais le stationnement est interdit ici. Mais pourtant, prenons le risque. Comment dit-on chez vous, Jacques ?  		 			12 			- &#1050;&#1090;&#1086; &#1085;&#1077; &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1077;&#1090;, &#1090;&#1086;&#1090; &#1085;&#1077; &#1087;&#1100;&#1105;&#1090; &#1096;&#1072;&#1084;&#1087;<b>&#1072;</b>&#1085;&#1089;&#1082;&#1086;&#1075;&#1086;. 			 			Qui ne risque rien n'a rien (Qui ne risque pas, celui-ci ne boit pas de champagne).  	 		 			1 			&#1050;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1085;&#1077; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086;&#1081; &#1077;&#1079;&#1076;<b>&#1099;</b> : quel Russe n'aime pas une course (un trajet rapide) ! Cette phrase, connue de tout le monde en Russie, est tir&#233;e du roman de Nicolas Gogol "Les Ames mortes", &#1052;&#1105;&#1088;&#1090;&#1074;&#1099;&#1077; &#1076;<b>&#1091;</b>&#1096;&#1080;.<br /> 			Voici une expression que vous rencontrerez souvent &#224; bord d'un avion : &#1087;&#1088;&#1080;&#1089;&#1090;&#1077;&#1075;&#1085;<b>&#1080;</b>&#1090;&#1077;&#1089;&#1100; : attachez vos ceintures, imp&#233;ratif du verbe &#1087;&#1088;&#1080;&#1089;&#1090;&#1077;&#1075;&#1085;<b>&#1091;</b>&#1090;&#1100;&#1089;&#1103;.<br /> &#183; &#1071; &#1087;&#1088;&#1086;&#1082;&#1072;&#1095;&#1091; &#1074;&#1072;&#1089; &#1089; &#1074;&#1077;&#1090;&#1077;&#1088;&#1082;<b>&#1086;</b>&#1084; (du verbe &#1087;&#1088;&#1086;&#1082;&#1072;&#1090;<b>&#1080;</b>&#1090;&#1100;) : je vous emm&#232;ne vous balader. Autrefois, c'&#233;tait une des expressions favorites des cochers. Elle fait partie aujourd'hui du vocabulaire des automobilistes.  		 			2 			&#1054; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1093; : sur les Russes. Simple rappel sur l'emploi du pr&#233;positionnel apr&#232;s la pr&#233;position &#1086;.  		 			3 			&#1040;&#1074;<b>&#1086;</b>&#1089;&#1100; et &#1076;&#1091;&#1096;<b>&#1072;</b> sont des mots typiquement russes. &#1040;&#1074;<b>&#1086;</b>&#1089;&#1100; refl&#232;te le penchant des Russes pour le risque et aussi l'espoir, souvent peu fond&#233;. Selon le contexte, on peut le traduire par "peut-&#234;tre", "esp&#233;rons que". &#1040;&#1074;<b>&#1086;</b>&#1089;&#1100; &#1085;&#1077; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1077;&#1084; : peut-&#234;tre arriverons-nous quand m&#234;me &#224; temps.<br /> Quant au mot &#1076;&#1091;&#1096;<b>&#1072;</b> (&#226;me), on le retrouve dans de nombreuses expressions. Vous pouvez dire, par exemple :<br /> <b>&#1079;</b>&#1090;&#1086;&#1090; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; &#1084;&#1085;&#1077; &#1087;&#1086; &#1076;&#1091;&#1096;<b>&#1077;</b>, c'est l'&#233;quivalent de &#1086;&#1085; &#1084;&#1085;&#1077; &#1089;&#1080;&#1084;&#1087;&#1072;&#1090;<b>&#1080;</b>&#1095;&#1077;&#1085; : il m'est sympathique.<br /> &#1057;&#1082;&#1072;&#1078;<b>&#1080;</b> &#1084;&#1085;&#1077; &#1086;&#1090; &#1076;&#1091;&#1096;<b>&#1080;</b> : dis-moi franchement. La foi en l'&#226;me, en ce qu'elle a de positif pour l'homme russe, se retrouve chez des grands &#233;crivains comme Tolsto&#239; et Dosto&#239;evski, par exemple.  		 			4 			Les Russes aiment justifier certains traits extr&#233;mistes de leur caract&#232;re par ce proverbe : &#1056;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077; &#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1079;&#1072;&#1087;&#1088;&#1103;&#1075;<b>&#1072;</b>&#1102;&#1090;, &#1076;&#1072; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086; <b>&#1077;</b>&#1076;&#1091;&#1090; : "Les Russes att&#232;lent pendant longtemps, puis vont vite", qui exprime la pr&#233;cipitation avec laquelle ils font finalement une chose longuement pr&#233;par&#233;e.  		 			5 			&#1071; &#1091;&#1078;<b>&#1077;</b> &#1079;&#1076;&#1077;&#1089;&#1100; &#1076;&#1074;<b>&#1072;</b>&#1078;&#1076;&#1099; &#1087;&#1088;&#1086;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1083; : je suis d&#233;j&#224; pass&#233; deux fois par l&#224;. &#1044;&#1074;<b>&#1072;</b>&#1078;&#1076;&#1099; est l'&#233;quivalent de &#1076;&#1074;&#1072; &#1088;<b>&#1072;</b>&#1079;&#1072;. &#1055;&#1088;&#1086;&#1077;&#1079;&#1078;<b>&#1072;</b>&#1090;&#1100; est l'imperfectif de &#1087;&#1088;&#1086;<b>&#1077;</b>&#1093;&#1072;&#1090;&#1100;, form&#233; sur le verbe de mouvement de type d&#233;termin&#233; <b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; (&#1087;&#1088;&#1086;-indique la notion de "passer par") ; l'emploi de l'imperfectif est donc simple &#224; comprendre ici (ce qui n'est pas toujours le cas !). &#1044;&#1074;<b>&#1072;</b>&#1078;&#1076;&#1099; indiquant qu'il y a eu r&#233;p&#233;tition, il est logique d'employer l'imperfectif dans ce cas.  		 			6 			&#1050;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1073;&#1099;&#1083; &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1072;&#1085; &#1050;&#1088;&#1077;&#1084;&#1083;&#1100; : quand le Kremlin a-t-il &#233;t&#233; fond&#233; ? Vous retrouvez ici la forme courte du participe pass&#233; passif &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1072;&#1085; du verbe perfectif &#1086;&#1089;&#1085;&#1086;&#1074;<b>&#1072;</b>&#1090;&#1100;, dont l'imperfectif est &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1099;&#1074;&#1072;&#1090;&#1100;. Comparez encore une fois les formes longues et courtes des participes pass&#233;s passifs. &#1043;<b>&#1086;</b>&#1088;&#1086;&#1076;, &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1072;&#1085;&#1085;&#1099;&#1081; &#1055;&#1077;&#1090;&#1088;<b>&#1086;</b>&#1084; &#1055;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1084;, &#1073;&#1099;&#1083; &#1085;<b>&#1072;</b>&#1079;&#1074;&#1072;&#1085; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1086;&#1084; : la ville, fond&#233;e par Pierre 1er, a &#233;t&#233; appel&#233;e Saint-P&#233;tersbourg : &#1075;<b>&#1086;</b>&#1088;&#1086;&#1076;, &#1085;<b>&#1072;</b>&#1079;&#1074;&#1072;&#1085;&#1085;&#1099;&#1081; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1086;&#1084;, &#1073;&#1099;&#1083; &#1086;&#1089;&#1085;<b>&#1086;</b>&#1074;&#1072;&#1085; &#1055;&#1077;&#1090;&#1088;<b>&#1086;</b>&#1084; &#1055;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1084; : la ville, appel&#233;e Saint-P&#233;tersbourg, a &#233;t&#233; fond&#233;e par Pierre 1er. C'est ici l'occasion de vous rappeler que la forme courte des participes pass&#233;s passifs ne s'emploie qu'au nominatif et ne marque que le genre et le nombre.  		 			7 			&#1042; &#1076;&#1074;&#1077;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1086;&#1084; &#1074;<b>&#1077;</b>&#1082;&#1077; : au XIIe si&#232;cle. De nouveau, l'expression du temps avec &#1042; + pr&#233;positionnel.<br /> &#183; &#1055;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085; (f&#233;minin : &#1087;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1072;; pluriel : &#1087;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1099;) est un participe pass&#233; passif form&#233; sur le perfectif &#1087;&#1086;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1080;&#1090;&#1100; (construire), l'imperfectif &#233;tant &#1089;&#1090;&#1088;<b>&#1086;</b>&#1080;&#1090;&#1100;.  		 			8 			Vous connaissez l'emploi de la particule &#1073;&#1099; dans les expressions du type &#1071; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1073;&#1099; (je voudrais). On la trouve aussi tr&#232;s souvent associ&#233;e au mot <b>&#1077;</b>&#1089;&#1083;&#1080; (si). &#1045;&#1089;&#1083;&#1080; &#1073;&#1099; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1072;&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072;, &#1084;&#1099; &#1087;&#1086;&#1096;&#1083;<b>&#1080;</b> &#1073;&#1099; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; : s'il faisait beau temps, nous irions nous promener. Notez que dans la deuxi&#232;me partie de la phrase, il faut &#233;galement employer &#1073;&#1099; (en fran&#231;ais, on a le conditionnel pr&#233;sent dans la proposition principale et l'imparfait de l'indicatif dans la subordonn&#233;e).<br /> Retenez que la particule &#1073;&#1099; ne s'emploie qu'avec un verbe au pass&#233; et qu'elle se place avant ou apr&#232;s le verbe. &#1071; &#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1083;&#1072; &#1073;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084; / &#1071; &#1073;&#1099; &#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1083;&#1072; <b>&#1079;</b>&#1090;&#1086; &#1089; &#1091;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1089;&#1090;&#1074;&#1080;&#1077;&#1084; : je ferais cela volontiers.<br /> &#183; Le mot &#1073;&#1072;&#1079;<b>&#1072;</b>&#1088; est synonyme de &#1088;<b>&#1099;</b>&#1085;&#1086;&#1082; (march&#233;), mais ces derniers temps le mot &#1088;<b>&#1099;</b>&#1085;&#1086;&#1082; tend &#224; &#234;tre plus utilis&#233; que &#1073;&#1072;&#1079;<b>&#1072;</b>&#1088;. &#1041;&#1072;&#1079;<b>&#1072;</b>&#1088; reste surtout employ&#233; dans les groupes de mots de type &#1082;&#1085;<b>&#1080;</b>&#1078;&#1085;&#1099;&#1081; &#1073;&#1072;&#1079;<b>&#1072;</b>&#1088; : foire (march&#233;) aux livres ; &#1086;&#1074;&#1086;&#1097;&#1085;<b>&#1086;</b>&#1081; &#1073;&#1072;&#1079;<b>&#1072;</b>&#1088; : march&#233; aux l&#233;gumes.  		 			9 			&#1057;&#1090;&#1086;<b>&#1103;</b>&#1085;&#1082;&#1072; &#1079;&#1072;&#1087;&#1088;&#1077;&#1097;&#1077;&#1085;<b>&#1072;</b> : le stationnement est interdit. Ici, le participe pass&#233; passif est form&#233; sur le verbe &#1079;&#1072;&#1087;&#1088;&#1077;&#1090;<b>&#1080;</b>&#1090;&#1100; (interdire). Quant au mot &#1089;&#1090;&#1086;<b>&#1103;</b>&#1085;&#1082;&#1072;, vous avez certainement compris qu'il venait du verbe &#1089;&#1090;&#1086;<b>&#1103;</b>&#1090;&#1100; (&#234;tre debout, &#234;tre arr&#234;t&#233;). Si vous circulez en voiture en Russie, il faut que vous connaissiez aussi l'expression : &#1086;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072; &#1079;&#1072;&#1087;&#1088;&#1077;&#1097;&#1077;&#1085;<b>&#1072;</b> : interdiction de s'arr&#234;ter (l'arr&#234;t est interdit).<br /> &#183; Revoyons un peu ensemble la conjugaison des verbes du premier type avec le verbe risquer. 		<table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre"><b>&#1056;&#1080;&#1089;&#1082;&#1086;&#1074;<b>&#1072;</b>&#1090;&#1100;</b> (imperfectif)</th> 							<th class="centre"><b>&#1056;&#1080;&#1089;&#1082;&#1085;&#1091;&#1090;&#1100;</b> (perfectif) </th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1102; </td> 							<td class="centre">&#1103; &#1088;&#1080;&#1089;&#1082;&#1085;&#1091; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1077;&#1096;&#1100; </td> 							<td class="centre">&#1090;&#1099; &#1088;&#1080;&#1089;&#1082;&#1085;&#1105;&#1096;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1077;&#1090; </td> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1088;&#1080;&#1089;&#1082;&#1085;&#1105;&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1077;&#1084; </td> 							<td class="centre">&#1084;&#1099; &#1088;&#1080;&#1089;&#1082;&#1085;&#1105;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1077;&#1090;&#1077; </td> 							<td class="centre">&#1074;&#1099; &#1088;&#1080;&#1089;&#1082;&#1085;&#1105;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1088;&#1080;&#1089;&#1082;<b>&#1091;</b>&#1102;&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1088;&#1080;&#1089;&#1082;&#1085;<b>&#1091;</b>&#1090; </td></tr></tbody></table> 	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

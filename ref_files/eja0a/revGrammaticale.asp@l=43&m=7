@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 	 		<p>Ce nouveau cycle de sept le&#231;ons va vous faire franchir une &#233;tape importante dans votre apprentissage du russe. Les phrases, plus longues et plus complexes, vont vous permettre d'&#233;largir votre vocabulaire, d'aborder de nouveaux points de grammaire et d'approfondir ceux que vous connaissez d&#233;j&#224;. </p> 		<p>Le fil conducteur de ces le&#231;ons sera la nature, le temps, l'environnement naturel des Russes. </p> 	<h3>
+		&#1044;&#1077;&#1085;&#1100; &#1095;&#1091;&#1076;&#1077;&#1089;&#1085;&#1099;&#1081; 
+		Une journ&#233;e merveilleuse</h3> 	 		 			1 			- "&#1052;&#1086;&#1088;<b>&#1086;</b>&#1079; &#1080; &#1089;<b>&#1086;</b>&#1083;&#1085;&#1094;&#1077;, &#1076;&#1077;&#1085;&#1100; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1099;&#1081;!" 			 			[Du] gel et [du] soleil, [quelle] journ&#233;e merveilleuse !  		 			2 			- "&#1045;&#1097;&#1105; &#1090;&#1099; &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1077;&#1096;&#1100;, &#1076;&#1088;<b>&#1091;</b>&#1075; &#1087;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1081;..." &#1047;&#1085;<b>&#1072;</b>&#1102;, &#1079;&#1085;<b>&#1072;</b>&#1102;, <b>&#1079;</b>&#1090;&#1086; &#1055;<b>&#1091;</b>&#1096;&#1082;&#1080;&#1085;. 			 				1 			"Tu sommeilles encore, ami charmant ..." Je sais, je sais, c'est [du] Pouchkine.  		 			3 			- &#1057;&#1086;&#1074;&#1077;&#1088;&#1096;<b>&#1077;</b>&#1085;&#1085;&#1086; &#1074;<b>&#1077;</b>&#1088;&#1085;&#1086;, &#1050;&#1072;&#1090;&#1088;<b>&#1080;</b>&#1085;, &#1072; &#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1096;&#1100;, &#1095;&#1090;&#1086; &#1076;<b>&#1072;</b>&#1083;&#1100;&#1096;&#1077;? 			 				2 			Tout &#224; fait juste, Catherine, et tu te souviens de la suite (tu te souviens ce qui est plus loin) ?  		 			4 			- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, "&#1055;&#1086;&#1088;<b>&#1072;</b>, &#1082;&#1088;&#1072;&#1089;<b>&#1072;</b>&#1074;&#1080;&#1094;&#1072;, &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1089;&#1100;..." &#1071;, &#1082;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1091;&#1078;<b>&#1077;</b> &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1074;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1072;, &#1072; &#1095;&#1090;&#1086; &#1090;&#1099; &#1079;&#1074;&#1086;&#1085;<b>&#1080;</b>&#1096;&#1100; &#1074; &#1090;&#1072;&#1082;<b>&#1091;</b>&#1102; &#1088;&#1072;&#1085;&#1100;? 			 				3 			Bien s&#251;r : "Il est temps, ma beaut&#233;, r&#233;veille-toi". &#192; propos, je suis d&#233;j&#224; presque lev&#233;e, pourquoi t&#233;l&#233;phones-tu de si bonne heure (&#224; une telle heure matinale) ?  		 			5 			- &#1050;&#1072;&#1082;! &#1058;&#1099; &#1079;&#1072;&#1073;<b>&#1099;</b>&#1083;&#1072;, &#1084;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1084; &#1082;&#1072;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1083;<b>&#1099;</b>&#1078;&#1072;&#1093;. &#1055;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1072;&#1103;. &#1055;&#1086; &#1088;<b>&#1072;</b>&#1076;&#1080;&#1086; &#1086;&#1073;&#1077;&#1097;<b>&#1072;</b>&#1083;&#1080; &#1089;<b>&#1086;</b>&#1083;&#1085;&#1094;&#1077; &#1080; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1089;&#1085;&#1077;&#1078;<b>&#1086;</b>&#1082;. 			 				4 			Comment [cela] ! Tu as oubli&#233; que nous allions (nous allons) faire du ski ! Le temps est [tout] simplement merveilleux. &#192; la radio, ils ont promis du soleil et un peu de neige (une petite neige).  		 			6 			- &#1053;&#1072;&#1089;&#1095;&#1105;&#1090; &#1089;<b>&#1086;</b>&#1083;&#1085;&#1094;&#1072; &#1074;&#1072;&#1096; &#1087;&#1086;<b>&#1079;</b>&#1090; &#1080; &#1088;<b>&#1072;</b>&#1076;&#1080;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1074;&#1099;, &#1085;&#1086; &#1074;&#1086;&#1090; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076; &#1091;&#1078;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081;. 			 			Pour le soleil (&#224; propos du soleil), votre po&#232;te et la radio ont raison, mais voil&#224;, le froid est terrible.  		 			7 			- &#1044;&#1072; &#1085;&#1077;&#1090;! &#1042;&#1089;&#1077;&#1075;<b>&#1086;</b> &#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074;. 			 				5 			Mais non ! Il fait seulement [moins] quinze degr&#233;s.  		 			8 			- &#1053;&#1086; &#1076;&#1083;&#1103; &#1084;&#1077;&#1085;<b>&#1103;</b> <b>&#1079;</b>&#1090;&#1086; &#1089;&#1083;<b>&#1080;</b>&#1096;&#1082;&#1086;&#1084;. &#1071; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b>, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b>, &#1082;&#1072;&#1082; &#1091; &#1085;&#1072;&#1089; &#1074; &#1040;&#1085;&#1075;&#1083;&#1080;&#1080; &#1079;&#1080;&#1084;<b>&#1086;</b>&#1081;. 			 				6 			Mais pour moi c'est trop. J'aime quand il fait doux, comme chez nous en Angleterre pendant l'hiver.  		 			9 			- &#1069;&#1093;, &#1090;&#1099;! &#1053;<b>&#1077;</b>&#1078;&#1077;&#1085;&#1082;&#1072;! "&#1042; &#1079;<b>&#1080;</b>&#1084;&#1085;&#1080;&#1081; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076; &#1082;<b>&#1072;</b>&#1078;&#1076;&#1099;&#1081; &#1084;<b>&#1086;</b>&#1083;&#1086;&#1076;" - &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077;. &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081;, &#1076;&#1072;&#1074;<b>&#1072;</b>&#1081; &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1077;&#1085;&#1100;&#1082;&#1086; &#1086;&#1076;&#1077;&#1074;<b>&#1072;</b>&#1081;&#1089;&#1103;, &#1085;&#1072;&#1076;<b>&#1077;</b>&#1085;&#1100; &#1090;&#1105;&#1087;&#1083;<b>&#1091;</b>&#1102; &#1082;<b>&#1091;</b>&#1088;&#1090;&#1082;&#1091;, &#1090;&#1105;&#1087;&#1083;&#1099;&#1077; &#1073;&#1088;<b>&#1102;</b>&#1082;&#1080; &#1080; &#1085;&#1077; &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1096;&#1077;&#1088;&#1089;&#1090;&#1103;&#1085;<b>&#1099;</b>&#1077; &#1085;&#1086;&#1089;&#1082;<b>&#1080;</b>. 			 				7 			Ah, toi, alors ! Douillette ! "Dans le froid de l'hiver, tout le monde (chacun) est jeune", disent les Russes. Allez, allez, habille-toi vite, mets une veste chaude, un pantalon chaud et n'oublie pas [tes] chaussettes de laine.  		 			10 			- &#1052;<b>&#1086;</b>&#1078;&#1077;&#1090;, &#1077;&#1097;&#1105; &#1080; &#1096;<b>&#1091;</b>&#1073;&#1091; &#1074;&#1079;&#1103;&#1090;&#1100;? 			 			Et peut-&#234;tre [faut-il] prendre aussi une fourrure ?  		 			11 			- &#1056;&#1072;&#1079; &#1090;&#1099; &#1096;<b>&#1091;</b>&#1090;&#1080;&#1096;&#1100;, &#1079;&#1085;<b>&#1072;</b>&#1095;&#1080;&#1090;, &#1074;&#1089;&#1105; &#1074; &#1087;&#1086;&#1088;<b>&#1103;</b>&#1076;&#1082;&#1077;. &#1063;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1087;&#1086;&#1083;&#1095;&#1072;&#1089;<b>&#1072;</b> &#1103; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091;. &#1041;<b>&#1091;</b>&#1076;&#1100; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1072;. 			 				8 			Si tu plaisantes, alors c'est que tout va bien (cela veut dire que tout est en ordre). Je passerai te chercher (apr&#232;s toi) dans une demi-heure. Sois pr&#234;te.  		 			 				<b>2 </b> 				&#1055;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1081; (charmant) : dans ce mot, le &#1090; ne se prononce pas : pril<b>ie</b>snyi.<br /> Rappelez-vous que dans le mot &#1089;<b>&#1086;</b>&#1083;&#1085;&#1094;&#1077; (soleil) le &#1083; ne se prononce pas : s<b>o</b>ntsy.  			 				<b>6 </b> 				Le &#1095; de &#1085;&#1072;&#1089;&#1095;<b>&#1105;</b>&#1090; (&#224; propos) se prononce comme un &#1097; : chtch. Vous direz donc : naschtch<b>io</b>t. Reconnaissez que le cyrillique est bien commode parfois : le &#1097; &#233;quivaut &#224; cinq lettres fran&#231;aises !  			 				<b>9-11</b> 				 				Vous vous souvenez qu'en fin de mot les consonnes sonores deviennent sourdes. Eh bien, de la m&#234;me fa&#231;on, une consonne sonore suivie d'un signe mou en fin de mot se prononce comme une consonne sourde suivie d'un signe mou. &#1053;&#1077; &#1079;&#1072;&#1073;<b>&#1091;</b>&#1076;&#1100; (n'oublie pas) se lit nizab<b>ou</b>t(i) ; et &#1073;<b>&#1091;</b>&#1076;&#1100; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1072; (sois pr&#234;te) : bout(i) gat<b>o</b>va.  	 		 			1 			Pratiquement, tous les adjectifs dont la consonne finale du radical est un &#1085; ont leur terminaison en -&#1099;&#1081; au masculin, -&#1072;&#1103; au f&#233;minin, -&#1086;&#1077; au neutre et -&#1099;&#1077; au pluriel. Ainsi, on dira : &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100; (un jour merveilleux) ; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1072;&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; (un temps merveilleux) ; &#1087;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1081; &#1076;&#1088;<b>&#1091;</b>&#1075; (un ami charmant) ; &#1087;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1072;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072; (une jeune fille charmante) ; &#1095;&#1091;&#1076;<b>&#1077;</b>&#1089;&#1085;&#1086;&#1077; &#1091;&#1090;&#1088;&#1086; (un matin merveilleux) ; &#1087;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1099;&#1077; &#1076;<b>&#1077;</b>&#1090;&#1080; (des enfants charmants). Il y a, &#233;videmment, des exceptions. Dans la phrase 9, vous rencontrerez l'adjectif &#1079;<b>&#1080;</b>&#1084;&#1085;&#1080;&#1081; (d'hiver, hivernal). Il suffit de le retenir ! Pour vous aider, sachez que les adjectifs form&#233;s sur les noms de saisons ont leur terminaison en -&#1080;&#1081; pour les masculins, -&#1103;&#1103; pour les f&#233;minins, -&#1077;&#1077; pour les neutres et -&#1080;&#1077; pour les pluriels.<br />  Vous direz alors : &#1079;<b>&#1080;</b>&#1084;&#1085;&#1103;&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; (un temps d'hiver) ; &#1079;<b>&#1080;</b>&#1084;&#1085;&#1077;&#1077; &#1085;<b>&#1077;</b>&#1073;&#1086; (un ciel d'hiver) ; &#1079;<b>&#1080;</b>&#1084;&#1085;&#1080;&#1077; &#1076;&#1085;&#1080; (des jours d'hiver).<br /> &#183; Revenons maintenant &#224; la conjugaison des verbes. Dans la phrase 2, vous avez deux verbes du "premier type" (les verbes en russe sont class&#233;s selon diff&#233;rents types). Les verbes du premier type sont ceux dont la 2e personne du singulier se termine par &#1077;&#1096;&#1100;/&#1105;&#1096;&#1100;. Ce sont les plus r&#233;pandus.<br /> Vous connaissez la conjugaison de &#1079;&#1085;&#1072;&#1090;&#1100; (savoir). La conjugaison de &#1076;&#1088;&#1077;&#1084;<b>&#1072;</b>&#1090;&#1100; (sommeiller) ne vous est pas encore famili&#232;re. Lisez-la attentivement : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1076;&#1088;&#1077;&#1084;&#1083;<b>&#1102;</b></td> 							<td class="centre">&#1084;&#1099; &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1077;&#1084;</td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1077;&#1096;&#1100;</td> 							<td class="centre">&#1074;&#1099; &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1077;&#1090;&#1077;</td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1077;&#1090;</td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1076;&#1088;<b>&#1077;</b>&#1084;&#1083;&#1102;&#1090;</td></tr></tbody></table> 		 			2 			&#1058;&#1099; &#1087;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1096;&#1100; : tu te souviens. La terminaison en -&#1080;&#1096;&#1100; caract&#233;rise les verbes du deuxi&#232;me type. "Ils se souviennent" se dira : &#1086;&#1085;<b>&#1080;</b> &#1087;<b>&#1086;</b>&#1084;&#1085;&#1103;&#1090;.  		 			3 			&#1055;&#1086;&#1088;<b>&#1072;</b> (il est temps), que nous avons d&#233;j&#224; rencontr&#233; le&#231;on 17 (note 2), s'emploie soit seul, comme dans cette phrase, soit dans le cadre d'expressions comme : &#1087;&#1086;&#1088;<b>&#1072;</b> &#1079;&#1072; &#1089;&#1090;&#1086;&#1083; (il est temps de se mettre &#224; table) ou &#1087;&#1086;&#1088;<b>&#1072;</b> &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1090;&#1100; (il est temps de se mettre au travail).<br /> &#183; L'infinitif &#1087;&#1088;&#1086;&#1089;&#1099;&#1087;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (se r&#233;veiller) est imperfectif. Le perfectif est &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1091;</b>&#1090;&#1100;&#1089;&#1103;, comme le suffixe -&#1085;&#1091; nous l'indique. La 2e personne du singulier, &#1087;&#1088;&#1086;&#1089;&#1085;&#1105;&#1096;&#1100;&#1089;&#1103;, nous permet de reconna&#238;tre qu'il s'agit d'un verbe du premier type.<br /> Imperfectif : &#1103; &#1087;&#1088;&#1086;&#1089;&#1099;&#1087;<b>&#1072;</b>&#1102;&#1089;&#1100; : je me r&#233;veille ; &#1090;&#1099; &#1087;&#1088;&#1086;&#1089;&#1099;&#1087;<b>&#1072;</b>&#1077;&#1096;&#1100;&#1089;&#1103; : tu te r&#233;veilles.<br /> Perfectif : &#1103; &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1091;</b>&#1089;&#1100; : je me r&#233;veillerai ; &#1090;&#1099; &#1087;&#1088;&#1086;&#1089;&#1085;&#1105;&#1096;&#1100;&#1089;&#1103; : tu te r&#233;veilleras.<br /> Les deux formes de l'imp&#233;ratif sont : &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1089;&#1100;! (r&#233;veille-toi !) ; &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1090;&#1077;&#1089;&#1100; (r&#233;veillez-vous !).<br /> &#183; &#1063;&#1090;&#1086; &#1090;&#1099; &#1079;&#1074;&#1086;&#1085;<b>&#1080;</b>&#1096;&#1100; &#1074; &#1090;&#1072;&#1082;<b>&#1091;</b>&#1102; &#1088;&#1072;&#1085;&#1100;? Pourquoi t&#233;l&#233;phones-tu si t&#244;t ? Bien s&#251;r, Catherine aurait pu dire : &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; &#1090;&#1099; &#1079;&#1074;&#1086;&#1085;<b>&#1080;</b>&#1096;&#1100; &#1074; &#1090;&#1072;&#1082;<b>&#1091;</b>&#1102; &#1088;&#1072;&#1085;&#1100;? mais en utilisant &#1095;&#1090;&#1086;, elle montre qu'elle conna&#238;t d&#233;j&#224; bien les expressions famili&#232;res. Vous aussi, vous allez pouvoir, peu &#224; peu, vous constituer un r&#233;pertoire de mots et d'expressions famili&#232;res.  		 			4 			&#1050;&#1072;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1083;<b>&#1099;</b>&#1078;&#1072;&#1093; : mot &#224; mot, se promener sur des skis, c'est-&#224;-dire skier. Avec la m&#234;me construction, on trouvera : &#1082;&#1072;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1082;&#1086;&#1085;&#1100;&#1082;<b>&#1072;</b>&#1093; (se promener sur des patins, c'est-&#224;-dire patiner) ; &#1082;&#1072;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1074;&#1077;&#1083;&#1086;&#1089;&#1080;&#1087;<b>&#1077;</b>&#1076;&#1077; (faire du v&#233;lo). Le verbe s'emploie lorsque l'activit&#233; sportive est consid&#233;r&#233;e comme un loisir. Si l'activit&#233; est envisag&#233;e comme un sport ou un savoir-faire, on dira : &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; &#1085;&#1072; &#1083;<b>&#1099;</b>&#1078;&#1072;&#1093; (skier) ; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; &#1085;&#1072; &#1082;&#1086;&#1085;&#1100;&#1082;<b>&#1072;</b>&#1093; (patiner) et <b>&#1077;</b>&#1079;&#1076;&#1080;&#1090;&#1100; &#1085;&#1072; &#1074;&#1077;&#1083;&#1086;&#1089;&#1080;&#1087;<b>&#1077;</b>&#1076;&#1077; (faire du v&#233;lo).<br /> &#183; &#1057;&#1085;&#1077;&#1078;<b>&#1086;</b>&#1082; : petite neige. Vous le savez d&#233;j&#224;, les Russes adorent les diminutifs affectifs. On peut dire, par exemple, &#1076;&#1088;&#1091;&#1078;<b>&#1086;</b>&#1082; (petit ami). Attention, ce n'est pas le petit ami-copain, c'est simplement une fa&#231;on plus affectueuse de dire &#1076;&#1088;<b>&#1091;</b>&#1075;.  		 			5 			&#1044;&#1072; &#1085;&#1077;&#1090;! Ici, le &#1076;&#1072; retrouve son sens oubli&#233; de "mais". &#1055;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074; : [moins] 15 degr&#233;s. Le "moins" n'est presque jamais exprim&#233;. On pourrait trouver, mais c'est rare, &#1084;<b>&#1080;</b>&#1085;&#1091;&#1089; &#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1075;&#1088;<b>&#1072;</b>&#1076;&#1091;&#1089;&#1086;&#1074;.  		 			6 			&#1047;&#1080;&#1084;<b>&#1086;</b>&#1081; : en hiver. Dans la le&#231;on 29, vous avez d&#233;j&#224; rencontr&#233; la forme &#1083;<b>&#1077;</b>&#1090;&#1086;&#1084; (en &#233;t&#233;). Voyons les deux qui vous manquent : &#1074;&#1077;&#1089;&#1085;<b>&#1086;</b>&#1081; (au printemps) et <b>&#1086;</b>&#1089;&#1077;&#1085;&#1100;&#1102; (en automne). Tous ces mots sont les formes instrumentales de &#1074;&#1077;&#1089;&#1085;<b>&#1072;</b>, f. (printemps), &#1083;<b>&#1077;</b>&#1090;&#1086;, n. (&#233;t&#233;), <b>&#1086;</b>&#1089;&#1077;&#1085;&#1100;, f. (automne) et &#1079;&#1080;&#1084;<b>&#1072;</b>, f. (hiver). Ces mots &#224; l'instrumental (sans pr&#233;position) r&#233;pondent &#224; la question &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b>? (quand ?). &#1047;&#1080;&#1084;<b>&#1086;</b>&#1081; &#1083;<b>&#1102;</b>&#1076;&#1080; &#1082;&#1072;&#1090;<b>&#1072;</b>&#1102;&#1090;&#1089;&#1103; &#1085;&#1072; &#1083;<b>&#1099;</b>&#1078;&#1072;&#1093; : en hiver, les gens skient.  		 			7 			&#1053;<b>&#1077;</b>&#1078;&#1077;&#1085;&#1082;&#1072;, douillet, douillette, s'emploie aussi bien au masculin qu'au f&#233;minin.<br /> &#1050;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1090;&#1099; &#1085;<b>&#1077;</b>&#1078;&#1077;&#1085;&#1082;&#1072;! Comme tu es douillet !<br /> &#1050;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1090;&#1099; &#1085;<b>&#1077;</b>&#1078;&#1077;&#1085;&#1082;&#1072;! Comme tu es douillette !<br /> &#183; &#1041;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1077;&#1085;&#1100;&#1082;&#1086; : vite, mais est moins imp&#233;ratif que &#1073;<b>&#1099;</b>&#1089;&#1090;&#1088;&#1086;.<br /> &#183; Faites bien la diff&#233;rence entre &#1085;&#1072;&#1076;<b>&#1077;</b>&#1090;&#1100; : mettre, rev&#234;tir (un v&#234;tement) et &#1086;&#1076;<b>&#1077;</b>&#1090;&#1100; (&#1082;&#1086;&#1075;<b>&#1086;</b>) : habiller (quelqu'un).<br /> &#1084;<b>&#1072;</b>&#1084;&#1072; &#1086;&#1076;<b>&#1077;</b>&#1083;&#1072; &#1088;&#1077;&#1073;&#1105;&#1085;&#1082;&#1072; : la maman a habill&#233; son enfant ; &#1084;<b>&#1072;</b>&#1084;&#1072; &#1085;&#1072;&#1076;<b>&#1077;</b>&#1083;&#1072; &#1085;&#1072; &#1088;&#1077;&#1073;&#1105;&#1085;&#1082;&#1072; &#1087;&#1072;&#1083;&#1100;&#1090;<b>&#1086;</b> : la maman a mis un manteau &#224; son enfant. Et, bien s&#251;r, vous direz : &#1103; &#1086;&#1076;<b>&#1077;</b>&#1083;&#1089;&#1103; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b> : je me suis habill&#233; chaudement.  		 			8 			&#1056;&#1072;&#1079; &#1090;&#1099; &#1096;<b>&#1091;</b>&#1090;&#1080;&#1096;&#1100; : ici &#1088;&#1072;&#1079; = <b>&#1077;</b>&#1089;&#1083;&#1080;, c'est-&#224;-dire "du moment que" (du moment que tu plaisantes...). La construction avec &#1088;&#1072;&#1079; est plus famili&#232;re.<br /> &#183; &#1063;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1087;&#1086;&#1083;&#1095;&#1072;&#1089;<b>&#1072;</b> &#1103; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091; : je passerai te chercher dans une demi-heure. Si vous &#234;tes &#224; pied, vous direz : &#1103; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; &#1079;&#1072;&#1081;&#1076;<b>&#1091;</b>.<br /> &#183; &#1041;<b>&#1091;</b>&#1076;&#1100; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1072; : sois pr&#234;te. Retenez bien les deux personnes de l'imp&#233;ratif du verbe &#1073;&#1099;&#1090;&#1100; (&#234;tre). &#1041;<b>&#1091;</b>&#1076;&#1100; : sois ; &#1073;<b>&#1091;</b>&#1076;&#1100;&#1090;&#1077; : soyez. &#1041;<b>&#1091;</b>&#1076;&#1100;&#1090;&#1077; &#1076;<b>&#1086;</b>&#1084;&#1072;, &#1103; &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091; &#1079;&#1072; &#1074;<b>&#1072;</b>&#1084;&#1080; : soyez chez vous, je passerai vous prendre.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

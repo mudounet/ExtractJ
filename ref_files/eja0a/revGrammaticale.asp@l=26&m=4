@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Beaucoup d'&#233;l&#233;ments de cette le&#231;on vous &#233;tant familiers, ce dialogue un peu plus long que les pr&#233;c&#233;dents ne devrait pas vous poser de probl&#232;me.</i> 		</p> 	<h3>
+		&#1052;&#1099; &#1079;&#1085;&#1072;&#1082;&#1086;&#1084;&#1099; &#1089;&#1090;&#1086; &#1083;&#1077;&#1090; 
+		Nous nous connaissons depuis des ann&#233;es (Nous sommes connus [depuis] cent ans)
+		</h3> 	 		 			1 			- &#1057;&#1090;&#1086; &#1083;&#1077;&#1090; &#1084;&#1099; &#1089; &#1074;&#1072;&#1084;&#1080; &#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1099;, &#1072; &#1074;&#1099; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1080;. 			 				1 			Nous nous connaissons depuis des ann&#233;es et vous n'&#234;tes jamais venu chez moi (Cent ans [que] nous avec vous sommes connus et vous chez moi n'&#233;tiez jamais).  		 			2 			- &#1044;&#1072;, &#1079;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1077;, &#1074;&#1089;&#1105; &#1076;&#1077;&#1083;<b>&#1072;</b>, &#1076;&#1077;&#1083;<b>&#1072;</b>. 			 			Oui, vous savez [ce que c'est], les affaires, toujours les affaires.  		 			3 			- &#1056;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;: &#1074;&#1089;&#1077; &#1076;&#1077;&#1083;<b>&#1072;</b> &#1085;&#1077; &#1087;&#1077;&#1088;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1077;&#1096;&#1100;. &#1054;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1100;&#1090;&#1077; &#1074;&#1089;&#1105; &#1080; &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;. 			&#1055;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084; : prihad<b>i</b>ti knam : venez chez nous. 			 				2 			Les Russes disent : tu n'arriveras jamais &#224; tout faire (tu ne feras pas toutes les affaires). Laissez tout et venez chez nous ce soir.  		 			4 			- &#1050;&#1072;&#1082;!? &#1055;&#1088;<b>&#1103;</b>&#1084;&#1086; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;? 			&#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : siv<b>o</b>dnia v<b>i&#233;</b>tchiram : ce soir.  			 			Comment [cela] ? Ce soir m&#234;me (directement aujourd'hui soir) ?  		 			5 			- &#1040; &#1095;&#1090;&#1086; &#1079;&#1076;&#1077;&#1089;&#1100; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1075;&#1086;? &#1055;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1079;<b>&#1072;</b>&#1087;&#1088;&#1086;&#1089;&#1090;&#1086;. &#1046;&#1077;&#1085;<b>&#1072;</b> &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1088;<b>&#1072;</b>&#1076;&#1072;. 			 			Et alors (Et qu'y a-t-il ici de tel) ? Venez en toute simplicit&#233;. [Ma] femme sera contente.  		 			6 			- &#1041;&#1086;<b>&#1102;</b>&#1089;&#1100;, &#1077;&#1081; &#1085;&#1077; &#1076;&#1086; &#1084;&#1077;&#1085;<b>&#1103;</b>. &#1054;&#1085;<b>&#1072;</b> &#1090;&#1072;&#1082; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090;. 			 				3 			J'ai peur qu'elle se soucie peu de moi (&#224; elle pas jusqu'&#224; moi). Elle travaille tellement.  		 			7 			- &#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b>, &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b>. &#1047;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1074;&#1099;&#1093;&#1086;&#1076;&#1085;<b>&#1086;</b>&#1081;. 			 				4 			Mais non, mais non (rien, rien). Demain, [c'est] jour de cong&#233;.  		 			8 			- &#1040; &#1087;&#1086;&#1090;<b>&#1086;</b>&#1084;, &#1103; &#1079;&#1085;<b>&#1072;</b>&#1102; &#1074;&#1072;&#1089; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1093;: &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; &#1087;&#1086; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;&#1072;&#1084;, &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100;. 			 				5 			Oui, et puis je vous connais, vous, les Russes : vous allez courir les magasins, faire la cuisine.  		 			9 			- &#1059; &#1085;&#1072;&#1089; &#1074;&#1089;&#1105; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1086;. &#1063;&#1077;&#1084; &#1073;&#1086;&#1075;<b>&#1072;</b>&#1090;&#1099;, &#1090;&#1077;&#1084; &#1080; &#1088;<b>&#1072;</b>&#1076;&#1099;. 			 				6 			Tout est pr&#234;t. Ce sera &#224; la bonne franquette (En quoi nous sommes riches, de cela nous sommes contents).  		 			10 			- &#1055;&#1086;&#1089;&#1083;<b>&#1077;</b>&#1076;&#1085;&#1102;&#1102; &#1092;&#1088;<b>&#1072;</b>&#1079;&#1091; &#1103; &#1085;&#1077; &#1087;<b>&#1086;</b>&#1085;&#1103;&#1083;&#1072;. 			 			Je n'ai pas compris [votre] derni&#232;re phrase.  		 			11 			- &#1058;&#1072;&#1082; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1093;&#1086;&#1090;<b>&#1103;</b>&#1090; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100;, &#1095;&#1090;&#1086; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1074;&#1089;&#1105; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086;, &#1087;&#1086;&#1089;&#1077;&#1084;<b>&#1077;</b>&#1081;&#1085;&#1086;&#1084;<b>&#1091;</b>. 			 			Les Russes disent &#231;a quand ils veulent dire que tout se passera simplement, en famille (tout sera simple, comme en famille).  		 			12 			- &#1057;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1089;&#1085;&#1072;. &#1040; &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1074;&#1072;&#1096; <b>&#1072;</b>&#1076;&#1088;&#1077;&#1089;? 			 			[Je suis] d'accord. Et quelle est votre adresse ?  		 			13 			- &#1042;&#1086;&#1090; &#1080; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>, &#1055;&#1080;&#1096;<b>&#1080;</b>&#1090;&#1077; : &#1091;&#1083;&#1080;&#1094;&#1072; &#1042;<b>&#1086;</b>&#1083;&#1075;&#1080;&#1085;&#1072;, &#1076;&#1086;&#1084; 6, &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1072; 14. &#1040; &#1083;<b>&#1091;</b>&#1095;&#1096;&#1077; &#1103; &#1074;&#1072;&#1089; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1091; &#1091; &#1084;&#1077;&#1090;&#1088;<b>&#1086;</b> "&#1041;&#1077;&#1083;<b>&#1103;</b>&#1077;&#1074;&#1086;" 			 				7 			[Voil&#224; qui est] bien. &#201;crivez : 6, rue Volguine, appartement 14 (Rue Volguine, maison 6, appartement 14). Le mieux serait que je vous retrouve (rencontre) au m&#233;tro "Bielia&#239;evo".  		 			14 			- &#1071; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1088;<b>&#1086;</b>&#1074;&#1085;&#1086; &#1074; &#1089;&#1077;&#1084;&#1100;. 			 			J'[y] serai &#224; sept heures pile.  		 			15 			- &#1056;<b>&#1086;</b>&#1074;&#1085;&#1086; <b>&#1080;</b>&#1083;&#1080; &#1095;<b>&#1091;</b>&#1090;&#1100;-&#1095;<b>&#1091;</b>&#1090;&#1100; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1077;&#1090;&#1077;? 			&#1063;<b>&#1091;</b>&#1090;&#1100;-&#1095;<b>&#1091;</b>&#1090;&#1100; : tchout(i)-tchout(i) : un petit peu.  			 				8 			Pile ? Ou bien serez-vous un peu en retard ?  		 			16 			- &#1053;&#1077;&#1090;, &#1085;&#1077;&#1090;, &#1103; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090;&#1072; &#1074; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090;&#1091;. 			 			Non, non, je serai &#224; l'heure (minute dans la minute).  		 			 				N'oubliez pas de marquer le signe mou apr&#232;s le &#1090; en pronon&#231;ant un tout petit "i".  	 		 			1 			&#1057;&#1090;&#1086; &#1083;&#1077;&#1090; &#1084;&#1099; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080; &#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1099; : cela fait des ann&#233;es qu'on se conna&#238;t. L'expression &#1089;&#1090;&#1086; &#1083;&#1077;&#1090;, litt&#233;ralement "cent ans", est tr&#232;s courante. Ainsi, on peut dire : &#1057;&#1090;&#1086; &#1083;&#1077;&#1090; &#1103; &#1074;&#1072;&#1089; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;, qui se traduit par "Cela fait des ann&#233;es que je ne vous ai pas vu".  		 			2 			Comme nous l'avons d&#233;j&#224; vu, le pr&#233;verbe transforme le sens du verbe (Vous vous habituerez vite au sens et &#224; l'emploi des pr&#233;verbes.) Ici, le pr&#233;verbe nepe- est associ&#233; au verbe &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;. Le verbe &#1087;&#1077;&#1088;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; signifie "faire beaucoup de choses".<br /> 			Comparez ces deux phrases : &#1054;&#1085; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1095;&#1080;&#1090;<b>&#1072;</b>&#1090;&#1100; (il aime lire) ; &#1054;&#1085; &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1083; &#1074;&#1089;&#1077; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1080; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1072; (il a lu tous les livres de son fr&#232;re). Dans ce dernier exemple, le pr&#233;verbe donne l'id&#233;e de "beaucoup", "totalement". Il a &#233;galement d'autres sens que nous verrons plus tard.<br /> &#183; On dit : &#1055;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084; : venez chez nous, mais on dira : &#1055;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082;&#1086; &#1084;&#1085;&#1077; : venez chez moi. Le pr&#233;verbe &#1087;&#1088;&#1080;- associ&#233; au verbe &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; indique l'id&#233;e d'arriv&#233;e.<br /> &#183; &#1042;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; (ce soir), mais on peut aussi dire comme dans la phrase 4 : &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : aujourd'hui soir, pour &#234;tre plus pr&#233;cis.  		 			3 			&#1045;&#1081; &#1085;&#1077; &#1076;&#1086; &#1084;&#1077;&#1085;<b>&#1103;</b> : cette expression, difficile &#224; traduire litt&#233;ralement, signifie "avoir d'autres chats &#224; fouetter". Le pronom, dans ce cas-l&#224;, se met au datif, ici &#1077;&#1081; (datif de &#1086;&#1085;<b>&#1072;</b>).  		 			4 			&#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b>, &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> : mais non, mais non. &#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> peut signifier beaucoup de choses. Selon le contexte, les traductions en seront tr&#232;s diff&#233;rentes. Peu &#224; peu, vous saurez dans quelles situations l'employer.  		 			5 			&#1041;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; &#1087;&#1086; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;&#1072;&#1084; : courir les magasins. Pour les Russes, cette expression signifie "essayer de trouver quelque chose (nourriture, v&#234;tements, etc.) en faisant beaucoup de magasins".  		 			6 			"&#1063;&#1077;&#1084; &#1073;&#1086;&#1075;<b>&#1072;</b>&#1090;&#1099;, &#1090;&#1077;&#1084; &#1080; &#1088;<b>&#1072;</b>&#1076;&#1099;": ce sera &#224; la bonne franquette, litt&#233;ralement : en quoi nous sommes riches, de cela nous sommes contents. Ce proverbe, tr&#232;s populaire, traduit le bonheur qu'ont les Russes &#224; recevoir chez eux. Pour eux, l'important est avant tout d'&#234;tre avec leurs amis.  		 			7 			Voici comment on &#233;crit une adresse en Russie : <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1056;&#1086;&#1089;&#1089;<b>&#1080;</b>&#1103; </td> 							<td class="centre">Russie </td></tr> 						<tr class="centre"> 							<td class="centre">&#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1072;</b> </td> 							<td class="centre">Moscou </td></tr> 						<tr class="centre"> 							<td class="centre">&#1059;&#1083;&#1080;&#1094;&#1072; &#1042;<b>&#1086;</b>&#1083;&#1075;&#1080;&#1085;&#1072;, &#1076;&#1086;&#1084; 6,  </td> 							<td class="centre">rue Volguine, maison 6, </td></tr> 						<tr class="centre"> 							<td class="centre">&#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1072; 14  </td> 							<td class="centre">appartement 14 </td></tr> 						<tr class="centre"> 							<td class="centre">&#1048;&#1074;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1091; &#1042;&#1083;&#1072;&#1076;<b>&#1080;</b>&#1084;&#1080;&#1088;&#1091; </td> 							<td class="centre">(&#224;) Vladimir Ivanov </td></tr></tbody></table><br /> &#183; Voyons ensemble la conjugaison de &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1090;&#1100; (rencontrer) : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1091; </td> 							<td class="centre">je te rencontrerai </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1084;&#1077;&#1085;&#1103;" &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1096;&#1100; </td> 							<td class="centre">tu me rencontreras </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; &#1077;&#1105; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1090; </td> 							<td class="centre">il la rencontrera </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1077;&#1075;<b>&#1086;</b> &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1084; </td> 							<td class="centre">nous le rencontrerons </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1080;&#1093; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1090;&#1077; </td> 							<td class="centre">vous les rencontrerez </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;&#1080; &#1074;&#1072;&#1089; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1103;&#1090; </td> 							<td class="centre">ils vous rencontreront </td></tr></tbody></table> 							<br /> &#183; On dit que le m&#233;tro de Moscou est l'un des plus beaux du monde. C'est vrai notamment pour les stations construites dans les ann&#233;es 30 et 40 (le m&#233;tro a ouvert en 1935). Certaines ressemblent presque &#224; des palais. Elles sont d&#233;cor&#233;es de marbre, de bronze, de pierres de l'Oural et les murs sont couverts de mosa&#239;ques.<br /> Construit en profondeur sous la ville, le m&#233;tro est tr&#232;s rapide et vous serez frapp&#233; par les distances entre les stations. Une visite s'impose !  		 			8 			&#1048;&#1083;&#1080; &#1095;<b>&#1091;</b>&#1090;&#1100;-&#1095;<b>&#1091;</b>&#1090;&#1100; &#1086;&#1087;&#1086;&#1079;&#1076;<b>&#1072;</b>&#1077;&#1090;&#1077;? Ou bien serez-vous un peu en retard ? Si, dans les traditions fran&#231;aises, il est admis d'arriver un quart d'heure en retard lorsqu'on est invit&#233;, les Russes, au contraire, arrivent toujours &#224; l'heure et m&#234;me l&#233;g&#232;rement en avance, ce qui est consid&#233;r&#233; comme un signe de respect suppl&#233;mentaire.  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	<h3>
+		&#1059; &#1084;&#1077;&#1085;&#1103; &#1085;&#1086;&#1074;&#1072;&#1103; &#1082;&#1074;&#1072;&#1088;&#1090;&#1080;&#1088;&#1072; 
+		J'ai un nouvel appartement
+		</h3> 	 		 			1 			- &#1084;&#1085;&#1077; &#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103;, &#1074;&#1099; &#1078;<b>&#1080;</b>&#1083;&#1080; &#1088;<b>&#1072;</b>&#1085;&#1100;&#1096;&#1077; &#1074; &#1094;<b>&#1077;</b>&#1085;&#1090;&#1088;&#1077; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1099;</b>? 			&#1052;&#1085;&#1077; &#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103; : mnie k<b>a</b>jytsa (il me semble). 			 				1 			Il me semble qu'avant vous viviez dans le centre de Moscou ?  		 			2 			- &#1044;&#1072;, &#1085;&#1077;&#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1086;&#1090; &#1055;<b>&#1091;</b>&#1096;&#1082;&#1080;&#1085;&#1089;&#1082;&#1086;&#1081; &#1087;&#1083;<b>&#1086;</b>&#1097;&#1072;&#1076;&#1080;. &#1053;&#1086; &#1076;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;&#1072;&#1076; &#1084;&#1099; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080;. 			&#1052;&#1099; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080; : my piri<b>ie</b>hali (nous avons d&#233;m&#233;nag&#233;). 			 				2 			Oui, pr&#232;s de la place Pouchkine. Mais nous avons d&#233;m&#233;nag&#233; il y a deux ans (deux ans en arri&#232;re).  		 			3 			- &#1059; &#1074;&#1072;&#1089; &#1085;<b>&#1086;</b>&#1074;&#1072;&#1103; &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1072;? 			 			Vous avez un nouvel appartement ?  		 			4 			- &#1044;&#1072;, &#1084;&#1099; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1083;&#1080; &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1091; &#1074; &#1085;<b>&#1086;</b>&#1074;&#1086;&#1084; &#1088;&#1072;&#1081;<b>&#1086;</b>&#1085;&#1077;, &#1072; &#1089;&#1090;<b>&#1072;</b>&#1088;&#1091;&#1102; &#1086;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1080;&#1083;&#1080; &#1089;<b>&#1099;</b>&#1085;&#1091;. 			 				3 			Oui, nous avons achet&#233; un appartement dans un nouveau quartier et nous avons laiss&#233; l'ancien &#224; notre fils.  		 			5 			- &#1048; &#1074;&#1072;&#1084; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1085;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1088;&#1072;&#1081;<b>&#1086;</b>&#1085;? 			&#1042;&#1072;&#1084; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; : vam nr<b>a</b>vitsa (il vous pla&#238;t) ; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1088;&#1072;&#1081;<b>&#1086;</b>&#1085; : <b>&#232;</b>tat ra&#239;<b>o</b>n (ce quartier).  			 				4 			Et ce nouveau quartier vous pla&#238;t ?  		 			6 			- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072; &#1088;<b>&#1103;</b>&#1076;&#1086;&#1084;, &#1083;&#1077;&#1089; &#1074; &#1076;&#1074;<b>&#1091;</b>&#1093; &#1096;&#1072;&#1075;<b>&#1072;</b>&#1093;, &#1072; &#1075;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1086;&#1077;, &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1072; &#1086;&#1090;&#1083;<b>&#1080;</b>&#1095;&#1085;&#1072;&#1103;. 			 			Bien s&#251;r, je suis pr&#232;s de mon travail (le travail &#224; c&#244;t&#233;), la for&#234;t est &#224; deux pas et surtout l'appartement est tr&#232;s bien.  		 			7 			- &#1040; &#1089;&#1082;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1091; &#1074;&#1072;&#1089; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;? 			 				5 			Et combien avez-vous de pi&#232;ces ?  		 			8 			- &#1058;&#1088;&#1080;: &#1089;&#1090;&#1086;&#1083;<b>&#1086;</b>&#1074;&#1072;&#1103;, &#1089;&#1087;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1103;, &#1084;&#1086;&#1081; &#1084;&#1072;&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1082;&#1072;&#1073;&#1080;&#1085;<b>&#1077;</b>&#1090; &#1080; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1072;</b>&#1103; &#1082;<b>&#1091;</b>&#1093;&#1085;&#1103;. &#1053;&#1072;&#1084; &#1089; &#1078;&#1077;&#1085;<b>&#1086;</b>&#1081; &#1074;&#1087;&#1086;&#1083;&#1085;<b>&#1077;</b> &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1086;&#1095;&#1085;&#1086;. 			 				6 			Trois : la salle &#224; manger, la chambre &#224; coucher, mon petit bureau et une grande cuisine. C'est tout &#224; fait suffisant pour ma femme et moi (&#192; nous avec ma femme c'est tout &#224; fait assez).  		 			9 			- &#1040; &#1085;&#1072; &#1082;&#1072;&#1082;<b>&#1086;</b>&#1084; &#1101;&#1090;&#1072;&#1078;<b>&#1077;</b> &#1074;&#1099; &#1078;&#1080;&#1074;&#1105;&#1090;&#1077;? 			 			Et &#224; quel &#233;tage habitez-vous ?  		 			10 			- &#1053;&#1072; &#1096;&#1077;&#1089;&#1090;<b>&#1086;</b>&#1084;, &#1085;&#1086; &#1103;, &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1100;&#1090;&#1077;, &#1087;&#1086;&#1076;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;&#1089;&#1100; &#1073;&#1077;&#1079; &#1083;<b>&#1080;</b>&#1092;&#1090;&#1072;. &#1053;<b>&#1072;</b>&#1076;&#1086; &#1073;&#1099;&#1090;&#1100; &#1074; &#1092;<b>&#1086;</b>&#1088;&#1084;&#1077;. 			 				7 			Au cinqui&#232;me, mais, figurez-vous, je ne prends pas l'ascenseur (je monte sans ascenseur) ! Il faut &#234;tre en forme.  		 			11 			- &#1050;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1080;, &#1103; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1085;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;. &#1058;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1076;&#1086;&#1084; &#1087;&#1086;&#1076; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077;&#1084;. 			 				8 			Au fait, j'ai &#233;galement d&#233;m&#233;nag&#233; r&#233;cemment. Maintenant, j'ai une petite maison en banlieue (aux environs de Paris).  		 			12 			- &#1054;! &#1057;<b>&#1086;</b>&#1073;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1099;&#1081; &#1076;&#1086;&#1084; &#1079;<b>&#1072;</b> &#1075;&#1086;&#1088;&#1086;&#1076;&#1086;&#1084;, &#1084;&#1086;<b>&#1103;</b> &#1084;&#1077;&#1095;&#1090;<b>&#1072;</b>... 			 				9 			Oh, [avoir] sa propre maison &#224; la campagne (au-del&#224; de la ville), mon r&#234;ve...  		 			13 			- &#1048; &#1084;&#1086;<b>&#1103;</b> &#1090;<b>&#1086;</b>&#1078;&#1077;. &#1071; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;, &#1095;&#1090;&#1086; &#1086;&#1085;<b>&#1072;</b> &#1089;&#1073;&#1099;&#1083;<b>&#1072;</b>&#1089;&#1100;. 			 				10 			Le mien aussi. Je suis heureux qu'il se soit r&#233;alis&#233;.  		 			14 			- &#1071; &#1074;&#1072;&#1089; &#1087;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102;. 			 			F&#233;licitations !  	 		 			1 			&#1042;&#1099; &#1078;<b>&#1080;</b>&#1083;&#1080; : vous viviez ou vous habitiez. Le verbe &#1078;&#1080;&#1090;&#1100; peut se traduire des deux fa&#231;ons.  		 			2 			La pr&#233;position &#1086;&#1090; est suivie du g&#233;nitif et indique l'id&#233;e de d&#233;part, d'&#233;loignement : &#1085;&#1077;&#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1086;&#1090; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1072; : pr&#232;s de (pas loin de) Paris ; &#1086;&#1090; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1099;</b> &#1076;&#1086; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1072; : de Moscou &#224; Paris ; &#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1086;&#1090; &#1075;<b>&#1086;</b>&#1088;&#1086;&#1076;&#1072; : loin de la ville.<br /> &#183; &#1044;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a deux ans. &#1053;&#1072;&#1079;<b>&#1072;</b>&#1076; signifie "en arri&#232;re". Pr&#233;c&#233;d&#233; d'un compl&#233;ment de temps &#224; l'accusatif, on le traduit par "il y a" : &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1102; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a une semaine ; &#1095;&#1072;&#1089; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a une heure.<br /> &#183; &#1055;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; : changer de r&#233;sidence, d&#233;m&#233;nager. Ici, le pr&#233;verbe &#1087;&#1077;&#1088;&#1077;- indique un mouvement d'un lieu &#224; l'autre : &#1084;&#1099; &#1078;<b>&#1080;</b>&#1083;&#1080; &#1074; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1077;, &#1072; &#1075;&#1086;&#1076; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; &#1087;&#1077;&#1088;&#1077;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;&#1091; : nous habitions Saint-P&#233;tersbourg et il y a un an nous avons d&#233;m&#233;nag&#233; &#224; Moscou.  		 			3 			&#1050;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1100; (acheter). C'est l'aspect perfectif.<br /> 			Le perfectif indique une action dans son accomplissement (au pass&#233; et au futur). Dans le pass&#233;, il peut donc exprimer une action termin&#233;e. Dans le futur, l'action est envisag&#233;e par rapport &#224; son r&#233;sultat.  		 			4 			Vous vous souvenez s&#251;rement du verbe &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1100;&#1089;&#1103; qui se construit avec le datif: &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1082;&#1074;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1088;&#1072; : l'appartement me pla&#238;t ; &#1052;&#1072;&#1082;&#1089;<b>&#1080;</b>&#1084;&#1091; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1072; : la voiture pla&#238;t &#224; Maxime ; &#1053;<b>&#1080;</b>&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1092;&#1088;&#1072;&#1085;&#1094;<b>&#1091;</b>&#1079;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : le fran&#231;ais pla&#238;t &#224; Nina.  		 			5 			Revenons un peu aux chiffres... &#1054;&#1076;&#1085;<b>&#1072;</b> &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1072; : une pi&#232;ce ; &#1076;&#1074;&#1077;, &#1090;&#1088;&#1080;, &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1099; : 2, 3, 4 pi&#232;ces (g&#233;nitif singulier) ; &#1087;&#1103;&#1090;&#1100;, &#1096;&#1077;&#1089;&#1090;&#1100; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090; : 5, 6... pi&#232;ces (g&#233;nitif pluriel) ; &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1086;&#1076;&#1085;<b>&#1072;</b> &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1072; : 21 pi&#232;ces (nominatif singulier).  		 			6 			&#1057;&#1090;&#1086;&#1083;<b>&#1086;</b>&#1074;&#1072;&#1103; (salle &#224; manger). Ce nom est form&#233; sur l'adjectif &#1089;&#1090;&#1086;&#1083;<b>&#1086;</b>&#1074;&#1099;&#1081;, de table (&#1089;&#1090;&#1086;&#1083; : la table) et se d&#233;cline comme un adjectif : &#1084;&#1099; &#1086;&#1073;<b>&#1077;</b>&#1076;&#1072;&#1077;&#1084; &#1074; &#1089;&#1090;&#1086;&#1083;<b>&#1086;</b>&#1074;&#1086;&#1081; : nous mangeons dans la salle &#224; manger.<br /> &#183; Rappelez-vous l'emploi du datif pour exprimer l'&#233;tat ou la situation dans laquelle une personne se trouve : &#1084;&#1085;&#1077; &#1093;<b>&#1086;</b>&#1083;&#1086;&#1076;&#1085;&#1086; (j'ai froid) ; &#1085;&#1072;&#1084; &#1076;&#1086;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1086;&#1095;&#1085;&#1086; (cela nous suffit).<br /> &#183; Rappelons que apr&#232;s &#1082;, &#1075; et &#1093; on ne peut avoir &#1099; mais &#1080; au masculin : &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1076;&#1086;&#1084; (une petite maison).<br /> &#183; &#1053;&#1072;&#1084; &#1089; &#1078;&#1077;&#1085;<b>&#1086;</b>&#1081; (&#224; ma femme et moi) : le russe remplace le "moi" fran&#231;ais par la 1re personne du pluriel au cas voulu. &#1052;&#1099; &#1089; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1086;&#1084; : mon fr&#232;re et moi.  		 			7 			&#1053;&#1072; &#1096;&#1077;&#1089;&#1090;<b>&#1086;</b>&#1084; &#1101;&#1090;&#1072;&#1078;<b>&#1077;</b> : au cinqui&#232;me &#233;tage (et non au sixi&#232;me). Ne vous trompez pas ! En russe, &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1101;&#1090;<b>&#1072;</b>&#1078; est le rez-de-chauss&#233;e (et non le premier &#233;tage), &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1081; &#1101;&#1090;<b>&#1072;</b>&#1078; le premier &#233;tage (et non le deuxi&#232;me), et &#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1081; &#1101;&#1090;<b>&#1072;</b>&#1078; le deuxi&#232;me &#233;tage (et non le troisi&#232;me). Et ainsi de suite...<br /> &#183; &#1041;&#1077;&#1079; &#1083;<b>&#1080;</b>&#1092;&#1090;&#1072; (sans ascenseur). La pr&#233;position &#1073;&#1077;&#1079; est suivie du g&#233;nitif.  		 			8 			&#1055;&#1086;&#1076; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077;&#1084; : aux environs de Paris, c'est-&#224;-dire en banlieue. &#1055;&#1086;&#1076; est suivi de l'instrumental. &#1059; &#1085;&#1077;&#1075;<b>&#1086;</b> &#1076;&#1086;&#1084; &#1087;&#1086;&#1076; &#1057;&#1072;&#1085;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1086;&#1084; : il a une maison dans la banlieue de Saint-P&#233;tersbourg ; &#1059; &#1085;&#1077;&#1105; &#1076;&#1086;&#1084; &#1087;&#1086;&#1076; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1086;</b>&#1081; : elle a une maison dans la banlieue de Moscou.  		 			9 			Notez que dans l'expression &#1079;<b>&#1072;</b> &#1075;&#1086;&#1088;&#1086;&#1076;&#1086;&#1084; (&#224; la campagne), l'accent porte sur la pr&#233;position &#1079;&#1072;.  		 			10 			&#1071; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074; (je suis heureux). Vous n'avez s&#251;rement pas oubli&#233; que la forme courte de l'adjectif s'emploie comme attribut. &#1054;&#1085;<b>&#1072;</b> &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1072; (elle est heureuse) ; &#1052;&#1099; &#1089;&#1095;<b>&#1072;</b>&#1089;&#1090;&#1083;&#1080;&#1074;&#1099; (nous sommes heureux / heureuses).  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

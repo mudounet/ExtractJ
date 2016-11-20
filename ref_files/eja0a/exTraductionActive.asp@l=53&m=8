@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+var posteId = '172669809';
+</script>
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/exTraduction.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdPhasActRusVersion2.gif');
+}
+/* liens navigation haut */
+div#divApprentissage{
+	position:absolute;
+	top:27px;
+	left:610px;
+	height:20px;
+	width:135px;
+	}
+
+div#divMotsManquants{
+	position:absolute;
+	top:95px;
+	left:590px;
+	height:20px;
+	width:155px;
+	}
+div#divExTraductionAF{
+	position:absolute;
+	top:70px;
+	left:482px;
+	height:22px;
+	width:263px;
+	}	
+
+	
+/* menu phrase */
+div#tradMotaMot{
+	position:absolute;
+	top:261px;
+	left:265px;
+	width:95px;
+	height:16px;
+}
+
+div#traductionComplete{
+	position:absolute;
+	top:285px;
+	left:265px;
+	width:95px;
+	height:15px;
+}
+
+
+div#applet{
+	display:block;
+	position:absolute;
+	top:306px;
+	left:160px;
+	width:96px;
+	height:15px;
+	z-index:10;
+}
+div#tabScript {
+	 visibility: visible;
+}
+div#saisie{
+	position:absolute;
+	top:80px;
+	left:5px;
+	height:70px;
+	width:100%;
+}
+.textSaisie{
+	
+	scrollbars:auto;
+	color : #39392E;
+	font-size : 14px;
+	text-align : left;
+	border:none;
+	background-color: #FFFFFF;
+	border: solid 1px;
+}
+div#affCentral{
+	position:absolute;
+	top:175px;
+	left:405px;
+	width:320px;
+	height:245px;
+	z-index:10;
+
+}
+div#affLangue{
+	position:absolute;
+	top:5px;
+	left:5px;
+	height:75px;
+	width:100%;
+	z-index:2;
+	overflow:auto;
+}
+
+div#affMot{
+	position:absolute;
+	top:180px;
+	left:5px;
+	height:65px;
+	width:100%;
+	overflow:auto;
+	visibility:hidden;
+	}
+</style>
+<script type="text/javascript"> var tabPhrasesText = new Array();
+	tabPhrasesText[1]=new Array(2);
+			tabPhrasesText[1][0]='&#1052;&#1086;&#1103; &#1092;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103; &#1043;&#1086;&#1084;&#1077;&#1089;. &#1053;&#1077;&#1076;&#1077;&#1083;&#1102; &#1085;&#1072;&#1079;&#1072;&#1076; &#1103; &#1079;&#1072;&#1082;&#1072;&#1079;&#1099;&#1074;&#1072;&#1083; &#1091; &#1074;&#1072;&#1089; &#1085;&#1086;&#1084;&#1077;&#1088;.-&#1044;&#1072;, &#1076;&#1072;, &#1074;&#1072;&#1096; &#1085;&#1086;&#1084;&#1077;&#1088; &#1085;&#1072; &#1095;&#1077;&#1090;&#1074;&#1105;&#1088;&#1090;&#1086;&#1084; &#1101;&#1090;&#1072;&#1078;&#1077;. &#1047;&#1072;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077; &#1073;&#1083;&#1072;&#1085;&#1082;, &#1087;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;.'; 
+			tabPhrasesText[1][1]='Mon nom est Gomez. Il y a une semaine, je vous ai retenu une chambre. - Oui, oui, votre chambre est au troisi&#232;me &#233;tage. Remplissez ce formulaire, s&#8217;il vous pla&#238;t.'; 
+			tabPhrasesText[2]=new Array(2);
+			tabPhrasesText[2][0]='&#1052;&#1085;&#1077; &#1085;&#1091;&#1078;&#1077;&#1085; &#1085;&#1086;&#1084;&#1077;&#1088; &#1085;&#1072; &#1086;&#1076;&#1085;&#1086;&#1075;&#1086;. - &#1050; &#1089;&#1086;&#1078;&#1072;&#1083;&#1077;&#1085;&#1080;&#1102;, &#1074;&#1072;&#1084; &#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;&#1086;. &#1057;&#1074;&#1086;&#1073;&#1086;&#1076;&#1085;&#1099;&#1093; &#1085;&#1086;&#1084;&#1077;&#1088;&#1086;&#1074; &#1085;&#1077;&#1090;.'; 
+			tabPhrasesText[2][1]='J&#8217;ai besoin d&#8217;une chambre pour une personne. - Malheureusement, vous n&#8217;avez pas de chance. Il n&#8217;y a pas de chambres libres.'; 
+			tabPhrasesText[3]=new Array(2);
+			tabPhrasesText[3][0]='&#1043;&#1076;&#1077; &#1074;&#1099; &#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1080;&#1083;&#1080;&#1089;&#1100;? - &#1042; &#1075;&#1086;&#1089;&#1090;&#1080;&#1085;&#1080;&#1094;&#1077; &quot;&#1058;&#1091;&#1088;&#1080;&#1089;&#1090;&quot;. &#1050; &#1089;&#1086;&#1078;&#1072;&#1083;&#1077;&#1085;&#1080;&#1102;, &#1079;&#1090;&#1086; &#1076;&#1072;&#1083;&#1077;&#1082;&#1086; &#1086;&#1090; &#1094;&#1077;&#1085;&#1090;&#1088;&#1072;. &#1055;&#1088;&#1072;&#1074;&#1076;&#1072;, &#1084;&#1077;&#1090;&#1088;&#1086; &#1088;&#1103;&#1076;&#1086;&#1084;.'; 
+			tabPhrasesText[3][1]='O&#249; &#234;tes-vous descendu ? - &#192; l&#8217;h&#244;tel &quot;Touriste&quot;. Malheureusement, c&#8217;est loin du centre. C&#8217;est vrai que le m&#233;tro est tout pr&#232;s.'; 
+			tabPhrasesText[4]=new Array(2);
+			tabPhrasesText[4][0]='&#1071; &#1093;&#1086;&#1090;&#1077;&#1083; &#1073;&#1099; &#1086;&#1087;&#1083;&#1072;&#1090;&#1080;&#1090;&#1100; &#1084;&#1086;&#1081; &#1085;&#1086;&#1084;&#1077;&#1088; &#1089;&#1077;&#1081;&#1095;&#1072;&#1089;. - &#1055;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1089;&#1077;&#1081;&#1095;&#1072;&#1089;, &#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1079;&#1072;&#1074;&#1090;&#1088;&#1072;. &#1052;&#1099; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1077;&#1084; &#1076;&#1085;&#1105;&#1084; &#1080; &#1085;&#1086;&#1095;&#1100;&#1102;.'; 
+			tabPhrasesText[4][1]='Je voudrais payer ma chambre maintenant. - Je vous en prie, vous pouvez (payer) maintenant ou demain. Nous travaillons jour et nuit.'; 
+			tabPhrasesText[5]=new Array(2);
+			tabPhrasesText[5][0]='&#1050;&#1091;&#1076;&#1072; &#1074;&#1099;&#1093;&#1086;&#1076;&#1103;&#1090; &#1086;&#1082;&#1085;&#1072; &#1084;&#1086;&#1077;&#1075;&#1086; &#1085;&#1086;&#1084;&#1077;&#1088;&#1072;? - &#1053;&#1072; &#1091;&#1083;&#1080;&#1094;&#1091;, &#1085;&#1086; &#1091;&#1083;&#1080;&#1094;&#1072; &#1085;&#1077; &#1086;&#1095;&#1077;&#1085;&#1100; &#1096;&#1091;&#1084;&#1085;&#1072;&#1103;. &#1048; &#1103; &#1076;&#1091;&#1084;&#1072;&#1102;, &#1074;&#1072;&#1084; &#1090;&#1072;&#1084; &#1087;&#1086;&#1085;&#1088;&#1072;&#1074;&#1080;&#1090;&#1089;&#1103;.'; 
+			tabPhrasesText[5][1]='O&#249; donnent les fen&#234;tres de ma chambre ? - Sur la rue, mais la rue n&#8217;est pas tr&#232;s bruyante. Et je pense que vous vous y plairez (que cela vous plaira l&#224;).'; 
+			tabPhrasesText[6]=new Array(2);
+			tabPhrasesText[6][0]='&#1057;&#1082;&#1072;&#1078;&#1080;&#1090;&#1077;, &#1087;&#1086;&#1078;&#1072;&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1075;&#1076;&#1077; &#1084;&#1099; &#1073;&#1091;&#1076;&#1077;&#1084; &#1079;&#1072;&#1074;&#1090;&#1088;&#1072;&#1082;&#1072;&#1090;&#1100;? - &#1042; &#1082;&#1072;&#1092;&#1077; &#1053;&#1072; &#1074;&#1090;&#1086;&#1088;&#1086;&#1084; &#1101;&#1090;&#1072;&#1078;&#1077;.'; 
+			tabPhrasesText[6][1]='Dites-moi, s&#8217;il vous pla&#238;t, o&#249; prendrons-nous le petit d&#233;jeuner ? - Au caf&#233;, au premier &#233;tage.'; 
+			tabPhrasesText[7]=new Array(2);
+			tabPhrasesText[7][0]='&#1071; &#1077;&#1076;&#1091; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;&#1091; &#1080; &#1089;&#1086;&#1073;&#1080;&#1088;&#1072;&#1102;&#1089;&#1100; &#1086;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100;&#1089;&#1103; &#1074; &#1089;&#1077;&#1084;&#1100;&#1077;. - &#1054;&#1090;&#1083;&#1080;&#1095;&#1085;&#1072;&#1103; &#1080;&#1076;&#1077;&#1103;! &#1042; &#1087;&#1088;&#1086;&#1096;&#1083;&#1086;&#1084; &#1075;&#1086;&#1076;&#1091; &#1103; &#1078;&#1080;&#1083; &#1074; &#1089;&#1077;&#1084;&#1100;&#1077;, &#1080; &#1084;&#1085;&#1077; &#1079;&#1090;&#1086; &#1086;&#1095;&#1077;&#1085;&#1100; &#1087;&#1086;&#1085;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086;&#1089;&#1100;.'; 
+			tabPhrasesText[7][1]='Je vais &#224; Moscou et je veux loger (m&#8217;arr&#234;ter) dans une famille. - Tr&#232;s bonne id&#233;e ! L&#8217;ann&#233;e derni&#232;re, j&#8217;ai v&#233;cu dans une famille et cela m&#8217;a beaucoup plu.'; 
+			</script> 
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+if (tableaucree) {}
+	else {
+		var tableaucree ;
+		parseXml ();
+
+	}
+
+</script>
+</head>
+<body onload="prechargement();">
+<div id="conteneur">
+	<div id="divApprentissage">
+		<a href="javascript:apprentissage();" onmouseover="document.getElementById('App').src='../assimilV2Commun/images/imgsExoTrad/ExoTradApp-over.gif'" onmousedown="document.getElementById('App').src='../assimilV2Commun/images/imgsExoTrad/ExoTradApp-down.gif'" onmouseout="document.getElementById('App').src='../assimilV2Commun/images/blank.gif'" title="Apprentissage"><img src="../assimilV2Commun/images/blank.gif" width="135" height="20" id="App" alt="Apprentissage" /></a>
+	</div>
+	<div id="divExTraductionAF">
+		<a href="javascript:exTraductionTheme();" onmouseover="document.getElementById('exTradAF').src='images/BtPARusThemeO.gif';" onmousedown="document.getElementById('exTradAF').src='images/BtPARusThemeC.gif';" onmouseout="document.getElementById('exTradAF').src='../assimilV2Commun/images/blank.gif';" title="Exercice traduction Fran&ccedil;ais-Russe"><img src="../assimilV2Commun/images/blank.gif" width="263" height="22" id="exTradAF" alt="Exercice traduction Fran&ccedil;ais-Russe"/></a>
+	</div>
+	<div id="divMotsManquants">
+		<a href="javascript:exMotManquant();" onmouseover="document.getElementById('mam').src='../assimilV2commun/images/edl0a/BtPAEspMMO.gif'" onmousedown="document.getElementById('mam').src='../assimilV2commun/images/edl0a/BtPAEspMMC.gif'" onmouseout="document.getElementById('mam').src='../assimilV2Commun/images/blank.gif'" title="Exercice mots manquants"><img src="../assimilV2Commun/images/blank.gif" width="155" height="20" id="mam" alt="Exercice mots manquants"/></a>
+	</div>
+	<div id="tradMotaMot"><a href="javascript:motAmot('affMot');" onmouseover="document.getElementById('Tradmam').src='../assimilV2Commun/images/imgsExoTrad/AppPronBtMot-over2.gif'" onmouseout="document.getElementById('Tradmam').src='../assimilV2Commun/images/blank.gif'" title="Traduction mot &agrave; mot"><img src="../assimilV2Commun/images/blank.gif" width="95" height="16" id="Tradmam" alt="Traduction mot &agrave; mot" /></a></div>
+	<div id="traductionComplete"><a href="javascript:complete('affMot');" onmouseover="document.getElementById('Tradcomp').src='../assimilV2Commun/images/imgsExoTrad/AppPronBtPhrase-over2.gif'" onmouseout="document.getElementById('Tradcomp').src='../assimilV2Commun/images/blank.gif'" title="Traduction compl&egrave;te"><img src="../assimilV2Commun/images/blank.gif" width="95" height="16" id="Tradcomp" alt="Traduction compl&egrave;te" /></a></div>
+	<div id="applet">
+		<script type="text/javascript">
+			flashCompare();
+		</script>
+	</div>
+	<div id="affCentral">
+		<div id="affLangue" class="textLangue"></div>
+		<div id="saisie" class="textLangue"><textarea id="zoneSaisie" class="textSaisie" rows="4" cols="35"></textarea></div>
+		<div id="affMot" class="textTrad"></div>
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2Commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2Commun/images/blank.gif';" title="Aide"><img src="../assimilV2Commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2Commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2Commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2Commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2Commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2Commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2Commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2Commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2Commun/images/blank.gif'" title="Accueil"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btPrev"><a href="javascript:precedent();" onmouseover="document.getElementById('Rw').src='../assimilV2Commun/images/imgsMenu/btRw-over.gif'" onmousedown="document.getElementById('Rw').src='../assimilV2Commun/images/imgsMenu/btRw-down.gif'" onmouseout="document.getElementById('Rw').src='../assimilV2Commun/images/blank.gif'" title="Suivant"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Rw" alt="Pr&eacute;c&eacute;dent" /></a></span>			
+		<span id="btOk"><a href="javascript:toPhrase();"  onmousedown="document.getElementById('ok').src='../assimilV2Commun/images/imgsMenu/btOk-down.gif'"  onmouseout="document.getElementById('ok').src='../assimilV2Commun/images/blank.gif'" title="Suivant"><img src="../assimilV2Commun/images/blank.gif" width="26" id="ok" alt="Ok" /></a></span>			
+		<span id="btNext"><a href="javascript:suivant();" onmouseover="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2Commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2Commun/images/blank.gif'" title="Suivant"><img src="../assimilV2Commun/images/blank.gif" width="30" id="Fw" alt="Suivant" /></a></span>			
+		<span id="affNum"><input type="text" id="numlec" value="" onclick="this.value='';"/></span>	
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2Commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

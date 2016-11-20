@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Continuons notre balade dans Moscou ...</i> 		</p> 	<h3>
+		&#1052;&#1085;&#1077; &#1087;&#1088;&#1080;&#1103;&#1090;&#1085;&#1086; &#1087;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1052;&#1086;&#1089;&#1082;&#1074;&#1091;
+		J'aime faire visiter Moscou (Il m'est agr&#233;able de montrer Moscou) </h3> 	 		 			1 			- &#1052;&#1099; &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b>. &#1042;&#1099; &#1085;&#1077; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1080;? 			 				1 			Nous sommes presque arriv&#233;s. Vous n'&#234;tes pas fatigu&#233; ?  		 			2 			- &#1053;&#1077;&#1090;, &#1085;&#1077;&#1090;, &#1103; &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1085;&#1077; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;. &#1058;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1072;&#1103; &#1087;&#1088;&#1086;&#1075;<b>&#1091;</b>&#1083;&#1082;&#1072;! &#1040; &#1095;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1079;&#1072; &#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;? 			&#1063;&#1090;&#1086; <b><b>&#1079;</b></b>&#1090;&#1086; &#1079;&#1072; &#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;? Chto &#232;ta za zd<b>a</b>nii&#233;?  			 				2 			Non, non, je ne suis pas du tout fatigu&#233;. C'est une promenade tellement agr&#233;able ! Et quel est ce b&#226;timent ?  		 			3 			- &#1057;&#1083;<b>&#1077;</b>&#1074;&#1072; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; &#1052;&#1072;&#1103;&#1082;<b>&#1086;</b>&#1074;&#1089;&#1082;&#1086;&#1075;&#1086;. &#1089;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1072;, &#1086;&#1073;&#1088;&#1072;&#1090;<b>&#1080;</b>&#1090;&#1077; &#1074;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1085;&#1080;&#1077;, &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1094;<b>&#1077;</b>&#1088;&#1082;&#1086;&#1074;&#1100;. 			 				3 			&#192; gauche, c'est le th&#233;&#226;tre Ma&#239;akovski. Et &#224; droite remarquez la belle &#233;glise (Et &#224; droite, faites attention, la belle &#233;glise).  		 			4 			- &#1044;&#1072;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1087;&#1086;&#1076;&#1086;&#1081;&#1076;&#1105;&#1084; &#1082; &#1085;&#1077;&#1081;. &#1050;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1082;&#1088;&#1072;&#1089;&#1086;&#1090;<b>&#1072;</b>! 			 				4 			Approchons-nous (d'elle). Quelle beaut&#233; !  		 			5 			- &#1042; <b>&#1079;</b>&#1090;&#1086;&#1081; &#1094;<b>&#1077;</b>&#1088;&#1082;&#1074;&#1080; &#1074;&#1077;&#1085;&#1095;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1055;<b>&#1091;</b>&#1096;&#1082;&#1080;&#1085;. &#1044;&#1072; &#1080; &#1078;&#1080;&#1083; &#1086;&#1085; &#1085;&#1077;&#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b> &#1086;&#1090;&#1089;<b>&#1102;</b>&#1076;&#1072;. 			 				5 			Pouchkine s'est mari&#233; (religieusement) dans cette &#233;glise. Et il a v&#233;cu pr&#232;s d'ici.  		 			6 			- &#1055;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>&#1090;&#1077;, &#1085;&#1077; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1074;&#1072;&#1089; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077; &#1079;&#1072;&#1076;<b>&#1077;</b>&#1088;&#1078;&#1080;&#1074;&#1072;&#1090;&#1100;. 			&#1053;&#1077; &#1073;<b>&#1091;</b>&#1076;&#1091; &#1074;&#1072;&#1089; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077; &#1079;&#1072;&#1076;<b>&#1077;</b>&#1088;&#1078;&#1080;&#1074;&#1072;&#1090;&#1100; : ni b<b>ou</b>dou vas b<b>o</b>l(i)chi zad<b>ie</b>rjyvat(i).  			 			Excusez-moi, je ne vais pas vous retenir plus longtemps.  		 			7 			- &#1040; &#1071; &#1085;&#1080;&#1082;&#1091;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1089;&#1087;&#1077;&#1096;<b>&#1091;</b>. &#1055;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; &#1103; &#1088;&#1077;&#1087;&#1077;&#1090;<b>&#1080;</b>&#1088;&#1091;&#1102;, &#1087;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1102; &#1074; &#1086;&#1088;&#1082;<b>&#1077;</b>&#1089;&#1090;&#1088;&#1077;, &#1072; &#1076;&#1085;&#1105;&#1084; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1102;. 			&#1055;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1103; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1102; &#1074; &#1086;&#1088;&#1082;<b>&#1077;</b>&#1089;&#1090;&#1088;&#1077;: pavitchir<b>a</b>m ia igr<b>a</b>iou vark<b>ie</b>stri.  			 				6 			Rien ne me presse (Et je nulle part ne me presse). Le matin, je r&#233;p&#232;te, le soir je joue dans un orchestre et pendant la journ&#233;e je me prom&#232;ne.  		 			8 			- &#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>, &#1095;&#1090;&#1086; &#1103; &#1087;&#1086;&#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1080;&#1083;&#1089;&#1103; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080;. 			 				7 			J'ai eu de la chance de faire votre connaissance.  		 			9 			- &#1052;&#1085;&#1077; &#1090;<b>&#1086;</b>&#1078;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1085;&#1086; &#1087;&#1086;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; &#1074;&#1072;&#1084; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1091;</b>. 			 			Vous montrer Moscou est aussi un plaisir (&#192; moi aussi tr&#232;s agr&#233;able de montrer &#224; vous Moscou).  		 			 				N'oubliez pas que les mots se prononcent de fa&#231;on li&#233;e avec la pr&#233;position qui les pr&#233;c&#232;de :  	 		 			1 			&#1052;&#1099; &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b>: nous sommes presque arriv&#233;s. Gr&#226;ce aux divers pr&#233;verbes accol&#233;s au verbe &#1080;&#1076;&#1090;<b>&#1080;</b>, le russe peut exprimer les mouvements et les d&#233;placements de mani&#232;re tr&#232;s nuanc&#233;e.<br /> &#1055;&#1088;&#1080;&#1081;&#1090;<b>&#1080;</b> (arriver) : &#1071; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : je suis arriv&#233; ; &#1086;&#1085;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> : elle est arriv&#233;e ; &#1086;&#1085;<b>&#1080;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b> : ils / elles sont arriv&#233;(e)s.<br /> &#1042;&#1095;&#1077;&#1088;<b>&#1072;</b> &#1103; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081; &#1087;<b>&#1086;</b>&#1079;&#1076;&#1085;&#1086; : hier, je suis arriv&#233; tard &#224; la maison ; &#1040; &#1074;&#1086;&#1090; &#1080; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088; - &#1084;&#1099; &#1091;&#1078;<b>&#1077;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1080;</b> : voici le th&#233;&#226;tre, nous sommes d&#233;j&#224; arriv&#233;s.<br /> 			Tous ces verbes de mouvement vous deviendront vite familiers.<br /> &#183; &#1042;&#1099; &#1085;&#1077; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1080;? Vous n'&#234;tes pas fatigu&#233; ? Le verbe &#1091;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100; (se fatiguer) s'emploie presque toujours au pass&#233; : &#1071; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083; : je suis fatigu&#233;.<br /> &#1054;&#1085;<b>&#1072;</b> &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1072; : elle est fatigu&#233;e.<br /> &#1052;&#1099; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1080; : nous sommes fatigu&#233;(e)s.  		 			2 			Retenez cette construction : &#1063;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1079;&#1072; &#1079;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;? (Mot &#224; mot : qu'est-ce que c'est comme b&#226;timent ?) &#1063;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1079;&#1072; &#1076;&#1086;&#1084;? (Qu'est-ce que c'est comme maison ?) &#1063;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1079;&#1072; &#1091;&#1083;&#1080;&#1094;&#1072;? (Qu'est-ce que c'est comme rue ?).<br /> &#1047;&#1072;, suivi ici d'un substantif au nominatif, ne se traduit pas et ne modifie pas du tout le sens de la phrase. Il vous suffit donc de retenir cette construction.  		 			3 			&#1057;&#1083;<b>&#1077;</b>&#1074;&#1072; (&#224; gauche) ; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1072; (&#224; droite). Mais s'il y a mouvement, on dit &#1103; &#1080;&#1076;&#1091; &#1085;&#1072;&#1083;<b>&#1077;</b>&#1074;&#1086; : je vais &#224; gauche ; &#1103; &#1080;&#1076;&#1091; &#1085;&#1072;&#1087;&#1088;<b>&#1072;</b>&#1074;&#1086; : je vais &#224; droite.  		 			4 			Le pr&#233;verbe &#1087;&#1086;&#1076;- exprime la notion d'approche : &#1087;&#1086;&#1076;&#1086;&#1081;&#1090;<b>&#1080;</b> (s'approcher). &#1103; &#1087;&#1086;&#1076;&#1086;&#1081;&#1076;&#1091; &#1082; &#1094;<b>&#1077;</b>&#1088;&#1082;&#1074;&#1080; : je m'approcherai de l'&#233;glise. Remarquez que la pr&#233;position &#1082; est suivie du datif : &#1086;&#1085; &#1087;&#1086;&#1076;&#1086;&#1081;&#1076;&#1105;&#1090; &#1082; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1077; : il s'approchera de la biblioth&#232;que ; &#1084;&#1099; &#1087;&#1086;&#1076;&#1086;&#1081;&#1076;&#1105;&#1084; &#1082; &#1076;<b>&#1086;</b>&#1084;&#1091; : nous nous approcherons de la maison ; et que les f&#233;minins en -&#1100; (ici, &#1094;<b>&#1077;</b>&#1088;&#1082;&#1086;&#1074;&#1100;) ont leur datif singulier en &#1080; : &#1094;<b>&#1077;</b>&#1088;&#1082;&#1074;&#1080; (avec ici, disparition du -o).  		 			5 			Alexandre Sergueievitch Pouchkine a eu un destin &#233;tonnant. Descendant d'un esclave &#233;thiopien proche de Pierre le Grand, il est devenu le plus grand po&#232;te de Russie. On peut dire qu'il a pos&#233; les bases de la litt&#233;rature et de la langue litt&#233;raire russes. Il a &#233;crit de nombreux po&#232;mes, des nouvelles et l'inoubliable roman en vers "Eug&#232;ne On&#233;guine".<br /> 			De c&#233;l&#232;bres compositeurs se sont inspir&#233;s de ses oeuvres pour &#233;crire des op&#233;ras : Glinka ("Rouslan et Lioudmila"), Tcha&#239;kovski ("Eug&#232;ne On&#233;guine" et "La Dame de Pique").<br /> N'oublions pas que le fran&#231;ais a &#233;t&#233; la premi&#232;re langue de Pouchkine. Il le parlait si bien qu'au lyc&#233;e on l'appelait "le Fran&#231;ais", comme vous le savez d&#233;j&#224;.<br /> Cent cinquante ans apr&#232;s sa mort, les Russes lui vouent toujours un v&#233;ritable culte. Les enfants lisent encore ses contes d&#232;s leur plus jeune &#226;ge et ses po&#233;sies continuent d'accompagner bien des destin&#233;es, des plus ordinaires aux plus tragiques.  		 			6 			Rappelez-vous : &#1091;&#1090;&#1088;&#1086;&#1084;, &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;, &#1076;&#1085;&#1105;&#1084; : le matin, le soir, l'apr&#232;s-midi, pendant la journ&#233;e. Cette construction ne permet pas de savoir de fa&#231;on exacte si l'action a lieu aujourd'hui seulement ou bien de fa&#231;on habituelle (tous les matins, etc.). La construction &#1087;&#1086; + datif pluriel nous indique que l'action a bien lieu de fa&#231;on habituelle : &#1087;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; &#1103; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1102; : le matin, je travaille (tous les matins) ; &#1087;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1103; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1102; : le soir, je me repose (tous les soirs).  		 			7 			&#1057; &#1074;<b>&#1072;</b>&#1084;&#1080; : avec vous. &#1057; + instrumental indique l'accompagnement : &#1103; &#1087;&#1086;&#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1080;&#1083;&#1089;&#1103; &#1089; &#1074;<b>&#1072;</b>&#1084;&#1080; : j'ai fait connaissance avec vous ; &#1086;&#1085;<b>&#1072;</b> &#1075;&#1091;&#1083;<b>&#1103;</b>&#1077;&#1090; &#1089; &#1085;&#1080;&#1084; : elle se prom&#232;ne avec lui ; &#1086;&#1085; &#1087;&#1086;&#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1080;&#1083;&#1089;&#1103; &#1089;&#1086; &#1084;&#1085;<b>&#1086;</b>&#1081; : il a fait connaissance avec moi (Remarquez le &#1086;, ajout&#233; apr&#232;s le &#1089;, pour faciliter la prononciation ; inaccentu&#233;, il se prononce a.).  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

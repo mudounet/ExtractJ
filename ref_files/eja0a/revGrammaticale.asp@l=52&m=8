@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Continuons l'histoire de notre dame et de son petit chien. Ce sont l&#224; vos premiers pas dans la litt&#233;rature russe. Encore un petit effort, et vous pourrez bient&#244;t lire en russe (et sans traduction) la fameuse nouvelle d'Anton Tch&#233;khov, "La Dame au petit chien"...</i> </p> 	<h3>
+		</h3> 	 		 			1 			&#1042;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1074;<b>&#1080;</b>&#1076;&#1103;&#1090;: &#1089;&#1090;&#1086;<b>&#1080;</b>&#1090; &#1091; &#1082;&#1086;&#1083;&#1105;&#1089;<br /> &#1054;&#1075;&#1088;<b>&#1086;</b>&#1084;&#1085;&#1099;&#1081; &#1074;&#1079;&#1098;&#1077;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1085;&#1085;&#1099;&#1081; &#1087;&#1105;&#1089; 			 			 				1 			Soudain, on voit qu'un &#233;norme chien, les poils dans tous les sens, se tient pr&#232;s des roues.  		 			2 			&#1055;&#1086;&#1081;&#1084;<b>&#1072;</b>&#1083;&#1080; &#1077;&#1075;<b>&#1086;</b> - &#1080; &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;,<br /> &#1058;&#1091;&#1076;<b>&#1072;</b>, &#1075;&#1076;&#1077; &#1083;&#1077;&#1078;<b>&#1072;</b>&#1083; &#1089;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1086;</b>&#1085;&#1082;&#1072;,<br /> &#1043;&#1076;&#1077; &#1087;&#1088;<b>&#1077;</b>&#1078;&#1076;&#1077; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1072; 			 			 				2 			On l'attrapa et [on le mit] dans les bagages,<br /> 			L&#224; ou &#233;taient un sac de voyage,<br /> Un tableau,<br /> 			Un panier,<br /> Une bo&#238;te en carton,<br /> 			L&#224; o&#249; avant il y avait le petit chien.  		 			3 			&#1055;&#1088;&#1080;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080; &#1074; &#1075;<b>&#1086;</b>&#1088;&#1086;&#1076; &#1046;&#1080;&#1090;<b>&#1086;</b>&#1084;&#1080;&#1088;, 			 			On arriva &#224; la ville de Jitomir.  		 			4 			&#1053;&#1086;&#1089;<b>&#1080;</b>&#1083;&#1100;&#1097;&#1080;&#1082; &#1087;&#1103;&#1090;&#1085;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1099;&#1081; &#1085;<b>&#1086;</b>&#1084;&#1077;&#1088;<br /> &#1042;&#1077;&#1079;&#1105;&#1090; &#1085;&#1072; &#1090;&#1077;&#1083;<b>&#1077;</b>&#1078;&#1082;&#1077; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;:<br /> &#1044;&#1080;&#1074;<b>&#1072;</b>&#1085;,<br /> &#1063;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;,<br /> &#1057;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1086;</b>&#1085;&#1082;&#1091;,<br /> &#1040; &#1089;&#1079;<b>&#1072;</b>&#1076;&#1080; &#1074;&#1077;&#1076;<b>&#1091;</b>&#1090; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091;. 			 				3 				4 			Le porteur num&#233;ro quinze<br /> 			Porte les bagages sur le chariot :<br /> Un divan,<br /> 			Une valise,<br /> Un sac de voyage,<br /> Un tableau,<br /> 			Un panier,<br /> Une bo&#238;te en carton,<br /> Et, derri&#232;re, on conduit un petit chien.  		 			5 			&#1057;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072; &#1082;&#1072;&#1082; &#1079;&#1072;&#1088;&#1099;&#1095;&#1080;&#1090;,<br /> &#1040; &#1076;<b>&#1072;</b>&#1084;&#1072; &#1082;&#1072;&#1082; &#1079;&#1072;&#1082;&#1088;&#1080;&#1095;<b>&#1080;</b>&#1090;: 			 				5 			Soudain, le chien se met &#224; gronder<br /> Et soudain, la dame (se met) &#224; crier :  		 			6 			- &#1054;&#1090;&#1076;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1084;&#1086;<b>&#1102;</b> &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091;! 			 				6 			Rendez-moi mon petit chien !  		 			7 			- &#1055;&#1086;&#1079;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1090;&#1077;, &#1075;&#1088;&#1072;&#1078;&#1076;<b>&#1072;</b>&#1085;&#1082;&#1072;! &#1053;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080;,<br /> &#1057;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;&#1085;&#1086;&#1081; &#1082;&#1074;&#1080;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080;,<br /> &#1054;&#1090; &#1074;&#1072;&#1089; &#1087;&#1086;&#1083;&#1091;&#1095;<b>&#1080;</b>&#1083;&#1080; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;!<br /> &#1044;&#1080;&#1074;<b>&#1072;</b>&#1085;,<br /> &#1063;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;,<br /> &#1057;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1086;</b>&#1085;&#1082;&#1091;,<br /> &#1048; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1091;&#1102; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091;. 			 				7 			Permettez, citoyenne ! &#192; la gare,<br /> 			D'apr&#232;s le re&#231;u des bagages<br />  			Vous avez donn&#233; (De vous on a re&#231;u les bagages)<br /> 			Un divan, -<br /> Une valise,<br /> Un sac de voyage,<br /> Un tableau,<br /> 			Un panier,<br /> Une bo&#238;te en carton<br /> Et un petit chien.  		 			8 			&#1054;&#1076;&#1085;<b>&#1072;</b>&#1082;&#1086;<br /> &#1047;&#1072; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1091;&#1090;<b>&#1080;</b><br /> &#1057;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;<br /> &#1052;&#1086;&#1075;&#1083;<b>&#1072;</b> &#1087;&#1086;&#1076;&#1088;&#1072;&#1089;&#1090;<b>&#1080;</b>! 			 				8 			Mais, apr&#232;s tout (cependant),<br />  			Pendant le voyage (Pendant le temps de la route)<br /> 			Le chien<br /> Pouvait grandir !  	 		 			1 			&#1057;&#1090;&#1086;<b>&#1080;</b>&#1090; &#1091; &#1082;&#1086;&#1083;&#1105;&#1089; : se tient pr&#232;s des roues. L'infinitif de &#1089;&#1090;&#1086;<b>&#1080;</b>&#1090; est &#1089;&#1090;&#1086;<b>&#1103;</b>&#1090;&#1100; et signifie "&#234;tre debout", "&#234;tre arr&#234;t&#233;", "se trouver".<br /> Apr&#232;s les pr&#233;positions &#1091;, &#1086;&#1090; et d'autres exprimant la notion de distance, on met le g&#233;nitif. Notez que &#1082;&#1086;&#1083;&#1077;&#1089;<b>&#1086;</b> (g&#233;nitif singulier &#1082;&#1086;&#1083;&#1077;&#1089;<b>&#1072;</b> avec accent sur le &#1072;) fait au pluriel &#1082;&#1086;&#1083;&#1105;&#1089;&#1072; au nominatif-accusatif et &#1082;&#1086;&#1083;&#1105;&#1089; au g&#233;nitif.  		 			2 			&#1055;&#1086;&#1081;&#1084;<b>&#1072;</b>&#1083;&#1080; &#1077;&#1075;<b>&#1086;</b> - &#1080; &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : on l'attrapa et [on le mit] dans les bagages. &#1055;&#1086;&#1081;&#1084;<b>&#1072;</b>&#1090;&#1100; : saisir, attraper, est perfectif. L'imperfectif est &#1083;&#1086;&#1074;<b>&#1080;</b>&#1090;&#1100; (chercher &#224; saisir, &#224; attraper). On dira donc : &#1103; &#1083;&#1086;&#1074;&#1083;<b>&#1102;</b> &#1088;<b>&#1099;</b>&#1073;&#1091;: je p&#234;che (je suis en train d'essayer d'attraper un poisson), et : &#1071; &#1087;&#1086;&#1081;&#1084;<b>&#1072;</b>&#1083; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;<b>&#1099;</b>&#1073;&#1099; : j'ai p&#234;ch&#233; beaucoup de poissons.<br /> Vous voyez que dans la deuxi&#232;me partie de la phrase, le verbe n'est pas exprim&#233; : &#1080; &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;. Ce proc&#233;d&#233; rend la phrase plus expressive. L'action, le mouvement sont indiqu&#233;s par la pr&#233;position &#1074;. Lisez cet autre exemple : &#1084;&#1099; &#1074;<b>&#1099;</b>&#1096;&#1083;&#1080; &#1085;&#1072; &#1091;&#1083;&#1080;&#1094;&#1091; &#1080; &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b> : nous sommes sortis (dehors) et (sommes all&#233;s) au cin&#233;ma.<br /> &#183; &#1058;&#1091;&#1076;<b>&#1072;</b>, &#1075;&#1076;&#1077; &#1083;&#1077;&#1078;<b>&#1072;</b>&#1083; &#1089;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078; : l&#224; o&#249; &#233;tait le sac de voyage... Vous retrouverez souvent ce type de construction simple &#224; retenir : &#1084;&#1099; &#1087;&#1086;&#1081;&#1076;&#1105;&#1084; &#1090;&#1091;&#1076;<b>&#1072;</b>, &#1075;&#1076;&#1077; &#1084;<b>&#1086;</b>&#1078;&#1085;&#1086; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1086;&#1090;&#1076;&#1086;&#1093;&#1085;<b>&#1091;</b>&#1090;&#1100; : nous irons l&#224; o&#249; on peut bien se reposer.<br /> &#183; L&#224; o&#249; en fran&#231;ais on emploie tout simplement le verbe &#234;tre, le russe emploie des verbes qui indiquent une position : &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; &#1083;&#1077;&#1078;<b>&#1080;</b>&#1090; &#1085;&#1072; &#1089;&#1090;&#1086;&#1083;<b>&#1077;</b> : le livre est sur la table ; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1072; &#1089;&#1090;&#1086;<b>&#1080;</b>&#1090; &#1074; &#1096;&#1082;&#1072;&#1092;&#1091; : le livre est dans l'armoire.  		 			3 			&#1053;&#1086;&#1089;<b>&#1080;</b>&#1083;&#1100;&#1097;&#1080;&#1082;... &#1074;&#1077;&#1079;&#1105;&#1090; &#1085;&#1072; &#1090;&#1077;&#1083;<b>&#1077;</b>&#1078;&#1082;&#1077; : le porteur transporte (les bagages) sur le chariot (&#1090;&#1077;&#1083;<b>&#1077;</b>&#1078;&#1082;&#1072; est le diminutif de &#1090;&#1077;&#1083;<b>&#1077;</b>&#1075;&#1072;, voiture &#224; cheval &#224; quatre roues). &#1053;&#1086;&#1089;<b>&#1080;</b>&#1083;&#1100;&#1097;&#1080;&#1082; vient du verbe &#1085;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; qui appartient au groupe des verbes de mouvement de type &#1080;&#1076;&#1090;<b>&#1080;</b>-&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;. &#1053;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; est ind&#233;termin&#233; et &#1085;&#1077;&#1089;&#1090;<b>&#1080;</b>, d&#233;termin&#233;.<br /> &#1046;<b>&#1077;</b>&#1085;&#1097;&#1080;&#1085;&#1072; &#1080;&#1076;&#1105;&#1090; &#1074; &#1076;<b>&#1077;</b>&#1090;&#1089;&#1082;&#1080;&#1081; &#1089;&#1072;&#1076; &#1080; &#1085;&#1077;&#1089;&#1105;&#1090; &#1085;&#1072; &#1088;&#1091;&#1082;<b>&#1072;</b>&#1093; &#1089;<b>&#1099;</b>&#1085;&#1072; : la femme va au jardin d'enfants et porte son fils dans ses bras ; &#1082;<b>&#1072;</b>&#1078;&#1076;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100; &#1087;<b>&#1072;</b>&#1087;&#1072; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1076;<b>&#1077;</b>&#1090;&#1089;&#1082;&#1080;&#1081; &#1089;&#1072;&#1076; &#1080; &#1085;<b>&#1086;</b>&#1089;&#1080;&#1090; &#1090;&#1091;&#1076;<b>&#1072;</b> &#1089;<b>&#1099;</b>&#1085;&#1072; : tous les jours, papa va au jardin d'enfants. Il y conduit (porte) son fils.<br /> Par contre, le verbe &#1074;&#1086;&#1079;<b>&#1080;</b>&#1090;&#1100; (ind&#233;t.) / &#1074;&#1077;&#1079;&#1090;<b>&#1080;</b> (d&#233;term.) appartient au groupe de type <b>&#1077;</b>&#1079;&#1076;&#1080;&#1090;&#1100;-<b>&#1077;</b>&#1093;&#1072;&#1090;&#1100;, c'est-&#224;-dire lorsque le mouvement se fait &#224; l'aide d'un moyen de transport (voir le&#231;on 51, note 4).<br /> Pour la conjugaison de ces verbes, nous nous invitons &#224; vous reporter &#224; la le&#231;on de r&#233;vision 56. Vous constaterez avec plaisir qu'ils ont un air de d&#233;j&#224;-vu. N'est-ce pas encourageant ?  		 			4 			&#1042;&#1077;&#1076;<b>&#1091;</b>&#1090; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091; : on conduit un petit chien. Vous le voyez, cette le&#231;on est une mine d'or pour les verbes de mouvement ! &#1042;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;-&#1074;&#1077;&#1089;&#1090;<b>&#1080;</b> (de type &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;-&#1080;&#1076;&#1090;<b>&#1080;</b>) signifie "conduire" ou "promener (un enfant, un chien)". &#1052;<b>&#1072;</b>&#1084;&#1072; &#1080;&#1076;&#1105;&#1090; &#1074; &#1076;<b>&#1077;</b>&#1090;&#1089;&#1082;&#1080;&#1081; &#1089;&#1072;&#1076; &#1080; &#1074;&#1077;&#1076;&#1105;&#1090; &#1079;<b>&#1072;</b> &#1088;<b>&#1091;</b>&#1082;&#1091; &#1089;<b>&#1099;</b>&#1085;&#1072; : la maman va &#224; l'&#233;cole et elle conduit son fils par la main ; &#1082;<b>&#1072;</b>&#1078;&#1076;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100; &#1084;&#1099; &#1074;<b>&#1086;</b>&#1076;&#1080;&#1084; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1091; &#1074; &#1087;&#1072;&#1088;&#1082; : tous les jours, nous promenons le chien au parc ; &#1071; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b>. &#1042;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1089;<b>&#1099;</b>&#1085;&#1072; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100; &#1085;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1092;&#1080;&#1083;&#1100;&#1084; : je suis all&#233; au cin&#233;ma. J'ai emmen&#233; mon fils voir un nouveau film.  		 			5 			&#1057;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072; &#1082;&#1072;&#1082; &#1079;&#1072;&#1088;&#1099;&#1095;<b>&#1080;</b>&#1090; (du verbe &#1088;&#1099;&#1095;<b>&#1072;</b>&#1090;&#1100;): soudain, le chien se met &#224; gronder. &#1050;&#1072;&#1082; indique ici le caract&#232;re inattendu de l'&#233;v&#233;nement. Le pr&#233;verbe &#1079;&#1072;- indique quant &#224; lui le d&#233;but de l'action.  		 			6 			&#1054;&#1090;&#1076;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1084;&#1085;&#1077; &#1084;&#1086;<b>&#1102;</b> &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091; : rendez-moi mon petit chien. Dans &#1086;&#1090;&#1076;<b>&#1072;</b>&#1081;&#1090;&#1077;, vous reconnaissez le verbe &#1076;&#1072;&#1090;&#1100; (donner). Avec le pr&#233;verbe &#1086;&#1090;-, son sens change. &#1054;&#1090;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100; / &#1086;&#1090;&#1076;<b>&#1072;</b>&#1090;&#1100; signifie "rendre".  		 			7 			&#1055;&#1086;&#1079;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1090;&#1077;, &#1075;&#1088;&#1072;&#1078;&#1076;<b>&#1072;</b>&#1085;&#1082;&#1072;! : permettez, citoyenne ! C'est une interpellation tr&#232;s officielle utilis&#233;e par l'administration et la police... Il y a donc peu de chances pour que vous soyez amen&#233; &#224; l'employer ! Par contre, vous pourrez vous entendre dire, si vous ne traversez pas la rue au bon endroit : &#1043;&#1088;&#1072;&#1078;&#1076;&#1072;&#1085;<b>&#1080;</b>&#1085;, &#1087;&#1086;&#1079;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1090;&#1077; &#1086;&#1073;&#1098;&#1103;&#1089;&#1085;<b>&#1080;</b>&#1090;&#1100;, &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; &#1074;&#1099; &#1087;&#1077;&#1088;&#1077;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1091;&#1083;&#1080;&#1094;&#1091; &#1085;&#1072; &#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; &#1089;&#1074;&#1077;&#1090; : citoyen, (permettez), expliquez[-moi] pourquoi vous traversez la rue au feu rouge ? ou bien si vous roulez trop vite : &#1043;&#1088;&#1072;&#1078;&#1076;<b>&#1072;</b>&#1085;&#1082;&#1072;, &#1087;&#1086;&#1079;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1090;&#1077; &#1074;<b>&#1072;</b>&#1096;&#1080; &#1076;&#1086;&#1082;&#1091;&#1084;<b>&#1077;</b>&#1085;&#1090;&#1099; : citoyenne, (permettez), vos papiers (s'il vous pla&#238;t).<br /> &#183; &#1057;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1082;&#1074;&#1080;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; : d'apr&#232;s (selon) le re&#231;u. &#1057;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1089;&#1085;&#1086; est plut&#244;t employ&#233; dans les documents officiels. &#1057;&#1086;&#1075;&#1083;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1076;&#1086;&#1075;&#1086;&#1074;<b>&#1086;</b>&#1088;&#1091; : selon l'accord. Il est suivi du datif.<br /> &#183; &#1054;&#1090; &#1074;&#1072;&#1089; &#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;<b>&#1080;</b>&#1083;&#1080; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : de vous on a re&#231;u les bagages. La pr&#233;position &#1086;&#1090; est suivie du g&#233;nitif. &#1069;&#1090;&#1080; &#1076;<b>&#1077;</b>&#1085;&#1100;&#1075;&#1080; &#1086;&#1085; &#1087;&#1086;&#1083;&#1091;&#1095;<b>&#1080;</b>&#1083; &#1086;&#1090; &#1084;&#1077;&#1085;<b>&#1103;</b> : il a re&#231;u cet argent de ma part (de moi) ; &#1103; &#1087;&#1086;&#1083;&#1091;&#1095;<b>&#1080;</b>&#1083; &#1087;&#1080;&#1089;&#1100;&#1084;<b>&#1086;</b> &#1086;&#1090; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1072; j'ai re&#231;u une lettre de mon fr&#232;re.  		 			8 			&#1054;&#1076;&#1085;<b>&#1072;</b>&#1082;&#1086;, plus litt&#233;raire que &#1085;&#1086;, signifie &#233;galement "mais", "cependant".<br /> &#183; &#1047;&#1072; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1091;&#1090;<b>&#1080;</b> : pendant le voyage. La construction &#1079;&#1072; &#1074;&#1088;&#1077;&#1084;<b>&#1103;</b> + g&#233;nitif est courante. Bien souvent, le mot &#1074;&#1088;&#1077;&#1084;&#1103; n'est pas traduit. &#1047;&#1072; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099; &#1074; &#1073;&#1102;&#1088;<b>&#1086;</b>, &#1086;&#1085; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1089;&#1076;<b>&#1077;</b>&#1083;&#1072;&#1083; : pendant son travail au bureau, il a fait beaucoup de choses.  	 	 			
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 	 		<p><i>Une nouvelle page de classique. Cette fois-ci, nous vous proposons un extrait du roman de Lev Nicola&#239;evitch Tolsto&#239;, "Guerre et Paix". Dans ce passage qui met en sc&#232;ne Natacha Rostova, transparaissent les &#233;motions d'une jeune fille russe devant laquelle s'ouvrent la vie et ses secrets.</i> </p> 	<h3>
+		&#1053;&#1072;&#1090;&#1072;&#1096;&#1072;
+		Natacha
+		</h3> 	 		 			1 			&#1050;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1072; &#1082;&#1085;<b>&#1103;</b>&#1079;&#1103; &#1040;&#1085;&#1076;&#1088;<b>&#1077;</b>&#1103; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1074; &#1089;&#1088;<b>&#1077;</b>&#1076;&#1085;&#1077;&#1084; &#1101;&#1090;&#1072;&#1078;<b>&#1077;</b>, &#1074; &#1082;<b>&#1086;</b>&#1084;&#1085;&#1072;&#1090;&#1072;&#1093; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1078;<b>&#1080;</b>&#1083;&#1080; &#1080; &#1085;&#1077; &#1089;&#1087;<b>&#1072;</b>&#1083;&#1080;. &#1054;&#1085; &#1091;&#1089;&#1083;&#1099;&#1093;<b>&#1072;</b>&#1083; &#1089;&#1074;<b>&#1077;</b>&#1088;&#1093;&#1091; &#1078;<b>&#1077;</b>&#1085;&#1089;&#1082;&#1080;&#1081; &#1075;<b>&#1086;</b>&#1074;&#1086;&#1088;. 			 				1 			La chambre du prince Andr&#233; &#233;tait &#224; l'&#233;tage du milieu ; les chambres au-dessus de lui &#233;taient aussi habit&#233;es (on vivait aussi) et l'on ne dormait pas. Des voix de femmes lui parvinrent d'en haut.  		 			2 			- &#1058;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1077;&#1097;&#1105; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1088;&#1072;&#1079;, - &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1078;<b>&#1077;</b>&#1085;&#1089;&#1082;&#1080;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; &#1089;&#1077;&#1081;&#1095;<b>&#1072;</b>&#1089; &#1091;&#1079;&#1085;<b>&#1072;</b>&#1083; &#1082;&#1085;&#1103;&#1079;&#1100; &#1040;&#1085;&#1076;&#1088;<b>&#1077;</b>&#1081;. 			 			Encore une fois seulement, dit une voix de femme, que le prince Andr&#233; reconnut tout de suite.  		 			3 			- &#1044;&#1072; &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1078;&#1077; &#1090;&#1099; &#1089;&#1087;&#1072;&#1090;&#1100; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1096;&#1100;? - &#1086;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083; &#1076;&#1088;&#1091;&#1075;<b>&#1086;</b>&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;. 			 				2 			Mais quand donc dormiras-tu ? r&#233;pondit une autre voix.  		 			4 			- &#1071; &#1085;&#1077; &#1073;&#1091;&#1076;<b>&#1091;</b>, &#1103; &#1085;&#1077; &#1084;&#1086;&#1075;&#1091; &#1089;&#1087;&#1072;&#1090;&#1100;, &#1095;&#1090;&#1086; &#1078; &#1084;&#1085;&#1077; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100;! &#1053;<b>&#1091;</b>, &#1087;&#1086;&#1089;&#1083;<b>&#1077;</b>&#1076;&#1085;&#1080;&#1081; &#1088;&#1072;&#1079;... 			 			Je ne dormirai pas, je ne peux pas dormir, que dois-je donc faire ! Allons, une derni&#232;re fois...  		 			5 			&#1044;&#1074;&#1072; &#1078;<b>&#1077;</b>&#1085;&#1089;&#1082;&#1080;&#1093; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1072; &#1079;&#1072;&#1087;<b>&#1077;</b>&#1083;&#1080; &#1082;&#1072;&#1082;<b>&#1091;</b>&#1102;-&#1090;&#1086; &#1084;&#1091;&#1079;&#1099;&#1082;<b>&#1072;</b>&#1083;&#1100;&#1085;<b>&#1091;</b>&#1102; &#1092;&#1088;<b>&#1072;</b>&#1079;&#1091;... - &#1040;&#1093;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;<b>&#1077;</b>&#1083;&#1077;&#1089;&#1090;&#1100;! &#1053;<b>&#1091;</b>, &#1090;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100; &#1089;&#1087;&#1072;&#1090;&#1100;, &#1080; &#1082;&#1086;&#1085;<b>&#1077;</b>&#1094;. 			 			Les deux voix f&#233;minines entonn&#232;rent une phrase musicale... - Ah, quelle merveille ! Bon, maintenant (il faut) dormir, c'est fini (et la fin).  		 			6 			- &#1058;&#1099; &#1089;&#1087;&#1080;, &#1072; &#1103; &#1085;&#1077; &#1084;&#1086;&#1075;<b>&#1091;</b>, - &#1086;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;, &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1074;&#1096;&#1080;&#1081;&#1089;&#1103; &#1082; &#1086;&#1082;&#1085;<b>&#1091;</b>, &#1054;&#1085;<b>&#1072;</b>, &#1074;<b>&#1080;</b>&#1076;&#1080;&#1084;&#1086;, &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1074;<b>&#1099;</b>&#1089;&#1091;&#1085;&#1091;&#1083;&#1072;&#1089;&#1100; &#1074; &#1086;&#1082;&#1085;<b>&#1086;</b>, &#1087;&#1086;&#1090;&#1086;&#1084;&#1091; &#1095;&#1090;&#1086; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1085;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1096;&#1091;&#1088;&#1096;<b>&#1072;</b>&#1085;&#1080;&#1077; &#1077;&#1105; &#1087;&#1083;<b>&#1072;</b>&#1090;&#1100;&#1103; &#1080; &#1076;<b>&#1072;</b>&#1078;&#1077; &#1076;&#1099;&#1093;<b>&#1072;</b>&#1085;&#1080;&#1077;... 			 				3 			Dors, toi, mais moi je ne peux pas, r&#233;pondit la premi&#232;re femme (voix), qui s'&#233;tait approch&#233;e de la fen&#234;tre. Visiblement, elle s'&#233;tait compl&#232;tement pench&#233;e au dehors, car on entendait le froissement de sa robe et m&#234;me son souffle.  		 			7 			- &#1057;<b>&#1086;</b>&#1085;&#1103;! &#1057;<b>&#1086;</b>&#1085;&#1103;! - &#1087;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1089;&#1103; &#1086;&#1087;<b>&#1103;</b>&#1090;&#1100; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;. - &#1053;<b>&#1091;</b>, &#1082;&#1072;&#1082; &#1084;<b>&#1086;</b>&#1078;&#1085;&#1086; &#1089;&#1087;&#1072;&#1090;&#1100;! &#1044;&#1072; &#1090;&#1099; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1080;</b>, &#1095;&#1090;&#1086; &#1079;&#1072; &#1087;&#1088;<b>&#1077;</b>&#1083;&#1077;&#1089;&#1090;&#1100;! &#1040;&#1093;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;<b>&#1077;</b>&#1083;&#1077;&#1089;&#1090;&#1100;! &#1044;&#1072; &#1087;&#1088;&#1086;&#1089;&#1085;<b>&#1080;</b>&#1089;&#1100; &#1078;&#1077;, &#1057;<b>&#1086;</b>&#1085;&#1103;, - &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1089;&#1086; &#1089;&#1083;&#1077;&#1079;<b>&#1072;</b>&#1084;&#1080; &#1074; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1077;. 			 				4 			Sonia ! Sonia ! reprit (retentit &#224; nouveau) la premi&#232;re voix. Mais comment peut-on dormir ? Mais regarde donc comme c'est merveilleux ! Ah, quelle merveille ! Mais r&#233;veille-toi donc, Sonia, dit-elle presque avec des larmes dans la voix.  		 			8 			&#1042;&#1077;&#1076;&#1100; <b>&#1079;</b>&#1076;&#1072;&#1082;&#1086;&#1081; &#1087;&#1088;&#1077;&#1083;<b>&#1077;</b>&#1089;&#1090;&#1085;&#1086;&#1081; &#1085;<b>&#1086;</b>&#1095;&#1080; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1073;&#1099;&#1074;<b>&#1072;</b>&#1083;&#1086;. &#1057;<b>&#1086;</b>&#1085;&#1103; &#1085;&#1077;&#1086;&#1093;<b>&#1086;</b>&#1090;&#1085;&#1086; &#1095;&#1090;<b>&#1086;</b>-&#1090;&#1086; &#1086;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083;&#1072;. 			 				5 			Je t'assure qu'il n'y a jamais eu de nuit aussi merveilleuse. Sonia r&#233;pondit quelque chose &#224; contrecoeur.  		 			9 			&#1053;&#1077;&#1090;, &#1090;&#1099; &#1087;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1080;</b>, &#1095;&#1090;&#1086; &#1079;&#1072; &#1083;&#1091;&#1085;<b>&#1072;</b>! &#1040;&#1093;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1087;&#1088;<b>&#1077;</b>&#1083;&#1077;&#1089;&#1090;&#1100; ! &#1058;&#1099; &#1087;&#1086;&#1076;<b>&#1080;</b> &#1089;&#1102;&#1076;<b>&#1072;</b>. &#1044;<b>&#1091;</b>&#1096;&#1077;&#1085;&#1100;&#1082;&#1072;, &#1075;&#1086;&#1083;&#1091;&#1073;<b>&#1091;</b>&#1096;&#1082;&#1072;, &#1087;&#1086;&#1076;<b>&#1080;</b> &#1089;&#1102;&#1076;<b>&#1072;</b>. &#1053;<b>&#1091;</b>, &#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100;? &#1058;&#1072;&#1082; &#1074;&#1086;&#1090; &#1073;&#1099; &#1089;<b>&#1077;</b>&#1083;&#1072; &#1085;&#1072; &#1082;<b>&#1086;</b>&#1088;&#1090;&#1086;&#1095;&#1082;&#1080;... &#1080; &#1087;&#1086;&#1083;&#1077;&#1090;<b>&#1077;</b>&#1083;&#1072; &#1073;&#1099;. &#1042;&#1086;&#1090; &#1090;&#1072;&#1082;! 			 				6 			Mais regarde donc quelle lune ! Ah, quelle merveille ! Viens ici. Mon petit coeur, ma petite colombe, viens ici. Alors, tu vois ? Je pourrais m'y accroupir et je m'envolerais. Comme &#231;a !  		 			10 			- &#1055;<b>&#1086;</b>&#1083;&#1085;&#1086;, &#1090;&#1099; &#1091;&#1087;&#1072;&#1076;&#1105;&#1096;&#1100;. &#1055;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1072;&#1089;&#1100; &#1073;&#1086;&#1088;&#1100;&#1073;<b>&#1072;</b> &#1080; &#1085;&#1077;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1100;&#1085;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089; &#1057;<b>&#1086;</b>&#1085;&#1080;: - &#1059;&#1078;&#1077; &#1074;&#1090;&#1086;&#1088;<b>&#1086;</b>&#1081; &#1095;&#1072;&#1089;. 			 				7 			Assez, tu vas tomber. On entendit un bruit de lutte (une lutte se fit entendre) et la voix m&#233;contente de Sonia : - II est d&#233;j&#224; une heure pass&#233;e (c'est d&#233;j&#224; la deuxi&#232;me heure).  		 			11 			- &#1040;&#1093;, &#1090;&#1099; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1074;&#1089;&#1105; &#1087;<b>&#1086;</b>&#1088;&#1090;&#1080;&#1096;&#1100; &#1084;&#1085;&#1077;, &#1085;<b>&#1091;</b>, &#1080;&#1076;<b>&#1080;</b>, &#1080;&#1076;<b>&#1080;</b>. 			 			&#1040;h, tu ne fais que tout me g&#226;cher, allons, va-t'en, va-t'en.  		 			12 			&#1054;&#1087;<b>&#1103;</b>&#1090;&#1100; &#1074;&#1089;&#1105; &#1079;&#1072;&#1084;<b>&#1086;</b>&#1083;&#1082;&#1083;&#1086;, &#1085;&#1086; &#1082;&#1085;&#1103;&#1079;&#1100; &#1040;&#1085;&#1076;&#1088;<b>&#1077;</b>&#1081; &#1079;&#1085;&#1072;&#1083;, &#1095;&#1090;&#1086; &#1086;&#1085;<b>&#1072;</b> &#1074;&#1089;&#1105; &#1077;&#1097;&#1105; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090; &#1090;<b>&#1091;</b>&#1090;, &#1086;&#1085; &#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083; &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1090;<b>&#1080;</b>&#1093;&#1086;&#1077; &#1096;&#1077;&#1074;&#1077;&#1083;<b>&#1077;</b>&#1085;&#1080;&#1077;, &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1079;&#1076;<b>&#1086;</b>&#1093;&#1080;. 			 				8 			De nouveau, tout se tut, mais le prince Andr&#233; savait qu'elle &#233;tait toujours (assise) l&#224; ; il entendait tant&#244;t un doux fr&#244;lement, tant&#244;t des soupirs.  		 			13 			- &#1040;&#1093;, &#1041;<b>&#1086;</b>&#1078;&#1077; &#1084;&#1086;&#1081;! &#1041;<b>&#1086;</b>&#1078;&#1077; &#1084;&#1086;&#1081;! &#1095;&#1090;&#1086; &#1078; <b>&#1079;</b>&#1090;&#1086; &#1090;&#1072;&#1082;<b>&#1086;</b>&#1077;! - &#1074;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1074;&#1089;&#1082;&#1088;<b>&#1080;</b>&#1082;&#1085;&#1091;&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b>. &#1057;&#1087;&#1072;&#1090;&#1100; &#1090;&#1072;&#1082; &#1089;&#1087;&#1072;&#1090;&#1100; - &#1080; &#1079;&#1072;&#1093;&#1083;<b>&#1086;</b>&#1087;&#1085;&#1091;&#1083;&#1072; &#1086;&#1082;&#1085;<b>&#1086;</b>. 			 				9 			"Ah, mon Dieu ! Mon Dieu ! Qu'est-ce donc ? s'&#233;cria-t-elle soudain. Puisqu'il faut dormir, dormons", et elle claqua la fen&#234;tre.  	 		 			1 			&#1054;&#1085; &#1091;&#1089;&#1083;&#1099;&#1093;<b>&#1072;</b>&#1083; : il entendit. C'est l'&#233;quivalent de &#1086;&#1085; &#1091;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;.<br /> &#183; &#1043;<b>&#1086;</b>&#1074;&#1086;&#1088; : ici, il s'agit du bruit d'une conversation, mais le sens est tout diff&#233;rent dans la phrase suivante : &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1084;&#1086;&#1089;&#1082;<b>&#1086;</b>&#1074;&#1089;&#1082;&#1080;&#1081; &#1075;&#1086;&#1074;<b>&#1086;</b>&#1088; : j'aime la prononciation moscovite.<br /> &#183; &#1057;&#1074;<b>&#1077;</b>&#1088;&#1093;&#1091; : du haut, d'en haut. C'est un adverbe qui r&#233;pond &#224; la question &#1086;&#1090;&#1082;<b>&#1091;</b>&#1076;&#1072;? : d'o&#249; ? &#1053;&#1072;&#1074;<b>&#1077;</b>&#1088;&#1093; : en haut, r&#233;pond &#224; la question &#1082;&#1091;&#1076;<b>&#1072;</b>? o&#249; ? (avec mouvement) et &#1085;&#1072;&#1074;&#1077;&#1088;&#1093;&#1091; : en haut, r&#233;pond &#224; la question &#1075;&#1076;&#1077;? : o&#249; ? (sans mouvement). Sur le m&#234;me principe, on aura :<br /> &#1057;&#1085;<b>&#1080;</b>&#1079;&#1091; : d'en bas, du bas (&#1086;&#1090;&#1082;&#1091;&#1076;<b>&#1072;</b>?) ; &#1074;&#1085;&#1080;&#1079; : en bas (&#1082;&#1091;&#1076;<b>&#1072;</b>?) ; &#1074;&#1085;&#1080;&#1079;&#1091; : en bas (&#1075;&#1076;&#1077;?).<br /> &#1053;&#1072;&#1090;<b>&#1072;</b>&#1096;&#1072; &#1078;&#1080;&#1083;<b>&#1072;</b> &#1085;&#1072;&#1074;&#1077;&#1088;&#1093;&#1091; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1075;&#1086; &#1076;<b>&#1086;</b>&#1084;&#1072; : Natacha habitait en haut d'une grande maison ; &#1082;<b>&#1072;</b>&#1078;&#1076;&#1099;&#1081; &#1076;&#1077;&#1085;&#1100; &#1086;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1076;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1083;&#1072;&#1089;&#1100; &#1082; &#1089;&#1077;&#1073;<b>&#1077;</b> &#1085;&#1072;&#1074;<b>&#1077;</b>&#1088;&#1093; : chaque jour, elle montait chez elle (en haut).  		 			2 			&#1054;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083; &#1076;&#1088;&#1091;&#1075;<b>&#1086;</b>&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089; : r&#233;pondit une autre voix. Remarquez simplement ici l'emploi de l'imperfectif. L'action a eu lieu. C'est tout. On ne s'attarde pas sur son r&#233;sultat.  		 			3 			&#1054;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;, &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1074;&#1096;&#1080;&#1081;&#1089;&#1103; &#1082; &#1086;&#1082;&#1085;&#1091; : r&#233;pondit la premi&#232;re femme (voix), qui s'&#233;tait approch&#233;e de la fen&#234;tre. Ici, &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1074;&#1096;&#1080;&#1081;&#1089;&#1103; est un participe pass&#233; actif perfectif. Vous remarquez qu'il s'accorde avec le mot &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;. Ne le confondez pas avec le g&#233;rondif qui est &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1074;&#1096;&#1080;&#1089;&#1100; et qui est invariable. Lisez plut&#244;t : &#1086;&#1085;<b>&#1072;</b> &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072;, &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1074;&#1096;&#1080;&#1089;&#1100; &#1082; &#1086;&#1082;&#1085;&#1091; : elle dit, s'&#233;tant approch&#233;e de la fen&#234;tre.<br /> Le participe pass&#233; actif remplace &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; suivi du pass&#233; perfectif. Ainsi, dans une conversation, on dira plut&#244;t : &#1086;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1083; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;, &#1082;&#1086;&#1090;<b>&#1086;</b>&#1088;&#1099;&#1081; &#1087;&#1088;&#1080;&#1073;&#1083;<b>&#1080;</b>&#1079;&#1080;&#1083;&#1089;&#1103; &#1082; &#1086;&#1082;&#1085;<b>&#1091;</b>. Il suffit, pour le former, d'enlever le -&#1083; final du pass&#233; du masculin singulier et d'ajouter -&#1074;&#1096;&#1080;&#1081; (ou -&#1074;&#1096;&#1080;&#1081;&#1089;&#1103; pour un verbe pronominal).  		 			4 			&#1055;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1089;&#1103; &#1087;<b>&#1077;</b>&#1088;&#1074;&#1099;&#1081; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089; : retentit la premi&#232;re voix. &#1055;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1090;&#1100;&#1089;&#1103; (retentir, se faire entendre) est surtout employ&#233; au pass&#233;. &#1043;<b>&#1086;</b>&#1083;&#1086;&#1089; &#1087;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1089;&#1103; : une voix se fit entendre ; &#1087;<b>&#1077;</b>&#1089;&#1085;&#1103; &#1087;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1072;&#1089;&#1100; : une chanson se fit entendre ; &#1075;&#1086;&#1083;&#1086;&#1089;<b>&#1072;</b> &#1087;&#1086;&#1089;&#1083;<b>&#1099;</b>&#1096;&#1072;&#1083;&#1080;&#1089;&#1100; : des voix retentirent.<br /> &#183; &#1057;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b> &#1089;&#1086; &#1089;&#1083;&#1077;&#1079;<b>&#1072;</b>&#1084;&#1080; &#1074; &#1075;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1077; dit-elle avec des larmes dans la voix. Revoyons ensemble l'instrumental : &#1086;&#1085;<b>&#1072;</b> &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1072; &#1089;&#1086; &#1089;&#1084;<b>&#1077;</b>&#1093;&#1086;&#1084; / &#1089; &#1091;&#1083;<b>&#1099;</b>&#1073;&#1082;&#1086;&#1081; / &#1089;&#1086; &#1089;&#1083;&#1077;&#1079;<b>&#1072;</b>&#1084;&#1080; : elle dit en riant (avec un rire) / avec un sourire / avec des larmes.  		 			5 			&#1069;&#1076;&#1072;&#1082;&#1086;&#1081; (vieilli) : &#1090;&#1072;&#1082;<b>&#1086;</b>&#1081; (tel). Dans la traduction, <b>&#1079;</b>&#1076;&#1072;&#1082;&#1086;&#1081; correspond &#224; "si".  		 			6 			&#1058;&#1099; &#1087;&#1086;&#1076;<b>&#1080;</b> &#1089;&#1102;&#1076;<b>&#1072;</b>, ou &#1090;&#1099; &#1080;&#1076;<b>&#1080;</b> &#1089;&#1102;&#1076;<b>&#1072;</b> viens ici ! Construction vieillie, qui r&#233;appara&#238;t maintenant dans les conversations entre amis.<br /> &#183; &#1044;<b>&#1091;</b>&#1096;&#1077;&#1085;&#1100;&#1082;&#1072;, du mot &#1076;&#1091;&#1096;<b>&#1072;</b> (&#226;me) et &#1075;&#1086;&#1083;&#1091;&#1073;<b>&#1091;</b>&#1096;&#1082;&#1072; (&#1075;<b>&#1086;</b>&#1083;&#1091;&#1073;&#1100;) font partie de ces mots que les hommes emploient pour parler tendrement aux femmes. On peut les traduire par "mon petit coeur", "ma petite colombe".  		 			7 			Revoir une conjugaison n'est jamais superflu. Revoyons celle de "tomber". 		<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">Imperfectif: &#1087;<b>&#1072;</b>&#1076;&#1072;&#1090;&#1100; </td> 							<td class="centre">Perfectif : &#1091;&#1087;<b>&#1072;</b>&#1089;&#1090;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1103; &#1087;<b>&#1072;</b>&#1076;&#1072;&#1102; </td> 							<td class="centre">&#1103; &#1091;&#1087;&#1072;&#1076;&#1091; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1087;<b>&#1072;</b>&#1076;&#1072;&#1077;&#1096;&#1100; </td> 							<td class="centre">&#1090;&#1099; &#1091;&#1087;&#1072;&#1076;&#1105;&#1096;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1087;<b>&#1072;</b>&#1076;&#1072;&#1077;&#1090; </td> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1091;&#1087;&#1072;&#1076;&#1105;&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1087;<b>&#1072;</b>&#1076;&#1072;&#1077;&#1084; </td> 							<td class="centre">&#1084;&#1099; &#1091;&#1087;&#1072;&#1076;&#1105;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1087;<b>&#1072;</b>&#1076;&#1072;&#1077;&#1090;&#1077; </td> 							<td class="centre">&#1074;&#1099; &#1091;&#1087;&#1072;&#1076;&#1105;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1087;<b>&#1072;</b>&#1076;&#1072;&#1102;&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1091;&#1087;&#1072;&#1076;<b>&#1091;</b>&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">Imp&#233;ratif: </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre">&#1087;<b>&#1072;</b>&#1076;&#1072;&#1081;! &#1087;<b>&#1072;</b>&#1076;&#1072;&#1081;&#1090;&#1077;!  </td> 							<td class="centre">&#1091;&#1087;&#1072;&#1076;<b>&#1080;</b>! &#1091;&#1087;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077;! </td></tr></tbody></table> 		 			8 			&#1042;&#1089;&#1105; &#1079;&#1072;&#1084;<b>&#1086;</b>&#1083;&#1082;&#1083;&#1086; : tout s'&#233;tait tu. On pourrait dire aussi : &#1074;&#1089;&#1105; &#1074;&#1086;&#1082;&#1088;<b>&#1091;</b>&#1075; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1090;<b>&#1080;</b>&#1093;&#1086; : tout &#233;tait devenu calme (autour). " Remarquez dans cette le&#231;on les quelques noms form&#233;s sur des verbes.<br /> Phrase 6 : &#1096;&#1091;&#1088;&#1096;<b>&#1072;</b>&#1085;&#1080;&#1077; (froissement) est li&#233; au verbe &#1096;&#1091;&#1088;&#1096;<b>&#1072;</b>&#1090;&#1100; (froufrouter) ; &#1076;&#1099;&#1093;<b>&#1072;</b>&#1085;&#1080;&#1077; (respiration) au verbe &#1076;&#1099;&#1096;<b>&#1072;</b>&#1090;&#1100; (respirer).<br /> Phrase 12 : &#1096;&#1077;&#1074;&#1077;&#1083;<b>&#1077;</b>&#1085;&#1080;&#1077; (bruissement, bruit l&#233;ger) est de la m&#234;me famille que &#1096;&#1077;&#1074;&#1077;&#1083;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; (remuer l&#233;g&#232;rement) ; de m&#234;me, &#1074;&#1079;&#1076;&#1086;&#1093; (soupir) est li&#233; &#224; &#1074;&#1079;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1090;&#1100; (soupirer).  		 			9 			&#1042;&#1076;&#1088;<b>&#1091;</b>&#1075; &#1074;&#1089;&#1082;&#1088;<b>&#1080;</b>&#1082;&#1085;&#1091;&#1083;&#1072; &#1086;&#1085;<b>&#1072;</b> : s'&#233;cria-t-elle soudain. Vous connaissez d&#233;j&#224; le verbe &#1082;&#1088;&#1080;&#1095;<b>&#1072;</b>&#1090;&#1100; / &#1082;&#1088;<b>&#1080;</b>&#1082;&#1085;&#1091;&#1090;&#1100; (crier). Ici, le pr&#233;verbe &#1074;&#1089;- ajoute une nuance de rapidit&#233;, de soudainet&#233;.<br /> &#183; &#1054;&#1085;<b>&#1072;</b> &#1079;&#1072;&#1093;&#1083;<b>&#1086;</b>&#1087;&#1085;&#1091;&#1083;&#1072; &#1086;&#1082;&#1085;<b>&#1086;</b> : elle ferma la fen&#234;tre en la faisant claquer. L'imperfectif de &#1079;&#1072;&#1093;&#1083;<b>&#1086;</b>&#1087;&#1085;&#1091;&#1090;&#1100; est &#1079;&#1072;&#1093;&#1083;<b>&#1086;</b>&#1087;&#1099;&#1074;&#1072;&#1090;&#1100;.  	 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

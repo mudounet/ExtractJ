@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	<h3>
+		&#1041;&#1077;&#1076;&#1085;&#1099;&#1081; &#1084;&#1072;&#1083;&#1100;&#1095;&#1080;&#1082;!
+		Pauvre gar&#231;on ! 		</h3> 	 		 			1 			- &#1050;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b> &#1091; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1081; &#1076;<b>&#1086;</b>&#1095;&#1077;&#1088;&#1080;? 			 				1 			Comment va votre fille (Comment les affaires chez votre fille) ?  		 			2 			- &#1055;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;! &#1054;&#1085;<b>&#1072;</b> &#1085;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086; &#1074;<b>&#1099;</b>&#1096;&#1083;&#1072; &#1079;<b>&#1072;</b>&#1084;&#1091;&#1078;. 			 				2 			Tr&#232;s bien ! Elle s'est mari&#233;e il n'y a pas longtemps.  		 			3 			- &#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102;! &#1048; &#1079;&#1072; &#1082;&#1086;&#1075;<b>&#1086;</b>? 			 				3 			F&#233;licitations ! Et avec qui ?  		 			4 			- &#1047;&#1072; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1083;&#1086;&#1076;<b>&#1086;</b>&#1075;&#1086; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1072;. 			 			Avec un jeune homme tr&#232;s bien.  		 			5 			- &#1059; &#1085;&#1077;&#1105; &#1074;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>? 			 				4 			Tout va bien pour elle ?  		 			6 			- &#1055;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1079;&#1072;&#1084;&#1077;&#1095;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;. &#1054;&#1085; &#1087;&#1086;&#1084;&#1086;&#1075;<b>&#1072;</b>&#1077;&#1090; &#1077;&#1081; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100;, &#1089;&#1090;&#1080;&#1088;<b>&#1072;</b>&#1090;&#1100;, &#1084;<b>&#1099;</b>&#1090;&#1100; &#1087;&#1086;&#1089;<b>&#1091;</b>&#1076;&#1091; &#1080; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;. 			&#1079;&#1072;&#1084;&#1077;&#1095;<b>&#1072;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;: zamitch<b>a</b>til(i)na 			 				5 			C'est [tout] simplement remarquable. Il l'aide &#224; faire la cuisine, la lessive, la vaisselle et fait les courses (et il va dans le magasin).  		 			7 			- &#1044;&#1072;, &#1077;&#1081; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>. 			&#1076;&#1077;&#1081;&#1089;&#1090;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086; : diistv<b>i</b>til(i)na  			 			Oui, elle a effectivement eu de la chance.  		 			8 			- &#1040; &#1082;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b> &#1091; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1075;&#1086; &#1089;<b>&#1099;</b>&#1085;&#1072;? 			 				6 			Et comment va votre fils ?  		 			9 			- &#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1075;&#1086;. 			 				7 			Pas tr&#232;s bien (Rien de bien).  		 			10 			- &#1044;&#1072;!? &#1040; &#1074; &#1095;&#1105;&#1084; &#1076;<b>&#1077;</b>&#1083;&#1086;? 			 			Ah bon !? Et que se passe-t-il (Et dans quoi l'affaire) ?  		 			11 			- &#1045;&#1084;&#1091; &#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>. &#1041;<b>&#1077;</b>&#1076;&#1085;&#1099;&#1081; &#1085;&#1072;&#1096; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; &#1076;<b>&#1086;</b>&#1083;&#1078;&#1077;&#1085; &#1089;&#1072;&#1084; &#1074;&#1089;&#1105; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100;, &#1089;&#1090;&#1080;&#1088;<b>&#1072;</b>&#1090;&#1100; &#1084;&#1099;&#1090;&#1100; &#1087;&#1086;&#1089;<b>&#1091;</b>&#1076;&#1091; &#1080; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085;. 			&#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; : m<b>a</b>l(i)tchik  			 				8 			Il n'a pas eu de chance. Notre pauvre gar&#231;on doit lui-m&#234;me faire la cuisine, faire la lessive, laver la vaisselle et faire les courses.  		 			12 			- &#1044;&#1077;&#1081;&#1089;&#1090;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;, &#1073;<b>&#1077;</b>&#1076;&#1085;&#1099;&#1081; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;! 			 				9 			Pauvre gar&#231;on, effectivement !  		 			 				Le (i) se prononce tr&#232;s bri&#232;vement, juste de fa&#231;on &#224; "mouiller" le son pr&#233;c&#233;dent.<br /> Ecoutez bien les cassettes. Cela vous aidera &#224; saisir les nuances de prononciation.  	 		 			1 			Vous vous souvenez de la construction &#1091; + g&#233;nitif: &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1084;&#1072;&#1096;&#1080;&#1085;&#1072; (j'ai une voiture). Ici, &#1091; est suivi de &#1076;<b>&#1086;</b>&#1095;&#1077;&#1088;&#1080;, g&#233;nitif de &#1076;&#1086;&#1095;&#1100; (fille). Ce mot a une d&#233;clinaison irr&#233;guli&#232;re. Retenez &#233;galement &#1084;&#1072;&#1090;&#1100; (nomin.) : m&#232;re, qui au g&#233;nitif fait &#1084;<b>&#1072;</b>&#1090;&#1077;&#1088;&#1080;. Il s'agit, bien entendu, de deux f&#233;minins.<br /> &#1050;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b> &#1091; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1081; &#1076;<b>&#1086;</b>&#1095;&#1077;&#1088;&#1080;? Comment va votre fille ?<br /> &#1050;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b> &#1091; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1081; &#1084;<b>&#1072;</b>&#1090;&#1077;&#1088;&#1080;? Comment va votre m&#232;re ?<br /> Remarquez que le possessif &#1074;&#1072;&#1096; se met aussi au g&#233;nitif f&#233;minin : &#1074;<b>&#1072;</b>&#1096;&#1077;&#1081;.  		 			2 			&#1053;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086; : depuis peu, il n'y a pas longtemps. Le contraire sera &#1076;&#1072;&#1074;&#1085;<b>&#1086;</b> : depuis longtemps.  		 			3 			Pour demander &#224; une femme avec qui elle est mari&#233;e, on emploie la pr&#233;position &#1079;&#1072; + accusatif. On dira donc : &#1054;&#1085;<b>&#1072;</b> &#1074;<b>&#1099;</b>&#1096;&#1083;&#1072; &#1079;<b>&#1072;</b>&#1084;&#1091;&#1078; &#1079;&#1072; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1075;&#1086; &#1084;&#1086;&#1083;&#1086;&#1076;<b>&#1086;</b>&#1075;&#1086; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1072; :<br /> elle est mari&#233;e avec un jeune homme tr&#232;s bien. Retenez &#233;galement ici la terminaison de l'adjectif masculin &#224; l'accusatif-g&#233;nitif -&#1086;&#1075;&#1086; dans laquelle le &#1075; se prononce v. &#1054;&#1075;&#1086; peut se prononcer ova (&#1090;&#1072;&#1082;<b>&#1086;</b>&#1075;&#1086;) ; avo (&#1082;&#1086;&#1075;<b>&#1086;</b>) ; ava (comme ici &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1075;&#1086;) selon l'accent tonique.  		 			4 			Faisons le point sur le g&#233;nitif des pronoms personnels : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1103; </p></td> 							<td class="centre"> 								<p>&#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> : chez moi </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1090;&#1099; </p></td> 							<td class="centre"> 								<p>&#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> : chez toi </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1086;&#1085; </p></td> 							<td class="centre"> 								<p>&#1091; &#1085;&#1077;&#1075;<b>&#1086;</b> : chez lui </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1086;&#1085;<b>&#1072;</b> </p></td> 							<td class="centre"> 								<p>&#1091; &#1085;&#1077;&#1105; : chez elle </p></td></tr></tbody></table><br /> &#1059; &#1085;&#1077;&#1075;<b>&#1086;</b> &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1078;&#1077;&#1085;<b>&#1072;</b> : Il a une tr&#232;s belle femme.<br /> &#1059; &#1085;&#1077;&#1105; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1081; &#1084;<b>&#1091;</b>&#1078; : Elle a un bon mari.  		 			5 			Les verbes qui indiquent le mouvement vont vous r&#233;server quelques surprises. Ainsi, vous rencontrerez des verbes qui indiquent une direction pr&#233;cise, par exemple : &#1086;&#1085; &#1080;&#1076;&#1105;&#1090; &#1074; &#1090;&#1077;<b>&#1072;</b>&#1090;&#1088;: il va au th&#233;&#226;tre. Et puis, il y a les verbes qui indiquent un mouvement sans direction pr&#233;cise, par exemple : &#1086;&#1085; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085; : il va dans un magasin, qui signifie en fait : "il fait les courses". &#1054;&#1085; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1077; : il marche dans le parc (il va dans le parc). Ici &#233;galement, pas de but pr&#233;cis. Nous y reviendrons.  		 			6 			Remarquez ici le g&#233;nitif de l'adjectif possessif masculin &#1074;&#1072;&#1096; (votre) : &#1091; &#1074;<b>&#1072;</b>&#1096;&#1077;&#1075;&#1086; &#1089;<b>&#1099;</b>&#1085;&#1072;.  		 			7 			&#1053;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1075;&#1086; : rien de bon (bien). L'expression est au g&#233;nitif car la n&#233;gation &#1085;&#1077;&#1090; (apr&#232;s laquelle on met le g&#233;nitif) est sous-entendue : (&#1085;&#1077;&#1090;) &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1075;&#1086;.  		 			8 			Le pronom &#1089;&#1072;&#1084; signifie "moi-m&#234;me", "toi-m&#234;me", "lui-m&#234;me", etc. Au f&#233;minin, on aura &#1089;&#1072;&#1084;<b>&#1072;</b> : elle-m&#234;me, et au pluriel &#1089;<b>&#1072;</b>&#1084;&#1080; : eux-m&#234;mes ou elles-m&#234;mes. &#1054;&#1085; &#1089;&#1072;&#1084; &#1076;<b>&#1086;</b>&#1083;&#1078;&#1077;&#1085; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1080;&#1090;&#1100; : il doit faire lui-m&#234;me la cuisine ; &#1086;&#1085;<b>&#1072;</b> &#1089;&#1072;&#1084;<b>&#1072;</b> &#1076;&#1086;&#1083;&#1078;&#1085;<b>&#1072;</b> &#1084;&#1099;&#1090;&#1100; &#1087;&#1086;&#1089;<b>&#1091;</b>&#1076;&#1091; : elle doit faire elle-m&#234;me la vaisselle ; &#1086;&#1085;<b>&#1080;</b> &#1089;<b>&#1072;</b>&#1084;&#1080; &#1076;&#1086;&#1083;&#1078;&#1085;<b>&#1099;</b> &#1093;&#1086;&#1076;&#1080;&#1090;&#1100; &#1074; <b>&#1084;</b>&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085; : ils doivent faire eux-m&#234;mes les courses.  		 			9 			&#1044;&#1077;&#1081;&#1089;&#1090;&#1074;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;, &#1073;<b>&#1077;</b>&#1076;&#1085;&#1099;&#1081; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;! : Pauvre gar&#231;on, effectivement !<br /> Qui fait quoi &#224; la maison ? Le plus souvent, l'homme et la femme travaillent et c'est la femme qui s'occupe de la maison : courses, m&#233;nage, etc. Chez les jeunes couples, l'homme essaie de participer un peu plus &#224; la vie domestique, mais il faut bien avouer que la situation est encore loin d'&#234;tre id&#233;ale !  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

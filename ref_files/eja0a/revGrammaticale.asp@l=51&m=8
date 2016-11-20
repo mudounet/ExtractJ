@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Nous vous proposons la premi&#232;re partie d'une petite histoire en forme de po&#232;me, &#233;crite par Samuel Marchak (1887-1964), po&#232;te russe c&#233;l&#232;bre pour ses oeuvres destin&#233;es aux enfants et pour ses traductions de po&#232;mes d'auteurs occidentaux.</i> </p> 	<h3>
+		&#1041;&#1072;&#1075;&#1072;&#1078;
+		Les bagages
+		</h3> 	 		 			1 			&#1044;<b>&#1072;</b>&#1084;&#1072; &#1089;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1083;&#1072; &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;:<br /> &#1044;&#1080;&#1074;<b>&#1072;</b>&#1085;,<br /> &#1063;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;,<br /> &#1057;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1091;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1086;</b>&#1085;&#1082;&#1091;<br /> &#1048; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1091;&#1102; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1091;. 			 				1 				2 			Une dame fit enregistrer ses bagages :<br /> 			Un divan,<br />Une valise,<br /> 			Un sac de voyage,<br />Un tableau,<br /> 			Un panier,<br />Une bo&#238;te en carton (un carton &#224; chapeau),<br />Et un petit roquet.  		 			2 			&#1042;<b>&#1099;</b>&#1076;&#1072;&#1083;&#1080; &#1076;<b>&#1072;</b>&#1084;&#1077; &#1085;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080;<br /> &#1063;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1079;&#1077;&#1083;&#1105;&#1085;&#1099;&#1093; &#1082;&#1074;&#1080;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080;<br /> &#1054; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;&#1077;&#1085; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;:<br /> &#1044;&#1080;&#1074;<b>&#1072;</b>&#1085;,<br /> &#1063;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;,<br /> &#1057;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1086;</b>&#1085;&#1082;&#1072;<br /> &#1048; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1072;&#1103; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1072;. 			 				3 			&#192; la gare, on d&#233;livra &#224; la dame<br />Quatre re&#231;us verts<br /> 			Attestant qu'on avait re&#231;u les bagages<br /> 			([disant] que [sont] re&#231;us les bagages) :<br /> 			Un divan,<br />Une valise,<br />Un sac de voyage,<br /> 			Un tableau,<br /> Un panier,<br /> Une bo&#238;te en carton,<br /> 			Et un petit roquet.  		 			3 			&#1042;<b>&#1077;</b>&#1097;&#1080; &#1074;&#1077;&#1079;<b>&#1091;</b>&#1090; &#1085;&#1072; &#1087;&#1077;&#1088;&#1088;<b>&#1086;</b>&#1085;.<br /> &#1050;&#1080;&#1076;<b>&#1072;</b>&#1102;&#1090; &#1074; &#1086;&#1090;&#1082;&#1088;<b>&#1099;</b>&#1090;&#1099;&#1081; &#1074;&#1072;&#1075;<b>&#1086;</b>&#1085;.<br /> &#1043;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1086;. &#1059;&#1083;<b>&#1086;</b>&#1078;&#1077;&#1085; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;:<br /> &#1044;&#1080;&#1074;<b>&#1072;</b>&#1085;,<br /> &#1063;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;,<br /> &#1057;&#1072;&#1082;&#1074;&#1086;<b>&#1103;</b>&#1078;,<br /> &#1050;&#1072;&#1088;&#1090;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1072;,<br /> &#1050;&#1072;&#1088;&#1090;&#1086;&#1072;<br /> &#1048; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1072;&#1103; &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1072;. 			 				4 				5 			On transporte les affaires sur le quai,<br /> On [les] lance dans un wagon ouvert.<br /> 			C'est pr&#234;t.<br /> Les bagages sont rang&#233;s :<br /> 			Un divan,<br /> Une valise,<br /> Un sac de voyage,<br /> 			Un tableau,<br /> Un panier,<br /> Une bo&#238;te en carton,<br /> 			Et un petit roquet.  		 			4 			&#1053;&#1086; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1088;&#1072;&#1079;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1079;&#1074;&#1086;&#1085;<b>&#1086;</b>&#1082;,<br /> &#1059;&#1076;&#1088;<b>&#1072;</b>&#1083; &#1080;&#1079; &#1074;&#1072;&#1075;&#1086;&#1085;&#1072; &#1097;&#1077;&#1085;<b>&#1086;</b>&#1082;.<br /> &#1061;&#1074;&#1072;&#1090;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100; &#1085;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; &#1044;&#1085;&#1086;:<br /> &#1055;&#1086;&#1090;<b>&#1077;</b>&#1088;&#1103;&#1085;&#1086; &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; &#1086;&#1076;&#1085;<b>&#1086;</b>. (&#1055;&#1088;&#1086;&#1076;&#1086;&#1083;&#1078;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1089;&#1083;&#1077;&#1076;<b>&#1091;</b>&#1077;&#1090;) 			 				6 				7 			Mais &#224; peine la cloche eut-elle sonn&#233;,<br /> 			Que le chiot s'enfuit du wagon.<br /> &#192; la gare de Dno, on remarqua brusquement<br /> 			Qu'un colis &#233;tait perdu. (&#192; suivre)  	 		 			1 			&#1044;<b>&#1072;</b>&#1084;&#1072; &#1089;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1083;&#1072; &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : la dame fit enregistrer ses bagages (litt&#233;ralement : donnait en bagage). Notez que &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; reste au singulier. L'auteur emploie ici un verbe imperfectif, car il constate simplement un fait, il dit que l'action a eu lieu. S'il avait utilis&#233; le perfectif (&#1089;&#1076;&#1072;&#1090;&#1100;) : &#1044;<b>&#1072;</b>&#1084;&#1072; &#1089;&#1076;&#1072;&#1083;<b>&#1072;</b> &#1074; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : &#1076;&#1080;&#1074;<b>&#1072;</b>&#1085;..., il aurait insist&#233; sur le compl&#233;ment d'objet (la nature des bagages).<br /> 	Le verbe est form&#233; &#224; partir du verbe &#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100; / &#1076;&#1072;&#1090;&#1100; et a la m&#234;me conjugaison : <table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre"><b>&#1057;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100;</b></th> 							<th class="centre"><b>&#1057;&#1076;&#1072;&#1090;&#1100;</b></th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1071; &#1089;&#1076;&#1072;<b>&#1102;</b> </td> 							<td class="centre">&#1071; &#1089;&#1076;&#1072;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1089;&#1076;&#1072;&#1105;&#1096;&#1100; </td> 							<td class="centre">&#1090;&#1099; &#1089;&#1076;&#1072;&#1096;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1089;&#1076;&#1072;&#1105;&#1090; </td> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1089;&#1076;&#1072;&#1089;&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1089;&#1076;&#1072;&#1105;&#1084; </td> 							<td class="centre">&#1084;&#1099; &#1089;&#1076;&#1072;&#1076;<b>&#1080;</b>&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1089;&#1076;&#1072;&#1105;&#1090;&#1077; </td> 							<td class="centre">&#1074;&#1099; &#1089;&#1076;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1089;&#1076;&#1072;<b>&#1102;</b>&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1089;&#1076;&#1072;&#1076;<b>&#1091;</b>&#1090; </td></tr></tbody></table> 						<br />En revanche, &#1089;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100; / &#1089;&#1076;&#1072;&#1090;&#1100; a de nombreux sens. Vous pourrez dire : &#1103; &#1089;&#1076;&#1072;&#1083; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1080; &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1091; : j'ai rendu mes livres &#224; la biblioth&#232;que ; &#1086;&#1085; &#1089;&#1076;&#1072;&#1083; &#1076;<b>&#1072;</b>&#1095;&#1091; : il a lou&#233; (a donn&#233; en location) sa datcha ; &#1089;&#1076;&#1072;&#1090;&#1100; &#1087;&#1083;<b>&#1072;</b>&#1090;&#1100;&#1077; &#1074; &#1089;&#1090;<b>&#1080;</b>&#1088;&#1082;&#1091; : donner une robe &#224; laver.  		 			2 			Les mots avec un suffixe en -&#1086;&#1085;&#1086;&#1082; ou -&#1105;&#1085;&#1086;&#1082; (au f&#233;minin -&#1086;&#1085;&#1082;&#1072; ou -&#1105;&#1085;&#1082;&#1072;, comme ici &#1089;&#1086;&#1073;&#1072;&#1095;<b>&#1086;</b>&#1085;&#1082;&#1072;) ont leur pluriel en &#1072;&#1090;&#1072; ou &#1103;&#1090;&#1072;. Souvent, ces noms d&#233;signent des petits d'animaux. &#1052;&#1077;&#1076;&#1074;&#1077;&#1078;<b>&#1086;</b>&#1085;&#1086;&#1082; (l'ourson) ; &#1082;&#1086;&#1090;&#1105;&#1085;&#1086;&#1082; (le chaton) ; &#1090;&#1077;&#1083;&#1105;&#1085;&#1086;&#1082; (le veau). Ce suffixe donne aussi une nuance de grande familiarit&#233; ou de m&#233;pris aux diminutifs tr&#232;s appr&#233;ci&#233;s des Russes.  		 			3 			&#1044;<b>&#1072;</b>&#1084;&#1077; &#1074;<b>&#1099;</b>&#1076;&#1072;&#1083;&#1080;... : on donna &#224; la dame. Nouveau pr&#233;verbe &#1074;&#1099;- pour le verbe &#1076;&#1072;&#1090;&#1100;. &#1042;&#1099;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100; / &#1074;<b>&#1099;</b>&#1076;&#1072;&#1090;&#1100; signifie donner, d&#233;livrer, et se conjugue de la m&#234;me fa&#231;on que &#1089;&#1076;&#1072;&#1090;&#1100;. Ces deux verbes ont un caract&#232;re un peu officiel. &#1071; &#1089;&#1076;&#1072;&#1083; &#1076;<b>&#1077;</b>&#1085;&#1100;&#1075;&#1080; &#1074; &#1073;&#1072;&#1085;&#1082; &#1080; &#1084;&#1085;&#1077; &#1074;<b>&#1099;</b>&#1076;&#1072;&#1083;&#1080; &#1082;&#1074;&#1080;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1102; : j'ai donn&#233; de l'argent &#224; la banque et on m'a d&#233;livr&#233; un re&#231;u (ou bulletin).<br /> &#183; &#1063;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1079;&#1077;&#1083;&#1105;&#1085;&#1099;&#1093; &#1082;&#1074;&#1080;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; : quatre re&#231;us verts. Attention, vous savez, bien s&#251;r, qu'apr&#232;s les chiffres &#1076;&#1074;&#1072; (2), &#1090;&#1088;&#1080; (3), &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; (4), le nom se met au g&#233;nitif singulier. Mais l'adjectif, lui, se met au g&#233;nitif pluriel.  			<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">Masc.  </td> 							<td class="centre">&#1086;&#1076;<b>&#1080;</b>&#1085; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1086;</b>&#1081; &#1095;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085; :  </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">une grande valise  </td> 							<td class="centre">&#1086;&#1076;&#1080;&#1085; </td></tr> 						<tr class="centre"> 							<td class="centre">F&#233;m.  </td> 							<td class="centre">&#1086;&#1076;&#1085;<b>&#1072;</b> &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1072;&#1103; &#1082;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1072; :  </td> 							<td class="centre">+ nominatif </td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">un petit panier </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre">Masc.  </td> 							<td class="centre">&#1076;&#1074;&#1072;, &#1090;&#1088;&#1080;, &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1073;&#1086;&#1083;&#1100;&#1096;<b>&#1080;</b>&#1093; </td> 							<td class="centre"></td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">&#1095;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085;&#1072; : deux, trois, quatre  </td> 							<td class="centre">&#1076;&#1074;&#1072;, &#1090;&#1088;&#1080;, </td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">grandes valises  </td> 							<td class="centre">&#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">F&#233;m.  </td> 							<td class="centre">&#1076;&#1074;&#1077;, &#1090;&#1088;&#1080;, &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1093; </td> 							<td class="centre">+ g&#233;nitif </td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">&#1082;&#1086;&#1088;&#1079;<b>&#1080;</b>&#1085;&#1099; : deux, trois, quatre  </td> 							<td class="centre">singulier </td></tr> 						<tr class="centre"> 							<td class="centre"></td> 							<td class="centre">petits paniers </td> 							<td class="centre"></td></tr></tbody></table><br /> &#183; &#1054; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086;... : &#224; propos de cela, que, &#1090;&#1086;&#1084; &#233;tant le pr&#233;positionnel du pronom neutre &#1090;&#1086; (masc. &#1090;&#1086;&#1090;, f&#233;m. &#1090;&#1072;). &#1056;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;<b>&#1080;</b> &#1084;&#1085;&#1077; &#1086; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1074;&#1095;&#1077;&#1088;<b>&#1072;</b> : raconte-moi ce qui s'est pass&#233; hier ; &#1094;<b>&#1077;</b>&#1083;&#1099;&#1081; &#1095;&#1072;&#1089; &#1086;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1086; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1086;&#1085; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1090;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : pendant une heure enti&#232;re, il a parl&#233; de ce qu'il fera ce soir.<br /> &#183; &#1055;&#1086;&#1083;<b>&#1091;</b>&#1095;&#1077;&#1085; (re&#231;u) est le participe pass&#233; passif du verbe &#1087;&#1086;&#1083;&#1091;&#1095;<b>&#1080;</b>&#1090;&#1100;. Comme certains adjectifs, il peut avoir une forme courte et une forme longue. Ici, vous aurez reconnu la forme courte. Comparez ces deux phrases : &#1042;&#1086;&#1090; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078;, &#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;&#1077;&#1085;&#1085;&#1099;&#1081; &#1085;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; : voici les bagages re&#231;us &#224; la gare ; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; &#1087;&#1086;&#1083;<b>&#1091;</b>&#1095;&#1077;&#1085; &#1085;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; : ces bagages [sont] re&#231;us &#224; la gare.<br /> La forme longue du participe qualifie l'objet (comme l'adjectif qualificatif), et la forme courte joue le r&#244;le d'un attribut.  		 			4 			&#1042;<b>&#1077;</b>&#1097;&#1080; &#1074;&#1077;&#1079;<b>&#1091;</b>&#1090; &#1085;&#1072; &#1087;&#1077;&#1088;&#1088;<b>&#1086;</b>&#1085;: on transporte les affaires sur le quai. Le verbe &#1074;&#1077;&#1079;&#1090;<b>&#1080;</b> (transporter, mener), appartient &#224; la cat&#233;gorie des verbes de mouvement. &#1042;&#1077;&#1079;&#1090;<b>&#1080;</b> est le verbe d&#233;termin&#233;, c'est-&#224;-dire qu'il indique que le mouvement a lieu dans une direction pr&#233;cise. L'ind&#233;termin&#233; est &#1074;&#1086;&#1079;<b>&#1080;</b>&#1090;&#1100;. &#1071; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; <b>&#1077;</b>&#1076;&#1091; &#1085;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; &#1085;&#1072; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1077; &#1080; &#1074;&#1077;&#1079;&#1091; &#1089;<b>&#1099;</b>&#1085;&#1072; &#1074; &#1096;&#1082;<b>&#1086;</b>&#1083;&#1091; : aujourd'hui, je vais au travail en voiture et j'emm&#232;ne mon fils &#224; l'&#233;cole ; &#1103; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> <b>&#1077;</b>&#1079;&#1078;&#1091; &#1085;&#1072; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1091; &#1085;&#1072; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1077; &#1080; &#1074;&#1086;&#1078;&#1091; &#1089;<b>&#1099;</b>&#1085;&#1072; &#1074; &#1096;&#1082;<b>&#1086;</b>&#1083;&#1091; : je vais toujours au travail en voiture et j'emm&#232;ne mon fils &#224; l'&#233;cole.<br /> Dans le premier exemple, il s'agit d'un fait unique qui a lieu &#224; un moment pr&#233;cis et dans une direction pr&#233;cise. Dans la seconde phrase, il s'agit d'un mouvement qui se r&#233;p&#232;te, la direction &#233;tant toujours la m&#234;me.  		 			5 			&#1043;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1086; est la forme courte, au neutre, de l'adjectif &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1099;&#1081; (pr&#234;t). &#1043;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1086; est tr&#232;s employ&#233; dans la langue famili&#232;re pour dire qu'un travail est termin&#233;. On trouvera aussi bien : &#1042;&#1089;&#1105; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074;&#1086;. &#1059;&#1083;<b>&#1086;</b>&#1078;&#1077;&#1085; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; : les bagages sont rang&#233;s. De nouveau, la forme courte du participe pass&#233;, qui tient le r&#244;le d'attribut. &#1059;&#1083;<b>&#1086;</b>&#1078;&#1077;&#1085;&#1085;&#1099;&#1081; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; &#1073;&#1099;&#1083; &#1074; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1077; ; les bagages rang&#233;s &#233;taient dans la voiture; &#1073;&#1072;&#1075;<b>&#1072;</b>&#1078; &#1091;&#1083;<b>&#1086;</b>&#1078;&#1077;&#1085; &#1074; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1077; : les bagages sont rang&#233;s dans la voiture. Vous remarquez que l'auteur a choisi de mettre le sujet apr&#232;s le participe. L'inversion des mots est<br /> courante en russe et elle permet d'insister sur le mot important, sur le mot qui porte l'information, ici : &#1091;&#1083;<b>&#1086;</b>&#1078;&#1077;&#1085;.  		 			6 			&#1056;&#1072;&#1079;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1079;&#1074;&#1086;&#1085;<b>&#1086;</b>&#1082; : la cloche sonna. Le verbe &#1088;&#1072;&#1079;&#1076;&#1072;&#1074;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; / &#1088;&#1072;&#1079;&#1076;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; (retentir, se faire entendre) s'emploie toujours avec un mot qui indique un son. &#1056;&#1072;&#1079;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1079;&#1074;<b>&#1091;</b>&#1082; &#1074; &#1076;&#1074;&#1077;&#1088;&#1100; : un coup retentit &#224; la porte ; &#1088;&#1072;&#1079;&#1076;<b>&#1072;</b>&#1083;&#1089;&#1103; &#1075;&#1088;&#1086;&#1084; : le tonnerre retentit.  		 			7 			Le verbe &#1093;&#1074;&#1072;&#1090;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; (remarquer brusquement l'absence de quelque chose) s'emploie toujours au pass&#233;. &#1053;&#1072; &#1074;&#1086;&#1082;&#1079;<b>&#1072;</b>&#1083;&#1077; &#1103; &#1093;&#1074;&#1072;&#1090;<b>&#1080;</b>&#1083;&#1089;&#1103; : &#1095;&#1077;&#1084;&#1086;&#1076;<b>&#1072;</b>&#1085; &#1084;&#1099; &#1079;&#1072;&#1073;<b>&#1099;</b>&#1083;&#1080; &#1076;<b>&#1086;</b>&#1084;&#1072;: &#224; la gare, je remarquai soudain que nous avions oubli&#233; la valise &#224; la maison.<br /> &#1053;&#1072; &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1080; &#1044;&#1085;&#1086; : la gare de Dno (Dno, en russe, signifie "fond"). Dno est &#224; mi-chemin entre Moscou et Saint-P&#233;tersbourg.<br /> &#183; &#1055;&#1086;&#1090;<b>&#1077;</b>&#1088;&#1103;&#1085;&#1086; &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; &#1086;&#1076;&#1085;<b>&#1086;</b> : un colis est perdu. Ici encore, vous rencontrez la forme courte du participe pass&#233; passif, qui s'accorde avec le nom neutre &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086;. Vous connaissez le sens premier de &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; (lieu, endroit). Il signifie aussi une unit&#233;, une pi&#232;ce lorsqu'on compte les bagages. &#1055;&#1103;&#1090;&#1100; &#1084;&#1077;&#1089;&#1090; &#1073;&#1072;&#1075;&#1072;&#1078;<b>&#1072;</b> : cinq colis. Notez que le g&#233;nitif pluriel de &#1084;<b>&#1077;</b>&#1089;&#1090;&#1086; est &#1084;&#1077;&#1089;&#1090;<br /> &#183; &#1057;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1103; et &#1074;&#1086;&#1082;&#1079;<b>&#1072;</b>&#1083; signifient tous deux "gare", mais &#1074;&#1086;&#1082;&#1079;<b>&#1072;</b>&#1083; d&#233;signe plut&#244;t le b&#226;timent, alors que &#1089;&#1090;<b>&#1072;</b>&#1085;&#1094;&#1080;&#1103; se r&#233;f&#232;re &#224; tout le mouvement des trains.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	<h3>
+		&#1048; &#1085;&#1077; &#1088;&#1072;&#1079;&#1076;&#1091;&#1084;&#1099;&#1074;&#1072;&#1081;&#1090;&#1077;!
+		N'h&#233;sitez pas !</h3> 	 		 			1 			- &#1055;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;, &#1058;<b>&#1072;</b>&#1085;&#1103;, &#1103; &#1076;&#1072;&#1074;&#1085;<b>&#1086;</b> &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1090;&#1077;&#1073;<b>&#1103;</b>, &#1091; &#1074;&#1072;&#1089; &#1077;&#1089;&#1090;&#1100; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;? 			 				1 			&#201;coute un peu, Tania, &#231;a fait longtemps que je veux te demander si vous avez un chien (depuis longtemps je voulais te demander, avez-vous un chien) ?  		 			2 			- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;, &#1076;<b>&#1072;</b>&#1078;&#1077; &#1076;&#1074;&#1077; - &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1072;&#1103; &#1073;<b>&#1077;</b>&#1083;&#1072;&#1103; &#1073;&#1086;&#1083;<b>&#1086;</b>&#1085;&#1082;&#1072; &#1080; &#1086;&#1075;&#1088;<b>&#1086;</b>&#1084;&#1085;&#1099;&#1081; &#1087;&#1105;&#1089;, &#1087;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072;, &#1103; &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;, &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1086;&#1085; &#1087;&#1086;&#1088;<b>&#1086;</b>&#1076;&#1099;. 			 			Bien s&#251;r, m&#234;me deux, un petit bichon blanc et un gros chien, dont il est vrai que je ne connais pas la race (il est vrai, je ne sais pas de quelle race il est).  		 			3 			- &#1044;<b>&#1077;</b>&#1083;&#1086; &#1074; &#1090;&#1086;&#1084;, &#1095;&#1090;&#1086; &#1084;&#1086;&#1081; &#1089;&#1099;&#1085; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1080;&#1090; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1100; &#1077;&#1084;&#1091; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1091;, &#1085;&#1086; &#1091; &#1085;&#1072;&#1089; &#1085;&#1080;&#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; &#1076;<b>&#1072;</b>&#1078;&#1077; &#1082;<b>&#1086;</b>&#1096;&#1082;&#1080;. 			 				2 			C'est que (l'affaire est dans cela que) mon fils demande que nous lui achetions un chien, mais nous n'avons m&#234;me jamais eu de chat.  		 			4 			- &#1043;<b>&#1086;</b>&#1089;&#1087;&#1086;&#1076;&#1080;! &#1053;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1088;&#1072;&#1079;&#1076;<b>&#1091;</b>&#1084;&#1099;&#1074;&#1072;&#1090;&#1100;. &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086; &#1078;&#1077;, &#1087;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1081;&#1090;&#1077;. &#1071; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1102;, &#1076;&#1083;&#1103; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;&#1072; <b>&#1079;</b>&#1090;&#1086; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1085;&#1077;&#1086;&#1073;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1084;&#1086;. 			 				3 			Mon Dieu ! Il ne faut pas h&#233;siter. Mais bien s&#251;r, achetez[-en un]. Je consid&#232;re que pour un gar&#231;on c'est tout simplement indispensable.  		 			5 			- &#1053;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1083;<b>&#1080;</b>&#1096;&#1085;&#1080;&#1077; &#1079;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099;. &#1047;&#1072; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1086;&#1081; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1091;&#1093;<b>&#1072;</b>&#1078;&#1080;&#1074;&#1072;&#1090;&#1100;, &#1085;&#1072;&#1082;&#1086;&#1085;<b>&#1077;</b>&#1094;, &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; &#1074;<b>&#1086;</b>&#1074;&#1088;&#1077;&#1084;&#1103;. 			 				4 			Mais ce sont des soucis en plus (superflus). Il faut s'en occuper et enfin le sortir r&#233;guli&#232;rement (il faut prendre soin du chien, enfin se promener &#224; temps).  		 			6 			- &#1069;&#1090;&#1086; &#1078;&#1077; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;! &#1055;<b>&#1086;</b>&#1084;&#1085;&#1080;&#1096;&#1100;, &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1103; &#1073;&#1099;&#1083;<b>&#1072;</b> &#1076;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076;? &#1061;&#1084;<b>&#1091;</b>&#1088;&#1072;&#1103;, &#1074;<b>&#1077;</b>&#1095;&#1085;&#1086; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1072;&#1103;. &#1040;, &#1090;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100;... &#1057; &#1089;&#1077;&#1084;<b>&#1080;</b> &#1076;&#1086; &#1074;&#1086;&#1089;&#1100;&#1084;<b>&#1080;</b> &#1103; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1102; &#1089; &#1084;&#1086;<b>&#1080;</b>&#1084;&#1080; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;&#1084;&#1080; &#1074; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1077;. &#1042;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; &#1089; &#1076;&#1077;&#1074;&#1103;&#1090;<b>&#1080;</b> &#1076;&#1086; &#1076;&#1077;&#1089;&#1103;&#1090;<b>&#1080;</b> -, &#1090;&#1086; &#1078;&#1077; &#1089;<b>&#1072;</b>&#1084;&#1086;&#1077;, &#1080; &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1102; &#1089;&#1077;&#1073;<b>&#1103;</b> &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;. 			 				5 			C'est &#231;a qui est formidable (tr&#232;s bien). Tu te souviens comment j'&#233;tais il y a deux ans ? Renfrogn&#233;e, &#233;ternellement fatigu&#233;e. Et maintenant... De sept &#224; huit heures, je me prom&#232;ne dans le parc avec mes chiens. Le soir, de neuf &#224; dix heures, m&#234;me chose. Et je me sens tr&#232;s bien !  		 			7 			- &#1053;&#1086; &#1084;&#1086;<b>&#1103;</b> &#1078;&#1077;&#1085;<b>&#1072;</b> &#1090;&#1072;&#1082; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1090; &#1087;&#1086;&#1088;<b>&#1103;</b>&#1076;&#1086;&#1082;, &#1072; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072; &#1074; &#1076;<b>&#1086;</b>&#1084;&#1077;?... 			 			Mais ma femme aime tant l'ordre... Un chien &#224; la maison?...  		 			8 			- &#1040; &#1095;&#1090;&#1086; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;? &#1057;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;, <b>&#1079;</b>&#1090;&#1086; &#1084;<b>&#1080;</b>&#1083;&#1086;&#1077;, &#1076;<b>&#1086;</b>&#1073;&#1088;&#1086;&#1077; &#1078;&#1080;&#1074;<b>&#1086;</b>&#1090;&#1085;&#1086;&#1077;. &#1044;&#1083;&#1103; &#1088;&#1077;&#1073;&#1105;&#1085;&#1082;&#1072; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1085;&#1077;&#1086;&#1073;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1084;&#1072; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;, &#1095;&#1090;<b>&#1086;</b>&#1073;&#1099; &#1086;&#1085; &#1073;&#1099;&#1083; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1084; &#1080; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1084; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1086;&#1084;. 			 				6 			Et alors quoi un chien ? Un chien, c'est un gentil, un bon animal. Pour un enfant, un chien est tout simplement indispensable pour qu'il devienne quelqu'un de bien (une personne brave et bonne).  		 			9 			- &#1042;&#1089;&#1105;! &#1058;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1091;&#1073;&#1077;&#1076;<b>&#1080;</b>&#1083;&#1072;, &#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1084;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1084; &#1079;&#1072; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1086;&#1081;, &#1090;&#1077;&#1084; &#1073;<b>&#1086;</b>&#1083;&#1077;&#1077;, &#1095;&#1090;&#1086; &#1089;<b>&#1099;</b>&#1085;&#1091; &#1095;<b>&#1077;</b>&#1088;&#1077;&#1079; &#1087;&#1103;&#1090;&#1100; &#1076;&#1085;&#1077;&#1081; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1076;<b>&#1077;</b>&#1089;&#1103;&#1090;&#1100; &#1083;&#1077;&#1090;. 			 				7 			C'est tout. Tu m'as convaincu. Demain, nous irons chercher un chien, d'autant plus que dans cinq jours [mon] fils aura dix ans.  	 		 			1 			&#1055;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081; (&#233;coute un peu !) s'emploie entre personnes proches. Pour "&#233;coutez", vous direz : &#1087;&#1086;&#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;&#1090;&#1077;.<br /> &#183; On peut dire indiff&#233;remment : &#1071; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1090;&#1077;&#1073;<b>&#1103;</b> et &#1103; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1089;&#1087;&#1088;&#1086;&#1089;<b>&#1080;</b>&#1090;&#1100; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> (je voulais te demander).  		 			2 			Vous n'avez s&#251;rement pas oubli&#233; que &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; est le pass&#233; de &#1085;&#1077;&#1090; et qu'apr&#232;s cette forme n&#233;gative on emploie le g&#233;nitif. &#1059; &#1085;&#1072;&#1089; &#1085;&#1077;&#1090; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1080; : nous n'avons pas de chien ; &#1091; &#1085;&#1072;&#1089; &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; &#1082;<b>&#1086;</b>&#1096;&#1082;&#1080; : nous n'avions pas de chat.  		 			3 			&#1043;<b>&#1086;</b>&#1089;&#1087;&#1086;&#1076;&#1080;! (Mon Dieu !) est plus courant que l'expression &#1041;<b>&#1086;</b>&#1078;&#1077; &#1084;&#1086;&#1081;!, qui signifie la m&#234;me chose.<br /> " Vous savez maintenant que le verbe russe aime les pr&#233;verbes (qui aident &#224; affiner les nuances d'une action). Le verbe &#1076;<b>&#1091;</b>&#1084;&#1072;&#1090;&#1100; (penser) en est particuli&#232;rement friand ! La le&#231;on d'aujourd'hui vous propose &#1088;&#1072;&#1079;&#1076;<b>&#1091;</b>&#1084;&#1099;&#1074;&#1072;&#1090;&#1100; (r&#233;fl&#233;chir longuement sans toujours parvenir &#224; prendre une d&#233;cision). Comparez les deux phrases suivantes : &#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102;, &#1082;&#1091;&#1076;<b>&#1072;</b> &#1087;&#1086;&#1081;&#1090;<b>&#1080;</b> &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : je pense o&#249; je vais ce soir (je pense o&#249; aller ce soir) ; &#1086;&#1085; &#1089;&#1080;&#1076;<b>&#1077;</b>&#1083; &#1080; &#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1088;&#1072;&#1079;&#1076;<b>&#1091;</b>&#1084;&#1099;&#1074;&#1072;&#1083;, &#1082;&#1091;&#1076;<b>&#1072;</b> &#1087;&#1086;&#1081;&#1090;<b>&#1080;</b> &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084; : il &#233;tait assis et r&#233;fl&#233;chissait longuement &#224; l'endroit o&#249; il pourrait aller le soir.<br /> &#183; &#1053;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1088;&#1072;&#1079;&#1076;<b>&#1091;</b>&#1084;&#1099;&#1074;&#1072;&#1090;&#1100; : il ne faut pas tergiverser, h&#233;siter. Apr&#232;s &#1085;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086;, on emploie l'aspect imperfectif du verbe, car on exprime simplement la n&#233;gation d'une action, le fait qu'il ne faut pas faire quelque chose. <br /> &#1053;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1087;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1090;&#1100; <b>&#1079;</b>&#1090;&#1091; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; : il ne faut pas acheter ce livre ; &#1085;&#1077; &#1085;<b>&#1072;</b>&#1076;&#1086; &#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1077;</b>&#1090;&#1100; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1092;&#1080;&#1083;&#1100;&#1084; : il ne faut pas voir ce film.<br /> &#183; &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086; &#1078;&#1077;, &#1087;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1081;&#1090;&#1077; : mais bien s&#251;r, achetez (-en un). Vous avez reconnu ici la deuxi&#232;me personne du pluriel de l'imp&#233;ratif du verbe &#1087;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1090;&#1100; (imperfectif) : acheter. On emploie l'imperfectif, car il s'agit d'une incitation &#224; faire une action dont on a d&#233;j&#224; parl&#233;, une incitation &#224; passer &#224; l'acte.<br /> Lisez ces autres exemples : &#1042;&#1099; &#1093;&#1086;&#1090;<b>&#1080;</b>&#1090;&#1077; &#1086;&#1090;&#1082;&#1088;<b>&#1099;</b>&#1090;&#1100; &#1086;&#1082;&#1085;<b>&#1086;</b>? &#1054;&#1090;&#1082;&#1088;&#1099;&#1074;<b>&#1072;</b>&#1081;&#1090;&#1077;! : vous voulez ouvrir la fen&#234;tre ? Eh bien, allez-y (ouvrez) ! ; &#1090;&#1099; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1090;&#1100; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1091;? &#1055;&#1086;&#1082;&#1091;&#1087;<b>&#1072;</b>&#1081;! : tu voulais acheter un chien ? Eh bien, vas-y (ach&#232;te) !<br /> &#183; &#1071; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1102;, &#1076;&#1083;&#1103; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;&#1072;... : je consid&#232;re que pour un gar&#231;on... On aurait pu avoir aussi bien : &#1071; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1102;, &#1095;&#1090;&#1086; &#1076;&#1083;&#1103; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;&#1072;..., le &#1095;&#1090;&#1086; n'&#233;tant pas obligatoire.<br /> Rappelez-vous au passage que la pr&#233;position &#1076;&#1083;&#1103; est suivie du g&#233;nitif. &#1044;&#1083;&#1103; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;&#1086;&#1074; : pour les gar&#231;ons ; &#1076;&#1083;&#1103; &#1076;<b>&#1077;</b>&#1074;&#1086;&#1095;&#1077;&#1082; : pour les filles.  		 			4 			&#1047;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1099;, ce sont les soucis, les probl&#232;mes graves, s&#233;rieux. Pour parler des petits tracas de la vie quotidienne, on dira plut&#244;t : &#1093;&#1083;<b>&#1086;</b>&#1087;&#1086;&#1090;&#1099;. Quant au mot &#1087;&#1088;&#1086;&#1073;&#1083;<b>&#1077;</b>&#1084;&#1072;, il signifie probl&#232;me dans le sens de "question". &#1069;&#1082;&#1086;&#1085;&#1086;&#1084;<b>&#1080;</b>&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1087;&#1088;&#1086;&#1073;&#1083;<b>&#1077;</b>&#1084;&#1099; : les probl&#232;mes (questions) &#233;conomiques.  		 			5 			&#1044;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : il y a deux ans (relisez la note 2 de la le&#231;on 27). Profitons-en pour revoir l'expression du temps.<br /> &#1103; &#1073;&#1099;&#1083; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1077;</b> &#1076;&#1074;&#1072; &#1075;<b>&#1086;</b>&#1076;&#1072; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; : j'&#233;tais &#224; Moscou il y a deux ans (&#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; + accusatif) ; &#1095;&#1077;&#1088;<b>&#1077;</b>&#1079; &#1090;&#1088;&#1080; &#1076;&#1085;&#1103; &#1103; <b>&#1077;</b>&#1076;&#1091; &#1074; &#1052;&#1086;&#1089;&#1082;&#1074;&#1091; : dans trois jours, je vais &#224; Moscou (&#1095;<b>&#1077;</b>&#1088;&#1077;&#1079; + accusatif) ; &#1086;&#1085; &#1078;&#1080;&#1083; &#1074; &#1050;<b>&#1080;</b>&#1077;&#1074;&#1077; &#1095;&#1077;&#1090;<b>&#1099;</b>&#1088;&#1077; &#1075;<b>&#1086;</b>&#1076;&#1072; : il a v&#233;cu quatre ans &#224; Kiev (accusatif seul pour exprimer la dur&#233;e). Dans ces trois exemples, tous les chiffres sont &#224; l'accusatif. Voyons un peu ce que cela donnerait au g&#233;nitif. Si vous voulez dire par exemple : je d&#233;jeune de une heure &#224; deux heures, vous direz : &#1103; &#1086;&#1073;<b>&#1077;</b>&#1076;&#1072;&#1102; &#1089; &#1095;<b>&#1072;</b>&#1089;&#1072; &#1076;&#1086; &#1076;&#1074;<b>&#1091;</b>&#1093;, les pr&#233;positions &#1089; et &#1076;&#1086; &#233;tant toutes les deux suivies du g&#233;nitif.<br /> De m&#234;me, de trois &#224; quatre heures : &#1089; &#1090;&#1088;&#1105;&#1093; &#1076;&#1086; &#1095;&#1077;&#1090;&#1099;&#1088;&#1105;&#1093; ; de cinq &#224; six : &#1089; &#1087;&#1103;&#1090;<b>&#1080;</b> &#1076;&#1086; &#1096;&#1077;&#1089;&#1090;<b>&#1080;</b>.<br /> &#183; &#1071; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1102; &#1089; &#1084;&#1086;<b>&#1080;</b>&#1084;&#1080; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1072;&#1084;&#1080; &#1074; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1077; : je me prom&#232;ne avec mes chiens dans le parc. Vous avez reconnu ici le compl&#233;ment d'accompagnement exprim&#233; par la pr&#233;position &#1089; + instrumental (ici au pluriel). &#1071; &#1080;&#1076;&#1091; &#1074; &#1082;&#1080;&#1085;<b>&#1086;</b> &#1089; &#1076;&#1088;&#1091;&#1079;&#1100;<b>&#1103;</b>&#1084;&#1080; : je vais au cin&#233;ma avec mes amis.  		 			6 			..., &#1095;&#1090;<b>&#1086;</b>&#1073;&#1099; &#1086;&#1085; &#1073;&#1099;&#1083; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1084; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;&#1086;&#1084;. Comme dans la le&#231;on pr&#233;c&#233;dente (note 6), on emploie l'instrumental, car l'adjectif attribut exprime un &#233;tat, une qualit&#233;. &#1054;&#1085;<b>&#1072;</b> &#1073;&#1099;&#1083;<b>&#1072;</b> &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1077;&#1081; &#1087;&#1086;&#1076;&#1088;<b>&#1091;</b>&#1075;&#1086;&#1081; c'&#233;tait une bonne amie ; &#1086;&#1085;<b>&#1080;</b> &#1073;<b>&#1099;</b>&#1083;&#1080; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1084;&#1080; &#1089;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;<b>&#1080;</b>&#1089;&#1090;&#1072;&#1084;&#1080; : ils &#233;taient de bons sp&#233;cialistes.<br /> &#1063;&#1090;<b>&#1086;</b>&#1073;&#1099; est la conjonction employ&#233;e dans les propositions qui expriment une finalit&#233;, un d&#233;sir, une interdiction ou une &#233;ventualit&#233;. Elle est pr&#233;c&#233;d&#233;e d'une virgule.<br /> &#1071; &#1089;&#1080;&#1078;&#1091; &#1076;<b>&#1086;</b>&#1084;&#1072;, &#1095;&#1090;<b>&#1086;</b>&#1073;&#1099; &#1086;&#1085; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1079;&#1072;&#1089;&#1090;<b>&#1072;</b>&#1083; : je reste &#224; la maison pour qu'il m'y trouve. Notez que le verbe de la subordonn&#233;e est au pass&#233; (&#1079;&#1072;&#1089;&#1090;<b>&#1072;</b>&#1083;).  		 			7 			&#1052;&#1099; <b>&#1077;</b>&#1076;&#1077;&#1084; &#1079;&#1072; &#1089;&#1086;&#1073;<b>&#1072;</b>&#1082;&#1086;&#1081; : nous allons chercher un chien. &#1047;&#1072; + instrumental indique l'id&#233;e de "&#224; la recherche de". Vous direz par exemple : &#1071; &#1080;&#1076;&#1091; &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085; &#1079;&#1072; &#1093;&#1083;<b>&#1077;</b>&#1073;&#1086;&#1084; : je vais (au magasin) acheter du pain. Vous voyez qu'en russe il n'y a qu'un verbe l&#224; o&#249; il y en a deux en fran&#231;ais. &#1052;&#1099; &#1087;&#1086;<b>&#1077;</b>&#1093;&#1072;&#1083;&#1080; &#1085;&#1072; &#1088;<b>&#1099;</b>&#1085;&#1086;&#1082; &#1079;&#1072; &#1092;&#1088;<b>&#1091;</b>&#1082;&#1090;&#1072;&#1084;&#1080; : nous sommes all&#233;s au march&#233; chercher des fruits.<br /> &#1054;&#1085;<b>&#1072;</b> &#1087;&#1086;&#1096;&#1083;<b>&#1072;</b> &#1074; &#1084;&#1072;&#1075;&#1072;&#1079;<b>&#1080;</b>&#1085; &#1079;&#1072; &#1074;&#1086;&#1076;<b>&#1086;</b>&#1081; : elle est all&#233;e chercher (acheter) de l'eau au magasin.<br /> Rappelez-vous l'expression &#1103; &#1079;&#1072;<b>&#1077;</b>&#1076;&#1091; &#1079;&#1072; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081; : je passerai te prendre (le&#231;on 43).<br /> &#183; Retenez l'expression &#1090;&#1077;&#1084; &#1073;<b>&#1086;</b>&#1083;&#1077;&#1077;, &#1095;&#1090;&#1086; ... (d'autant plus que...).  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

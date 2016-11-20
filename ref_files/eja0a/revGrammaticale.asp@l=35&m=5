@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	<h3>
+		R&#201;VISION ET NOTES</h3> 	 		<h1 class="centre"><b>1 Les aspects</b></h1> 		<p>C'est sans doute une des questions les plus complexes mais aussi une des plus int&#233;ressantes de la langue russe. </p> 		<p>Vous savez d&#233;j&#224; que les deux aspects correspondent &#224; deux fa&#231;ons diff&#233;rentes d'envisager l'action. </p> 		<p>- <b>L'imperfectif </b>indique une action consid&#233;r&#233;e dans son d&#233;veloppement : </p> 		<p>&#1052;&#1099; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1083;&#1080; &#1076;&#1074;&#1077; &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; : nous nous sommes repos&#233;s deux semaines. </p> 		<p>&#1063;&#1090;&#1086; &#1074;&#1099; &#1076;<b>&#1077;</b>&#1083;&#1072;&#1083;&#1080; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;&#1086;&#1084;?- &#1071; &#1095;&#1080;&#1090;<b>&#1072;</b>&#1083; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091;. Qu'avez-vous fait ce soir ? - J'ai lu un livre. </p> 		<p>- <b>Le perfectif </b>donne au verbe des nuances compl&#233;mentaires. Il indique, soit que l'action est accomplie, soit que l'action va s'accomplir, mais toujours en tenant compte du r&#233;sultat : </p> 		<p>&#1042;&#1077;&#1089;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088; &#1103; &#1095;&#1080;&#1090;<b>&#1072;</b>&#1083; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; &#1080; &#1085;&#1072;&#1082;&#1086;&#1085;<b>&#1077;</b>&#1094; &#1087;&#1088;&#1086;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1083; &#1077;&#1105; : toute la soir&#233;e, j'ai lu mon livre et je l'ai enfin termin&#233; (je l'ai lu jusqu'&#224; la fin). </p> 		<p>&#1052;&#1099; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1083;&#1080; &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; : nous nous sommes repos&#233;s un peu. </p> 		<p>&#1052;&#1099; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1086;&#1090;&#1076;&#1086;&#1093;&#1085;<b>&#1091;</b>&#1083;&#1080; : nous nous sommes bien repos&#233;s (c'est le r&#233;sultat qui compte). </p> 		<p>&#1054;&#1085; &#1076;<b>&#1086;</b>&#1083;&#1075;&#1086; &#1088;&#1077;&#1096;<b>&#1072;</b>&#1083; &#1087;&#1088;&#1086;&#1073;&#1083;<b>&#1077;</b>&#1084;&#1091;. &#1085;&#1086; &#1085;&#1077; &#1088;&#1077;&#1096;<b>&#1080;</b>&#1083; &#1077;&#1105; : il a longtemps cherch&#233; &#224; r&#233;soudre le probl&#232;me, mais ne l'a pas r&#233;solu (n'a pas trouv&#233; la solution). </p> 		<h1 class="centre"><b>2 La forme impersonnelle du verbe &#1089;&#1090;&#1072;&#1090;&#1100; (commencer &#224;)</b></h1> 		<p>&#1052;&#1085;&#1077; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1083;<b>&#1091;</b>&#1095;&#1096;&#1077; : je commence &#224; aller mieux. </p> 		<p>&#1045;&#1084;&#1091; &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> : il commence &#224; aller bien. </p> 		<p>Employ&#233; au pass&#233; neutre, ce verbe, fr&#233;quemment utilis&#233;, ne s'emploie pas uniquement pour indiquer un changement d'&#233;tat d'une personne. On dira &#233;galement : &#1089;&#1090;<b>&#1072;</b>&#1083;&#1086; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b> (il commence &#224; faire doux). </p> 		<h1 class="centre"><b>3 Les verbes de mouvement</b></h1> 		<p>Rappelez-vous que pour exprimer un seul mouvement, certains verbes pr&#233;sentent deux formes imperfectives : une forme ind&#233;termin&#233;e et une forme d&#233;termin&#233;e. </p> 		<p>- Les verbes <b>d&#233;termin&#233;s </b>indiquent un mouvement qui se fait dans une direction d&#233;termin&#233;e : &#1071; &#1080;&#1076;&#1091; &#1074; &#1091;&#1085;&#1080;&#1074;&#1077;&#1088;&#1089;&#1080;&#1090;<b>&#1077;</b>&#1090;: je vais &#224; l'universit&#233;. </p> 		<p>- Les verbes <b>ind&#233;termin&#233;s </b>indiquent un mouvement sans direction pr&#233;cise ou &#224; direction multiple ou bien simplement la capacit&#233; &#224; faire un mouvement : &#1071; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1074; &#1096;&#1082;<b>&#1086;</b>&#1083;&#1091;: j'allais &#224; l'&#233;cole ; &#1103; &#1093;&#1086;&#1078;&#1091; &#1087;&#1086; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1091;: je marche dans le parc ; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;, &#1072; &#1087;&#1090;<b>&#1080;</b>&#1094;&#1072; &#1083;&#1077;&#1090;<b>&#1072;</b>&#1077;&#1090;: l'homme marche et l'oiseau vole. </p> 		<h1 class="centre"><b>4 "On"</b></h1> 		<p>Le pronom personnel "on" n'existe pas en russe. Il faut employer la 3e personne du pluriel : </p> 		<p>&#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;, &#1086;&#1085; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1083; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1091;&#1102; &#1084;&#1072;&#1096;<b>&#1080;</b>&#1085;&#1091;: on dit qu'il a achet&#233; une belle voiture ; &#1085;&#1077;&#1076;<b>&#1072;</b>&#1088;&#1086;&#1084; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;: &#1086;&#1076;<b>&#1080;</b>&#1085; &#1091;&#1084; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>, &#1072; &#1076;&#1074;&#1072; &#1083;<b>&#1091;</b>&#1095;&#1096;&#1077;: ce n'est pas pour rien que l'on dit "Deux avis valent mieux qu'un". </p> 		<h1 class="centre"><b>5 Les verbes avec la particule invariable -&#1089;&#1103;</b></h1> 		<p>Ces verbes sont souvent suivis de l'instrumental : &#1071; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;&#1089;&#1100; &#1089;&#1087;<b>&#1086;</b>&#1088;&#1090;&#1086;&#1084;: je fais du sport; &#1071; &#1091;&#1074;&#1083;&#1077;&#1082;<b>&#1072;</b>&#1102;&#1089;&#1100; &#1084;<b>&#1091;</b>&#1079;&#1099;&#1082;&#1086;&#1081;: je suis un passionn&#233; de musique. </p> 		<h1 class="centre"><b>6 La formation des adverbes de n&#233;gation</b> 		</h1> 		<p>La forme n&#233;gative de &#1082;&#1090;&#1086;? (qui ?) et de &#1082;&#1091;&#1076;<b>&#1072;</b>? (o&#249; ? avec mouvement) s'obtient en y ajoutant la particule &#1085;&#1080; : &#1050;&#1090;&#1086; <b>&#1079;</b>&#1090;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083;?- &#1053;&#1080;&#1082;&#1090;<b>&#1086;</b>. Qui a dit cela ? - Personne. &#1050;&#1091;&#1076;<b>&#1072;</b> &#1074;&#1099; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083;&#1080;? - &#1071; &#1085;&#1080;&#1082;&#1091;&#1076;<b>&#1072;</b> &#1085;&#1077; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1083;. O&#249; &#234;tes-vous all&#233; ? - Nulle part (je ne suis all&#233; nulle part). Notez bien la double n&#233;gation dans la r&#233;ponse. </p> 		<p><i>Voil&#224; les quelques points sur lesquels nous voulions attirer votre attention.</i></p> 		<p><i>Maintenant que vous &#234;tes rassur&#233; sur vos connaissances, appr&#234;tez-vous &#224; affronter en toute confiance les nouvelles surprises qui vous attendent.</i> </p> 		<p><b>&#1059;&#1087;&#1088;&#1072;&#1078;&#1085;<b>&#1077;</b>&#1085;&#1080;&#1103;</b></p> 		<p><b>&#1063;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; &#1080; &#1087;&#1077;&#1088;&#1077;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; </b></p> 		<p><b>1 </b>&#1042;&#1099; &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b>-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1073;&#1099;&#1074;<b>&#1072;</b>&#1083;&#1080; &#1074; &#1056;&#1086;&#1089;&#1089;<b>&#1080;</b>&#1080;?  		- &#1050;&#1086;&#1085;<b>&#1077;</b>&#1095;&#1085;&#1086;.&#1071; &#1073;&#1099;&#1083; &#1074; &#1057;&#1072;&#1080;&#1082;&#1090;-&#1055;&#1077;&#1090;&#1077;&#1088;&#1073;<b>&#1091;</b>&#1088;&#1075;&#1077;, &#1080; &#1052;&#1086;&#1089;&#1082;&#1074;<b>&#1072;</b> &#1084;&#1085;&#1077; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1079;&#1085;&#1072;&#1082;<b>&#1086;</b>&#1084;&#1072;. <b>2 </b>&#1042;&#1099; &#1085;&#1077; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;&#1089;&#1100; &#1089;&#1087;<b>&#1086;</b>&#1088;&#1090;&#1086;&#1084; &#1080; &#1085;&#1077; &#1075;&#1091;&#1083;&#1103;<b>&#1077;</b>&#1090;&#1077;. &#1042;&#1072;&#1084; &#1083;&#1077;&#1085;&#1100; &#1074;&#1099;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; &#1085;&#1072; &#1091;&#1083;&#1080;&#1094;<b>&#1091;</b>?- &#1063;&#1090;&#1086; &#1074;&#1099;! &#1071; &#1083;&#1102;&#1073;&#1083;<b>&#1102;</b> &#1090;<b>&#1077;</b>&#1085;&#1085;&#1080;&#1089;, &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; &#1075;&#1091;&#1083;<b>&#1103;</b>&#1090;&#1100; &#1087;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084;, &#1085;&#1086; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1077;&#1090; &#1084;&#1080;&#1085;<b>&#1091;</b>&#1090;&#1099; &#1089;&#1074;&#1086;&#1073;<b>&#1086;</b>&#1076;&#1085;&#1086;&#1075;&#1086; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1077;&#1085;&#1080;. <b>3 </b>&#1071;, &#1085;&#1072;&#1074;<b>&#1077;</b>&#1088;&#1085;&#1086;&#1077;, &#1087;&#1088;&#1086;&#1089;&#1090;&#1091;&#1076;<b>&#1080;</b>&#1083;&#1089;&#1103;, &#1072; &#1085;&#1072; &#1091;&#1083;&#1080;&#1094;&#1077; &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1090;&#1077;&#1087;&#1083;<b>&#1086;</b>.  		- &#1053;&#1072;&#1076;<b>&#1077;</b>&#1085;&#1100; &#1082;&#1086;&#1089;&#1090;<b>&#1102;</b>&#1084; &#1080; &#1090;&#1105;&#1087;&#1083;<b>&#1091;</b>&#1102; &#1088;&#1091;&#1073;<b>&#1072;</b>&#1096;&#1082;&#1091;. <b>4 </b>&#1050;&#1072;&#1082; &#1074;&#1099; &#1089;&#1077;&#1073;<b>&#1103;</b> &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090;&#1077;? &#1063;&#1090;&#1086; &#1074;&#1072;&#1089; &#1073;&#1077;&#1089;&#1087;&#1086;&#1082;<b>&#1086;</b>&#1080;&#1090;?  		- &#1042;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>, &#1085;&#1086; &#1103; &#1074; &#1087;&#1086;&#1089;&#1083;<b>&#1077;</b>&#1076;&#1085;&#1077;&#1077; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1102; &#1080; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1091;&#1089;&#1090;<b>&#1072;</b>&#1083;. <b>5 </b>&#1047;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1082; &#1085;&#1072;&#1084;, &#1082;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1093;&#1086;&#1090;<b>&#1080;</b>&#1090;&#1077;. &#1052;&#1099; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1074;&#1072;&#1084; &#1088;<b>&#1072;</b>&#1076;&#1099;.  		- &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1074;&#1072;&#1084;. &#1042;&#1099; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1099;. </p> 		<p><b>Traduction</b></p> 		<p><b>1 </b>&#202;tes-vous all&#233;, &#224; un moment ou &#224; un autre, en Russie ? Bien s&#251;r. Je suis all&#233; &#224; Saint-P&#233;tersbourg et je connais bien Moscou. <b>2 </b>Vous ne faites pas de sport et vous ne vous promenez pas. Vous avez la flemme de sortir ? - Pensez-vous ! J'aime le tennis et j'aime me promener le soir, mais je n'ai pas une minute de temps libre. <b>3 </b>Je me suis probablement enrhum&#233;, et dehors il ne fait pas tr&#232;s chaud. - Mets ton costume et une chemise chaude. <b>4 </b>Comment vous sentez-vous ? Qu'est-ce qui ne va pas ? - Tout va bien, mais ces derniers temps je travaille beaucoup et je suis tr&#232;s fatigu&#233;. <b>5 </b>Passez chez nous quand vous voulez. Nous sommes toujours contents de vous voir. - Merci. Vous &#234;tes tr&#232;s aimable. </p> 		 		 		 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p>Les Russes sont tr&#232;s friands d'histoires dr&#244;les. En voici quelques-unes. Que ceci ne vous emp&#234;che pas d'&#234;tre attentif &#224; l'emploi de l'instrumental et du g&#233;nitif avec n&#233;gation. Essayez de retenir les r&#233;pliques br&#232;ves qui donneront &#224; votre "parler russe" plus d'expression et de vivacit&#233;. </p> 	<h3>
+		&#1052;&#1072;&#1084;&#1072;, &#1093;&#1086;&#1095;&#1077;&#1096;&#1100; &#1072;&#1085;&#1077;&#1082;&#1076;&#1086;&#1090;?
+		Maman, tu veux [entendre] une histoire
+			dr&#244;le ?
+		</h3> 	 		 			1 			- &#1058;&#1099; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;, &#1084;&#1086;&#1081; &#1089;&#1099;&#1085;<b>&#1086;</b>&#1082; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;&#1088;&#1080;&#1073;&#1077;&#1078;<b>&#1072;</b>&#1083; &#1080;&#1079; &#1096;&#1082;<b>&#1086;</b>&#1083;&#1099; &#1080; &#1089; &#1087;&#1086;&#1088;<b>&#1086;</b>&#1075;&#1072;: &#1052;<b>&#1072;</b>&#1084;&#1072;, &#1093;<b>&#1086;</b>&#1095;&#1077;&#1096;&#1100; &#1085;<b>&#1086;</b>&#1074;&#1099;&#1081; &#1072;&#1085;&#1077;&#1082;&#1076;<b>&#1086;</b>&#1090;? 			 				1 			Tu sais, aujourd'hui, mon fils est revenu en courant de l'&#233;cole et d&#232;s le pas de la porte [m'a dit] : "Maman, tu veux [entendre] une nouvelle histoire dr&#244;le ?".  		 			2 			- &#1052;&#1086;&#1075;&#1091; &#1089;&#1077;&#1073;<b>&#1077;</b> &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1100;! &#1050;&#1072;&#1082;<b>&#1072;</b>&#1103;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1086;&#1095;&#1077;&#1088;&#1077;&#1076;&#1085;<b>&#1072;</b>&#1103; &#1075;<b>&#1072;</b>&#1076;&#1086;&#1089;&#1090;&#1100;! 			 				2 			J'imagine (Je peux imaginer) ! Encore une horreur (une salet&#233; de plus) !  		 			3 			- &#1058;&#1099;, &#1082;&#1072;&#1082; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b>, &#1087;&#1088;&#1072;&#1074;<b>&#1072;</b>. &#1042;&#1086;&#1090; &#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;: "&#1044;&#1080;&#1088;<b>&#1077;</b>&#1082;&#1090;&#1086;&#1088; &#1096;&#1082;<b>&#1086;</b>&#1083;&#1099; &#1074;&#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1082;&#1083;&#1072;&#1089;&#1089; &#1080; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1090;: &#1087;&#1086;&#1083;&#1082;&#1083;<b>&#1072;</b>&#1089;&#1089;&#1072; &#1089;&#1084;&#1077;&#1105;&#1090;&#1089;&#1103;, &#1072; &#1076;&#1088;&#1091;&#1075;<b>&#1072;</b>&#1103; &#1087;&#1086;&#1083;&#1086;&#1074;<b>&#1080;</b>&#1085;&#1072; &#1087;&#1083;<b>&#1072;</b>&#1095;&#1077;&#1090;. 			 				3 			Comme toujours, tu as raison. (Voil&#224;) &#201;coute : "Le directeur de l'&#233;cole entre dans une classe et [voici ce qu'il] voit : la moiti&#233; de la classe rit et l'autre moiti&#233; pleure.  		 			4 			- &#1056;&#1077;&#1073;<b>&#1103;</b>&#1090;&#1072;, &#1074;&#1099; &#1087;&#1086;&#1095;&#1077;&#1084;&#1091; &#1089;&#1084;&#1077;&#1105;&#1090;&#1077;&#1089;&#1100;? - &#1059;&#1095;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100; &#1085;&#1072;&#1096; &#1080;&#1079; &#1086;&#1082;&#1085;<b>&#1072;</b> &#1074;<b>&#1099;</b>&#1087;&#1072;&#1083;! 			 				4 			Les enfants, pourquoi riez-vous ? - Notre professeur est tomb&#233; par la fen&#234;tre !  		 			5 			- &#1040; &#1074;&#1099; &#1095;&#1090;&#1086; &#1087;&#1083;<b>&#1072;</b>&#1095;&#1077;&#1090;&#1077;?- &#1040; &#1084;&#1099; <b>&#1079;</b>&#1090;&#1086;&#1075;&#1086; &#1085;&#1077; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080;!" 			 			Et vous, pourquoi pleurez-vous ? - Nous, on n'a rien vu !"  		 			6 			- &#1042;&#1086;&#1090; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100;! &#1052;&#1099; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1076;&#1088;&#1091;&#1075;<b>&#1080;</b>&#1084;&#1080;, &#1076;&#1072; &#1080; &#1072;&#1085;&#1077;&#1082;&#1076;<b>&#1086;</b>&#1090;&#1099; &#1073;<b>&#1099;</b>&#1083;&#1080; &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1085;&#1077;&#1079;&#1083;<b>&#1099;</b>&#1084;&#1080;, &#1072; &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1084;&#1080;. 			 				5 			Tu vois ! Nous, nous &#233;tions autrement (des autres), et les histoires dr&#244;les n'&#233;taient pas du tout m&#233;chantes, mais [plut&#244;t] gentilles.  		 			7 			- &#1053;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>! &#1071; &#1076;&#1086; &#1089;&#1077;&#1093; &#1087;&#1086;&#1088; &#1086;&#1076;<b>&#1080;</b>&#1085; &#1087;<b>&#1086;</b>&#1084;&#1085;&#1102;. "&#1052;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1096;&#1080;&#1074;&#1072;&#1077;&#1090; &#1087;&#1088;&#1080;<b>&#1103;</b>&#1090;&#1077;&#1083;&#1103;: - &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1090;&#1074;&#1086;&#1081; &#1073;&#1088;<b>&#1072;</b>&#1090;&#1080;&#1082; &#1074;&#1089;&#1105; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1087;&#1083;<b>&#1072;</b>&#1095;&#1077;&#1090;? 			 			Ne [m'en] parle pas ! J'en sais encore une (Jusqu'&#224; pr&#233;sent, je m'en souviens d'une). "Un gar&#231;on demande &#224; son ami : - Pourquoi ton petit fr&#232;re pleure-t-il tout le temps ?  		 			8 			- &#1045;&#1089;&#1083;&#1080; &#1073;&#1099; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; &#1079;&#1091;&#1073;<b>&#1086;</b>&#1074; &#1080; &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; &#1074;&#1086;&#1083;<b>&#1086;</b>&#1089;, <b>&#1077;</b>&#1089;&#1083;&#1080; &#1073;&#1099; &#1090;&#1099; &#1085;&#1077; &#1091;&#1084;<b>&#1077;</b>&#1083; &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; &#1080; &#1085;&#1077; &#1091;&#1084;<b>&#1077;</b>&#1083; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100;, &#1090;&#1099; &#1073;&#1099; &#1077;&#1097;&#1105; &#1085;&#1077; &#1090;&#1072;&#1082; &#1088;&#1099;&#1076;<b>&#1072;</b>&#1083;!" 			 				6 			Si tu n'avais pas de dents, pas de cheveux, si tu ne savais ni marcher ni parler, tu pleurerais bien davantage !"  		 			9 			- &#1040; &#1084;&#1086;&#1081; &#1084;<b>&#1091;</b>&#1078; &#1089;&#1072;&#1084; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1072;&#1085;&#1077;&#1082;&#1076;<b>&#1086;</b>&#1090;. &#1054;&#1085; &#1057;&#1077;&#1088;&#1105;&#1078;&#1091; &#1074;&#1089;&#1105; &#1077;&#1097;&#1105; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1084; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1077;&#1090;. 			 				7 			Et moi, mon mari, il est tout simplement extraordinaire (tout simplement une histoire dr&#244;le) ! Il prend toujours S&#233;rioja pour un gamin (Il consid&#232;re toujours encore S&#233;rioja petit).  		 			10 			- &#1050;&#1072;&#1082; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1085;&#1072; &#1101;&#1082;&#1088;<b>&#1072;</b>&#1085;&#1077; &#1090;&#1077;&#1083;&#1077;&#1074;<b>&#1080;</b>&#1079;&#1086;&#1088;&#1072; &#1087;&#1086;&#1103;&#1074;&#1083;<b>&#1103;</b>&#1102;&#1090;&#1089;&#1103; &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1088;&#1072;&#1079;&#1076;<b>&#1077;</b>&#1090;&#1099;&#1077; &#1076;&#1077;&#1074;<b>&#1080;</b>&#1094;&#1099;, &#1086;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;: 			 				8 			D&#232;s qu'&#224; la t&#233;l&#233;vision apparaissent des filles d&#233;v&#234;tues (d&#233;j&#224; d&#233;shabill&#233;es), il dit :  		 			11 			- &#1042;&#1089;&#1105;, &#1057;&#1077;&#1088;&#1105;&#1078;&#1072;, &#1087;&#1086;&#1088;<b>&#1072;</b> &#1089;&#1087;&#1072;&#1090;&#1100;, &#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100;, &#1090;&#1105;&#1090;&#1080; &#1091;&#1078;<b>&#1077;</b> &#1088;&#1072;&#1079;&#1076;<b>&#1077;</b>&#1083;&#1080;&#1089;&#1100; &#1080; &#1090;<b>&#1086;</b>&#1078;&#1077; &#1080;&#1076;<b>&#1091;</b>&#1090; &#1089;&#1087;&#1072;&#1090;&#1100;. 			 				9 			C'est tout, S&#233;rioja, il faut aller dormir, tu vois, les dames (tantes) sont d&#233;j&#224; d&#233;shabill&#233;es et vont aussi dormir.  		 			12 			&#1040; &#1086;&#1085;<b>&#1080;</b> &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;&#1090; &#1074; &#1089;&#1090;&#1086; &#1088;&#1072;&#1079; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077;, &#1095;&#1077;&#1084; &#1084;&#1099; &#1074; &#1080;&#1093; &#1075;<b>&#1086;</b>&#1076;&#1099;. &#1042;&#1086;&#1090; &#1080; &#1084;&#1086;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1072; &#1091;&#1088;<b>&#1086;</b>&#1082;&#1077; &#1073;&#1086;&#1090;<b>&#1072;</b>&#1085;&#1080;&#1082;&#1080; &#1091;&#1095;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1080;&#1094;&#1072; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1096;&#1080;&#1074;&#1072;&#1077;&#1090;: 			 				10 			Mais ils comprennent cent fois plus de choses que nous au m&#234;me &#226;ge (dans leurs ann&#233;es). Et voil&#224; que, pendant la le&#231;on de botanique, l'institutrice demande au mien :  		 			13 			"- &#1052;<b>&#1080;</b>&#1096;&#1072;, &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>, &#1082;&#1072;&#1082; &#1088;&#1072;&#1079;&#1084;&#1085;&#1086;&#1078;<b>&#1072;</b>&#1102;&#1090;&#1089;&#1103; &#1088;&#1072;&#1089;&#1090;<b>&#1077;</b>&#1085;&#1080;&#1103;. 			 			"- Micha, raconte-nous comment se reproduisent les plantes.  		 			14 			- &#1056;&#1072;&#1089;&#1090;<b>&#1077;</b>&#1085;&#1080;&#1103;? - &#1086;&#1085; &#1086;&#1090;&#1074;&#1077;&#1095;<b>&#1072;</b>&#1077;&#1090;, &#1074;&#1086;&#1090; &#1086; &#1085;&#1080;&#1093; &#1103; &#1080; &#1085;&#1080;&#1095;&#1077;&#1075;<b>&#1086;</b> &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;." 			 				11 			Les plantes ? r&#233;pond-il, sur les plantes je ne sais rien."  	 		 			1 			&#1052;&#1086;&#1081; &#1089;<b>&#1099;</b>&#1085;&#1086;&#1082; (mon fils), &#1084;&#1086;<b>&#1103;</b> &#1076;<b>&#1086;</b>&#1095;&#1077;&#1085;&#1100;&#1082;&#1072; (ma fille). C'est ainsi que les parents appellent leurs enfants de mani&#232;re affectueuse.<br /> &#183; &#1057; &#1087;&#1086;&#1088;<b>&#1086;</b>&#1075;&#1072; : d&#232;s le seuil, qu'il faut traduire par : en entrant.  		 			2 			&#1043;<b>&#1072;</b>&#1076;&#1086;&#1089;&#1090;&#1100; : horreur, salet&#233;. C'est un mot qu'il faut conna&#238;tre, qui fait partie du vocabulaire familier des Russes. &#1050;&#1072;&#1082;<b>&#1072;</b>&#1103; &#1075;<b>&#1072;</b>&#1076;&#1086;&#1089;&#1090;&#1100; <b>&#1079;</b>&#1090;&#1086;&#1090; &#1092;&#1080;&#1083;&#1100;&#1084;! : quelle horreur, ce film !  		 			3 			&#1055;&#1086;&#1083;&#1082;&#1083;<b>&#1072;</b>&#1089;&#1089;&#1072; : la moiti&#233; de la classe. &#1055;&#1086;&#1083; est la forme abr&#233;g&#233;e de &#1087;&#1086;&#1083;&#1086;&#1074;<b>&#1080;</b>&#1085;&#1072; (moiti&#233;). Tr&#232;s utilis&#233;, vous le trouverez dans des mots comme &#1087;&#1086;&#1083;&#1095;&#1072;&#1089;<b>&#1072;</b> : une demi-heure ; &#1087;&#1086;&#1083;&#1082;&#1080;&#1083;&#1086;&#1084;<b>&#1077;</b>&#1090;&#1088;&#1072; : cinq cents m&#232;tres (un demi-kilom&#232;tre).  		 			4 			&#1054;&#1085; &#1080;&#1079; &#1086;&#1082;&#1085;<b>&#1072;</b> &#1074;<b>&#1099;</b>&#1087;&#1072;&#1083; : il est tomb&#233; par la fen&#234;tre. Le pr&#233;verbe &#1074;&#1099;- indique ici que la personne s'est d'abord pench&#233;e par la fen&#234;tre, puis est ensuite tomb&#233;e.  		 			5 			&#1042;&#1086;&#1090; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100;! : tu vois ! Revoyons ensemble la conjugaison des verbes du second groupe, c'est-&#224;-dire des verbes en -&#1080;&#1096;&#1100; &#224; la 2e personne du singulier et en -&#1103;&#1090; &#224; la 3e personne du pluriel.  			<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1074;<b>&#1080;</b>&#1078;&#1091; </td> 							<td class="centre">&#1084;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1096;&#1100; </td> 							<td class="centre">&#1074;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;&#1072; &#1074;<b>&#1080;</b>&#1076;&#1080;&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1074;<b>&#1080;</b>&#1076;&#1103;&#1090; </td></tr></tbody></table><br /> &#183; Vous avez dans cette phrase trois beaux exemples de l'emploi de l'instrumental apr&#232;s le verbe &#1073;&#1099;&#1090;&#1100; au pass&#233; (&#1076;&#1088;&#1091;&#1075;<b>&#1080;</b>&#1084;&#1080;, &#1085;&#1077;&#1079;&#1083;<b>&#1099;</b>&#1084;&#1080;, &#1076;<b>&#1086;</b>&#1073;&#1088;&#1099;&#1084;&#1080;).  		 			6 			Cette phrase est une mine de conditionnels ! Rappelez-vous que la particule &#1073;&#1099; doit &#234;tre exprim&#233;e dans les deux parties de la phrase. &#1045;&#1089;&#1083;&#1080; &#1073;&#1099; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1085;<b>&#1077;</b> &#1073;&#1099;&#1083;&#1086; &#1079;&#1091;&#1073;<b>&#1086;</b>&#1074;, &#1090;&#1099; &#1073;&#1099; &#1077;&#1097;&#1105; &#1085;&#1077; &#1090;&#1072;&#1082; &#1088;&#1099;&#1076;<b>&#1072;</b>&#1083;<br /> &#183; Apr&#232;s le verbe &#1091;&#1084;<b>&#1077;</b>&#1090;&#1100;, il est logique d'employer l'imperfectif, car il s'agit d'un savoir-faire et non pas d'une action pr&#233;cise &#224; un moment d&#233;termin&#233;. &#183; &#1088;&#1099;&#1076;<b>&#1072;</b>&#1090;&#1100; : sangloter.  		 			7 			&#1054;&#1085; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086; &#1072;&#1085;&#1077;&#1082;&#1076;<b>&#1086;</b>&#1090; : mot &#224; mot, il est tout simplement une histoire dr&#244;le. Cette expression s'emploie lorsque l'on veut signifier qu'une personne ou une situation est amusante ou extraordinaire.<br /> &#183; &#1054;&#1085; &#1057;&#1077;&#1088;&#1105;&#1078;&#1091; &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1077;&#1090; &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1084; : il prend S&#233;rioja pour un gamin (il consid&#232;re S&#233;rioja petit). Le verbe &#1089;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1090;&#1100; est suivi de l'instrumental.  		 			8 			Avant, le mot &#1076;<b>&#1077;</b>&#1074;&#1080;&#1094;&#1072; &#233;tait synonyme de &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072; (jeune fille). Maintenant, il d&#233;signe plut&#244;t une jeune fille aux moeurs et &#224; la moralit&#233; douteuses.  		 			9 			&#1058;&#1105;&#1090;&#1103; : tante. Mais dans le vocabulaire des enfants, toutes les femmes adultes sont des &#1090;&#1105;&#1090;&#1080;, qu'on peut alors traduire par "dame". &#1069;&#1090;&#1086; &#1084;&#1085;&#1077; &#1087;&#1086;&#1076;&#1072;&#1088;<b>&#1080;</b>&#1083;&#1072; &#1082;&#1072;&#1082;<b>&#1072;</b>&#1103;-&#1090;&#1086; &#1090;&#1105;&#1090;&#1103; : c'est une dame qui m'a donn&#233; &#231;a. De m&#234;me, tous les messieurs sont des &#1076;<b>&#1103;</b>&#1076;&#1080; pour les enfants (&#1076;<b>&#1103;</b>&#1076;&#1103; : oncle).  		 			10 			&#1054;&#1085;<b>&#1080;</b> &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1102;&#1090; &#1074; &#1089;&#1090;&#1086; &#1088;&#1072;&#1079; &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077;, &#1095;&#1077;&#1084; &#1084;&#1099; &#1074; &#1080;&#1093; &#1075;<b>&#1086;</b>&#1076;&#1099; : ils comprennent cent fois plus de choses que nous &#224; leur &#226;ge. Il existe deux possibilit&#233;s d'exprimer la comparaison. Vous pouvez dire : &#1086;&#1085;&#1072; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1077;&#1077;, &#1095;&#1077;&#1084; &#1103; ou : &#1086;&#1085;<b>&#1072;</b> &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1077;&#1077; &#1084;&#1077;&#1085;<b>&#1103;</b> : elle est plus belle que moi.<br /> &#183; &#1042;&#1086;&#1090; &#1080; &#1084;&#1086;&#1077;&#1075;<b>&#1086;</b> &#1091;&#1095;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1080;&#1094;&#1072; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1096;&#1080;&#1074;&#1072;&#1077;&#1090;. Vous avez compris que la phrase compl&#232;te serait : &#1074;&#1086;&#1090; &#1080; &#1084;&#1086;&#1077;&#1075;<b>&#1086;</b> &#1089;<b>&#1099;</b>&#1085;&#1072; &#1091;&#1095;<b>&#1080;</b>&#1090;&#1077;&#1083;&#1100;&#1085;&#1080;&#1094;&#1072; &#1089;&#1087;&#1088;<b>&#1072;</b>&#1096;&#1080;&#1074;&#1072;&#1077;&#1090; : voil&#224; que le professeur demande &#224; mon fils. Cette fa&#231;on de raccourcir les phrases rend le discours plus vivant et familier.  		 			11 			&#1052;<b>&#1080;</b>&#1096;&#1072;, &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>! : Micha, raconte ! &#1056;&#1072;&#1089;&#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; se conjugue comme le verbe &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; (dire). C'est un verbe du premier type.  		<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1103; &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1078;&#1091; </td> 							<td class="centre">&#1084;&#1099; &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1096;&#1100; </td> 							<td class="centre">&#1074;&#1099; &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1078;&#1077;&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1088;&#1072;&#1089;&#1089;&#1082;<b>&#1072;</b>&#1078;&#1091;&#1090; </td></tr></tbody></table> 	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 	 	 		<p><i>Vous &#234;tes maintenant capable de comprendre le dialogue que nous vous proposons. C'est une sc&#232;ne de la trag&#233;die de Pouchkine "Mozart et Salieri". Ce petit chef-d'oeuvre de la litt&#233;rature russe nous montre que la langue de Pouchkine est &#233;tonnamment contemporaine. En outre, l'id&#233;e ma&#238;tresse de cette trag&#233;die, celle de l'union du g&#233;nie et de la malveillance, a &#233;t&#233; d&#233;terminante pour tout le d&#233;veloppement ult&#233;rieur de la litt&#233;rature russe.</i> </p> 	<h3>
+		&#1052;&#1086;&#1094;&#1072;&#1088;&#1090; &#1080; &#1057;&#1072;&#1083;&#1100;&#1077;&#1088;&#1080; &#1057;&#1094;&#1077;&#1085;&#1072; II (&#1052;&#1086;&#1094;&#1072;&#1088;&#1090; &#1080; &#1057;&#1072;&#1083;&#1100;&#1077;&#1088;&#1080; &#1079;&#1072; &#1089;&#1090;&#1086;&#1083;&#1086;&#1084;)
+		Mozart et Salieri Sc&#232;ne II (Mozart et Salieri [sont] &#224; table)</h3> 	 		 			1 			&#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> - &#1063;&#1077;&#1075;<b>&#1086;</b> &#1090;&#1099; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1077;&#1085;?<br /> &#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> 			&#1071;? &#1053;&#1077;&#1090;!  			 				1 			Pourquoi es-tu morose (sombre) aujourd'hui ? Mozart - Moi ? Non. Salieri  		 			2 			&#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> - &#1058;&#1099;, &#1074;<b>&#1077;</b>&#1088;&#1085;&#1086;, &#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;, &#1095;<b>&#1077;</b>&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;? &#1054;&#1073;<b>&#1077;</b>&#1076; &#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1081; &#1089;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1086;&#1077; &#1074;&#1080;&#1085;<b>&#1086;</b>, &#1072; &#1090;&#1099; &#1084;&#1086;&#1083;&#1095;<b>&#1080;</b>&#1096;&#1100; &#1080; &#1093;&#1084;<b>&#1091;</b>&#1088;&#1080;&#1096;&#1100;&#1089;&#1103;.   			 				2 			Mozart, il y a s&#251;rement quelque chose qui te chagrine (Tu es, s&#251;rement, Mozart, par quelque chose chagrin&#233;). Le d&#233;jeuner est bon, le vin excellent, mais tu te tais et tu prends un air sombre. Mozart  		 			3 			&#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> - &#1055;&#1088;&#1080;&#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;, &#1084;&#1086;&#1081; Requiem &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1088;&#1077;&#1074;<b>&#1086;</b>&#1078;&#1080;&#1090;. 			 				3 			II faut avouer que mon Requiem me tourmente.  		 			4 			&#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> -<br /> &#1040;! &#1058;&#1099; &#1089;&#1086;&#1095;&#1080;&#1085;<b>&#1103;</b>&#1077;&#1096;&#1100; Requiem? &#1044;&#1072;&#1074;&#1085;<b>&#1086;</b> &#1083;&#1080;?  			 				4 			Ah, tu composes un Requiem ? Depuis longtemps ? Mozart  		 			5 			&#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> - &#1044;&#1072;&#1074;&#1085;<b>&#1086;</b>, &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080;. &#1053;&#1086; &#1089;&#1090;&#1088;<b>&#1072;</b>&#1085;&#1085;&#1099;&#1081; &#1089;&#1083;<b>&#1091;</b>&#1095;&#1072;&#1081;... &#1053;&#1077; &#1089;&#1082;<b>&#1072;</b>&#1079;&#1099;&#1074;&#1072;&#1083; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1103;? &#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080; - &#1053;&#1077;&#1090;.  			 				5 			Depuis longtemps, trois semaines environ. Mais un hasard &#233;trange... Je ne te l'avais pas dit ? Salieri - Non. Mozart  		 			6 			&#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> - &#1058;&#1072;&#1082; &#1089;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;: &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080; &#1090;&#1086;&#1084;<b>&#1091;</b>, &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; &#1103; &#1087;<b>&#1086;</b>&#1079;&#1076;&#1085;&#1086; &#1076;&#1086;&#1084;<b>&#1086;</b>&#1081;. &#1057;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1080; &#1084;&#1085;&#1077;, &#1095;&#1090;&#1086; &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1079;&#1072; &#1084;&#1085;<b>&#1086;</b>&#1102; &#1082;&#1090;<b>&#1086;</b>-&#1090;&#1086;. &#1054;&#1090;&#1095;&#1077;&#1075;<b>&#1086;</b> - &#1085;&#1077; &#1079;&#1085;<b>&#1072;</b>&#1102;. &#1042;&#1089;&#1102; &#1085;&#1086;&#1095;&#1100; &#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1083;: &#1082;&#1090;&#1086; &#1073;&#1099; <b>&#1079;</b>&#1090;&#1086; &#1073;&#1099;&#1083;? 			 				6 			&#201;coute alors : il y a environ trois semaines, je suis rentr&#233; (arriv&#233;) tard &#224; la maison. On m'a dit que quelqu'un &#233;tait pass&#233; me voir (apr&#232;s moi). Pourquoi, je ne sais pas. Toute la nuit, j'[y] ai pens&#233;. Qui cela pouvait-il (pourrait-il) &#234;tre ?  		 			7 			&#1048; &#1095;&#1090;&#1086; &#1077;&#1084;&#1091; &#1074;&#1086; &#1084;&#1085;&#1077;? &#1053;&#1072;&#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1090;&#1086;&#1090; &#1078;&#1077; &#1079;&#1072;&#1096;&#1105;&#1083; &#1080; &#1085;&#1077; &#1079;&#1072;&#1089;&#1090;<b>&#1072;</b>&#1083; &#1086;&#1087;<b>&#1103;</b>&#1090;&#1100; &#1084;&#1077;&#1085;<b>&#1103;</b>. 			 				7 			Et que me voulait-il (qu'y &#1072;-t'il pour lui en moi) ? Le lendemain, le m&#234;me repassa (passa) et de nouveau ne me trouva pas.  		 			8 			&#1053;&#1072; &#1090;&#1088;<b>&#1077;</b>&#1090;&#1080;&#1081; &#1076;&#1077;&#1085;&#1100; &#1080;&#1075;&#1088;<b>&#1072;</b>&#1083; &#1103; &#1085;&#1072; &#1087;&#1086;&#1083;&#1091; &#1089; &#1084;&#1086;<b>&#1080;</b>&#1084; &#1084;&#1072;&#1083;&#1100;&#1095;<b>&#1080;</b>&#1096;&#1082;&#1086;&#1081;. &#1050;&#1083;<b>&#1080;</b>&#1082;&#1085;&#1091;&#1083;&#1080; &#1084;&#1077;&#1085;<b>&#1103;</b>. 			 				8 			Le troisi&#232;me jour, je jouais par terre avec mon petit gar&#231;on. On m'appela.  		 			9 			&#1071; &#1074;<b>&#1099;</b>&#1096;&#1077;&#1083;. &#1063;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;, &#1086;&#1076;<b>&#1077;</b>&#1090;&#1099;&#1081; &#1074; &#1095;&#1105;&#1088;&#1085;&#1086;&#1084;, &#1091;&#1095;&#1090;<b>&#1080;</b>&#1074;&#1086; &#1087;&#1086;&#1082;&#1083;&#1086;&#1085;<b>&#1080;</b>&#1074;&#1096;&#1080;&#1089;&#1100;, &#1079;&#1072;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1084;&#1085;&#1077; Requiem &#1080; &#1089;&#1082;&#1088;<b>&#1099;</b>&#1083;&#1089;&#1103;. 			 				9 			Je sortis. Un homme, habill&#233; en noir, apr&#232;s m'avoir (ayant) salu&#233; poliment, me commanda un Requiem et disparut.  		 			10 			&#1057;&#1077;&#1083; &#1103; &#1090;<b>&#1086;</b>&#1090;&#1095;&#1072;&#1089; &#1080; &#1089;&#1090;&#1072;&#1083; &#1087;&#1080;&#1089;<b>&#1072;</b>&#1090;&#1100;, &#1080; &#1089; &#1090;&#1086;&#1081; &#1087;&#1086;&#1088;<b>&#1099;</b> &#1079;&#1072; &#1084;&#1085;<b>&#1086;</b>&#1102; &#1085;&#1077; &#1087;&#1088;&#1080;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1084;&#1086;&#1081; &#1095;&#1105;&#1088;&#1085;&#1099;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;. 			 			Je m'assis imm&#233;diatement et me mis &#224; composer (&#233;crire), et depuis ce moment mon homme en noir n'est plus pass&#233; me voir.  		 			11 			&#1040; &#1103; &#1080; &#1088;&#1072;&#1076;, &#1084;&#1085;&#1077; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1073; &#1078;&#1072;&#1083;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1089; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1086;&#1081;, &#1093;&#1086;&#1090;&#1100; &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1075;&#1086;&#1090;<b>&#1086;</b>&#1074; &#1091;&#1078; Requiem. &#1053;&#1086; &#1084;<b>&#1077;</b>&#1078;&#1076;&#1091; &#1090;&#1077;&#1084;, &#1103;...<br /> &#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> 			- &#1063;&#1090;&#1086;?  			 				10 			Et je suis m&#234;me content, j'aurais regrett&#233; de me s&#233;parer de mon travail, bien que le Requiem soit d&#233;j&#224; tout &#224; fait pr&#234;t. Mais cependant, je... Salieri - Quoi ? Mozart  		 			12 			&#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> - &#1052;&#1085;&#1077; &#1089;<b>&#1086;</b>&#1074;&#1077;&#1089;&#1090;&#1085;&#1086; &#1087;&#1088;&#1080;&#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1074; <b>&#1079;</b>&#1090;&#1086;&#1084;...<br /> &#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> - &#1042; &#1095;&#1105;&#1084; &#1078;&#1077;?  			 			&#199;a me g&#234;ne d'avouer que... Salieri - Que quoi ? Mozart  		 			13 			&#1052;<b>&#1086;</b>&#1094;&#1072;&#1088;&#1090;<br /> - &#1052;&#1085;&#1077; &#1076;&#1077;&#1085;&#1100; &#1080; &#1085;&#1086;&#1095;&#1100; &#1087;&#1086;&#1082;<b>&#1086;</b>&#1103; &#1085;&#1077; &#1076;&#1072;&#1105;&#1090; &#1084;&#1086;&#1081; &#1095;&#1105;&#1088;&#1085;&#1099;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;. &#1047;&#1072; &#1084;&#1085;<b>&#1086;</b>&#1102; &#1074;&#1089;<b>&#1102;</b>&#1076;&#1091; &#1082;&#1072;&#1082; &#1090;&#1077;&#1085;&#1100; &#1086;&#1085; &#1075;<b>&#1086;</b>&#1085;&#1080;&#1090;&#1089;&#1103;. &#1042;&#1086;&#1090; &#1080; &#1090;&#1077;&#1087;<b>&#1077;</b>&#1088;&#1100;, &#1084;&#1085;&#1077; &#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103;, &#1086;&#1085; &#1089; &#1085;<b>&#1072;</b>&#1084;&#1080; &#1089;&#1072;&#1084;-&#1090;&#1088;<b>&#1077;</b>&#1090;&#1077;&#1081; &#1089;&#1080;&#1076;<b>&#1080;</b>&#1090;. 			 				11 			Mon homme en noir ne me laisse en paix ni le jour ni la nuit. Il me poursuit partout comme mon ombre. En ce moment m&#234;me, il me semble qu' il est avec nous (il est assis lui-m&#234;me avec nous en troisi&#232;me).  		 			14 			&#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;<br /> - &#1048;, &#1087;<b>&#1086;</b>&#1083;&#1085;&#1086;! &#1063;&#1090;&#1086; &#1079;&#1072; &#1089;&#1090;&#1088;&#1072;&#1093; &#1088;&#1077;&#1073;<b>&#1103;</b>&#1095;&#1080;&#1081;? &#1056;&#1072;&#1089;&#1089;<b>&#1077;</b>&#1081; &#1087;&#1091;&#1089;&#1090;<b>&#1091;</b>&#1102; &#1076;<b>&#1091;</b>&#1084;&#1091;. &#1041;&#1086;&#1084;&#1072;&#1088;&#1096;<b>&#1077;</b> &#1075;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1080;&#1074;&#1072;&#1083; &#1084;&#1085;&#1077;: "&#1057;&#1083;<b>&#1091;</b>&#1096;&#1072;&#1081;, &#1073;&#1088;&#1072;&#1090; &#1057;&#1072;&#1083;&#1100;<b>&#1077;</b>&#1088;&#1080;. &#1050;&#1072;&#1082; &#1084;<b>&#1099;</b>&#1089;&#1083;&#1080; &#1095;&#1105;&#1088;&#1085;&#1099;&#1077; &#1082; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1087;&#1088;&#1080;&#1076;<b>&#1091;</b>&#1090;, &#1086;&#1090;&#1082;<b>&#1091;</b>&#1087;&#1086;&#1088;&#1080; &#1096;&#1072;&#1084;&#1087;<b>&#1072;</b>&#1085;&#1089;&#1082;&#1086;&#1075;&#1086; &#1073;&#1091;&#1090;<b>&#1099;</b>&#1083;&#1082;&#1091;, &#1080;&#1083;&#1100; &#1087;&#1077;&#1088;&#1077;&#1095;&#1090;<b>&#1080;</b> "&#1046;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1073;&#1091; &#1060;&#1080;&#1075;&#1072;&#1088;<b>&#1086;</b>". 			 				12 			Assez ! Qu'est-ce que c'est que cette peur d'enfant ? Chasse cette vaine pens&#233;e. Beaumarchais me disait souvent : "&#201;coute, Salieri, mon fr&#232;re. Quand des id&#233;es noires te viendront &#224; l'esprit, d&#233;bouche une bouteille de champagne, ou bien relis "Le Mariage de Figaro".  	 		 			1 			&#1063;&#1077;&#1075;<b>&#1086;</b> &#1090;&#1099; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1077;&#1085;? : pourquoi es-tu morose aujourd'hui ? L'adjectif &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1077;&#1085; (forme courte de &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1085;&#1099;&#1081;) s'emploie surtout pour parler du temps qu'il fait. &#1057;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1085;&#1072;&#1103; &#1087;&#1086;&#1075;<b>&#1086;</b>&#1076;&#1072; : aujourd'hui, il fait un temps sombre ; ou bien tout simplement : &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1085;&#1086; : aujourd'hui, il fait sombre.  		 			2 			&#1058;&#1099; &#1095;&#1077;&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;? : il y a quelque chose qui te chagrine (tu es chagrin&#233; par quelque chose) ? C'est une expression que l'on dit entre amis. Au f&#233;minin, vous direz : &#1090;&#1099; &#1095;&#1077;&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1072;? et au pluriel : &#1074;&#1099; &#1095;&#1077;&#1084;-&#1085;&#1080;&#1073;<b>&#1091;</b>&#1076;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;&#1088;<b>&#1086;</b>&#1077;&#1085;&#1099;?<br /> &#183; &#1057;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1086;&#1077; &#1074;&#1080;&#1085;<b>&#1086;</b> : un vin excellent. Vous avez d&#233;j&#224; rencontr&#233; cet adjectif dans des expressions du type : &#1086;&#1085; &#1089;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1099;&#1081; &#1087;<b>&#1072;</b>&#1088;&#1077;&#1085;&#1100; : c'est un brave gar&#231;on.<br /> &#183; &#1061;&#1084;<b>&#1091;</b>&#1088;&#1080;&#1090;&#1100;&#1089;&#1103; : s'assombrir, prendre un air sombre, se renfrogner. Comme l'adjectif &#1087;<b>&#1072;</b>&#1089;&#1084;&#1091;&#1088;&#1085;&#1099;&#1081; (cf note 1), ce verbe peut s'utiliser pour parler du temps qu'il fait. &#1053;<b>&#1077;</b>&#1073;&#1086; &#1089;&#1077;&#1075;<b>&#1086;</b>&#1076;&#1085;&#1103; &#1093;&#1084;<b>&#1091;</b>&#1088;&#1080;&#1090;&#1089;&#1103;, &#1085;&#1072;&#1074;<b>&#1077;</b>&#1088;&#1085;&#1086;&#1077;, &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090; &#1076;&#1086;&#1078;&#1076;&#1100; : le ciel s'assombrit aujourd'hui, il y aura s&#251;rement de la pluie.  		 			3 			&#1055;&#1088;&#1080;&#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;, <b>&#1079;</b>&#1090;&#1086; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1088;&#1077;&#1074;<b>&#1086;</b>&#1078;&#1080;&#1090; : il faut avouer que cela me tourmente. Vous pouvez sans probl&#232;me employer ce vocabulaire dans une conversation. Par exemple, vous pourrez tr&#232;s bien entendre le dialogue suivant :<br /> &#1055;&#1086;&#1095;&#1077;&#1084;&#1091; &#1090;&#1099; &#1093;&#1084;<b>&#1091;</b>&#1088;&#1080;&#1096;&#1100;&#1089;&#1103;? &#1063;&#1090;&#1086; &#1089; &#1090;&#1086;&#1073;<b>&#1086;</b>&#1081;?- &#1055;&#1088;&#1080;&#1079;&#1085;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103;, &#1084;&#1077;&#1085;<b>&#1103;</b> &#1090;&#1088;&#1077;&#1074;<b>&#1086;</b>&#1078;&#1080;&#1090; &#1077;&#1105; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;. (La traduction ici nous semble superflue...)  		 			4 			Rappelez-vous la particule interrogative &#1083;&#1080; : &#1079;&#1085;<b>&#1072;</b>&#1077;&#1090;&#1077; &#1083;&#1080; &#1074;&#1099; &#1077;&#1075;<b>&#1086;</b>? : le connaissez-vous ? Elle s'emploie dans les phrases o&#249; il n'y a pas d'autres mots interrogatifs.  		 			5 			&#1053;&#1077; &#1089;&#1082;<b>&#1072;</b>&#1079;&#1099;&#1074;&#1072;&#1083; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1103;? : je ne te l'avais pas dit ? Ce verbe est maintenant vieilli. &#1043;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100; le remplace. On dirait ici : &#1103; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1085;&#1077; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083;?  		 			6 			&#1053;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080; &#1090;&#1086;&#1084;&#1091; : il y a environ trois semaines. Maintenant, un Russe dirait plut&#244;t : &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076; ou &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080; &#1090;&#1086;&#1084;&#1091; &#1085;&#1072;&#1079;<b>&#1072;</b>&#1076;. Ces trois expressions ont absolument le m&#234;me sens, mais &#1085;&#1077;&#1076;<b>&#1077;</b>&#1083;&#1080; &#1090;&#1088;&#1080; &#1090;&#1086;&#1084;&#1091; est peut-&#234;tre un peu plus &#233;l&#233;gant que les autres.<br /> &#183; &#1052;&#1085;<b>&#1086;</b>&#1102; : variante litt&#233;raire de &#1084;&#1085;&#1086;&#1081;.  		 			7 			&#1063;&#1090;&#1086; &#1077;&#1084;&#1091; &#1074;&#1086; &#1084;&#1085;&#1077;?: qu'y-a-t-il pour lui en moi ? On dirait aujourd'hui : &#1095;&#1090;&#1086; &#1077;&#1084;&#1091; &#1086;&#1090; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;<b>&#1091;</b>&#1078;&#1085;&#1086;?, qu'on peut traduire aussi par "en quoi puis-je lui &#234;tre utile ?"<br /> &#183; Comparez l'emploi de l'imperfectif (phrase 6) et du perfectif (phrase 7) d'un m&#234;me verbe. Imperf. : &#1079;&#1072;&#1093;&#1086;&#1076;<b>&#1080;</b>&#1083; &#1079;&#1072; &#1084;&#1085;<b>&#1086;</b>&#1102; &#1082;&#1090;<b>&#1086;</b>-&#1090;&#1086; : quelqu'un est pass&#233; me voir. Il y a eu une action : quelqu'un est venu et reparti. C'est tout. Perf. : &#1085;&#1072;&#1079;<b>&#1072;</b>&#1074;&#1090;&#1088;&#1072; &#1090;&#1086;&#1090; &#1078;&#1077; &#1079;&#1072;&#1096;&#1105;&#1083; &#1080; &#1085;&#1077; &#1079;&#1072;&#1089;&#1090;<b>&#1072;</b>&#1083; &#1084;&#1077;&#1085;<b>&#1103;</b> : le lendemain, le m&#234;me repassa et ne me trouva pas. Plusieurs raisons d'employer ici le perfectif : il s'agit de deux actions successives et termin&#233;es. Il y a un r&#233;sultat, m&#234;me s'il est n&#233;gatif.  		 			8 			&#1048;&#1075;&#1088;<b>&#1072;</b>&#1083; &#1103; &#1085;&#1072; &#1087;&#1086;&#1083;&#1091; &#1089; &#1084;&#1086;<b>&#1080;</b>&#1084; &#1084;&#1072;&#1083;&#1100;&#1095;<b>&#1080;</b>&#1096;&#1082;&#1086;&#1081; : je jouais par terre avec mon petit gar&#231;on. &#1055;&#1086;&#1083; (le plancher) appartient &#224; la s&#233;rie des mots qui ont leur pr&#233;positionnel en -&#1091;, comme, rappelez-vous, &#1085;&#1072; &#1091;&#1075;&#1083;&#1091; (au coin), &#1074; &#1089;&#1072;&#1076;&#1091; (dans le jardin). Selon le contexte, &#1084;&#1072;&#1083;&#1100;&#1095;<b>&#1080;</b>&#1096;&#1082;&#1072; (du mot &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082;) peut avoir une connotation n&#233;gative ou au contraire affectueuse. Ainsi, vous pourrez trouver : &#1082;&#1072;&#1082;<b>&#1086;</b>&#1081; &#1090;&#1099; &#1085;&#1077;&#1093;&#1086;&#1088;<b>&#1086;</b>&#1096;&#1080;&#1081; &#1084;&#1072;&#1083;&#1100;&#1095;<b>&#1080;</b>&#1096;&#1082;&#1072;! : quel sale gamin tu es ! ; mais aussi : &#1090;&#1099; &#1084;&#1086;&#1081; &#1084;<b>&#1080;</b>&#1083;&#1099;&#1081; &#1084;&#1072;&#1083;&#1100;&#1095;<b>&#1080;</b>&#1096;&#1082;&#1072; : tu es mon petit gar&#231;on ch&#233;ri.  		 			9 			&#1063;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082;, &#1086;&#1076;<b>&#1077;</b>&#1090;&#1099;&#1081; &#1074; &#1095;&#1105;&#1088;&#1085;&#1086;&#1084;, &#1091;&#1095;&#1090;<b>&#1080;</b>&#1074;&#1086; &#1087;&#1086;&#1082;&#1083;&#1086;&#1085;<b>&#1080;</b>&#1074;&#1096;&#1080;&#1089;&#1100;, &#1079;&#1072;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1084;&#1085;&#1077; Requiem : un homme habill&#233; en noir, ayant salu&#233; poliment, me commanda un Requiem. &#1055;&#1086;&#1082;&#1083;&#1086;&#1085;<b>&#1080;</b>&#1074;&#1096;&#1080;&#1089;&#1100; est une forme que nous rencontrons pour la premi&#232;re fois. C'est un g&#233;rondif pass&#233; ou g&#233;rondif perfectif. Il est form&#233; sur le pass&#233; du verbe perfectif et d&#233;crit une action qui pr&#233;c&#232;de l'action du verbe de la proposition principale (ici, le verbe est &#1079;&#1072;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;). Pour le former, on remplace le -&#1083; du pass&#233; masculin par -&#1074; ou -&#1074;&#1096;&#1080; et par -&#1074;&#1096;&#1080;&#1089;&#1100; pour les verbes pronominaux (en -&#1089;&#1103;), comme ici pour &#1087;&#1086;&#1082;&#1083;&#1086;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103;. Tranquillisez-vous, il est rarement employ&#233; dans la conversation courante. Ainsi, dans un livre, vous pourrez trouver : &#1091;&#1083;&#1099;&#1073;&#1085;<b>&#1091;</b>&#1074;&#1096;&#1080;&#1089;&#1100;, &#1086;&#1085;<br /> &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1084;&#1085;&#1077; "&#1047;&#1076;&#1088;<b>&#1072;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;" : ayant souri, il me dit "Bonjour". Mais dans une discussion, vous direz plut&#244;t : &#1086;&#1085; &#1091;&#1083;&#1099;&#1073;&#1085;<b>&#1091;</b>&#1083;&#1089;&#1103; &#1080; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1084;&#1085;&#1077; "&#1047;&#1076;&#1088;<b>&#1072;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;" : il sourit et me dit "Bonjour". Un dernier exemple : &#1087;&#1088;&#1086;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1074; &#1075;&#1072;&#1079;<b>&#1077;</b>&#1090;&#1091;, &#1086;&#1085; &#1074;<b>&#1099;</b>&#1096;&#1077;&#1083; : ayant lu le journal, il sortit. Notez que le sujet est le m&#234;me dans les deux propositions (principale et subordonn&#233;e).  		 			10 			&#1052;&#1085;&#1077; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1073; &#1078;&#1072;&#1083;&#1100; &#1088;&#1072;&#1089;&#1089;&#1090;<b>&#1072;</b>&#1090;&#1100;&#1089;&#1103; &#1089; &#1084;&#1086;<b>&#1077;</b>&#1081; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1086;&#1081; : j'aurais regrett&#233; de me s&#233;parer de mon travail. Vous savez maintenant qu'il est courant de raccourcir certains mots en russe, comme par exemple ici la particule &#1073;&#1099; qui devient &#1073;.  		 			11 			&#1057;&#1072;&#1084;-&#1090;&#1088;<b>&#1077;</b>&#1090;&#1077;&#1081; est une expression que l'on n'emploie pratiquement plus. Elle d&#233;signe en fait une personne qui n'est pas l&#224; mais dont on sent la pr&#233;sence.  		 			12 			&#1041;&#1086;&#1084;&#1072;&#1088;&#1096;<b>&#1077;</b> &#1075;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1080;&#1074;&#1072;&#1083; ou encore &#1041;&#1086;&#1084;&#1072;&#1088;&#1096;<b>&#1077;</b> &#1095;<b>&#1072;</b>&#1089;&#1090;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; : Beaumarchais me disait souvent. Seules les personnes au vocabulaire recherch&#233;, un peu p&#233;dant, emploieront &#1075;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1080;&#1074;&#1072;&#1090;&#1100; de pr&#233;f&#233;rence &#224; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100;.<br /> &#183; Le verbe imperfectif &#1087;&#1077;&#1088;&#1077;&#1095;<b>&#1080;</b>&#1090;&#1099;&#1074;&#1072;&#1090;&#1100; a deux perfectifs : &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1090;&#1100; et &#1087;&#1077;&#1088;&#1077;&#1095;<b>&#1077;</b>&#1089;&#1090;&#1100;. On trouvera donc aussi bien &#1103; &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1083; &#1074;&#1089;&#1077; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1080; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1080; que &#1103; &#1087;&#1077;&#1088;&#1077;&#1095;&#1105;&#1083; &#1074;&#1089;&#1077; &#1082;&#1085;<b>&#1080;</b>&#1075;&#1080; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1080; : j'ai lu tous les livres de la biblioth&#232;que. Il y a donc bien s&#251;r deux formes d'imp&#233;ratif : &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1081;, &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1090;<b>&#1072;</b>&#1081;&#1090;&#1077; et &#1087;&#1077;&#1088;&#1077;&#1095;&#1090;<b>&#1080;</b>, &#1087;&#1077;&#1088;&#1077;&#1095;&#1090;<b>&#1080;</b>&#1090;&#1077;.<br /> Attention au perfectif, ce verbe a &#233;galement deux sens ! : relire et lire tous les livres ou journaux, etc.  	 	 		
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

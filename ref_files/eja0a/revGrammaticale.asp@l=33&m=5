@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 	 		<p><i>Cette le&#231;on va vous para&#238;tre facile. Elle reprend beaucoup d'&#233;l&#233;ments des deux le&#231;ons pr&#233;c&#233;dentes que vous avez, nous en sommes s&#251;rs, parfaitement assimil&#233;es.</i></p> 	<h3>
+		&#1050;&#1072;&#1082; &#1074;&#1099; &#1089;&#1077;&#1073;&#1103; &#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090;&#1077;?
+		
+			1
+		Comment vous sentez-vous ?</h3> 	 		 			1 			- &#1050;&#1072;&#1082; &#1074;&#1099; &#1089;&#1077;&#1073;<b>&#1103;</b> &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090;&#1077;? 			 			Comment vous sentez-vous ?  		 			2 			- &#1050;&#1072;&#1082; &#1074;&#1072;&#1084; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100;, &#1076;&#1086;&#1082;&#1090;&#1086;&#1088;, &#1074; &#1087;&#1086;&#1089;&#1083;<b>&#1077;</b>&#1076;&#1085;&#1077;&#1077; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103;, &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100;. 			 				2 			Comment vous dire, docteur, pas tr&#232;s bien ces derniers temps (ces derniers temps pas tr&#232;s).  		 			3 			- &#1040; &#1095;&#1090;&#1086; &#1074;&#1072;&#1089; &#1073;&#1077;&#1089;&#1087;&#1086;&#1082;<b>&#1086;</b>&#1080;&#1090;? 			 			Et qu'est ce qui ne va pas (Qu'est-ce qui vous inqui&#232;te) ?  		 			4 			- &#1059;&#1089;&#1090;<b>&#1072;</b>&#1083;&#1086;&#1089;&#1090;&#1100; &#1087;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; &#1080; &#1089;&#1083;<b>&#1072;</b>&#1073;&#1086;&#1089;&#1090;&#1100; &#1087;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084;. 			&#1055;&#1086; &#1074;&#1077;&#1095;&#1077;&#1088;<b>&#1072;</b>&#1084; (le soir, tous les soirs) : pavitchir<b>a</b>m ; no &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; (le matin, tous les matins) : paoutr<b>a</b>m.  			 				3 			Je suis fatigu&#233; le soir et faible le matin (La fatigue tous les soirs et la faiblesse tous les matins).  		 			5 			- &#1042;&#1099; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090;&#1077;? 			 			Vous travaillez beaucoup ?  		 			6 			- &#1050;&#1072;&#1082; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b>, &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086;, &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100;. 			 				4 			Comme toujours, parfois beaucoup, parfois peu (pas tr&#232;s).  		 			7 			- &#1042;&#1099; &#1082;<b>&#1091;</b>&#1088;&#1080;&#1090;&#1077;? &#1055;&#1100;&#1105;&#1090;&#1077;? 			 			Vous fumez ? [Vous] buvez ?  		 			8 			- &#1053;&#1077;&#1090;, &#1085;&#1077; &#1082;<b>&#1091;</b>&#1088;<b>&#1102;</b>, &#1085;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086; &#1073;&#1088;<b>&#1086;</b>&#1089;&#1080;&#1083;. &#1040; &#1087;&#1100;&#1102; &#1090;<b>&#1086;</b>&#1083;&#1100;&#1082;&#1086; &#1087;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1079;&#1076;&#1085;&#1080;&#1082;&#1072;&#1084;. 			&#1055;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1079;&#1076;&#1085;&#1080;&#1082;&#1072;&#1084; (les jours de f&#234;te) : papr<b>a</b>znikam.  			 			Non, je ne fume pas, j'ai arr&#234;t&#233; il n'y a pas longtemps. Et je bois seulement les jours de f&#234;te.  		 			9 			- &#1042;&#1099; &#1079;&#1072;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1077;&#1090;&#1077;&#1089;&#1100; &#1089;&#1087;<b>&#1086;</b>&#1088;&#1090;&#1086;&#1084;? 			 			Vous faites du sport ?  		 			10 			- &#1041;<b>&#1077;</b>&#1075;&#1072;&#1102; &#1087;&#1086; &#1089;&#1091;&#1073;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1084;. &#1072; &#1087;&#1086; &#1074;&#1086;&#1089;&#1082;&#1088;&#1077;&#1089;<b>&#1077;</b>&#1085;&#1100;&#1103;&#1084; &#1093;&#1086;&#1078;&#1091; &#1074; &#1073;&#1072;&#1089;&#1089;<b>&#1077;</b>&#1081;&#1085;. 			&#1055;&#1086; &#1089;&#1091;&#1073;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1084; (le samedi, tous les samedis) : pasoub<b>o</b>tam ; &#1087;&#1086; &#1074;&#1086;&#1089;&#1082;&#1088;&#1077;&#1089;<b>&#1077;</b>&#1085;&#1100;&#1103;&#1084; (le dimanche, tous les dimanches) : pavaskriss<b>ie</b>niam.  			 				5 			Tous les samedis, je cours et le dimanche, je vais &#224; la piscine.  		 			11 			- &#1040; &#1089;<b>&#1077;</b>&#1088;&#1076;&#1094;&#1077; &#1074;&#1072;&#1089; &#1085;&#1077; &#1073;&#1077;&#1089;&#1087;&#1086;&#1082;<b>&#1086;</b>&#1080;&#1090;? 			 			Et votre coeur ne vous inqui&#232;te pas ?  		 			12 			- &#1053;&#1077;&#1090;, &#1089;&#1083;<b>&#1072;</b>&#1074;&#1072; &#1041;<b>&#1086;</b>&#1075;&#1091;. 			 				6 			Dieu merci (Gloire &#224; Dieu), non.  		 			13 			- &#1055;<b>&#1091;</b>&#1083;&#1100;&#1089; &#1091; &#1074;&#1072;&#1089; &#1085;&#1086;&#1088;&#1084;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1099;&#1081;, &#1076;&#1072;&#1074;&#1083;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1085;&#1086;&#1088;&#1084;<b>&#1072;</b>&#1083;&#1100;&#1085;&#1086;&#1077;. &#1057; &#1090;&#1072;&#1082;&#1080;&#1084; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;&#1084; &#1073;<b>&#1091;</b>&#1076;&#1077;&#1090;&#1077; &#1078;&#1080;&#1090;&#1100; &#1089;&#1090;&#1086; &#1083;&#1077;&#1090;! 			 				7 			Votre pouls est normal, la tension aussi. Avec une sant&#233; pareille (avec une telle sant&#233;), vous vivrez cent ans.  		 			14 			- &#1044;<b>&#1086;</b>&#1082;&#1090;&#1086;&#1088;, &#1089;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077;, &#1095;&#1090;&#1086; &#1078;&#1077; &#1089;&#1086; &#1084;&#1085;&#1086;&#1081; &#1089;&#1083;&#1091;&#1095;<b>&#1080;</b>&#1083;&#1086;&#1089;&#1100;? &#1042; &#1087;&#1088;<b>&#1086;</b>&#1096;&#1083;&#1099;&#1081; &#1088;&#1072;&#1079; &#1074;&#1099; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083;&#1080;, &#1095;&#1090;&#1086; &#1103; &#1087;&#1088;&#1086;&#1078;&#1080;&#1074;&#1091; &#1089;&#1090;&#1086; &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; &#1083;&#1077;&#1090;. 			 				8 			Dites-moi, docteur, que m'arrive-t-il (Que m'est-il arriv&#233;) ? La derni&#232;re fois, vous [m'] avez dit que je vivrai cent vingt ans !  		 			 				<b>1 </b> 				Dans le verbe &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1086;&#1074;&#1072;&#1090;&#1100; (sentir), le premier &#1074; ne se prononce pas. &#1050;&#1072;&#1082; &#1074;&#1099; &#1089;&#1077;&#1073;<b>&#1103;</b> &#1095;<b>&#1091;</b>&#1074;&#1089;&#1090;&#1074;&#1091;&#1077;&#1090;&#1077;? (Comment vous sentez-vous ?) : kak vy sib<b>ia</b> tch<b>ou</b>stvouietii?<br /> N'oubliez pas de lier la pr&#233;position au mot qui la suit dans les expressions suivantes :  			 				<b>14 </b> 				Dans &#1076;&#1074;<b>&#1072;</b>&#1076;&#1094;&#1072;&#1090;&#1100; (vingt), le deuxi&#232;me &#1076; se prononce &#1090; : dv<b>a</b>tsati.  	 		 			1 			Le pronom r&#233;fl&#233;chi &#1089;&#1077;&#1073;<b>&#1103;</b> indique que l'action exprim&#233;e par le verbe s'exerce sur le sujet lui-m&#234;me. Voici sa d&#233;clinaison (il n'a pas de nominatif) : 	<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">G&#233;n.  </td> 							<td class="centre">&#1054;&#1085; &#1091; &#1089;&#1077;&#1073;<b>&#1103;</b> : il est chez lui. </td></tr> 						<tr class="centre"> 							<td class="centre">Dat.  </td> 							<td class="centre">&#1071; &#1082;&#1091;&#1087;<b>&#1080;</b>&#1083; &#1089;&#1077;&#1073;<b>&#1077;</b> &#1082;&#1085;<b>&#1080;</b>&#1075;&#1091; : je me suis achet&#233; un livre. </td></tr> 						<tr class="centre"> 							<td class="centre">Acc.  </td> 							<td class="centre">&#1055;&#1086;&#1089;&#1084;&#1086;&#1090;&#1088;<b>&#1080;</b> &#1085;&#1072; &#1089;&#1077;&#1073;<b>&#1103;</b> : regarde toi. </td></tr> 						<tr class="centre"> 							<td class="centre">Inst.  </td> 							<td class="centre">&#1054;&#1085; &#1085;&#1077;&#1076;&#1086;&#1074;<b>&#1086;</b>&#1083;&#1077;&#1085; &#1089;&#1086;&#1073;<b>&#1086;</b>&#1081; : il n'est pas content de lui. </td></tr> 						<tr class="centre"> 							<td class="centre">Pr&#233;p.  </td> 							<td class="centre">&#1052;&#1099; &#1074;&#1089;&#1077; &#1088;&#1072;&#1089;&#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083;&#1080; &#1086; &#1089;&#1077;&#1073;<b>&#1077;</b> : nous avons tous parl&#233; de nous. </td></tr></tbody></table> 							<br />Notez que la d&#233;clinaison est semblable &#224; celle de &#1090;&#1099; (tu).  		 			2 			Apr&#232;s le verbe &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; (dire), la personne qui est susceptible de recevoir l'information se met au datif, ce qui est logique, le datif &#233;tant le compl&#233;ment d'attribution : &#1103; &#1089;&#1082;&#1072;&#1078;&#1091; &#1074;&#1072;&#1084; &#1074;&#1089;&#1105; (je vous dirai tout). Le verbe &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1090;&#1100; sert de perfectif au verbe &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1100; (parler).<br /> Comparez : &#1086;&#1085; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1083; &#1074;&#1077;&#1089;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088;, &#1085;&#1086; &#1089;&#1082;&#1072;&#1079;<b>&#1072;</b>&#1083; &#1085;&#1077; &#1074;&#1089;&#1105;, &#1095;&#1090;&#1086; &#1086;&#1085; &#1093;&#1086;&#1090;<b>&#1077;</b>&#1083; : il a parl&#233; toute la soir&#233;e, mais n'a pas dit tout ce qu'il voulait.<br /> Dans la premi&#232;re partie de la phrase, on s'attarde sur le processus. L'expression &#1074;&#1077;&#1089;&#1100; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088; le montre bien. Dans la seconde partie de la phrase, on insiste sur le fait que l'action est termin&#233;e, m&#234;me si le r&#233;sultat est n&#233;gatif.  		 			3 			Rappelez-vous, pour exprimer qu'une action a lieu d'une fa&#231;on constante, r&#233;guli&#232;rement, on emploie la pr&#233;position &#1087;&#1086; + datif : &#1087;&#1086; &#1091;&#1090;&#1088;<b>&#1072;</b>&#1084; (tous les matins) ; &#1087;&#1086; &#1074;&#1090;<b>&#1086;</b>&#1088;&#1085;&#1080;&#1082;&#1072;&#1084; &#1103; &#1091;&#1095;&#1091; &#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;<b>&#1099;</b>&#1082; : tous les mardis, j'&#233;tudie le russe ; &#1087;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1079;&#1076;&#1085;&#1080;&#1082;&#1072;&#1084; &#1103; &#1086;&#1090;&#1076;&#1099;&#1093;<b>&#1072;</b>&#1102; &#1076;<b>&#1086;</b>&#1084;&#1072; : les jours de f&#234;te, je me repose &#224; la maison.  		 			4 			Au fur et &#224; mesure, essayez de retenir les contraires : &#1086;&#1085; &#1074;&#1089;&#1077;&#1075;&#1076;<b>&#1072;</b> &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1088;&#1072;&#1073;<b>&#1086;</b>&#1090;&#1072;&#1077;&#1090; : il travaille toujours beaucoup ; &#1086;&#1085; &#1080;&#1085;&#1086;&#1075;&#1076;<b>&#1072;</b> &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; &#1074; &#1073;&#1072;&#1089;&#1089;<b>&#1077;</b>&#1081;&#1085; : il va parfois &#224; la piscine ; &#1086;&#1085; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; &#1082;<b>&#1091;</b>&#1088;&#1080;&#1090; : il fume beaucoup ; &#1103; &#1082;&#1091;&#1088;<b>&#1102;</b> &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; (&#1084;<b>&#1072;</b>&#1083;&#1086;) : je fume peu.  		 			5 			Nous avons d&#233;j&#224; vu quelques verbes de mouvement. Examinons la question d'un peu plus pr&#232;s... En russe, pour exprimer un m&#234;me mouvement, certains verbes pr&#233;sentent deux formes imperfectives : 		<table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre">Groupe 1  </th> 							<th class="centre">Groupe 2  </th> 							<th class="centre"></th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1080;&#1076;&#1090;<b>&#1080;</b> </td> 							<td class="centre">&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; </td> 							<td class="centre">aller (&#224; pied) </td></tr> 						<tr class="centre"> 							<td class="centre"><b>&#1077;</b>&#1093;&#1072;&#1090;&#1100; </td> 							<td class="centre"><b>&#1077;</b>&#1079;&#1076;&#1080;&#1090;&#1100; </td> 							<td class="centre">aller (autrement qu'&#224; pied) </td></tr> 						<tr class="centre"> 							<td class="centre">&#1073;&#1077;&#1078;<b>&#1072;</b>&#1090;&#1100; </td> 							<td class="centre">&#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; </td> 							<td class="centre">courir </td></tr></tbody></table><br /> Les verbes du groupe 1 indiquent une action qui se fait dans une direction d&#233;termin&#233;e. Ils s'emploient pour une action unique ou r&#233;p&#233;t&#233;e toujours dans une seule direction. On les appelle les <b>d&#233;termin&#233;s.</b><br /> Les verbes du groupe 2 indiquent un mouvement sans direction pr&#233;cise et &#233;galement un mouvement r&#233;p&#233;t&#233; &#224; double direction (aller / retour). Ils peuvent indiquer &#233;galement la capacit&#233; &#224; faire un mouvement. Dans ce cas, la notion de direction n'intervient pas. Ce sont les <b>ind&#233;termin&#233;s.</b><br /> Et maintenant, comparez : 		<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">D&#233;t.  (&#1080;&#1076;&#1090;<b>&#1080;</b>)  </td> 							<td class="centre">&#1050;&#1091;&#1076;<b>&#1072;</b> &#1090;&#1099; &#1080;&#1076;&#1105;&#1096;&#1100;? - &#1071; &#1080;&#1076;&#1091; &#1074; &#1073;&#1080;&#1073;&#1083;&#1080;&#1086;&#1090;<b>&#1077;</b>&#1082;&#1091;. O&#249; vas-tu ? - Je vais &#224; la biblioth&#232;que (action &#224; direction unique). </td></tr> 						<tr class="centre"> 							<td class="centre">Ind&#233;t.  (&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;)  </td> 							<td class="centre">&#1055;&#1086; &#1074;&#1086;&#1089;&#1082;&#1088;&#1077;&#1089;<b>&#1077;</b>&#1085;&#1100;&#1103;&#1084; &#1103; &#1093;&#1086;&#1078;&#1091; &#1074; &#1073;&#1072;&#1089;&#1089;<b>&#1077;</b>&#1081;&#1085;. Tous les dimanches, je vais &#224; la piscine (action r&#233;p&#233;t&#233;e &#224; double direction : j'y vais et j'en reviens). </td></tr></tbody></table> 				<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">Ind&#233;t.  (&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100;)  </td> 							<td class="centre">&#1052;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1080;&#1081; &#1084;<b>&#1072;</b>&#1083;&#1100;&#1095;&#1080;&#1082; &#1091;&#1078;<b>&#1077;</b> &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;. Le petit gar&#231;on marche d&#233;j&#224; (capacit&#233; &#224; faire un mouvement). </td></tr> 						<tr class="centre"> 							<td class="centre">D&#233;t.  (&#1073;&#1077;&#1078;<b>&#1072;</b>&#1090;&#1100;)  </td> 							<td class="centre">&#1071; &#1073;&#1077;&#1075;&#1091; &#1074; &#1087;&#1072;&#1088;&#1082;. Je cours au parc (je vais en courant au parc : direction unique). </td></tr> 						<tr class="centre"> 							<td class="centre">Ind&#233;t.  (&#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100;)  </td> 							<td class="centre">&#1071; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1102; &#1087;&#1086; &#1087;<b>&#1072;</b>&#1088;&#1082;&#1091;. Je cours dans le parc (pas de direction pr&#233;cise). </td></tr></tbody></table> 							<br />Voyons comment se conjuguent les verbes ind&#233;termin&#233;s &#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; et &#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100;.  		<table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre">&#1093;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (aller)  </td> 							<td class="centre">&#1073;<b>&#1077;</b>&#1075;&#1072;&#1090;&#1100; (courir) </td></tr> 						<tr class="centre"> 							<td class="centre">&#1103; &#1093;&#1086;&#1078;&#1091; </td> 							<td class="centre">&#1103; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1102; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1090;&#1099; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1096;&#1100; </td> 							<td class="centre">&#1090;&#1099; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1077;&#1096;&#1100; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090; </td> 							<td class="centre">&#1086;&#1085; / &#1086;&#1085;<b>&#1072;</b> &#1073;<b>&#1077;</b>&#1075;&#1072;&#1077;&#1090; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1084;&#1099; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1084; </td> 							<td class="centre">&#1084;&#1099; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1077;&#1084; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1074;&#1099; &#1093;<b>&#1086;</b>&#1076;&#1080;&#1090;&#1077; </td> 							<td class="centre">&#1074;&#1099; &#1073;<b>&#1077;</b>&#1075;&#1072;&#1077;&#1090;&#1077; </td></tr> 						<tr class="centre"> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1093;<b>&#1086;</b>&#1076;&#1103;&#1090; </td> 							<td class="centre">&#1086;&#1085;<b>&#1080;</b> &#1073;<b>&#1077;</b>&#1075;&#1072;&#1102;&#1090; </td></tr></tbody></table> 		 			6 			&#1057;&#1083;<b>&#1072;</b>&#1074;&#1072; &#1041;<b>&#1086;</b>&#1075;&#1091;! Dieu merci ! Gr&#226;ce &#224; Dieu ! Les Russes emploient souvent cette expression (m&#234;me les ath&#233;es !). Il est int&#233;ressant de noter qu'apr&#232;s la r&#233;volution, il &#233;tait interdit d'&#233;crire &#1041;&#1086;&#1075; (avec un &#1073; majuscule). La majuscule a refait son apparition il y a peu de temps. &#1041;&#1086;&#1075; est le seul mot o&#249; le &#1075; final se prononce x (et non &#1082;). &#1057;&#1083;<b>&#1072;</b>&#1074;&#1072; &#1041;<b>&#1086;</b>&#1075;&#1091;, y &#1085;&#1077;&#1075;<b>&#1086;</b> &#1074;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>! Dieu merci, tout va bien pour lui !  		 			7 			&#1057; &#1090;&#1072;&#1082;&#1080;"&#1084; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;&#1084; : avec une sant&#233; pareille. Vous avez, bien entendu, reconnu l'instrumental ! Le nominatif sera &#1090;&#1072;&#1082;<b>&#1086;</b>&#1077; &#1079;&#1076;&#1086;&#1088;<b>&#1086;</b>&#1074;&#1100;&#1077;.  		 			8 			Il arrive (mais que cela ne vous d&#233;courage pas !) qu'un verbe imperfectif ait plusieurs perfectifs. Les pr&#233;verbes diff&#233;rents donnent &#233;videmment diverses nuances de sens au verbe. Ces nuances peuvent porter sur le r&#233;sultat d'une action qui a eu lieu ou sur l'action qui aura lieu dans le futur. Pour y voir plus clair, comparons :<br /> &#1054;&#1085; &#1078;&#1080;&#1083; &#1074; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077; &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1083;&#1077;&#1090; : il a v&#233;cu &#224; Paris quelques ann&#233;es ; &#1086;&#1085; &#1087;&#1088;&#1086;&#1078;<b>&#1080;</b>&#1083; &#1074; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077; &#1074;&#1089;&#1102; &#1089;&#1074;&#1086;<b>&#1102;</b> &#1078;&#1080;&#1079;&#1085;&#1100; : il a v&#233;cu toute sa vie &#224; Paris / il a pass&#233; sa vie &#224; Paris ; &#1086;&#1085; &#1087;&#1086;&#1078;<b>&#1080;</b>&#1083; &#1074; &#1055;&#1072;&#1088;<b>&#1080;</b>&#1078;&#1077; &#1085;<b>&#1077;</b>&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1086; &#1076;&#1085;&#1077;&#1081; / &#1085;&#1077;&#1084;&#1085;<b>&#1086;</b>&#1075;&#1086; : il a v&#233;cu &#224; Paris quelques jours (un peu).  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

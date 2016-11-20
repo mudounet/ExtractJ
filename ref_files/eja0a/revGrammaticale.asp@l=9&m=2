@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 		<p><i>Vous trouverez dans cette le&#231;on les mots et expressions qui vous aideront &#224; faire le portrait physique d'une personne. Et vous allez aborder le pass&#233; des verbes.</i> </p> 		<p><i>&#192; partir de la prochaine le&#231;on, nous ne mettrons plus le verbe "&#234;tre " entre crochets lorsqu 'il est sous-entendu.</i> </p> 	<h3>
+		&#1052;&#1086;&#1081; &#1073;&#1088;&#1072;&#1090; &#1078;&#1077;&#1085;&#1080;&#1090;&#1089;&#1103;  
+		Mon fr&#232;re se marie 		</h3> 	 		 			1 			- &#1058;&#1099; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;, &#1084;&#1086;&#1081; &#1073;&#1088;&#1072;&#1090; &#1078;<b>&#1077;</b>&#1085;&#1080;&#1090;&#1089;&#1103;. 			&#1078;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; : jyn<b>i</b>tsa (se marier)  			 				1 			Tu sais, mon fr&#232;re se marie.  		 			2 			- &#1042;&#1086;&#1090; <b>&#1101;</b>&#1090;&#1086; &#1089;&#1102;&#1088;&#1087;&#1088;<b>&#1080;</b>&#1079;! &#1040; &#1082;&#1090;&#1086; &#1077;&#1075;<b>&#1086;</b> &#1085;&#1077;&#1074;<b>&#1077;</b>&#1089;&#1090;&#1072;? 			 			En voil&#224; une surprise ! Et qui [est] sa fianc&#233;e ?  		 			3 			- &#1058;&#1099; &#1077;&#1105; &#1079;&#1085;<b>&#1072;</b>&#1077;&#1096;&#1100;, &#1085;&#1086; &#1087;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1091;&#1081; &#1091;&#1075;&#1072;&#1076;<b>&#1072;</b>&#1090;&#1100;. 			 				2 			Tu la connais, mais essaie [de] deviner.  		 			4 			- &#1071; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102;, &#1095;&#1090;&#1086; <b>&#1101;</b>&#1090;&#1086; &#1085;&#1077; &#1083;&#1077;&#1075;&#1082;<b>&#1086;</b>, &#1085;&#1086; &#1103; &#1087;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1091;&#1102;. &#1050;&#1072;&#1082;<b>&#1080;</b>&#1077; &#1091; &#1085;&#1077;&#1105; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b>? 			 				3 			Je pense que ce n'[est] pas facile, mais je vais essayer. Comment sont ses yeux (Quels chez elle yeux) ?  		 			5 			- &#1059; &#1085;&#1077;&#1105; &#1089;<b>&#1080;</b>&#1085;&#1080;&#1077; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b>... 			 			Elle a les yeux bleus (Chez elle bleus yeux)...  		 			6 			- ... &#1080; &#1095;&#1105;&#1088;&#1085;&#1099;&#1077; &#1074;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1099;? 			 				4 			... et les cheveux noirs (et noirs cheveux) ?  		 			7 			- &#1053;&#1077;&#1090;, &#1085;&#1077;&#1090;! &#1054;&#1085;<b>&#1072;</b> &#1073;&#1083;&#1086;&#1085;&#1076;<b>&#1080;</b>&#1085;&#1082;&#1072;. 			 			Non, non ! Elle [est] blonde.  		 			8 			- &#1054;&#1085;<b>&#1072;</b> &#1074;&#1099;&#1089;<b>&#1086;</b>&#1082;&#1072;&#1103;, &#1082;&#1072;&#1082; &#1090;&#1099;? 			 			Elle [est] grande, comme toi ?  		 			9 			- &#1053;&#1077;&#1090;, &#1085;&#1072;&#1086;&#1073;&#1086;&#1088;<b>&#1086;</b>&#1090; - &#1084;<b>&#1072;</b>&#1083;&#1077;&#1085;&#1100;&#1082;&#1072;&#1103;, &#1085;&#1086; &#1091; &#1085;&#1077;&#1105; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1092;&#1080;&#1075;<b>&#1091;</b>&#1088;&#1072;, 			 			Non, petite au contraire, mais elle a une jolie silhouette (Non, au contraire, petite, mais chez elle jolie silhouette).  		 			10 			- &#1050;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103;, &#1103; &#1077;&#1105; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1072; &#1091; &#1090;&#1077;&#1073;<b>&#1103;</b>. &#1045;&#1105; &#1079;&#1086;&#1074;<b>&#1091;</b>&#1090; &#1050;<b>&#1072;</b>&#1090;&#1103;. 			&#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103; : k<b>a</b>jytsa 			 				5 			[Il me] semble [que] je l'ai vue chez toi. Elle s'appelle Katia ?  		 			11 			- &#1055;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1083;&#1100;&#1085;&#1086;! &#1050;<b>&#1072;</b>&#1090;&#1103; &#1048;&#1074;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1072;. &#1054;&#1085;<b>&#1072;</b> &#1090;&#1077;&#1073;<b>&#1077;</b> &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;? 			&#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; : nr<b>a</b>vitsa  			 				6 			Tout juste ! Katia Ivanova. Elle te pla&#238;t (Elle &#224; toi pla&#238;t) ?  		 			12 			- &#1043;&#1083;<b>&#1072;</b>&#1074;&#1085;&#1086;&#1077;, &#1095;&#1090;&#1086; &#1077;&#1084;&#1091; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103;. 			 			L'essentiel [est] qu'elle lui plaise &#224; lui (L'essentiel qu'&#224; lui plaise).  		 			13 			- &#1050;&#1072;&#1082; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1103;</b>&#1090;: "&#1053;&#1072; &#1074;&#1082;<b>&#1091;</b>&#1089;, &#1085;&#1072; &#1094;&#1074;&#1077;&#1090; &#1090;&#1086;&#1074;<b>&#1072;</b>&#1088;&#1080;&#1097;&#1077;&#1081; &#1085;&#1077;&#1090;". 			 				7 			Comme on dit, "les go&#251;ts et les couleurs ne se discutent pas" (Pour le go&#251;t, pour la couleur, il n'y a pas de camarades).  		 			14 			- &#1044;&#1072;, <b>&#1079;</b>&#1090;&#1086; &#1072;&#1073;&#1089;&#1086;&#1083;<b>&#1102;</b>&#1090;&#1085;&#1086; &#1074;<b>&#1077;</b>&#1088;&#1085;&#1086;! 			 				8 			Oui, c'[est] tout &#224; fait exact.  		 			 				<b>3-4-9</b> 				 				&#1085;&#1086; (mais) ne se prononce pas de fa&#231;on li&#233;e avec le mot suivant. Quant au -o, il se prononce toujours "o" : &#1054;&#1085;<b>&#1072;</b> &#1085;&#1077; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1082;&#1088;&#1072;&#1089;<b>&#1080;</b>&#1074;&#1072;&#1103;, &#1085;&#1086; &#1086;&#1085;<b>&#1072;</b> &#1084;&#1085;&#1077; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; (Elle n'est pas tr&#232;s belle, mais elle me pla&#238;t).  			 				<b>4-5-9</b> 				 				&#1091; &#1085;&#1077;&#1105; : "ounii<b>o</b>" (chez, &#224; elle) : ces deux mots se prononcent de fa&#231;on li&#233;e.  	 		 			1 			Les verbes comme &#1078;&#1077;&#1085;&#1080;&#1090;&#1100;&#1089;&#1103; (se marier) et &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1100;&#1089;&#1103; (plaire) sont des verbes pronominaux. On les appelle aussi verbes en -&#1089;&#1103;, ce qui est peut-&#234;tre plus juste, car les formes pronominales ne co&#239;ncident pas toujours dans les deux langues. &#1053;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1100;&#1089;&#1103; en est un exemple.<br /> La particule -&#1089;&#1103; est une forme ancienne du pronom r&#233;fl&#233;chi &#1089;&#1077;&#1073;<b>&#1103;</b> (vous le rencontrerez bient&#244;t).  		 			2 			&#1055;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1091;&#1081; ( essaie), imp&#233;ratif du verbe &#1087;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1086;&#1074;&#1072;&#1090;&#1100; (essayer). Premi&#232;re personne du singulier: &#1087;&#1086;&#1087;&#1088;<b>&#1086;</b>&#1073;&#1091;&#1102;, que l'on peut traduire : j'essaierai (ou je vais essayer).  		 			3 			Vous connaissez d&#233;j&#224; : &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> (j'ai); &#1091; &#1074;&#1072;&#1089; (vous avez). Le g&#233;nitif du pronom &#1086;&#1085;<b>&#1072;</b> (elle) est &#1077;&#1105; (&#224; elle). Mais quand e&#235; est employ&#233; avec la pr&#233;position &#1091;, il faut ajouter un &#1085; euphonique : &#1091; &#1085;&#1077;&#1105; (elle a) ; &#1091; &#1085;&#1077;&#1105; &#1089;<b>&#1080;</b>&#1085;&#1080;&#1077; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b> (elle a les yeux bleus).  		 			4 			Apprenez au fur et &#224; mesure le pluriel des mots : <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>masc. sing. : &#1075;&#1083;&#1072;&#1079; (oeil)  </p></td> 							<td class="centre"> 								<p>pluriel : &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b> (yeux) </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1074;<b>&#1086;</b>&#1083;&#1086;&#1089; (cheveu)  </p></td> 							<td class="centre"> 								<p>&#1074;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1099; (cheveux) </p></td></tr></tbody></table><br /> &#1089;<b>&#1080;</b>&#1085;&#1080;&#1077; &#1075;&#1083;&#1072;&#1079;<b>&#1072;</b> : les yeux bleus<br /> &#1095;&#1105;&#1088;&#1085;&#1099;&#1077; &#1074;<b>&#1086;</b>&#1083;&#1086;&#1089;&#1099; : les cheveux noirs  		 			5 			&#1042;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1072; : elle voyait (ou elle a vu). Votre premier pass&#233; ! Vous allez voir qu'il est tr&#232;s facile &#224; former. Il suffit d'en lever -&#1090;&#1100; &#224; l'infinitif et de rajouter les terminaisons -&#1083;/-&#1083;&#1072;/-&#1083;&#1086;/-&#1083;&#1080;. Le pass&#233; russe peut, selon le contexte, se traduire par un imparfait, un pass&#233; compos&#233; ou une autre forme de pass&#233;. Prenons le verbe &#1074;&#1080;&#1076;&#1077;&#1090;&#1100; (voir).<br /> - S'il s'agit d'un homme, on dira : &#1103; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;: je voyais (ou j'ai vu); &#1090;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;: tu voyais (ou tu as vu) ; &#1086;&#1085; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083; : il voyait (ou il a vu).<br /> - S'il s'agit d'une femme, on dira : &#1103; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1072; : je voyais (ou j'ai vu) ; &#1090;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1072; : tu voyais (ou tu as vu) ; &#1086;&#1085;<b>&#1072;</b> &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1072; : elle voyait (ou elle a vu).<br /> - Au pluriel, qu'il s'agisse d'hommes ou de femmes, on dira de la m&#234;me fa&#231;on : &#1084;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080; : nous voyions (ou nous avons vu) ; &#1074;&#1099; &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080; : vous voyiez (ou vous avez vu) ; &#1086;&#1085;<b>&#1080;</b> &#1074;<b>&#1080;</b>&#1076;&#1077;&#1083;&#1080; : ils / elles voyaient (ou ils / elles ont vu). Comme vous le voyez, sa forme varie d'apr&#232;s le genre et le nombre et non d'apr&#232;s la personne.<br /> &#183; &#1059; &#1090;&#1077;&#1073;<b>&#1103;</b> signifie ici "chez toi" (dans ta maison).  		 			6 			&#1054;&#1085;<b>&#1072;</b> &#1090;&#1077;&#1073;<b>&#1077;</b> &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; (elle te pla&#238;t). Cette tournure est beaucoup plus employ&#233;e que &#1090;&#1099; &#1083;<b>&#1102;</b>&#1073;&#1080;&#1096;&#1100; (tu aimes).<br /> &#1058;&#1077;&#1073;<b>&#1077;</b> est le datif du pronom personnel &#1090;&#1099; : &#1058;&#1077;&#1073;<b>&#1077;</b> &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; <b>&#1079;</b>&#1090;&#1072; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072;? (Cette jeune fille te pla&#238;t-elle ?). &#1045;&#1084;&#1091; est le datif du pronom personnel &#1086;&#1085; : &#1045;&#1084;&#1091; &#1085;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1090;&#1089;&#1103; <b>&#1079;</b>&#1090;&#1072; &#1076;<b>&#1077;</b>&#1074;&#1091;&#1096;&#1082;&#1072;? (Cette jeune fille lui pla&#238;t-elle ?). On utilise le datif pour exprimer le compl&#233;ment d'attribution. "Datif" indique l'id&#233;e de donner : &#1090;&#1077;&#1073;<b>&#1077;</b> (&#224; toi) ; &#1077;&#1084;&#1091; (&#224; lui).  		 			7 			Rappelez-vous ce proverbe sans penser &#224; la grammaire: "&#1053;&#1072; &#1074;&#1082;<b>&#1091;</b>&#1089;, &#1085;&#1072; &#1094;&#1074;&#1077;&#1090; &#1090;&#1086;&#1074;&#1072;&#1088;<b>&#1080;</b>&#1097;&#1077;&#1081; &#1085;&#1077;&#1090;" (Les go&#251;ts et les couleurs ne se discutent pas).  		 			8 			Retenez ces quelques expressions qui ont des sens tr&#232;s voisins et qui vous seront utiles dans les conversations : <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p><b>&#1079;</b>&#1090;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1074;&#1076;&#1072; : c'est vrai  </p></td> 							<td class="centre"> 								<p><b>&#1079;</b>&#1090;&#1086; &#1087;&#1088;<b>&#1072;</b>&#1074;&#1080;&#1083;&#1100;&#1085;&#1086; c'est juste </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p><b>&#1079;</b>&#1090;&#1086; &#1074;<b>&#1077;</b>&#1088;&#1085;&#1086; : c'est exact </p></td> 							<td class="centre"> 								<p></p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>&#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102; : je pense  </p></td> 							<td class="centre"> 								<p>&#1082;<b>&#1072;</b>&#1078;&#1077;&#1090;&#1089;&#1103; : il me semble </p></td></tr></tbody></table> 	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

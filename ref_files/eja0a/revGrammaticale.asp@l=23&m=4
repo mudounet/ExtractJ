@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 		<p><i>Vous apprendrez, dans cette le&#231;on, &#224; vous orienter dans une ville, &#224; demander votre chemin. Vous allez &#233;galement &#233;tudier l'emploi des pr&#233;positions no, &#1079;&#1072;, &#1076;&#1086;.</i></p> 	<h3>
+		&#1071; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;&#1086;&#1078;&#1091;...
+		Je vais vous accompagner
+		</h3> 	 		 			1 			- &#1057;&#1082;&#1072;&#1078;<b>&#1080;</b>&#1090;&#1077;, &#1087;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072;, &#1082;&#1072;&#1082; &#1087;&#1086;&#1087;<b>&#1072;</b>&#1089;&#1090;&#1100; &#1085;&#1072; &#1040;&#1088;&#1073;<b>&#1072;</b>&#1090;? 			&#1055;&#1086;&#1078;<b>&#1072;</b>&#1083;&#1091;&#1081;&#1089;&#1090;&#1072; : paj<b>a</b>lousta (s'il vous pla&#238;t). 			 				1 			Dites-[moi], s'il vous pla&#238;t, comment va-t-on &#224; l'Arbat (comment me retrouver sur l'Arbat) ?  		 			2 			- &#1054;, <b>&#1079;</b>&#1090;&#1086; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;<b>&#1086;</b>&#1089;&#1090;&#1086;. &#1045;&#1089;&#1083;&#1080; &#1074;&#1099; &#1089;&#1087;&#1077;&#1096;<b>&#1080;</b>&#1090;&#1077;, &#1089;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1077;&#1089;&#1100; &#1085;&#1072; &#1090;&#1088;&#1086;&#1083;&#1083;<b>&#1077;</b>&#1081;&#1073;&#1091;&#1089;. 			&#1045;&#1089;&#1083;&#1080; &#1074;&#1099; &#1089;&#1087;&#1077;&#1096;<b>&#1080;</b>&#1090;&#1077;: <b>ie</b>sli vy spich<b>y</b>ti (si vous &#234;tes press&#233;).  			 				2 			Oh, c'est tr&#232;s simple. Si vous &#234;tes press&#233;, prenez le trolley (asseyez-vous dans le trolleybus).  		 			3 			- &#1040; &#1075;&#1076;&#1077; &#1079;&#1076;&#1077;&#1089;&#1100; &#1086;&#1089;&#1090;&#1072;&#1085;<b>&#1086;</b>&#1074;&#1082;&#1072;? 			 			Et o&#249; est l'arr&#234;t (Et o&#249; ici l'arr&#234;t) ?  		 			4 			- &#1042; &#1076;&#1074;<b>&#1091;</b>&#1093; &#1096;&#1072;&#1075;<b>&#1072;</b>&#1093;, &#1079;&#1072; &#1091;&#1075;&#1083;<b>&#1086;</b>&#1084; &#1072;&#1087;&#1090;<b>&#1077;</b>&#1082;&#1080;. 			 				3 			&#192; deux pas, &#224; l'angle de la pharmacie.  		 			5 			- &#1040; <b>&#1077;</b>&#1089;&#1083;&#1080; &#1103; &#1087;&#1086;&#1081;&#1076;&#1091; &#1087;&#1077;&#1096;&#1082;<b>&#1086;</b>&#1084;? 			 			Et si j'y vais &#224; pied ?  		 			6 			- &#1069;&#1090;&#1086; &#1089;&#1086;&#1074;&#1089;<b>&#1077;</b>&#1084; &#1085;&#1077;&#1076;&#1072;&#1083;&#1077;&#1082;<b>&#1086;</b>. &#1048;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1087;&#1086; &#1073;<b>&#1091;</b>&#1083;&#1100;&#1074;<b>&#1072;</b>&#1088;&#1091; &#1087;&#1088;<b>&#1103;</b>&#1084;&#1086;. 			 				4 			Ce n'est pas loin du tout. C'est tout droit par le boulevard (Allez par le boulevard tout droit).  		 			7 			- &#1071; &#1073;&#1086;<b>&#1102;</b>&#1089;&#1100; &#1079;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103;. 			&#1047;&#1072;&#1073;&#1083;&#1091;&#1076;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; : zabloud<b>i</b>t'sa (se perdre). 			 			J'ai peur de me perdre.  		 			8 			- &#1053;<b>&#1091;</b>, &#1095;&#1090;&#1086; &#1074;&#1099;! &#1042;&#1099; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086; &#1075;&#1086;&#1074;&#1086;&#1088;<b>&#1080;</b>&#1090;&#1077; &#1087;&#1086;&#1088;<b>&#1091;</b>&#1089;&#1089;&#1082;&#1080;, &#1072; &#1103;&#1079;<b>&#1099;</b>&#1082; &#1076;&#1086; &#1050;<b>&#1080;</b>&#1077;&#1074;&#1072; &#1076;&#1086;&#1074;&#1077;&#1076;&#1105;&#1090;! 			 				5 			Pensez-vous, vous parlez bien russe et la langue vous m&#232;nera jusqu'&#224; Kiev (proverbe russe) !  		 			9 			- &#1053;&#1086; &#1076;&#1086;&#1074;&#1077;&#1076;&#1105;&#1090; &#1083;&#1080; &#1086;&#1085; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1076;&#1086; &#1040;&#1088;&#1073;<b>&#1072;</b>&#1090;&#1072;? 			 			Mais est-ce qu'elle me m&#232;nera jusqu'&#224; l'Arbat ?  		 			10 			- &#1071; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;&#1086;&#1078;<b>&#1091;</b>. 			&#1071; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;&#1086;&#1078;&#1091; : ia vas pravaj<b>ou</b> (je vais vous accompagner).  			 				6 			Je vais vous accompagner.  		 			11 			- &#1042;&#1099; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1099;. &#1057;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1074;&#1072;&#1084;! 			 				7 			Vous &#234;tes tr&#232;s aimable. Merci (&#224; vous).  		 			12 			- &#1053;<b>&#1091;</b>, &#1095;&#1090;&#1086; &#1074;&#1099;! &#1069;&#1090;&#1086; &#1087;<b>&#1091;</b>&#1089;&#1090;&#1103;&#1082;<b>&#1080;</b>. 			 			Mais voyons, ce n'est rien (ce sont des bagatelles).  	 		 			1 			&#1050;&#1072;&#1082; &#1087;&#1086;&#1087;<b>&#1072;</b>&#1089;&#1090;&#1100; &#1085;&#1072;... : les Russes emploient cette expression quand ils ne savent pas si l'endroit o&#249; ils veulent aller est loin, s'il faut y aller &#224; pied ou prendre un moyen de transport. &#1050;&#1072;&#1082; &#1087;&#1086;&#1087;<b>&#1072;</b>&#1089;&#1090;&#1100; &#1085;&#1072; &#1074;&#1086;&#1082;&#1079;<b>&#1072;</b>&#1083;?  			Comment aller &#224; la gare ? &#1050;&#1072;&#1082; &#1087;&#1086;&#1087;<b>&#1072;</b>&#1089;&#1090;&#1100; &#1074; &#1091;&#1085;&#1080;&#1074;&#1077;&#1088;&#1089;&#1080;&#1090;<b>&#1077;</b>&#1090;?  			Comment aller &#224; l'universit&#233; ? Notez bien que l'on dit &#1074; &#1091;&#1085;&#1080;&#1074;&#1077;&#1088;&#1089;&#1080;&#1090;<b>&#1077;</b>&#1090; mais &#1085;&#1072; &#1074;&#1086;&#1082;&#1079;<b>&#1072;</b>&#1083;. On dira &#233;galement : &#1071; &#1080;&#1076;&#1091; &#1085;&#1072; &#1092;&#1072;&#1082;<b>&#1091;</b>&#1083;&#1100;&#1090;<b>&#1077;</b>&#1090;: je vais &#224; la facult&#233;.  		 			2 			&#1057;&#1072;&#1076;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; &#1085;&#1072; &#1072;&#1074;&#1090;<b>&#1086;</b>&#1073;&#1091;&#1089;, litt&#233;ralement "s'asseoir dans l'autobus", est l'expression utilis&#233;e pour dire "prendre l'autobus". C'est seulement lorsqu'on prend un taxi que l'on emploie le verbe &#1073;&#1088;&#1072;&#1090;&#1100; (prendre) : &#1071; &#1073;&#1077;&#1088;&#1091; &#1090;&#1072;&#1082;&#1089;<b>&#1080;</b> : je prends un taxi.  		 			3 			&#1047;&#1072; &#1091;&#1075;&#1083;<b>&#1086;</b>&#1084; : &#224; l'angle, au coin (&#1091;&#1075;&#1086;&#1083; : angle). La pr&#233;position &#1079;&#1072; suivie de l'instrumental indique ici l'emplacement avec la notion de "derri&#232;re", "au-del&#224;". &#1047;&#1072; &#1089;&#1090;&#1086;&#1083;<b>&#1086;</b>&#1084; : &#224; table (derri&#232;re la table) ; &#1079;<b>&#1072;</b> &#1075;&#1086;&#1088;&#1086;&#1076;&#1086;&#1084; : &#224; la campagne (au-del&#224; de la ville).<br /> Remarquez que dans &#1091;&#1075;&#1083;<b>&#1086;</b>&#1084; le o apr&#232;s le &#1043; a disparu. Nous rencontrerons assez souvent ce ph&#233;nom&#232;ne.  		 			4 			Pour indiquer &#224; une personne quel chemin prendre, on emploie l'imp&#233;ratif : &#1048;&#1076;<b>&#1080;</b> &#1087;&#1088;<b>&#1103;</b>&#1084;&#1086;! Va tout droit ! ; &#1048;&#1076;<b>&#1080;</b>&#1090;&#1077; &#1087;&#1088;<b>&#1103;</b>&#1084;&#1086;! Allez tout droit !  		 			5 			Le proverbe "&#1071;&#1079;<b>&#1099;</b>&#1082; &#1076;&#1086; &#1050;<b>&#1080;</b>&#1077;&#1074;&#1072; &#1076;&#1086;&#1074;&#1077;&#1076;&#1105;&#1090;" signifie que celui qui conna&#238;t bien une langue peut aller o&#249; il veut... .( C'est &#224; Kiev qu'a eu lieu, il y a mille ans, le bapt&#234;me de la Russie. De tous les coins de la Russie, les gens y venaient en p&#232;lerinage &#224; pied. Kiev, aujourd'hui capitale de l'Ukraine, est toujours consid&#233;r&#233;e par les orthodoxes comme une ville sainte.<br /> 			Rappelez-vous, nous avons commenc&#233; &#224; vous parler de la premi&#232;re capitale de l'&#201;tat russe &#224; la le&#231;on 6. On dit que Kiev est la ville des belles filles et des gens polis. Si vous d&#233;cidez d'aller le v&#233;rifier, vous vous ferez comprendre, bien<br />  s&#251;r, en parlant russe, mais vous pourrez m&#234;me comprendre l'ukrainien, qui est assez proche du russe. Vous pourrez vous promener dans un des nombreux parcs de la ville et aller &#233;couter les c&#233;l&#232;bres choeurs de l'Op&#233;ra de Kiev.  		 			6 			Voyons ensemble la conjugaison enti&#232;re de &#1087;&#1088;&#1086;&#1074;&#1086;&#1076;<b>&#1080;</b>&#1090;&#1100; (accompagner) :<br /> &#1071; &#1074;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;&#1086;&#1078;&#1091; : je vous accompagnerai.<br /> 			&#1058;&#1099; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1087;&#1088;&#1086;&#1074;<b>&#1086;</b>&#1076;&#1080;&#1096;&#1100; : tu m'accompagneras.<br /> &#1054;&#1085; &#1077;&#1105; &#1087;&#1088;&#1086;&#1074;<b>&#1086;</b>&#1076;&#1080;&#1090; : il l'accompagnera (elle).<br /> &#1052;&#1099; &#1077;&#1075;<b>&#1086;</b> &#1087;&#1088;&#1086;&#1074;<b>&#1086;</b>&#1076;&#1080;&#1084; : nous l'accompagnerons (lui).<br /> &#1042;&#1099; &#1080;&#1093; &#1087;&#1088;&#1086;&#1074;<b>&#1086;</b>&#1076;&#1080;&#1090;&#1077; : vous les accompagnerez (elles et / ou eux).<br /> &#1054;&#1085;<b>&#1080;</b> &#1085;&#1072;&#1089; &#1087;&#1088;&#1086;&#1074;<b>&#1086;</b>&#1076;&#1103;&#1090; : ils nous accompagneront.  		 			7 			Vous rencontrerez en russe deux types d'adjectifs : les courts et les longs. La forme courte - la moins fr&#233;quente - est une survivance du slavon (vieux slave employ&#233; comme langue d'&#233;glise et langue litt&#233;raire).<br /> 			Un adjectif &#224; la forme courte est toujours attribut et ne s'emploie qu'au nominatif. Voici quelques exemples :<br /> &#1058;&#1099; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1077;&#1085; : tu es tr&#232;s aimable (masc.).<br /> &#1054;&#1085;<b>&#1072;</b> <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1072; : elle est tr&#232;s aimable.<br /> 			&#1054;&#1085;<b>&#1080;</b> <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1099; : ils sont tr&#232;s aimables.<br /> 			Mais : &#1054;&#1085; <b>&#1086;</b>&#1095;&#1077;&#1085;&#1100; &#1083;&#1102;&#1073;<b>&#1077;</b>&#1079;&#1085;&#1099;&#1081; &#1095;&#1077;&#1083;&#1086;&#1074;<b>&#1077;</b>&#1082; : c'est un homme tr&#232;s aimable (il est un homme tr&#232;s aimable).<br /> 			Et de nouveau le datif: &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1074;&#1072;&#1084; : merci (&#224; vous) ; &#1089;&#1087;&#1072;&#1089;<b>&#1080;</b>&#1073;&#1086; &#1090;&#1077;&#1073;<b>&#1077;</b> : merci (&#224; toi).  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

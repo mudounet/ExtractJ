@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+var posteId = '172694450';
+</script>
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/exTraduction.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdExoTradRus.gif');
+}
+/* liens navigation haut */
+div#divApprentissage{
+	position:absolute;
+	top:27px;
+	left:610px;
+	height:20px;
+	width:135px;
+	}
+
+div#divEcoute{
+	position:absolute;
+	top:96px;
+	left:590px;
+	height:20px;
+	width:155px;
+	}
+	
+
+	
+/* menu phrase */
+div#tradMotaMot{
+	position:absolute;
+	top:261px;
+	left:265px;
+	width:95px;
+	height:16px;
+}
+
+div#traductionComplete{
+	position:absolute;
+	top:285px;
+	left:265px;
+	width:95px;
+	height:15px;
+}
+div#applet{
+	display:block;
+	position:absolute;
+	top:306px;
+	left:160px;
+	width:96px;
+	height:15px;
+	z-index:10;
+}
+div#tabScript {
+	 visibility: visible;
+}
+div#saisie{
+	position:absolute;
+	top:80px;
+	left:5px;
+	height:70px;
+	width:100%;
+}
+.textSaisie{
+	
+	scrollbars:auto;
+	color : #39392E;
+	font-size : 14px;
+	text-align : left;
+	border:none;
+	background-color: #FFFFFF;
+	border: solid 1px;
+}
+div#affCentral{
+	position:absolute;
+	top:175px;
+	left:405px;
+	width:320px;
+	height:245px;
+	z-index:10;
+
+}
+div#affLangue{
+	position:absolute;
+	top:10px;
+	left:5px;
+	height:85px;
+	width:100%;
+	z-index:2;
+	overflow:auto;
+}
+
+div#affMot{
+	position:absolute;
+	top:180px;
+	left:5px;
+	height:65px;
+	width:100%;
+	overflow:auto;
+	visibility:hidden;
+	}
+</style>
+erreur chargement XML Le système ne trouve pas l'objet spécifié.
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+if (tableaucree) {}
+	else {
+		var tableaucree ;
+		parseXml ();
+
+	}
+
+</script>
+</head>
+<body onload="prechargement();">
+<div id="conteneur">
+	<div id="divApprentissage">
+		<a href="javascript:apprentissage();" onmouseover="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-over.gif'" onmousedown="document.getElementById('App').src='../assimilV2commun/images/imgsExoTrad/ExoTradApp-down.gif'" onmouseout="document.getElementById('App').src='../assimilV2commun/images/blank.gif'" title="Apprentissage"><img src="../assimilV2commun/images/blank.gif" width="135" height="20" id="App" alt="Apprentissage" /></a>
+	</div>
+	<div id="divEcoute">
+		<a href="javascript:exMotManquant();" onmouseover="document.getElementById('mam').src='../assimilV2commun/images/imgsExoTrad/ExoTradMot-over.gif'" onmousedown="document.getElementById('mam').src='../assimilV2commun/images/imgsExoTrad/ExoTradMot-down.gif'" onmouseout="document.getElementById('mam').src='../assimilV2commun/images/blank.gif'" title="Traduction mot &agrave; mot"><img src="../assimilV2commun/images/blank.gif" width="155" height="20" id="mam" alt="Traduction mot &agrave; mot"/></a>
+	</div>
+	<div id="tradMotaMot"><a href="javascript:motAmot('affMot');" onmouseover="document.getElementById('Tradmam').src='../assimilV2Commun/images/imgsExoTrad/AppPronBtMot-over2.gif'" onmouseout="document.getElementById('Tradmam').src='../assimilV2Commun/images/blank.gif'" title="Traduction mot &agrave; mot"><img src="../assimilV2Commun/images/blank.gif" width="95" height="16" id="Tradmam" alt="Traduction mot &agrave; mot" /></a></div>
+	<div id="traductionComplete"><a href="javascript:complete('affMot');" onmouseover="document.getElementById('Tradcomp').src='../assimilV2Commun/images/imgsExoTrad/AppPronBtPhrase-over2.gif'" onmouseout="document.getElementById('Tradcomp').src='../assimilV2Commun/images/blank.gif'" title="Traduction compl&egrave;te"><img src="../assimilV2Commun/images/blank.gif" width="95" height="16" id="Tradcomp" alt="Traduction compl&egrave;te" /></a></div>
+	<div id="applet">
+		<script type="text/javascript">
+			flashCompare();
+		</script>
+	</div>
+	<div id="affCentral">
+		<div id="affLangue" class="textLangue"></div>
+		<div id="saisie" class="textLangue"><textarea id="zoneSaisie" class="textSaisie" rows="4" cols="35"></textarea></div>
+		<div id="affMot" class="textTrad"></div>
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btPrev"><a href="javascript:precedent();" onmouseover="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-over.gif'" onmousedown="document.getElementById('Rw').src='../assimilV2commun/images/imgsMenu/btRw-down.gif'" onmouseout="document.getElementById('Rw').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="30" id="Rw" alt="Pr&eacute;c&eacute;dent" /></a></span>			
+		<span id="btOk"><a href="javascript:toPhrase();"  onmousedown="document.getElementById('ok').src='../assimilV2commun/images/imgsMenu/btOk-down.gif'"  onmouseout="document.getElementById('ok').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="26" id="ok" alt="Ok" /></a></span>			
+		<span id="btNext"><a href="javascript:suivant();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Suivant"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Suivant" /></a></span>			
+		<span id="affNum"><input type="text" id="numlec" value="" onclick="this.value='';"/></span>	
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

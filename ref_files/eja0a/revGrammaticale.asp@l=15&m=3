@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/Javascript" src="../assimilV2commun/JS/query_string_scan.js"></script>
+<script src="../assimilV2commun/JS/jsCommun.js" type="text/javascript"></script>
+<script src="js/revgramm.js" type="text/javascript"></script> 
+<script type="text/javascript">
+parseXml();
+</script>
+<link rel="stylesheet" href="../assimilV2commun/sheets/commonStyle.css" type="text/css" />
+<style  type="text/css">
+div#conteneur{
+	background-image : url('images/FdL7RevisRus.gif');
+}
+/* liens navigation haut */
+
+div#divExercice{
+	position:absolute;
+	top:10px;
+	left:630px;
+	height:16px;
+	width:115px;
+	}
+div#divDialRecap{
+	position:absolute;
+	top:95px;
+	left:535px;
+	height:20px;
+	width:211px;
+}
+span#btImprimer{
+	position:absolute;
+	
+	left:192px;
+	width:35px;
+	height:30px;
+	z-index:11;
+	}
+
+span#btLoupe{
+	position:absolute;
+	
+	left:449px;
+	width:30px;
+	height:30px;
+	z-index:11
+	}
+div#central{
+	position:absolute;
+
+	top : 170px;
+	left : 184px;
+	height : 255px;
+	width : 552px;
+	overflow: auto;
+
+}
+.centre{
+	font-size:12px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+
+
+h1.centre{
+	font-size:14px;
+	color:#AD230C;
+	}
+h2.centre{
+	font-size:14px;
+	}
+h3.centre{
+	font-size:14px;
+	}
+table.centre{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #545651; 
+	border-collapse : collapse;
+	border-spacing: 0px;
+	padding:0px;
+}
+td.centre{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545651; 
+	border-spacing: 0px;
+	background-color:#F0F2EB;
+	padding:2px;
+	}
+	
+.centreloupe{
+	font-size:14px;
+	color:#39392E;
+	padding-left: 5px;
+	padding-right:5px;
+	
+	}
+h1.centreloupe{
+	font-size:16px;
+	color:#AD230C;
+	}
+p{
+	text-indent:5px;
+	text-align:justify;
+}
+
+
+</style>
+
+<title>Le russe sans peine</title>
+<script type="text/javascript">
+titre();
+</script>
+</head>
+<body  onload="prechargement();">
+<div id="conteneur">
+	<div id="divExercice">
+		<a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-over.gif'" onmousedown="document.getElementById('Exer').src='../assimilV2commun/images/imgsAppEcou/AppEcouExo-down.gif'" onmouseout="document.getElementById('Exer').src='../assimilV2commun/images/blank.gif'" title="Exercice traduction"><img src="../assimilV2commun/images/blank.gif" width="115" height="16" id="Exer" alt="Exercice traduction" /></a>
+	</div>
+	<div id="central" class="centre">
+	<?xml version="1.0" encoding="UTF-16"?> 	 	 	 	 	 	 	 	 	 		 	<h3>
+		&#1053;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;&#1086;...
+		
+			1
+		Pas de chance... (Pas eu de chance) </h3> 	 		 			1 			- &#1047;&#1076;&#1088;<b>&#1072;</b>&#1074;&#1089;&#1090;&#1074;<b>&#1091;</b>&#1081;. &#1042;&#1072;&#1076;<b>&#1080;</b>&#1084;. &#1050;&#1072;&#1082; &#1085;&#1072;&#1089;&#1090;&#1088;&#1086;<b>&#1077;</b>&#1085;&#1080;&#1077;? 			 				2 			Bonjour, Vadim, comment &#231;a va (comment l'humeur) ?  		 			2 			- &#1053;&#1072;&#1089;&#1090;&#1088;&#1086;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1077;. &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1073;<b>&#1099;</b>&#1083;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;. 			 				3 			&#199;a va tr&#232;s bien (Humeur tr&#232;s bonne) ! J'ai eu un rendez-vous.  		 			3 			- &#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102;! &#1059; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1074;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>? 			 				4 			F&#233;licitations ([Je te] f&#233;licite) ! Tout va bien ?  		 			4 			- &#1044;&#1072;, &#1076;&#1072;, &#1087;&#1086;&#1095;&#1090;<b>&#1080;</b> &#1074;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>. 			 			Oui, oui, presque tout va bien.  		 			5 			- &#1055;&#1088;&#1086;&#1089;&#1090;<b>&#1080;</b>, &#1082;&#1072;&#1082; <b>&#1079;</b>&#1090;&#1086; &#1087;&#1086;&#1085;&#1080;&#1084;<b>&#1072;</b>&#1090;&#1100;? 			 			Pardon, que veux-tu dire (Comment cela comprendre) ?  		 			6 			- &#1042;&#1089;&#1105; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> &#1085;&#1072;&#1087;&#1086;&#1083;&#1086;&#1074;<b>&#1080;</b>&#1085;&#1091;: &#1103; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083;, &#1072; &#1086;&#1085;<b>&#1072;</b> - &#1085;&#1077;&#1090;. 			 				5 			&#199;a s'est &#224; moiti&#233; bien pass&#233; (Tout &#233;tait bien &#224; moiti&#233;) : j'y suis all&#233;, mais elle n'est pas venue (Je suis venu, mais elle non).  		 			7 			- &#1040; &#1091; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1085;&#1072;&#1089;&#1090;&#1088;&#1086;<b>&#1077;</b>&#1085;&#1080;&#1077; &#1087;&#1083;&#1086;&#1093;<b>&#1086;</b>&#1077;. 			 			Et moi, je suis de mauvaise humeur (Et chez moi humeur mauvaise).  		 			8 			- &#1050;&#1072;&#1082; &#1090;&#1072;&#1082;? &#1058;&#1099; &#1074;&#1077;&#1076;&#1100; &#1085;&#1077;&#1076;<b>&#1072;</b>&#1074;&#1085;&#1086; &#1078;&#1077;&#1085;<b>&#1080;</b>&#1083;&#1089;&#1103;! 			 				6 			Comment cela (Comment ainsi) ? Tu viens pourtant juste de te marier (Tu pourtant depuis peu es mari&#233;) !  		 			9 			- &#1042;&#1086;&#1090; <b>&#1080;</b>&#1084;&#1077;&#1085;&#1085;&#1086;! &#1053;&#1086; &#1103; &#1074;&#1089;&#1105; &#1074;&#1088;<b>&#1077;</b>&#1084;&#1103; &#1076;<b>&#1091;</b>&#1084;&#1072;&#1102;, &#1095;&#1090;&#1086; &#1077;&#1081; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b> &#1073;<b>&#1086;</b>&#1083;&#1100;&#1096;&#1077;, &#1095;&#1077;&#1084; &#1084;&#1085;&#1077;. 			 			Justement (Voil&#224; pr&#233;cis&#233;ment) ! Mais je pense tout le temps qu'elle a plus de chance que moi (Mais je tout le temps pense qu'&#224; elle plus de chance qu'&#224; moi) !  		 			 				<b>3 </b> 				Pour prononcer correctement &#1087;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;<b>&#1103;</b>&#1102;, d&#233;composez le mot ainsi : pa-zdra-vl<b>ia</b>-iou.  			 				<b>4 </b> 				Les Russes r&#233;p&#232;tent souvent &#1076;&#1072; et &#1085;&#1077;&#1090; : &#1076;&#1072;, &#1076;&#1072; ; &#1085;&#1077;&#1090;, &#1085;&#1077;&#1090;. Il faut prononcer les deux mots tr&#232;s distinctement.  			 				<b>8-9</b>  				Les expressions &#1082;&#1072;&#1082; &#1090;&#1072;&#1082;? et &#1074;&#1086;&#1090; <b>&#1080;</b>&#1084;&#1077;&#1085;&#1085;&#1086; se prononcent de fa&#231;on li&#233;e. Dans &#1074;&#1086;&#1090; <b>&#1080;</b>&#1084;&#1077;&#1085;&#1085;&#1086;, le &#1080; se prononce &#1099; (i dur) : vot<b>y</b>minna.  	 		 			1 			&#1052;&#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>: j'ai eu de la chance (&#192; moi il y eut de la chance) ; &#1090;&#1077;&#1073;<b>&#1077;</b> &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b> : tu as eu de la chance. On peut dire &#233;galement plus simplement &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>.<br /> C'est un verbe impersonnel qui ne peut s'employer qu'&#224; la forme neutre du pass&#233;. &#1058;&#1077;&#1073;<b>&#1077;</b> &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b>, &#1072; &#1084;&#1085;&#1077; &#1085;&#1077; &#1087;&#1086;&#1074;&#1077;&#1079;&#1083;<b>&#1086;</b> : tu as eu de la chance et moi je n'ai pas eu de chance. Nous retrouvons une fois de plus le datif.  		 			2 			&#1050;&#1072;&#1082; &#1085;&#1072;&#1089;&#1090;&#1088;&#1086;<b>&#1077;</b>&#1085;&#1080;&#1077;? : comment &#231;a va ? C'est une expression proche de &#1082;&#1072;&#1082; &#1076;&#1077;&#1083;<b>&#1072;</b>?, mais que l'on emploie plus volontiers quand on voit que son interlocuteur est tracass&#233;.  		 			3 			&#1057;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077;, comme tous les mots en -&#1080;&#1077;, est neutre. On aura donc &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1073;<b>&#1099;</b>&#1083;&#1086; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077; : j'avais ou j'ai eu un rendez-vous, le verbe &#1073;&#1099;&#1090;&#1100; (&#234;tre) s'accordant en genre et en nombre avec le sujet (au pass&#233;) : &#1059; &#1084;&#1077;&#1085;<b>&#1103;</b> &#1073;&#1099;&#1083;<b>&#1072;</b> &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1072; : litt&#233;ralement, "j'avais une rencontre".<br />  &#183; Nous vous rappelons que les adjectifs &#233;pith&#232;tes (directement reli&#233;s au nom) s'accordent en genre et en nombre avec le substantif. <table class="centre"> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>Masc.  </p></td> 							<td class="centre"> 								<p>&#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1099;&#1081; &#1074;<b>&#1077;</b>&#1095;&#1077;&#1088; : une belle soir&#233;e </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>F&#233;m.  </p></td> 							<td class="centre"> 								<p>&#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1072;&#1103; &#1074;&#1089;&#1090;&#1088;<b>&#1077;</b>&#1095;&#1072; : une belle rencontre </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Neut.  </p></td> 							<td class="centre"> 								<p>&#1087;&#1088;&#1077;&#1082;&#1088;<b>&#1072;</b>&#1089;&#1085;&#1086;&#1077; &#1089;&#1074;&#1080;&#1076;<b>&#1072;</b>&#1085;&#1080;&#1077; : un rendez-vous agr&#233;able </p></td></tr></tbody></table> 		 			4 			&#1059; &#1090;&#1077;&#1073;<b>&#1103;</b> &#1074;&#1089;&#1105; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b>? correspond &#224; l'expression "(Et chez toi) tout va bien ?"  		 			5 			Le verbe &#1073;&#1099;&#1090;&#1100; au pass&#233; s'accorde avec &#1074;&#1089;&#1105; : &#1074;&#1089;&#1105; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1093;&#1086;&#1088;&#1086;&#1096;<b>&#1086;</b> (tout &#233;tait bien) ; &#1074;&#1089;&#1105; &#1073;<b>&#1099;</b>&#1083;&#1086; &#1080;&#1085;&#1090;&#1077;&#1088;<b>&#1077;</b>&#1089;&#1085;&#1086; (tout &#233;tait int&#233;ressant).<br /> ( &#1071; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : je suis venu. Voyons les trois personnes du singulier : <table class="centre">  					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>Masc.  </p></td> 							<td class="centre"> 								<p>&#1103; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : je suis venu. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p></p></td> 							<td class="centre"> 								<p>&#1090;&#1099; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : tu es venu. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p></p></td> 							<td class="centre"> 								<p>&#1086;&#1085; &#1087;&#1088;&#1080;&#1096;&#1105;&#1083; : il est venu. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>F&#233;m. :  </p></td> 							<td class="centre"> 								<p>&#1103; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> : je suis venue. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p></p></td> 							<td class="centre"> 								<p>&#1090;&#1099; &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b> : tu es venue. </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p></p></td> 							<td class="centre"> 								<p>&#1086;&#1085;<b>&#1072;</b> &#1087;&#1088;&#1080;&#1096;&#1083;<b>&#1072;</b>: elle est venue. </p></td></tr></tbody></table><br /> Nous aurons l'occasion de reparler de ce verbe.  		 			6 			&#1046;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; : se marier (pour un homme). &#1054;&#1085; &#1078;&#1077;&#1085;<b>&#1080;</b>&#1083;&#1089;&#1103; : il s'est mari&#233;. Le pass&#233; des verbes pronominaux est tr&#232;s simple &#224; former. Prenons &#1091;&#1095;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; (apprendre) : <table class="centre">  					<thead class="centre"> 						<tr class="centre"> 							<th class="centre"> 								<p></p></th> 							<th class="centre"> 								<p><b>Masc.</b> </p></th> 							<th class="centre"> 								<p><b>F&#233;m.</b> </p></th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>J'apprenais (ou j'ai appris)  </p></td> 							<td class="centre"> 								<p>&#1103; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1089;&#1103; </p></td> 							<td class="centre"> 								<p>&#1103; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Tu apprenais (ou tu as appris)  </p></td> 							<td class="centre"> 								<p>&#1090;&#1099; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1089;&#1103; </p></td> 							<td class="centre"> 								<p>&#1090;&#1099; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Il / elle apprenait  (ou il / elle a appris) </p></td> 							<td class="centre"> 								<p>&#1086;&#1085; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1089;&#1103; </p></td> 							<td class="centre"> 								<p>&#1086;&#1085;&#1072; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1072;&#1089;&#1100; </p></td></tr></tbody></table> 				<table class="centre"> 					<thead class="centre"> 						<tr class="centre"> 							<th class="centre"> 								<p><b>Masc. et f&#233;m.</b> </p></th> 							<th class="centre"> 								<p></p></th></tr></thead> 					<tbody class="centre"> 						<tr class="centre"> 							<td class="centre"> 								<p>Nous apprenions (nous avons appris)  </p></td> 							<td class="centre"> 								<p>&#1084;&#1099; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Vous appreniez (vous avez appris)  </p></td> 							<td class="centre"> 								<p>&#1074;&#1099; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100; </p></td></tr> 						<tr class="centre"> 							<td class="centre"> 								<p>Ils / elles apprenaient  (ils / elles ont appris) </p></td> 							<td class="centre"> 								<p>&#1086;&#1085;&#1080; &#1091;&#1095;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100; </p></td></tr></tbody></table><br /> Comme vous le voyez, on &#233;crit -&#1089;&#1103; apr&#232;s une consonne et -&#1089;&#1100; apr&#232;s une voyelle.<br /> &#1046;&#1077;&#1085;<b>&#1080;</b>&#1090;&#1100;&#1089;&#1103; ne s'employant que pour les hommes, vous ne le rencontrerez donc que la forme &#1078;&#1077;&#1085;<b>&#1080;</b>&#1083;&#1089;&#1103; (&#1103;, &#1090;&#1099; ou &#1086;&#1085;). Pour une femme, on dira: &#1086;&#1085;<b>&#1072;</b> &#1074;<b>&#1099;</b>&#1096;&#1083;&#1072; &#1079;<b>&#1072;</b>&#1084;&#1091;&#1078; (&#1103;, &#1090;&#1099;) (elle s'est mari&#233;e) et si vous voulez dire : ils se sont mari&#233;s, vous direz : &#1086;&#1085;<b>&#1080;</b> &#1078;&#1077;&#1085;<b>&#1080;</b>&#1083;&#1080;&#1089;&#1100;.  	 	
+	</div>
+	<div id="menubas">
+		<span id="btHelp"><a href="javascript:montreAide();" onmouseover="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/btHelp-over.gif';" onmousedown="document.getElementById('help').src='../assimilV2commun/images/imgsMenu/bthelp-down.gif';" onmouseout="document.getElementById('help').src='../assimilV2commun/images/blank.gif';" title="Aide"><img src="../assimilV2commun/images/blank.gif" id="help" width="30" alt="Aide" /></a></span>
+		<span id="btTools"><a href="javascript:faq();" onmouseover="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-over.gif';" onmousedown="document.getElementById('tools').src='../assimilV2commun/images/imgsMenu/btTools-down.gif';" onmouseout="document.getElementById('tools').src='../assimilV2commun/images/blank.gif';" title="Un probl&egrave;me ?"><img src="../assimilV2commun/images/blank.gif" width="30" id="tools" alt="Un probl&egrave;me ?" /></a></span>
+		<span id="btReload"><a href="javascript:recharger();" onmouseover="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-over.gif'" onmousedown="document.getElementById('reload').src='../assimilV2commun/images/imgsMenu/btReload-down.gif'" onmouseout="document.getElementById('reload').src='../assimilV2commun/images/blank.gif'" title="recharger la page"><img src="../assimilV2commun/images/blank.gif" width="30" id="reload" alt="recharger la page" /></a></span>
+		<span id="btHome"><a href="javascript:index();" onmouseover="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-over.gif'" onmousedown="document.getElementById('Home').src='../assimilV2commun/images/imgsMenu/btHome-down.gif'" onmouseout="document.getElementById('Home').src='../assimilV2commun/images/blank.gif'" title="Accueil"><img src="../assimilV2commun/images/blank.gif" width="30" id="Home" alt="" /></a></span>
+		<span id="btImprimer"><a href="javascript:toPrint();" onmouseover="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-over.gif'" onmousedown="document.getElementById('Imprimer').src='../assimilV2commun/images/imgsMenu/BtPrint-down.gif'" onmouseout="document.getElementById('Imprimer').src='../assimilV2commun/images/blank.gif'" title="Imprimer"><img src="../assimilV2commun/images/blank.gif" width="35" id="Imprimer" alt="Imprimer" /></a></span>			
+		<span id="btLoupe"><a href="javascript:loupe();" onmouseover="document.getElementById('Loupe').src='../assimilV2commun/images/imgsMenu/BtLoupe-over.gif'" onmouseout="document.getElementById('Loupe').src='../assimilV2commun/images/blank.gif'" title="Loupe"><img src="../assimilV2commun/images/blank.gif" width="30" id="Loupe" alt="Loupe" /></a></span>			
+		<span id="btNext"><a href="javascript:ex7Traduction();" onmouseover="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-over.gif'" onmousedown="document.getElementById('Fw').src='../assimilV2commun/images/imgsMenu/btFw-down.gif'" onmouseout="document.getElementById('Fw').src='../assimilV2commun/images/blank.gif'" title="Exercices"><img src="../assimilV2commun/images/blank.gif" width="30" id="Fw" alt="Exercices" /></a></span>			
+		<span id="affLecon"></span>
+	</div>
+	<div id="divAide">
+		<span id="fermerAide"><a href="javascript:montreAide();" title="Fermer"><img src="../assimilV2commun/images/blank.gif" alt="Fermer" width="15px" height="15px"/></a></span>
+		<div id="innerAide"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	//affiche();
+	aide();
+	//correctionIE();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217765-15");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
