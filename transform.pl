@@ -31,7 +31,7 @@ for my $lesson(1..$maxLesson) {
 	my %results;
 	switch ($type) {
 		case GRAMMARY { extract_grammary($lesson, $linkExt); }
-		case LISTENING { %results = extract_listening($lesson, $linkExt); }
+		case LISTENING { %results = extract_apprentissage($lesson, $linkExt); }
 		case GRAMMARY_AND_ACTIVE { extract_grammary_and_active($lesson, $linkExt); }
 		case LISTENING_AND_ACTIVE { extract_listening_and_active($lesson, $linkExt); }
 		case ACTIVE { extract_active($lesson, $linkExt); }
@@ -43,8 +43,8 @@ sub extract_grammary {
 	DEBUG "Processing grammary type";
 }
 
-sub extract_listening {
-	DEBUG "Processing listening type";
+sub extract_apprentissage {
+	DEBUG "Processing apprentissage page";
 	my ($lesson, $linkExt) = @_;
 	my @lines = getJavaScriptContents("apprentissagejs.asp\@l=$lesson");
 	my $text_perl = convertJavascriptToPerl(@lines);
