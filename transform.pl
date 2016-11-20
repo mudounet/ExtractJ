@@ -4,6 +4,8 @@ use POSIX;
 use strict;
 use warnings;
 use Log::Log4perl qw(:easy);
+use Switch;
+use Data::Dumper;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -20,12 +22,41 @@ use constant LISTENING_AND_ACTIVE => 4;
 use constant ACTIVE => 5;
 use constant EXT => '.asp';
 use constant DIR_SOUNDS => 'eja0a/sons/';
+use constant REF_DIR => './ref_files/eja0a/';
 
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
-	INFO "Processing lesson #".sprintf("%03d", $lesson);
-	
+	INFO "Currently at lesson #".sprintf("%03d", $lesson);
+	switch ($type) {
+		case GRAMMARY { extract_grammary($lesson, $linkExt); }
+		case LISTENING { extract_listening($lesson, $linkExt); }
+		case GRAMMARY_AND_ACTIVE { extract_grammary_and_active($lesson, $linkExt); }
+		case LISTENING_AND_ACTIVE { extract_listening_and_active($lesson, $linkExt); }
+		case ACTIVE { extract_active($lesson, $linkExt); }
+		else { ERROR "No valid type found for lesson #".sprintf("%03d", $lesson); }
+	}
+}
+
+sub extract_grammary {
+	DEBUG "Processing grammary type";
+}
+
+sub extract_listening {
+	DEBUG "Processing listening type";
+}
+
+sub extract_grammary_and_active {
+	DEBUG "Processing grammary and active type, with type grammary";
+	extract_grammary(@_);
+}
+
+sub extract_listening_and_active {
+	DEBUG "Processing listening and active type";
+}
+
+sub extract_active {
+	DEBUG "Processing active type";
 }
 
 sub getTypeLesson {
