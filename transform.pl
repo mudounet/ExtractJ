@@ -31,7 +31,7 @@ for my $lesson(1..$maxLesson) {
 	my %results;
 	switch ($type) {
 		case GRAMMARY { extract_grammary($lesson, $linkExt); }
-		case LISTENING { %results = extract_apprentissage($lesson, $linkExt); }
+		case LISTENING { %results = extract_apprentissage($lesson, $linkExt); %results = extract_traduction($lesson, $linkExt); }
 		case GRAMMARY_AND_ACTIVE { extract_grammary_and_active($lesson, $linkExt); }
 		case LISTENING_AND_ACTIVE { extract_listening_and_active($lesson, $linkExt); }
 		case ACTIVE { extract_active($lesson, $linkExt); }
@@ -41,6 +41,22 @@ for my $lesson(1..$maxLesson) {
 
 sub extract_grammary {
 	DEBUG "Processing grammary type";
+}
+
+sub extract_traduction {
+	DEBUG "Processing traduction page";
+	my ($lesson, $linkExt) = @_;
+	my @lines = getJavaScriptContents("exTraduction.asp$linkExt", 1, 2);
+	my $text_perl = convertJavascriptToPerl(@lines);
+	my (@tabPhrasesText);
+	unless (eval($text_perl)) {
+		open my $out, '>', 'DIE_ON_EVAL.txt';
+		print $out $text_perl;
+		close $out;
+		LOGDIE("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
+	}
+	shift @tabPhrasesText;
+	return ( 'Sentences' => \@tabPhrasesText);
 }
 
 sub extract_apprentissage {
@@ -56,6 +72,8 @@ sub extract_apprentissage {
 		close $out;
 		LOGDIE("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
 	}
+	shift @tabPhrasesText;
+	shift @tabNotes;
 	return ( 'Sentences' => \@tabPhrasesText, 'Notes' => \@tabNotes, 'Comments' => $commentaire );
 }
 
