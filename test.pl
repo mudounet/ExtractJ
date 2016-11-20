@@ -21,19 +21,7 @@ use constant DIR_SOUNDS => 'eja0a/sons/';
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
-	my @list_pages;
-	if($type eq GRAMMARY or $type eq GRAMMARY_AND_ACTIVE) {
-		@list_pages = qw(revGrammaticale conclusion ex7Dragdrop exTraductionL7); # Missing some pages
-	}
-	elsif ($type eq LISTENING) {
-		@list_pages = qw(ecoute apprentissage exTraduction exMotsManquants conclusion);
-	}
-	elsif($type eq LISTENING_AND_ACTIVE) {
-		@list_pages = qw(ecoute apprentissage exTraduction exMotsManquantsActive exTraductionActive conclusion);
-	}
-	elsif($type eq ACTIVE) {
-		@list_pages = qw(revisionActive exTraductionActive exMotsManquantsActive conclusion);
-	}
+	my @list_pages = qw /conclusion revGrammaticale dialoguesRecap lexique indexThematique indexGrammatical lexiqueAF lexiqueFA appendiceGrammatical prononciation introduction assimil_index exTraductionActive exTraduction exTraductionTheme apprentissage exTraductionL7 ex7Dragdrop exMotsManquantsActive exMotsManquants/;
 	getPage($link_base, EXT.$linkExt, @list_pages);
 	
 	for my $page_ref ( qw(exMotsManquantsActive exMotsManquants apprentissage exTraduction exTraductionActive) ){
@@ -86,7 +74,7 @@ sub getTypeLesson {
 	my $num = '';
 	my $m = ceil($l/7);
 	
-	my $link = '?l=' . $l . '&m='  .  $m . '&num=' . $num;
+	my $link = '?l=' . $l . '&m='  .  $m; # . '&num=' . $num;
 	my $type;
 	
 	return (ACTIVE, $link) if($l >= $phaseActive);
@@ -97,27 +85,3 @@ sub getTypeLesson {
 	return (GRAMMARY, $link) if($l == ($m*7) && $l !=70);
 	return (LISTENING, $link);
 }
-
-###################################################################
-#	All type of links
-##################################################################
-# document.location = 'exTraductionActive' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'exTraduction' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'exTraductionTheme' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'apprentissage' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'exTraductionL7' + ext + '?l='+ l +'&m='  +  m + '&num=' + num;
-# document.location = 'ex7Dragdrop' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'exMotsManquantsActive' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'exMotsManquants' + ext + '?l='+ l + '&m='  +  m + '&num=' + num;
-# document.location = 'assimil_index' + ext + '?l=' + l +  '&m='  +  m + '&num=' + num;
-# document.location = 'introduction' + ext   + '?l=' + l +  '&m='  +  m + '&num=' + num;
-# document.location = 'prononciation' + ext  + '?l=' + l + '&m='  +  m + '&num=' + num;
-# document.location = 'appendiceGrammatical' + ext  + '?l=' + l + '&m='  +  m + '&num=' + num;
-# document.location = 'lexiqueAF' + ext + '?l=' + l + '&m='  +  m + '&num=' + num;
-# document.location = 'lexiqueFA' + ext + '?l=' + l + '&m='  +  m + '&num=' + num;
-# document.location = 'indexGrammatical' + ext + '?l=' + l + ' &m=' + m + '&num=' + num ;
-# document.location = 'indexThematique' + ext + '?l=' + l + ' &m=' + m+ '&num=' + num;
-# document.location = 'lexique' + ext + '?l=' + l + '&m='  +  m + '&num=' + num;
-# document.location = 'dialoguesRecap' + ext  +'?l=' +l +'&m='  +  m + '&num=' + num;
-# document.location = 'revGrammaticale' + ext  +'?l=' +l +'&m='  +  m + '&num=' + num;
-# document.location = 'conclusion' + ext +'?l=' +l +'&m='  +  m + '&num=' + num;
