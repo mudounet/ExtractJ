@@ -73,14 +73,23 @@ sub extract_active {
 }
 
 sub getJavaScriptContents {
-	my ($filename, $extractJavascript) = @_;
+	my ($filename, $extractJavascript, @javascriptToKeep) = @_;
 	DEBUG "Opening ".REF_DIR.$filename;
 	open my $in, '<', REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
 	chomp(my @lines = <$in>);
 	close $in;
 	
-	my $lines = join("\n",@lines);
-	@lines = ($lines =~ m/<script type="text\/javascript">(.*)<\/script>/g) if $extractJavascript;
+	if ($extractJavascript) {
+		my $lines = join("\n",@lines);
+		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
+		
+		return @lines unless @javascriptToKeep;
+		my @sectionsToKeep = ();
+		for my $idxToKeep (@javascriptToKeep) {
+			push(@sectionsToKeep, $lines[$idxToKeep - 1]);
+		}
+		return @sectionsToKeep;
+	}
 	return @lines;
 }
 
