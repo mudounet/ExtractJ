@@ -18,6 +18,7 @@ use constant ACTIVE => 5;
 use constant EXT => '.asp';
 use constant DIR_SOUNDS => 'eja0a/sons/';
 
+unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
 	my ($type, $linkExt) = getTypeLesson($lesson);
 	my @list_pages;
@@ -45,7 +46,7 @@ sub getPage {
 	for my $remain_link (@pages) {
 		my $link = $link_base.$remain_link.$linkExt;
 		print "Downloading ".$link."\n";
-		system "./wget.exe -r -e robots=off -nH $link";
+		system "wget.exe -r -e robots=off -nH \"$link\" --append-output wget_log.txt";
 	}
 }
 
@@ -73,8 +74,8 @@ sub getAudio {
 sub getSingleAudio {
 	my ($link) = @_;
 	print "Downloading audio ".$link."\n";
-	my $resultOgg = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.ogg");
-	my $resultMp3 = system("./wget.exe -r -e robots=off -nH ${link}-pcm44.mp3");
+	my $resultOgg = system("wget.exe -r -e robots=off -nH \"${link}-pcm44.ogg\" --append-output wget_log.txt");
+	my $resultMp3 = system("wget.exe -r -e robots=off -nH \"${link}-pcm44.mp3\" --append-output wget_log.txt");
 	
 	return ($resultOgg == 0 or $resultMp3 == 0);
 }
