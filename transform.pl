@@ -6,6 +6,7 @@ use warnings;
 use Log::Log4perl qw(:easy);
 use Data::Dumper;
 use Readonly;
+use File::Path;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -23,6 +24,25 @@ Readonly my $ACTIVE => 5;
 Readonly my $EXT => '.asp';
 Readonly my $DIR_SOUNDS => 'eja0a/sons/';
 Readonly my $REF_DIR => './ref_files/eja0a/';
+Readonly my $OUTDIR => './output';
+
+rmtree $OUTDIR;
+mkdir $OUTDIR;
+
+opendir my $DIR, $REF_DIR or die $!;
+
+while (my $file = readdir($DIR)) {
+	next if -d $REF_DIR.$file;
+	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
+		print "$1\t$2\n";
+	}
+	else {
+		print "Not matched : $file\n";
+		<>;
+	}
+}
+
+closedir($DIR);
 
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
