@@ -34,7 +34,40 @@ opendir my $DIR, $REF_DIR or die $!;
 while (my $file = readdir($DIR)) {
 	next if -d $REF_DIR.$file;
 	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
-		print "$1\t$2\n";
+		my $fileCatName = $1;
+		my $lesson_idx = $2;
+		if ($fileCatName eq 'appendiceGrammatical') {
+		}
+		elsif ($fileCatName eq 'apprentissage') {
+		}
+		elsif ($fileCatName eq 'apprentissagejs') {
+		}
+		elsif ($fileCatName eq 'assimil_index') {
+		}
+		elsif ($fileCatName eq 'ex7Dragdrop') {
+		}
+		elsif ($fileCatName eq 'exMotsManquants') {
+		}
+		elsif ($fileCatName eq 'exMotsManquantsActive') {
+		}
+		elsif ($fileCatName eq 'exTraduction') {
+		}
+		elsif ($fileCatName eq 'exTraductionActive') {
+		}
+		elsif ($fileCatName eq 'exTraductionL7') {
+		}
+		elsif ($fileCatName eq 'exTraductionTheme') {
+		}
+		elsif ($fileCatName eq 'introduction') {
+		}
+		elsif ($fileCatName eq 'prononciation') {
+		}
+		elsif ($fileCatName eq 'revGrammaticale') {
+		}
+		else {
+			print "File category : $fileCatName is not processed yet\n";
+			<>;
+		}
 	}
 	else {
 		print "Not matched : $file\n";
