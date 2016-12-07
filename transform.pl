@@ -25,10 +25,10 @@ Readonly my $ACTIVE => 5;
 Readonly my $EXT => '.asp';
 Readonly my $DIR_SOUNDS => 'eja0a/sons/';
 Readonly my $REF_DIR => './ref_files/eja0a/';
-Readonly my $OUTDIR => './output';
+Readonly my $OUT_DIR => './output/';
 
-rmtree $OUTDIR;
-mkdir $OUTDIR;
+rmtree $OUT_DIR;
+mkdir $OUT_DIR;
 
 opendir my $DIR, $REF_DIR or die $!;
 my %lastFileSameCat;
@@ -43,7 +43,12 @@ while (my $file = readdir($DIR)) {
 		
 		my $commonSectionRan = 0;
 		if(grep { $fileCatName eq $_ } @categories) {
-			runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
+			#runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
+			
+			my @lines = getJavaScriptContents($REF_DIR.$file, 1);
+			open my $OUTFILE, ">${OUT_DIR}${file}" or die ;
+			print $OUTFILE Dumper @lines;
+			close $OUTFILE;
 			$commonSectionRan = 1;
 		}
 		
@@ -156,7 +161,7 @@ sub extract_grammary {
 sub extract_traduction {
 	DEBUG "Processing traduction page";
 	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents("exTraduction.asp$linkExt", 1, 2);
+	my @lines = getJavaScriptContents($REF_DIR."exTraduction.asp$linkExt", 1, 2);
 	my $text_perl = convertJavascriptToPerl(@lines);
 	print $text_perl;
 	my (@tabPhrasesText);
@@ -173,7 +178,7 @@ sub extract_traduction {
 sub extract_apprentissage {
 	DEBUG "Processing apprentissage page";
 	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents("apprentissagejs.asp\@l=$lesson");
+	my @lines = getJavaScriptContents($REF_DIR."apprentissagejs.asp\@l=$lesson");
 	my $text_perl = convertJavascriptToPerl(@lines);
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
@@ -203,8 +208,8 @@ sub extract_active {
 
 sub getJavaScriptContents {
 	my ($filename, $extractJavascript, @javascriptToKeep) = @_;
-	DEBUG "Opening ".$REF_DIR.$filename;
-	open my $in, '<', $REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
+	DEBUG "Opening ".$filename;
+	open my $in, '<', $filename or LOGDIE "Not possible to access $filename in read-only : $!";
 	chomp(my @lines = <$in>);
 	close $in;
 	
