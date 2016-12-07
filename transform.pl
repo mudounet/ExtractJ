@@ -7,6 +7,7 @@ use Log::Log4perl qw(:easy);
 use Data::Dumper;
 use Readonly;
 use File::Path;
+use Text::Diff;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -30,44 +31,70 @@ rmtree $OUTDIR;
 mkdir $OUTDIR;
 
 opendir my $DIR, $REF_DIR or die $!;
+my %lastFileSameCat;
+
+my @categories = qw/appendiceGrammatical apprentissage apprentissagejs assimil_index ex7Dragdrop exMotsManquants exMotsManquantsActive exTraduction exTraductionActive exTraductionL7 exTraductionTheme introduction prononciation revGrammaticale/;
 
 while (my $file = readdir($DIR)) {
 	next if -d $REF_DIR.$file;
 	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
 		my $fileCatName = $1;
 		my $lesson_idx = $2;
+		
+		my $commonSectionRan = 0;
+		if(grep { $fileCatName eq $_ } @categories) {
+			runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
+			$commonSectionRan = 1;
+		}
+		
 		if ($fileCatName eq 'appendiceGrammatical') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissage') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissagejs') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'assimil_index') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquants') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquantsActive') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraduction') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionActive') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionL7') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionTheme') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'introduction') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'prononciation') {
+			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'revGrammaticale') {
+			checkCommonSeq($commonSectionRan);
 		}
 		else {
 			print "File category : $fileCatName is not processed yet\n";
 			<>;
+			next;
 		}
+		$lastFileSameCat{$fileCatName} = $file;
 	}
 	else {
 		print "Not matched : $file\n";
@@ -76,6 +103,7 @@ while (my $file = readdir($DIR)) {
 }
 
 closedir($DIR);
+exit;
 
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
@@ -104,6 +132,21 @@ for my $lesson(1..$maxLesson) {
 	print Dumper \%results;
 	exit;
 	
+}
+
+sub checkCommonSeq {
+	my ($ran) = @_;
+	return if $ran;
+	print "Section not ran\n";
+	<>;
+}
+
+sub runCommonSeq {
+	my ($file, $oldFile) = @_;
+	
+	my $diff = diff ($file, $oldFile, { STYLE => 'OldStyle' });
+	print Dumper $diff;
+	print "Hello";
 }
 
 sub extract_grammary {
