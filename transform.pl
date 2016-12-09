@@ -46,7 +46,8 @@ while (my $file = readdir($DIR)) {
 			#runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
 			
 			my @lines = getJavaScriptContents($REF_DIR.$file, 1);
-			open my $OUTFILE, ">${OUT_DIR}${file}" or die ;
+			WARN "${file} returns no result" unless @lines;
+			open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
 			print $OUTFILE Dumper @lines;
 			close $OUTFILE;
 			$commonSectionRan = 1;
@@ -217,6 +218,7 @@ sub getJavaScriptContents {
 		my $lines = join("\n",@lines);
 		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
 		
+		return ($lines) unless @results;
 		return @lines unless @javascriptToKeep;
 		my @sectionsToKeep = ();
 		for my $idxToKeep (@javascriptToKeep) {
