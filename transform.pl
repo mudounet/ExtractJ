@@ -6,6 +6,8 @@ use warnings;
 use Log::Log4perl qw(:easy);
 use Data::Dumper;
 use Readonly;
+use File::Path;
+use Text::Diff;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -23,6 +25,91 @@ Readonly my $ACTIVE => 5;
 Readonly my $EXT => '.asp';
 Readonly my $DIR_SOUNDS => 'eja0a/sons/';
 Readonly my $REF_DIR => './ref_files/eja0a/';
+Readonly my $OUT_DIR => './output/';
+
+rmtree $OUT_DIR;
+mkdir $OUT_DIR;
+
+opendir my $DIR, $REF_DIR or die $!;
+my %lastFileSameCat;
+
+my @categories = qw/appendiceGrammatical apprentissage apprentissagejs assimil_index ex7Dragdrop exMotsManquants exMotsManquantsActive exTraduction exTraductionActive exTraductionL7 exTraductionTheme introduction prononciation revGrammaticale/;
+
+while (my $file = readdir($DIR)) {
+	next if -d $REF_DIR.$file;
+	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
+		my $fileCatName = $1;
+		my $lesson_idx = $2;
+		
+		my $commonSectionRan = 0;
+		if(grep { $fileCatName eq $_ } @categories) {
+			#runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
+			
+			my @lines = getJavaScriptContents($REF_DIR.$file, 1);
+			WARN "${file} returns no result" unless @lines;
+			open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
+			print $OUTFILE Dumper @lines;
+			close $OUTFILE;
+			$commonSectionRan = 1;
+		}
+		
+		if ($fileCatName eq 'appendiceGrammatical') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'apprentissage') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'apprentissagejs') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'assimil_index') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'ex7Dragdrop') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exMotsManquants') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exMotsManquantsActive') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exTraduction') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exTraductionActive') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exTraductionL7') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'exTraductionTheme') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'introduction') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'prononciation') {
+			checkCommonSeq($commonSectionRan);
+		}
+		elsif ($fileCatName eq 'revGrammaticale') {
+			checkCommonSeq($commonSectionRan);
+		}
+		else {
+			print "File category : $fileCatName is not processed yet\n";
+			<>;
+			next;
+		}
+		$lastFileSameCat{$fileCatName} = $file;
+	}
+	else {
+		print "Not matched : $file\n";
+		<>;
+	}
+}
+
+closedir($DIR);
+exit;
 
 unlink 'wget_log.txt';
 for my $lesson(1..$maxLesson) {
@@ -53,6 +140,21 @@ for my $lesson(1..$maxLesson) {
 	
 }
 
+sub checkCommonSeq {
+	my ($ran) = @_;
+	return if $ran;
+	print "Section not ran\n";
+	<>;
+}
+
+sub runCommonSeq {
+	my ($file, $oldFile) = @_;
+	
+	my $diff = diff ($file, $oldFile, { STYLE => 'OldStyle' });
+	print Dumper $diff;
+	print "Hello";
+}
+
 sub extract_grammary {
 	DEBUG "Processing grammary type";
 }
@@ -60,7 +162,7 @@ sub extract_grammary {
 sub extract_traduction {
 	DEBUG "Processing traduction page";
 	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents("exTraduction.asp$linkExt", 1, 2);
+	my @lines = getJavaScriptContents($REF_DIR."exTraduction.asp$linkExt", 1, 2);
 	my $text_perl = convertJavascriptToPerl(@lines);
 	print $text_perl;
 	my (@tabPhrasesText);
@@ -77,7 +179,7 @@ sub extract_traduction {
 sub extract_apprentissage {
 	DEBUG "Processing apprentissage page";
 	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents("apprentissagejs.asp\@l=$lesson");
+	my @lines = getJavaScriptContents($REF_DIR."apprentissagejs.asp\@l=$lesson");
 	my $text_perl = convertJavascriptToPerl(@lines);
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
@@ -107,8 +209,8 @@ sub extract_active {
 
 sub getJavaScriptContents {
 	my ($filename, $extractJavascript, @javascriptToKeep) = @_;
-	DEBUG "Opening ".$REF_DIR.$filename;
-	open my $in, '<', $REF_DIR.$filename or LOGDIE "Not possible to access $filename in read-only : $!";
+	DEBUG "Opening ".$filename;
+	open my $in, '<', $filename or LOGDIE "Not possible to access $filename in read-only : $!";
 	chomp(my @lines = <$in>);
 	close $in;
 	
@@ -116,6 +218,7 @@ sub getJavaScriptContents {
 		my $lines = join("\n",@lines);
 		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
 		
+		return ($lines) unless @results;
 		return @lines unless @javascriptToKeep;
 		my @sectionsToKeep = ();
 		for my $idxToKeep (@javascriptToKeep) {
