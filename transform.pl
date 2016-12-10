@@ -33,7 +33,7 @@ mkdir $OUT_DIR;
 opendir my $DIR, $REF_DIR or die $!;
 my %lastFileSameCat;
 
-my @categories = qw/appendiceGrammatical apprentissage apprentissagejs assimil_index ex7Dragdrop exMotsManquants exMotsManquantsActive exTraduction exTraductionActive exTraductionL7 exTraductionTheme introduction prononciation revGrammaticale/;
+my @categories = qw/apprentissage apprentissagejs ex7Dragdrop exMotsManquants exMotsManquantsActive exTraduction exTraductionActive exTraductionL7 exTraductionTheme revGrammaticale/;
 
 while (my $file = readdir($DIR)) {
 	next if -d $REF_DIR.$file;
@@ -53,16 +53,10 @@ while (my $file = readdir($DIR)) {
 			$commonSectionRan = 1;
 		}
 		
-		if ($fileCatName eq 'appendiceGrammatical') {
-			checkCommonSeq($commonSectionRan);
-		}
-		elsif ($fileCatName eq 'apprentissage') {
+		if ($fileCatName eq 'apprentissage') {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissagejs') {
-			checkCommonSeq($commonSectionRan);
-		}
-		elsif ($fileCatName eq 'assimil_index') {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
@@ -86,12 +80,6 @@ while (my $file = readdir($DIR)) {
 		elsif ($fileCatName eq 'exTraductionTheme') {
 			checkCommonSeq($commonSectionRan);
 		}
-		elsif ($fileCatName eq 'introduction') {
-			checkCommonSeq($commonSectionRan);
-		}
-		elsif ($fileCatName eq 'prononciation') {
-			checkCommonSeq($commonSectionRan);
-		}
 		elsif ($fileCatName eq 'revGrammaticale') {
 			checkCommonSeq($commonSectionRan);
 		}
@@ -103,6 +91,7 @@ while (my $file = readdir($DIR)) {
 		$lastFileSameCat{$fileCatName} = $file;
 	}
 	else {
+		INFO "HTML files are not processed..." and next if($file =~ /\.html$/);
 		print "Not matched : $file\n";
 		<>;
 	}
