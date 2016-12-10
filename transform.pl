@@ -49,7 +49,7 @@ while (my $file = readdir($DIR)) {
 			#runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
 			
 			@lines = getJavaScriptContents($REF_DIR.$file, 1);
-			WARN "${file} returns no result" unless @lines;
+			WARN "${file} returns no result" and next unless @lines;
 			
 			$commonSectionRan = 1;
 		}
@@ -75,14 +75,15 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraduction') {
-			@lines = ($lines[0]);
+			@lines = ($lines[1]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionActive') {
-			@lines = ($lines[0]);
+			@lines = ($lines[1]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionL7') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionTheme') {
@@ -90,6 +91,8 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'revGrammaticale') {
+			WARN "$file needs to be extracted using XML field.";
+			next;
 			checkCommonSeq($commonSectionRan);
 		}
 		else {
@@ -174,7 +177,9 @@ sub getJavaScriptContents {
 	
 	if ($extractJavascript) {
 		my $lines = join("\n",@lines);
+		WARN "$filename had XML loading error inside" and return () if $lines =~ /erreur chargement XML Le syst/;
 		
+		WARN "$filename had no javascript inside" and return () if $lines =~ /<script type="text\/javascript"> <\/script>\s*<title>Le russe sans peine<\/title>/;
 		#$lines =~ m/^(.*)<\/title>/;
 		#$lines = $1;
 		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
