@@ -202,10 +202,10 @@ sub convertJavascriptToPerl {
 	$lines =~ s/([\w\[\]]*)\s*=\s*\g1\s*\+\s*'/$1 .= '/g; # Replace concatenations in a PERL manner. Uses backreferences.
 	
 	# Replacing All array declaration
-	my @matches_array = ($lines =~ m/var\s+([^=\s]*)\s*=\s*new\s+Array\(\)\s*;/g);
+	my @matches_array = qw/tabPhrasesText tabNotes/;
 	for my $name_array (@matches_array) {
 		DEBUG "Replacing array '$name_array'";
-		$lines =~ s/var\s+${name_array}\s*=\s*new\s+Array\(\)\s*;/\@$name_array = ();/g;
+		$lines =~ s/(?:var|)\s+${name_array}\s*=\s*(?:new\s+Array|)\(\)\s*;/\@$name_array = ();/g;
 		$lines =~ s/${name_array}(\[(\d+)\])/\$$name_array$1/g;
 	}
 	$lines =~ s/\s*=\s*new\s+Array\(\d*\)\s*;/ = ();/g;
