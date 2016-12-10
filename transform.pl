@@ -40,16 +40,17 @@ while (my $file = readdir($DIR)) {
 	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
 		my $fileCatName = $1;
 		my $lesson_idx = $2;
+		my @expected_varArrayNames = ();
+		my @expected_varStrNames = ();
+		my @lines;
 		
 		my $commonSectionRan = 0;
 		if(grep { $fileCatName eq $_ } @categories) {
 			#runCommonSeq($REF_DIR.$lastFileSameCat{$fileCatName}, $REF_DIR.$file) if defined $lastFileSameCat{$fileCatName};
 			
-			my @lines = getJavaScriptContents($REF_DIR.$file, 1);
+			@lines = getJavaScriptContents($REF_DIR.$file, 1);
 			WARN "${file} returns no result" unless @lines;
-			open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
-			print $OUTFILE Dumper @lines;
-			close $OUTFILE;
+			
 			$commonSectionRan = 1;
 		}
 		
@@ -57,6 +58,7 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissagejs') {
+			@expected_varArrayNames = qw/tabPhrasesText tabNotes/;
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
@@ -88,6 +90,19 @@ while (my $file = readdir($DIR)) {
 			<>;
 			next;
 		}
+		
+		my %conv_results = convertJavascriptToPerl(@lines);
+		my %data = extract_javascript_as_array($conv_results{conv_text});
+		
+		open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
+		if(%data) {
+			print $OUTFILE Dumper \%data;
+		}
+		else {
+			print $OUTFILE Dumper \%conv_results;
+		}
+
+		close $OUTFILE;
 		$lastFileSameCat{$fileCatName} = $file;
 	}
 	else {
@@ -99,35 +114,6 @@ while (my $file = readdir($DIR)) {
 
 closedir($DIR);
 exit;
-
-unlink 'wget_log.txt';
-for my $lesson(1..$maxLesson) {
-	my ($type, $linkExt) = getTypeLesson($lesson);
-	INFO "Currently at lesson #".sprintf("%03d", $lesson);
-	my %results;
-	if ($type == $GRAMMARY) {
-		extract_grammary($lesson, $linkExt);
-	}
-	elsif ($type == $LISTENING) {
-		%results = extract_apprentissage($lesson, $linkExt);
-		%results = extract_traduction($lesson, $linkExt);
-	}
-	elsif ($type == $GRAMMARY_AND_ACTIVE) {
-		extract_grammary_and_active($lesson, $linkExt);
-	}
-	elsif ($type == $LISTENING_AND_ACTIVE) {
-		extract_listening_and_active($lesson, $linkExt);
-	}
-	elsif ($type == $ACTIVE) {
-		extract_active($lesson, $linkExt);
-	}
-	else {
-		ERROR "No valid type found for lesson #".sprintf("%03d", $lesson);
-	}
-	print Dumper \%results;
-	exit;
-	
-}
 
 sub checkCommonSeq {
 	my ($ran) = @_;
@@ -144,56 +130,27 @@ sub runCommonSeq {
 	print "Hello";
 }
 
-sub extract_grammary {
-	DEBUG "Processing grammary type";
-}
+sub extract_javascript_as_array {
+	DEBUG "Extracting page";
+	my ($text_perl) = @_;
 
-sub extract_traduction {
-	DEBUG "Processing traduction page";
-	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents($REF_DIR."exTraduction.asp$linkExt", 1, 2);
-	my $text_perl = convertJavascriptToPerl(@lines);
-	print $text_perl;
-	my (@tabPhrasesText);
+	my (@tabPhrasesText, @tabNotes, $commentaire);
 	unless (eval ($text_perl)) {
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
-		LOGDIE("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
-	}
-	shift @tabPhrasesText;
-	return ( 'Sentences' => \@tabPhrasesText);
-}
-
-sub extract_apprentissage {
-	DEBUG "Processing apprentissage page";
-	my ($lesson, $linkExt) = @_;
-	my @lines = getJavaScriptContents($REF_DIR."apprentissagejs.asp\@l=$lesson");
-	my $text_perl = convertJavascriptToPerl(@lines);
-
-	my (@tabPhrasesText, @tabNotes, $commentaire);
-	unless (eval ($text_perl )) {
-		open my $out, '>', 'DIE_ON_EVAL.txt';
-		print $out $text_perl;
-		close $out;
-		LOGDIE("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
+		ERROR("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
+		return ();
 	}
 	shift @tabPhrasesText;
 	shift @tabNotes;
-	return ( 'Sentences' => \@tabPhrasesText, 'Notes' => \@tabNotes, 'Comments' => $commentaire );
-}
-
-sub extract_grammary_and_active {
-	DEBUG "Processing grammary and active type, with type grammary";
-	extract_grammary(@_);
-}
-
-sub extract_listening_and_active {
-	DEBUG "Processing listening and active type";
-}
-
-sub extract_active {
-	DEBUG "Processing active type";
+	
+	my %results = ();
+	$results{tabPhrasesText} = \@tabPhrasesText if @tabPhrasesText;
+	$results{tabNotes} = \@tabNotes if @tabNotes;
+	$results{commentaire} = $commentaire if $commentaire;
+	
+	return %results;
 }
 
 sub getJavaScriptContents {
@@ -207,7 +164,7 @@ sub getJavaScriptContents {
 		my $lines = join("\n",@lines);
 		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
 		
-		return ($lines) unless @results;
+		return ($lines) unless @lines;
 		return @lines unless @javascriptToKeep;
 		my @sectionsToKeep = ();
 		for my $idxToKeep (@javascriptToKeep) {
@@ -241,23 +198,5 @@ sub convertJavascriptToPerl {
 		$lines =~ s/var \$${name_normal_var} =/\$$name_normal_var =/g;
 	}
 	
-	return $lines;
-}
-
-sub getTypeLesson {
-	my ($l) = @_;
-	my $ext = '.asp';
-	my $num = '';
-	my $m = ceil($l/7);
-	
-	my $link = '@l=' . $l . '&m='  .  $m; # . '&num=' . $num;
-	my $type;
-	
-	return ($ACTIVE, $link) if($l >= $phaseActive);
-	if ($l >= $phaseMixte) {
-		return ($GRAMMARY_AND_ACTIVE, $link) if($l == ($m*7) && $l !=70);
-		return ($LISTENING_AND_ACTIVE, $link);
-	}
-	return ($GRAMMARY, $link) if($l == ($m*7) && $l !=70);
-	return ($LISTENING, $link);
+	return (conv_text => $lines, found_arrays => \@matches_array, found_str => \@matches_normal_vars);
 }
