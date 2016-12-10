@@ -55,6 +55,7 @@ while (my $file = readdir($DIR)) {
 		}
 		
 		if ($fileCatName eq 'apprentissage') {
+			next;
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissagejs') {
@@ -62,24 +63,30 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquants') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquantsActive') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraduction') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionActive') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionL7') {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionTheme') {
+			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'revGrammaticale') {
@@ -94,15 +101,20 @@ while (my $file = readdir($DIR)) {
 		my %conv_results = convertJavascriptToPerl(@lines);
 		my %data = extract_javascript_as_array($conv_results{conv_text});
 		
-		open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
+		
 		if(%data) {
+			my $fname = sprintf("L%03d - %s.txt",$lesson_idx, $fileCatName);
+			open my $OUTFILE, ">${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname";
 			print $OUTFILE Dumper \%data;
+			close $OUTFILE;
 		}
 		else {
+			open my $OUTFILE, ">${OUT_DIR}${file}" or LOGDIE "Cannot write ${OUT_DIR}${file}";
 			print $OUTFILE Dumper \%conv_results;
+			close $OUTFILE;
 		}
 
-		close $OUTFILE;
+		
 		$lastFileSameCat{$fileCatName} = $file;
 	}
 	else {
@@ -162,6 +174,9 @@ sub getJavaScriptContents {
 	
 	if ($extractJavascript) {
 		my $lines = join("\n",@lines);
+		
+		#$lines =~ m/^(.*)<\/title>/;
+		#$lines = $1;
 		@lines = ($lines =~ m/<script type="text\/javascript">(.*?)<\/script>/igs);
 		
 		return ($lines) unless @lines;
