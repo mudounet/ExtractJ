@@ -150,11 +150,12 @@ sub extract_javascript_as_array {
 	my ($text_perl) = @_;
 
 	my (@tabPhrasesText, @tabNotes, $commentaire);
-	unless (eval ($text_perl)) {
+	eval ($text_perl);
+	if ($@) {
+		ERROR("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$@");
 		open my $out, '>', 'DIE_ON_EVAL.txt';
 		print $out $text_perl;
 		close $out;
-		ERROR("Problem with eval. See DIE_ON_EVAL.txt for investigations.\n$!");
 		return ();
 	}
 	shift @tabPhrasesText;
