@@ -1,3 +1,0 @@
-var tabPhrasesText = new Array();	var tabNotes = new Array();  	 	 	 	 	 	 	tabPhrasesText[0]=new Array(3); tabPhrasesText[0][0]='<b>&#1063;&#1077;&#1090;&#1099;&#1088;&#1085;&#1072;&#1076;&#1094;&#1072;&#1090;&#1099;&#1081; &#1091;&#1088;&#1086;&#1082; </b>  		';  		tabPhrasesText[0][1]='<b>Quatorzi&#232;me le&#231;on</b> 		'; 		tabPhrasesText[0][2]=''; 		 	tabPhrasesText[1]=new Array(3); tabPhrasesText[1][0]='<b>R&#201;VISION ET NOTES</b>'; 	tabPhrasesText[1][1]=''; 		tabPhrasesText[1][2]=''; 		tabNotes[1]='';  	 	
-	var commentaire = '';
-	
