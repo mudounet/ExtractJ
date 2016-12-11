@@ -8,6 +8,8 @@ use Data::Dumper;
 use Readonly;
 use File::Path;
 use Text::Diff;
+use XML::LibXML;
+use HTML::Entities;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -40,8 +42,7 @@ while (my $file = readdir($DIR)) {
 	if($file =~ /^(.*)\.asp\@l=(\d+)/) {
 		my $fileCatName = $1;
 		my $lesson_idx = $2;
-		my @expected_varArrayNames = ();
-		my @expected_varStrNames = ();
+		my @requested_titles;
 		my @lines;
 		
 		my $commonSectionRan = 0;
@@ -59,7 +60,7 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'apprentissagejs') {
-			@expected_varArrayNames = qw/tabPhrasesText tabNotes/;
+			@requested_titles = qw/russian translation pronounciation/;
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
@@ -67,22 +68,23 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquants') {
+			@requested_titles = qw/question canevas answer/;
 			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exMotsManquantsActive') {
-			@lines = ($lines[0]);
-			checkCommonSeq($commonSectionRan);
+			next; # Generated files are exactly the same as non-active ones.
 		}
 		elsif ($fileCatName eq 'exTraduction') {
+			@requested_titles = qw/russian translation/;
 			@lines = ($lines[1]);
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionActive') {
-			@lines = ($lines[1]);
-			checkCommonSeq($commonSectionRan);
+			next; # Generated files are exactly the same as non-active ones.
 		}
 		elsif ($fileCatName eq 'exTraductionL7') {
+			@requested_titles = qw/french translateWithHoles missingWord/;
 			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
@@ -106,9 +108,9 @@ while (my $file = readdir($DIR)) {
 		
 		
 		if(%data) {
-			my $fname = sprintf("L%03d - %s.txt",$lesson_idx, $fileCatName);
-			open my $OUTFILE, ">${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname";
-			print $OUTFILE Dumper \%data;
+			my $fname = sprintf("L%03d - %s.xml",$lesson_idx, $fileCatName);
+			open my $OUTFILE, '>:raw', "${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname"; # File encoding is managed directly by the xml library.
+			print $OUTFILE conv_to_xml (\%data, \@requested_titles);
 			close $OUTFILE;
 		}
 		else {
@@ -129,6 +131,71 @@ while (my $file = readdir($DIR)) {
 
 closedir($DIR);
 exit;
+
+sub conv_to_xml {
+	my ($data, $requestedTitles) = @_;
+	my $doc = XML::LibXML::Document->new('1.0','UTF-8');
+	my $root = $doc->createElement ('lesson');
+	
+	my $title = $doc->createElement ('title');
+	$root->addChild($title);
+	
+	my @sentences_list;
+	my $nb_sentences = scalar(@{$data->{tabPhrasesText}});
+	DEBUG "There is $nb_sentences sentences in tabPhrasesText.";
+	
+	if(defined $data->{tabNotes}) {
+		my $nb_comments = scalar(@{$data->{tabNotes}});
+		DEBUG "There is $nb_comments sentences in tabNotes.";
+		WARN "Comments are different of sentences." and <> if ($nb_sentences != $nb_comments);
+	}
+	
+	my $sentences = $doc->createElement ('sentences');
+	for my $idx (0.. $nb_sentences-1) {
+		my $sentence = $doc->createElement ('sentence');
+		
+		my $type = 'A';
+		my $type_nbr = 0;
+		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
+			my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
+			my $sentenceValue = $doc->createElement ($title);
+			$sentenceValue->addChild($doc->createTextNode(convHTMLEntities($value))) if $value;
+			$sentence->addChild($sentenceValue);
+			
+			$type_nbr++;
+		}
+		
+		my $note = $doc->createElement ('note');
+		$note->addChild($doc->createTextNode(convHTMLEntities($data->{tabNotes}->[$idx]))) if($data->{tabNotes}->[$idx]);
+		$sentence->addChild($note);
+		
+		
+		$sentences->addChild($sentence);
+	}
+	$root->addChild($sentences);
+	
+	# Comment section
+	my $element = $doc->createElement ('comment');
+	$element->addChild($doc->createTextNode(convHTMLEntities($data->{commentaire}))) if($data->{commentaire});
+	$root->addChild($element);
+	
+	$doc->setDocumentElement($root);
+	return $doc->toString( 1 ); # 1 is to add formatting
+}
+
+sub convHTMLEntities {
+	my ($value) = @_;
+	
+	my $punct_sign = "\x{0301}"; # See http://www.unicode.org/charts/PDF/U0300.pdf for details
+	
+	$value = decode_entities($value);
+	$value =~ s/^\s+|\s+$//g;
+	$value =~ s/^<div class=\"note\"><span class=\"numnote\">\d+<\/span>(.*)<\/div>$/$1/;
+	$value =~ s/^\s+|\s+$//g;
+	$value =~ s/^<b>(.*)<\/b>$/$1/;
+	$value =~ s/<b>([\x{0400}-\x{04FF}])<\/b>/$1$punct_sign/g;
+	return $value;
+}
 
 sub checkCommonSeq {
 	my ($ran) = @_;
