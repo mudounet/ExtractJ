@@ -9,6 +9,7 @@ use Readonly;
 use File::Path;
 use Text::Diff;
 use XML::LibXML;
+use HTML::Entities;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -157,12 +158,12 @@ sub conv_to_xml {
 		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
 			$value =~ s/^\s+|\s+$//g;
 			my $sentenceValue = $doc->createElement ('type'.$type++);
-			$sentenceValue->addChild($doc->createTextNode($value)) if $value;
+			$sentenceValue->addChild($doc->createTextNode(convHTMLEntities($value))) if $value;
 			$sentence->addChild($sentenceValue);
 		}
 		
 		my $note = $doc->createElement ('note');
-		$note->addChild($doc->createTextNode($data->{tabNotes}->[$idx])) if($data->{tabNotes}->[$idx]);
+		$note->addChild($doc->createTextNode(convHTMLEntities($data->{tabNotes}->[$idx]))) if($data->{tabNotes}->[$idx]);
 		$sentence->addChild($note);
 		
 		
@@ -172,11 +173,16 @@ sub conv_to_xml {
 	
 	# Comment section
 	my $element = $doc->createElement ('comment');
-	$element->addChild($doc->createTextNode($data->{commentaire})) if($data->{commentaire});
+	$element->addChild($doc->createTextNode(convHTMLEntities($data->{commentaire}))) if($data->{commentaire});
 	$root->addChild($element);
 	
 	$doc->setDocumentElement($root);
 	return $doc->toString( 1 ); # 1 is to add formatting
+}
+
+sub convHTMLEntities {
+	my ($value) = @_;
+	return decode_entities($value);
 }
 
 sub checkCommonSeq {
