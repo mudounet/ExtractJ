@@ -8,6 +8,7 @@ use Data::Dumper;
 use Readonly;
 use File::Path;
 use Text::Diff;
+use XML::Simple;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -106,9 +107,9 @@ while (my $file = readdir($DIR)) {
 		
 		
 		if(%data) {
-			my $fname = sprintf("L%03d - %s.txt",$lesson_idx, $fileCatName);
+			my $fname = sprintf("L%03d - %s.xml",$lesson_idx, $fileCatName);
 			open my $OUTFILE, ">${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname";
-			print $OUTFILE Dumper \%data;
+			print $OUTFILE conv_to_xml (\%data);
 			close $OUTFILE;
 		}
 		else {
@@ -129,6 +130,11 @@ while (my $file = readdir($DIR)) {
 
 closedir($DIR);
 exit;
+
+sub conv_to_xml {
+	my ($data) = @_;
+	return XMLout($data, RootName => 'string');
+}
 
 sub checkCommonSeq {
 	my ($ran) = @_;
