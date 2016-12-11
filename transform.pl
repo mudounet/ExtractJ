@@ -143,9 +143,11 @@ sub conv_to_xml {
 	my $nb_sentences = scalar(@{$data->{tabPhrasesText}});
 	DEBUG "There is $nb_sentences sentences in tabPhrasesText.";
 	
-	my $nb_comments = scalar(@{$data->{tabNotes}});
-	DEBUG "There is $nb_comments sentences in tabNotes.";
-	WARN "Comments are different of sentences." and <> if ($nb_sentences != $nb_comments);
+	if(defined $data->{tabNotes}) {
+		my $nb_comments = scalar(@{$data->{tabNotes}});
+		DEBUG "There is $nb_comments sentences in tabNotes.";
+		WARN "Comments are different of sentences." and <> if ($nb_sentences != $nb_comments);
+	}
 	
 	my $sentences = $doc->createElement ('sentences');
 	for my $idx (0.. $nb_sentences-1) {
