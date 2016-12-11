@@ -157,7 +157,6 @@ sub conv_to_xml {
 		my $type = 'A';
 		my $type_nbr = 0;
 		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
-			$value =~ s/^\s+|\s+$//g;
 			my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
 			my $sentenceValue = $doc->createElement ($title);
 			$sentenceValue->addChild($doc->createTextNode(convHTMLEntities($value))) if $value;
@@ -186,7 +185,16 @@ sub conv_to_xml {
 
 sub convHTMLEntities {
 	my ($value) = @_;
-	return decode_entities($value);
+	
+	my $punct_sign = "\x{0301}"; # See http://www.unicode.org/charts/PDF/U0300.pdf for details
+	
+	$value = decode_entities($value);
+	$value =~ s/^\s+|\s+$//g;
+	$value =~ s/^<div class=\"note\"><span class=\"numnote\">\d+<\/span>(.*)<\/div>$/$1/;
+	$value =~ s/^\s+|\s+$//g;
+	$value =~ s/^<b>(.*)<\/b>$/$1/;
+	$value =~ s/<b>([\x{0400}-\x{04FF}])<\/b>/$1$punct_sign/g;
+	return $value;
 }
 
 sub checkCommonSeq {
