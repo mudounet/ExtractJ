@@ -8,7 +8,7 @@ use Data::Dumper;
 use Readonly;
 use File::Path;
 use Text::Diff;
-use XML::Simple;
+use XML::LibXML;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -108,7 +108,7 @@ while (my $file = readdir($DIR)) {
 		
 		if(%data) {
 			my $fname = sprintf("L%03d - %s.xml",$lesson_idx, $fileCatName);
-			open my $OUTFILE, ">${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname";
+			open my $OUTFILE, '>:raw', "${OUT_DIR}$fname" or LOGDIE "Cannot write ${OUT_DIR}$fname"; # File encoding is managed directly by the xml library.
 			print $OUTFILE conv_to_xml (\%data);
 			close $OUTFILE;
 		}
@@ -133,7 +133,48 @@ exit;
 
 sub conv_to_xml {
 	my ($data) = @_;
-	return XMLout($data, RootName => 'string');
+	my $doc = XML::LibXML::Document->new('1.0','UTF-8');
+	my $root = $doc->createElement ('lesson');
+	
+	my $title = $doc->createElement ('title');
+	$root->addChild($title);
+	
+	my @sentences_list;
+	my $nb_sentences = scalar(@{$data->{tabPhrasesText}});
+	DEBUG "There is $nb_sentences sentences in tabPhrasesText.";
+	
+	my $nb_comments = scalar(@{$data->{tabNotes}});
+	DEBUG "There is $nb_comments sentences in tabNotes.";
+	WARN "Comments are different of sentences." and <> if ($nb_sentences != $nb_comments);
+	
+	my $sentences = $doc->createElement ('sentences');
+	for my $idx (0.. $nb_sentences-1) {
+		my $sentence = $doc->createElement ('sentence');
+		
+		my $type = 'A';
+		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
+			$value =~ s/^\s+|\s+$//g;
+			my $sentenceValue = $doc->createElement ('type'.$type++);
+			$sentenceValue->addChild($doc->createTextNode($value)) if $value;
+			$sentence->addChild($sentenceValue);
+		}
+		
+		my $note = $doc->createElement ('note');
+		$note->addChild($doc->createTextNode($data->{tabNotes}->[$idx])) if($data->{tabNotes}->[$idx]);
+		$sentence->addChild($note);
+		
+		
+		$sentences->addChild($sentence);
+	}
+	$root->addChild($sentences);
+	
+	# Comment section
+	my $element = $doc->createElement ('comment');
+	$element->addChild($doc->createTextNode($data->{commentaire})) if($data->{commentaire});
+	$root->addChild($element);
+	
+	$doc->setDocumentElement($root);
+	return $doc->toString( 1 ); # 1 is to add formatting
 }
 
 sub checkCommonSeq {
