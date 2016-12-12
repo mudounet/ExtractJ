@@ -9,7 +9,9 @@ use Readonly;
 use File::Path;
 use Text::Diff;
 use XML::LibXML;
+use XML::Validate;
 use HTML::Entities;
+use utf8;
 
 Log::Log4perl->easy_init($DEBUG);
 
@@ -36,6 +38,8 @@ opendir my $DIR, $REF_DIR or die $!;
 my %lastFileSameCat;
 
 my @categories = qw/apprentissage apprentissagejs ex7Dragdrop exMotsManquants exMotsManquantsActive exTraduction exTraductionActive exTraductionL7 exTraductionTheme revGrammaticale/;
+
+my $validator = new XML::Validate(Type => 'LibXML');
 
 while (my $file = readdir($DIR)) {
 	next if -d $REF_DIR.$file;
@@ -180,7 +184,18 @@ sub conv_to_xml {
 	$root->addChild($element);
 	
 	$doc->setDocumentElement($root);
-	return $doc->toString( 1 ); # 1 is to add formatting
+	
+	my $XML = $doc->toString( 1 );
+	
+	if ($validator->validate($XML)) {
+		DEBUG "XML Document is valid";
+	}
+	else {
+		ERROR "XML is not valid, because of following error : ".$validator->last_error()->{message};
+		<>;
+	}
+	
+	return $XML; # 1 is to add formatting
 }
 
 sub convHTMLEntities {
@@ -194,6 +209,7 @@ sub convHTMLEntities {
 	$value =~ s/^\s+|\s+$//g;
 	$value =~ s/^<b>(.*)<\/b>$/$1/;
 	$value =~ s/<b>([\x{0400}-\x{04FF}])<\/b>/$1$punct_sign/g;
+	utf8::encode($value);
 	return $value;
 }
 
