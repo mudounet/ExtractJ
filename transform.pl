@@ -68,6 +68,7 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'ex7Dragdrop') {
+			@requested_titles = qw/question canevas answer/;
 			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
@@ -93,6 +94,7 @@ while (my $file = readdir($DIR)) {
 			checkCommonSeq($commonSectionRan);
 		}
 		elsif ($fileCatName eq 'exTraductionTheme') {
+			@requested_titles = qw/russian translation pronounciation/;
 			@lines = ($lines[0]);
 			checkCommonSeq($commonSectionRan);
 		}
