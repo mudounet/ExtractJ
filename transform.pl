@@ -164,16 +164,12 @@ sub conv_to_xml {
 		my $type_nbr = 0;
 		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
 			my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
-			my $sentenceValue = $doc->createElement ($title);
-			$sentenceValue->addChild($doc->createTextNode(convHTMLEntities($value))) if $value;
-			$sentence->addChild($sentenceValue);
+			addElement($doc, $sentence, $title, $value);
 			
 			$type_nbr++;
 		}
 		
-		my $note = $doc->createElement ('note');
-		$note->addChild($doc->createTextNode(convHTMLEntities($data->{tabNotes}->[$idx]))) if($data->{tabNotes}->[$idx]);
-		$sentence->addChild($note);
+		addElement($doc, $sentence, 'note', $data->{tabNotes}->[$idx]);
 		
 		
 		$sentences->addChild($sentence);
@@ -181,9 +177,7 @@ sub conv_to_xml {
 	$root->addChild($sentences);
 	
 	# Comment section
-	my $element = $doc->createElement ('comment');
-	$element->addChild($doc->createTextNode(convHTMLEntities($data->{commentaire}))) if($data->{commentaire});
-	$root->addChild($element);
+	addElement($doc, $root, 'comment', $data->{commentaire});
 	
 	$doc->setDocumentElement($root);
 	
@@ -198,6 +192,13 @@ sub conv_to_xml {
 	}
 	
 	return $XML; # 1 is to add formatting
+}
+
+sub addElement {
+	my ($doc, $node, $elelementTitle, $content) = @_;
+	my $elmt = $doc->createElement ($elelementTitle);
+	$elmt->addChild($doc->createTextNode(convHTMLEntities($content))) if $content;
+	$node->addChild($elmt);
 }
 
 sub convHTMLEntities {
