@@ -30,6 +30,7 @@ Readonly my $EXT => '.asp';
 Readonly my $DIR_SOUNDS => 'eja0a/sons/';
 Readonly my $REF_DIR => './ref_files/eja0a/';
 Readonly my $OUT_DIR => './output/';
+Readonly my $INVALID_EXPR => 'INVALID_EXPR';
 
 rmtree $OUT_DIR;
 mkdir $OUT_DIR;
@@ -162,11 +163,19 @@ sub conv_to_xml {
 		
 		my $type = 'A';
 		my $type_nbr = 0;
+		
+		my $canevas = '';
+		my $mergedvalue = undef;
+		
 		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
 			my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
 			addElement($doc, $sentence, $title, $value);
-			
 			$type_nbr++;
+			$canevas = $value if $title eq 'canevas';
+			
+			$mergedvalue = mergeCanevasWithAnswer($canevas, $value) if (defined $canevas and $title eq 'answer');
+			
+			addElement($doc, $sentence, 'mergedValue', $mergedvalue) and $mergedvalue = undef if $mergedvalue;
 		}
 		
 		addElement($doc, $sentence, 'note', $data->{tabNotes}->[$idx]);
@@ -214,6 +223,35 @@ sub convHTMLEntities {
 	$value =~ s/<b>([\x{0400}-\x{04FF}])<\/b>/$1$punct_sign/g;
 	utf8::encode($value);
 	return $value;
+}
+
+sub mergeCanevasWithAnswer {
+	my ($canevas, $answer) = @_;
+	
+	DEBUG "Beginning of merging process";
+	DEBUG "Canevas : '$canevas'";
+	DEBUG "Answer : '$answer'";
+	my @answer = split(' ', $answer);
+	
+	# Processing end of sentence
+	my $endOfSentence = '';
+	$endOfSentence = $1 if ($canevas =~ /[^\.](\.{1,3})$/);
+	$canevas =~ s/([^\.])\.{1,3}$/$1/;
+	DEBUG "End of sequence: '$endOfSentence'";
+	
+	$canevas =~ s/([\s-])\.{1,}/$1#%s/g;
+	
+	my $c = () = $canevas =~ /#%s/g;  # counting number of substitutions for debugging/control
+	
+	DEBUG sprintf($canevas.$endOfSentence, @answer) and <> and return sprintf($canevas.$endOfSentence, @answer) if ($c == scalar(@answer));
+	
+	return sprintf($canevas.$endOfSentence, @answer) if ($c + 1 == scalar(@answer) && scalar($canevas =~ s/$(\.){1,}/#%s/));
+	
+	$c = () = $canevas =~ /#%s/g;  # counting number of substitutions for debugging/control
+	
+	DEBUG "$canevas";
+	ERROR "$c != ".scalar(@answer);
+	return $INVALID_EXPR;
 }
 
 sub checkCommonSeq {
