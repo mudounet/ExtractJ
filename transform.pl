@@ -167,15 +167,23 @@ sub conv_to_xml {
 		my $canevas = '';
 		my $mergedvalue = undef;
 		
-		for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
-			my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
-			addElement($doc, $sentence, $title, $value);
-			$type_nbr++;
-			$canevas = $value if $title eq 'canevas';
+		if($requestedTitles->[1] eq 'canevas' && $requestedTitles->[2] eq 'answer') {
+			my $title = ($requestedTitles->[0]) ? $requestedTitles->[0] : 'type'.$type++;
+			addElement($doc, $sentence, $title, $data->{tabPhrasesText}->[$idx]->[0]);
 			
-			$mergedvalue = mergeCanevasWithAnswer($canevas, $value) if (defined $canevas and $title eq 'answer');
+			$mergedvalue = mergeCanevasWithAnswer($data->{tabPhrasesText}->[$idx]->[1], $data->{tabPhrasesText}->[$idx]->[2]);
 			
-			addElement($doc, $sentence, 'mergedValue', $mergedvalue) and $mergedvalue = undef if $mergedvalue;
+			if($mergedvalue eq $INVALID_EXPR) {
+				addElement($doc, $sentence, 'canevas', $data->{tabPhrasesText}->[$idx]->[1]);
+				addElement($doc, $sentence, 'answer', $data->{tabPhrasesText}->[$idx]->[2]);
+			}
+			addElement($doc, $sentence, 'mergedValue', $mergedvalue);
+		} else {
+			for my $value (@{$data->{tabPhrasesText}->[$idx]}) {
+				my $title = ($requestedTitles->[$type_nbr]) ? $requestedTitles->[$type_nbr] : 'type'.$type++;
+				addElement($doc, $sentence, $title, $value);
+				$type_nbr++;
+			}
 		}
 		
 		addElement($doc, $sentence, 'note', $data->{tabNotes}->[$idx]);
@@ -243,7 +251,7 @@ sub mergeCanevasWithAnswer {
 	
 	my $c = () = $canevas =~ /#%s/g;  # counting number of substitutions for debugging/control
 	
-	DEBUG sprintf($canevas.$endOfSentence, @answer) and <> and return sprintf($canevas.$endOfSentence, @answer) if ($c == scalar(@answer));
+	return sprintf($canevas.$endOfSentence, @answer) if ($c == scalar(@answer));
 	
 	return sprintf($canevas.$endOfSentence, @answer) if ($c + 1 == scalar(@answer) && scalar($canevas =~ s/$(\.){1,}/#%s/));
 	
